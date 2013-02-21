@@ -1,0 +1,7 @@
+version = 2.2.4
+git revision = 24dc0e1c81c8377046075017fab3abcf1ad2b2f3
+git branch = rel_2.2.4
+build date = 22-Jan-2013 10:38
+geotools version = 8.6
+geotools revision = d08fcaf271fa4e2da894285fe6ca73806724248f
+hudson build = -1

@@ -1,0 +1,59 @@
+15/01
+GPS cheapest - $60 -- nextar - Rs.3300
+Spice Mi310 -- Gps + android - Rs. 4000
+
+900M mobile users in India.. Press Information Bureau, GOI, 2nd Aug, 2012
+http://pib.nic.in/newsite/erelease.aspx?relid=85669
+
+10% have smartphones - http://www.asiamediajournal.com/pressrelease.php?id=3756
+about 50% of which are Symbian
+Smartphones are growing at double rate. 11M sold this year.
+
+800M+ vanilla mobiles
+Feature phones market is almost constant but huge. 170M sold in each of the last two years
+
+
+1:3 - rural to urban distribution
+
+
+87M mobile internet users
+http://www.thehindu.com/sci-tech/internet/internet-mobile-users-set-to-double-to-165-m-by-2015/article4265560.ece
+09:47pm,14th jan
+
+3M rural india mobile internet users - 7.2x in the past 2yrs
+http://articles.timesofindia.indiatimes.com/2012-09-10/mumbai/33736420_1_mobile-association-internet-users
+
+
+Pros:
+No or nominal cost of service
+Accessible for even basic feature phones
+Doesnt require GPRS/GPS
+A natural navigation guide for humans
+
+Cons:
+User experience inferior to smartphones apps
+Requires setting up of finely detailed maps so as to cover every address in the city and map it to landmarks
+
+
+Past Work
+AT&T Navigator for featurephones: Internet+ GPS
+ebookbrowse.com/att-navigator-users-guide-featurephones-pdf-d197921413
+
+Clarifications:
+1] GPS guides often turn out to be inaccurate and misleading. Esp in the 3rd world context where the streets are narrow and
+the buildings are tall making it even more difficult to track.
+2] Google Maps not labelled accurately.
+3] Apps require GPS/GPRS. Some people who cant read maps and directions well but can understand well in terms of landmarks and natural conversation.
+4] Those that dont require GPS/GPRS are high on storage.
+
+Open source GIS systems -- one with APIs
+Quantum GIS - Desktop GIS
+:Direct viewing of data and rastering in different formats including shapefile format of ArcGIS
+:Create, edit and export spatial data
+:Spatial analysis - Map algebra, network analysis
+
+Java library - GeoTools
+Python library - GDAl??
+
+
+Routing Engine - pgrouting.. Quantum gis can integrate it
