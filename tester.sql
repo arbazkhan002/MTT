@@ -76,6 +76,7 @@ BEGIN
 	--~  So we manually split the line
 	
 	ELSE
+		RAISE NOTICE '%',st_astext(xs[num]);
 		temp := st_line_locate_point(line, xs[num]);
 		num := num+1;
 		rowg := st_line_substring(line,0,temp) ;

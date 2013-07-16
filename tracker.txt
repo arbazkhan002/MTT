@@ -131,7 +131,7 @@ create table dumped_roads as select gid,type_id,type_road,name,(st_dump(a.geom))
 create table noded_roads as select gid, type_id,type_road,name,(st_dump(st_node(geom))).geom as geom from dumped_roads;
 
 \\ Get intersection points
-create table split_points as select DISTINCT a.gid, (st_dump(
+create table split_points as select DISTINCT a.gid,b.gid, (st_dump(
 st_intersection(a.geom,b.geom)
 ) 
 ).geom as geom 
@@ -139,6 +139,7 @@ from noded_roads as a, noded_roads as b where st_intersects(a.geom,b.geom)=TRUE 
 
 \\ Split each line on the above intersection points
 run select splitter();
+
 
 create table split_roads as select row_number() over (order by geom) as split_id,* from dummy;
 
