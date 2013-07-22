@@ -108,7 +108,7 @@ BEGIN
 	
 	FOR row in EXECUTE 'select distinct * from dumped_roads' LOOP
 	--~ FOR row in EXECUTE 'select st_geomfromtext(''LINESTRING(0 0,10 10)'') as geom' LOOP
-		RAISE NOTICE ' LINE geom :  %', st_astext(row.geom);
+		--RAISE NOTICE ' LINE geom :  %', st_astext(row.geom);
 		res := splitN(row.geom, init);
 		--~ RAISE NOTICE ' RES %', array_upper(res,1);		
 		IF array_upper(res,1) is NULL THEN

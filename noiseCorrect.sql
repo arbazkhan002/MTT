@@ -16,26 +16,44 @@ DECLARE
     
 BEGIN
 	FOR row in EXECUTE 'select a.geom as geom1,a.gid as g1,b.geom as geom2,b.gid as g2 from noded_roads as a, noded_roads as b' LOOP
-		--RAISE NOTICE '%',st_distance(row.geom1,row.geom2);
+		--RAISE NOTICE 'DISTANCE ---- gid1:%, gid2:% %',row.g1,row.g2,st_distance(row.geom1,row.geom2);
 		IF st_distance(row.geom1,row.geom2) > 0  AND st_distance(row.geom1,row.geom2) < 1 THEN
+			
+			IF st_collect(row.geom1,row.geom2) = ANY(geoms) THEN
+				RAISE NOTICE 'gid1:%, gid2:% ',row.g1,row.g2;
+				CONTINUE;
+			ELSE	
 				dist := 1;
-				FOR point in EXECUTE 'select st_dumppoints($1) as dp' USING row.geom1 LOOP
-					--RAISE NOTICE 'H';
+				
+				--PERFORM 'SELECT st_astext((st_dumppoints(row.geom1)).geom)';
+				FOR point in EXECUTE 'select st_dumppoints($1) as dp' USING row.geom1 LOOP			
+					--RAISE NOTICE 'H %',st_distance((point.dp).geom,row.geom2); 
 					temp := st_distance((point.dp).geom,row.geom2);
-					IF temp <= dist THEN
+					IF temp < dist THEN
 						dist := temp;
 						num := (point.dp).path[1];
+						RAISE NOTICE 'dist %, num %',dist,num;
 					END IF;
 				END LOOP;
+	
+				IF dist=1 THEN
+					CONTINUE;
+				END IF;		
+
+				--RAISE NOTICE 'dist %, num %',dist,num;
+
 				newpoint := st_line_interpolate_point(row.geom2,st_line_locate_point(row.geom2,st_pointN(row.geom1,num)));
 				EXECUTE 'SELECT st_numpoints(geom) from noded_roads where geom=$1' USING row.geom1 INTO str;
 				RAISE NOTICE '% %',str,st_numpoints(st_astext(st_addpoint(row.geom1,newpoint,num-1)));
-				EXECUTE 'UPDATE noded_roads SET geom = st_addpoint($1,$2,$3-1), type_road=$4 where geom =$1' USING row.geom1,newpoint,num,'METS' ;
-				GET DIAGNOSTICS i=ROW_COUNT;
-				--PERFORM 'SELECT st_astext(geom) from noded_roads where geom=st_addpoint(row.geom1,newpoint,num-1)';
-				RAISE NOTICE 'gid1:%, gid2:% , intersects:%, num:%,i:%',row.g1,row.g2,st_intersects(st_addpoint(row.geom1,newpoint,num-1),row.geom2), num, i;	
-				--EXIT;
-	
+				IF newpoint is NOT NULL THEN	
+					EXECUTE 'UPDATE noded_roads SET geom = st_addpoint($1,$2,$3-1) where geom =$1' USING row.geom1,newpoint,num;
+					geoms := array_prepend(st_collect(row.geom2,row.geom1),geoms);
+					GET DIAGNOSTICS i=ROW_COUNT;
+					--PERFORM 'SELECT st_astext(geom) from noded_roads where geom=st_addpoint(row.geom1,newpoint,num-1)';
+					RAISE NOTICE 'gid1:%, gid2:% , intersects:%, num:%,i:%',row.g1,row.g2,st_intersects(st_addpoint(row.geom1,newpoint,num-1),row.geom2), num, i;	
+					--EXIT;
+				END IF;	
+			END IF;
 		--ELSE 						
 		--	--
 		END IF;	

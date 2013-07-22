@@ -38,7 +38,7 @@ BEGIN
 	END LOOP;
 	--~ RAISE NOTICE ' EXIT';
 	--~ If line intersects none of the points, then return it as it is
-	IF array_upper(xs,1)<num then	
+	IF num>array_upper(xs,1) then	
 		--~ RAISE NOTICE ' EXIT';
 		geom := array_prepend(line,geom);
 
@@ -76,7 +76,7 @@ BEGIN
 	--~  So we manually split the line
 	
 	ELSE
-		RAISE NOTICE '%',st_astext(xs[num]);
+		-- RAISE NOTICE '%',st_astext(xs[num]);
 		temp := st_line_locate_point(line, xs[num]);
 		num := num+1;
 		rowg := st_line_substring(line,0,temp) ;
@@ -152,7 +152,7 @@ BEGIN
 		init := array_append(init,row2.geom);
 		--~ RAISE NOTICE ' POINTS geom :  %', st_astext(row2.geom);				
 	END LOOP;
-	RAISE NOTICE ' POINTS %', array_upper(init,1);		
+	--RAISE NOTICE ' POINTS %', array_upper(init,1);		
 
 --~ 
 	--~ FOR row2 in EXECUTE 'select st_geomfromtext(''POINT(5 5)'') as geom' LOOP
