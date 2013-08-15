@@ -1,0 +1,280 @@
+Username : postgres 
+Password : indian 
+Database : demo
+
+
+1. This makes qgis recognise demo database
+psql -U postgres -h localhost demo -c 'CREATE EXTENSION postgis;'
+
+2. Command : psql -U postgres -h localhost demo;
+
+Output : 
+Password for user postgres: 
+psql (9.1.5)
+SSL connection (cipher: DHE-RSA-AES256-SHA, bits: 256)
+Type "help" for help.
+demo=#
+
+Further commands 
+demo=# \dt
+              List of relations
+ Schema |      Name       | Type  |  Owner   
+--------+-----------------+-------+----------
+ public | Academic_area   | table | postgres
+ public | spatial_ref_sys | table | postgres
+(2 rows)
+
+
+3.  select ST_AsText(the_geom) from "Academic_area"
+limit 1;
+
+TO GET THE TEXT REPRESENTATION OF A GEOMETRY
+
+4. Select a layer and click on Layer > Save As . In OGR Creation Options > Layer pit "GEOMETRY=AS_WKT" without quotes.
+
+
+PGROUTING
+tut:http://planet.qgis.org/planet/tag/routing/
+installed directory : /usr/share/postlbs/matching.sql
+
+Setting Up:
+psql -U postgres -h localhost GIStest -c 'CREATE EXTENSION postgis;'
+psql -U postgres -d "GIStest" -h localhost < /usr/share/postlbs/routing_topology.sql
+psql -U postgres -d "GIStest" -h localhost < /usr/share/postlbs/routing_core.sql
+psql -U postgres -d "GIStest" -h localhost < /usr/share/postlbs/routing_core_wrappers.sql
+
+
+Installing a plugin:
+Just copy paste the downloaded plugin to usr/share/qgis/python/plugins/
+
+psql -U postgres -d "demo" -h localhost < /usr/share/postlbs/routing_topology.sql
+psql -U postgres -d "demo" -h localhost < /usr/share/postlbs/routing_core.sql
+psql -U postgres -d "demo" -h localhost < /usr/share/postlbs/routing_core_wrappers.sql
+
+CREATE OR REPLACE VIEW road_ext AS
+   SELECT *, St_StartPoint(geom), St_EndPoint(geom)
+   FROM roads;
+
+CREATE TABLE node AS
+   SELECT row_number() OVER (ORDER BY foo.p)::integer AS id,
+          foo.p AS the_geom
+   FROM (
+      SELECT DISTINCT road_ext1.st_startpoint AS p FROM road_ext1
+      UNION
+      SELECT DISTINCT road_ext1.st_endpoint AS p FROM road_ext1
+   ) foo
+   GROUP BY foo.p;
+
+CREATE TABLE network AS
+   SELECT a.*, b.id as start_id, c.id as end_id
+   FROM road_ext1 AS a
+      JOIN node1 AS b ON a.st_startpoint = b.the_geom
+      JOIN node1 AS c ON a.st_endpoint = c.the_geom;
+
+SELECT *
+   FROM network1
+   JOIN
+   (SELECT * FROM shortest_path('
+      SELECT gid AS id,
+          start_id::int4 AS source,
+          end_id::int4 AS target,
+          length::float8 AS cost
+      FROM network1',
+      1,
+      4,
+      false,
+      false)) AS route
+   ON
+   network1.gid = route.edge_id
+   
+Useful command to split multilines : select st_asewkt(q.p) from (select (st_dump(geom)).geom as p from road_ext where shape_leng>1000) as q ;   
+   2. select gid, type_id,type_road,st_length((st_dump(geom)).geom),name, (st_dump(geom)).geom as geom from roads where st_numgeometries(geom)>4; -- *****used*****
+
+================================================================================================================================================
+
+RESTART :
+
+-----------------------------------------------------------------
+1 . break each multiline into a set of linestrings
+-----------------------------------------------------------------
+CREATE OR REPLACE VIEW road_ext AS
+   SELECT *, St_StartPoint(foo.geom), St_EndPoint(foo.geom)
+   FROM ( SELECT gid, type_id, type_road,
+st_length((st_dump(geom)).geom) as length,
+name,
+ (st_dump(geom)).geom as geom 
+from roads ) foo ;
+
+--------------------------------------------------------------
+
+TO make it work, Break each linestring into small linesegments. 
+See how network1 works with shortest path query of 1 to 4.
+
+
+-----------------------------------------------------------
+2. To get intersections -  
+-----------------------------------------------------------
+select st_astext((st_dump(st_split(st_collect(a.the_geom,b.the_geom),ST_Intersection(a.the_geom,b.the_geom)))).geom) from (select * from network1 where gid=1) as a, (select * from network1 where gid=2) as b;
+                 st_astext                 
+----------------- output --------------------------
+ LINESTRING(424127 2931999,423797 2931999)
+ LINESTRING(424127 2932108,424127 2931999)
+
+-----------------------------------------------------------
+
+\\\\\\\\\\\\\\ BETTER WAY http://gis.stackexchange.com/questions/34687/how-to-split-osm-roads-into-individual-segments-at-intersections
+
+\\ Since all lines are multistrings, get linestrings from them
+create table dumped_roads as select gid,type_id,type_road,name,(st_dump(a.geom)).geom from roads as a;
+
+\\ Cut the self intersecting lines
+create table noded_roads as select gid, type_id,type_road,name,(st_dump(st_node(geom))).geom as geom from dumped_roads;
+
+\\ Get intersection points
+create table split_points as select DISTINCT a.gid as g1,b.gid as g2, (st_dump(
+st_intersection(a.geom,b.geom)
+) 
+).geom as geom 
+from noded_roads as a, noded_roads as b where st_intersects(a.geom,b.geom)=TRUE and a.gid!=b.gid;
+
+\\ Split each line on the above intersection points
+run select splitter();
+
+
+create table split_roads as select row_number() over (order by geom) as split_id,* from dummy;
+
+\\ Get start and end points
+CREATE OR REPLACE VIEW road_ext AS
+   SELECT *, St_StartPoint(geom), St_EndPoint(geom)
+   FROM split_roads;
+
+
+\\ Assign ids to the nodes
+CREATE TABLE node AS
+   SELECT row_number() OVER (ORDER BY foo.p)::integer AS id,
+          foo.p AS the_geom
+   FROM (
+      SELECT DISTINCT road_ext.st_startpoint AS p FROM road_ext
+      UNION
+      SELECT DISTINCT road_ext.st_endpoint AS p FROM road_ext
+   ) foo
+   GROUP BY foo.p;
+
+\\ Create a routable network
+CREATE TABLE network AS
+   SELECT st_length(a.geom) as length, a.*, b.id as start_id, c.id as end_id
+   FROM road_ext AS a
+      JOIN node AS b ON a.st_startpoint = b.the_geom
+      JOIN node AS c ON a.st_endpoint = c.the_geom;
+
+\\ Get the shortest path (See properties for layer 260-->261 in qgis)
+SELECT *
+   FROM network
+   JOIN
+   (SELECT * FROM shortest_path('
+      SELECT split_id AS id,
+          start_id::int4 AS source,
+          end_id::int4 AS target,
+          length::float8 AS cost
+      FROM network',
+      261,
+      260,
+      false,
+      false)) AS route
+   ON
+   network.split_id = route.edge_id
+   
+Exact layer 260-->261: SELECT * FROM network JOIN (SELECT * FROM shortest_path(' SELECT split_id AS id, start_id::int4 AS source, end_id::int4 AS target, length::float8 AS cost FROM network', 260, 261, false, false)) AS route ON network.split_id = route.edge_id 
+
+
+
+SELECT     
+    g.gid, g.type_id, g.type_road, ST_GeomFromEWKB((ST_Dump(ST_Split(g.geom, blade.geom))).geom) As geom,
+    generate_series(1,ST_NumGeometries((ST_Split(g.geom, blade.geom)))) as id
+FROM    
+    split_points2 as blade,
+    dumped_roads as g
+WHERE
+    ST_Intersects(g.geom, blade.geom)
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+1. To directly get the collection of points from intersections of all the multilinestrings:
+----------------------------------------------------------------------------------------------------------------------
+
+select a.gid, st_astext(
+	st_intersection(a.geom,b.geom)
+					) 
+	from roads as a, roads as b where st_intersects(a.geom,b.geom)=TRUE and a.gid!=b.gid;
+
+	==================================================
+	Some points above are multipoints, so break them :
+	==================================================	
+		select a.gid,
+		DISTINCT (st_dump(
+			st_intersection(a.geom,b.geom)
+				) 
+		) as geom
+							) 
+		from roads as a, roads as b where st_intersects(a.geom,b.geom)=TRUE and a.gid!=b.gid;
+
+----------------------------------------------------------------------------------------------------------------------
+select st_astext(pointsn((st_dump(geom)).geom, generate_series(1, st_npoints((st_dump(geom)).geom))) from roads where gid=1;
+
+
+
+MY FUNCTION FINALLY!!!
+run select splitter();
+CREATE TABLE dumped_roads_renderer as select row_number() OVER (order by foo.p) as id, foo.gid, foo.type_road, foo.p as geom from
+(select distinct gid,type_id,type_road,name,geom as p from dummy) foo;
+
+
+Currently it intersect recognise some of the split points.(Check that whether split points on a line are recognised)
+ 
+ We need to line_locate_point which are under certain tolerance so that a point on the line near to the intersection point
+can be located and line can be split from there.
+
+
+
+NOISE CORRECTION
+create table noded_roads_updated as select * from noiseCorrect();
+drop table noded_roads;
+create table noded_roads as select * from noded_roads_updated;
+
+
+=======
+Why????
+========
+----------------------------------------------------------------------------------------------------------------------
+PROCEEDING THE SAME WAY AS MENTIONED IN STEPS ABOVE DOESNT GIVE PG ROUTING ENGINE RESULTS
+BUT NETWORK_BACKUP GIVES THE RESULTS
+----------------------------------------------------------------------------------------------------------------------S
+
+TOwards Discourse
+1. Store angle information for starting line segment and ending line segment for all linestrings
+create table network_extended as select degrees(st_azimuth(st_startpoint(geom),st_pointN(geom,2))) as start_angle, degrees(st_azimuth(st_pointN(geom,st_Npoints(geom)-1),st_endpoint(geom))) as end_angle,  * from network;
+
+2. Add columns for connection information
+alter table network_extended add column start_connections bool;
+alter table network_extended add column end_connections bool;
+
+3. Set default values
+update network_extended set  start_connections=false;
+update network_extended set  end_connections=false;
+
+4.. Store connections information whether there exists more than one connection at any start_id or end_id
+update network_extended set end_connections=true where end_id = ANY (
+	select records.id from (
+		select y.id as id,(select count(*) from network where start_id=y.id or end_id=y.id) as connections from -- count the number of connections with any id
+			(
+				select generate_series(1,z.count) as id from (select count(*) as count from node) as z		-- Create a series of all node ids
+			) 
+		as y
+	) as records where records.connections>2		-- 2 connections can occur for any node (one as start_id, second as end_id)
+);
+
+ORIGINAL:update network_extended set end_connections=true where end_id = ANY (select records.id from (select y.id as id,(select count(*) from network where start_id=y.id or end_id=y.id) as connections from (select generate_series(1,z.count) as id from (select count(*) as count from node) as z) as y) as records where records.connections>1);
