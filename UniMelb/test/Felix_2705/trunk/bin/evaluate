@@ -1,0 +1,31 @@
+#!/bin/bash
+
+COUNTER=0
+rm -rf result
+rm -rf result.txt
+
+python ler.py
+
+crf_learn template train model
+crf_test -m model test > result0
+perl -pne "s/\t/ /g" result0 > result0.txt
+rm -rf result0
+
+touch result
+for F in $(ls train?)
+do
+    crf_learn template $F model$COUNTER
+    crf_test -m model$COUNTER test$COUNTER >> result
+    rm -rf model$COUNTER
+    COUNTER=$((COUNTER + 1))
+done
+
+perl -pne "s/\t/ /g" result > result.txt
+
+rm -rf result
+
+chmod a+x conlleval
+./conlleval < result0.txt
+./conlleval < result.txt
+
+exit 0

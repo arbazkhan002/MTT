@@ -1,0 +1,87 @@
+T1	NP_NP 1 23	[NP The_DT campus_NN ]
+A1	identifiability T1 no
+A2	gran_level T1 4
+T2	NP_NP 92 114	[NP the_DT center_NN ]
+A3	identifiability T2 no
+A4	gran_level T2 4
+T3	NP_NP 129 180	[NP the_DT original_JJ “old_NN ”_NN buildings_NNS ]
+A5	identifiability T3 no
+A6	gran_level T3 4
+T4	NP_NP 358 371	buildings_NNS
+A7	identifiability T4 no
+A8	gran_level T4 4
+T5	NE_NP 781 821	[NP the_DT iconic_JJ clock_NN tower_NN ]
+A9	identifiability T5 yes_amb
+A10	gran_level T5 3
+T6	NP_NP 692 729	[NP the_DT concrete_NN archways_NNS ]
+A11	identifiability T6 no
+A12	gran_level T6 2
+T7	NP_NP 756 767	corridor_NN
+A13	identifiability T7 no
+A14	gran_level T7 2
+T8	NP_NP 1013 1042	[NP an_DT open_JJ square_NN ]
+A15	identifiability T8 no
+A16	gran_level T8 4
+T9	NP_NP 1214 1240	[NP the_DT university_NN ]
+A17	identifiability T9 no
+A18	gran_level T9 4
+T10	NP_NP 1365 1387	[NP the_DT square_NN ]
+A19	identifiability T10 no
+A20	gran_level T10 4
+T11	NP_NP 1308 1329	[NP a_DT carpark_NN ]
+A21	identifiability T11 no
+A22	gran_level T11 3
+T12	NE_NP 1440 1477	[NP the_DT Baillieu_NNP Library_NNP ]
+A23	identifiability T12 yes_unamb
+A24	gran_level T12 3
+T13	NP_NP 1529 1560	[NP the_DT general_JJ hall_NN ]
+A25	identifiability T13 no
+A26	gran_level T13 3
+T14	NE_NP 1770 1802	[NP The_DT Union_NNP House_NNP ]
+A27	identifiability T14 yes_unamb
+A28	gran_level T14 3
+T15	NP_NP 1875 1908	[NP the_DT old_JJ buildings_NNS ]
+A29	identifiability T15 no
+A30	gran_level T15 4
+T16	NP_NP 1914 1946	[NP The_DT Union_NNP House_NNP ]
+A31	identifiability T16 yes_unamb
+A32	gran_level T16 4
+T17	NP_NP 1970 1982	cafeteria_NN
+A33	identifiability T17 no
+A34	gran_level T17 3
+T18	NP_NP 2054 2109	[NP most_JJS student_NN association_NN activities_NNS ]
+A35	identifiability T18 no
+A36	gran_level T18 2
+T19	NP_NP 2115 2159	[NP The_DT Engineering_NNP departments_NNS ]
+A37	identifiability T19 no
+A38	gran_level T19 4
+T20	NP_NP 2252 2274	[NP the_DT campus_NN ]
+A39	identifiability T20 no
+A40	gran_level T20 4
+T21	NP_NP 2371 2412	[NP the_DT engineering_NN department_NN ]
+A41	identifiability T21 no
+A42	gran_level T21 4
+T22	NE_NP 2454 2482	[NP Grattan_NNP Street_NNP ]
+A43	identifiability T22 yes_amb
+A44	gran_level T22 4
+T23	NP_NP 2671 2702	[NP the_DT Law_NNP faculty_NN ]
+A45	identifiability T23 no
+A46	gran_level T23 3
+T24	NP_NP 2596 2626	[NP the_DT public_JJ park_NN ]
+A47	identifiability T24 no
+A48	gran_level T24 4
+T25	NP_NP 2503 2525	[NP the_DT street_NN ]
+A49	identifiability T25 no
+A50	gran_level T25 4
+T26	NP_NP 2791 2817	[NP tennis_NN courts_NNS ]
+A51	identifiability T26 no
+A52	gran_level T26 4
+T27	NP_NP 2841 2854	[NP pools_NNS
+A53	identifiability T27 no
+A54	gran_level T27 4
+T28	NE_NP 2862 2876	racetracks_NNS
+A55	identifiability T28 no
+A56	gran_level T28 4
+T29	NE_NP 3039 3061	[NP the_DT campus_NN ]
+A57	identifiability T29 no
+A58	gran_level T29 4

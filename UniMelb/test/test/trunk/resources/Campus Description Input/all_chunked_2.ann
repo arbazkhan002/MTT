@@ -1,0 +1,141 @@
+T2	NE_NP 135 152	[NP Carlton_NNP ]
+A4	identifiability T2 yes_unamb
+A5	gran_level T2 5
+T4	NE_NP 394 422	[NP Grattan_NNP Street_NNP ]
+A8	identifiability T4 yes_unamb
+A9	gran_level T4 4
+T5	NE_NP 472 501	[NP Swanston_NNP Street_NNP ]
+A10	identifiability T5 yes_amb
+A11	gran_level T5 4
+T6	NP_NP 586 608	[NP the_DT campus_NN ]
+A12	identifiability T6 no
+A13	gran_level T6 4
+T7	NP_NP 340 381	[NP the_DT main_JJ south_NN entrance_NN ]
+A14	identifiability T7 no
+A15	gran_level T7 3
+T3	NP_NP 622 663	[NP the_DT main_JJ south_NN entrance_NN ]
+A6	identifiability T3 no
+A7	gran_level T3 3
+T8	NP_NP 731 740	paths_NNS
+A16	identifiability T8 no
+A17	gran_level T8 4
+T9	NP_NP 887 911	[NP some_DT stairs_NNS ]
+A18	identifiability T9 no
+A19	gran_level T9 2
+T10	NP_NP 997 1004	lawn_NN
+A20	identifiability T10 no
+A21	gran_level T10 4
+T11	NP_NP 1350 1370	[NP a_DT chapel_NN ]
+A22	identifiability T11 no
+A23	gran_level T11 3
+T12	NP_NP 1387 1414	historical_JJ buildings_NNS
+A24	identifiability T12 no
+A25	gran_level T12 4
+T13	NE_NP 1482 1514	[NP the_DT Union_NNP House_NNP ]
+A26	identifiability T13 yes_unamb
+A27	gran_level T13 3
+T14	NP_NP 227 249	[NP the_DT campus_NN ]
+A28	identifiability T14 no
+A29	gran_level T14 4
+T15	NP_NP 1680 1703	electronics_NN store_NN
+A30	identifiability T15 no
+A31	gran_level T15 3
+T16	NE_NP 1520 1552	[NP The_DT Union_NNP House_NNP ]
+A32	identifiability T16 yes_unamb
+A33	gran_level T16 3
+T17	NP_NP 1631 1640	cafes_NNS
+A34	identifiability T17 no
+A35	gran_level T17 3
+T18	NP_NP 1648 1663	restaurants_NNS
+A36	identifiability T18 no
+A37	gran_level T18 3
+T19	NE_NP 1794 1826	[NP the_DT Union_NNP House_NNP ]
+A38	identifiability T19 yes_unamb
+A39	gran_level T19 3
+T20	NP_NP 1888 1894	gym_NN
+A40	identifiability T20 no
+A41	gran_level T20 3
+T21	NE_NP 2007 2014	NAB_NNP
+A42	identifiability T21 yes_amb
+A43	gran_level T21 3
+A44	normalized T21
+#2	AnnotatorNotes T21	National Australia Bank
+T22	NE_NP 2022 2046	Commonwealth_NNP bank_NN
+A45	identifiability T22 yes_amb
+A46	gran_level T22 3
+T23	NE_NP 2076 2108	[NP the_DT Union_NNP House_NNP ]
+A47	identifiability T23 yes_unamb
+A48	gran_level T23 3
+T24	NP_NP 2213 2246	[NP the_DT south_NN entrance_NN ]
+A49	identifiability T24 no
+A50	gran_level T24 3
+#3	AnnotatorNotes T24	the main south entrance
+T25	NP_NP 2462 2469	path_NN
+A51	identifiability T25 no
+A52	gran_level T25 3
+T26	NP_NP 2168 2175	path_NN
+A53	identifiability T26 yes_amb
+A54	gran_level T26 3
+T27	NP_NP 2587 2606	crepes_NNS stand_NN
+A55	identifiability T27 no
+A56	gran_level T27 2
+T28	NE_NP 2640 2647	path_NN
+A57	identifiability T28 no
+A58	gran_level T28 4
+T29	NP_NP 2700 2723	campus_NN buildings_NNS
+A59	identifiability T29 no
+A60	gran_level T29 3
+T30	NP_NP 2755 2764	campus_NN
+A61	identifiability T30 no
+A62	gran_level T30 4
+T31	NP_NP 2781 2824	[NP the_DT western_JJ entrances/exits_NNS ]
+A63	identifiability T31 no
+A64	gran_level T31 3
+A65	normalized T31
+#4	AnnotatorNotes T31	western entrances
+T32	NE_NP 2847 2884	[NP the_DT University_NNP House_NNP ]
+A66	identifiability T32 yes_unamb
+A67	gran_level T32 3
+T33	NP_NP 2952 2959	path_NN
+A68	identifiability T33 no
+A69	gran_level T33 4
+T34	NP_NP 3043 3083	[NP the_DT Engineering_NNP building_NN ]
+A70	identifiability T34 no
+A71	gran_level T34 3
+T35	NP_NP 3188 3236	[NP the_DT Old_NNP Engineering_NNP building_NN ]
+A72	identifiability T35 no
+A73	gran_level T35 3
+T36	NP_NP 3339 3361	the_DT main_JJ path_NN
+A74	identifiability T36 no
+A75	gran_level T36 4
+T37	NP_NP 3436 3465	[NP the_DT first_JJ path_NN ]
+A76	identifiability T37 no
+A77	gran_level T37 4
+T38	NP_NP 3581 3595	the_DT Eng_NNP
+A78	identifiability T38 no
+A79	gran_level T38 3
+A80	normalized T38
+#5	AnnotatorNotes T38	the Engineering Building
+T39	NE_NP 3643 3682	[NP the_DT University_NNP Library_NNP ]
+A81	identifiability T39 yes_unamb
+A82	gran_level T39 3
+T40	NE_NP 3694 3716	Swanson_NNP Street_NNP
+A83	identifiability T40 no
+A84	gran_level T40 4
+T41	NP_NP 3935 3972	[NP the_DT main_JJ third_JJ path_NN ]
+A85	identifiability T41 no
+A86	gran_level T41 4
+T42	NE_NP 4027 4058	[NP the_DT Wilson_NNP hall_NN ]
+A87	identifiability T42 yes_unamb
+A88	gran_level T42 3
+T43	NE_NP 4132 4164	[NP the_DT Union_NNP House_NNP ]
+A89	identifiability T43 yes_unamb
+A90	gran_level T43 3
+T44	NE_NP 4213 4245	[NP the_DT campus_NN center_NN ]
+A91	identifiability T44 yes_amb
+A92	gran_level T44 3
+T45	NE_NP 12 29	UoM_NNP campus_NN
+A93	identifiability T45 yes_unamb
+A94	gran_level T45 4
+A95	normalized T45
+#6	AnnotatorNotes T45	University Of Melbourne

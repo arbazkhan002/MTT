@@ -1,0 +1,3279 @@
+[NP my_PRP$ desk_NN]
+[PP On_IN ] [NP the_DT moon_NN]
+[NP Melbourne_NNP ]
+[NP Melbourne_NNP University_NNP ]
+[NP Medical_NNP Building_NNP]
+[NP a_DT mates_NNS house_NN]
+4_CD
+derwent_NN close_JJ
+croydon_NN hills_NNS
+[NP flagstaff_NN gardens_NNS]
+[NP fitzroy_NN gardens_NNS]
+[NP university_NN ] [PP of_IN ] [NP melbourne_NN]
+[NP The_DT University_NNP ] [PP of_IN ] [NP Melbourne_NNP]
+16_CD
+Oliver_NNP Road_NNP
+Templestowe_NNP
+16_CD
+Oliver_NNP Road_NNP
+Templestowe_NNP
+3106_CD
+[NP Flinders_NNS St_NNP Station_NNP]
+[NP North_NNP ] -_: [NP west_JJ corner_NN ]
+[NP Federation_NNP Square_NNP ]
+Flinders_NNS St_NNP Station_NNP
+[NP my_PRP$ bedroom_NN ]
+[NP home_NN ]
+[NP Rathmines_NNP Road_NNP ]
+[NP Hawthorn_NNP East_NNP ]
+a_DT 3_CD stories_NNS town_NN house_NN
+number_NN 7_CD
+Chetwynd_NNP Place_NNP ]
+[NP The_DT house_NN ]
+[NP a_DT small_JJ alley_NN ]
+[NP a_DT row_NN ] [PP of_IN ] [NP town_NN house_NN ]
+[NP Chetwynd_NNP Street_NNP ]
+[NP the_DT corner_NN ]
+[NP Chetwynd_NNP Street_NNP ]
+[NP Queensberry_NNP Street_NNP ]
+[NP a_DT construction_NN site_NN ]
+[NP the_DT alley_NN ]
+[NP the_DT 3_CD rd_JJ house_NN ]
+[NP the_DT head_NN ]
+[NP the_DT alley_NN ]
+[NP tokyo_NN ]
+[NP the_DT Royal_NNP Exhibition_NNP Building_NNP ]
+[NP the_DT Fountain_NNP ]
+[NP Corner_NNP ]
+[NP Moreland_NNP ]
+[NP citylink_NN]
+[NP the_DT corner_NN ]
+Collins_NNP
+Elizabeth_NNP street_NN]
+[NP Four_CD houses_NNS ]
+[NP Nhill_NNP Hospital_NNP ]
+[NP Adelaide_NNP ]
+[NP Western_NNP Highway_NNP ]
+[NP the_DT Theatre_NNP Royal_NNP ]
+[NP the_DT supermarket_NN ]
+[NP a_DT roundabout_NN ]
+[NP a_DT mining_NN statue_NN ]
+[NP fountain_NN ]
+[NP the_DT Theatre_NNP Royal_NNP ]
+[NP the_DT supermarket_NN ]
+[NP one_CD corner_NN ]
+[NP an_DT oval_NN ]
+NP the_DT Docklands_NNP esplanade_NN
+[NP the_DT multi_NNS ] [VP coloured_VBD ] [NP 6_CD story_NN building_NN ]
+[NP La_NNP Trobe_NNP Street_NNP
+[NP Etihad_NNP Stadium_NNP
+[NP the_DT Esplanade_NNP ]
+[NP the_DT second_JJ building_NN ]
+[NP Rathdowne_NNP St_NNP ]
+[NP the_DT Kent_NNP Hotel_NNP]
+[NP road_NN ]
+[NP primary_JJ school_NN]
+[NP my_PRP$ appartment_NN ]
+[NP the_DT sports_NNS oval_NN ]
+[NP liardet_NN street_NN ]
+[NP Alma_NNP road_NN ]
+[NP the_DT church_NN ]
+[NP the_DT hill_NN
+[NP St_NNP kilda_NN]
+[NP my_PRP$ appartment_NN ]
+[NP the_DT grassed_JJ sports_NNS oval_NN ]
+[NP liardet_NN street_NN]
+[NP Swan_NNP St_NNP Optometrist_NNP
+[NP Docker_NNP Street_NNP ]
+[NP the_DT North_NNP ] -_: [NP east_JJ corner_NN ]
+[NP Swan_NNP St_NNP ]
+[NP the_DT stone_NN ] -_: [NP coloured_JJ Beretta_NNP \_CC ] [NP '_POS s_PRP Hotel_NNP ]
+[NP the_DT public_JJ car_NN park_NN ]
+[NP the_DT court_NN ]
+[NP the_DT estate_NN ]
+[NP the_DT new_JJ primary_JJ school_NN ]
+[NP the_DT Pakenham_NNP ] bypass_
+[NP Morotai_NNP Parade_NNP ]
+[NP intersection_NN ]
+[NP Coomalie_NNP Crescent_NNP ]
+Tobruk_NNP Avenue_NNP
+end_NN
+Bell_NNP St_NNP
+Mall_NNP
+[NP West_NNP Heidelberg_NNP]
+[NP a_DT school_NN ]
+[NP trees_NNS ]
+[NP Diamond_NNP Valley_NNP Plaza_NNP ]
+Maris_NNP
+warragul_NN]
+15_CD
+Dendle_NNP St_NNP
+Grovedale_NNP
+Victoria_NNP
+[NP The_DT corner_NN ]
+tyabb_NN primary_JJ school_NN
+[NP the_DT bottom_NN ]
+[NP jones_NNS road_NN
+hill_NN
+NP Deakin_NNP University_NNP
+Waurn_NNP Ponds_NNP Campus_NNP
+[NP the_DT Big_NNP Siemens_NNP building_NN ]
+[NP Mountain_NNP Highway_NNP ]
+[NP Dorset_NNP ] Rd_
+15_CD
+dendle_NN st_NN
+grovdale_NN
+victoria_NN
+[NP old_JJ stone_NN flour_NN mill_NN ]
+[NP bridge_NN rd_NN ]
+[NP bridge_NN ]
+[NP the_DT back_NN entrance_NN ]
+[NP Briar_NNP Hill_NNP Primary_NNP]
+[NP my_PRP$ apartment_NN ]
+[NP the_DT big_JJ block_NN ] [PP of_IN ] [NP flats_NNS ]
+[NP the_DT corner_NN ]
+[NP Park_NNP Street_NNP ]
+[NP Kings_NNP Way_NNP ]
+[NP The_DT apartments_NNS ]
+[NP the_DT whole_JJ block_NN ]
+[NP Park_NNP Street_NNP ]
+[NP Eastern_NNP Road_NNP ]
+[NP Napier_NNP Street_NNP
+Kings_NNP Way_NN
+[NP my_PRP$ flat_JJ ]
+[NP Napier_NNP Street_NNP ]
+[NP old_JJ stone_NN flour_NN mill_NN ]
+[NP bridge_NN ]
+[NP bridge_NN road_NN]
+[NP the_DT restaurant_NN ]
+[NP warrigul_NN rd_NN ]
+[NP the_DT big_JJ fake_NN volcano_NN]
+[NP flemington_JJ primary_JJ school_NN ]
+[NP big_JJ tree_NN ] [VP lined_VBD ] [NP street_NN ]
+[NP dog_NN park_NN
+[NP the_DT restaurant_NN ]
+[NP the_DT big_JJ fake_NN volcano_NN]
+[NP the_DT park_NN ]
+NP the_DT eastern_JJ freeway_NN
+bike_NN path_NN
+[NP panasales_NNS ]
+[NP nepean_NN]
+[NP green_JJ bull_NN ] [VP nosed_VBD ] [NP veranda_NN ]
+[NP Marquis_NNP rd_NN]
+[NP Melbourne_NNP university_NN]
+Lara_NNP
+Little_NNP River_NNP
+[NP the_DT foot_NN ]
+[NP the_DT You_PRP Yangs_NNP ]
+[NP shot_NN tower_NN]
+[NP melbourne_JJ central_JJ]
+[NP Doctors_NNS surgery_NN ]
+[NP street_NN ]
+[NP shops_NNS ]
+[NP esplanade_NN ]
+[NP mt_NN ] ._. Martha_NNP
+childrens_NNS park_NN
+[NP princes_NNS hill_NN secondary_JJ college_NN ]
+[NP footy_JJ ground_NN ]
+[NP cemetary_NN ]
+[NP milk_NN bar_NN]
+9_CD
+Lee_NNP Street_NNP
+Flemington_NNP
+[NP my_PRP$ house_NN ]
+[NP the_DT city_NN ]
+[NP the_DT street_NN ]
+[NP an_DT arch_NN ] [PP with_IN ] [NP roses_NNS ]
+[NP the_DT house_NN ]
+[NP a_DT double_JJ ] -_: [NP fronted_JJ Victorian_JJ house_NN ]
+[NP Estou_PRP ] [VP perto_VBP do_VB ] [NP nada_NN ] ._.
+[INTJ No_UH ] ,_, [ADVP thanks_UH ] ._.
+1_CD
+Lewis_NNP St_NNP
+[NP Hastings_NNP ]
+[NP Victoria_NNP ]
+[NP Australia_NNP]
+[NP Castlemaine_NNP ]
+[NP Union_NNP House_NNP ]
+[NP the_DT University_NNP ] [PP of_IN ] [NP Melbourne_NNP ]
+[NP Parkville_NNP ]
+[NP Melbourne_NNP ]
+[NP Melbourne_NNP Museum_NNP]
+[NP Carlton_NNP Gardens_NNPS]
+NP Main_NNP St_NNP
+Mornington_NNP
+queen_NN street_NN
+junction_NN
+[NP the_DT corner_NN ]
+[NP Kings_NNP Way_NNP ]
+[NP Queens_NNP Road_NNP]
+[NP Melbourne_JJ central_JJ office_NN towers_NNS ]
+Melbourne_NNP Central_NNP
+shopping_VBG center_NN
+[NP Elizabeth_NNP st_NN ]
+[NP the_DT intersection_NN ]
+Elizabeth_NNP
+Latrobe_NNP
+[NP the_DT Harley_NNP shop_NN ]
+[NP Elizabeth_NNP st_NN ]
+[NP babel_NN building_NN ]
+[NP university_NN ] [PP of_IN ] [NP melbourne_NN]
+391_CD
+georges_NNS rd_JJ
+north_NN fitzroy_NN
+[NP Work_NN ]
+[NP Swan_NNP st_NN ]
+Rcihmond_CC
+[NP a_DT pond_NN ]
+the_DT botanical_JJ gardens_NNS
+[NP melbourne_NN ]
+[NP australia_NNS
+4_CD
+Tudor_NNP Road_NNP
+Doncaster_NNP
+[NP Newmarket_NNP Street_NNP]
+[NP apartment_NN
+22_CD
+[NP the_DT Byfass_NNP apartment_NN ]
+8_CD
+Trenerry_NNP Crescent_NNP
+Abbotsford_NNP
+Trennery_NNP Crescent_NNP
+[NP the_DT last_JJ street_NN ]
+NP the_DT north_JJ side_NN ]
+[NP Johnston_NNP St_NNP ]
+[NP the_DT Yarra_NNP river_NN ]
+[NP The_DT Byfass_NNP building_NN ]
+8_CD
+[NP a_DT three_CD storey_NN red_JJ brick_NN building_NN ]
+Trenerry_NNP crescent_JJ
+[NP Johnston_NNP St_NNP]
+[NP the_DT Murdoch_NNP Childrens_NNP Research_NNP Institute_NNP ]
+[NP office_NN ]
+[NP W_NNP 1043_CD ]
+[NP the_DT 10_CD ] [PP th_IN ] [NP Floor_NNP ]
+[NP the_DT Royal_NNP Children_NNP ] \_, '_'' [NP s_PRP ] [NP Hospital_NNP ]
+[NP Flemington_NNP Road_NNP ]
+[NP Parkville_NNP ]
+[NP Victoria_NNP ]
+3052_VBG
+[NP the_DT Baillieu_NNP library_NN ]
+[NP the_DT University_NNP ] [PP of_IN ] [NP Melbourne_NNP ]
+Carlton_NNP
+Parkville_NNP
+[NP the_DT city_NN ] [PP of_IN ] [NP Melbourne_NNP ]
+NP Royal_NNP Pde_NNP
+Swanston_NNP Street_NNP
+[NP Grattan_NNP St_NNP ]
+College_NNP Crescent_NNP
+[NP the_DT 1_CD st_JJ floor_NN ]
+[NP the_DT library_NN ]
+[NP the_DT Percy_NNP Baxter_NNP Collaborative_NNP Learning_NNP Centre_NNP
+[NP my_PRP$ chair_NN ]
+Computer_NNP
+[NP the_DT screen_NN ]
+[NP Readings_NNS ]
+[NP Carlton_NNP]
+[NP Shields_NNP Street_NNP ]
+High_NNP Street_NNP
+Mt_NNP ] ._. [NP alexander_NN Road_NN]
+[NP building_NN 7_CD ]
+[NP RMIT_NNP ]
+[NP media_NNS house_NN]
+[NP corner_NN ]
+spenser_NN street_NN
+collins_NNS st_NN
+[NP Southern_NNP Cross_NNP station_NN]
+[NP High_NNP street_NN road_NN]
+[NP Maling_NNP Rd_NNP ]
+[NP the_DT courtyard_NN]
+[NP Mitcham_NNP Road_NNP ]
+[NP the_DT pipeline_NN ]
+[NP the_DT station_NN ]
+[NP the_DT University_NNP ] [PP of_IN ] [NP Melbourne_NNP]
+[NP federation_NN square_NN]
+[NP home_NN ]
+[NP bed_NN]
+[NP McKean_NNP Street_NNP ]
+[NP Fitzroy_NNP North_NNP]
+[NP the_DT train_NN ]
+[NP bentleigh_NN]
+NP Royal_NNP Melbourne_NNP Hospital
+Private_NNP
+Geomatics_NNP Dpt_NNP
+Unimelb_NNP
+[NP unimelb_NN ]
+[NP home_NN ]
+[NP Kensington_NNP]
+[NP the_DT car_NN ]
+[NP the_DT corner_NN ]
+[NP Arden_NNP St_NNP ]
+[NP Dryburgh_NNP St_NNP]
+380_CD
+st_NN kilda_NN road_NN
+Melbourne_NNP
+3004_CD
+18_CD
+Golf_NNP Links_NNP Court_NNP
+Doncaster_NNP
+[NP high_JJ street_NN ]
+[NP beauty_NN park_NN ]
+[NP This_DT park_NN ]
+[NP a_DT lake_NN ]
+[NP the_DT beach_NN ]
+[NP no_DT idea_NN]
+[NP National_NNP Gallery_NNP]
+[NP florence_NN ] ,_, [NP Nj_NNP ] ,_, 08518_CD
+[NP Florence_NNP ] ,_, [NP NJ_NNP ] ,_, [NP USA_NNP ] ,_, 08518_CD
+[NP Boneo_NNP market_NN]
+[NP Boneo_NNP primary_JJ school_NN]
+[NP Limestone_NN road_NN ]
+Boneo_.
+[NP the_DT university_NN]
+[NP a_DT private_JJ residence_NN ]
+[NP Barrington_NNP Avenue_NNP ]
+[NP Kew_NNP
+[NP the_DT street_NN ]
+6592882940_CD
+[NP Beach_NNP motor_NN inn_NN ]
+Frankston_NNP
+kananook_VB ] [NP creek_NN ]
+[NP the_DT bp_JJ service_NN station_NN]
+[NP the_DT seminar_JJ rooms_NNS ]
+[NP the_DT graduate_NN house_NN ]
+[NP University_NNP Square_NNP]
+116_CD
+murray_NN street_NN
+[VP Caulfield_VB ] [ADVP south_RB ]
+3162_CD
+VIC_NN
+116_CD
+Murray_NNP street_NN
+[VP Caulfield_VB ] [NP south_RB
+3162_CD
+VIC_NN
+[NP uni_JJ house_NN]
+Uni_NNP house_NN
+parkville_NN
+[NP the_DT lounge_NN ]
+[NP University_NNP House_NNP ]
+[NP Air_NNP port_NN]
+[NP Airport_NNP ]
+723_CD
+swanston_NN street_NN
+[NP Tootgarook_NN ]
+Rathdowne_NNP st_NN
+shops_NNS
+[NP Mornington_NNP peninsula_NN]
+[NP My_PRP$ office_NN ]
+[NP the_DT Civil_NNP Engineering_NNP Block_NNP ]
+bakery_NN
+scotchmer_NN st_NN
+nth_NN Fitzroy_NNP
+[NP the_DT living_NN room_NN ]
+[NP University_NNP House_NNP ]
+crcsi_NN
+[NP kfc_NN ]
+[NP swanston_NN st_NN]
+723_CD
+swanston_NN st_NN
+CRCSI_
+[NP Melboure_NNP University_NNP]
+[NP Department_NNP ] [PP of_IN ] [NP Geomatics_NNP ]
+[NP University_NNP ] [PP of_IN ] [NP Melbourne_NNP ]
+[NP the_DT university_NN ]
+[NP the_DT geomatics_NNS ] [LST building_VBG]
+Nicholson_NNP st_NN
+shops_NNS
+Old_NNP Engineering_NNP Building_NNP
+University_NNP ] [PP of_IN ] [NP Melbourne_NNP]
+[NP building_NN 174_CD ]
+[NP Grattan_NNP St_NNP ]
+[NP Melbourne_NNP ]
+[NP Victoria_NNP ]
+[NP Australia_NNP]
+28_CD
+207_CD
+Queens_NNP Ave_NNP
+hawthorn_NN
+3122_CD
+Melbourne_NNP
+VIC_NNP
+[NP Australia_NNP]
+28_CD
+207_CD
+Queens_NNP Ave_NNP
+Hawthorne_NNP
+3122_CD
+[NP VIC_NNP ]
+[NP Melbourne_NNP ]
+[NP Australia_NNP]
+[NP Grattan_NNP ST_NNP ]
+[NP Melbourne_NNP ]
+VIC_NNP
+3000_CD
+[NP a_DT very_RB beautifull_JJ street_NN ]
+[NP Melbourne_NNP ]
+[NP Grattan_NNP street_NN]
+[NP Royal_NNP melb_NN hospital_NN]
+[NP Eco_NNP and_CC Comm_NNP ]
+[NP Melbourne_NNP Uni_NNP]
+483_CD
+swanston_NN st_NN
+[NP public_JJ city_NN bath_NN]
+339_CD
+FLEMINGTON_NNP RD_NNP
+[NP the_DT lobby_NN ]
+[NP the_DT University_NNP House_NNP ]
+[NP the_DT room_NN ]
+[NP west_NN melbourne_NN]
+1_CD
+bouverie_NN st_NN
+carlton_NN
+3051_CD
+vic_NN
+[NP Flemington_NNP bridge_NN station_NN]
+[NP Brownless_NNP Library_NNP ]
+[NP University_NNP ] [LST of_IN ] [NP Melbourne_NNP]
+[NP Home_NN ]
+[NP I_PRP ] \\_MD
+[NP home_NN ]
+43_CD
+Campbell_NNP st_NN
+[NP Kew_NNP]
+[NP RMIT_NNP University_NNP ]
+Bldg_NNP 10_CD
+Level_NNP 8_CD
+one_CD ] [PP of_IN ] [NP the_DT theatres_NNS
+70_CD
+glyndon_NNP rd_NNP
+Camberwell_NNP
+[NP Home_NNP]
+Baillieu_NNP Library_NNP
+[NP Melbourne_NNP University_NNP]
+[NP ICT_NNP building_NN ]
+[NP University_NNP ] [LST of_IN ] [NP Melbourne_NNP]
+[NP the_DT state_NN library_NN ]
+[NP the_DT statue_NN ]
+[NP the_DT entrance_NN]
+[NP a_DT nice_JJ wine_NN bar_NN ]
+[NP little_JJ Bourke_NNP st_NN ]
+[NP china_NN town_NN]
+[NP Little_NNP Bourke_NNP]
+[NP Little_NNP Bourke_NNP street_NN]
+the_DT tram_JJ stop_NN
+lonsdale_NN st_NN
+[PP cnr_IN ]
+[NP Elizabeth_NNP st_NN ]
+[NP michaels_NNS ] foto_. shop_NN
+[NP the_DT tram_NN ]
+home_NN
+[NP Vic_NNP Market_NN]
+[NP 11_CD ] [NP A_DT
+Sturrock_NNP Street_NNP
+[NP 11_CD ] [NP A_DT
+Sturrock_NNP Street_NNP ]
+[NP Brunswick_NNP ]
+Vic_NNP
+3056_CD
+[NP the_DT middle_NN ]
+ayr_NN st_NN
+doncaster_NN
+a_DT traffic_NN light_NN
+[NP the_DT hospital_NN
+[NP Baillieu_NNP library_NN ]
+[NP Melb_NNP Uni_NNP]
+[NP Baillieu_NNP library_NN ]
+[VP melbourne_VBN ] [NP Uni_NNP]
+[NP my_PRP$ office_NN ]
+[NP the_DT 7_CD th_JJ floor_NN ]
+[NP the_DT Babel_NNP building_NN ]
+[NP the_DT University_NNP ] [PP of_IN ] [NP Melbourne_NNP
+Parkville_NNP campus_NN
+[NP the_DT building_NN ]
+[NP Brownless_NNP Library_NNP]
+[NP Brownless_NNP Medical_NNP Library_NNP ]
+[NP University_NNP ] [LST of_IN ] [NP Melbourne_NNP]
+Computer_NNP Science_NNP
+Lecture_NNP Theatre_NNP
+1_CD
+Melbourne_NNP Uni_NNP
+ICT_NNP building_NN
+[NP the_DT lecture_NN room_NN ]
+barry_NN st_NN
+entrance_NN
+[NP Shared_VBN room_NN]
+[NP an_DT office_NN]
+[NP Hallway_NNP ]
+[NP the_DT second_JJ floor_NN ]
+[NP the_DT babel_NN building_NN]
+[NP my_PRP$ house_NN ]
+[NP the_DT lounge_NN room_NN ]
+[NP my_PRP$ house_NN ]
+[NP a_DT hill_NN ]
+[NP My_PRP$ house_NN]
+[NP my_PRP$ home_NN]
+5_CD
+pottery_NN crt_NN
+Brunswick_
+Melbourne_NNP high_JJ School_NN
+Sth_NNP Yarra_NNP
+10_CD
+Hylton_NNP Cres_NNP
+rosanna_NNP
+Palais_NNP theatre_NN
+st_NN kilda_NN
+131_CD
+Pelham_NNP st_NN
+[NP Carlton_NNP ]
+[NP 3053_CD ]
+[NP Victoria_NNP]
+[NP toorak_NN road_NN ]
+[NP lincoln_NN]
+estern_VB ] [NP free_JJ way_NN]
+440_CD
+Elizabeth_NNP Street_NNP
+[NP Melbourne_NNP]
+[NP flinders_NNS station_NN]
+[NP flinders_NNS ]
+[NP the_DT Treasury_NNP Theatre_NNP ]
+[NP a_DT place_NN ]
+[NP Old_NNP Treasury_NNP ]
+[NP the_DT landmark_NN building_NN ]
+[NP Collins_NNP Street_NNP ]
+[NP Burke_NNP St_NNP ]
+Pelegrino_NNP cafe_NN
+[NP CBD_NNP]
+the_DT \_NNP ] [NP '_POS male_JJ
+David_NNP Jones_NNP
+[NP the_DT mezzanine_CD level_NN ]
+[NP the_DT shoe_NN department_NN]
+[NP David_NNP Jones_NNP ]
+[NP Bourke_NNP St_NNP]
+517_CD
+royal_JJ parade_NN
+[NP Bus_NN stop_NN
+[NP Mitcham_NNP rd_NNP ]
+[NP springvale_NN rd_NN]
+Genoa_NNP st_NN
+moorabbin_NN
+[NP ERC_NNP ]
+[NP ERC_NNP building_NN]
+support_NN office_NN
+6_CD
+215_CD
+spring_NN St_NNP
+[NP Melbourne_NNP]
+[NP auburn_NN train_NN station_NN ]
+[NP second_JJ floor_NN ]
+[NP an_DT five_CD floor_NN apprtment_NN ]
+[NP Gueens_NNS Ave_NNP ]
+Hawthorn_NNP suburb_NN district_NN
+[NP the_DT university_NN ] [PP of_IN ] [NP melbourne_NN ]
+[NP the_DT building_NN number_NN 174_CD ]
+[NP Grattan_NNP street_NN ]
+[NP the_DT university_NN ] [PP of_IN ] [NP melbourne_NN ]
+[NP the_DT civil_JJ engineering_NN building_NN ]
+[NP Grattan_NNP street_NN ]
+[NP the_DT university_NN ] [PP of_IN ] [NP melbourne_NN ]
+[NP the_DT civil_JJ engineering_NN building_NN ]
+[NP Grattan_NNP street_NN ]
+[NP the_DT university_NN ] [PP of_IN ] [NP melbourne_NN ]
+[NP the_DT civil_JJ engineering_NN building_NN ]
+[NP Grattan_NNP street_NN ]
+[NP the_DT university_NN ] [PP of_IN ] [NP melbourne_NN ]
+[NP the_DT civil_JJ engineering_NN building_NN ]
+[NP Grattan_NNP street_NN ]
+[NP royal_JJ women_NNS ] hosipital_NN
+[NP The_DT mint_NN bar_NN]
+[NP The_DT mint_NN]
+Berwick_NNP
+victoria_NN
+Prarhran_NNP train_NN station_NN
+Prahran_NNP train_NN station_NN
+[NP Victoria_NNP Hotel_NNP]
+570_CD
+Bourke_NNP Street_NNP
+[NP DSE_NNP building_NN]
+604_CD
+St_NNP kilda_NN rd_NN
+[NP union_NN ] St_.
+[NP Bentleigh_NNP East_NNP]
+1_CD
+Margaret_NNP St_NNP
+Richmond_NNP
+Vic_NNP
+3121_CD
+[NP Southbank_NNP ]
+[NP Bath_NNP Lane_NNP ]
+[NP Ballarat_NNP ]
+[NP my_PRP$ rented_JJ apartment_NN ]
+[NP Domain_NNP st_NN ]
+[NP the_DT coffee_NN houses_NNS]
+loud_JJ street_NN intersection_NN
+[NP the_DT yarra_NN]
+Chapel_NN st_NN
+[NP a_DT boring_JJ strip_NN ] [PP with_IN ] [NP apartment_NN houses_NNS ]
+[NP Melbourne_JJ grammar_NN ]
+[NP the_DT Park_NNP Regis_NNP hotel_NN ]
+[NP St_NNP kilda_NN rd_NN ]
+[NP the_DT city_NN ]
+[NP the_DT outside_JJ lane_NN ]
+a_DT semi_NN circular_JJ driveway_NN
+[NP a_DT shopping_NN mall_NN ]
+[NP Safeway_NNP ]
+[NP big_JJ w_NN ]
+[NP a_DT glass_NN roof_NN]
+Chapel_NN st_NN
+a_DT new_JJ shopping_NN mall_NN
+[NP Gopal_NNP ] \_, '_'' [NP s_PRP ] [NP restaurant_NN ]
+[NP Melbourne_NNP City_NNP Hall_NNP]
+[NP Stubbs_NNP St_NNP ]
+[NP new_JJ office_NN &_CC warehouse_NN buildings_NNS
+Levers_NNP St_NNP
+Royal_NNP Parade_NNP
+[NP flinders_NNS street_NN station_NN ]
+[NP federation_NN square_NN]
+[NP the_DT entrance_NN ]
+[NP federation_NN square_NN ]
+[NP the_DT visitor_NN centre_NN ]
+[NP federation_NN square_NN]
+[NP entrance_NN ]
+[NP federation_NN square_NN]
+[NP Bok_NNP Choi_NNP ]
+[NP the_DT Chinese_JJ restaurant_NN ]
+[NP federation_NN square_NN ]
+[NP top_JJ floor_NN]
+[NP a_DT tram_JJ stop_NN ]
+[NP flemington_JJ road_NN ]
+[NP the_DT city_NN ]
+[NP a_DT 7_CD eleven_CD ]
+[NP Collins_NNP street_NN ]
+[NP the_DT hour_NN glass_NN \_NN ""_NNS ]
+Elizabeth_NNP
+swanston_NN st_NN
+[NP the_DT skybus_NN ]
+[NP the_DT airport_NN ]
+[NP the_DT airport_NN]
+[NP the_DT skybus_NN ]
+[NP the_DT airport_NN ]
+[NP tullamarine_NN fwy_NN]
+[NP an_DT appartment_NN ]
+[NP the_DT Auburn_NNP train_NN station_NN ]
+[NP a_DT suburb_NN ]
+[NP Melbourne_NNP ]
+[NP an_DT appartment_NN ]
+[NP the_DT Auburn_NNP train_NN station_NN ]
+[NP a_DT suburb_NN ]
+[NP Melbourne_NNP ]
+[NP barkly_RB street_NN]
+[NP the_DT train_NN]
+[NP the_DT train_NN station_NN]
+[NP Flinders_NNP Street_NNP Station_NNP ]
+[NP Melbourne_NNP ]
+90_CD
+Camberwell_NNP Road_NNP
+[NP the_DT road_NN ]
+[NP the_DT Tower_NNP Hotel_NNP ]
+[NP Hawthorn_NNP East_NNP ]
+[NP a_DT roundabout_NN ]
+[NP Rose_NNP St_NNP ]
+[NP a_DT 4_CD storey_NN apartment_NN block_NN]
+[NP a_DT round_JJ about_IN ]
+[NP Rose_NNP street_NN ]
+[NP a_DT 4_CD storey_NN apartment_NN]
+[NP the_DT court_NN
+[NP Malibu_NNP Mews_NNP]
+[NP traffic_NN island_NN ]
+[NP railway_NN bridge_NN ]
+[NP warrigal_JJ rd_NN]
+[NP pedestrian_NN bridge_NN ]
+[NP Monash_NNP Freeway_NNP ]
+[NP entrance_NN ]
+[NP Jacana_NNP Street_NNP ]
+[NP Chadstone_NNP]
+[NP royal_JJ melbourne_NN hosipital_NN]
+[NP monash_NN university_NN]
+monash_NN university_NN
+Parkville_NNP
+[NP the_DT road_NN ]
+[NP crown_NN casino_NN ]
+spencer_NN st_NN ] dfo_
+[NP st_NN pats_NNS cathedral_NN]
+[NP bed_NN ]
+[NP home_NN ]
+[NP the_DT park_NN]
+hawthorn_NN
+auburn_VB ] [NP train_NN station_NN]
+[NP little_JJ burke_NN street_NN]
+[NP swinburn_VB university_NN]
+[NP lever_JJ street_NN]
+[NP Royal_NNP Melbourne_NNP Hospital_NNP]
+[NP the_DT royal_JJ Melbourne_NNP hospital_NN ]
+[NP the_DT emergency_NN services_NNS entrance_NN]
+Coles_NNP
+[NP Noble_NNP Park_NNP ]
+[NP Newmarket_NNP railway_NN ststion_NN]
+[NP Allan_NNP Gilbert_NNP]
+[NP the_DT corner_NN ]
+[NP John_NNP St_NNP ]
+[NP Glenlyon_NNP Road_NNP]
+[NP Yarra_NNP Crest_NNP apartments_NNS ]
+99_CD
+Whiteman_NNP St_NNP
+[NP Southbank_NNP]
+[NP the_DT tram_NN ] [VP stop_VB ]
+[NP bourke_JJ street_NN ]
+[NP the_DT city_NN]
+Newport_NNP
+Substation_NNP
+St_NNP Francis_NNP church_NN
+[NP a_DT tram_NN stop_NN]
+[NP Dingley_NN ]
+[NP my_PRP$ office_NN ]
+215_CD
+Spring_NNP St_NNP
+Melbourne_NNP
+[NP spring_NN
+[NP the_DT corner_NN ]
+[NP Lonsdale_NNP St_NNP ]
+[NP Little_NNP Bourke_NNP
+Lonsdale_JJ St_NNP
+[NP the_DT Chinese_NNPS sculpture_NN garden_NN ]
+[NP the_DT entrance_NN ]
+[NP Parliament_NNP Station_NNP ]
+[NP the_DT Carousel_NNP restaurant_NN ]
+[NP Albert_NNP Park_NNP lake_NN ]
+[NP the_DT lake_NN ]
+[NP Queensway_NNP ]
+[NP the_DT parking_NN lot_NN ]
+[NP the_DT carousel_NN Restaurant_NNP ]
+[NP Albert_NNP Park_NNP Lake_NNP ]
+[NP the_DT tram_NN tracks_NNS ]
+[NP the_DT St_NNP Kilda_NNP Red_NNP junction_NN ]
+[NP St_NNP Kilda_NNP ] Rd_.
+[NP huge_JJ brick_NN warehouse_NN walls_NNS ]
+[NP Mccaoley_NNP ] Rd_
+[NP princes_NNS park_NN]
+[NP Princess_NNP Park_NNP]
+Cnr_NNP
+newry_JJ
+drummond_NN
+[NP carlton_NN ]
+rathdowne_NNP st_NN
+shops_NNS
+College_NNP Square_NNP
+Carlton_NNP
+[NP College_NNP Square_NNP]
+[NP Princess_NNP Hill_NNP]
+515_CD
+Royal_NNP Parade_NNP
+[NP Fitzroy_NNP ]
+Victoria_NNP street_NN
+[NP carlton_NN gardens_NNS]
+[NP Tram_NN lines_NNS]
+[NP Abbotsford_NNP ]
+[NP Kensington_NNP station_NN ]
+strip_NN ] [PP of_IN ] [NP small_JJ shops_NNS and_CC cafes_NNS]
+[NP Park_NNP
+[NP ringwood_NN station_NN]
+[NP ringwood_NN east_JJ station_NN]
+[NP lilydale_NN station_NN]
+[NP Rafeigh_NNP Street_NNP
+[NP it_PRP ] [VP wasnt_VBD ] [ADVP even_RB close_RB ] [PP to_TO ] [ADVP where_WRB ] [NP i_PRP ] [VP was_VBD ] but_CC [NP i_FW ] [VP couldnt_MD move_VB ] [NP the_DT map_NN ] ._.
+139_CD
+Bouverie_NNP Street_NNP
+Sebastopol_NNP
+[NP victoria_NN]
+95_CD
+Coventry_NNP Street_NNP
+[NP the_DT corner_NN ]
+[NP Sturt_NNP st_NN ]
+[NP Kings_NNP way_NN]
+77_CD
+queens_NNS road_NN
+queens_NNS lane_NN
+union_NN st_NN
+Main_NNP street_NN
+Mornington_
+[NP Mornington_NNP
+[NP a_DT large_JJ warehouse_NN ]
+[NP Helen_NNP St_NNP ]
+[NP High_NNP St_NNP ]
+[NP the_DT train_NN station_NN ]
+Lakhsa_NNP ] [NP Me_PRP ]
+[NP restaurant_NN]
+[NP Fed_NNP square_NN]
+Bourke_NNP St_NNP
+Mall_NNP
+[NP the_DT bus_NN stop_NN ]
+[NP the_DT railway_NN crossing_NN ]
+[NP Arthurton_NNP Rd_NNP ]
+[NP the_DT city_NN ]
+[NP bourke_JJ st_NN ]
+[PP at_IN ] [NP a_DT brutal_JJ iron_NN sculpture_NN ]
+[NP the_DT high_JJ rising_VBG buildings_NNS ]
+[NP Spatial_NNP Vision_NNP Innovations_NNP ]
+Level_NNP 2_CD
+170_CD
+Queen_NNP Street_NNP
+Melbourne_NNP
+519_CD
+Royal_NNP Parade_NNP
+513_CD
+Royal_NNP Parade_NNP
+Victoria_NNP St_NNP
+[NP Sydney_NNP Rd_NNP ]
+[NP the_DT bus_NN stop_NN ]
+[NP the_DT shoe_NN repair_NN ]
+[NP the_DT Greek_NNP cafe_NN ]
+the_DT shopping_NN mall_NN
+[NP High_NNP St_NNP ]
+[NP Separation_NNP Rd_NNP ]
+[NP Northcote_NNP ]
+14_CD
+517_CD
+royal_JJ parade_NN
+parkville_NN
+[NP melbourne_NN uni_JJ]
+[NP a_DT really_RB nice_JJ restaurant_NN ]
+[NP Victoria_NNP street_NN ]
+[NP the_DT train_NN station_NN ]
+[PP On_IN ] [NP Elizabeth_NNP Street_NNP ] ,_, [NP diagonally_RB opposite_JJ Central_NNP Station_NNP ] [PP on_IN ] [NP the_DT corner_NN ] [PP of_IN ] [NP Foveaux_NNP Street_NNP ] ._.
+[NP the_DT tram_JJ stop_NN ]
+[NP the_DT 55_CD
+[PP flemington_IN ] [NP road_NN
+[NP a_DT tram_JJ stop_NN ]
+[NP the_DT 59_CD ]
+[NP the_DT city_NN ]
+[NP flemington_PRP$]
+[NP melourne_NN uni_JJ]
+[NP Hawthorn_NNP suburb_NN ]
+[NP Auburn_VB train_NN station_NN ]
+[NP level_NN two_CD ]
+[NP an_DT appartment_NN ]
+[NP Queens_NNP Ave_NNP]
+[NP Hawthorn_NN east_RB
+Auburn_VB ] [NP train_NN station_NN ]
+[NP an_DT four_CD ] -_: [NP foloor_NN apartment_NN ]
+[NP Hawthorn_NN east_RB
+Auburn_VB ] [NP train_NN station_NN ]
+testing_VBG
+downtown_NN
+[NP the_DT university_NN ] [PP of_IN ] [NP Melbourne_NNP]
+[NP the_DT second_JJ floor_NN ]
+[NP university_NN ] [PP of_IN ] [NP Melbourne_NNP ]
+[NP downtown_NN ]
+[NP 174_CD building_NN ]
+[NP Grattan_NNP street_NN ]
+[NP the_DT university_NN ] [PP of_IN ] [NP Melbourne_NNP ]
+[NP 174_CD building_NN ]
+[NP Grattan_NNP street_NN ]
+[NP Test_NN ] [PP from_IN ] [NP IPhone_NN]
+[NP transport_NN bar_NN]
+[NP the_DT last_JJ stop_NN ]
+[NP the_DT 96_CD ]
+[NP Ceres_NNP
+[NP 2_CD nd_JJ floor_NN ]
+[NP an_DT apartment_NN ]
+[NP hawthorn_NN ]
+[NP a_DT suburb_NN ] [PP of_IN ] [NP Melbourne_NNP ]
+Auburn_VB ] [NP train_NN station_NN ]
+[NP the_DT heide_NN museum_NN ]
+[NP a_DT cafe_NN ]
+[NP ivenhoe_NN ]
+shopping_NN centre_NN
+train_NN station_NN
+[NP Royal_NNP Women_NNP hospital_NN]
+[NP test_NN ]
+[NP Arthurton_NNP Rd_NNP ]
+[NP the_DT little_JJ warehouses_NNS ]
+[NP the_DT creek_NN ]
+[NP Storage_NNP King_NNP ]
+[NP Train_NN station_NN]
+[NP Hospital_NN ]
+[NP Park_NNP Street_NNP]
+[NP medical_JJ building_NN]
+Berwick_NNP
+main_JJ street_NN
+[NP Dead_JJ end_NN road_NN]
+[NP Harcourt_NNP pl_NN]
+Princess_NNP Hill_NNP
+Park_NNP
+[NP Cabbage_NNP farm_NN]
+[NP The_DT bailleau_NN library_NN]
+[NP Sunshine_NN ]
+[NP a_DT building_NN ]
+[NP the_DT university_NN ] [PP of_IN ] [NP Melbourne_NNP ]
+[NP Grattan_NNP street_NN ]
+[NP the_DT melbuni_NN ]
+[NP arcitecture_NN building_NN]
+[NP the_DT city_NN ]
+[NP Franklyn_NNP st_NN ]
+[NP ALDI_NNP]
+ERC_NNP
+university_NN ] [PP of_IN ] [NP Melbourne_NNP ]
+[NP Economics_NNP class_NN]
+Caulfield_VB
+[NP Tafe_NN ]
+[NP NAB_NNP BUILDING_NN]
+8_CD
+Nicholson_NNP street_NN
+[NP Goulburn_NNP st_NN liverpool_NN]
+Motogp_
+train_NN station_NN
+[NP Hawthon_NNP east_JJ suburb_NN ]
+[NP Melbourne_NNP ]
+[NP My_PRP$ house_NN ]
+[NP Beacy_NNP]
+[NP prahran_NN ]
+[NP a_DT restaurant_NN ]
+[NP prahran_JJ market_NN ]
+[NP chapel_NN street_NN ]
+[NP city_NN ]
+[NP Haymarket_NN ]
+[NP School_NN ]
+[NP Drag_NNP strip_NN ] [PP for_IN ] [NP hoons_NNS]
+[NP Massive_JJ Coles_NNP store_NN]
+[NP Beach_NNP ]
+[NP Doncastor_NNP ]
+[NP Freeway_NNP !_. M_NNP ] 1_CD
+Maccas_
+[NP Berwick_NNP ]
+[NP our_PRP$ new_JJ house_NN ]
+Sofias_
+Monash_NNP university_NN
+Parkville_NNP
+[NP home_NN]
+[NP carlton_NN north_NN
+McDonalda_NNP
+car_NN park_NN
+Repco_
+[NP Hallam_NNP hotel_NN]
+[NP Estate_NNP park_NN]
+[NP Blitz_NNP nightclub_NN]
+[NP Berwick_NNP ]
+[NP childrens_NNS park_NN
+[NP Village_NNP cinemas_NNS]
+[NP Kmart_NN ]
+Fg_CD
+football_NN oval_NN
+[NP Sdyney_NN ]
+[NP Bankstown_NNP 2200_CD]
+[NP Best_JJS bakery_NN ]
+[NP world_NN]
+[NP Montuna_NNP golf_NN course_NN]
+Berwick_NNP
+mainstreet_NN
+[NP an_DT estate_NN ]
+round_JJ abouts_NNS
+[NP Narre_NNP Warren_NNP ] [ADVP south_RB ]
+[NP Thompsoms_DT road_NN
+cranny_VB
+[NP Twisty_NNP roads_NNS ]
+[ADJP harkaway_JJ ]
+emerald_VB
+[NP Good_JJ fishing_NN spot_NN ] [PP for_IN ] [NP snapper_NN]
+arthurs_NNS seat_NN road_NN
+[NP South_NN gippy_JJ highway_NN ]
+[NP town_NN]
+[NP St_NNP ._. Kilda_NNP road_NN ]
+river_NN
+[NP bridge_NN]
+[NP Diner_NN ]
+[NP parahn_NN ]
+[NP st_NN ] [NP ._. kilda_NN ]
+suburbs_NNS
+[NP Cricket_NNP ground_NN ]
+[NP east_JJ st_NN]
+Yarra_NNP BVD_NNP
+exit_NN
+[NP richy_JJ]
+[NP Chisholm_NNP Tafe_NNP ]
+[NP the_DT library_NN ]
+[NP kangan_NN drive_NN]
+[NP a_DT little_JJ cafe_NN ]
+[NP a_DT side_NN street_NN]
+[NP Hungry_NNP jacks_NNS ]
+[NP castellos_NNS]
+freewy_JJ
+[NP Train_NN tracks_NNS ]
+[NP a_DT cafe_NN ]
+[NP baclava_DT street_NN ]
+[NP beach_NN road_NN ]
+Hawthorn_NN
+[NP the_DT train_NN station_NN ]
+[NP that_DT little_JJ side_NN street_NN ]
+[NP Malvern_JJ golf_NN course_NN ]
+[NP melb_NN ]
+burwood_NN highway_NN
+bar_NN
+[NP a_DT little_JJ alley_NN]
+[NP the_DT arches_NNS ]
+[NP this_DT huge_JJ street_NN ]
+[NP the_DT fish_NN and_CC chip_NN shop_NN ]
+Tynong_NNP
+pub_NN
+MCG_JJ
+little_JJ trail_NN
+Canterbury_NNP rd_NN
+[NP the_DT 711_CD store_NN]
+monash_NN freeway_NN
+80_CD zone_NN
+[NP Vert_NNP ave_NN ]
+[NP the_DT park_NN ]
+[NP earnest_NN ] [PP wanky_IN ]
+[NP the_DT freeway_NN]
+[NP Dandenong_NNP ]
+[VP chisholm_VBP campus_NN ]
+stud_NN road_NN
+[NP corner_NN ]
+[NP burwood_NN highway_NN ]
+[NP little_JJ cafe_NN ]
+[NP busy_JJ street_NN]
+Albert_NNP park_NN
+side_NN track_NN
+[NP the_DT track_NN]
+[NP Narre_JJ north_NN road_NN ]
+Berwick_NNP
+car_NN wash_NN
+[NP the_DT street_NN]
+[NP Suzuki_NNP auto_NN centre_NN ]
+[NP Narre_NNP cranny_NN road_NN]
+[NP Little_JJ old_JJ taco_NN bill_NN ]
+[NP Barry_NNP burke_NN holden_NN]
+[NP Repco_NNP auto_NN centre_NN]
+[NP Holm_NNP park_NN road_NN
+dandenong_VBG
+[NP the_DT local_JJ ]
+[NP the_DT big_JJ bin_NN ]
+[NP the_DT cellar_NN
+[NP La_NNP Trobe_NNP Street_NNP ]
+[NP the_DT 55_CD]
+[NP Wild_JJ duck_NN way_NN]
+[NP Flinder_NNP Street_NNP station_NN]
+[NP Unit_NN ] [PP in_IN ] [NP Lusty_NNP St_NNP ] ,_, [NP Wolli_NNP Creek_NNP ] ._.
+[NP a_DT school_NN ]
+my_PRP$ house_NN
+[NP Burwood_NNP highway_NN ]
+[NP furntree_NN ] [ADVP gully_RB ]
+[NP emerald_NN]
+[NP my_PRP$ house_NN ]
+[NP seaford_NN ]
+[NP Cricket_NNP park_NN]
+[NP Birregurra_NNP ]
+[NP I_PRP ] [VP am_VBP ] [PP at_IN ] [NP house_NN inspection_NN]
+[NP the_DT street_NN
+[NP Linder_NNP bakery_NN
+fish_NN and_CC chip_NN shop_NN
+[NP Local_JJ community_NN centre_NN]
+Black_NNP round_RB ] [PP about_IN ]
+[NP Linself_PRP ] [VP bend_VB ] [PP in_IN ] [NP toad_NN ] [VP been_VBN ] [ADVP there_RB ] [PP for_IN ] [NP a_DT while_NN]
+Sweeny_NNP
+cricket_NN and_CC footy_NN grounds_NNS
+[NP Casey_NNP hospital_NN ]
+[NP kangan_NN drive_NN]
+shopping_NN precinct_NN
+[NP Lynbrook_NNP ]
+[VP maccas_VBD ]
+[NP the_DT atea_NN]
+[NP Cranny_NNP golf_NN club_NN]
+[NP Dandy_NNP valley_NN ]
+[SBAR Off_IN ] [NP tinks_NNS]
+[NP Patterson_NNP river_NN ]
+[NP bay_NN]
+[NP paky_NN]
+Phillip_NNP island_NN
+race_NN track_NN
+[NP Osmington_NNP circle_NN]
+[NP Mordiallic_JJ yacht_NN club_NN]
+[NP The_DT new_JJ bypass_NN ]
+maccas_NN
+kfc_NN
+[NP Hillcrest_NNP Christian_NNP college_NN]
+Casey_NNP fields_NNS
+massive_JJ bike_NN project_NN
+[NP Royal_NNP gardens_NNS ]
+[NP Bay_NNP ]
+[NP p_NN ] ._. i_FW
+[NP the_DT street_NN ]
+[NP a_DT cafe_NN]
+South_NN gippy_JJ highway_NN
+Brighton_NNP
+square_NN
+[NP Nude_NNP beach_NN]
+[VP geelong_VBG ]
+[NP the_DT local_JJ pub_NN]
+[NP Foy_NNP ] [VP av_VBP ]
+beach_NN
+[NP the_DT park_NN]
+rowville_NN
+[NP my_PRP$ sister_NN house_NN ]
+crabny_NN
+[NP Bhp_NNP billion_CD steel_NN work_NN area_NN]
+[NP Portsea_NNP ]
+[NP the_DT heads_NNS]
+[NP the_DT park_NN ]
+[NP the_DT afl_JJ oval_NN]
+Berwick_NNP
+highschool_NN
+[NP Edwin_NNP flack_NN]
+[NP Tom_NNP st_NN]
+Liquer_NNP land_NN
+[NP vic_NN]
+golf_NN course_NN
+6_CD th_NN
+hole_NN
+Wheelers_NNP
+night_NN club_NN
+melb_NN
+water_NN plant_NN
+[NP dande_NN]
+[NP Casey_NNP central_JJ]
+Carlton_NNP
+[NP Luna_NNP park_NN ]
+[NP the_DT beach_NN ]
+[NP Es_NNP cafe_NN]
+[NP Hallam_NNP train_NN station_NN ]
+[NP sexy_JJ land_NN]
+[NP Monbulk_NNP road_NN ]
+emerald_VB
+[NP bakery_NN ]
+[NP melbourne_NN]
+[NP Pound_JJ road_NN ]
+[NP the_DT local_JJ seven_CD eleven_CD]
+[NP Sandwhich_NNP bar_NN
+Narre_NNP
+[NP Ray_NNP bastin_NN]
+doverton_
+[NP Royal_NNP Hosipital_NNP]
+[NP Coles_NNP ]
+[NP Huge_JJ reserve_NN]
+[NP Mistys_NNP diner_NN ]
+[NP high_JJ street_NN]
+[NP kids_NNS cafe_NN ]
+[NP nice_JJ winery_NN]
+hillside_NN
+park_NN
+tram_VB ] [NP 19_CD
+station_NN
+busy_JJ [VP crossing_VBG
+[NP 7_CD ] -_: [NP 11_CD store_NN
+royal_JJ womens_NNS hospital_NN
+[NP this_DT building_NN
+[NP the_DT melbourne_JJ museum_NN ]
+[NP carlton_NN]
+[NP the_DT old_JJ arts_NNS building_NN ]
+[NP the_DT university_NN ] [PP of_IN ] [NP melbourne_NN]
+[NP victoria_NN markdet_NN]
+[NP international_JJ house_NN ]
+241_IN
+royal_JJ parade_NN
+parkville_NN
+vic_JJ
+australia_NNS
+241_CD
+royal_JJ parade_NN
+parkville_NN
+vic_JJ
+[NP aldi_DT supermarket_NN ]
+[NP franklin_NN st_NN ]
+[NP melbourne_JJ central_JJ station_NN]
+[NP melbourne_JJ museum_NN ]
+[NP car_NN parking_NN ]
+[NP chadstone_NN shopping_NN centre_NN ]
+[NP princess_NN highway_NN ]
+[NP the_DT bolts_NNS bridge_NN]
+[NP the_DT racecourse_NN
+[NP hume_NN ]
+[NP sydney_NN]
+[NP collins_NNS street_NN]
+kilmore_DT
+hotel_NN
+[NP small_JJ ass_NN town_NN]
+[NP broadford_JJ state_NN motorcycle_NN complex_NN]
+wallan_JJ
+suburb_NN
+[NP melbourne_NN ]
+south_JJ morang_NN
+[NP this_DT road_NN ]
+land_NN
+[NP preston_NN motorcycle_NN club_NN]
+[NP the_DT brighton_NN cemetery_NN ]
+broady_JJ
+road_NN track_NN
+[NP south_RB yarra_NNP train_NN station_NN
+[NP city_NN center_NN]
+a_DT busy_JJ crossing_NN
+myer_NN store_NN
+[NP tram_NN 19_CD]
+[NP swanston_NN street_NN]
+[NP home_NN ]
+[NP flemington_NN ]
+[NP yarra_NN river_NN]
+[NP the_DT bp_NN ]
+[NP hungry_JJ jacks_NNS ]
+[NP the_DT sofas_NNS restaurant_NN
+[NP the_DT yarra_NN ]
+[NP southbank_NN ]
+[NP crown_NN towers_NNS ]
+doncaster_NN
+shopping_NN centre_NN
+parking_NN spot_NN
+the_DT princess_NN pier_NN
+napean_JJ highway_NN
+[NP the_DT car_NN
+princes_NNS park_NN
+[NP coalfield_NN park_NN ]
+[NP yarra_NN river_NN ]
+[NP the_DT docks_NNS]
+[NP high_JJ street_NN ]
+[NP mistys_NNS]
+beach_NN
+road_NN
+[NP st_NN ] ._. [VP kilda_NN ]
+[NP the_DT msg_NN ]
+[NP the_DT sandown_NN dog_NN track_NN ]
+[NP landcox_NN park_NN ]
+[NP the_DT main_JJ road_NN ]
+[NP springvale_NN cemetary_JJ
+[NP all_DT nations_NNS park_NN ]
+[NP the_DT main_JJ road_NN]
+[NP northwest_JJ hospital_NN ]
+[NP broadford_NN]
+[PP wellington_IN ] [NP road_NN ]
+stud_VB ] [NP road_NN
+[NP rowville_NNP ]
+[NP my_PRP$ computer_NN]
+[NP corner_NN ]
+[NP wood_NN rd_NN
+round_NN ] [PP about_IN ]
+[NP spirit_NN ] [PP of_IN ] [NP tassie_NN ]
+[NP the_DT train_NN ]
+flemington_VB ] [NP racecourse_NN
+[NP st_NN ] ._. [VP pauls_NNS
+[NP the_DT melbourne_NN general_JJ
+[NP the_DT cemetary_NN ]
+vic_JJ road_NN
+reserve_NN
+[NP the_DT melbourne_NN ]
+[NP the_DT box_NN hill_NN train_NN station_NN]
+[NP the_DT rossdale_NN golf_NN club_NN ]
+18_CD
+holes_NNS
+[NP some_DT park_NN
+[NP a_DT little_JJ skinny_JJ road_NN]
+[NP the_DT melbourne_JJ museum_NN ]
+[NP a_DT little_JJ cafe_NN]
+[NP john_NNP ] [PP cain_IN ] [NP memorial_NN park_NN]
+[NP the_DT shore_NN reserve_NN ]
+[NP osmington_NNP circle_NN]
+[NP fleetwood_NN drive_NN ]
+glasscocks_NNS
+[NP the_DT car_NN ]
+boost_VB ] [NP juice_NN]
+[NP road_NN ]
+[NP jbhifi_NN]
+[NP narre_JJ north_NN road_NN ]
+[NP the_DT hall_NN ]
+reserve_NN
+[NP stud_NN park_NN reserve_NN ]
+[NP springvale_NN]
+[NP frawley_NN road_NN
+[NP home_NN ]
+yaya_DT blvd_JJ
+richmond_VB
+[NP eildon_CD ]
+[NP the_DT drag_NN boat_NN]
+[NP work_NN ]
+[NP the_DT defence_NN department_NN ]
+walsh_VBG ] [NP street_NN
+subway_NN
+[NP taylors_NNS lakes_NNS ]
+[NP linfox_NN company_NN]
+[NP collins_NNS street_NN ]
+boost_NN
+[NP the_DT fruit_NN and_CC veg_NN market_NN]
+[NP gms_NNS ]
+[NP little_JJ page_NN street_NN ]
+[NP st_NN ] ._. [VP kildas_NNS ]
+[NP beaches_NNS]
+beach_NN
+beach_NN street_NN
+[NP the_DT top_NN ]
+[NP the_DT skydeck_NN ]
+[NP old_JJ arts_NNS building_NN ]
+[NP university_NN ] [PP of_IN ] [NP melbourne_NN]
+[NP the_DT train_NN ]
+malvern_JJ
+[NP toorak_NN road_NN ]
+[NP my_PRP$ aunites_NNS house_NN]
+[NP caufield_NN racecourse_NN ]
+[NP the_DT library_NN ]
+melbourne_JJ
+[PP albert_IN ] [NP park_NN lake_NN ]
+[NP moorabin_NN airport_NN ]
+[VP watching_VBG ] [NP letters_NNS ] [PP to_TO ] [NP juliet_JJ ] :_: )_-RRB-
+[NP relaxinggggggg_NN ] ._.
+[NP loving_VBG life_NN watching_VBG tv_NN ] ._.
+[NP my_PRP$ bed_NN ]
+[NP i_FW \_NNP ] [NP '_POS m_NN ] [PP in_IN ] [NP loveeeee_NN]
+[NP beating_VBG heart_NN ] [PP of_IN ] [NP melbourne_NN
+[NP the_DT albert_NN park_NN driving_VBG range_NN ]
+[NP the_DT streets_NNS ]
+mildura_NN
+shops_NNS
+[NP nissan_JJ auto_NN main_JJ centre_NN
+[NP melbourne_NN ]
+[NP the_DT burwood_NN highway_NN ]
+[NP mcdonalds_NNS]
+[NP narre_JJ north_NN road_NN ]
+freeway_NN
+[NP bailey_JJ street_NN ]
+[NP blackburn_NN road_NN ]
+[NP the_DT beach_NN]
+[NP the_DT bay_NN]
+[NP murambeena_NN station_NN ]
+[NP the_DT mainstreet_NN]
+southern_JJ dandy_NN
+[PP bypass_IN ]
+[NP the_DT elsternwick_NN station_NN ]
+st_VB ] [NP ._. kilda_NN ]
+[NP the_DT botanical_JJ gardens_NNS ]
+[NP the_DT train_NN station_NN ]
+[NP the_DT malvern_NN golf_NN club_NN ]
+the_DT bay_NN
+[NP the_DT port_NN ] [PP of_IN ] [NP melbourne_NN
+westmeadows_NNS
+shopping_NN centre_NN
+[VP walking_VBG ] [ADVP around_RB ] and_CC [VP i_FW ] [NP \_FW '_'' m_NN ] [ADJP not_RB sure_JJ ] [ADVP where_WRB ] [NP i_PRP ] [VP am_VBP ] [LST sorry_JJ
+fitzroy_NN gardens_NNS
+[NP melbourne_NN]
+[NP the_DT royal_JJ park_NN ]
+princess_NN highway_NN
+[NP queens_NNS park_NN lake_NN ]
+spencer_NN street_NN
+[NP collins_NNS street_NN]
+[NP braeside_IN dandy_JJ road_NN ]
+[NP pilkington_NN glass_NN]
+[NP spring_NN street_NN ]
+[NP the_DT sport_NN complex_NN ]
+[NP citylink_NN ]
+melbourne_JJ
+ligon_NN street_NN
+[NP the_DT yarra_NN river_NN ]
+[NP corner_NN ]
+[NP park_NN ]
+[NP moray_JJ street_NN]
+[NP little_RB bourke_JJ street_NN]
+[NP beacy_NN parade_NN ]
+[NP the_DT queen_NN vicky_NN market_NN ]
+[NP my_PRP$ car_NN ]
+[NP the_DT royal_JJ childrens_NNS ]
+[NP the_DT waterfront_NN]
+[NP nobal_JJ park_NN ]
+[NP lonsdale_JJ street_NN ]
+train_VB ] [NP station_NN]
+[NP chandler_NN road_NN]
+[NP boronia_NN marine_NN ]
+[NP a_DT boat_NN ]
+[NP the_DT old_JJ sandy_JJ yacht_NN club_NN ]
+[NP the_DT r_NN 6_CD ]
+[NP the_DT black_JJ spur_NN]
+[NP yo_PRP ]
+[NP thai_DT vietmanise_NN restaurant_NN]
+beacy_NN
+golf_NN course_NN
+glen_JJ iris_NN
+pub_NN
+[NP my_PRP$ house_NN ]
+[NP dinky_NN village_NN ]
+[NP my_PRP$ cars_NNS
+fitzroy_JJ
+subway_NN
+[NP bbq_NN ] [PP in_IN ] [NP the_DT sun_NN]
+[PP at_IN ] [NP the_DT diggers_NNS ] [PP near_IN ] [NP the_DT floweral_NN]
+[NP victoria_NN market_NN]
+[NP mistys_NNS diner_NN]
+[NP lakeside_NN ]
+[NP albert_NN park_NN ]
+[NP hope_NN st_NN ]
+[NP fawkner_NN park_NN]
+[NP st_NN ] ._. [NP kilda_NN cemetary_NN]
+batman_NN park_NN
+spencer_NN street_NN
+[NP the_DT beach_NN ]
+[NP the_DT yarra_NN golf_NN course_NN ]
+[NP my_PRP$ room_NN ]
+[NP crown_NN plaza_NN ]
+[NP jeffs_NNS ] [VP shed_VBD ]
+[ADVP north_RB ] [NP melbourne_JJ station_NN]
+[NP footscray_NN station_NN ]
+[NP market_NN]
+[NP watergardens_NNS shopping_NN centre_NN ]
+[NP train_NN station_NN]
+[NP greeves_NNS street_NN ]
+spring_VB ] [NP street_NN]
+[VP adderely_VBG ] [NP street_NN ]
+[NP west_NN melbourne_NN]
+[NP carlton_NN ]
+[NP a_DT cafe_NN]
+[NP the_DT john_NN cain_NN memorial_NN park_NN ]
+[NP north_NN melbourne_NN ]
+[NP a_DT car_NN park_NN
+[NP optus_NN oval_NN ]
+[NP caufield_NN park_NN ]
+[NP this_DT little_JJ lake_NN ]
+103_CD
+hephman_NN street_NN
+[NP rocky_JJ point_NN ]
+[NP spencer_NN street_NN railway_NN]
+[NP the_DT church_NN ]
+[NP the_DT station_NN ]
+[NP mcdonalds_NNS ]
+[NP queens_NNS park_NN lake_NN ]
+[NP the_DT big_JJ tree_NN ]
+roads_NNS
+[NP the_DT yarra_NN river_NN]
+[NP the_DT car_NN ]
+[NP the_DT domain_NN tunnel_NN]
+[NP t_NN ]
+[NP cutter_NN st_NN]
+verdant_JJ ave_JJ
+south_NN yarra_NN tennis_NN club_NN
+[NP the_DT kevin_VBG bartlett_NN sporting_NN and_CC recreation_NN complex_NN ]
+[NP fairview_NN park_NN]
+[NP nymphaea_NN lake_NN]
+[NP the_DT corner_NN ]
+[NP kelba_DT st_NN ]
+[NP a_DT friends_NNS house_NN]
+[NP thurso_NN st_NN ]
+[NP the_DT golf_NN club_NN]
+[NP a_DT tree_NN ]
+[NP tally_RB ho_RB reserve_NN]
+[NP h_NN ]
+[NP the_DT valley_NN private_JJ hospital_NN]
+[NP joseph_JJ banks_NNS ] [ADJP crescent_JJ ]
+[NP joseph_NN banks_NNS ] [NP medical_JJ centre_NN]
+[NP james_NNS ] [VP cook_VBP ] [NP drive_NN
+heatherton_NN rd_NN
+intersection_NN]
+[NP lysterfield_NN lake_NN park_NN ]
+[NP trees_NNS]
+cunningham_JJ drive_NN
+[NP thomas_NNS mitchell_NN primary_JJ school_NN]
+g_VBG
+[NP v_NN ]
+timbarra_NN
+shops_NNS
+timbarra_NN
+[NP yarra_NN ] [VP blvd_MD
+turn_VB
+[NP the_DT freeway_NN ]
+[NP the_DT road_NN ]
+[NP the_DT yarra_NN]
+[NP sweeny_NN ]
+the_DT park_NN
+freeway_NN m_NN ] 1_CD
+[NP warana_DT drive_NN ]
+[NP the_DT milk_NN bar_NN ]
+bend_VB
+collingwood_NN
+[NP the_DT old_JJ churce_NN
+[NP web_NN street_NN ]
+[NP schotchner_NN street_NN ]
+[NP the_DT broken_JJ road_NN ]
+[VP childcare_VBP ] [NP centre_NN ]
+[NP pitt_VBG street_NN ]
+[NP the_DT peer_NN ]
+[NP the_DT boat_NN yard_NN]
+yarra_NN bend_NN park_NN
+the_DT cemetary_JJ
+huge_JJ tree_NN
+[NP 7_CD ] -_: [NP 11_CD ]
+[NP royal_JJ womens_NNS hospital_NN]
+on_IN
+[NP the_DT caltex_NN ]
+maccas_NN
+train_NN atation_NN
+[NP abecket_NN road_NN ]
+[NP north_NN road_NN ]
+the_DT wide_JJ road_NN
+tennis_NN courts_NNS
+[NP edwin_JJ flack_NN reserve_NN ]
+berwick_NN
+highschool_NN
+[NP decor_NN drive_NN ]
+[NP the_DT princess_NN highway_NN]
+[NP ormand_NN road_NN ]
+[NP hallam_NN road_NN ]
+[NP a_DT dirt_NN track_NN ]
+booran_NN holden_NN
+[NP the_DT rays_NNS outdoors_NNS ]
+[NP tyre_NN factory_NN]
+[NP lysterfield_NN lake_NN]
+[NP tailors_NNS lane_NN ]
+[NP narre_JJ]
+[NP westernpor_NN ]
+[NP black_JJ trees_NNS ]
+[NP the_DT woods_NNS]
+[NP circuit_NN lane_NN ]
+fire_NN hose_NN
+truck_NN
+[NP the_DT road_NN]
+[ADVP south_RB ] gippy_JJ
+[VP sporting_VBG ] [ADJP complex_JJ ]
+cranny_NN rail_NN way_NN
+[NP cranny_JJ shopping_NN centre_NN ]
+[NP old_JJ church_NN]
+[NP i_FW \_NNP ] [NP '_POS m_NN ] [PP at_IN]
+[ADVP how_WRB ] about_IN [NP you_PRP ] [VP tell_VB ] [NP me_PRP ] [ADVP where_WRB ] [NP you_PRP ] [VP are_VBP ] ?_.
+[NP yarrow_NN court_NN]
+[NP cardi_NN reserve_NN]
+[NP camberwell_NN ]
+[NP my_PRP$ lab_NN ]
+[NP kilmore_NN motel_NN ]
+[NP op_NN shop_NN ]
+[NP empty_JJ land_NN]
+[NP ching_NN chong_JJ food_NN
+[NP northern_JJ highway_NN ]
+[NP the_DT chimes_NNS place_NN]
+broady_JJ
+race_NN circuit_NN
+[NP the_DT speed_NN circuit_NN ]
+[NP motocross_NN]
+shepperton_NN
+pub_NN
+[NP the_DT shrine_NN ] [PP of_IN ] [NP remembrance_NN]
+._.
+[NP dubbo_NN ]
+[NP whitten_JJ oval_NN ]
+[NP the_DT tyre_NN place_NN]
+[PP albens_IN ] [NP road_NN ]
+[NP that_DT little_JJ street_NN ]
+[NP the_DT statue_NN ]
+[NP shrine_NN]
+[NP airport_NN ]
+[NP training_NN centre_NN
+[NP selborne_JJ road_NN ]
+[NP my_PRP$ house_NN]
+[NP royal_JJ park_NN
+[NP nr_JJ nar_JJ goon_NN]
+[ADVP south_RB ] morang_VBG
+[NP australia_NNS
+[NP the_DT train_NN ]
+city_NN
+[NP bolte_NN bridge_NN]
+[NP a_DT unit_NN ]
+[NP clark_NN street_NN]
+[NP kilmore_NN gap_NN]
+[NP kellys_NNS ]
+[NP the_DT bush_NN]
+broadford_NN
+race_NN track_NN
+broady_JJ
+picnic_NN park_NN
+[NP cop_NN shop_NN]
+[NP stratford_NN court_NN]
+[NP motorcycle_NN rim_NN stickers_NNS]
+[NP the_DT cemetery_NN]
+[NP my_PRP$ house_NN ]
+[NP mollosin_NN street_NN]
+[NP sugarloaf_NN road_NN]
+[NP a_DT farm_NN]
+seymour_NN
+cafe_NN
+broady_JJ
+racetrack_NN
+[NP a_DT farm_NN]
+[NP turn_NN one_CD ]
+[NP broady_NN]
+turn_NN 2_CD
+broady_NN
+[NP turn_NN 3_CD]
+[NP srath_NN creek_NN road_NN ]
+[NP broady_JJ]
+[NP the_DT chocci_NNS factory_NN ]
+[NP broady_NN]
+[NP the_DT road_NN ]
+[NP the_DT creek_NN ]
+[ADVP out_RB ] [PP in_IN ] [NP the_DT middle_NN ] [PP of_IN ] nowhere_RB
+[NP sunday_NN creek_NN ]
+[NP last_JJ st_NN ]
+[NP kilmore_NN]
+[NP the_DT hume_NN ]
+[NP mcdonalds_NNS rd_NN ]
+[NP broady_NN]
+goulburn_NN valley_NN highway_NN
+[ADVP out_RB ] [PP in_IN ] [NP the_DT middle_NN ] [PP if_IN ] nowhere_RB
+farm_NN
+butchery_NN
+plant_NN farm_NN
+[NP a_DT boat_NN]
+[NP i_FW \_NNP ] [NP '_POS m_NN ] not_RB [ADJP sure_JJ ] [ADVP where_WRB ] [NP i_PRP ] [VP am_VBP ] [LST sorry_JJ]
+[NP the_DT local_JJ post_NN office_NN ]
+[NP cop_NN shop_NN]
+[NP the_DT m_NN 3_CD freeway_NN
+echuca_MD
+[NP wallan_NN ]
+[NP coles_NNS]
+[VP riding_VBG ] [NP my_PRP$ cbr_NN]
+[NP the_DT mansfield_NN airport_NN]
+[NP gipps_NNS ] strwwt_.
+[NP casey_NN cres_NNS]
+[NP ferguson_JJ street_NN ]
+[NP the_DT park_NN]
+[NP tree_NN hill_NN]
+[PP on_IN ] [NP sugar_NN creek_NN road_NN]
+[NP the_DT cnr_NN ]
+[NP hamilton_NN st_NN]
+mitchell_NN shire_NN council_NN
+[NP broardford_NN]
+[NP easy_JJ street_NN ]
+street_NN
+a_DT dead_JJ end_NN
+[NP lake_NN mil_NN]
+[NP oxford_NNP street_NN]
+[VP woodlands_VBZ ] [NP golf_NN club_NN ]
+[NP the_DT main_JJ road_NN]
+[NP tourist_NN road_NN ]
+[NP the_DT slopes_NNS]
+[NP little_JJ lonsdale_JJ street_NN ]
+[NP the_DT parliament_NN house_NN]
+[NP francis_VBG street_NN]
+[NP crockford_NN street_NN]
+[NP go_VB cart_NN track_NN ]
+[NP port_NN melbourne_NN]
+[NP bourke_JJ street_NN ]
+20_CD
+little_JJ bourke_JJ street_NN
+[NP capital_NN city_NN trail_NN]
+[NP ella_NN bache_NN
+[NP the_DT foodcourt_NN]
+[NP maccas_NN ]
+[NP food_NN court_NN ]
+[VP eb_VBG ] [NP games_NNS]
+[NP the_DT patrick_NN reserve_NN]
+[NP the_DT library_NN ]
+[NP ferntree_JJ gully_JJ road_NN]
+102_CD
+menzies_NNS street_NN
+[NP citiport_NN]
+melbourne_JJ
+[NP the_DT city_NN]
+[NP the_DT royal_JJ childrens_NNS hospital_NN ]
+[NP the_DT maccas_NN ]
+[NP beach_NN road_NN ]
+[NP black_JJ rock_NN]
+[VP stanley_VBG ] [NP street_NN
+mall_NN
+[NP conventry_JJ street_NN ]
+albert_VB ] [NP park_NN ]
+[NP the_DT side_NN streets_NNS ]
+[NP brown_JJ alley_NN street_NN]
+cooks_NNS ] cottage_NN
+mcdonnell_NN park_NN
+[NP the_DT swings_NNS]
+NP apple_NN store_NN
+[NP the_DT railway_NN]
+[NP malvern_JJ golf_NN course_NN ]
+18_CD
+holes_NNS
+[NP east_JJ richmond_NN ]
+[NP the_DT train_NN station_NN]
+[NP middle_JJ street_NN ]
+[NP the_DT city_NN
+[NP the_DT creek_NN]
+[NP nmit_NN tafe_NN]
+flemington_NN racecourse_NN
+[NP the_DT dentist_NN]
+[NP the_DT marybanong_NN river_NN
+[NP batman_NN street_NN ]
+[NP flagstaff_NN park_NN]
+not_RB [ADJP sure_JJ ] [ADVP where_WRB ] [NP i_PRP ] am_VBP
+[NP the_DT box_NN hill_NN cemetery_NN]
+[NP macleavy_NN park_NN]
+[NP the_DT parks_NNS]
+[NP darling_NN gardens_NNS]
+beckett_NN street_NN]
+[NP empire_NN street_NN]
+[NP princess_NN street_NN]
+[NP sefton_NN street_NN]
+[NP price_NN park_NN ]
+[NP buckley_NN park_NN ]
+[NP queen_NN market_NN]
+[NP king_NN street_NN]
+[NP pitt_NN street_NN ]
+[NP university_NN square_NN]
+[NP siddely_RB street_NN ]
+towers_NNS
+[NP the_DT habitat_NN ]
+[NP the_DT forest_NN]
+[NP elm_NN street_NN]
+queen_NN street_NN
+shops_NNS
+[NP westbourne_JJ road_NN]
+[NP moone_NN ponds_NNS ]
+[NP the_DT hansen_NN reserve_NN ]
+[NP the_DT statue_NN
+[NP mobil_JJ main_JJ centre_NN ]
+[NP park_NN street_NN ]
+[NP valley_NN parade_NN ]
+[NP carlton_NN footy_NN ground_NN]
+[NP atherton_DT garden_NN reserve_NN ]
+[NP the_DT yarra_NN ]
+[NP the_DT park_NN]
+[NP royal_JJ childrens_NNS hospital_NN ]
+[NP waterfront_JJ city_NN ]
+[NP whitten_JJ oval_NN]
+[NP flinders_NNS street_NN station_NN]
+[NP fawkner_NN station_NN ]
+[NP the_DT train_NN]
+[VP reef_VBG ] [NP island_NN
+[NP studley_NN park_NN road_NN]
+[NP victoria_NN park_NN]
+[NP londsdale_JJ street_NN]
+[NP swan_JJ street_NN]
+[NP young_JJ street_NN]
+[NP walker_VBG street_NN
+[NP my_PRP$ boyfriends_NNS house_NN ]
+[NP osmington_NNP circle_NN ]
+[NP berwick_NN hospital_NN ]
+[NP napler_VBG street_NN ]
+[NP the_DT old_JJ folks_NNS home_NN ]
+[NP the_DT nearest_JJS bus_NN stop_NN]
+[NP tangerine_NN drive_NN]
+22_CD
+kemp_NN street_NN
+[NP pendulum_JJ place_NN]
+my_PRP$ house_NN
+22_CD
+[NP the_DT bus_NN
+[NP our_PRP$ court_NN ]
+[NP vert_JJ av_NN]
+[VP tulip_VBG ] [NP street_NN ]
+[NP violet_NN town_NN]
+[NP fig_NN crt_NN ]
+[NP cranny_JJ golf_NN club_NN]
+[NP pinces_NNS fwy_NN]
+[NP jimboomba_NN ]
+[NP genesis_NN gym_NN ]
+[NP cranbourne_NN]
+[NP mia_NN mia_NN]
+[NP sweeney_NN ]
+[NP the_DT albury_NN airport_NN]
+[NP hunt_NN club_NN rd_NN]
+bendigo_NN
+shops_NNS
+[NP derby_NN ]
+[NP kennnnnnnnnnnnt_NN ]
+[NP thursday_VBG island_NN]
+[NP cruise_NN ] [VP to_TO harvey_VB ] [NP bay_NN ] [VP having_VBG ] [NP some_DT fun_NN ] [PP in_IN ] [NP the_DT sun_NN]
+[NP spoonbill_NN weowww_NN]
+[ADVP where_WRB ] [VP are_VBP ] youuuuuuuu_PRP$
+[NP the_DT kinglake_NN national_JJ park_NN ]
+[NP the_DT trees_NNS ]
+[NP coles_NNS ]
+[NP casey_NN central_JJ]
+[NP exton_NN crek_NN road_NN]
+[NP deanna_NN ]
+[NP oshea_NN rd_NN ]
+[NP lexton_NN ave_NN]
+13_CD
+[NP eildon_CD ]
+speed_NN boat_NN
+house_NN boat_NN
+[NP domain_NN deive_NN]
+[NP sugarloaf_NN creek_NN ]
+[NP our_PRP$ hotel_NN ]
+[NP the_DT road_NN ]
+the_DT cemetery_NN
+[NP e_NN ]
+[NP hoystead_RB ave_JJ]
+[PP in_IN ] [NP the_DT simpson_NN desert_NN ] but_CC [NP its_PRP$ hard_JJ ] [VP to_TO get_VB ] [NP reception_NN ] or_CC [VP even_RB describe_VB ] [NP the_DT landscape_NN]
+[NP the_DT tree_NN ]
+[NP marinda_NN park_NN]
+[PP in_IN ] [NP the_DT act_NN]
+[NP billabong_NN ]
+[NP the_DT national_JJ park_NN]
+[PP in_IN ] [NP hobart_NN ] [PP for_IN ] [NP the_DT weekend_NN ] [ADVP just_RB ] [VP got_VBD ] [PRT off_RP ] [NP spirit_NN ] and_CC [VP travelled_VBD ] [NP all_PDT the_DT way_NN ] here_RB
+[NP my_PRP$ house_NN
+[NP the_DT boulevard_NN ]
+[NP the_DT reserve_NN ]
+[NP coles_NNS ]
+[VP express_VBP ] [NP fuel_NN]
+[NP darling_JJ way_NN]
+[NP the_DT vic_NN park_NN ]
+[NP lalia_JJ street_NN
+number_NN ] [NP 21_CD
+[NP shops_NNS ]
+[NP d_NN ]
+[PP in_IN ] [NP wagga_NN wagga_NN]
+[VP visiting_VBG ] [NP the_DT northern_JJ territory_NN]
+[NP sharp_JJ crt_NN]
+[VP going_VBG ] [PP along_IN ] [NP the_DT coast_NN ] [VP to_TO get_VB ] [PP to_TO ] [NP perth_NN]
+[NP eureka_NN ]
+[NP the_DT skydeck_NN]
+[NP the_DT ave_NN ]
+[NP bulla_NN diggers_NNS road_NN]
+[NP trip_NN street_NN]
+liam_NN circuit_NN
+park_NN street_NN
+[NP mansfield_NN st_NN]
+[PP don_IN ] [NP \_NNP ] [NP '_POS t_NN ] [VP be_VB ] [ADJP afraid_JJ ] [VP to_TO be_VB ] [ADJP young_JJ and_CC free_JJ]
+[NP park_NN place_NN ]
+[NP the_DT old_JJ school_NN]
+[NP hall_NN street_NN ]
+[NP the_DT local_JJ shops_NNS]
+[NP the_DT cemetary_NN ]
+[NP lee_JJ street_NN ]
+[NP the_DT bp_NN ]
+[NP the_DT corner_NN]
+clifton_NN park_NN
+[NP the_DT city_NN ]
+hieldlburg_NN
+[NP i_FW \_NNP ] [NP '_POS m_NN right_NN ] [ADVP where_WRB ] [NP i_FW need_NN ] [VP to_TO be_VB]
+[NP essendon_FW hockey_NN centre_NN ]
+[NP bristol_VBG street_NN ]
+[NP essendon_JJ airport_NN ]
+[NP i_PRP ] [VP love_VBP you_PRP]
+[NP skipperstone_NN glen_NN ]
+[NP my_PRP$ roof_NN]
+[NP this_DT ] [VP will_MD be_VB ] [NP an_DT everlasting_JJ love_NN]
+eddie_NN barron_NN
+reserve_NN
+[NP getaway_RB drive_NN]
+[NP corner_NN ]
+maybury_NN
+kingston_NN
+[NP ardent_JJ crt_NN]
+[NP cashmere_JJ crt_NN]
+[NP jean_NN crt_NN]
+[NP the_DT end_NN ]
+[NP glenmaggie_NN close_NN]
+[NP willmott_NN crt_NN]
+[NP the_DT end_NN ]
+broadford_JJ
+way_NN
+highclogf_PRP$
+[NP gwen_NN rd_NN]
+[NP innes_NNS ] crt_.
+somewhere_RB
+[NP the_DT esplanade_NN]
+[NP yarrow_NN court_NN]
+[NP huon_NN park_NN rd_NN]
+[ADVP just_RB ] [VP cruising_VBG ] aeound_NN
+[NP esprit_NN ] ave_.
+[NP thompsoms_NNS ] [NP rd_JJ ]
+[NP cranbourne_NN]
+armitage_NN
+[NP grantham_NN cresent_NN]
+[NP scottsdale_NN ]
+linsell_VB
+[NP windsor_NN drive_NN]
+[NP mccubbin_NN]
+[NP f_NN ]
+[NP a_DT paddock_NN]
+[NP perry_NN circuit_NN]
+[NP nurture_NN ave_NN]
+[NP network_NN drive_NN]
+[NP hollywood_NN avenue_NN]
+[NP rix_NN rd_NN]
+[NP brayden_NN ]
+[NP vernon_NN rd_NN]
+[VP sitting_VBG ] [PP on_IN ] [NP empower_NN r_NN]
+[NP the_DT lake_NN ]
+[NP snapper_JJ point_NN drive_NN]
+[VP go_VB karting_VBG]
+[NP aldous_JJ place_NN ]
+[NP clocktower_NN ct_NN]
+[NP a_DT house_NN]
+[NP the_DT dandenong_JJ creek_NN]
+[NP garfield_NN berry_NN farm_NN ] and_CC [VP produce_VB ] [NP market_NN
+[NP eight_CD mile_NN rd_NN ]
+[NP i_FW \_NNP ] [NP '_POS m_NN ] [VP lost_VBD someone_NN come_VB get_VB ] [NP me_PRP]
+swimming_VBG
+[NP mn_NN ]
+[NP beacy_NN emerald_NN rd_NN]
+23_CD
+espirte_NN avenue_NN
+[NP cardi_NN creek_NN]
+[NP soldiers_NNS road_NN ]
+[NP farms_NNS ]
+[NP a_DT school_NN]
+[NP the_DT local_JJ farm_NN ]
+the_DT tractor_NN
+[VP dropping_VBG ] [NP some_DT stuff_NN ] [ADVP off_IN ] [PP at_IN ] [NP the_DT tip_NN]
+[NP mount_NN ] [VP eliza_VBD ]
+[NP the_DT peir_NN ]
+the_DT road_NN
+[NP quail_NN ] ialand_CC
+[NP crib_NN point_NN ]
+peir_
+seafood_NN
+beach_NN
+[NP the_DT heads_NNS ]
+[NP port_NN phillip_NN]
+[NP franky_JJ]
+[NP melbourne_JJ road_NN ]
+[NP rye_NN]
+[VP doing_VBG ] [NP some_DT moto_NN ] [VP endurance_VB ] up_RP here_RB
+[NP wilsons_NNS prom_NN]
+[NP lakes_NNS enterance_NN]
+[NP cape_NN ]
+[NP forest_NN ]
+[NP the_DT road_NN ]
+[NP land_NN ]
+emerald_VB
+wellington_DT road_NN
+lysterfield_NN park_NN lake_NN
+[NP hams_NNS boat_NN tour_NN ] [PP near_IN ] [NP rue_NN]
+dormant_JJ drive_NN
+[NP the_DT freeway_NN]
+[NP the_DT golf_NN country_NN resort_NN]
+[NP croyden_NN ]
+[VP carr_VBG ] [NP street_NN ]
+[NP geloong_VBG]
+[NP frawley_NN road_NN ]
+[NP tennis_NN courts_NNS]
+[NP zzzzzzz_NN ]
+paky_JJ
+cleaner_NN
+[NP mill_NN park_NN]
+[NP legend_NN court_NN]
+[NP kew_NN ]
+uckapunyal_NN
+race_NN track_NN
+thomastown_NN
+area_NN
+[NP the_DT south_JJ east_JJ water_NN purification_NN plant_NN]
+hawthorn_NN
+footy_NN oval_NN
+epping_VBG
+doncaster_VB
+[NP shopping_NN centre_NN]
+[NP the_DT km_NN ready_JJ reserve_NN]
+[NP motocross_NN tracks_NNS ]
+[NP forest_NN]
+[NP the_DT go_NN cart_NN track_NN ]
+[NP dande_NN]
+[NP dewhurst_NN ]
+[ADVP now_RB ] [PP i_IN ] [NP \_NNP ] [NP '_POS m_NN feelin_NNS ] [ADVP so_RB ] [VP fly_VBP ] [PP like_IN ] [NP a_DT g_NN ] 6_CD
+[VP bob_VBG ] [NP burgess_NN reserve_NN]
+doherty_NN st_NN
+golden_JJ beach_NN
+[NP mr_NN martha_NN golf_NN course_NN]
+[NP royal_JJ children_NNS hospital_NN]
+[NP qv_NN ]
+[NP domain_NN circuit_NN]
+[NP high_JJ street_NN]
+[NP rockin_NN vic_NN market_NN]
+[NP thomas_DT embling_JJ hospital_NN]
+[PP on_IN ] [NP central_JJ ave_NN ] [PP across_IN ] [PP from_IN ] [NP 2_CD nd_JJ street_NN]
+[NP jeffcott_NN st_NN]
+[PP on_IN ] [NP tinning_NN st_NN ] [ADVP just_RB ] [PP off_IN ] [NP sydney_NN st_NN]
+VP popping_VBG ] [NP my_PRP$ cherry_NN ] [PP at_IN ] [NP cherry_NN lake_NN]
+[NP quarry_NN park_NN ]
+[NP farnsworth_JJ ave_NN]
+[NP high_JJ st_NN ]
+[NP thornbury_NN]
+[NP end_NN ]
+[NP arnold_NN crt_NN]
+melb_NN
+gpo_NN
+intersection_NN
+[NP a_DT boat_NN]
+[VP giving_VBG ] [NP blood_NN ooooh_NN]
+[NP gtgfd_NN ]
+[NP ogrady_NN st_NN]
+[NP immigration_NN woooo_NN]
+[NP elm_NN st_NN ]
+[NP bliss_NN crt_NN]
+[NP the_DT sewage_NN treatment_NN plant_NN ]
+the_DT train_NN tracks_NNS
+[NP the_DT quarries_NNS]
+[NP hampshire_NN rd_NN
+couch_NN st_NN
+rod_NN laver_NN
+[NP st_NN pats_NNS cathedral_NN ]
+[VP gettin_VBG buried_VBN]
+[NP gunn_NN island_NN ]
+alphiongton_IN ] [NP station_NN
+[NP mcdonald_NN reserve_NN ]
+[NP chandler_NN highway_NN ]
+[NP i_NN ] [PP like_IN ] [NP cops_NNS]
+here_RB
+[NP bona_NN vista_NN rd_NN]
+[NP bennetswood_NN tennis_NN club_NN]
+[PP at_IN ] [NP mobil_JJ terminal_NN]
+[NP toyota_NN motors_NNS ]
+[NP port_NN melb_NN]
+[PP byrne_IN ] [NP ave_JJ ]
+[NP beach_NN st_NN]
+[PP on_IN ] [NP pickles_NNS ] [NP st_JJ hehe_NN pickles_NNS]
+[NP bezza_NN ]
+[NP darling_JJ way_NN]
+[NP this_DT ] [VP is_VBZ ] [ADVP where_WRB ] [NP i_PRP ] [VP want_VBP to_TO be_VB]
+the_DT green_JJ \_NN ] '_'' s_PRP
+[NP my_PRP$ house_NN ]
+[NP bess_JJ street_NN]
+[NP flinders_NNS st_JJ railway_NN station_NN]
+[NP charly_VBG street_NN]
+[NP the_DT yan_JJ yean_NN resivour_NN]
+[NP the_DT bridge_NN ]
+[NP beacy_NN]
+[NP cockatoo_NN]
+[PP in_IN ] [NP a_DT motel_NN ] [ADVP just_RB ] [PP outside_IN ] [PP of_IN ] [NP wagga_NN wagga_NN ] ,_, [ADVP directly_RB ] [PP at_IN ] [NP the_DT sturt_NN highway_NN ] [PP to_TO ] [NP sydney_NN]
+[NP tuerong_JJ town_NN]
+[NP upper_JJ beacy_NN ]
+golf_NN course_NN
+craigibourne_JJ
+town_NN
+[NP knox_NN shopping_NN centre_NN
+[NP corner_NN
+flinder_NN st_NN
+elizabeth_NN st_NN
+[NP tram_NN station_NN ]
+[NP mcdonalds_NNS ]
+[VP express_VB ] [NP pizza_NN]
+[NP tram_JJ stop_NN ]
+[NP myer_NN]
+[NP melbourne_JJ central_JJ shopping_NN centre_NN]
+seafood_NN
+beach_NN
+pizza_NN restaurants_NNS
+[NP anz_NN bank_NN]
+[NP horne_JJ streeet_NN ]
+[NP wood_NN street_NN ]
+[NP the_DT city_NN]
+melbourne_JJ
+golf_NN course_NN
+barkly_JJ street_NN
+flemington_VB
+[NP park_NN]
+[NP the_DT royal_JJ park_NN ]
+[NP the_DT city_NN]
+ballarat_VB ] [NP road_NN ]
+[NP the_DT princess_NN]
+[NP parsons_NNS street_NN]
+clyde_JJ street_NN
+moray_JJ street_NN
+[NP the_DT bridge_NN]
+[NP boathouse_NN drive_NN
+[NP the_DT yarra_NN]
+coucil_NN depot_NN
+[NP a_DT tram_NN ]
+[NP collins_NNS street_NN]
+45_CD
+little_JJ londsdale_JJ street_NN
+[VP spencer_VBG ] [NP street_NN station_NN]
+[VP tudor_VBG ] [NP street_NN ]
+[NP the_DT city_NN]
+[NP willis_DT street_NN ]
+st_VB ] [NP ._. kilda_NN]
+[NP dent_NN street_NN]
+[NP type_NN street_NN]
+[NP glasscocks_NNS]
+wellington_RB
+[NP loft_NN reserve_NN]
+[NP elm_NN street_NN]
+[NP sidderly_RB street_NN]
+[NP ruby_VBG street_NN]
+[NP footscray_NN train_NN station_NN]
+[NP dover_NN st_NN]
+[NP princes_NNS street_NN]
+[NP ryan_NN st_NN]
+[NP flagstaff_NN station_NN]
+[NP bell_NN st_NN]
+[ADVP vere_RB ] st_NN
+[NP yarra_NN boulavard_NN]
+[NP la_DT trobe_NN street_NN]
+[NP william_NN st_NN]
+bent_VBD [NP street_NN]
+[NP easy_JJ street_NN]
+[NP lalor_NN ]
+[NP queen_NN street_NN]
+[NP princes_NNS highway_NN ]
+[NP soldiers_NNS road_NN]
+[VP selling_VBG ] [NP a_DT swift_JJ]
+[ADVP hedgely_RB ] road_NN
+[NP woodend_NN ]
+[NP cranbourne_NN]
+[NP saffron_NN street_NN]
+[NP centre_NN ]
+[NP wilson_NN botanic_NN park_NN]
+[NP melbourne_JJ water_NN]
+[NP hight_JJ street_NN]
+harkaway_RB
+[NP not_RB sure_JJ xoxo_NN]
+[NP wood_NN rd_NN ]
+[NP grieves_NNS]
+[NP shelves_NNS road_NN]
+[NP baxter_NN ]
+[NP heatherton_NN road_NN]
+[NP prime_JJ ct_NN]
+[NP mansfield_NN st_NN]
+[NP inglis_NN ]
+[NP the_DT reserve_NN]
+[NP raven_NN crt_NN]
+[NP point_NN leo_NN ]
+[NP bass_NN]
+[NP mildura_NN ]
+[NP ararat_NN ]
+[ADVP south_RB ] [VP morang_VBG ]
+[NP track_NN]
+[NP norwhich_JJ drive_NN ]
+[NP cranny_NN]
+[NP woodstock_NN ]
+[NP echuca_NN ]
+[NP wonthaggi_NNS ]
+cardi_NN
+[NP foster_JJ]
+[NP melbourne_NN]
+[PP near_IN ] [NP me_PRP ] ;_: v_FW
+[NP collingwood_NN ]
+[NP coburg_NN ]
+[NP the_DT bend_NN ] [PP of_IN ] [NP island_NN]
+[NP boronia_NN ]
+[NP i_FW \_NNP ] [NP '_POS m_NN coree_NN ] ,_, [NP i_PRP ] [VP hope_VBP ] [NP this_DT helps_VBZ]
+m_NN ] [NP 1_CD freeway_NN]
+knox_VB ] [NP shops_NNS]
+[NP buffalo_NN ]
+[NP spring_NN creek_NN]
+[NP coldstream_NN ]
+[NP the_DT skate_NN park_NN]
+[UCP gelong_VBG]
+[NP vulleem_NN ]
+[NP raggedy_NN towny_NN]
+[NP big_JJ bourke_NN]
+[NP bourke_JJ street_NN]
+high_JJ street_NN
+narre_JJ
+[NP mg_JJ corner_NN]
+[NP pit_NN corner_NN]
+[NP the_DT straight_JJ]
+[NP black_JJ beech_NN rod_NN]
+[NP pi_NN]
+[NP southern_JJ loop_NN]
+[NP gap_NN road_NN ]
+[NP storm_NN lane_NN]
+[NP red_JJ rocks_NNS road_NN]
+[NP nature_NN park_NN]
+[NP rock_NN road_NN]
+[NP l_NN ]
+[NP 200_CD kph_NN gap_NN]
+[NP devi_NN lane_NN]
+[NP rhyll_NN ]
+[NP red_JJ rock_NN rd_NN]
+[NP foam_NN st_NN]
+[NP speed_NN run_NN]
+[ADVP back_RB ] [NP beach_NN roas_NN]
+[NP vetno_NN ]
+[NP australia_NNS]
+[NP cape_NN wollomi_NNS]
+[NP sunset_NN strip_NN]
+[NP jam_NN jerrup_NN]
+[NP newhavan_NN ]
+[NP tarwin_NN tower_NN]
+[NP p_NN ]
+[PP in_IN ] [NP the_DT sticks_NNS
+[NP noojee_NN]
+lilydale_JJ
+farm_NN
+devon_NN
+milk_NN produce_NN factory_NN
+[NP chemist_NN warehouse_NN
+[NP ireland_NN ave_NN]
+[NP gordon_NNP close_RB]
+[NP narre_JJ train_NN station_NN]
+[NP redman_NN close_RB]
+[NP the_DT monash_NN]
+[NP fg_NN]
+[NP safron_NN rice_NN]
+[NP drystale_NN ]
+[NP corm_NN st_NN]
+[NP the_DT street_NN]
+[NP the_DT movies_NNS ]
+[NP the_DT movies_NNS ]
+[NP village_NN cinemas_NNS ]
+[NP loving_VBG lifeeeeeeee_NN]
+[PP with_IN ] [NP my_PRP$ girl_NN ] :_: )_-RRB-
+[PP with_IN ] [NP my_PRP$ sister_NN ] :_: )_-RRB-
+[PP about_IN ] [VP to_TO watch_VB ] [NP due_JJ date_NN ] ._.
+[NP stafford_NN road_NN ]
+[NP subway_NN ]
+abbotsford_VB
+[NP a_DT fish_NN and_CC chip_NN shop_NN ]
+[NP the_DT town_NN]
+[NP a_DT sidestreet_NN ]
+[NP brunswick_NN ]
+[NP uni_JJ square_NN ]
+bulleen_JJ
+[NP clarke_NN st_NN]
+o_IN
+[NP it_PRP ] [VP was_VBD ] [ADJP all_RB yellow_JJ]
+[PP o_IN ] [NP \_NNP ] [NP '_POS hea_NN st_NN]
+[NP willy_JJ street_NN]
+[NP elm_NN]
+[NP ellen_JJ road_NN]
+[NP casey_JJ central_JJ shops_NNS]
+[NP sussex_NN ]
+home_NN
+[NP summerhill_NN ]
+[NP mill_NN st_NN]
+[NP lysol_NN road_NN]
+[NP the_DT cemetary_NN]
+[NP berwick_NN road_NN]
+[NP hardys_NNS rd_NN]
+[NP endeavor_NN hills_NNS]
+[NP clyde_NN ]
+[NP pound_NN rd_NN]
+[NP tooriden_NN ]
+[NP train_NN ]
+[NP hampton_NN park_NN]
+lysterfield_NN park_NN
+[NP my_PRP$ bike_NN]
+[NP horswood_NN road_NN]
+[NP cambletown_NN ]
+[NP kaloora_NN park_NN]
+[NP monbrae_NNS circuit_NN]
+[NP reserve_NN ]
+[NP fhhgdfjghtxhg_NN ]
+[NP melbourne_JJ central_JJ railway_NN station_NN]
+tram_NN 19_CD
+victoria_NN market_NN station_NN
+[NP victoria_NN tram_NN station_NN]
+melbourne_JJ uni_JJ
+university_NN square_NN
+melbourne_JJ uni_JJ
+[PP under_IN ] [NP ground_NN car_NN park_NN]
+[PP on_IN ] [NP bluegum_JJ way_NN]
+[NP you_PRP ] [VP tell_VB ] [NP me_PRP ] [ADVP where_WRB]
+woo_VB
+[NP my_PRP$ car_NN ]
+[NP vespa_NN drive_NN]
+inland_CC
+[NP narre_JJ warren_NN]
+[NP ovens_NNS reserrvw_NN]
+[NP victoria_NN garden_NN shopping_NN centre_NN]
+[NP ikea_NN richmond_NN]
+[NP wonthaggi_NNS ]
+[NP the_DT park_NN]
+[NP wonthaggi_NNS secondary_JJ college_NN
+dudley_JJ campus_NN
+[NP royal_JJ park_NN ]
+[NP cnr_NN ]
+royal_JJ pde_NN
+brunswick_NN st_NN
+brunswick_NN
+barkely_RB square_JJ shopping_NN centre_NN
+sydney_NN road_NN
+[NP barry_NN st_NN]
+[NP advancement_NN office_NN ]
+[NP barry_NN st_NN]
+leongatha_NN
+football_NN ground_NN
+[PP at_IN ] [NP the_DT center_NN ] [PP of_IN ] [NP the_DT map_NN]
+[NP kshek_NN ]
+[PP down_IN ] [NP the_DT way_NN]
+[NP innest_JJ court_NN]
+[NP alexia_NN drive_NN]
+[NP armband_NN road_NN]
+[NP gri_NN es_NNS es_NNS]
+[NP coburg_NN
+[NP moorabim_NN ]
+[NP greaves_NNS ]
+[NP cockatoo_NN ]
+[NP sarah_NN ct_NN]
+[NP centre_NN rd_NN]
+[NP fern_JJ way_NN]
+[NP the_DT grass_NN]
+you_PRP
+[NP glassocks_NNS ]
+[NP jakes_NNS house_NN]
+[NP hjhj_NN ]
+[NP vic_JJ street_NN]
+[NP fitzroy_NN ]
+[PP albert_IN ] [NP street_NN]
+[NP city_NN rd_NN]
+[NP grant_NN street_NN]
+[NP hope_NN st_NN]
+[NP highett_JJ street_NN]
+[NP balmain_NN st_NN]
+[NP island_NN ] [PP of_IN ] [NP dreams_NNS]
+serious_JJ
+[NP ernist_NN wanke_NN]
+[NP onyx_NN ]
+[NP j_NN ]
+[NP magic_JJ drive_NN]
+[NP norfolk_NN drive_NN]
+[NP eddy_JJ flack_NN reserve_NN]
+[NP sweeny_JJ reserve_NN]
+[NP swing_NN set_NN]
+lake_NN
+park_NN
+[NP my_PRP$ house_NN ]
+[NP beacy_NN]
+ipswich_
+[NP narre_JJ warren_NNS ] central_JJ
+[NP airport_NN west_NN]
+[NP clocktower_NN ]
+[NP center_NN road_NN]
+[NP rowville_NN]
+[NP kilcunda_NN ]
+dandenong_VBG
+[NP bundoora_NN ]
+[NP malvern_NN east_RB]
+[NP home_NN]
+[NP balla_NN]
+[NP jb_NN hifi_NN
+[VP brouk_VBD ] [NP st_NN]
+[NP brents_NNS house_NN]
+[NP beacy_NN ]
+[NP sofas_NNS pizza_NN]
+uni_JJ
+[NP cop_NN ]
+[NP donny_NN ]
+[NP blaclburn_NN ]
+[NP the_DT yarra_NN]
+[NP swan_JJ street_NN]
+[NP mulgrve_NN ]
+dandenong_JJ
+apple_NN
+[NP hallam_NN ]
+[NP train_NN station_NN]
+[NP the_DT beautiful_JJ secret_JJ harbour_NN ]
+[VP links_VBZ ] [NP golf_NN course_NN]
+[NP red_JJ rooter_NN]
+[NP nobel_NN park_NN]
+[NP craigie_NN]
+[NP bear_NN trap_NN]
+[NP the_DT creek_NN]
+[NP sa_NN ]
+[NP beconafield_VBN upper_JJ]
+[NP glasscocks_NNS ]
+narre_JJ
+[NP thompson_NN road_NN]
+[NP princes_NNS ]
+[NP policd_NN ]
+[NP roville_NN ]
+[NP narre_JJ]
+[NP water_NN ]
+[NP pi_NN ]
+[NP southern_JJ cross_NN station_NN]
+babel_NN building_NN
+melbourne_NN ] uni_JJ
+[NP vmax_NN ]
+[NP westfield_NN ]
+[NP tram_NN station_NN ]
+[NP victoria_NN market_NN]
+[NP freway_NN ]
+[NP koo_NN wee_NN rup_NN]
+[NP paky_NN]
+[UCP epping_VBG]
+[NP craigie_NN]
+[NP ringwood_NN ]
+[NP sticks_NNS ]
+[NP water_NN plant_NN]
+[NP cranny_NN ]
+[NP somerville_NN ]
+[NP bailleau_NN library_NN ]
+[NP university_NN ] [PP of_IN ] [NP melbourne_NN]
+[NP narre_JJ north_NN]
+[NP indian_NN
+[NP moorabin_NN ]
+[NP st_NN ] ._. [VP kilda_NN ] [NP footy_NN club_NN]
+[NP hippo_NN ]
+[NP perth_NN cbd_NN]
+toowoomba_.
+[NP east_JJ hawthorn_NN
+[NP federation_NN square_NN]
+[NP glen_NN iris_NN]
+[NP brougham_VBN street_NN]
+[NP malvern_NN east_RB ]
+[NP vic_JJ ]
+[NP australia_NNS]
+23_CD
+wiseman_NN st_NN
+[VP hawthorn_VBN ] east_RB
+[NP iris_NN road_NN ]
+[NP glen_NN iris_NN ]
+[NP victoria_NN ]
+[NP australia_NNS]
+melbourne_JJ
+cbd_NN
+[PP willis_IN ] [NP street_NN ]
+[NP hampton_NN ]
+[NP 3188_CD ]
+australia_CC
+[PP willis_IN ] [NP street_NN ]
+[NP hamoton_NN ]
+[NP 3188_CD ]
+australia_CC
+[NP my_PRP$ mother_NN ] \_, '_'' [NP s_PRP ] [NP house_NN ]
+[NP her_PRP$ guest_NN room_NN ]
+[NP campbell_NN street_NN ]
+[NP tecoma_NN ]
+[NP the_DT train_NN station_NN ]
+[NP main_JJ building_NN ]
+[NP ormond_NNP college_NN ]
+[NP university_NN ] [PP of_IN ] [NP melbourne_NN ]
+[NP ormond_NN college_NN ]
+[NP university_NN ] [PP of_IN ] [NP melbourne_NN ]
+[NP ormond_NN college_NN ]
+[NP university_NN ] [PP of_IN ] [NP melbourne_NN]
+[NP napier_NN street_NN ]
+fitzroy_RB
+[NP thornbury_NN ]
+[NP the_DT creek_NN]
+rmit_NN university_NN
+cnr_NN
+latrobe_NN
+swanston_NN sts_NNS
+[NP burramine_NN south_RB
+1_CD
+bewdley_NN st_NN
+ormond_CC
+vic_NN
+[NP the_DT corner_NN ]
+[NP walnut_NN st_NN ]
+[NP mckinnon_NN secondary_JJ college_NN ]
+[NP the_DT back_NN entrance_NN ]
+[NP the_DT sports_NNS oval_NN]
+[NP carlton_NN ]
+[NP warrion_NN ]
+john_NN street_NN
+williamstown_MD
+[NP my_PRP$ mother_NN ] \_, '_'' [NP s_PRP ] [VP house_NN ]
+[NP port_NN fairy_NN]
+[NP glen_NN waverely_NN]
+camberwell_NN
+junction_NN
+[NP federation_NN square_NN ]
+[PP cnr_IN ]
+[NP flinders_NNS street_NN ]
+[VP swanston_VB ] [NP street_NN]
+[NP federation_NN square_JJ
+corner_NN
+st_NN kilda_NN road_NN
+flinders_NNS street_NN
+melbourne_JJ
+vic_NN
+3000_CD
+[NP hill_NN st_NN ]
+[NP church_NN street_NN ]
+[NP hawthorn_NN]
+[NP richmond_NN ]
+[NP corner_NN ]
+[NP park_NN ]
+[NP parry_JJ st_NN ]
+[NP big_JJ house_NN ]
+[NP the_DT railway_NN crossing_NN ]
+8_CD
+exhibition_NN street_NN
+melbourne_NN
+3000_CD
+[NP st_NN kilda_NN road_NN ]
+[NP melbourne_NN ]
+[NP two_CD buildings_NNS ]
+[NP the_DT police_NN headquarters_NN ]
+[NP the_DT royce_NNP hotel_NN ]
+my_PRP$ 13_CD th_NN floor_NN balcony_NN
+melbourne_JJ grammar_NN school_NN
+[NP the_DT botanical_JJ gardens_NNS ]
+[NP the_DT shrine_NN ] [PP of_IN ] [NP remembrance_NN ]
+the_DT synagogue_NN
+fawkner_NN park_NN
+[NP i_FW \_NNP ] [NP '_POS m_NN ] [VP stuck_VBD ] [PP between_IN ] [NP a_DT children_NNS ] \_, '_'' [NP s_PRP ] [NP playground_NN ] ,_, [NP a_DT retirement_NN village_NN ] ,_, [NP a_DT new_JJ building_NN site_NN ] and_CC [NP a_DT defiant_JJ old_JJ fisherman_NN ] \_, '_'' [NP s_PRP ] [VP shack_VB ] ,_, [NP a_DT microcosm_NN ] [PP of_IN ] [NP this_DT strange_JJ little_JJ town_NN ] [PP that_IN ] [NP \_NNP ] [NP '_POS s_PRP ] [VP growing_VBG up_RP do_VB ] [ADVP fast_RB ] ._.
+[NP the_DT basement_NN carpark_NN ]
+[NP the_DT mcg_NN]
+[NP redfern_NN road_NN ]
+[VP hawthorn_VBN ] east_RB
+[NP redfern_NN road_NN ]
+[VP hawthorn_VBN ] east_RB
+[NP i_FW \_NNP ] [NP '_POS m_NN ] [NP an_DT expat_NN australian_NN ] [VP currently_RB living_VBG and_CC working_VBG ] [PP in_IN ] [NP brussels_NNS ] ,_, [NP belgium_NN ] ._. [ADVP when_WRB ] [PP in_IN ] [NP australia_NNS ] ,_, [NP i_PRP ] [VP stay_VBP ] [PP with_IN ] [NP family_NN ] [PP in_IN ] [NP cole_NN st_NN brighton_NN ] ,_, [NP vic_NN]
+[NP the_DT corner_NN ]
+[NP flinders_NNS ] [ADJP st_JJ ]
+[NP st_JJ kilda_NN rd_NN ]
+[NP flinders_NNS ] [NP st_JJ station_NN ]
+[NP the_DT other_JJ corners_NNS ]
+[ADJP young_JJ ] and_CC [NP jacksons_NNS ]
+[NP st_NN pauls_NNS cathedral_NN ]
+old_JJ lorne_JJ road_NN
+deans_NNS marsh_NN
+[NP the_DT winchelsea_NN ] -_: [NP lorne_JJ road_NN ]
+[NP deans_NNS marsh_NN
+victoria_NN
+[NP x_NN ]
+[NP an_DT office_NN ]
+[NP the_DT sidney_NN myer_NN asia_NN centre_NN ]
+[NP the_DT university_NN ] [PP of_IN ] [NP melbourne_NN ]
+[NP an_DT office_NN ]
+[NP the_DT oval_NN ]
+[NP the_DT colleges_NNS ]
+[NP a_DT lot_NN ] [PP of_IN ] [NP trees_NNS ]
+[NP my_PRP$ office_NN ]
+[NP the_DT centre_NN ] [PP for_IN ] [NP theology_NN and_CC ministry_NN ]
+29_CD
+college_NN crescent_JJ
+parkville_NN
+[NP the_DT melbourne_NN general_NN cemetery_NN
+main_JJ gate_NN
+222_CD
+exhibition_NN street_NN
+melbounre_NN
+1_CD
+collins_NNS street_NN
+[NP the_DT road_NN ]
+[NP parliament_NN house_NN]
+[NP northern_JJ brunswick_NN ]
+[NP albion_NN st_NN ]
+north_RB brunswick_JJ
+primary_JJ school_NN
+[NP melbourne_JJ ]
+[NP camberwell_NN station_NN ]
+[NP the_DT t_NN junction_NN ]
+[NP barkers_NNS ] [ADJP rd_JJ ]
+[NP burke_JJ rd_NN ]
+[NP harcourt_NN st_NN ]
+[NP hillview_NN drive_NN ]
+[NP kilsyth_NN]
+25_CD
+malmsbury_NN st_NN
+hawthorn_NN
+1_CD
+25_CD
+malmsbury_NN st_NN
+hawthorn_NN
+vic_NN
+australia_NNS
+258_CD
+queensberry_JJ street_NN
+[SBAR melbourne_VBG]
+[NP federation_NN square_NN]
+unit_NN 1_CD
+25_CD
+malmsbury_NN st_NN
+hawthorn_NN
+vic_NN
+[NP healthcare_NN chaplaincy_NN council_NN ]
+[NP victoria_NN]
+[VP cumming_VBG ] [NP st_NN ]
+[NP melville_JJ road_NN ]
+[NP brunswick_NN west_NN ]
+456_CD
+lonsdale_JJ street_NN
+[NP queen_NN ]
+[NP william_JJ streets_NNS ]
+[NP information_NN centre_NN ]
+[NP university_NN ] [PP of_IN ] [NP melbourne_JJ
+swanston_JJ st_NN
+[NP fed_VBN square_NN]
+[NP brunettis_NN ]
+20_CD
+queen_NN street_NN
+[NP 12_CD ] [PP th_IN ] [NP floor_NN ]
+[NP the_DT spot_NN building_NN]
+[NP an_DT office_NN ]
+[NP the_DT eighth_JJ floor_NN ]
+my_PRP$ office_NN
+[NP windows_NNS ]
+glass_NN door_NN
+[NP the_DT university_NN campus_NN ]
+[NP the_DT redmond_NN barry_NN building_NN ]
+[NP the_DT airconditioner_NN ]
+[NP a_DT bench_NN ]
+[NP a_DT building_NN ]
+[NP a_DT public_JJ building_NN ]
+[NP a_DT busy_JJ road_NN ]
+[NP some_DT grassy_JJ sculptures_NNS ]
+[NP bike_NN racks_NNS ]
+a_DT car_NN park_NN
+[NP the_DT neaby_JJ building_NN ]
+[NP a_DT council_NN building_NN ]
+[NP the_DT building_NN ]
+[NP corner_NN ]
+[NP grattan_JJ street_NN ]
+[VP barry_VB ] [NP street_NN ]
+[NP carlton_NN ]
+[NP victoria_NN ]
+[NP australia_NNS]
+[NP a_DT leafy_JJ street_NN ]
+[NP a_DT footpath_NN ]
+[NP a_DT beautiful_JJ tranquil_NN area_NN ]
+[NP corner_NN ]
+[NP como_NN parade_NN ] [ADVP east_RB ]
+[VP parkers_NNS ] [NP road_NN ]
+[NP the_DT library_NN building_NN
+bee_NN shop_NN
+[NP the_DT parkdale_NN railway_NN station_NN]
+402_CD
+station_NN street_NN
+carlton_NN ] north_RB
+[NP bungendore_NN ]
+11_CD
+grosvenor_NN pde_NN
+[NP balwyn_NN ]
+[NP vic_NN ]
+3103_CD
+21_CD
+yarra_NN grove_NN
+[NP hawthorn_NN]
+402_CD
+station_NN street_NN
+[ADVP north_RB ] carlton_.
+[NP the_DT old_JJ workers_NNS ] \_CC [NP '_POS district_NN ]
+[NP a_DT new_JJ industrial_JJ zone_NN
+[NP a_DT very_RB desirable_JJ inner_JJ -_: city_NN suburban_JJ area_NN ]
+63_CD
+exhibition_NN street_NN
+level_NN 6_CD
+1_CD
+collins_NNS ] [ADVP st_RB ]
+melbourne_
+121_CD
+exhibition_NN st_NN
+[NP melbourne_NN]
+63_CD
+exhibition_NN streetr_NN
+[ADVP south_RB ] yarra_NN
+kirribilli_FW
+[NP state_NN records_NNS office_NN ] [PP of_IN ] [NP western_JJ australia_NNS ] ,_, [PP alexander_IN ] [NP library_NN building_NN ] ,_, [NP perth_JJ cultural_JJ centre_NN ] ,_, [NP perth_NN ] ,_, [NP western_JJ australia_NNS ] ,_, 6000_CD
+corner_NN
+grey_NNP
+simpson_RB ] street_NN
+starbucks_NNS
+swanston_NN st_NN
+[NP university_NN ] [PP of_IN ] [NP canberra_NN ] ,_, [NP act_NN]
+108_CD
+lonsdale_JJ st_NN
+melbourne_NN
+108_CD
+lonsdale_JJ st_NN
+melbourne_
+[NP work_NN ]
+[NP the_DT law_NN building_NN ]
+jackson_NN st_NN
+richmond_NN
+[NP i_FW \_NNP ] [NP '_POS m_NN ] [PP in_IN ] [NP my_PRP$ tropical_JJ louvred_JJ home_NN ] [VP surrounded_VBN ] [PP by_IN ] [NP lush_JJ moist_JJ garden_NN ] [PP in_IN ] [NP millner_CD ] [NP a_DT darwin_JJ suburb_NN ] ._.
+[NP i_PRP ] [VP am_VBP ] [PP in_IN ] [NP the_DT executive_JJ building_NN ] [PP at_IN ] [NP 15_CD murray_NN st_NN ] ,_, [NP hobart_NN ] ._.
+[NP cheltenham_NN ]
+nepean_JJ hwy_JJ
+service_NN road_NN
+mentone_NN beach_NN
+[NP swinden_NN ave_JJ
+[NP the_DT royal_JJ oak_NN hotel_NN ]
+[NP my_PRP$ house_NN ]
+[NP the_DT street_NN ]
+[NP a_DT mushroom_NN pink_JJ /_JJ brown_JJ wire_NN 1940_CD ] [VP s_VBZ ] [NP style_NN fence_NN ]
+[NP a_DT double_JJ carport_NN ]
+[NP the_DT driveway_NN ]
+[NP my_PRP$ art_NN studio_NN]
+[NP my_PRP$ art_NN studio_NN]
+[NP tyndall_JJ street_NN ]
+[VP surrey_VBG ] [NP hills_NNS
+[NP highfield_JJ road_NN ]
+[NP canterbury_NN primary_JJ school_NN ]
+[NP flinders_NNS street_NN station_NN]
+northwest_JJ corner_NN
+king_NN street_NN
+flinders_NNS lane_NN
+[NP melbourne_NN]
+whitley_NN college_NN
+271_CD
+royal_JJ pde_NN
+parkville_NN
+73_CD
+york_NNP street_NN
+richmond_NN
+3121_CD
+360_CD
+collins_NNS street_NN
+NP jacksons_NNS hill_NN
+[NP the_DT precincts_NNS ]
+[NP the_DT township_NN ]
+[NP sunbury_NN ]
+[NP the_DT centre_NN ] [PP of_IN ] [NP melbourne_NN ]
+[NP exhibition_NN street_NN]
+[NP west_NN footscray_NN ]
+71_CD
+pitt_NN st_NN
+[NP a_DT street_NN ]
+[NP ashley_NN st_NN ]
+[NP a_DT shopping_NN centre_NN ]
+[NP tottenham_NN station_NN]
+brenbeal_NN st_NN
+balwyn_NN
+[NP my_PRP$ office_NN ]
+[NP the_DT second_JJ floor_NN ]
+[NP the_DT baldwin_JJ spencer_NN building_NN ]
+[NP corner_NN ]
+[NP tin_NN alley_NN
+union_NN rd_NN
+[NP the_DT university_NN ] [PP of_IN ] [NP melbourne_NN]
+[NP state_NN records_NNS office_NN ] [PP of_IN ] [NP wa_CD]
+[NP northbridge_NN ]
+[NP st_NN ] ._. [VP kilda_NN ]
+[NP town_NN hall_NN]
+[VP sitting_VBG ] [PP opposite_IN ] [NP a_DT yellow_JJ pos_NNS]
+28_CD
+webster_NN street_NN
+camberwell_NN
+3124_CD
+[PP don_IN ] [NP street_NN ]
+[UCP bendigo_VBG]
+[NP yarra_NN \_NN ] '_'' [NP s_PRP ]
+[NP edge_NN
+lorimer_JJ street_NN
+docklands_NNS
+60_CD
+lorimer_NN street_NN
+[NP docklands_NNS ]
+3008_CD
+[NP the_DT footpath_NN ]
+[NP a_DT little_JJ side_NN street_NN ]
+[NP a_DT warm_JJ happy_JJ place_NN ]
+27_CD
+george_NN st_NN
+moonee_NN ponds_NNS
+[NP tram_NN ]
+[NP royal_JJ parade_NN]
+[NP southbank_NN]
+[NP canberra_NN ]
+[NP melba_NN ]
+[NP curtain_NN street_NN ]
+[ADVP north_RB ] carlton_.
+1_CD
+larado_NN place_NN
+[NP clayton_NN south_RB ]
+3169_CD
+[NP the_DT road_NN ]
+merri_JJ river_NN
+bridge_NN
+woodford_NN
+[NP history_NN house_NN ]
+historical_JJ society_NN
+gilles_NNS street_NN
+warrnambool_NN
+[NP mother_NN ] \_, '_'' [NP s_PRP ] [VP house_NN ]
+99_CD
+high_JJ street_NN
+koroit_NN
+[NP devon_NN meddows_NNS]
+[NP ascot_NN vale_NN]
+[NP corner_NN ]
+[NP russell_NNP ]
+[NP la_DT trobe_NN sts_NNS]
+corner_NN
+[NP warragul_NN ]
+lillico_VB
+[NP warragul_NN ]
+[NP the_DT edge_NN ] [PP of_IN ] [NP town_NN ]
+[NP the_DT paddock_NN ]
+old_JJ warragul_NN drive_NN
+[NP cinema_NN ]
+23_CD
+nicolas_NNS crt_NN ]
+[NP bunyip_NN crt_NN ]
+[NP home_NN ]
+[NP the_DT sixth_JJ house_NN ]
+[NP the_DT end_NN ]
+[NP princess_NN st_NN ] [ADVP south_RB ]
+[NP the_DT street_NN ]
+[NP brougham_VBN st_NN ]
+[NP richmond_NN
+[NP a_DT suburb_NN ]
+[NP the_DT city_NN ]
+brougham_RP [NP st_NN ]
+church_NN st_NN
+bridge_NN rd_NN
+princess_NN st_NN
+[NP the_DT third_JJ turn_NN ]
+[NP church_NN st_NN ]
+[NP the_DT corner_NN ]
+bridge_NN rd_NN
+[NP this_DT road_NN ]
+[NP wellington_JJ parade_NN ]
+[NP flinders_NNS ] [ADVP st_RB ]
+[NP federation_NN square_NN ]
+[NP the_DT corner_NN ]
+flinders_NNS st_NN
+swanston_NN st_NN
+6_CD
+tarago_JJ court_NN
+kialla_NN
+vic_NN
+3631_CD
+[NP federation_NN square_NN]
+[NP 97_CD ebden_JJ street_NN ] ,_, [NP ainslie_NN ] -_: [VP starting_VBG ] [PP at_IN ] [NP the_DT ainslie_NN shops_NNS ] ,_, [NP head_NN ] [PP up_IN ] [NP the_DT middle_JJ street_NN ] [PP opposite_IN ] [NP the_DT iga_NN supermarket_NN ] ,_, [NP turn_NN ] [VP left_VBD ] [PP at_IN ] [NP the_DT end_NN ] [PP of_IN ] [NP the_DT street_NN ] and_CC [NP head_NN 250_CD m_NN ] [PP up_IN ] [NP the_DT road_NN ] ,_, [PP with_IN ] [NP the_DT house_NN ] [NP the_DT third_JJ house_NN ] [PP on_IN ] [NP the_DT left_NN ] [PP before_IN ] [NP the_DT roundabout_NN ] ._.
+home_NN
+[NP spencer_NN st_NN ]
+[NP a_DT big_JJ shopping_NN centre_NN ]
+[NP 8_CD benwerrin_VBG rd_NN ] ,_, [NP wamberal_NN]
+[NP deannas_NNS house_NN]
+[NP monbrae_NNS cir_NN]
+[NP back_JJ porch_NN ]
+[NP pine_NN mountain_NN ]
+wood_NN street_NN
+[NP m_NN 1_CD]
+91_CD
+church_NN st_NN
+[NP creswick_NN]
+[NP pilkington_NN ]
+[NP glasscocks_NNS road_NN]
+[NP a_DT golden_JJ elm_NN ]
+[NP the_DT beautiful_JJ goulburn_NN river_NN
+town_NN ] [PP of_IN ] [NP shepparton_NN ]
+[NP this_DT thriving_JJ regional_JJ arts_NNS city_NN ]
+[NP bell_NN st_NN ]
+[NP melville_NN rd_NN ]
+[VP reynolds_VBZ ] [NP pde_NN ]
+[NP bell_NN st_RB ]
+[NP melville_NN rd_NN ]
+[VP reynolds_VBZ ] [NP pde_NN ]
+[NP bridge_NN ]
+[NP yarra_NNP river_NN]
+38_CD
+binbrook_NN dve_NN
+[NP croydon_NN]
+[NP jacobena_NN place_NN ]
+[NP templestowe_JJ ]
+[NP the_DT hills_NNS ]
+[NP the_DT local_JJ cemetery_NN ]
+[NP dockland_NN ]
+[NP shopping_NN centre_NN ]
+[NP the_DT see_VBP ]
+[NP george_NN st_NN ]
+[ADVP east_RB ] melbourne_.
+[NP canberra_NN ] ,_, [NP australian_JJ capital_NN territory_NN ] ,_, [NP australia_NNS]
+[NP brunswick_NN ]
+[NP seddon_NN ]
+[NP footscray_NN ]
+[VP melbourne_VB \_CC '_POS ] [NP s_PRP ]
+[NP the_DT cbd_NN]
+kensington_
+[NP melb_NN ]
+[NP golf_NN links_NNS]
+coral_JJ
+[NP cranborne_JJ south_RB]
+[NP tyabb_NNS ]
+[NP st_NN kilda_NN road_NN ]
+an_DT amusement_NN park_NN
+luna_NN park_NN
+[NP the_DT see_VBP ]
+[NP the_DT st_NN ]
+[NP neerim_JJ rd_NN ]
+[NP carnegie_NN ]
+[NP two_CD train_NN stations_NNS ]
+carnegie_NN
+murrumbeena_NN
+cnr_NN
+elizabeth_, st_NN
+flinders_NNS lane_NN
+[NP coles_NNS ]
+[NP flinders_NNS railway_NN station_NN]
+[NP myer_JJ shopping_NN mall_NN ]
+[NP brouk_JJ st_NN ]
+[NP myer_JJ shopping_NN mall_NN ]
+[NP bourke_JJ st_NN ]
+[NP melbourne_JJ city_NN]
+[NP lonsdale_JJ st_NN ]
+[NP melbourne_JJ central_JJ]
+[NP la_DT trobe_NN st_NN ]
+[NP melbourne_JJ central_JJ railway_NN station_NN]
+[NP melbourne_JJ uni_JJ ]
+[NP grattan_NN st_NN]
+[NP wonthaggi_NNS hospital_NN]
+[NP dalyston_NN general_JJ store_NN]
+[NP mt_JJ misery_NN ]
+[NP victoria_NN ]
+[NP the_DT area_NN ]
+[NP kongwak_NN ]
+[NP victoria_NN]
+wonthaggi_NNS
+railway_NN station_NN
+[NP maryborough_NN ]
+[NP victoria_NN ]
+[NP number_NN 5_CD brace_NN ]
+[NP wonthaggi_NNS ]
+[NP victoria_NN hall_NN ]
+[NP whale_NN rock_NN ]
+[NP tidal_JJ river_NN ]
+[NP these_DT rocks_NNS ]
+[NP uluru_NN ]
+[NP tooradin_NN ]
+[NP sidney_NN myer_NN music_NN bowl_NN]
+[NP east_JJ malvern_NN station_NN]
+[NP glen_NN alvie_NN ] [NP recreational_JJ reserve_NN]
+[NP wonthaggi_NN desalination_NN plant_NN]
+[NP wonthaggi_NNS ]
+[VP wind_VBP ] [NP farm_NN]
+wonthaggi_NNS
+wetlands_NNS
+old_JJ rifle_NN range_NN
+wonthaggi_NN
+caldermeade_NN
+[NP windsor_NN station_NN]
+[NP punt_NN road_NN oval_NN]
+[NP mcg_NN ]
+[NP arts_NNS centre_NN]
+[NP leslie_NN road_NN ]
+essendon_FW
+[NP lawn_NN ]
+[NP the_DT merri_JJ river_NN ]
+[NP tall_JJ gum_NN trees_NNS ]
+[NP a_DT hill_NN ]
+[NP a_DT single_JJ house_NN ]
+[NP carlton_NN nth_NN]
+30_CD
+greendale_JJ rd_JJ
+doncaster_NN ] east_RB
+[NP melbourne_JJ central_JJ station_NN ]
+[NP the_DT tram_NN ]
+[NP the_DT university_NN ]
+[NP richmond_JJ train_NN station_NN ]
+melbourne_JJ aquarium_NN
+cross_NN
+flinders_NNS
+[NP king_NN street_NN]
+cape_NN paterson_NN
+boat_NN ramp_NN
+[NP gardens_NNS]
+[NP rod_NN lava_NN arena_NN]
+[NP state_NN library_NN]
+[NP melbourne_JJ high_JJ school_NN]
+st_NN kilda_NN
+botanical_JJ gardens_NNS
+[NP melbourne_NN aquarium_NN]
+[NP victoria_NN barracks_NNS]
+[NP albert_NN park_NN]
+[NP caufield_NN racecourse_NN]
+[NP parliament_NN station_NN]
+[NP phar_NN lap_NN]
+skydeck_NN
+[NP etihad_NN stadium_NN]
+[NP olympic_JJ park_NN]
+[NP mercy_NN private_JJ hospital_NN]
+[NP vodaphone_NN arena_NN]
+[NP barkley_NN gardens_NNS]
+[NP stradbroke_NN park_NN]
+[NP maclea_NN park_NN]
+[NP queen_NN victoria_NN market_NN]
+arden_JJ st_NN
+oval_NN
+[NP fawkner_NN park_NN]
+[NP royal_JJ botanic_NN gardens_NNS]
+[PP albert_IN ] [NP park_NN ] [VP driving_VBG ] [NP range_NN]
+[PP albert_IN ] [NP park_NN golf_NN course_NN]
+[NP st_NN pauls_NNS cathedral_NN]
+[NP st_NN vincent_NN gardens_NNS]
+[NP holbrook_NN reserve_NN]
+[NP cooks_NNS cottage_NN]
+[NP powlett_NN reserve_NN]
+[NP fairview_NN park_NN]
+[NP norris_JJ reserve_NN]
+[NP edinburgh_NN gardens_NNS]
+[NP essendon_FW airport_NN]
+[NP lincoln_NN square_NN]
+[NP docklands_NNS park_NN]
+[NP st_NN patricks_NNS cathedral_NN]
+[NP victoria_NN gardens_NNS]
+[NP sir_NN robert_NN menzies_NNS reserve_NN]
+[NP malvern_NN reserve_NN]
+[NP alma_DT park_NN west_NN]
+[NP pinewood_NN reserve_NN]
+[NP fleming_NN park_NN]
+[NP port_NN melbourne_NN cricket_NN ground_NN]
+[NP point_NN park_NN]
+[NP melbourne_JJ grammar_NN sports_NNS ground_NN]
+[NP lagoon_NN reserve_NN]
+[NP st_NN kilda_NN beach_NN]
+[NP lygon_NN street_NN]
+[NP edwards_NNS park_NN]
+[NP catani_NNS gardens_NNS]
+[NP jolimont_JJ station_NN]
+[NP windsor_NN siding_NN]
+[NP caribeen_NN gardens_NNS]
+[NP glenferrie_NN oval_NN]
+[NP canterbery_NN gardens_NNS]
+[NP st_NN james_NNS park_NN]
+[NP argyle_NN square_NN]
+[NP clayton_NN square_NN]
+[NP freemasons_NNS hospital_NN]
+[NP westfield_NN ovals_NNS]
+[NP melbourne_JJ general_JJ cemetery_NN]
+[NP herring_VBG island_NN]
+[NP asdfhjkl_NN ]
+[NP caulfield_NN park_NN]
+[NP burwood_NN cemetry_NN]
+[NP ha_WP ] [VP smith_VBP ] reserve_NN
+[NP toorak_NN park_NN]
+[NP valley_NN reserve_NN]
+[NP princes_NNS gardens_NNS]
+[NP ureka_NN skydeck_NN]
+[NP morang_JJ reserve_NN]
+[NP kooyong_JJ tennis_NN club_NN]
+[NP melbourne_JJ university_NN sports_NNS complex_NN]
+[NP dickinson_NN reserve_
+[NP paisley_NN park_NN]
+[NP state_NN library_NN ] [PP of_IN ] [NP victoria_NN]
+[NP campbell_NN reserve_NN]
+[NP surrey_NN gardens_NNS]
+[NP newells_NNS paddock_NN]
+[NP homemaker_NN city_NN]
+[NP gahan_NNP reserve_NN]
+[NP south_JJ melbourne_JJ police_NN station_NN]
+wonthaggi_NNS
+war_NN memorial_NN
+[NP ornamental_JJ lake_NN]
+[NP sol_JJ green_JJ reserve_NN]
+[NP whale_NN rock_NN ]
+[NP tidal_JJ river_NN]
+[NP dandy_JJ ranges_NNS]
+[NP princess_NN freeway_NN]
+[NP heidelberg_NN ]
+[NP ooo_NN ]
+[NP timber_NN ridge_NN reserve_NN]
+[NP glassy_NN road_NN]
+[NP gunn_NN island_NN]
+phillip_VB ] [NP island_NN]
+[NP the_DT bass_NN hwy_NN]
+[NP albert_NN point_NN]
+[NP bob_NN jane_NN stadium_NN]
+[NP melbourne_JJ sports_NNS ] and_CC [NP aquatic_JJ centre_NN]
+[NP san_FW remo_NN]
+[NP p_NN ] ._. i_FW
+[NP waves_NNS apartment_NN]
+[NP phillip_NN island_NN road_NN]
+[NP wonthaggi_NNS secondary_JJ college_NN ]
+438_CD
+[NP box_NN hill_NN gardens_NNS]
+[NP surrey_JJ hills_NNS train_NN station_NN]
+[NP the_DT street_NN]
+[NP french_JJ island_NN ]
+[NP devon_NN meadows_NNS]
+[NP police_NN paddocks_NNS]
+reddy_VB
+[NP m_NN 1_CD]
+[NP casey_NN ]
+[NP melb_NN uni_JJ]
+[NP fg_NN ]
+[NP magid_NN racimg_NN]
+[NP redman_NN ]
+[NP freeway_NN ]
+[NP glenferrie_NN station_NN ]
+[NP masson_NN road_NN ]
+[NP university_NN ] [PP of_IN ] [NP melbourne_NN]
+rmh_JJ
+royal_JJ park_NN
+wa_VBD somewhere_RB
+[PP near_IN ] [NP qork_NN]
+[NP lilydale_NN]
+[NP subway_NN ]
+[NP belgrave_NN hallam_NN]
+[NP centre_NN road_NN]
+[NP hete_NN ]
+[NP resivour_NN ]
+[NP tinks_NNS rd_NN]
+[NP lysterfield_NN ]
+[NP moe_NN ]
+[NP loch_NN ]
+bittern_JJ
+[NP queenscliff_NN ]
+[NP forster_NN ]
+[NP grantville_NN ]
+[NP telford_NN road_NN]
+[NP glenmaggie_NN ]
+[NP pearcdale_NN ]
+[NP holm_NN park_NN]
+[NP telford_NN ]
+NP harkarway_NN
+arden_JJ street_NN
+oval_NN
+[NP princes_NNS garden_NN]
+[NP east_JJ richmond_NN station_NN]
+[NP eureka_NN skydeck_NN]
+[NP chris_NN gahan_NNP reserve_NN]
+[NP gallager_NN reserve_NN]
+[NP city_NN reserve_NN]
+[NP fa_NN andrews_NNS reserve_NN]
+[NP yarra_NN bend_NN park_NN]
+sheparton_NN
+pib_NN
+[NP yack_NN ]
+emerald_VB
+wanterna_.
+[NP flinder_NN ]
+[NP melbourne_JJ central_JJ train_NN station_NN ]
+[NP sale_NN ]
+first_JJ floor_NN
+ama_NN house_NN
+293_CD
+royal_JJ parade_NN
+parkville_NN
+victoria_NN
+australia_NNS
+[NP hawthorn_NN train_NN statin_NN ]
+[NP the_DT train_NN ]
+[NP playin_NN ] [PP with_IN ] [NP my_PRP$ new_JJ iphone_NN ] :_: )_-RRB-
+[ADVP just_RB ] chillin_VBG
+[ADJP not_RB sure_JJ]
+[NP off_RP crawley_NN]
+[NP the_DT rd_NN ]
+[NP ggi_NNS ]
+[ADVP never_RB ] [VP win_VB ] [NP anything_NN]
+[VP lost_VBN ] [VP lost_VBD lost_VBN]
+[NP dpyxits_NNS ]
+[NP em_NN ]
+[NP melbourne_JJ central_JJ train_NN station_NN ]
+[NP swanston_JJ street_NN]
+[NP dandy_NN ]
+[NP le_NN mans_NNS]
+[NP dandy_NN ]
+[PP in_IN ] [NP camberwell_DT train_NN station_NN]
+[NP hawthorn_NN ]
+[NP a_DT park_NN ]
+[NP central_JJ garden_NN ]
+[NP the_DT university_NN ] [PP of_IN ] [NP swinburne_NN ]
+hawthorn_NN
+shops_NNS
+[NP moorolobark_NN ]
+[VP going_VBG ] [PP to_TO ] [NP broken_JJ hill_NN]
+[NP pub_NN ]
+[NP cavendish_NN ]
+[NP mouth_NN ]
+[NP burwood_NN rd_NN ]
+[NP swinburne_JJ university_NN ] [PP of_IN ] [NP technology_NN ]
+hawthorn_NN
+[NP bikes_NNS and_CC bits_NNS]
+hey_UH
+[NP crime_NN ]
+[NP seville_JJ east_RB]
+[NP montrose_NN ]
+[NP whittlesea_NN ]
+[NP honey_NN ] [PP i_IN ] [NP \_NNS ] [NP '_POS m_NN home_NN ] :_: )_-RRB-
+[NP building_NN 9_CD ]
+[NP rmit_NN university_NN ]
+bowen_NN st_NN
+franklin_NN st_NN
+[NP melbourne_NN ]
+[NP officer_NN ]
+[NP aussie_NN day_NN]
+[NP southern_JJ reserve_NN]
+[NP lyndhurst_NN ]
+[NP nsw_NN ]
+[NP the_DT m_NN ] 1_CD
+[NP knox_NN shopping_NN]
+donvale_JJ
+bbq_NN place_NN
+[NP te_NN pub_NN ]
+[NP post_NN office_NN]
+[NP heathmomt_NN road_NN]
+[NP hight_JJ street_NN ]
+[NP ashburton_JJ town_NN
+[NP m_NN 1_CD motorway_NN ]
+[NP balaclava_NN ]
+woolamai_JJ
+racecourse_NN
+[VP heading_VBG ] [PP to_TO ] [NP wagga_DT wagga_NN]
+[NP melbourne_JJ town_NN hall_NN]
+[NP eureka_NN ]
+711_CD
+[NP slurpe_NN ]
+[NP club_NN rd_NN]
+[NP new_JJ estate_NN]
+[VP wish_VB ] [NP i_VBP ] [VP was_VBD ] [PP with_IN ] [NP brayden_NN]
+[NP red_JJ cross_NN blood_NN bank_NN]
+[NP m_NN 1_CD ]
+broadford_VB
+[NP melbourne_JJ towl_NN hall_NN]
+[NP 2_CD ] /_, [NP 23_CD herbert_NN cres_NNS ] [VP ainslie_VBP ] [NP act_NN]
+[NP aussie_NN dande_NN]
+&_CC [NP #_# 58382_CD ] ;_:
+[NP tram_NN stop_NN]
+[NP keiths_NNS fitness_NN centre_NN]
+[NP lonsdale_JJ street_NN]
+[NP resy_NN ]
+cowes_NNS
+pier_NN
+[NP hotel_NN rendavo_NN]
+[NP the_DT town_NN ]
+[NP trentham_NN ]
+[NP victoria_NN ]
+[NP australia_NNS ]
+melbourne_NN
+[NP ballarat_NN ]
+[NP bendigo_NN ]
+[NP the_DT spa_NN country_NN ]
+[NP wittlr_NN ]
+[NP bear_NN ] [PP in_IN ] [NP the_DT qoods_NNS]
+[NP tunnel_NN ]
+[NP floods_NNS ]
+[NP yaradale_NN ]
+[NP waterfront_NN ]
+[ADVP just_RB ] [VP licking_VBG ] [NP chocolate_NN ] [PP off_IN ] [PP of_IN ] [NP my_PRP$ good_JJ]
+broady_VB
+[NP hillside_NN ]
+[NP princess_NN ]
+[NP beacy_NN]
+[SBAR between_IN ] [NP landgate_NN ] and_CC [NP the_DT city_NN ] [PP of_IN ] [NP swan_JJ offices_NNS ] ._.
+[NP wallan_NN ]
+hallam_NN north_NN
+[NP misses_NNS ranalli_NNS]
+[NP a_DT tree_NN]
+[NP deep_JJ creek_NN]
+[NP lilydale_NN ]
+[NP dunno_NN central_JJ]
+[NP federation_NN square_NN ]
+[NP st_NN kilda_NN road_NN ]
+[NP flinders_NNS street_NN station_NN ]
+[NP melbourne_JJ city_NN ]
+[NP heals_NNS ]
+[NP game_NN lobby_NN ] closed_VBN
+[NP qualify_VB drive_NN]
+[NP girlfriends_NNS ]
+[NP harkaway_NN]
+[NP my_PRP$ panarama_NN]
+[NP wollert_NN ]
+[NP boathouse_NN drive_NN]
+[NP greenmeadows_NNS gardens_NNS]
+[NP wonthaggi_NNS ] [NP secondary_JJ college_NN]
+[NP a_DT house_NN]
+[NP rooftop_NN bar_NN]
+[NP a_DT house_NN]
+[NP p_NN ] [VP ._. ] i_FW
+[NP lynbrook_NN ]
+[NP triangle_NN apartment_NN ]
+[NP law_NN building_NN]
+[NP hampton_NN park_NN ]
+[NP hallam_NN]
+[NP east_JJ link_NN]
+[NP the_DT post_NN office_NN ]
+[NP hampton_NN park_NN]
+[NP aflame_NN strip_NN]
+[VP exploded_VBD ] [PP on_IN ] [NP impact_NN]
+[NP richy_JJ downs_NNS]
+[NP the_DT big_JJ tree_NN ]
+[NP maccas_NN]
+pound_NN
+[NP south_RB gippy_JJ highway_NN]
+[VP heading_VBG ] [PP to_TO ] [NP yarrawonga_NN]
+[NP the_DT block_NN]
+[NP right_NN ] [PP near_IN ] [NP my_PRP$ new_JJ job_NN hooorahhh_NN]
+wonthaggi_NNS
+rec_NN reserve_NN
+35_CD
+[NP nothing_NN ] [VP to_TO describe_VB]
+[NP melb_NN water_NN]
+[VP tell_VB ] [NP me_PRP ] [ADVP qhere_RB]
+[NP adrenilin_NN ]
+[NP race_NN track_NN]
+[NP golf_NN club_NN]
+[NP bendigo_NN ]
+[NP crockford_NN st_NN]
+[NP hallam_NN]
+[NP wonthaggi_NNS ]
+[NP aquatic_JJ centre_NN]
+drowning_VBG
+[NP fur_NN pack_NN]
+[VP win_VB win_VB win_VB win_VB]

@@ -1,0 +1,38 @@
+Central buildings /Sandstone core,in the center of,campus,1
+Modern buildings ,around,Central buildings /Sandstone core,2
+Wilson Hall,next to,Central buildings /Sandstone core,3
+Univ. Admin. Building,opposite of,Wilson Hall,4
+Vice Chancellor's office,in,Univ. Admin. Building,5
+Student Union,behind,Univ. Admin. Building,6
+Student Union,left of,Univ. Admin. Building,7
+Gym,across from,Student Union,8
+Pool,across from,Student Union,9
+Sch. Of Archit.,behind ,Univ. Admin. Building,10
+Sch. Of Archit.,to the right of ,Univ. Admin. Building,11
+Shops,in ,Student Union,12
+Eateries,in ,Student Union,13
+Students Clubs,in ,Student Union,14
+Psychology,behind ,Sch. Of Archit.,15
+Physics,behind,Sch. Of Archit.,16
+Psychology,furthest north on,Sch. Of Archit.,17
+Physics,furthest north on,Sch. Of Archit.,18
+Engineering precint,southeast of ,Central buildings /Sandstone core,19
+Old Engineering building,in,Engineering precint,20
+Dean's office,in ,Old Engineering building ,21
+Medicine precint,southwest of,Central buildings /Sandstone core,22
+Medicine precint,opposite of,Royal Park,23
+Royal Melbourne Hospitals ,in,Medicine precint,24
+Comprehensive Cancer Center,in,Medicine precint,25
+Brain Center,facing ,Royal Parade,26
+Brain Center,at the back of,Library,27
+Grattan st.,southern border of,campus,28
+Graduate House,around,South Lawn,29
+MBS,to the right of ,Graduate House,30
+Law,to the right of ,MBS,31
+Economics,to the right of ,Law,32
+AGB,to the right of ,Economics,33
+Old Royal W. Hos,opposite of,campus,34
+Old Royal W. Hos,east of ,campus,35
+Swanston St,between,Old Royal W. Hos,36
+Swanston St,between,campus,37
+Major public hub,on,Swanston st.,38

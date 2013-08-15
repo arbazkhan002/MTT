@@ -1,0 +1,806 @@
+438	CD	None	None	False	False	000	0	3	-1	-1	None	None	1	0	O	None	None	None	CD	0	0	None	None	CD	1	438	O	False	None	None	None	False	False	1	438	True	0	False	False	O	None	O
+
+box	NN	yes_unamb	4	False	False	aaa	a	3	-1	-1	NP	None	3	0	O	None	None	None	NN	0	0	hill	NN	NN	2	box	B-NP	False	B-S	B-AIRP	B-GRDN	True	False	3	box	False	-1	False	False	B-GRDN	False	B-NP
+hill	NN	yes_unamb	4	False	False	aaaa	a	4	-1	-1	NP	None	3	1	O	None	None	None	NN	1	0	hill	NN	NN	2	hill	I-NP	False	B-S	B-FRM	I-GRDN	False	False	3	hill	False	-1	False	False	I-GRDN	False	I-NP
+gardens	NNS	yes_unamb	4	False	False	aaaaaaa	a	7	-1	-1	NP	None	3	2	O	None	None	None	NN	2	0	hill	NN	NN	2	gardens	I-NP	False	O	O	I-GRDN	True	False	3	garden	False	-1	False	False	I-GRDN	None	I-NP
+
+at	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	at	B-PP	False	None	None	None	False	False	1	at	False	-1	False	False	O	None	B-NP
+surrey	JJ	yes_unamb	4	False	False	aaaaaa	a	6	-1	-1	NP	at	4	0	O	None	at	None	JJ	1	1	hills	NNS	NN	2	surrey	B-NP	False	B-S	B-FRM	O	True	False	4	surrey	False	-1	False	False	O	False	I-NP
+hills	NNS	yes_unamb	4	False	False	aaaaa	a	5	-1	-1	NP	at	4	1	O	None	at	None	JJ	2	1	hills	NNS	NN	2	hills	I-NP	False	O	O	O	False	False	4	hill	False	-1	False	False	O	None	I-NP
+train	NN	yes_unamb	4	False	False	aaaaa	a	5	-1	-1	NP	at	4	2	O	None	at	None	JJ	3	1	hills	NNS	NN	2	train	I-NP	False	O	O	O	True	False	4	train	False	-1	False	False	O	None	I-NP
+station	NN	yes_unamb	4	False	False	aaaaaaa	a	7	-1	-1	NP	at	4	3	O	None	at	None	JJ	4	1	hills	NNS	NN	2	station	I-NP	False	O	O	O	True	False	4	station	False	-1	False	False	O	None	I-NP
+
+arpud	IN	None	None	False	False	aaaaa	a	5	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	arpud	B-PP	False	None	None	None	False	False	1	arpud	False	-1	False	False	O	None	B-NP
+the	DT	no	4	False	False	aaa	a	3	-1	-1	NP	arpud	2	0	O	None	arpud	the	DT	1	1	street	NN	DT	1	the	B-NP	False	O	O	O	False	False	2	the	False	-1	False	False	O	None	I-NP
+street	NN	no	4	False	False	aaaaaa	a	6	-1	-1	NP	arpud	2	1	O	None	arpud	the	DT	2	1	street	NN	DT	1	street	I-NP	False	O	O	O	True	False	2	street	False	-1	False	False	O	None	I-NP
+
+on	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	on	B-PP	False	None	None	None	False	False	1	on	False	-1	False	False	O	None	B-NP
+french	JJ	yes_unamb	5	False	False	aaaaaa	a	6	-1	-1	NP	on	2	0	B-P	None	on	None	JJ	1	1	island	NN	NN	1	french	B-NP	False	B-P	B-PPLX	B-IS	False	False	2	french	False	-1	False	False	B-IS	False	I-NP
+island	NN	yes_unamb	5	False	False	aaaaaa	a	6	-1	-1	NP	on	2	1	I-P	None	on	None	JJ	2	1	island	NN	NN	1	island	I-NP	False	I-P	I-PPLX	I-IS	False	False	2	island	False	-1	False	False	I-IS	False	I-NP
+at	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	3	2	None	None	IN	1	at	B-PP	False	None	None	None	False	False	1	at	False	-1	False	False	O	None	O
+minogues	NNS	None	None	False	False	aaaaaaaa	a	8	-1	-1	NP	None	3	0	O	None	at	None	NNS	4	3	pla	NN	NN	2	minogues	B-NP	False	O	O	O	False	False	3	minogues	False	-1	False	False	O	None	O
+pla	NN	None	None	False	False	aaa	a	3	-1	-1	NP	None	3	1	O	None	at	None	NNS	5	3	pla	NN	NN	2	pla	I-NP	False	O	O	O	False	False	3	pla	False	-1	False	False	O	None	O
+e	NN	None	None	False	False	a	a	1	-1	-1	NP	None	3	2	O	None	at	None	NNS	6	3	pla	NN	NN	2	e	I-NP	False	O	O	O	False	False	3	e	False	-1	False	False	O	None	O
+
+devon	NN	yes_unamb	5	False	False	aaaaa	a	5	-1	-1	NP	None	2	0	B-P	PPL	None	None	NN	0	0	meadows	NNS	NNS	1	devon	B-NP	False	B-P	B-PPL	B-LOCB	False	False	2	devon	False	-1	False	False	B-LOCB	False	B-NP
+meadows	NNS	yes_unamb	5	False	False	aaaaaaa	a	7	-1	-1	NP	None	2	1	I-P	PPL	None	None	NN	1	0	meadows	NNS	NNS	1	meadows	I-NP	False	I-P	I-PPL	I-LOCB	False	False	2	meadow	False	-1	False	False	I-LOCB	False	I-NP
+
+police	NN	yes_unamb	4	True	False	aaaaaa	a	6	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	paddocks	NNS	NNS	1	police	B-NP	False	O	O	O	False	False	2	police	False	-1	False	False	O	None	B-NP
+paddocks	NNS	yes_unamb	4	True	False	aaaaaaaa	a	8	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	paddocks	NNS	NNS	1	paddocks	I-NP	False	O	O	O	True	False	2	paddock	False	-1	False	False	O	None	I-NP
+
+reddy	VB	None	None	False	False	aaaaa	a	5	-1	-1	None	None	1	0	O	None	None	None	VB	0	0	None	None	VB	1	reddy	O	False	None	None	None	False	False	1	reddy	False	-1	False	False	O	None	O
+
+m	NN	yes_unamb	7	False	False	a	a	1	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	1	CD	NN	1	am	B-NP	False	O	O	O	False	False	2	m	True	1	False	False	O	None	B-NP
+1	CD	yes_unamb	7	False	False	0	0	1	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	1	CD	NN	1	1	I-NP	False	O	O	O	False	False	2	1	True	1	False	False	O	None	I-NP
+
+casey	NN	no	5	False	True	aaaaa	a	5	-1	-1	NP	None	1	0	B-P	None	None	None	NN	0	0	None	None	NN	1	casey	B-NP	False	B-P	B-PPLX	O	False	False	1	casey	False	-1	False	False	O	False	B-NP
+
+melb	NN	yes_unamb	4	True	False	aaaa	a	4	-1	-1	NP	None	2	0	O	BLDG	None	None	NN	0	0	uni	JJ	JJ	1	melb	B-NP	False	O	O	O	False	False	2	melb	False	-1	False	False	O	None	B-NP
+uni	JJ	yes_unamb	4	True	False	aaa	a	3	-1	-1	NP	None	2	1	O	BLDG	None	None	NN	1	0	uni	JJ	JJ	1	uni	I-NP	False	O	O	O	False	False	2	uni	False	-1	False	False	O	None	I-NP
+
+fg	NN	yes_unamb	5	True	False	aa	a	2	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	fg	B-NP	False	O	O	O	False	False	1	fg	False	-1	False	False	O	None	B-NP
+
+magid	NN	None	None	False	False	aaaaa	a	5	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	racimg	NN	NN	2	magid	B-NP	False	O	O	O	False	False	2	magid	False	-1	False	False	O	None	O
+racimg	NN	None	None	False	False	aaaaaa	a	6	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	racimg	NN	NN	2	racimg	I-NP	False	O	O	O	False	False	2	racimg	False	-1	False	False	O	None	O
+
+redman	NN	None	None	False	False	aaaaaa	a	6	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	redman	B-NP	False	O	O	O	False	False	1	redman	False	-1	False	False	O	None	O
+
+freeway	NN	no	4	False	False	aaaaaaa	a	7	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	freeway	B-NP	False	O	O	O	False	False	1	freeway	False	-1	False	False	O	None	B-NP
+
+at	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	at	B-PP	False	None	None	None	False	False	1	at	False	-1	False	False	O	None	B-NP
+glenferrie	NN	yes_unamb	4	False	False	aaaaaaaaaa	a	10	-1	-1	NP	at	2	0	O	None	at	None	NN	1	1	station	NN	NN	2	glenferrie	B-NP	False	B-A	B-ADMD	B-RSTA	False	False	2	glenferrie	False	-1	False	False	O	False	I-NP
+station	NN	yes_unamb	4	False	False	aaaaaaa	a	7	-1	-1	NP	at	2	1	O	None	at	None	NN	2	1	station	NN	NN	2	station	I-NP	False	O	O	O	True	False	2	station	False	-1	False	False	O	None	I-NP
+in	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	3	2	None	None	IN	1	in	B-PP	False	None	None	None	False	False	1	in	False	-1	False	False	O	None	O
+front	NN	None	None	False	False	aaaaa	a	5	-1	-1	NP	None	1	0	O	None	in	None	NN	4	3	None	None	NN	1	front	B-NP	False	O	O	O	True	False	1	front	False	-1	False	False	O	None	O
+of	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	5	4	None	None	IN	1	of	B-PP	False	None	None	None	False	False	1	of	False	-1	False	False	O	None	O
+safeway	NN	None	None	False	False	aaaaaaa	a	7	-1	-1	NP	None	2	0	O	None	of	None	NN	6	5	supermarket	NN	NN	2	safeway	B-NP	False	O	O	O	False	False	2	safeway	False	-1	False	False	O	None	O
+supermarket	NN	None	None	False	False	aaaaaaaaaaa	a	11	-1	-1	NP	None	2	1	O	None	of	None	NN	7	5	supermarket	NN	NN	2	supermarket	I-NP	False	O	O	O	True	False	2	supermarket	False	-1	False	False	O	None	O
+.	.	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	.	8	6	None	None	.	1	.	O	False	None	None	None	False	False	1	.	False	-1	False	False	O	None	O
+
+masson	NN	yes_unamb	4	False	False	aaaaaa	a	6	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	road	NN	NN	2	masson	B-NP	False	O	O	O	False	False	2	masson	False	-1	False	False	O	None	B-NP
+road	NN	yes_unamb	4	False	False	aaaa	a	4	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	road	NN	NN	2	road	I-NP	False	O	O	O	True	False	2	road	False	-1	False	False	O	None	I-NP
+,	,	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	,	2	1	None	None	,	1	,	O	False	None	None	None	False	False	1	,	False	-1	False	False	O	None	I-NP
+university	NN	yes_unamb	4	False	False	aaaaaaaaaa	a	10	-1	-1	NP	,	1	0	O	BLDG	None	None	NN	3	2	None	None	NN	1	university	B-NP	False	O	O	O	True	False	1	university	False	-1	False	False	O	None	I-NP
+of	IN	yes_unamb	4	False	False	aa	a	2	-1	-1	PP	,	1	0	O	BLDG	None	None	IN	4	3	None	None	IN	1	of	B-PP	False	None	None	None	False	False	1	of	False	-1	False	False	O	None	I-NP
+melbourne	NN	yes_unamb	4	False	False	aaaaaaaaa	a	9	-1	-1	NP	,	1	0	O	BLDG	of	None	NN	5	4	None	None	NN	1	melbourne	B-NP	False	B-A	B-ADM2	B-LOCB	False	False	1	melbourne	False	-1	False	False	O	False	I-NP
+
+rmh	JJ	yes_unamb	4	True	False	aaa	a	3	-1	-1	NP	None	4	0	O	None	None	None	JJ	0	0	royal	JJ	NN	2	rmh	B-NP	False	O	O	O	False	False	4	rmh	False	-1	False	False	O	None	B-NP
+royal	JJ	yes_unamb	4	False	False	aaaaa	a	5	-1	-1	NP	None	4	1	B-L	None	None	None	JJ	1	0	royal	JJ	NN	2	royal	I-NP	False	O	O	O	False	False	4	royal	False	-1	False	False	B-RSTA	None	B-NP
+park	NN	yes_unamb	4	False	False	aaaa	a	4	-1	-1	NP	None	4	2	I-L	None	None	None	JJ	2	0	royal	JJ	NN	2	park	I-NP	False	O	O	O	True	False	4	park	False	-1	False	False	I-RSTA	None	I-NP
+campus	NN	None	None	False	False	aaaaaa	a	6	-1	-1	NP	None	4	3	O	None	None	None	JJ	3	0	royal	JJ	NN	2	campus	I-NP	False	O	O	O	True	False	4	campus	False	-1	False	False	O	None	O
+
+wa	VBD	None	None	False	False	aa	a	2	-1	-1	None	None	1	0	O	None	None	None	VBD	0	0	None	None	VBD	1	wa	O	False	None	None	None	False	False	1	wa	False	-1	False	False	O	None	O
+somewhere	RB	None	None	False	False	aaaaaaaaa	a	9	-1	-1	None	None	1	0	O	None	None	None	RB	1	1	None	None	RB	1	somewhere	O	False	None	None	None	False	False	1	somewhere	False	-1	False	False	O	None	O
+
+near	IN	None	None	False	False	aaaa	a	4	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	near	B-PP	False	None	None	None	False	False	1	near	False	-1	False	False	O	None	O
+qork	NN	None	None	False	False	aaaa	a	4	-1	-1	NP	None	1	0	O	None	near	None	NN	1	1	None	None	NN	1	qork	B-NP	False	O	O	O	False	False	1	qork	False	-1	False	False	O	None	O
+
+near	IN	None	None	False	False	aaaa	a	4	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	near	B-PP	False	None	None	None	False	False	1	near	False	-1	False	False	O	None	B-NP
+lilydale	NN	yes_unamb	5	False	False	aaaaaaaa	a	8	-1	-1	NP	near	1	0	B-S	None	near	None	NN	1	1	None	None	NN	1	lilydale	B-NP	False	B-S	B-HMSD	B-TPEX	False	False	1	lilydale	False	-1	False	False	B-TPEX	False	I-NP
+
+subway	NN	no	3	False	False	aaaaaa	a	6	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	subway	B-NP	False	O	O	O	False	False	1	subway	False	-1	False	False	O	None	B-NP
+
+belgrave	NN	yes_unamb	4	True	False	aaaaaaaa	a	8	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	hallam	NN	NN	2	belgrave	B-NP	False	B-P	B-PPL	B-LOCB	False	False	2	belgrave	False	-1	False	False	O	False	B-NP
+hallam	NN	yes_unamb	4	True	False	aaaaaa	a	6	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	hallam	NN	NN	2	hallam	I-NP	False	B-P	B-PPL	B-TPEX	False	False	2	hallam	False	-1	False	False	O	False	I-NP
+
+centre	NN	yes_amb	4	False	False	aaaaaa	a	6	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	road	NN	NN	2	center	B-NP	False	O	O	O	True	False	2	centre	False	-1	False	False	O	None	B-NP
+road	NN	yes_amb	4	False	False	aaaa	a	4	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	road	NN	NN	2	road	I-NP	False	O	O	O	True	False	2	road	False	-1	False	False	O	None	I-NP
+
+hete	NN	None	None	False	False	aaaa	a	4	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	hete	B-NP	False	O	O	O	False	False	1	hete	False	-1	False	False	O	None	O
+
+resivour	NN	yes_unamb	5	True	False	aaaaaaaa	a	8	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	resivour	B-NP	False	O	O	O	False	False	1	resivour	False	-1	False	False	O	None	B-NP
+
+tinks	NNS	yes_unamb	4	False	False	aaaaa	a	5	-1	-1	NP	None	2	0	O	None	None	None	NNS	0	0	rd	NN	NNS	1	thinks	B-NP	False	O	O	O	False	False	2	tinks	False	-1	False	False	O	None	B-NP
+rd	NN	yes_unamb	4	False	False	aa	a	2	-1	-1	NP	None	2	1	O	None	None	None	NNS	1	0	rd	NN	NNS	1	rd	I-NP	False	O	O	O	False	False	2	rd	False	-1	False	False	O	None	I-NP
+
+lysterfield	NN	yes_unamb	5	False	False	aaaaaaaaaaa	a	11	-1	-1	NP	None	1	0	B-P	None	None	None	NN	0	0	None	None	NN	1	lysterfield	B-NP	False	B-P	B-PPL	B-TRIG	False	False	1	lysterfield	False	-1	False	False	B-TRIG	False	B-NP
+
+moe	NN	yes_unamb	5	False	False	aaa	a	3	-1	-1	NP	None	1	0	B-P	None	None	None	NN	0	0	None	None	NN	1	moe	B-NP	False	B-P	B-PPL	B-LOCB	False	False	1	moe	False	-1	False	False	B-LOCB	False	B-NP
+
+loch	NN	yes_unamb	5	False	False	aaaa	a	4	-1	-1	NP	None	1	0	B-P	None	None	None	NN	0	0	None	None	NN	1	loch	B-NP	False	B-P	B-PPL	B-TPEX	False	False	1	loch	False	-1	False	False	B-TPEX	False	B-NP
+
+bittern	JJ	yes_unamb	5	False	False	aaaaaaa	a	7	-1	-1	None	None	1	0	B-P	None	None	None	JJ	0	0	None	None	JJ	1	bittern	O	False	None	None	None	False	False	1	bittern	False	-1	False	False	B-PRSH	None	B-NP
+
+queenscliff	NN	yes_unamb	5	False	False	aaaaaaaaaaa	a	11	-1	-1	NP	None	1	0	B-P	None	None	None	NN	0	0	None	None	NN	1	queenscliff	B-NP	False	B-P	B-PPLX	B-TPEX	False	False	1	queenscliff	False	-1	False	False	B-TPEX	False	B-NP
+
+forster	NN	None	None	False	False	aaaaaaa	a	7	-1	-1	NP	None	1	0	B-P	None	None	None	NN	0	0	None	None	NN	1	forster	B-NP	False	B-P	B-PPL	O	False	False	1	forster	False	-1	False	False	O	False	O
+
+grantville	NN	yes_unamb	5	False	False	aaaaaaaaaa	a	10	-1	-1	NP	None	1	0	B-P	PPL	None	None	NN	0	0	None	None	NN	1	grantville	B-NP	False	B-P	B-PPL	B-LOCB	False	False	1	grantville	False	-1	False	False	B-LOCB	False	B-NP
+
+telford	NN	yes_unamb	4	False	False	aaaaaaa	a	7	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	road	NN	NN	2	telford	B-NP	False	B-P	B-PPL	B-RSTA	False	False	2	telford	False	-1	False	False	O	False	B-NP
+road	NN	yes_unamb	4	False	False	aaaa	a	4	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	road	NN	NN	2	road	I-NP	False	O	O	O	True	False	2	road	False	-1	False	False	O	None	I-NP
+
+glenmaggie	NN	yes_unamb	5	False	False	aaaaaaaaaa	a	10	-1	-1	NP	None	1	0	B-P	None	None	None	NN	0	0	None	None	NN	1	glenmaggie	B-NP	False	B-P	B-PPL	B-PRSH	False	False	1	glenmaggie	False	-1	False	False	B-PRSH	False	B-NP
+
+pearcdale	NN	yes_unamb	5	True	False	aaaaaaaaa	a	9	-1	-1	NP	None	1	0	O	PPL	None	None	NN	0	0	None	None	NN	1	pearcdale	B-NP	False	O	O	O	False	False	1	pearcdale	False	-1	False	False	O	None	B-NP
+
+holm	NN	yes_unamb	4	False	False	aaaa	a	4	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	park	NN	NN	2	holm	B-NP	False	O	O	O	False	False	2	holm	False	-1	False	False	O	None	B-NP
+park	NN	yes_unamb	4	False	False	aaaa	a	4	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	park	NN	NN	2	park	I-NP	False	O	O	O	True	False	2	park	False	-1	False	False	O	None	I-NP
+
+telford	NN	yes_unamb	5	False	False	aaaaaaa	a	7	-1	-1	NP	None	1	0	B-P	None	None	None	NN	0	0	None	None	NN	1	telford	B-NP	False	B-P	B-PPL	B-RSTA	False	False	1	telford	False	-1	False	False	B-RSTA	False	B-NP
+
+harkarway	NN	yes_unamb	5	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	harkarway	B-NP	False	O	O	O	False	False	1	harkarway	False	-1	False	False	O	None	B-NP
+
+arden	JJ	yes_unamb	4	False	False	aaaaa	a	5	-1	-1	NP	None	3	0	O	None	None	None	JJ	0	0	street	NN	NN	2	arden	B-NP	False	O	O	O	False	False	3	arden	False	-1	False	False	O	None	B-NP
+street	NN	yes_unamb	4	False	False	aaaaaa	a	6	-1	-1	NP	None	3	1	O	None	None	None	JJ	1	0	street	NN	NN	2	street	I-NP	False	O	O	O	True	False	3	street	False	-1	False	False	O	None	I-NP
+oval	NN	no	4	False	False	aaaa	a	4	-1	-1	NP	None	3	2	O	None	None	None	JJ	2	0	street	NN	NN	2	oval	I-NP	False	O	O	O	False	False	3	oval	False	-1	False	False	O	None	B-NP
+
+princes	NNS	yes_unamb	4	True	False	aaaaaaa	a	7	-1	-1	NP	None	2	0	O	None	None	None	NNS	0	0	garden	NN	NNS	1	princes	B-NP	False	O	O	O	False	False	2	prince	False	-1	False	False	O	None	B-NP
+garden	NN	yes_unamb	4	True	False	aaaaaa	a	6	-1	-1	NP	None	2	1	O	None	None	None	NNS	1	0	garden	NN	NNS	1	garden	I-NP	False	O	O	O	True	False	2	garden	False	-1	False	False	O	None	I-NP
+
+east	JJ	yes_unamb	3	False	False	aaaa	a	4	-1	-1	NP	None	3	0	O	None	None	None	JJ	0	0	richmond	NN	NN	2	east	B-NP	False	O	O	O	True	False	3	east	False	-1	False	False	O	None	B-NP
+richmond	NN	yes_unamb	3	False	False	aaaaaaaa	a	8	-1	-1	NP	None	3	1	O	None	None	None	JJ	1	0	richmond	NN	NN	2	richmond	I-NP	False	B-P	B-PPLX	B-TPEX	False	False	3	richmond	False	-1	False	False	O	False	I-NP
+station	NN	yes_unamb	3	False	False	aaaaaaa	a	7	-1	-1	NP	None	3	2	O	None	None	None	JJ	2	0	richmond	NN	NN	2	station	I-NP	False	O	O	O	True	False	3	station	False	-1	False	False	O	None	I-NP
+
+eureka	NN	yes_unamb	2	False	False	aaaaaa	a	6	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	skydeck	NN	NN	2	eureka	B-NP	False	B-S	B-HMSD	B-MINE	False	False	2	eureka	False	-1	False	False	O	False	B-NP
+skydeck	NN	yes_unamb	2	False	False	aaaaaaa	a	7	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	skydeck	NN	NN	2	skydeck	I-NP	False	O	O	O	False	False	2	skydeck	False	-1	False	False	O	None	I-NP
+
+chris	NN	yes_unamb	4	False	False	aaaaa	a	5	-1	-1	NP	None	3	0	O	None	None	None	NN	0	0	gahan	NNP	NN	2	chris	B-NP	False	O	O	O	False	False	3	chris	False	-1	False	False	O	None	B-NP
+gahan	NNP	yes_unamb	4	False	False	aaaaa	a	5	-1	-1	NP	None	3	1	O	None	None	None	NN	1	0	gahan	NNP	NN	2	gahan	I-NP	False	O	O	O	False	False	3	gahan	False	-1	False	False	O	None	I-NP
+reserve	NN	yes_unamb	4	False	False	aaaaaaa	a	7	-1	-1	NP	None	3	2	O	None	None	None	NN	2	0	gahan	NNP	NN	2	reserve	I-NP	False	B-L	B-RES	O	False	False	3	reserve	False	-1	False	False	O	False	I-NP
+
+gallager	NN	yes_unamb	4	False	False	aaaaaaaa	a	8	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	reserve	NN	NN	2	gallager	B-NP	False	O	O	O	False	False	2	gallager	False	-1	False	False	O	None	B-NP
+reserve	NN	yes_unamb	4	False	False	aaaaaaa	a	7	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	reserve	NN	NN	2	reserve	I-NP	False	B-L	B-RES	O	False	False	2	reserve	False	-1	False	False	O	False	I-NP
+
+city	NN	yes_unamb	4	False	False	aaaa	a	4	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	reserve	NN	NN	2	city	B-NP	False	B-P	B-PPLX	O	True	False	2	city	False	-1	False	False	O	False	B-NP
+reserve	NN	yes_unamb	4	False	False	aaaaaaa	a	7	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	reserve	NN	NN	2	reserve	I-NP	False	B-L	B-RES	O	False	False	2	reserve	False	-1	False	False	O	False	I-NP
+
+fa	NN	yes_unamb	4	False	False	aa	a	2	-1	-1	NP	None	3	0	O	None	None	None	NN	0	0	andrews	NNS	NN	2	fa	B-NP	False	O	O	O	False	False	3	fa	False	-1	False	False	O	None	B-NP
+andrews	NNS	yes_unamb	4	False	False	aaaaaaa	a	7	-1	-1	NP	None	3	1	O	None	None	None	NN	1	0	andrews	NNS	NN	2	andrews	I-NP	False	B-S	B-RSTN	O	False	False	3	andrew	False	-1	False	False	O	False	I-NP
+reserve	NN	yes_unamb	4	False	False	aaaaaaa	a	7	-1	-1	NP	None	3	2	O	None	None	None	NN	2	0	andrews	NNS	NN	2	reserve	I-NP	False	B-L	B-RES	O	False	False	3	reserve	False	-1	False	False	O	False	I-NP
+
+yarra	NN	yes_unamb	4	False	False	aaaaa	a	5	-1	-1	NP	None	3	0	O	None	None	None	NN	0	0	bend	NN	NN	3	yarra	B-NP	False	B-S	B-HMSD	B-PARK	False	False	3	yarra	False	-1	False	False	B-PARK	False	B-NP
+bend	NN	yes_unamb	4	False	False	aaaa	a	4	-1	-1	NP	None	3	1	O	None	None	None	NN	1	0	bend	NN	NN	3	bend	I-NP	False	O	O	I-PARK	False	False	3	bend	False	-1	False	False	I-PARK	None	I-NP
+park	NN	yes_unamb	4	False	False	aaaa	a	4	-1	-1	NP	None	3	2	O	None	None	None	NN	2	0	bend	NN	NN	3	park	I-NP	False	O	O	I-PARK	True	False	3	park	False	-1	False	False	I-PARK	None	I-NP
+
+sheparton	NN	yes_unamb	5	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	pib	NN	NN	2	sheparton	B-NP	False	O	O	O	False	False	2	sheparton	False	-1	False	False	O	None	B-NP
+pib	NN	no	3	True	False	aaa	a	3	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	pib	NN	NN	2	pib	I-NP	False	O	O	O	False	False	2	pib	False	-1	False	False	O	None	B-NP
+
+yack	NN	yes_unamb	5	True	False	aaaa	a	4	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	yack	B-NP	False	O	O	O	False	False	1	yack	False	-1	False	False	O	None	B-NP
+
+on	IN	None	None	False	False	aa	a	2	-1	-1	SBAR	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	on	B-SBAR	False	None	None	None	False	False	1	on	False	-1	False	False	O	None	O
+way	NN	None	None	False	False	aaa	a	3	-1	-1	None	None	1	0	O	None	None	None	NN	1	1	None	None	NN	1	way	O	False	None	None	None	True	False	1	way	False	-1	False	False	O	None	O
+to	TO	None	None	False	False	aa	a	2	-1	-1	VP	None	2	0	O	None	None	None	TO	2	2	emerald	VB	TO	1	to	B-VP	False	None	None	None	False	False	2	to	False	-1	False	False	O	None	O
+emerald	VB	yes_unamb	5	False	False	aaaaaaa	a	7	-1	-1	VP	None	2	1	B-S	None	None	None	TO	3	2	emerald	VB	TO	1	emerald	I-VP	False	None	None	None	False	False	2	emerald	False	-1	False	False	B-LOCB	None	B-NP
+
+wanterna	.	yes_unamb	5	True	False	aaaaaaaa	a	8	-1	-1	None	None	1	0	O	None	None	None	.	0	0	None	None	.	1	wanterna	O	False	None	None	None	False	False	1	wanterna	False	-1	False	False	O	None	B-NP
+
+flinder	NN	yes_amb	3	True	False	aaaaaaa	a	7	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	flinder	B-NP	False	O	O	O	False	False	1	flinder	False	-1	False	False	O	None	B-NP
+
+in	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	in	B-PP	False	None	None	None	False	False	1	in	False	-1	False	False	O	None	O
+front	NN	None	None	False	False	aaaaa	a	5	-1	-1	NP	None	1	0	O	None	in	None	NN	1	1	None	None	NN	1	front	B-NP	False	O	O	O	True	False	1	front	False	-1	False	False	O	None	O
+of	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	2	2	None	None	IN	1	of	B-PP	False	None	None	None	False	False	1	of	False	-1	False	False	O	None	B-NP
+melbourne	JJ	yes_unamb	4	False	False	aaaaaaaaa	a	9	-1	-1	NP	of	4	0	O	None	of	None	JJ	3	3	central	JJ	NN	2	melbourne	B-NP	False	B-A	B-ADM2	B-LOCB	False	False	4	melbourne	False	-1	False	False	O	False	I-NP
+central	JJ	yes_unamb	4	False	False	aaaaaaa	a	7	-1	-1	NP	of	4	1	O	None	of	None	JJ	4	3	central	JJ	NN	2	central	I-NP	False	O	O	O	False	False	4	central	False	-1	False	False	O	None	I-NP
+train	NN	yes_unamb	4	False	False	aaaaa	a	5	-1	-1	NP	of	4	2	O	None	of	None	JJ	5	3	central	JJ	NN	2	train	I-NP	False	O	O	O	True	False	4	train	False	-1	False	False	O	None	I-NP
+station	NN	yes_unamb	4	False	False	aaaaaaa	a	7	-1	-1	NP	of	4	3	O	None	of	None	JJ	6	3	central	JJ	NN	2	station	I-NP	False	O	O	O	True	False	4	station	False	-1	False	False	O	None	I-NP
+.	.	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	.	7	4	None	None	.	1	.	O	False	None	None	None	False	False	1	.	False	-1	False	False	O	None	O
+
+sale	NN	yes_unamb	5	False	False	aaaa	a	4	-1	-1	NP	None	1	0	B-P	None	None	None	NN	0	0	None	None	NN	1	sale	B-NP	False	B-P	B-PPL	B-LOCB	False	False	1	sale	False	-1	False	False	B-LOCB	False	B-NP
+
+first	JJ	no	2	False	False	aaaaa	a	5	-1	-1	NP	None	4	0	O	None	None	None	JJ	0	0	floor	NN	NN	3	first	B-NP	False	B-T	B-PT	O	False	False	4	first	False	-1	False	False	O	False	B-NP
+floor	NN	no	2	False	False	aaaaa	a	5	-1	-1	NP	None	4	1	O	None	None	None	JJ	1	0	floor	NN	NN	3	floor	I-NP	False	O	O	O	True	False	4	floor	False	-1	False	False	O	None	I-NP
+ama	NN	no	3	False	True	aaa	a	3	-1	-1	NP	None	4	2	O	None	None	None	JJ	2	0	floor	NN	NN	3	ama	I-NP	False	O	O	O	False	False	4	ama	False	-1	False	False	O	None	B-NP
+house	NN	no	3	False	True	aaaaa	a	5	-1	-1	NP	None	4	3	O	None	None	None	JJ	3	0	floor	NN	NN	3	house	I-NP	False	O	O	O	True	False	4	house	False	-1	False	False	O	None	I-NP
+293	CD	no	3	False	False	000	0	3	-1	-1	NP	None	6	0	O	None	None	None	CD	4	1	royal	JJ	NN	3	293	B-NP	False	O	O	O	False	False	6	293	True	0	False	False	O	None	B-NP
+royal	JJ	yes_unamb	4	False	False	aaaaa	a	5	-1	-1	NP	None	6	1	O	None	None	None	CD	5	1	royal	JJ	NN	3	royal	I-NP	False	O	O	O	False	False	6	royal	True	0	False	False	O	None	B-NP
+parade	NN	yes_unamb	4	False	False	aaaaaa	a	6	-1	-1	NP	None	6	2	O	None	None	None	CD	6	1	royal	JJ	NN	3	parade	I-NP	False	O	O	O	False	False	6	parade	True	0	False	False	O	None	I-NP
+parkville	NN	yes_unamb	5	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	6	3	B-A	None	None	None	CD	7	1	royal	JJ	NN	3	parkville	I-NP	False	B-A	B-ADMD	B-PO	False	False	6	parkville	True	0	False	False	B-PO	False	B-NP
+victoria	NN	yes_unamb	7	False	False	aaaaaaaa	a	8	-1	-1	NP	None	6	4	B-S	None	None	None	CD	8	1	royal	JJ	NN	3	victoria	I-NP	False	B-S	B-RSTN	O	False	False	6	victoria	True	0	False	False	O	False	B-NP
+australia	NNS	yes_unamb	7	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	6	5	B-A	None	None	None	CD	9	1	royal	JJ	NN	3	australia	I-NP	False	B-A	B-PCLI	O	False	False	6	australia	True	0	False	False	O	False	B-NP
+
+near	IN	None	None	False	False	aaaa	a	4	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	near	B-PP	False	None	None	None	False	False	1	near	False	-1	False	False	O	None	B-NP
+hawthorn	NN	yes_unamb	4	True	False	aaaaaaaa	a	8	-1	-1	NP	near	3	0	O	None	near	None	NN	1	1	train	NN	NN	3	hawthorn	B-NP	False	B-S	B-HMSD	B-RSTA	False	False	3	hawthorn	False	-1	False	False	O	False	I-NP
+train	NN	yes_unamb	4	True	False	aaaaa	a	5	-1	-1	NP	near	3	1	O	None	near	None	NN	2	1	train	NN	NN	3	train	I-NP	False	O	O	O	True	False	3	train	False	-1	False	False	O	None	I-NP
+statin	NN	yes_unamb	4	True	False	aaaaaa	a	6	-1	-1	NP	near	3	2	O	None	near	None	NN	3	1	train	NN	NN	3	stating	I-NP	False	O	O	O	False	False	3	statin	False	-1	False	False	O	None	I-NP
+on	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	4	2	None	None	IN	1	on	B-PP	False	None	None	None	False	False	1	on	False	-1	False	False	O	None	B-NP
+the	DT	no	3	False	False	aaa	a	3	-1	-1	NP	on	2	0	O	None	on	the	DT	5	3	train	NN	DT	1	the	B-NP	False	O	O	O	False	False	2	the	False	-1	False	False	O	None	I-NP
+train	NN	no	3	False	False	aaaaa	a	5	-1	-1	NP	on	2	1	O	None	on	the	DT	6	3	train	NN	DT	1	train	I-NP	False	O	O	O	True	False	2	train	False	-1	False	False	O	None	I-NP
+.	.	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	.	7	4	None	None	.	1	.	O	False	None	None	None	False	False	1	.	False	-1	False	False	O	None	O
+
+playin	NN	None	None	False	False	aaaaaa	a	6	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	playing	B-NP	False	O	O	O	False	False	1	playin	False	-1	False	False	O	None	O
+with	IN	None	None	False	False	aaaa	a	4	-1	-1	PP	None	1	0	O	None	None	None	IN	1	1	None	None	IN	1	with	B-PP	False	None	None	None	False	False	1	with	False	-1	False	False	O	None	O
+my	PRP$	None	None	False	False	aa	a	2	-1	-1	NP	None	3	0	O	None	with	None	PRP$	2	2	new	JJ	PRP$	1	my	B-NP	False	O	O	O	False	False	3	my	False	-1	False	False	O	None	O
+new	JJ	None	None	False	False	aaa	a	3	-1	-1	NP	None	3	1	O	None	with	None	PRP$	3	2	new	JJ	PRP$	1	new	I-NP	False	O	O	O	False	False	3	new	False	-1	False	False	O	None	O
+iphone	NN	None	None	False	False	aaaaaa	a	6	-1	-1	NP	None	3	2	O	None	with	None	PRP$	4	2	new	JJ	PRP$	1	phone	I-NP	False	O	O	O	False	False	3	iphone	False	-1	False	False	O	None	O
+:	:	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	:	5	3	None	None	:	1	:	O	False	None	None	None	False	False	1	:	False	-1	False	False	O	None	O
+)	-RRB-	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	-RRB-	6	4	None	None	-RRB-	1	)	O	False	None	None	None	False	False	1	)	False	-1	False	False	O	None	O
+
+just	RB	None	None	False	False	aaaa	a	4	-1	-1	ADVP	None	1	0	O	None	None	None	RB	0	0	None	None	RB	1	just	B-ADVP	False	None	None	None	False	False	1	just	False	-1	False	False	O	None	O
+chillin	VBG	None	None	False	False	aaaaaaa	a	7	-1	-1	None	None	1	0	O	None	None	None	VBG	1	1	None	None	VBG	1	relaxing	O	False	None	None	None	False	False	1	chillin	False	-1	False	False	O	None	O
+
+not	RB	None	None	False	False	aaa	a	3	-1	-1	ADJP	None	2	0	O	None	None	None	RB	0	0	sure	JJ	JJ	1	not	B-ADJP	False	None	None	None	False	False	2	not	False	-1	False	False	O	None	O
+sure	JJ	None	None	False	False	aaaa	a	4	-1	-1	ADJP	None	2	1	O	None	None	None	RB	1	0	sure	JJ	JJ	1	sure	I-ADJP	False	None	None	None	False	False	2	sure	False	-1	False	False	O	None	O
+
+crawlin	VBG	None	None	False	False	aaaaaaa	a	7	-1	-1	VP	None	1	0	O	None	None	None	VBG	0	0	None	None	VBG	1	crawling	B-VP	False	None	None	None	False	True	1	crawlin	False	-1	False	False	O	None	O
+off	RP	yes_amb	4	True	False	aaa	a	3	-1	-1	NP	None	2	0	O	None	None	None	RP	1	1	crawley	NN	RP	1	off	B-NP	False	O	O	O	False	False	2	off	False	-1	False	False	O	None	B-NP
+crawley	NN	yes_amb	4	True	False	aaaaaaa	a	7	-1	-1	NP	None	2	1	O	None	None	None	RP	2	1	crawley	NN	RP	1	crawley	I-NP	False	O	O	O	False	False	2	crawley	False	-1	False	False	O	None	I-NP
+
+on	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	on	B-PP	False	None	None	None	False	False	1	on	False	-1	False	False	O	None	B-NP
+the	DT	no	4	True	False	aaa	a	3	-1	-1	NP	on	2	0	O	None	on	the	DT	1	1	rd	NN	DT	1	the	B-NP	False	O	O	O	False	False	2	the	False	-1	False	False	O	None	I-NP
+rd	NN	no	4	True	False	aa	a	2	-1	-1	NP	on	2	1	O	None	on	the	DT	2	1	rd	NN	DT	1	rd	I-NP	False	O	O	O	False	False	2	rd	False	-1	False	False	O	None	I-NP
+with	IN	None	None	False	False	aaaa	a	4	-1	-1	PP	None	1	0	O	None	None	None	IN	3	2	None	None	IN	1	with	B-PP	False	None	None	None	False	False	1	with	False	-1	False	False	O	None	O
+a	DT	None	None	False	False	a	a	1	-1	-1	NP	None	3	0	O	None	with	a	DT	4	3	funny	JJ	DT	1	a	B-NP	False	O	O	O	False	False	3	a	False	-1	False	False	O	None	O
+funny	JJ	None	None	False	False	aaaaa	a	5	-1	-1	NP	None	3	1	O	None	with	a	DT	5	3	funny	JJ	DT	1	funny	I-NP	False	O	O	O	False	False	3	funny	False	-1	False	False	O	None	O
+name	NN	None	None	False	False	aaaa	a	4	-1	-1	NP	None	3	2	O	None	with	a	DT	6	3	funny	JJ	DT	1	name	I-NP	False	O	O	O	False	False	3	name	False	-1	False	False	O	None	O
+
+ggi	NNS	None	None	False	False	aaa	a	3	-1	-1	NP	None	1	0	O	None	None	None	NNS	0	0	None	None	NNS	1	ggi	B-NP	False	O	O	O	False	False	1	ggi	False	-1	False	False	O	None	O
+
+never	RB	None	None	False	False	aaaaa	a	5	-1	-1	ADVP	None	1	0	O	None	None	None	RB	0	0	None	None	RB	1	never	B-ADVP	False	None	None	None	False	False	1	never	False	-1	False	False	O	None	O
+win	VB	None	None	False	False	aaa	a	3	-1	-1	VP	None	1	0	O	None	None	None	VB	1	1	None	None	VB	1	win	B-VP	False	None	None	None	False	False	1	win	False	-1	False	False	O	None	O
+anything	NN	None	None	False	False	aaaaaaaa	a	8	-1	-1	NP	None	1	0	O	None	None	None	NN	2	2	None	None	NN	1	anything	B-NP	False	O	O	O	False	False	1	anything	False	-1	False	False	O	None	O
+
+lost	VBN	None	None	False	False	aaaa	a	4	-1	-1	VP	None	1	0	O	None	None	None	VBN	0	0	None	None	VBN	1	lost	B-VP	False	None	None	None	False	False	1	lose	False	-1	False	False	O	None	O
+lost	VBD	None	None	False	False	aaaa	a	4	-1	-1	VP	None	2	0	O	None	None	None	VBD	1	1	lost	VBN	VBN	1	lost	B-VP	False	None	None	None	False	False	2	lose	False	-1	False	False	O	None	O
+lost	VBN	None	None	False	False	aaaa	a	4	-1	-1	VP	None	2	1	O	None	None	None	VBD	2	1	lost	VBN	VBN	1	lost	I-VP	False	None	None	None	False	False	2	lose	False	-1	False	False	O	None	O
+
+dpyxits	NNS	None	None	False	False	aaaaaaa	a	7	-1	-1	NP	None	1	0	O	None	None	None	NNS	0	0	None	None	NNS	1	dpyxits	B-NP	False	O	O	O	False	False	1	dpyxits	False	-1	False	False	O	None	O
+
+em	NN	None	None	False	False	aa	a	2	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	them	B-NP	False	O	O	O	False	False	1	em	False	-1	False	False	O	None	O
+
+in	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	in	B-PP	False	None	None	None	False	False	1	in	False	-1	False	False	O	None	O
+front	NN	None	None	False	False	aaaaa	a	5	-1	-1	NP	None	1	0	O	None	in	None	NN	1	1	None	None	NN	1	front	B-NP	False	O	O	O	True	False	1	front	False	-1	False	False	O	None	O
+of	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	2	2	None	None	IN	1	of	B-PP	False	None	None	None	False	False	1	of	False	-1	False	False	O	None	B-NP
+melbourne	JJ	yes_unamb	4	False	False	aaaaaaaaa	a	9	-1	-1	NP	of	4	0	O	None	of	None	JJ	3	3	central	JJ	NN	2	melbourne	B-NP	False	B-A	B-ADM2	B-LOCB	False	False	4	melbourne	False	-1	False	False	O	False	I-NP
+central	JJ	yes_unamb	4	False	False	aaaaaaa	a	7	-1	-1	NP	of	4	1	O	None	of	None	JJ	4	3	central	JJ	NN	2	central	I-NP	False	O	O	O	False	False	4	central	False	-1	False	False	O	None	I-NP
+train	NN	yes_unamb	4	False	False	aaaaa	a	5	-1	-1	NP	of	4	2	O	None	of	None	JJ	5	3	central	JJ	NN	2	train	I-NP	False	O	O	O	True	False	4	train	False	-1	False	False	O	None	I-NP
+station	NN	yes_unamb	4	False	False	aaaaaaa	a	7	-1	-1	NP	of	4	3	O	None	of	None	JJ	6	3	central	JJ	NN	2	station	I-NP	False	O	O	O	True	False	4	station	False	-1	False	False	O	None	I-NP
+at	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	7	4	None	None	IN	1	at	B-PP	False	None	None	None	False	False	1	at	False	-1	False	False	O	None	B-NP
+swanston	JJ	yes_amb	4	False	False	aaaaaaaa	a	8	-1	-1	NP	at	2	0	O	None	at	None	JJ	8	5	street	NN	NN	1	swanston	B-NP	False	O	O	O	False	False	2	swanston	False	-1	False	False	O	None	I-NP
+street	NN	yes_amb	4	False	False	aaaaaa	a	6	-1	-1	NP	at	2	1	O	None	at	None	JJ	9	5	street	NN	NN	1	street	I-NP	False	O	O	O	True	False	2	street	False	-1	False	False	O	None	I-NP
+
+dandy	NN	yes_unamb	5	False	False	aaaaa	a	5	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	dandy	B-NP	False	O	O	O	False	False	1	dandy	False	-1	False	False	O	None	B-NP
+
+le	NN	yes_amb	3	False	False	aa	a	2	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	mans	NNS	NNS	1	le	B-NP	False	O	O	O	False	False	2	le	False	-1	False	False	O	None	B-NP
+mans	NNS	yes_amb	3	False	False	aaaa	a	4	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	mans	NNS	NNS	1	mans	I-NP	False	O	O	O	True	False	2	man	False	-1	False	False	O	None	I-NP
+
+dandy	NN	yes_unamb	5	True	False	aaaaa	a	5	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	dandy	B-NP	False	O	O	O	False	False	1	dandy	False	-1	False	False	O	None	B-NP
+going	VBG	None	None	False	False	aaaaa	a	5	-1	-1	VP	None	1	0	O	None	None	None	VBG	1	1	None	None	VBG	1	going	B-VP	False	None	None	None	False	False	1	go	False	-1	False	False	O	None	O
+for	IN	None	None	False	False	aaa	a	3	-1	-1	PP	None	1	0	O	None	None	None	IN	2	2	None	None	IN	1	for	B-PP	False	None	None	None	False	False	1	for	False	-1	False	False	O	None	O
+job	NN	None	None	False	False	aaa	a	3	-1	-1	NP	None	2	0	O	None	for	None	NN	3	3	imterview	NN	NN	2	job	B-NP	False	O	O	O	False	False	2	job	False	-1	False	False	O	None	O
+imterview	NN	None	None	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	2	1	O	None	for	None	NN	4	3	imterview	NN	NN	2	imterview	I-NP	False	O	O	O	False	False	2	imterview	False	-1	False	False	O	None	O
+
+in	IN	yes_unamb	4	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	in	B-PP	False	None	None	None	False	False	1	in	False	-1	False	False	O	None	B-NP
+camberwell	DT	yes_unamb	4	False	False	aaaaaaaaaa	a	10	-1	-1	NP	None	3	0	O	None	in	None	DT	1	1	train	NN	NN	2	camberwell	B-NP	False	B-P	B-PPL	B-LOCB	False	False	3	camberwell	False	-1	False	False	O	False	I-NP
+train	NN	yes_unamb	4	False	False	aaaaa	a	5	-1	-1	NP	None	3	1	O	None	in	None	DT	2	1	train	NN	NN	2	train	I-NP	False	O	O	O	True	False	3	train	False	-1	False	False	O	None	I-NP
+station	NN	yes_unamb	4	False	False	aaaaaaa	a	7	-1	-1	NP	None	3	2	O	None	in	None	DT	3	1	train	NN	NN	2	station	I-NP	False	O	O	O	True	False	3	station	False	-1	False	False	O	None	I-NP
+
+in	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	in	B-PP	False	None	None	None	False	False	1	in	False	-1	False	False	O	None	B-NP
+hawthorn	NN	yes_unamb	5	False	False	aaaaaaaa	a	8	-1	-1	NP	in	1	0	B-S	None	in	None	NN	1	1	None	None	NN	1	hawthorn	B-NP	False	B-S	B-HMSD	B-RSTA	False	False	1	hawthorn	False	-1	False	False	B-RSTA	False	I-NP
+in	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	2	2	None	None	IN	1	in	B-PP	False	None	None	None	False	False	1	in	False	-1	False	False	O	None	O
+front	NN	None	None	False	False	aaaaa	a	5	-1	-1	NP	None	1	0	O	None	in	None	NN	3	3	None	None	NN	1	front	B-NP	False	O	O	O	True	False	1	front	False	-1	False	False	O	None	O
+of	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	4	4	None	None	IN	1	of	B-PP	False	None	None	None	False	False	1	of	False	-1	False	False	O	None	B-NP
+a	DT	no	4	False	False	a	a	1	-1	-1	NP	of	2	0	O	None	of	a	DT	5	5	park	NN	DT	1	a	B-NP	False	O	O	O	False	False	2	a	False	-1	False	False	O	None	I-NP
+park	NN	no	4	False	False	aaaa	a	4	-1	-1	NP	of	2	1	O	None	of	a	DT	6	5	park	NN	DT	1	park	I-NP	False	O	O	O	True	False	2	park	False	-1	False	False	O	None	I-NP
+called	VBN	None	None	False	False	aaaaaa	a	6	-1	-1	VP	None	1	0	O	None	None	None	VBN	7	6	None	None	VBN	1	called	B-VP	False	None	None	None	False	True	1	call	False	-1	False	False	O	None	O
+central	JJ	yes_unamb	4	True	False	aaaaaaa	a	7	-1	-1	NP	None	2	0	O	RES	None	None	JJ	8	7	garden	NN	NN	1	central	B-NP	False	O	O	O	False	False	2	central	False	-1	False	False	O	None	B-NP
+garden	NN	yes_unamb	4	True	False	aaaaaa	a	6	-1	-1	NP	None	2	1	O	RES	None	None	JJ	9	7	garden	NN	NN	1	garden	I-NP	False	O	O	O	True	False	2	garden	False	-1	False	False	O	None	I-NP
+where	WRB	None	None	False	False	aaaaa	a	5	-1	-1	ADVP	None	1	0	O	None	None	None	WRB	10	8	None	None	WRB	1	where	B-ADVP	False	None	None	None	False	False	1	where	False	-1	False	False	O	None	O
+the	DT	yes_amb	4	False	False	aaa	a	3	-1	-1	NP	None	2	0	O	None	None	the	DT	11	9	university	NN	DT	1	the	B-NP	False	O	O	O	False	False	2	the	False	-1	False	False	O	None	B-NP
+university	NN	yes_amb	4	False	False	aaaaaaaaaa	a	10	-1	-1	NP	None	2	1	O	None	None	the	DT	12	9	university	NN	DT	1	university	I-NP	False	O	O	O	True	False	2	university	False	-1	False	False	O	None	I-NP
+of	IN	yes_amb	4	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	13	10	None	None	IN	1	of	B-PP	False	None	None	None	False	False	1	of	False	-1	False	False	O	None	I-NP
+swinburne	NN	yes_amb	4	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	1	0	O	None	of	None	NN	14	11	None	None	NN	1	swinburne	B-NP	False	O	O	O	False	False	1	swinburne	False	-1	False	False	O	None	I-NP
+is	VBZ	None	None	False	False	aa	a	2	-1	-1	VP	None	2	0	O	None	None	None	VBZ	15	12	located	VBN	VBZ	1	is	B-VP	False	None	None	None	False	False	2	be	False	-1	False	False	O	None	O
+located	VBN	None	None	False	False	aaaaaaa	a	7	-1	-1	VP	None	2	1	O	None	None	None	VBZ	16	12	located	VBN	VBZ	1	located	I-VP	False	None	None	None	False	True	2	locate	False	-1	False	False	O	None	O
+
+in	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	in	B-PP	False	None	None	None	False	False	1	in	False	-1	False	False	O	None	O
+near	JJ	None	None	False	False	aaaa	a	4	-1	-1	NP	None	3	0	O	None	in	None	JJ	1	1	hawthorn	NN	NNS	1	near	B-NP	False	O	O	O	False	False	3	near	False	-1	False	False	O	None	O
+hawthorn	NN	yes_unamb	5	False	False	aaaaaaaa	a	8	-1	-1	NP	None	3	1	B-S	None	in	None	JJ	2	1	hawthorn	NN	NNS	1	hawthorn	I-NP	False	B-S	B-HMSD	B-RSTA	False	False	3	hawthorn	False	-1	False	False	B-RSTA	False	B-NP
+shops	NNS	no	4	False	False	aaaaa	a	5	-1	-1	NP	None	3	2	O	None	in	None	JJ	3	1	hawthorn	NN	NNS	1	shops	I-NP	False	O	O	O	True	False	3	shop	False	-1	False	False	O	None	B-NP
+
+moorolobark	NN	yes_unamb	5	True	False	aaaaaaaaaaa	a	11	-1	-1	NP	None	1	0	O	PPL	None	None	NN	0	0	None	None	NN	1	moorolobark	B-NP	False	O	O	O	False	False	1	moorolobark	False	-1	False	False	O	None	B-NP
+
+going	VBG	None	None	False	False	aaaaa	a	5	-1	-1	VP	None	1	0	O	None	None	None	VBG	0	0	None	None	VBG	1	going	B-VP	False	None	None	None	False	False	1	go	False	-1	False	False	O	None	O
+to	TO	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	TO	1	1	None	None	TO	1	to	B-PP	False	None	None	None	False	False	1	to	False	-1	False	False	O	None	O
+broken	JJ	None	None	False	False	aaaaaa	a	6	-1	-1	NP	None	2	0	O	None	to	None	JJ	2	2	hill	NN	NN	1	broken	B-NP	False	B-P	B-PPL	O	False	False	2	broken	False	-1	False	False	O	False	O
+hill	NN	None	None	False	False	aaaa	a	4	-1	-1	NP	None	2	1	O	None	to	None	JJ	3	2	hill	NN	NN	1	hill	I-NP	False	I-P	I-PPL	O	False	False	2	hill	False	-1	False	False	O	False	O
+
+over	IN	None	None	False	False	aaaa	a	4	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	over	B-PP	False	None	None	None	False	False	1	over	False	-1	False	False	O	None	O
+the	DT	None	None	False	False	aaa	a	3	-1	-1	NP	None	2	0	O	None	over	the	DT	1	1	road	NN	DT	1	the	B-NP	False	O	O	O	False	False	2	the	False	-1	False	False	O	None	O
+road	NN	None	None	False	False	aaaa	a	4	-1	-1	NP	None	2	1	O	None	over	the	DT	2	1	road	NN	DT	1	road	I-NP	False	O	O	O	True	False	2	road	False	-1	False	False	O	None	O
+from	IN	None	None	False	False	aaaa	a	4	-1	-1	PP	None	1	0	O	None	None	None	IN	3	2	None	None	IN	1	from	B-PP	False	None	None	None	False	False	1	from	False	-1	False	False	O	None	B-NP
+pub	NN	no	3	False	False	aaa	a	3	-1	-1	NP	from	1	0	O	None	from	None	NN	4	3	None	None	NN	1	pub	B-NP	False	O	O	O	False	False	1	pub	False	-1	False	False	O	None	I-NP
+on	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	5	4	None	None	IN	1	on	B-PP	False	None	None	None	False	False	1	on	False	-1	False	False	O	None	O
+iphone	NN	None	None	False	False	aaaaaa	a	6	-1	-1	NP	None	1	0	O	None	on	None	NN	6	5	None	None	NN	1	phone	B-NP	False	O	O	O	False	False	1	iphone	False	-1	False	False	O	None	O
+
+cavendish	NN	yes_unamb	5	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	1	0	B-P	None	None	None	NN	0	0	None	None	NN	1	cavendish	B-NP	False	B-P	B-PPL	B-LOCB	False	False	1	cavendish	False	-1	False	False	B-LOCB	False	B-NP
+
+mouth	NN	None	None	False	False	aaaaa	a	5	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	mouth	B-NP	False	O	O	O	False	False	1	mouth	False	-1	False	False	O	None	O
+
+at	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	at	B-PP	False	None	None	None	False	False	1	at	False	-1	False	False	O	None	B-NP
+burwood	NN	yes_unamb	4	False	False	aaaaaaa	a	7	-1	-1	NP	at	2	0	O	None	at	None	NN	1	1	rd	NN	NN	2	burwood	B-NP	False	B-P	B-PPL	B-RSTA	False	False	2	burwood	False	-1	False	False	O	False	I-NP
+rd	NN	yes_unamb	4	False	False	aa	a	2	-1	-1	NP	at	2	1	O	None	at	None	NN	2	1	rd	NN	NN	2	rd	I-NP	False	O	O	O	False	False	2	rd	False	-1	False	False	O	None	I-NP
+in	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	3	2	None	None	IN	1	in	B-PP	False	None	None	None	False	False	1	in	False	-1	False	False	O	None	O
+front	NN	None	None	False	False	aaaaa	a	5	-1	-1	NP	None	1	0	O	None	in	None	NN	4	3	None	None	NN	1	front	B-NP	False	O	O	O	True	False	1	front	False	-1	False	False	O	None	O
+of	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	5	4	None	None	IN	1	of	B-PP	False	None	None	None	False	False	1	of	False	-1	False	False	O	None	B-NP
+swinburne	JJ	yes_amb	4	False	False	aaaaaaaaa	a	9	-1	-1	NP	of	2	0	B-S	None	of	None	JJ	6	5	university	NN	NN	1	swinburne	B-NP	False	O	O	O	False	False	2	swinburne	False	-1	False	False	O	None	I-NP
+university	NN	yes_amb	4	False	False	aaaaaaaaaa	a	10	-1	-1	NP	of	2	1	I-S	None	of	None	JJ	7	5	university	NN	NN	1	university	I-NP	False	O	O	O	True	False	2	university	False	-1	False	False	O	None	I-NP
+of	IN	yes_amb	4	False	False	aa	a	2	-1	-1	PP	of	1	0	I-S	None	None	None	IN	8	6	None	None	IN	1	of	B-PP	False	None	None	None	False	False	1	of	False	-1	False	False	O	None	I-NP
+technology	NN	yes_amb	4	False	False	aaaaaaaaaa	a	10	-1	-1	NP	of	1	0	I-S	None	of	None	NN	9	7	None	None	NN	1	technology	B-NP	False	O	O	O	False	False	1	technology	False	-1	False	False	O	None	I-NP
+in	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	10	8	None	None	IN	1	in	B-PP	False	None	None	None	False	False	1	in	False	-1	False	False	O	None	B-NP
+hawthorn	NN	yes_unamb	5	False	False	aaaaaaaa	a	8	-1	-1	NP	in	2	0	B-S	None	in	None	NN	11	9	suburb	NN	NN	2	hawthorn	B-NP	False	B-S	B-HMSD	B-RSTA	False	False	2	hawthorn	False	-1	False	False	B-RSTA	False	I-NP
+suburb	NN	None	None	False	False	aaaaaa	a	6	-1	-1	NP	None	2	1	O	None	in	None	NN	12	9	suburb	NN	NN	2	suburb	I-NP	False	O	O	O	True	False	2	suburb	False	-1	False	False	O	None	O
+
+bikes	NNS	yes_unamb	3	False	False	aaaaa	a	5	-1	-1	NP	None	3	0	O	None	None	None	NNS	0	0	and	CC	NNS	2	bikes	B-NP	False	O	O	O	False	False	3	bike	False	-1	False	False	O	None	B-NP
+and	CC	yes_unamb	3	False	False	aaa	a	3	-1	-1	NP	None	3	1	O	None	None	None	NNS	1	0	and	CC	NNS	2	and	I-NP	False	O	O	O	False	False	3	and	False	-1	False	False	O	None	I-NP
+bits	NNS	yes_unamb	3	False	False	aaaa	a	4	-1	-1	NP	None	3	2	O	None	None	None	NNS	2	0	and	CC	NNS	2	bits	I-NP	False	O	O	O	True	False	3	bit	False	-1	False	False	O	None	I-NP
+
+hey	UH	None	None	False	False	aaa	a	3	-1	-1	None	None	1	0	O	None	None	None	UH	0	0	None	None	UH	1	hey	O	False	None	None	None	False	False	1	hey	False	-1	False	False	O	None	O
+
+crime	NN	None	None	False	False	aaaaa	a	5	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	crime	B-NP	False	O	O	O	False	False	1	crime	False	-1	False	False	O	None	O
+
+seville	JJ	yes_unamb	5	False	False	aaaaaaa	a	7	-1	-1	NP	None	2	0	O	None	None	None	JJ	0	0	east	RB	RB	1	seville	B-NP	False	B-P	B-PPL	B-LOCB	False	False	2	seville	False	-1	False	False	B-LOCB	False	B-NP
+east	RB	yes_unamb	5	False	False	aaaa	a	4	-1	-1	NP	None	2	1	O	None	None	None	JJ	1	0	east	RB	RB	1	east	I-NP	False	O	O	I-LOCB	True	False	2	east	False	-1	False	False	I-LOCB	None	I-NP
+
+montrose	NN	yes_unamb	5	False	False	aaaaaaaa	a	8	-1	-1	NP	None	1	0	B-P	None	None	None	NN	0	0	None	None	NN	1	monroe	B-NP	False	B-P	B-PPLX	B-LOCB	False	False	1	montrose	False	-1	False	False	B-LOCB	False	B-NP
+
+whittlesea	NN	yes_unamb	5	False	False	aaaaaaaaaa	a	10	-1	-1	NP	None	1	0	B-A	None	None	None	NN	0	0	None	None	NN	1	whittlesea	B-NP	False	B-A	B-ADM2	B-TPEX	False	False	1	whittlesea	False	-1	False	False	B-TPEX	False	B-NP
+
+honey	NN	None	None	False	False	aaaaa	a	5	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	honey	B-NP	False	O	O	O	False	False	1	honey	False	-1	False	False	O	None	O
+i	IN	None	None	False	False	a	a	1	-1	-1	PP	None	1	0	O	None	None	None	IN	1	1	None	None	IN	1	i	B-PP	False	None	None	None	False	False	1	i	False	-1	False	False	O	None	O
+\	NNS	None	None	False	False	_	_	1	-1	-1	NP	None	1	0	O	None	i	None	NNS	2	2	None	None	NNS	1	\	B-NP	False	O	O	O	False	False	1	\	False	-1	False	False	O	None	O
+'	POS	None	None	False	False	_	_	1	-1	-1	NP	None	3	0	O	None	None	None	POS	3	3	m	NN	NN	2	'	B-NP	False	O	O	O	False	False	3	'	False	-1	False	False	O	None	O
+m	NN	None	None	False	False	a	a	1	-1	-1	NP	None	3	1	O	None	None	None	POS	4	3	m	NN	NN	2	am	I-NP	False	O	O	O	False	False	3	m	False	-1	False	False	O	None	O
+home	NN	None	None	False	False	aaaa	a	4	-1	-1	NP	None	3	2	O	None	None	None	POS	5	3	m	NN	NN	2	home	I-NP	False	O	O	O	True	False	3	home	False	-1	False	False	O	None	O
+:	:	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	:	6	4	None	None	:	1	:	O	False	None	None	None	False	False	1	:	False	-1	False	False	O	None	O
+)	-RRB-	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	-RRB-	7	5	None	None	-RRB-	1	)	O	False	None	None	None	False	False	1	)	False	-1	False	False	O	None	O
+
+building	NN	no	3	False	False	aaaaaaaa	a	8	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	9	CD	NN	1	building	B-NP	False	O	O	O	True	False	2	building	True	1	False	False	O	None	B-NP
+9	CD	no	3	False	False	0	0	1	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	9	CD	NN	1	9	I-NP	False	O	O	O	False	False	2	9	True	1	False	False	O	None	I-NP
+at	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	2	1	None	None	IN	1	at	B-PP	False	None	None	None	False	False	1	at	False	-1	False	False	O	None	B-NP
+rmit	NN	yes_unamb	4	False	False	aaaa	a	4	-1	-1	NP	at	2	0	O	None	at	None	NN	3	2	university	NN	NN	2	rmit	B-NP	False	O	O	O	False	False	2	rmit	False	-1	False	False	O	None	I-NP
+university	NN	yes_unamb	4	False	False	aaaaaaaaaa	a	10	-1	-1	NP	at	2	1	O	None	at	None	NN	4	2	university	NN	NN	2	university	I-NP	False	O	O	O	True	False	2	university	False	-1	False	False	O	None	I-NP
+,	,	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	,	5	3	None	None	,	1	,	O	False	None	None	None	False	False	1	,	False	-1	False	False	O	None	O
+on	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	6	4	None	None	IN	1	on	B-PP	False	None	None	None	False	False	1	on	False	-1	False	False	O	None	O
+the	DT	None	None	False	False	aaa	a	3	-1	-1	NP	None	2	0	O	None	on	the	DT	7	5	corner	NN	DT	1	the	B-NP	False	O	O	O	False	False	2	the	False	-1	False	False	O	None	O
+corner	NN	None	None	False	False	aaaaaa	a	6	-1	-1	NP	None	2	1	O	None	on	the	DT	8	5	corner	NN	DT	1	corner	I-NP	False	O	O	O	True	False	2	corner	False	-1	False	False	O	None	O
+of	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	9	6	None	None	IN	1	of	B-PP	False	None	None	None	False	False	1	of	False	-1	False	False	O	None	B-NP
+bowen	NN	yes_amb	4	False	False	aaaaa	a	5	-1	-1	NP	of	5	0	O	None	of	None	NN	10	7	st	NN	NN	4	bowen	B-NP	False	B-P	B-PPL	O	False	False	5	bowen	False	-1	False	False	O	False	I-NP
+st	NN	yes_amb	4	False	False	aa	a	2	-1	-1	NP	of	5	1	O	None	of	None	NN	11	7	st	NN	NN	4	st	I-NP	False	O	O	O	False	False	5	st	False	-1	False	False	O	None	I-NP
+and	CC	None	None	False	False	aaa	a	3	-1	-1	NP	None	5	2	O	None	of	None	NN	12	7	st	NN	NN	4	and	I-NP	False	O	O	O	False	False	5	and	False	-1	False	False	O	None	I-NP
+franklin	NN	yes_amb	4	False	False	aaaaaaaa	a	8	-1	-1	NP	and	5	3	O	None	of	None	NN	13	7	st	NN	NN	4	franklin	I-NP	False	B-P	B-PPLX	B-PRSH	False	False	5	franklin	False	-1	False	False	O	False	I-NP
+st	NN	yes_amb	4	False	False	aa	a	2	-1	-1	NP	and	5	4	O	None	of	None	NN	14	7	st	NN	NN	4	st	I-NP	False	O	O	O	False	False	5	st	False	-1	False	False	O	None	I-NP
+,	,	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	,	15	8	None	None	,	1	,	O	False	None	None	None	False	False	1	,	False	-1	False	False	O	None	I-NP
+melbourne	NN	yes_unamb	6	False	False	aaaaaaaaa	a	9	-1	-1	NP	,	1	0	B-A	None	None	None	NN	16	9	None	None	NN	1	melbourne	B-NP	False	B-A	B-ADM2	B-LOCB	False	False	1	melbourne	False	-1	False	False	B-LOCB	False	I-NP
+.	.	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	.	17	10	None	None	.	1	.	O	False	None	None	None	False	False	1	.	False	-1	False	False	O	None	O
+
+officer	NN	yes_unamb	5	False	False	aaaaaaa	a	7	-1	-1	NP	None	1	0	B-P	None	None	None	NN	0	0	None	None	NN	1	officer	B-NP	False	B-P	B-PPL	B-LOCB	False	False	1	officer	False	-1	False	False	B-LOCB	False	B-NP
+
+aussie	NN	None	None	False	False	aaaaaa	a	6	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	day	NN	NN	2	aussie	B-NP	False	O	O	O	False	False	2	aussie	False	-1	False	False	O	None	O
+day	NN	None	None	False	False	aaa	a	3	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	day	NN	NN	2	day	I-NP	False	O	O	O	False	False	2	day	False	-1	False	False	O	None	O
+
+southern	JJ	yes_unamb	4	False	False	aaaaaaaa	a	8	-1	-1	NP	None	2	0	O	RES	None	None	JJ	0	0	reserve	NN	NN	1	southern	B-NP	False	O	O	O	False	False	2	southern	False	-1	False	False	O	None	B-NP
+reserve	NN	yes_unamb	4	False	False	aaaaaaa	a	7	-1	-1	NP	None	2	1	O	RES	None	None	JJ	1	0	reserve	NN	NN	1	reserve	I-NP	False	B-L	B-RES	O	False	False	2	reserve	False	-1	False	False	O	False	I-NP
+
+lyndhurst	NN	yes_unamb	5	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	1	0	B-S	None	None	None	NN	0	0	None	None	NN	1	lyndhurst	B-NP	False	B-S	B-HMSD	B-RSTA	False	False	1	lyndhurst	False	-1	False	False	B-RSTA	False	B-NP
+
+nsw	NN	None	None	False	False	aaa	a	3	-1	-1	NP	None	1	0	B-A	None	None	None	NN	0	0	None	None	NN	1	nsw	B-NP	False	B-A	B-ADM1	O	False	False	1	nsw	False	-1	False	False	O	False	O
+
+next	JJ	None	None	False	False	aaaa	a	4	-1	-1	ADVP	None	1	0	O	None	None	None	JJ	0	0	None	None	JJ	1	next	B-ADVP	False	None	None	None	False	False	1	next	False	-1	False	False	O	None	O
+to	TO	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	TO	1	1	None	None	TO	1	to	B-PP	False	None	None	None	False	False	1	to	False	-1	False	False	O	None	B-NP
+the	DT	yes_unamb	4	False	False	aaa	a	3	-1	-1	NP	to	2	0	O	None	to	the	DT	2	2	m	NN	DT	1	the	B-NP	False	O	O	O	False	False	2	the	False	-1	False	False	O	None	I-NP
+m	NN	yes_unamb	4	False	False	a	a	1	-1	-1	NP	to	2	1	O	None	to	the	DT	3	2	m	NN	DT	1	am	I-NP	False	O	O	O	False	False	2	m	False	-1	False	False	O	None	I-NP
+1	CD	yes_unamb	4	False	False	0	0	1	-1	-1	None	to	1	0	O	None	None	None	CD	4	3	None	None	CD	1	1	O	False	None	None	None	False	False	1	1	True	0	False	False	O	None	I-NP
+
+knox	NN	yes_unamb	4	True	False	aaaa	a	4	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	shopping	NN	NN	2	knox	B-NP	False	B-A	B-ADM2	O	False	False	2	knox	False	-1	False	False	O	False	B-NP
+shopping	NN	yes_unamb	4	True	False	aaaaaaaa	a	8	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	shopping	NN	NN	2	shopping	I-NP	False	O	O	O	False	False	2	shopping	False	-1	False	False	O	None	I-NP
+
+donvale	JJ	yes_unamb	5	False	False	aaaaaaa	a	7	-1	-1	NP	None	3	0	B-P	None	None	None	JJ	0	0	bbq	NN	NN	2	donvale	B-NP	False	B-P	B-PPL	B-LOCB	False	False	3	donvale	False	-1	False	False	B-LOCB	False	B-NP
+bbq	NN	no	3	False	False	aaa	a	3	-1	-1	NP	None	3	1	O	None	None	None	JJ	1	0	bbq	NN	NN	2	bbq	I-NP	False	O	O	O	False	False	3	bbq	False	-1	False	False	O	None	B-NP
+place	NN	no	3	False	False	aaaaa	a	5	-1	-1	NP	None	3	2	O	None	None	None	JJ	2	0	bbq	NN	NN	2	place	I-NP	False	O	O	O	True	False	3	place	False	-1	False	False	O	None	I-NP
+
+near	IN	None	None	False	False	aaaa	a	4	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	near	B-PP	False	None	None	None	False	False	1	near	False	-1	False	False	O	None	B-NP
+te	NN	no	3	True	False	aa	a	2	-1	-1	NP	near	2	0	O	None	near	None	NN	1	1	pub	NN	NN	2	te	B-NP	False	O	O	O	False	False	2	te	False	-1	False	False	O	None	I-NP
+pub	NN	no	3	True	False	aaa	a	3	-1	-1	NP	near	2	1	O	None	near	None	NN	2	1	pub	NN	NN	2	pub	I-NP	False	O	O	O	False	False	2	pub	False	-1	False	False	O	None	I-NP
+but	CC	None	None	False	False	aaa	a	3	-1	-1	None	None	1	0	O	None	None	None	CC	3	2	None	None	CC	1	but	O	False	None	None	None	False	False	1	but	False	-1	False	False	O	None	O
+next	JJ	None	None	False	False	aaaa	a	4	-1	-1	VP	None	3	0	O	None	None	None	JJ	4	3	to	TO	TO	1	next	B-VP	False	None	None	None	False	False	3	next	False	-1	False	False	O	None	O
+to	TO	None	None	False	False	aa	a	2	-1	-1	VP	None	3	1	O	None	None	None	JJ	5	3	to	TO	TO	1	to	I-VP	False	None	None	None	False	False	3	to	False	-1	False	False	O	None	O
+te	VB	None	None	False	False	aa	a	2	-1	-1	VP	None	3	2	O	None	None	None	JJ	6	3	to	TO	TO	1	te	I-VP	False	None	None	None	False	False	3	te	False	-1	False	False	O	None	O
+post	NN	no	3	False	False	aaaa	a	4	-1	-1	NP	None	2	0	O	None	None	None	NN	7	4	office	NN	NN	2	post	B-NP	False	O	O	O	True	False	2	post	False	-1	False	False	O	None	B-NP
+office	NN	no	3	False	False	aaaaaa	a	6	-1	-1	NP	None	2	1	O	None	None	None	NN	8	4	office	NN	NN	2	office	I-NP	False	O	O	O	True	False	2	office	False	-1	False	False	O	None	I-NP
+
+heathmomt	NN	yes_unamb	5	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	road	NN	NN	2	heathmomt	B-NP	False	O	O	O	False	False	2	heathmomt	False	-1	False	False	O	None	B-NP
+road	NN	yes_unamb	5	False	False	aaaa	a	4	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	road	NN	NN	2	road	I-NP	False	O	O	O	True	False	2	road	False	-1	False	False	O	None	I-NP
+
+hight	JJ	yes_amb	4	False	False	aaaaa	a	5	-1	-1	NP	None	2	0	O	None	None	None	JJ	0	0	street	NN	NN	1	high	B-NP	False	O	O	O	False	False	2	hight	False	-1	False	False	O	None	B-NP
+street	NN	yes_amb	4	False	False	aaaaaa	a	6	-1	-1	NP	None	2	1	O	None	None	None	JJ	1	0	street	NN	NN	1	street	I-NP	False	O	O	O	True	False	2	street	False	-1	False	False	O	None	I-NP
+in	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	2	1	None	None	IN	1	in	B-PP	False	None	None	None	False	False	1	in	False	-1	False	False	O	None	B-NP
+ashburton	JJ	yes_unamb	5	True	False	aaaaaaaaa	a	9	-1	-1	NP	in	2	0	O	None	in	None	JJ	3	2	town	NN	NN	1	ashburton	B-NP	False	B-P	B-PPL	B-PO	False	False	2	ashburton	False	-1	False	False	O	False	I-NP
+town	NN	yes_unamb	5	True	False	aaaa	a	4	-1	-1	NP	in	2	1	O	None	in	None	JJ	4	2	town	NN	NN	1	town	I-NP	False	O	O	O	True	False	2	town	False	-1	False	False	O	None	I-NP
+
+m	NN	yes_unamb	4	False	False	a	a	1	-1	-1	NP	None	3	0	O	None	None	None	NN	0	0	1	CD	NN	2	am	B-NP	False	O	O	O	False	False	3	m	True	1	False	False	O	None	B-NP
+1	CD	yes_unamb	4	False	False	0	0	1	-1	-1	NP	None	3	1	O	None	None	None	NN	1	0	1	CD	NN	2	1	I-NP	False	O	O	O	False	False	3	1	True	1	False	False	O	None	I-NP
+motorway	NN	yes_unamb	4	False	False	aaaaaaaa	a	8	-1	-1	NP	None	3	2	O	None	None	None	NN	2	0	1	CD	NN	2	motorway	I-NP	False	O	O	O	False	False	3	motorway	True	1	False	False	O	None	I-NP
+accorising	VBG	None	None	False	False	aaaaaaaaaa	a	10	-1	-1	VP	None	1	0	O	None	None	None	VBG	3	1	None	None	VBG	1	accorising	B-VP	False	None	None	None	False	False	1	accorising	False	-1	False	False	O	None	O
+to	TO	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	TO	4	2	None	None	TO	1	to	B-PP	False	None	None	None	False	False	1	to	False	-1	False	False	O	None	O
+gps	NNS	None	None	False	False	aaa	a	3	-1	-1	NP	None	1	0	O	None	to	None	NNS	5	3	None	None	NNS	1	gps	B-NP	False	O	O	O	False	False	1	gps	False	-1	False	False	O	None	O
+
+balaclava	NN	yes_unamb	5	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	1	0	B-S	None	None	None	NN	0	0	None	None	NN	1	balaclava	B-NP	False	B-S	B-HMSD	B-TPEX	False	False	1	balaclava	False	-1	False	False	B-TPEX	False	B-NP
+
+woolamai	JJ	yes_unamb	5	False	False	aaaaaaaa	a	8	-1	-1	NP	None	2	0	B-P	None	None	None	JJ	0	0	racecourse	NN	NN	1	woolamai	B-NP	False	B-P	B-PPL	B-LOCB	False	False	2	woolamai	False	-1	False	False	B-LOCB	False	B-NP
+racecourse	NN	no	4	False	False	aaaaaaaaaa	a	10	-1	-1	NP	None	2	1	O	None	None	None	JJ	1	0	racecourse	NN	NN	1	racecourse	I-NP	False	O	O	O	False	False	2	racecourse	False	-1	False	False	O	None	B-NP
+
+heading	VBG	None	None	False	False	aaaaaaa	a	7	-1	-1	VP	None	1	0	O	None	None	None	VBG	0	0	None	None	VBG	1	heading	B-VP	False	None	None	None	False	True	1	head	False	-1	False	False	O	None	O
+to	TO	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	TO	1	1	None	None	TO	1	to	B-PP	False	None	None	None	False	False	1	to	False	-1	False	False	O	None	O
+wagga	DT	None	None	False	False	aaaaa	a	5	-1	-1	NP	None	2	0	O	None	to	None	DT	2	2	wagga	NN	DT	1	wagga	B-NP	False	B-A	B-ADM2	O	False	False	2	wagga	False	-1	False	False	O	False	O
+wagga	NN	None	None	False	False	aaaaa	a	5	-1	-1	NP	None	2	1	O	None	to	None	DT	3	2	wagga	NN	DT	1	wagga	I-NP	False	I-A	I-ADM2	O	False	False	2	wagga	False	-1	False	False	O	False	O
+
+melbourne	JJ	yes_unamb	3	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	3	0	O	None	None	None	JJ	0	0	town	NN	NN	2	melbourne	B-NP	False	B-A	B-ADM2	B-LOCB	False	False	3	melbourne	False	-1	False	False	O	False	B-NP
+town	NN	yes_unamb	3	False	False	aaaa	a	4	-1	-1	NP	None	3	1	O	None	None	None	JJ	1	0	town	NN	NN	2	town	I-NP	False	O	O	O	True	False	3	town	False	-1	False	False	O	None	I-NP
+hall	NN	yes_unamb	3	False	False	aaaa	a	4	-1	-1	NP	None	3	2	O	None	None	None	JJ	2	0	town	NN	NN	2	hall	I-NP	False	B-P	B-PPL	O	True	False	3	hall	False	-1	False	False	O	False	I-NP
+
+eureka	NN	yes_unamb	5	False	False	aaaaaa	a	6	-1	-1	NP	None	1	0	B-S	None	None	None	NN	0	0	None	None	NN	1	eureka	B-NP	False	B-S	B-HMSD	B-MINE	False	False	1	eureka	False	-1	False	False	B-MINE	False	B-NP
+
+711	CD	None	None	False	False	000	0	3	-1	-1	None	None	1	0	O	None	None	None	CD	0	0	None	None	CD	1	711	O	False	None	None	None	False	False	1	711	True	0	False	False	O	None	O
+
+slurpe	NN	None	None	False	False	aaaaaa	a	6	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	slurpe	B-NP	False	O	O	O	False	False	1	slurpe	False	-1	False	False	O	None	O
+
+club	NN	yes_unamb	4	False	False	aaaa	a	4	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	rd	NN	NN	2	club	B-NP	False	O	O	O	True	False	2	club	False	-1	False	False	O	None	B-NP
+rd	NN	yes_unamb	4	False	False	aa	a	2	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	rd	NN	NN	2	rd	I-NP	False	O	O	O	False	False	2	rd	False	-1	False	False	O	None	I-NP
+
+new	JJ	no	3	False	False	aaa	a	3	-1	-1	NP	None	2	0	O	None	None	None	JJ	0	0	estate	NN	NN	1	new	B-NP	False	O	O	O	False	False	2	new	False	-1	False	False	O	None	B-NP
+estate	NN	no	3	False	False	aaaaaa	a	6	-1	-1	NP	None	2	1	O	None	None	None	JJ	1	0	estate	NN	NN	1	estate	I-NP	False	O	O	O	False	False	2	estate	False	-1	False	False	O	None	I-NP
+
+wish	VB	None	None	False	False	aaaa	a	4	-1	-1	VP	None	1	0	O	None	None	None	VB	0	0	None	None	VB	1	wish	B-VP	False	None	None	None	False	True	1	wish	False	-1	False	False	O	None	O
+i	VBP	None	None	False	False	a	a	1	-1	-1	NP	None	1	0	O	None	None	None	VBP	1	1	None	None	VBP	1	i	B-NP	False	O	O	O	False	False	1	i	False	-1	False	False	O	None	O
+was	VBD	None	None	False	False	aaa	a	3	-1	-1	VP	None	1	0	O	None	None	None	VBD	2	2	None	None	VBD	1	was	B-VP	False	None	None	None	False	False	1	be	False	-1	False	False	O	None	O
+with	IN	None	None	False	False	aaaa	a	4	-1	-1	PP	None	1	0	O	None	None	None	IN	3	3	None	None	IN	1	with	B-PP	False	None	None	None	False	False	1	with	False	-1	False	False	O	None	O
+brayden	NN	None	None	False	False	aaaaaaa	a	7	-1	-1	NP	None	1	0	O	None	with	None	NN	4	4	None	None	NN	1	brayden	B-NP	False	O	O	O	False	False	1	brayden	False	-1	False	False	O	None	O
+
+red	JJ	no	3	False	False	aaa	a	3	-1	-1	NP	None	4	0	O	None	None	None	JJ	0	0	cross	NN	NN	3	red	B-NP	False	O	O	O	False	False	4	red	False	-1	False	False	O	None	B-NP
+cross	NN	no	3	False	False	aaaaa	a	5	-1	-1	NP	None	4	1	O	None	None	None	JJ	1	0	cross	NN	NN	3	cross	I-NP	False	O	O	O	True	False	4	cross	False	-1	False	False	O	None	I-NP
+blood	NN	no	3	False	False	aaaaa	a	5	-1	-1	NP	None	4	2	O	None	None	None	JJ	2	0	cross	NN	NN	3	blood	I-NP	False	O	O	O	False	False	4	blood	False	-1	False	False	O	None	I-NP
+bank	NN	no	3	False	False	aaaa	a	4	-1	-1	NP	None	4	3	O	None	None	None	JJ	3	0	cross	NN	NN	3	bank	I-NP	False	O	O	O	True	False	4	bank	False	-1	False	False	O	None	I-NP
+
+m	NN	yes_unamb	7	False	False	a	a	1	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	1	CD	NN	1	am	B-NP	False	O	O	O	False	False	2	m	True	1	False	False	O	None	B-NP
+1	CD	yes_unamb	7	False	False	0	0	1	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	1	CD	NN	1	1	I-NP	False	O	O	O	False	False	2	1	True	1	False	False	O	None	I-NP
+on	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	2	1	None	None	IN	1	on	B-PP	False	None	None	None	False	False	1	on	False	-1	False	False	O	None	O
+way	NN	None	None	False	False	aaa	a	3	-1	-1	NP	None	1	0	O	None	on	None	NN	3	2	None	None	NN	1	way	B-NP	False	O	O	O	True	False	1	way	False	-1	False	False	O	None	O
+to	TO	None	None	False	False	aa	a	2	-1	-1	VP	None	2	0	O	None	None	None	TO	4	3	broadford	VB	TO	1	to	B-VP	False	None	None	None	False	False	2	to	False	-1	False	False	O	None	O
+broadford	VB	yes_unamb	5	False	False	aaaaaaaaa	a	9	-1	-1	VP	None	2	1	B-P	PPL	None	None	TO	5	3	broadford	VB	TO	1	broadford	I-VP	False	None	None	None	False	False	2	broadford	False	-1	False	False	B-PRSH	None	B-NP
+
+melbourne	JJ	yes_unamb	3	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	3	0	O	None	None	None	JJ	0	0	towl	NN	NN	2	melbourne	B-NP	False	B-A	B-ADM2	B-LOCB	False	False	3	melbourne	False	-1	False	False	O	False	B-NP
+towl	NN	yes_unamb	3	False	False	aaaa	a	4	-1	-1	NP	None	3	1	O	None	None	None	JJ	1	0	towl	NN	NN	2	towel	I-NP	False	O	O	O	False	False	3	towl	False	-1	False	False	O	None	I-NP
+hall	NN	yes_unamb	3	False	False	aaaa	a	4	-1	-1	NP	None	3	2	O	None	None	None	JJ	2	0	towl	NN	NN	2	hall	I-NP	False	B-P	B-PPL	O	True	False	3	hall	False	-1	False	False	O	False	I-NP
+
+2	CD	None	None	False	False	0	0	1	-1	-1	NP	None	1	0	O	None	None	None	CD	0	0	None	None	CD	1	2	B-NP	False	O	O	O	False	False	1	2	True	0	False	False	O	None	O
+/	,	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	,	1	1	None	None	,	1	/	O	False	None	None	None	False	False	1	/	False	-1	False	False	O	None	O
+23	CD	None	None	False	False	00	0	2	-1	-1	NP	None	3	0	O	None	None	None	CD	2	2	herbert	NN	NNS	1	23	B-NP	False	O	O	O	False	False	3	23	True	0	False	False	O	None	O
+herbert	NN	None	None	False	False	aaaaaaa	a	7	-1	-1	NP	None	3	1	O	None	None	None	CD	3	2	herbert	NN	NNS	1	herbert	I-NP	False	B-P	B-PPLX	O	False	False	3	herbert	True	0	False	False	O	False	O
+cres	NNS	None	None	False	False	aaaa	a	4	-1	-1	NP	None	3	2	O	None	None	None	CD	4	2	herbert	NN	NNS	1	cres	I-NP	False	O	O	O	False	False	3	cres	True	0	False	False	O	None	O
+ainslie	VBP	None	None	False	False	aaaaaaa	a	7	-1	-1	VP	None	1	0	O	None	None	None	VBP	5	3	None	None	VBP	1	ainslie	B-VP	False	None	None	None	False	False	1	ainslie	False	-1	False	False	O	None	O
+act	NN	None	None	False	False	aaa	a	3	-1	-1	NP	None	1	0	O	None	None	None	NN	6	4	None	None	NN	1	act	B-NP	False	B-A	B-ADM1	O	False	False	1	act	False	-1	False	False	O	False	O
+
+aussie	NN	None	None	False	False	aaaaaa	a	6	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	dande	NN	NN	2	aussie	B-NP	False	O	O	O	False	False	2	aussie	False	-1	False	False	O	None	O
+dande	NN	None	None	False	False	aaaaa	a	5	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	dande	NN	NN	2	dande	I-NP	False	O	O	O	False	False	2	dande	False	-1	False	False	O	None	O
+
+&	CC	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	CC	0	0	None	None	CC	1	&	O	False	None	None	None	False	False	1	&	False	-1	False	False	O	None	O
+#	#	None	None	False	False	_	_	1	-1	-1	NP	None	2	0	O	None	None	None	#	1	1	58382	CD	#	1	#	B-NP	False	O	O	O	False	False	2	#	True	1	False	False	O	None	O
+58382	CD	None	None	False	False	00000	0	5	-1	-1	NP	None	2	1	O	None	None	None	#	2	1	58382	CD	#	1	58382	I-NP	False	O	O	O	False	False	2	58382	True	1	False	False	O	None	O
+;	:	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	:	3	2	None	None	:	1	;	O	False	None	None	None	False	False	1	;	False	-1	False	False	O	None	O
+
+tram	NN	no	3	False	False	aaaa	a	4	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	stop	NN	NN	2	tram	B-NP	False	O	O	O	False	False	2	tram	False	-1	False	False	O	None	B-NP
+stop	NN	no	3	False	False	aaaa	a	4	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	stop	NN	NN	2	stop	I-NP	False	O	O	O	False	False	2	stop	False	-1	False	False	O	None	I-NP
+
+keiths	NNS	no	3	False	False	aaaaaa	a	6	-1	-1	NP	None	3	0	O	None	None	None	NNS	0	0	fitness	NN	NN	2	keiths	B-NP	False	O	O	O	False	False	3	keiths	False	-1	False	False	O	None	B-NP
+fitness	NN	no	3	False	False	aaaaaaa	a	7	-1	-1	NP	None	3	1	O	None	None	None	NNS	1	0	fitness	NN	NN	2	fitness	I-NP	False	O	O	O	False	False	3	fitness	False	-1	False	False	O	None	I-NP
+centre	NN	no	3	False	False	aaaaaa	a	6	-1	-1	NP	None	3	2	O	None	None	None	NNS	2	0	fitness	NN	NN	2	center	I-NP	False	O	O	O	True	False	3	centre	False	-1	False	False	O	None	I-NP
+
+lonsdale	JJ	yes_amb	5	False	False	aaaaaaaa	a	8	-1	-1	NP	None	2	0	O	None	None	None	JJ	0	0	street	NN	NN	1	lonsdale	B-NP	False	B-P	B-PPLX	B-TRIG	False	False	2	lonsdale	False	-1	False	False	O	False	B-NP
+street	NN	yes_amb	5	False	False	aaaaaa	a	6	-1	-1	NP	None	2	1	O	None	None	None	JJ	1	0	street	NN	NN	1	street	I-NP	False	O	O	O	True	False	2	street	False	-1	False	False	O	None	I-NP
+
+resy	NN	yes_unamb	5	True	False	aaaa	a	4	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	resy	B-NP	False	O	O	O	False	False	1	resy	False	-1	False	False	O	None	B-NP
+
+cowes	NNS	yes_unamb	5	False	False	aaaaa	a	5	-1	-1	NP	None	2	0	B-P	None	None	None	NNS	0	0	pier	NN	NNS	1	cowes	B-NP	False	B-P	B-PPL	B-LOCB	False	False	2	cowes	False	-1	False	False	B-LOCB	False	B-NP
+pier	NN	no	3	False	False	aaaa	a	4	-1	-1	NP	None	2	1	O	None	None	None	NNS	1	0	pier	NN	NNS	1	pier	I-NP	False	O	O	O	True	False	2	pier	False	-1	False	False	O	None	B-NP
+
+hotel	NN	no	4	False	False	aaaaa	a	5	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	rendavo	NN	NN	2	hotel	B-NP	False	B-S	B-SCH	O	True	False	2	hotel	False	-1	False	False	O	False	B-NP
+rendavo	NN	no	4	False	False	aaaaaaa	a	7	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	rendavo	NN	NN	2	rendavo	I-NP	False	O	O	O	False	False	2	rendavo	False	-1	False	False	O	None	I-NP
+
+the	DT	no	5	False	False	aaa	a	3	-1	-1	NP	None	2	0	O	None	None	the	DT	0	0	town	NN	DT	1	the	B-NP	False	O	O	O	False	False	2	the	False	-1	False	False	O	None	B-NP
+town	NN	no	5	False	False	aaaa	a	4	-1	-1	NP	None	2	1	O	None	None	the	DT	1	0	town	NN	DT	1	town	I-NP	False	O	O	O	True	False	2	town	False	-1	False	False	O	None	I-NP
+of	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	2	1	None	None	IN	1	of	B-PP	False	None	None	None	False	False	1	of	False	-1	False	False	O	None	I-NP
+trentham	NN	yes_unamb	5	False	False	aaaaaaaa	a	8	-1	-1	NP	of	1	0	B-P	None	of	None	NN	3	2	None	None	NN	1	trentham	B-NP	False	B-P	B-PPL	B-RSTA	False	False	1	trentham	False	-1	False	False	B-RSTA	False	I-NP
+in	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	4	3	None	None	IN	1	in	B-PP	False	None	None	None	False	False	1	in	False	-1	False	False	O	None	O
+the	DT	None	None	False	False	aaa	a	3	-1	-1	NP	None	3	0	O	None	in	the	DT	5	4	central	JJ	DT	1	the	B-NP	False	O	O	O	False	False	3	the	False	-1	False	False	O	None	O
+central	JJ	None	None	False	False	aaaaaaa	a	7	-1	-1	NP	None	3	1	O	None	in	the	DT	6	4	central	JJ	DT	1	central	I-NP	False	O	O	O	False	False	3	central	False	-1	False	False	O	None	O
+highlands	NNS	None	None	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	3	2	O	None	in	the	DT	7	4	central	JJ	DT	1	highlands	I-NP	False	B-L	B-RGN	B-LOCB	False	False	3	highland	False	-1	False	False	O	False	O
+of	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	8	5	None	None	IN	1	of	B-PP	False	None	None	None	False	False	1	of	False	-1	False	False	O	None	B-NP
+victoria	NN	yes_unamb	7	False	False	aaaaaaaa	a	8	-1	-1	NP	of	1	0	B-S	None	of	None	NN	9	6	None	None	NN	1	victoria	B-NP	False	B-S	B-RSTN	O	False	False	1	victoria	False	-1	False	False	O	False	I-NP
+,	,	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	,	10	7	None	None	,	1	,	O	False	None	None	None	False	False	1	,	False	-1	False	False	O	None	I-NP
+australia	NNS	yes_unamb	7	False	False	aaaaaaaaa	a	9	-1	-1	NP	,	1	0	B-A	None	None	None	NNS	11	8	None	None	NNS	1	australia	B-NP	False	B-A	B-PCLI	O	False	False	1	australia	False	-1	False	False	O	False	I-NP
+.	.	None	None	False	False	_	_	1	-1	-1	VP	None	3	0	O	None	None	None	.	12	9	once	RB	VBN	1	.	B-VP	False	None	None	None	False	False	3	.	False	-1	False	False	O	None	O
+once	RB	None	None	False	False	aaaa	a	4	-1	-1	VP	None	3	1	O	None	None	None	.	13	9	once	RB	VBN	1	once	I-VP	False	None	None	None	False	False	3	once	False	-1	False	False	O	None	O
+known	VBN	None	None	False	False	aaaaa	a	5	-1	-1	VP	None	3	2	O	None	None	None	.	14	9	once	RB	VBN	1	known	I-VP	False	None	None	None	False	False	3	know	False	-1	False	False	O	None	O
+for	IN	None	None	False	False	aaa	a	3	-1	-1	PP	None	1	0	O	None	None	None	IN	15	10	None	None	IN	1	for	B-PP	False	None	None	None	False	False	1	for	False	-1	False	False	O	None	O
+logging	VBG	None	None	False	False	aaaaaaa	a	7	-1	-1	NP	None	3	0	O	None	for	None	VBG	16	11	and	CC	CC	1	logging	B-NP	False	O	O	O	False	True	3	log	False	-1	False	False	O	None	O
+and	CC	None	None	False	False	aaa	a	3	-1	-1	NP	None	3	1	O	None	for	None	VBG	17	11	and	CC	CC	1	and	I-NP	False	O	O	O	False	False	3	and	False	-1	False	False	O	None	O
+gold	NN	None	None	False	False	aaaa	a	4	-1	-1	NP	None	3	2	O	None	for	None	VBG	18	11	and	CC	CC	1	gold	I-NP	False	B-P	B-PPL	O	False	False	3	gold	False	-1	False	False	O	False	O
+but	CC	None	None	False	False	aaa	a	3	-1	-1	None	None	1	0	O	None	None	None	CC	19	12	None	None	CC	1	but	O	False	None	None	None	False	False	1	but	False	-1	False	False	O	None	O
+now	RB	None	None	False	False	aaa	a	3	-1	-1	VP	None	1	0	O	None	None	None	RB	20	13	None	None	RB	1	now	B-VP	False	None	None	None	False	False	1	now	False	-1	False	False	O	None	O
+potatoes	NNS	None	None	False	False	aaaaaaaa	a	8	-1	-1	NP	None	5	0	O	None	None	None	NNS	21	14	and	CC	CC	2	potatoes	B-NP	False	O	O	O	False	False	5	potato	False	-1	False	False	O	None	O
+and	CC	None	None	False	False	aaa	a	3	-1	-1	NP	None	5	1	O	None	None	None	NNS	22	14	and	CC	CC	2	and	I-NP	False	O	O	O	False	False	5	and	False	-1	False	False	O	None	O
+truffles	NNS	None	None	False	False	aaaaaaaa	a	8	-1	-1	NP	None	5	2	O	None	None	None	NNS	23	14	and	CC	CC	2	truffles	I-NP	False	O	O	O	False	False	5	truffle	False	-1	False	False	O	None	O
+and	CC	None	None	False	False	aaa	a	3	-1	-1	NP	None	5	3	O	None	None	None	NNS	24	14	and	CC	CC	2	and	I-NP	False	O	O	O	False	False	5	and	False	-1	False	False	O	None	O
+boutique	NN	None	None	False	False	aaaaaaaa	a	8	-1	-1	NP	None	5	4	O	None	None	None	NNS	25	14	and	CC	CC	2	boutique	I-NP	False	O	O	O	True	False	5	boutique	False	-1	False	False	O	None	O
+get	VBP	None	None	False	False	aaa	a	3	-1	-1	VP	None	1	0	O	None	None	None	VBP	26	15	None	None	VBP	1	get	B-VP	False	None	None	None	False	False	1	get	False	-1	False	False	O	None	O
+aways	RB	None	None	False	False	aaaaa	a	5	-1	-1	ADVP	None	1	0	O	None	None	None	RB	27	16	None	None	RB	1	aways	B-ADVP	False	None	None	None	False	False	1	aways	False	-1	False	False	O	None	O
+.	.	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	.	28	17	None	None	.	1	.	O	False	None	None	None	False	False	1	.	False	-1	False	False	O	None	O
+close	JJ	None	None	False	False	aaaaa	a	5	-1	-1	ADJP	None	1	0	O	None	None	None	JJ	29	18	None	None	JJ	1	close	B-ADJP	False	None	None	None	False	False	1	close	False	-1	False	False	O	None	O
+to	TO	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	TO	30	19	None	None	TO	1	to	B-PP	False	None	None	None	False	False	1	to	False	-1	False	False	O	None	O
+e	NN	None	None	False	False	a	a	1	-1	-1	NP	None	2	0	O	None	to	None	NN	31	20	melbourne	NN	NN	2	e	B-NP	False	O	O	O	False	False	2	e	False	-1	False	False	O	None	O
+melbourne	NN	yes_unamb	6	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	2	1	B-A	None	to	None	NN	32	20	melbourne	NN	NN	2	melbourne	I-NP	False	B-A	B-ADM2	B-LOCB	False	False	2	melbourne	False	-1	False	False	B-LOCB	False	B-NP
+,	,	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	,	33	21	None	None	,	1	,	O	False	None	None	None	False	False	1	,	False	-1	False	False	O	None	I-NP
+ballarat	NN	yes_unamb	7	False	False	aaaaaaaa	a	8	-1	-1	NP	,	1	0	B-P	None	None	None	NN	34	22	None	None	NN	1	ballarat	B-NP	False	B-P	B-PPL	B-RSTA	False	False	1	ballarat	False	-1	False	False	B-RSTA	False	I-NP
+,	,	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	,	35	23	None	None	,	1	,	O	False	None	None	None	False	False	1	,	False	-1	False	False	O	None	I-NP
+bendigo	NN	yes_unamb	6	False	False	aaaaaaa	a	7	-1	-1	NP	,	1	0	B-P	None	None	None	NN	36	24	None	None	NN	1	bendigo	B-NP	False	B-P	B-PPL	B-RSTA	False	False	1	bendigo	False	-1	False	False	B-RSTA	False	I-NP
+,	,	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	,	37	25	None	None	,	1	,	O	False	None	None	None	False	False	1	,	False	-1	False	False	O	None	O
+and	CC	None	None	False	False	aaa	a	3	-1	-1	None	None	1	0	O	None	None	None	CC	38	26	None	None	CC	1	and	O	False	None	None	None	False	False	1	and	False	-1	False	False	O	None	O
+on	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	39	27	None	None	IN	1	on	B-PP	False	None	None	None	False	False	1	on	False	-1	False	False	O	None	O
+the	DT	None	None	False	False	aaa	a	3	-1	-1	NP	None	2	0	O	None	on	the	DT	40	28	edge	NN	DT	1	the	B-NP	False	O	O	O	False	False	2	the	False	-1	False	False	O	None	O
+edge	NN	None	None	False	False	aaaa	a	4	-1	-1	NP	None	2	1	O	None	on	the	DT	41	28	edge	NN	DT	1	edge	I-NP	False	O	O	O	True	False	2	edge	False	-1	False	False	O	None	O
+of	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	42	29	None	None	IN	1	of	B-PP	False	None	None	None	False	False	1	of	False	-1	False	False	O	None	B-NP
+the	DT	no	5	False	False	aaa	a	3	-1	-1	NP	of	3	0	O	None	of	the	DT	43	30	spa	NN	NN	2	the	B-NP	False	O	O	O	False	False	3	the	False	-1	False	False	O	None	I-NP
+spa	NN	no	5	False	False	aaa	a	3	-1	-1	NP	of	3	1	O	None	of	the	DT	44	30	spa	NN	NN	2	spa	I-NP	False	O	O	O	False	False	3	spa	False	-1	False	False	O	None	I-NP
+country	NN	no	5	False	False	aaaaaaa	a	7	-1	-1	NP	of	3	2	O	None	of	the	DT	45	30	spa	NN	NN	2	country	I-NP	False	O	O	O	True	False	3	country	False	-1	False	False	O	None	I-NP
+\	CC	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	CC	46	31	None	None	CC	1	\	O	False	None	None	None	False	False	1	\	False	-1	False	False	O	None	O
+'	POS	None	None	False	False	_	_	1	-1	-1	NP	None	2	0	O	None	None	None	POS	47	32	s	PRP	POS	1	'	B-NP	False	O	O	O	False	False	2	'	False	-1	False	False	O	None	O
+s	PRP	None	None	False	False	a	a	1	-1	-1	NP	None	2	1	O	None	None	None	POS	48	32	s	PRP	POS	1	is	I-NP	False	O	O	O	False	False	2	s	False	-1	False	False	O	None	O
+.	.	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	.	49	33	None	None	.	1	.	O	False	None	None	None	False	False	1	.	False	-1	False	False	O	None	O
+
+wittlr	NN	None	None	False	False	aaaaaa	a	6	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	wittlr	B-NP	False	O	O	O	False	False	1	wittlr	False	-1	False	False	O	None	O
+
+bear	NN	None	None	False	False	aaaa	a	4	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	bear	B-NP	False	O	O	O	False	False	1	bear	False	-1	False	False	O	None	O
+in	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	1	1	None	None	IN	1	in	B-PP	False	None	None	None	False	False	1	in	False	-1	False	False	O	None	O
+the	DT	None	None	False	False	aaa	a	3	-1	-1	NP	None	2	0	O	None	in	the	DT	2	2	qoods	NNS	DT	1	the	B-NP	False	O	O	O	False	False	2	the	False	-1	False	False	O	None	O
+qoods	NNS	None	None	False	False	aaaaa	a	5	-1	-1	NP	None	2	1	O	None	in	the	DT	3	2	qoods	NNS	DT	1	qoods	I-NP	False	O	O	O	False	False	2	qoods	False	-1	False	False	O	None	O
+
+tunnel	NN	no	4	False	False	aaaaaa	a	6	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	tunnel	B-NP	False	O	O	O	True	False	1	tunnel	False	-1	False	False	O	None	B-NP
+
+floods	NNS	None	None	False	False	aaaaaa	a	6	-1	-1	NP	None	1	0	O	None	None	None	NNS	0	0	None	None	NNS	1	floods	B-NP	False	O	O	O	True	False	1	flood	False	-1	False	False	O	None	O
+
+yaradale	NN	no	5	True	False	aaaaaaaa	a	8	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	yaradale	B-NP	False	O	O	O	False	False	1	yaradale	False	-1	False	False	O	None	B-NP
+
+waterfront	NN	no	4	False	False	aaaaaaaaaa	a	10	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	waterfront	B-NP	False	O	O	O	True	False	1	waterfront	False	-1	False	False	O	None	B-NP
+
+just	RB	None	None	False	False	aaaa	a	4	-1	-1	ADVP	None	1	0	O	None	None	None	RB	0	0	None	None	RB	1	just	B-ADVP	False	None	None	None	False	False	1	just	False	-1	False	False	O	None	O
+licking	VBG	None	None	False	False	aaaaaaa	a	7	-1	-1	VP	None	1	0	O	None	None	None	VBG	1	1	None	None	VBG	1	licking	B-VP	False	None	None	None	False	False	1	lick	False	-1	False	False	O	None	O
+chocolate	NN	None	None	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	1	0	O	None	None	None	NN	2	2	None	None	NN	1	chocolate	B-NP	False	O	O	O	False	False	1	chocolate	False	-1	False	False	O	None	O
+off	IN	None	None	False	False	aaa	a	3	-1	-1	PP	None	1	0	O	None	None	None	IN	3	3	None	None	IN	1	off	B-PP	False	None	None	None	False	False	1	off	False	-1	False	False	O	None	O
+of	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	4	4	None	None	IN	1	of	B-PP	False	None	None	None	False	False	1	of	False	-1	False	False	O	None	O
+my	PRP$	None	None	False	False	aa	a	2	-1	-1	NP	None	2	0	O	None	of	None	PRP$	5	5	good	JJ	PRP$	1	my	B-NP	False	O	O	O	False	False	2	my	False	-1	False	False	O	None	O
+good	JJ	None	None	False	False	aaaa	a	4	-1	-1	NP	None	2	1	O	None	of	None	PRP$	6	5	good	JJ	PRP$	1	good	I-NP	False	O	O	O	False	False	2	good	False	-1	False	False	O	None	O
+
+on	IN	None	None	False	False	aa	a	2	-1	-1	SBAR	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	on	B-SBAR	False	None	None	None	False	False	1	on	False	-1	False	False	O	None	O
+way	NN	None	None	False	False	aaa	a	3	-1	-1	None	None	1	0	O	None	None	None	NN	1	1	None	None	NN	1	way	O	False	None	None	None	True	False	1	way	False	-1	False	False	O	None	O
+to	TO	None	None	False	False	aa	a	2	-1	-1	VP	None	2	0	O	None	None	None	TO	2	2	broady	VB	TO	1	to	B-VP	False	None	None	None	False	False	2	to	False	-1	False	False	O	None	O
+broady	VB	yes_amb	5	True	False	aaaaaa	a	6	-1	-1	VP	None	2	1	O	None	None	None	TO	3	2	broady	VB	TO	1	broady	I-VP	False	None	None	None	False	False	2	broady	False	-1	False	False	O	None	B-NP
+
+hillside	NN	yes_unamb	5	False	False	aaaaaaaa	a	8	-1	-1	NP	None	1	0	B-S	None	None	None	NN	0	0	None	None	NN	1	hillside	B-NP	False	B-S	B-HMSD	B-LOCB	True	False	1	hillside	False	-1	False	False	B-LOCB	False	B-NP
+
+princess	NN	no	3	False	False	aaaaaaaa	a	8	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	princess	B-NP	False	O	O	O	False	False	1	princess	False	-1	False	False	O	None	B-NP
+in	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	1	1	None	None	IN	1	in	B-PP	False	None	None	None	False	False	1	in	False	-1	False	False	O	None	B-NP
+beacy	NN	yes_unamb	5	True	False	aaaaa	a	5	-1	-1	NP	in	1	0	O	None	in	None	NN	2	2	None	None	NN	1	beacy	B-NP	False	O	O	O	False	False	1	beacy	False	-1	False	False	O	None	I-NP
+
+between	IN	None	None	False	False	aaaaaaa	a	7	-1	-1	SBAR	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	between	B-SBAR	False	None	None	None	False	False	1	between	False	-1	False	False	O	None	O
+landgate	NN	None	None	False	False	aaaaaaaa	a	8	-1	-1	NP	None	1	0	O	None	None	None	NN	1	1	None	None	NN	1	landgate	B-NP	False	O	O	O	False	False	1	landgate	False	-1	False	False	O	None	O
+and	CC	None	None	False	False	aaa	a	3	-1	-1	None	None	1	0	O	None	None	None	CC	2	2	None	None	CC	1	and	O	False	None	None	None	False	False	1	and	False	-1	False	False	O	None	O
+the	DT	None	None	False	False	aaa	a	3	-1	-1	NP	None	2	0	O	None	None	the	DT	3	3	city	NN	DT	1	the	B-NP	False	O	O	O	False	False	2	the	False	-1	False	False	O	None	O
+city	NN	None	None	False	False	aaaa	a	4	-1	-1	NP	None	2	1	O	None	None	the	DT	4	3	city	NN	DT	1	city	I-NP	False	B-P	B-PPLX	O	True	False	2	city	False	-1	False	False	O	False	O
+of	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	5	4	None	None	IN	1	of	B-PP	False	None	None	None	False	False	1	of	False	-1	False	False	O	None	O
+swan	JJ	None	None	False	False	aaaa	a	4	-1	-1	NP	None	2	0	O	None	of	None	JJ	6	5	offices	NNS	NNS	1	swan	B-NP	False	B-A	B-ADM2	O	False	False	2	swan	False	-1	False	False	O	False	O
+offices	NNS	None	None	False	False	aaaaaaa	a	7	-1	-1	NP	None	2	1	O	None	of	None	JJ	7	5	offices	NNS	NNS	1	offices	I-NP	False	O	O	O	True	False	2	office	False	-1	False	False	O	None	O
+.	.	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	.	8	6	None	None	.	1	.	O	False	None	None	None	False	False	1	.	False	-1	False	False	O	None	O
+
+wallan	NN	yes_unamb	5	False	False	aaaaaa	a	6	-1	-1	NP	None	1	0	B-P	None	None	None	NN	0	0	None	None	NN	1	wallan	B-NP	False	B-P	B-PPL	B-TPEX	False	False	1	wallan	False	-1	False	False	B-TPEX	False	B-NP
+
+hallam	NN	yes_unamb	5	False	False	aaaaaa	a	6	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	north	NN	NN	2	hallam	B-NP	False	B-P	B-PPL	B-TPEX	False	False	2	hallam	False	-1	False	False	O	False	B-NP
+north	NN	yes_unamb	5	False	False	aaaaa	a	5	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	north	NN	NN	2	north	I-NP	False	O	O	O	True	False	2	north	False	-1	False	False	O	None	I-NP
+
+misses	NNS	None	None	False	False	aaaaaa	a	6	-1	-1	NP	None	2	0	O	None	None	None	NNS	0	0	ranalli	NNS	NNS	2	misses	B-NP	False	O	O	O	False	False	2	miss	False	-1	False	False	O	None	O
+ranalli	NNS	None	None	False	False	aaaaaaa	a	7	-1	-1	NP	None	2	1	O	None	None	None	NNS	1	0	ranalli	NNS	NNS	2	ranalli	I-NP	False	O	O	O	False	False	2	ranalli	False	-1	False	False	O	None	O
+
+sitting	VBG	None	None	False	False	aaaaaaa	a	7	-1	-1	VP	None	1	0	O	None	None	None	VBG	0	0	None	None	VBG	1	sitting	B-VP	False	None	None	None	False	False	1	sit	False	-1	False	False	O	None	O
+under	IN	None	None	False	False	aaaaa	a	5	-1	-1	PP	None	1	0	O	None	None	None	IN	1	1	None	None	IN	1	under	B-PP	False	None	None	None	False	False	1	under	False	-1	False	False	O	None	B-NP
+a	DT	no	1	False	False	a	a	1	-1	-1	NP	under	2	0	O	None	under	a	DT	2	2	tree	NN	DT	1	a	B-NP	False	O	O	O	False	False	2	a	False	-1	False	False	O	None	I-NP
+tree	NN	no	1	False	False	aaaa	a	4	-1	-1	NP	under	2	1	O	None	under	a	DT	3	2	tree	NN	DT	1	tree	I-NP	False	O	O	O	False	False	2	tree	False	-1	False	False	O	None	I-NP
+
+deep	JJ	None	None	False	False	aaaa	a	4	-1	-1	NP	None	2	0	B-H	None	None	None	JJ	0	0	creek	NN	NN	1	deep	B-NP	False	B-H	B-LK	B-STRM	False	False	2	deep	False	-1	False	False	B-STRM	False	O
+creek	NN	None	None	False	False	aaaaa	a	5	-1	-1	NP	None	2	1	I-H	None	None	None	JJ	1	0	creek	NN	NN	1	creek	I-NP	False	I-H	I-LK	I-STRM	False	False	2	creek	False	-1	False	False	I-STRM	False	O
+
+lilydale	NN	yes_unamb	5	False	False	aaaaaaaa	a	8	-1	-1	NP	None	1	0	B-S	None	None	None	NN	0	0	None	None	NN	1	lilydale	B-NP	False	B-S	B-HMSD	B-TPEX	False	False	1	lilydale	False	-1	False	False	B-TPEX	False	B-NP
+
+dunno	NN	None	None	False	False	aaaaa	a	5	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	central	JJ	JJ	1	dunno	B-NP	False	O	O	O	False	False	2	dunno	False	-1	False	False	O	None	O
+central	JJ	None	None	False	False	aaaaaaa	a	7	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	central	JJ	JJ	1	central	I-NP	False	O	O	O	False	False	2	central	False	-1	False	False	O	None	O
+
+at	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	at	B-PP	False	None	None	None	False	False	1	at	False	-1	False	False	O	None	B-NP
+federation	NN	yes_unamb	4	False	False	aaaaaaaaaa	a	10	-1	-1	NP	at	2	0	B-S	SQR	at	None	NN	1	1	square	NN	NN	2	federation	B-NP	False	B-S	B-SQR	O	False	False	2	federation	False	-1	False	False	O	False	I-NP
+square	NN	yes_unamb	4	False	False	aaaaaa	a	6	-1	-1	NP	at	2	1	I-S	SQR	at	None	NN	2	1	square	NN	NN	2	square	I-NP	False	I-S	I-SQR	O	True	False	2	square	False	-1	False	False	O	False	I-NP
+,	,	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	,	3	2	None	None	,	1	,	O	False	None	None	None	False	False	1	,	False	-1	False	False	O	None	O
+on	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	4	3	None	None	IN	1	on	B-PP	False	None	None	None	False	False	1	on	False	-1	False	False	O	None	O
+the	DT	None	None	False	False	aaa	a	3	-1	-1	NP	None	3	0	O	None	on	the	DT	5	4	eastern	JJ	DT	1	the	B-NP	False	O	O	O	False	False	3	the	False	-1	False	False	O	None	O
+eastern	JJ	None	None	False	False	aaaaaaa	a	7	-1	-1	NP	None	3	1	O	None	on	the	DT	6	4	eastern	JJ	DT	1	eastern	I-NP	False	O	O	O	False	False	3	eastern	False	-1	False	False	O	None	O
+side	NN	None	None	False	False	aaaa	a	4	-1	-1	NP	None	3	2	O	None	on	the	DT	7	4	eastern	JJ	DT	1	side	I-NP	False	O	O	O	True	False	3	side	False	-1	False	False	O	None	O
+of	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	8	5	None	None	IN	1	of	B-PP	False	None	None	None	False	False	1	of	False	-1	False	False	O	None	B-NP
+st	NN	yes_unamb	4	False	False	aa	a	2	-1	-1	NP	of	3	0	O	HTL	of	None	NN	9	6	kilda	NN	NN	3	st	B-NP	False	O	O	B-PO	False	False	3	st	False	-1	False	False	B-PO	None	I-NP
+kilda	NN	yes_unamb	4	False	False	aaaaa	a	5	-1	-1	NP	of	3	1	O	HTL	of	None	NN	10	6	kilda	NN	NN	3	kilda	I-NP	False	O	O	I-PO	False	False	3	kilda	False	-1	False	False	I-PO	None	I-NP
+road	NN	yes_unamb	4	False	False	aaaa	a	4	-1	-1	NP	of	3	2	O	HTL	of	None	NN	11	6	kilda	NN	NN	3	road	I-NP	False	O	O	I-PO	True	False	3	road	False	-1	False	False	I-PO	None	I-NP
+opposite	IN	None	None	False	False	aaaaaaaa	a	8	-1	-1	PP	None	1	0	O	None	None	None	IN	12	7	None	None	IN	1	opposite	B-PP	False	None	None	None	False	False	1	opposite	False	-1	False	False	O	None	B-NP
+flinders	NNS	yes_unamb	4	False	False	aaaaaaaa	a	8	-1	-1	NP	opposite	3	0	B-S	RSTN	opposite	None	NNS	13	8	street	NN	NN	2	flinders	B-NP	False	B-S	B-RSTN	B-PRSH	False	False	3	flinders	False	-1	False	False	O	False	I-NP
+street	NN	yes_unamb	4	False	False	aaaaaa	a	6	-1	-1	NP	opposite	3	1	I-S	RSTN	opposite	None	NNS	14	8	street	NN	NN	2	street	I-NP	False	I-S	I-RSTN	O	True	False	3	street	False	-1	False	False	O	False	I-NP
+station	NN	yes_unamb	4	False	False	aaaaaaa	a	7	-1	-1	NP	opposite	3	2	I-S	RSTN	opposite	None	NNS	15	8	street	NN	NN	2	station	I-NP	False	I-S	I-RSTN	O	True	False	3	station	False	-1	False	False	O	False	I-NP
+in	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	16	9	None	None	IN	1	in	B-PP	False	None	None	None	False	False	1	in	False	-1	False	False	O	None	B-NP
+melbourne	JJ	yes_unamb	5	False	False	aaaaaaaaa	a	9	-1	-1	NP	in	2	0	B-P	None	in	None	JJ	17	10	city	NN	NN	1	melbourne	B-NP	False	B-P	B-PPLA	B-LGA	False	False	2	melbourne	False	-1	False	False	B-LGA	False	I-NP
+city	NN	yes_unamb	5	False	False	aaaa	a	4	-1	-1	NP	in	2	1	I-P	None	in	None	JJ	18	10	city	NN	NN	1	city	I-NP	False	I-P	I-PPLA	I-LGA	True	False	2	city	False	-1	False	False	I-LGA	False	I-NP
+.	.	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	.	19	11	None	None	.	1	.	O	False	None	None	None	False	False	1	.	False	-1	False	False	O	None	O
+
+heals	NNS	yes_unamb	5	True	False	aaaaa	a	5	-1	-1	NP	None	1	0	O	None	None	None	NNS	0	0	None	None	NNS	1	heals	B-NP	False	O	O	O	False	False	1	heals	False	-1	False	False	O	None	B-NP
+
+game	NN	None	None	False	False	aaaa	a	4	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	lobby	NN	NN	2	game	B-NP	False	O	O	O	True	False	2	game	False	-1	False	False	O	None	O
+lobby	NN	None	None	False	False	aaaaa	a	5	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	lobby	NN	NN	2	lobby	I-NP	False	O	O	O	False	False	2	lobby	False	-1	False	False	O	None	O
+closed	VBN	None	None	False	False	aaaaaa	a	6	-1	-1	None	None	1	0	O	None	None	None	VBN	2	1	None	None	VBN	1	closed	O	False	None	None	None	False	True	1	close	False	-1	False	False	O	None	O
+
+qualify	VB	yes_unamb	4	True	False	aaaaaaa	a	7	-1	-1	NP	None	2	0	O	None	None	None	VB	0	0	drive	NN	VB	1	qualify	B-NP	False	O	O	O	False	True	2	qualify	False	-1	False	False	O	None	B-NP
+drive	NN	yes_unamb	4	True	False	aaaaa	a	5	-1	-1	NP	None	2	1	O	None	None	None	VB	1	0	drive	NN	VB	1	drive	I-NP	False	O	O	O	True	False	2	drive	False	-1	False	False	O	None	I-NP
+
+girlfriends	NNS	None	None	False	False	aaaaaaaaaaa	a	11	-1	-1	NP	None	1	0	O	None	None	None	NNS	0	0	None	None	NNS	1	girlfriends	B-NP	False	O	O	O	False	False	1	girlfriend	False	-1	False	False	O	None	O
+
+trail	NN	None	None	False	False	aaaaa	a	5	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	biking	NN	NN	2	trail	B-NP	False	O	O	O	True	False	2	trail	False	-1	False	False	O	None	O
+biking	NN	None	None	False	False	aaaaaa	a	6	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	biking	NN	NN	2	biking	I-NP	False	O	O	O	False	False	2	biking	False	-1	False	False	O	None	O
+in	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	2	1	None	None	IN	1	in	B-PP	False	None	None	None	False	False	1	in	False	-1	False	False	O	None	B-NP
+harkaway	NN	yes_unamb	5	False	False	aaaaaaaa	a	8	-1	-1	NP	in	1	0	B-P	PPL	in	None	NN	3	2	None	None	NN	1	harkaway	B-NP	False	B-P	B-PPL	B-LOCB	False	False	1	harkaway	False	-1	False	False	B-LOCB	False	I-NP
+
+my	PRP$	None	None	False	False	aa	a	2	-1	-1	NP	None	2	0	O	None	None	None	PRP$	0	0	panarama	NN	PRP$	1	my	B-NP	False	O	O	O	False	False	2	my	False	-1	False	False	O	None	O
+panarama	NN	None	None	False	False	aaaaaaaa	a	8	-1	-1	NP	None	2	1	O	None	None	None	PRP$	1	0	panarama	NN	PRP$	1	panorama	I-NP	False	O	O	O	False	False	2	panarama	False	-1	False	False	O	None	O
+
+wollert	NN	yes_unamb	5	False	False	aaaaaaa	a	7	-1	-1	NP	None	1	0	B-P	PPL	None	None	NN	0	0	None	None	NN	1	wollert	B-NP	False	B-P	B-PPL	B-LOCB	False	False	1	wollert	False	-1	False	False	B-LOCB	False	B-NP
+
+boathouse	NN	yes_unamb	4	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	drive	NN	NN	2	boathouse	B-NP	False	O	O	O	True	False	2	boathouse	False	-1	False	False	O	None	B-NP
+drive	NN	yes_unamb	4	False	False	aaaaa	a	5	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	drive	NN	NN	2	drive	I-NP	False	O	O	O	True	False	2	drive	False	-1	False	False	O	None	I-NP
+
+greenmeadows	NNS	yes_unamb	4	False	False	aaaaaaaaaaaa	a	12	-1	-1	NP	None	2	0	O	None	None	None	NNS	0	0	gardens	NNS	NNS	2	greenmeadows	B-NP	False	O	O	O	False	False	2	greenmeadows	False	-1	False	False	O	None	B-NP
+gardens	NNS	yes_unamb	4	False	False	aaaaaaa	a	7	-1	-1	NP	None	2	1	O	None	None	None	NNS	1	0	gardens	NNS	NNS	2	gardens	I-NP	False	O	O	O	True	False	2	garden	False	-1	False	False	O	None	I-NP
+
+wonthaggi	NNS	yes_unamb	3	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	1	0	O	None	None	None	NNS	0	0	None	None	NNS	1	wonthaggi	B-NP	False	B-P	B-PPL	B-PRSH	False	False	1	wonthaggi	False	-1	False	False	O	False	B-NP
+secondary	JJ	yes_unamb	3	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	2	0	O	None	None	None	JJ	1	1	college	NN	NN	1	secondary	B-NP	False	O	O	O	False	False	2	secondary	False	-1	False	False	O	None	I-NP
+college	NN	yes_unamb	3	False	False	aaaaaaa	a	7	-1	-1	NP	None	2	1	O	None	None	None	JJ	2	1	college	NN	NN	1	college	I-NP	False	O	O	O	True	False	2	college	False	-1	False	False	O	None	I-NP
+
+inside	IN	None	None	False	False	aaaaaa	a	6	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	inside	B-PP	False	None	None	None	False	False	1	inside	False	-1	False	False	O	None	B-NP
+a	DT	no	3	False	False	a	a	1	-1	-1	NP	inside	2	0	O	None	inside	a	DT	1	1	house	NN	DT	1	a	B-NP	False	O	O	O	False	False	2	a	False	-1	False	False	O	None	I-NP
+house	NN	no	3	False	False	aaaaa	a	5	-1	-1	NP	inside	2	1	O	None	inside	a	DT	2	1	house	NN	DT	1	house	I-NP	False	O	O	O	True	False	2	house	False	-1	False	False	O	None	I-NP
+
+rooftop	NN	no	3	False	False	aaaaaaa	a	7	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	bar	NN	NN	2	rooftop	B-NP	False	O	O	O	False	False	2	rooftop	False	-1	False	False	O	None	B-NP
+bar	NN	no	3	False	False	aaa	a	3	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	bar	NN	NN	2	bar	I-NP	False	O	O	O	True	False	2	bar	False	-1	False	False	O	None	I-NP
+
+in	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	in	B-PP	False	None	None	None	False	False	1	in	False	-1	False	False	O	None	B-NP
+a	DT	no	3	False	False	a	a	1	-1	-1	NP	in	2	0	O	None	in	a	DT	1	1	house	NN	DT	1	a	B-NP	False	O	O	O	False	False	2	a	False	-1	False	False	O	None	I-NP
+house	NN	no	3	False	False	aaaaa	a	5	-1	-1	NP	in	2	1	O	None	in	a	DT	2	1	house	NN	DT	1	house	I-NP	False	O	O	O	True	False	2	house	False	-1	False	False	O	None	I-NP
+
+p	NN	yes_unamb	5	True	False	a	a	1	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	p	B-NP	False	O	O	O	False	False	1	p	False	-1	False	False	O	None	B-NP
+.	.	yes_unamb	5	True	False	_	_	1	-1	-1	VP	None	1	0	O	None	None	None	.	1	1	None	None	.	1	.	B-VP	False	None	None	None	False	False	1	.	False	-1	False	False	O	None	I-NP
+i	FW	yes_unamb	5	True	False	a	a	1	-1	-1	None	None	1	0	O	None	None	None	FW	2	2	None	None	FW	1	i	O	False	None	None	None	False	False	1	i	False	-1	False	False	O	None	I-NP
+
+lynbrook	NN	yes_unamb	5	False	False	aaaaaaaa	a	8	-1	-1	NP	None	1	0	B-P	PPLX	None	None	NN	0	0	None	None	NN	1	lynbrook	B-NP	False	B-P	B-PPLX	B-LOCB	False	False	1	lynbrook	False	-1	False	False	B-LOCB	False	B-NP
+
+triangle	NN	no	3	False	False	aaaaaaaa	a	8	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	apartment	NN	NN	2	triangle	B-NP	False	B-S	B-MN	O	True	False	2	triangle	False	-1	False	False	O	False	B-NP
+apartment	NN	no	3	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	apartment	NN	NN	2	apartment	I-NP	False	O	O	O	True	False	2	apartment	False	-1	False	False	O	None	I-NP
+,	,	None	None	False	False	_	_	1	-1	-1	None	None	1	0	O	None	None	None	,	2	1	None	None	,	1	,	O	False	None	None	None	False	False	1	,	False	-1	False	False	O	None	O
+behind	IN	None	None	False	False	aaaaaa	a	6	-1	-1	PP	None	1	0	O	None	None	None	IN	3	2	None	None	IN	1	behind	B-PP	False	None	None	None	False	False	1	behind	False	-1	False	False	O	None	B-NP
+law	NN	yes_amb	3	False	False	aaa	a	3	-1	-1	NP	behind	2	0	O	None	behind	None	NN	4	3	building	NN	NN	2	law	B-NP	False	O	O	O	False	False	2	law	False	-1	False	False	O	None	I-NP
+building	NN	yes_amb	3	False	False	aaaaaaaa	a	8	-1	-1	NP	behind	2	1	O	None	behind	None	NN	5	3	building	NN	NN	2	building	I-NP	False	O	O	O	True	False	2	building	False	-1	False	False	O	None	I-NP
+
+near	IN	None	None	False	False	aaaa	a	4	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	near	B-PP	False	None	None	None	False	False	1	near	False	-1	False	False	O	None	B-NP
+hampton	NN	yes_unamb	5	False	False	aaaaaaa	a	7	-1	-1	NP	near	2	0	B-L	None	near	None	NN	1	1	park	NN	NN	2	hampton	B-NP	False	B-L	B-PRK	B-LOCB	False	False	2	hampton	False	-1	False	False	B-LOCB	False	I-NP
+park	NN	yes_unamb	5	False	False	aaaa	a	4	-1	-1	NP	near	2	1	I-L	None	near	None	NN	2	1	park	NN	NN	2	park	I-NP	False	I-L	I-PRK	I-LOCB	True	False	2	park	False	-1	False	False	I-LOCB	False	I-NP
+in	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	3	2	None	None	IN	1	in	B-PP	False	None	None	None	False	False	1	in	False	-1	False	False	O	None	B-NP
+hallam	NN	yes_unamb	5	False	False	aaaaaa	a	6	-1	-1	NP	in	1	0	B-P	None	in	None	NN	4	3	None	None	NN	1	hallam	B-NP	False	B-P	B-PPL	B-TPEX	False	False	1	hallam	False	-1	False	False	B-TPEX	False	I-NP
+
+i	FW	None	None	False	False	a	a	1	-1	-1	NP	None	2	0	O	None	None	None	FW	0	0	\	NNP	NNP	1	i	B-NP	False	O	O	O	False	False	2	i	False	-1	False	False	O	None	O
+\	NNP	None	None	False	False	_	_	1	-1	-1	NP	None	2	1	O	None	None	None	FW	1	0	\	NNP	NNP	1	\	I-NP	False	O	O	O	False	False	2	\	False	-1	False	False	O	None	O
+'	POS	None	None	False	False	_	_	1	-1	-1	NP	None	2	0	O	None	None	None	POS	2	1	m	NN	POS	1	'	B-NP	False	O	O	O	False	False	2	'	False	-1	False	False	O	None	O
+m	NN	None	None	False	False	a	a	1	-1	-1	NP	None	2	1	O	None	None	None	POS	3	1	m	NN	POS	1	am	I-NP	False	O	O	O	False	False	2	m	False	-1	False	False	O	None	O
+heading	VBG	None	None	False	False	aaaaaaa	a	7	-1	-1	VP	None	1	0	O	None	None	None	VBG	4	2	None	None	VBG	1	heading	B-VP	False	None	None	None	False	True	1	head	False	-1	False	False	O	None	O
+towards	IN	None	None	False	False	aaaaaaa	a	7	-1	-1	PP	None	1	0	O	None	None	None	IN	5	3	None	None	IN	1	towards	B-PP	False	None	None	None	False	False	1	towards	False	-1	False	False	O	None	B-NP
+east	JJ	yes_unamb	4	False	False	aaaa	a	4	-1	-1	NP	towards	2	0	O	None	towards	None	JJ	6	4	link	NN	NN	1	east	B-NP	False	O	O	O	True	False	2	east	False	-1	False	False	O	None	I-NP
+link	NN	yes_unamb	4	False	False	aaaa	a	4	-1	-1	NP	towards	2	1	O	None	towards	None	JJ	7	4	link	NN	NN	1	link	I-NP	False	O	O	O	True	False	2	link	False	-1	False	False	O	None	I-NP
+
+walking	VBG	None	None	False	False	aaaaaaa	a	7	-1	-1	VP	None	1	0	O	None	None	None	VBG	0	0	None	None	VBG	1	walking	B-VP	False	None	None	None	False	True	1	walk	False	-1	False	False	O	None	O
+to	TO	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	TO	1	1	None	None	TO	1	to	B-PP	False	None	None	None	False	False	1	to	False	-1	False	False	O	None	B-NP
+the	DT	no	3	False	False	aaa	a	3	-1	-1	NP	to	3	0	O	None	to	the	DT	2	2	post	NN	NN	2	the	B-NP	False	O	O	O	False	False	3	the	False	-1	False	False	O	None	I-NP
+post	NN	no	3	False	False	aaaa	a	4	-1	-1	NP	to	3	1	O	None	to	the	DT	3	2	post	NN	NN	2	post	I-NP	False	O	O	O	True	False	3	post	False	-1	False	False	O	None	I-NP
+office	NN	no	3	False	False	aaaaaa	a	6	-1	-1	NP	to	3	2	O	None	to	the	DT	4	2	post	NN	NN	2	office	I-NP	False	O	O	O	True	False	3	office	False	-1	False	False	O	None	I-NP
+in	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	5	3	None	None	IN	1	in	B-PP	False	None	None	None	False	False	1	in	False	-1	False	False	O	None	B-NP
+hampton	NN	yes_unamb	5	False	False	aaaaaaa	a	7	-1	-1	NP	in	2	0	B-L	None	in	None	NN	6	4	park	NN	NN	2	hampton	B-NP	False	B-L	B-PRK	B-LOCB	False	False	2	hampton	False	-1	False	False	B-LOCB	False	I-NP
+park	NN	yes_unamb	5	False	False	aaaa	a	4	-1	-1	NP	in	2	1	I-L	None	in	None	NN	7	4	park	NN	NN	2	park	I-NP	False	I-L	I-PRK	I-LOCB	True	False	2	park	False	-1	False	False	I-LOCB	False	I-NP
+
+aflame	NN	no	3	False	False	aaaaaa	a	6	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	strip	NN	NN	2	aflame	B-NP	False	O	O	O	False	False	2	aflame	False	-1	False	False	O	None	B-NP
+strip	NN	no	3	False	False	aaaaa	a	5	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	strip	NN	NN	2	strip	I-NP	False	O	O	O	False	False	2	strip	False	-1	False	False	O	None	I-NP
+
+exploded	VBD	None	None	False	False	aaaaaaaa	a	8	-1	-1	VP	None	1	0	O	None	None	None	VBD	0	0	None	None	VBD	1	exploded	B-VP	False	None	None	None	False	False	1	explode	False	-1	False	False	O	None	O
+on	IN	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	IN	1	1	None	None	IN	1	on	B-PP	False	None	None	None	False	False	1	on	False	-1	False	False	O	None	O
+impact	NN	None	None	False	False	aaaaaa	a	6	-1	-1	NP	None	1	0	O	None	on	None	NN	2	2	None	None	NN	1	impact	B-NP	False	O	O	O	False	False	1	impact	False	-1	False	False	O	None	O
+
+richy	JJ	None	None	False	False	aaaaa	a	5	-1	-1	NP	None	2	0	O	None	None	None	JJ	0	0	downs	NNS	NNS	1	richy	B-NP	False	O	O	O	False	False	2	richy	False	-1	False	False	O	None	O
+downs	NNS	None	None	False	False	aaaaa	a	5	-1	-1	NP	None	2	1	O	None	None	None	JJ	1	0	downs	NNS	NNS	1	downs	I-NP	False	O	O	O	False	False	2	down	False	-1	False	False	O	None	O
+
+i	FW	None	None	False	False	a	a	1	-1	-1	NP	None	2	0	O	None	None	None	FW	0	0	\	NNP	NNP	1	i	B-NP	False	O	O	O	False	False	2	i	False	-1	False	False	O	None	O
+\	NNP	None	None	False	False	_	_	1	-1	-1	NP	None	2	1	O	None	None	None	FW	1	0	\	NNP	NNP	1	\	I-NP	False	O	O	O	False	False	2	\	False	-1	False	False	O	None	O
+'	POS	None	None	False	False	_	_	1	-1	-1	NP	None	2	0	O	None	None	None	POS	2	1	m	NN	POS	1	'	B-NP	False	O	O	O	False	False	2	'	False	-1	False	False	O	None	O
+m	NN	None	None	False	False	a	a	1	-1	-1	NP	None	2	1	O	None	None	None	POS	3	1	m	NN	POS	1	am	I-NP	False	O	O	O	False	False	2	m	False	-1	False	False	O	None	O
+next	IN	None	None	False	False	aaaa	a	4	-1	-1	PP	None	1	0	O	None	None	None	IN	4	2	None	None	IN	1	next	B-PP	False	None	None	None	False	False	1	next	False	-1	False	False	O	None	O
+to	TO	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	TO	5	3	None	None	TO	1	to	B-PP	False	None	None	None	False	False	1	to	False	-1	False	False	O	None	B-NP
+the	DT	no	1	False	False	aaa	a	3	-1	-1	NP	to	3	0	O	None	to	the	DT	6	4	big	JJ	DT	1	the	B-NP	False	O	O	O	False	False	3	the	False	-1	False	False	O	None	I-NP
+big	JJ	no	1	False	False	aaa	a	3	-1	-1	NP	to	3	1	O	None	to	the	DT	7	4	big	JJ	DT	1	big	I-NP	False	O	O	O	False	False	3	big	False	-1	False	False	O	None	I-NP
+tree	NN	no	1	False	False	aaaa	a	4	-1	-1	NP	to	3	2	O	None	to	the	DT	8	4	big	JJ	DT	1	tree	I-NP	False	O	O	O	False	False	3	tree	False	-1	False	False	O	None	I-NP
+near	IN	None	None	False	False	aaaa	a	4	-1	-1	PP	None	1	0	O	None	None	None	IN	9	5	None	None	IN	1	near	B-PP	False	None	None	None	False	False	1	near	False	-1	False	False	O	None	B-NP
+maccas	NN	no	3	True	False	aaaaaa	a	6	-1	-1	NP	near	1	0	O	None	near	None	NN	10	6	None	None	NN	1	maccas	B-NP	False	O	O	O	False	False	1	maccas	False	-1	False	False	O	None	I-NP
+
+corner	NN	None	None	False	False	aaaaaa	a	6	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	pound	NN	NN	2	corner	B-NP	False	O	O	O	True	False	2	corner	False	-1	False	False	O	None	O
+pound	NN	yes_amb	4	True	False	aaaaa	a	5	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	pound	NN	NN	2	pound	I-NP	False	O	O	O	True	False	2	pound	False	-1	False	False	O	None	B-NP
+and	CC	None	None	False	False	aaa	a	3	-1	-1	None	None	1	0	O	None	None	None	CC	2	1	None	None	CC	1	and	O	False	None	None	None	False	False	1	and	False	-1	False	False	O	None	I-NP
+south	RB	yes_unamb	4	True	False	aaaaa	a	5	-1	-1	NP	and	3	0	O	None	None	None	RB	3	2	gippy	JJ	NN	1	south	B-NP	False	O	O	O	True	False	3	south	False	-1	False	False	O	None	I-NP
+gippy	JJ	yes_unamb	4	True	False	aaaaa	a	5	-1	-1	NP	and	3	1	O	None	None	None	RB	4	2	gippy	JJ	NN	1	gippy	I-NP	False	O	O	O	False	False	3	gippy	False	-1	False	False	O	None	I-NP
+highway	NN	yes_unamb	4	True	False	aaaaaaa	a	7	-1	-1	NP	and	3	2	O	None	None	None	RB	5	2	gippy	JJ	NN	1	highway	I-NP	False	O	O	O	True	False	3	highway	False	-1	False	False	O	None	I-NP
+
+heading	VBG	None	None	False	False	aaaaaaa	a	7	-1	-1	VP	None	1	0	O	None	None	None	VBG	0	0	None	None	VBG	1	heading	B-VP	False	None	None	None	False	True	1	head	False	-1	False	False	O	None	O
+to	TO	None	None	False	False	aa	a	2	-1	-1	PP	None	1	0	O	None	None	None	TO	1	1	None	None	TO	1	to	B-PP	False	None	None	None	False	False	1	to	False	-1	False	False	O	None	O
+yarrawonga	NN	None	None	False	False	aaaaaaaaaa	a	10	-1	-1	NP	None	1	0	O	None	to	None	NN	2	2	None	None	NN	1	yarrawonga	B-NP	False	B-S	B-HMSD	B-TPEX	False	False	1	yarrawonga	False	-1	False	False	O	False	O
+
+around	IN	None	None	False	False	aaaaaa	a	6	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	around	B-PP	False	None	None	None	False	False	1	around	False	-1	False	False	O	None	B-NP
+the	DT	no	4	False	False	aaa	a	3	-1	-1	NP	around	2	0	O	None	around	the	DT	1	1	block	NN	DT	1	the	B-NP	False	O	O	O	False	False	2	the	False	-1	False	False	O	None	I-NP
+block	NN	no	4	False	False	aaaaa	a	5	-1	-1	NP	around	2	1	O	None	around	the	DT	2	1	block	NN	DT	1	block	I-NP	False	O	O	O	True	False	2	block	False	-1	False	False	O	None	I-NP
+
+right	NN	None	None	False	False	aaaaa	a	5	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	right	B-NP	False	O	O	O	False	False	1	right	False	-1	False	False	O	None	O
+near	IN	None	None	False	False	aaaa	a	4	-1	-1	PP	None	1	0	O	None	None	None	IN	1	1	None	None	IN	1	near	B-PP	False	None	None	None	False	False	1	near	False	-1	False	False	O	None	O
+my	PRP$	None	None	False	False	aa	a	2	-1	-1	NP	None	4	0	O	None	near	None	PRP$	2	2	new	JJ	NN	2	my	B-NP	False	O	O	O	False	False	4	my	False	-1	False	False	O	None	O
+new	JJ	None	None	False	False	aaa	a	3	-1	-1	NP	None	4	1	O	None	near	None	PRP$	3	2	new	JJ	NN	2	new	I-NP	False	O	O	O	False	False	4	new	False	-1	False	False	O	None	O
+job	NN	None	None	False	False	aaa	a	3	-1	-1	NP	None	4	2	O	None	near	None	PRP$	4	2	new	JJ	NN	2	job	I-NP	False	O	O	O	False	False	4	job	False	-1	False	False	O	None	O
+hooorahhh	NN	None	None	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	4	3	O	None	near	None	PRP$	5	2	new	JJ	NN	2	hooorahhh	I-NP	False	O	O	O	False	False	4	hooorahhh	False	-1	False	False	O	None	O
+
+wonthaggi	NNS	yes_unamb	5	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	3	0	B-P	None	None	None	NNS	0	0	rec	NN	NN	2	wonthaggi	B-NP	False	B-P	B-PPL	B-PRSH	False	False	3	wonthaggi	False	-1	False	False	B-PRSH	False	B-NP
+rec	NN	no	undef	True	False	aaa	a	3	-1	-1	NP	None	3	1	O	None	None	None	NNS	1	0	rec	NN	NN	2	rec	I-NP	False	O	O	O	False	False	3	rec	False	-1	False	False	O	None	B-NP
+reserve	NN	no	undef	True	False	aaaaaaa	a	7	-1	-1	NP	None	3	2	O	None	None	None	NNS	2	0	rec	NN	NN	2	reserve	I-NP	False	B-L	B-RES	O	False	False	3	reserve	False	-1	False	False	O	False	I-NP
+
+35	CD	None	None	False	False	00	0	2	-1	-1	None	None	1	0	O	None	None	None	CD	0	0	None	None	CD	1	35	O	False	None	None	None	False	False	1	35	True	0	False	False	O	None	O
+
+nothing	NN	None	None	False	False	aaaaaaa	a	7	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	nothing	B-NP	False	O	O	O	False	False	1	nothing	False	-1	False	False	O	None	O
+to	TO	None	None	False	False	aa	a	2	-1	-1	VP	None	2	0	O	None	None	None	TO	1	1	describe	VB	TO	1	to	B-VP	False	None	None	None	False	False	2	to	False	-1	False	False	O	None	O
+describe	VB	None	None	False	False	aaaaaaaa	a	8	-1	-1	VP	None	2	1	O	None	None	None	TO	2	1	describe	VB	TO	1	describe	I-VP	False	None	None	None	False	False	2	describe	False	-1	False	False	O	None	O
+
+melb	NN	no	3	False	False	aaaa	a	4	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	water	NN	NN	2	melb	B-NP	False	O	O	O	False	False	2	melb	False	-1	False	False	O	None	B-NP
+water	NN	no	3	False	False	aaaaa	a	5	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	water	NN	NN	2	water	I-NP	False	O	O	O	False	False	2	water	False	-1	False	False	O	None	I-NP
+
+tell	VB	None	None	False	False	aaaa	a	4	-1	-1	VP	None	1	0	O	None	None	None	VB	0	0	None	None	VB	1	tell	B-VP	False	None	None	None	False	False	1	tell	False	-1	False	False	O	None	O
+me	PRP	None	None	False	False	aa	a	2	-1	-1	NP	None	1	0	O	None	None	None	PRP	1	1	None	None	PRP	1	me	B-NP	False	O	O	O	False	False	1	me	False	-1	False	False	O	None	O
+qhere	RB	None	None	False	False	aaaaa	a	5	-1	-1	ADVP	None	1	0	O	None	None	None	RB	2	2	None	None	RB	1	qhere	B-ADVP	False	None	None	None	False	False	1	qhere	False	-1	False	False	O	None	O
+
+adrenilin	NN	None	None	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	1	0	O	None	None	None	NN	0	0	None	None	NN	1	adrenilin	B-NP	False	O	O	O	False	False	1	adrenilin	False	-1	False	False	O	None	O
+
+race	NN	no	4	False	False	aaaa	a	4	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	track	NN	NN	2	race	B-NP	False	O	O	O	False	False	2	race	False	-1	False	False	O	None	B-NP
+track	NN	no	4	False	False	aaaaa	a	5	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	track	NN	NN	2	track	I-NP	False	O	O	O	True	False	2	track	False	-1	False	False	O	None	I-NP
+
+golf	NN	no	3	False	False	aaaa	a	4	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	club	NN	NN	2	golf	B-NP	False	O	O	O	True	False	2	golf	False	-1	False	False	O	None	B-NP
+club	NN	no	3	False	False	aaaa	a	4	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	club	NN	NN	2	club	I-NP	False	O	O	O	True	False	2	club	False	-1	False	False	O	None	I-NP
+
+bendigo	NN	yes_unamb	6	False	False	aaaaaaa	a	7	-1	-1	NP	None	1	0	B-P	None	None	None	NN	0	0	None	None	NN	1	bendigo	B-NP	False	B-P	B-PPL	B-RSTA	False	False	1	bendigo	False	-1	False	False	B-RSTA	False	B-NP
+
+crockford	NN	yes_amb	4	False	False	aaaaaaaaa	a	9	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	st	NN	NN	2	crockford	B-NP	False	O	O	O	False	False	2	crockford	False	-1	False	False	O	None	B-NP
+st	NN	yes_amb	4	False	False	aa	a	2	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	st	NN	NN	2	st	I-NP	False	O	O	O	False	False	2	st	False	-1	False	False	O	None	I-NP
+
+near	IN	None	None	False	False	aaaa	a	4	-1	-1	PP	None	1	0	O	None	None	None	IN	0	0	None	None	IN	1	near	B-PP	False	None	None	None	False	False	1	near	False	-1	False	False	O	None	B-NP
+hallam	NN	yes_unamb	5	False	False	aaaaaa	a	6	-1	-1	NP	near	1	0	B-P	None	near	None	NN	1	1	None	None	NN	1	hallam	B-NP	False	B-P	B-PPL	B-TPEX	False	False	1	hallam	False	-1	False	False	B-TPEX	False	I-NP
+
+wonthaggi	NNS	yes_unamb	6	True	False	aaaaaaaaa	a	9	-1	-1	NP	None	1	0	B-P	None	None	None	NNS	0	0	None	None	NNS	1	wonthaggi	B-NP	False	B-P	B-PPL	B-PRSH	False	False	1	wonthaggi	False	-1	False	False	B-PRSH	False	B-NP
+aquatic	JJ	no	3	False	False	aaaaaaa	a	7	-1	-1	NP	None	2	0	O	None	None	None	JJ	1	1	centre	NN	NN	1	aquatic	B-NP	False	O	O	O	False	False	2	aquatic	False	-1	False	False	O	None	B-NP
+centre	NN	no	3	False	False	aaaaaa	a	6	-1	-1	NP	None	2	1	O	None	None	None	JJ	2	1	centre	NN	NN	1	center	I-NP	False	O	O	O	True	False	2	centre	False	-1	False	False	O	None	I-NP
+
+drowning	VBG	None	None	False	False	aaaaaaaa	a	8	-1	-1	None	None	1	0	O	None	None	None	VBG	0	0	None	None	VBG	1	drowning	O	False	None	None	None	False	False	1	drown	False	-1	False	False	O	None	O
+
+fur	NN	None	None	False	False	aaa	a	3	-1	-1	NP	None	2	0	O	None	None	None	NN	0	0	pack	NN	NN	2	fur	B-NP	False	O	O	O	False	False	2	fur	False	-1	False	False	O	None	O
+pack	NN	None	None	False	False	aaaa	a	4	-1	-1	NP	None	2	1	O	None	None	None	NN	1	0	pack	NN	NN	2	pack	I-NP	False	O	O	O	True	False	2	pack	False	-1	False	False	O	None	O
+
+win	VB	None	None	False	False	aaa	a	3	-1	-1	VP	None	4	0	O	None	None	None	VB	0	0	win	VB	VB	4	win	B-VP	False	None	None	None	False	False	4	win	False	-1	False	False	O	None	O
+win	VB	None	None	False	False	aaa	a	3	-1	-1	VP	None	4	1	O	None	None	None	VB	1	0	win	VB	VB	4	win	I-VP	False	None	None	None	False	False	4	win	False	-1	False	False	O	None	O
+win	VB	None	None	False	False	aaa	a	3	-1	-1	VP	None	4	2	O	None	None	None	VB	2	0	win	VB	VB	4	win	I-VP	False	None	None	None	False	False	4	win	False	-1	False	False	O	None	O
+win	VB	None	None	False	False	aaa	a	3	-1	-1	VP	None	4	3	O	None	None	None	VB	3	0	win	VB	VB	4	win	I-VP	False	None	None	None	False	False	4	win	False	-1	False	False	O	None	O
+

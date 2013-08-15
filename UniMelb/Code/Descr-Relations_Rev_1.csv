@@ -1,0 +1,21 @@
+Baretto's,in ,Alan Gilbert Building,1,1
+Medical Buildings ,across from,Alan Gilbert Building,2,1
+Grattan street ,between ,Alan Gilbert Building,3,1
+Grattan street ,between ,Medical Building,4,1
+Peter Doherty Institute ,down the hill from,Alan Gilbert Building,5,2
+Peter Doherty Institute ,along,Grattan street ,6,2
+Melbourne Hospital,diagonally across,Peter Doherty Institute,7,2
+Royal Parade,between ,Peter Doherty Institute,8,2
+Royal Parade,between ,Melbourne Hospital,9,2
+University Square,in the other direction from,Peter Doherty Institute,10,3
+Carpark,underneath,University Square,11,3
+Law building,at the city end of,University Square,12,3
+Entrance,across from ,University Square,13,4
+Grattan street ,between ,Entrance,14,4
+Grattan street ,between ,University Square,15,4
+Overpass building,ahead from ,Entrance,16,4
+Engineering Building,to the right of ,Entrance,17,4,5
+Medical Buildings ,to the left of,Entrance,18,5
+Overpass building,in front of,Entrance,19,6
+Overpass building,between ,Entrance,20,6
+Overpass building,between ,South Lawn,21,6

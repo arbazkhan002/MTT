@@ -1,0 +1,24 @@
+Old buildings,in the center of,campus,1
+Faculty of Physics,in,Old buildings,2
+Faculty of Arts,in,Old Buildings,3
+Clock Tower,in ,Old buildings,4
+Open square,south of,Clock Tower,5
+Carpark,under,Open square,6
+Baillieu Library,to the west of,Clock Tower,7
+General Hall,to the east of ,Clock Tower,8
+Union House,north of,Old buildings,9
+Cafeteria ,in ,Union House,10
+SAA (*) ,in ,Union House,11
+Engineering Departments,southeast corner of ,campus,12
+Grattan st.,south of,Engineering Departments,13
+Public park,south of,Grattan St. ,14
+Law Faculty,south of,Public park,15
+Tennis courts,on the opposite side of,campus,16
+Swimming pools,on the opposite side of,campus,17
+Racetracks,on the opposite side of,campus,18
+Tennis courts,to the furthest north of,campus,19
+Swimming pools,to the furthest north of,campus,20
+Racetracks,to the furthest north of,campus,21
+,,,
+,,,
+*SAA,Student Association Activities,,

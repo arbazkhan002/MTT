@@ -1,0 +1,22 @@
+We PRP None None False False Aa Aa 2 -1 -1 NP None 1 0 O None None None PRP 0 0 None None PRP 1 We B-NP False None None O False False 1 we False -1 True True O O
+'re VBP None None False False _aa _a 3 -1 -1 VP None 2 0 O None None None VBP 1 1 sitting VBG VBP 1 're B-VP False None None None False False 2 're False -1 False True O O
+sitting VBG None None False False aaaaaaa a 7 -1 -1 VP None 2 1 O None None None VBP 2 1 sitting VBG VBP 1 sitting I-VP False None None None False True 2 sit False -1 False True O O
+in IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 3 2 None None IN 1 in B-PP False None None None False False 1 in False -1 False True O B-NP
+Baretto NNP yes_unamb 3 False False Aaaaaaa Aa 7 -1 -1 NP in 1 0 O None in None NNP 4 3 None None NNP 1 Baretto B-NP False None None O False False 1 baretto False -1 True True O I-NP
+'s POS None None False False _a _a 2 -1 -1 NP None 1 0 O None None None POS 5 4 None None POS 1 's B-NP False None None O False False 1 's False -1 False True O O
+in IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 6 5 None None IN 1 in B-PP False None None None False False 1 in False -1 False True O O
+the DT None None False False aaa a 3 -1 -1 NP None 4 0 O None in the DT 7 6 Alan NNP NNP 3 the B-NP False None None O False False 4 the False -1 False True O O
+Alan NNP yes_unamb 3 False False Aaaa Aa 4 -1 -1 NP None 4 1 O None in the DT 8 6 Alan NNP NNP 3 Alan I-NP False None None O False False 4 alan False -1 True True O B-NP
+Gilbert NNP yes_unamb 3 False False Aaaaaaa Aa 7 -1 -1 NP None 4 2 O None in the DT 9 6 Alan NNP NNP 3 Gilbert I-NP False B-P B-PPL O False False 4 gilbert False -1 True True O I-NP
+Building NNP yes_unamb 3 False False Aaaaaaaa Aa 8 -1 -1 NP None 4 3 O None in the DT 10 6 Alan NNP NNP 3 Building I-NP False None None O False False 4 building False -1 True True O I-NP
+, , None None False False _ _ 1 -1 -1 None None 1 0 O None None None , 11 7 None None , 1 , O False None None None False False 1 , False -1 False True O O
+across IN None None False False aaaaaa a 6 -1 -1 PP None 1 0 O None None None IN 12 8 None None IN 1 across B-PP False None None None False False 1 across False -1 False True O B-NP
+Grattan NNP yes_amb 4 False False Aaaaaaa Aa 7 -1 -1 NP across 2 0 O None across None NNP 13 9 street NN NN 1 Grattan B-NP False None None O False False 2 grattan False -1 True True O I-NP
+street NN yes_amb 4 False False aaaaaa a 6 -1 -1 NP across 2 1 O None across None NNP 14 9 street NN NN 1 street I-NP False None None O True False 2 street False -1 False True O I-NP
+is VBZ None None False False aa a 2 -1 -1 VP None 1 0 O None None None VBZ 15 10 None None VBZ 1 is B-VP False None None None False True 1 be False -1 False True O O
+one CD None None False False aaa a 3 -1 -1 NP None 1 0 O None None None CD 16 11 None None CD 1 one B-NP False None None O False False 1 one False -1 False True O O
+of IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 17 12 None None IN 1 of B-PP False None None None False False 1 of False -1 False True O O
+the DT None None False False aaa a 3 -1 -1 NP None 3 0 O None of the DT 18 13 medical JJ DT 1 the B-NP False None None O False False 3 the False -1 False True O O
+medical JJ yes_amb 3 False False aaaaaaa a 7 -1 -1 NP None 3 1 O None of the DT 19 13 medical JJ DT 1 medical I-NP False None None O False False 3 medical False -1 False True O B-NP
+buildings NNS yes_amb 3 False False aaaaaaaaa a 9 -1 -1 NP None 3 2 O None of the DT 20 13 medical JJ DT 1 buildings I-NP False None None O False False 3 building False -1 False True O I-NP
+

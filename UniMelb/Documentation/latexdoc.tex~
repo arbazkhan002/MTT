@@ -1,0 +1,105 @@
+\documentclass[]{article}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifxetex
+  \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\else
+  \ifluatex
+    \usepackage{fontspec}
+    \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \else
+    \usepackage[utf8]{inputenc}
+  \fi
+\fi
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex,
+              colorlinks=true,
+              linkcolor=blue]{hyperref}
+\else
+  \usepackage[unicode=true,
+              colorlinks=true,
+              linkcolor=blue]{hyperref}
+\fi
+\hypersetup{breaklinks=true, pdfborder={0 0 0}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\title{Place Descriptions}
+\author{Arbaz Khan}
+\begin{document}
+\maketitle 
+
+\section{Progress}
+
+\subsection{Annotation of the triplets}
+  Each of the three phrases of the triplet were annotated with an
+  alignment scale of 1 to 3, which basically checked the identifiability
+  of that phrase in the description. Tags:
+
+  \begin{enumerate}
+  \item
+    1.1 denotes that the phrase was exactly identified as it is in the
+    sentence of the description where the corresponding triplet was
+    found.
+  \item
+    2. 2 denotes that the different words of the phrase could be
+    identified in the sentence of the triplet but not the complete
+    phrase as it is.
+  \item
+    3.3 denotes that one or more of the words of the phrase were not
+    identified in the sentence of the triplet.
+  \end{enumerate}
+
+
+This helped getting familiar with the complexity of the interpretability
+of the triplets in a description. The more 3s you have, the more
+difficult would it be to interpret a triplet out of the description.
+
+\subsection{Sentence labels}
+  An extra field was added in the triplets data containing the
+  sentence\_id which was the counter index of the sentence in which the
+  triplet was found.
+
+  This helped in understanding the depth of the connections between the
+  sentences. If a phrase of the triplet occurs as RO in a number of
+  sentences, then we know how far the context gets carried.
+\section{Future Work}
+The difficulty in identifiability is expected to be taken care of by the
+parser. So, it would be worthwhile to go through the sample outputs of
+the parser provided by Felix and check the extent upto which it takes
+care of the identifiability, esp. of the prepositions (in). Also to be
+looked at is whether the context is carried foe.
+
+\subsection*{Carrying the context with DFS}
+
+It was observed that the contexts used in human descriptions goes in a
+depth-first fashion to describe path intersections. It is natural to
+describe one path as far as you could and then come back to the others,
+rather than providing path descriptions in a parallel fashion. For
+example, in the desctiption , ``{[}..{]} there are three main
+alternative paths that you can use to head north. The central one is up
+some stairs {[}..{]}. The path will take you to the {[}..{]} where there
+is {[}..{]} and a little to the east, the Union House. Union House is a
+large building containing {[}..{]}''. And then the context ends and the
+describer switches back to the other branch to explore a new depth,
+``The second path {[}..{]} from the south entrance takes you a little
+bit to the west and then switches north {[}..{]}. Near this {[}..{]},
+you find a crepes stand. From this path {[}..{]}''. (Here, words like
+``this path'' , ``the road'' represent the current context). And then
+again it switches back, ``The third path {[}..{]}''.
+
+Hence, it gives rise to an idea of parsing in a depth-first fashion so
+that the context is taken care of by the tree. It also provides a way to
+resolve the demonstrative pronouns like ``this building'' where it would
+mean the current context, i.e. the root of the subtree in progress.
+
+Sample runs of such a tree were studied and it was found to resolve some
+indirect descriptions but on the whole, its success depends upon the
+parsing of the human descriptions
+
+\end{document}

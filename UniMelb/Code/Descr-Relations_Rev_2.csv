@@ -1,0 +1,37 @@
+Main South entrance,south ,campus,1
+Main South entrance,on,Grattan Street ,2
+Sev. Entrances,east ,campus,3
+Sev. Entrances,on,Swanston st. ,4
+Stairs,north of,Main South entrance,5
+Lawn,north of ,Stairs,6
+Chapel,in ,Heart of campus,7
+Heart of campus,north of,Lawn,8
+Historical Buildings,in,Heart of campus,9
+Union House,in,Heart of campus,10
+Union House,little east of,Heart of campus,11
+Cafes,in,Union House,12
+Restaurants,in,Union House,13
+Electronics Store,in,Union House,14
+Gym,near,Union House,15
+Gym,northeast of,Union House,16
+NAB,near,Union House,17
+NAB,west of,Union House,18
+Commonwealth bank,near,Union House,19
+Commonwealth bank,west of,Union House,20
+CP1,west of,Main South entrance,21
+Crepes stand,near,CP1,22
+Other campus buildings,north of,CP1,23
+Western exit,north of,Other campus buildings,24
+Western exit,west,campus,25
+University House,north of,Western exit,26
+Engineering Building,east of ,Main South entrance,27
+Engineering Building,right hand side of,Main South entrance,28
+Old Engineering building,east of,Main South entrance,29
+Old Engineering building,straight ahead of,Main South entrance,30
+CP2,at,Old Engineering Building,31
+University Library,ENE of ,Engineering Building,32
+Swanston St. exits,ENE of ,Engineering Building,33
+Wilson Hall,north of,CP2,34
+Wilson Hall,to the left of,CP2,35
+Union House,NNW of,CP2,36
+Campus Center,NNW of,CP2,37

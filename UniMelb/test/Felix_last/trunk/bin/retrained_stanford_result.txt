@@ -1,0 +1,13695 @@
+Sitting O O
+at B-NP B-NP
+my I-NP I-NP
+desk I-NP I-NP
+
+On O B-NP
+the O I-NP
+moon O I-NP
+
+Melbourne B-NP B-NP
+
+Melbourne B-NP B-NP
+University I-NP I-NP
+, I-NP I-NP
+Medical I-NP I-NP
+Building I-NP I-NP
+
+at B-NP B-NP
+a I-NP I-NP
+mates I-NP I-NP
+house I-NP I-NP
+
+4 B-NP B-NP
+derwent B-NP B-NP
+close I-NP I-NP
+croydon B-NP I-NP
+hills I-NP I-NP
+
+flagstaff B-NP B-NP
+gardens I-NP I-NP
+
+fitzroy B-NP B-NP
+gardens I-NP I-NP
+
+university B-NP B-NP
+of I-NP I-NP
+melbourne I-NP I-NP
+
+The B-NP B-NP
+University I-NP I-NP
+of I-NP I-NP
+Melbourne I-NP I-NP
+
+16 B-NP B-NP
+Oliver B-NP B-NP
+Road I-NP I-NP
+Templestowe B-NP I-NP
+
+16 B-NP B-NP
+Oliver B-NP B-NP
+Road I-NP I-NP
+Templestowe B-NP I-NP
+3106 B-NP I-NP
+
+Flinders B-NP B-NP
+St I-NP I-NP
+Station I-NP I-NP
+
+North B-NP O
+- I-NP O
+west I-NP O
+corner I-NP O
+of I-NP B-NP
+Federation I-NP I-NP
+Square I-NP I-NP
+, O O
+opposite O O
+Flinders B-NP B-NP
+St I-NP I-NP
+Station I-NP I-NP
+. O O
+
+I O O
+am O O
+in B-NP B-NP
+my I-NP I-NP
+bedroom I-NP I-NP
+at B-NP B-NP
+home I-NP I-NP
+, O O
+on B-NP B-NP
+Rathmines I-NP I-NP
+Road I-NP I-NP
+, I-NP I-NP
+Hawthorn I-NP I-NP
+East I-NP I-NP
+. O O
+
+I O O
+am O O
+at B-NP B-NP
+a I-NP I-NP
+3 I-NP I-NP
+stories I-NP I-NP
+town I-NP I-NP
+house I-NP I-NP
+, I-NP O
+number I-NP O
+7 I-NP O
+Chetwynd B-NP B-NP
+Place I-NP I-NP
+. O I-NP
+The B-NP I-NP
+house I-NP I-NP
+is O O
+located O O
+in B-NP B-NP
+a I-NP I-NP
+small I-NP I-NP
+alley I-NP I-NP
+behind B-NP B-NP
+a I-NP I-NP
+row I-NP I-NP
+of I-NP I-NP
+town I-NP I-NP
+house I-NP I-NP
+along B-NP O
+Chetwynd I-NP B-NP
+Street I-NP I-NP
+, O O
+near B-NP B-NP
+the I-NP I-NP
+corner I-NP I-NP
+between B-NP B-NP
+Chetwynd I-NP I-NP
+Street I-NP I-NP
+and I-NP I-NP
+Queensberry I-NP I-NP
+Street I-NP I-NP
+. O O
+There O O
+is O O
+a B-NP O
+construction I-NP O
+site I-NP O
+in B-NP B-NP
+the I-NP I-NP
+alley I-NP I-NP
+. O O
+Its O O
+the B-NP O
+3 I-NP O
+rd I-NP O
+house I-NP O
+from B-NP O
+the I-NP O
+head I-NP O
+of I-NP B-NP
+the I-NP I-NP
+alley I-NP I-NP
+. O O
+
+tokyo O B-NP
+
+Outside B-NP O
+the I-NP O
+Royal I-NP B-NP
+Exhibition I-NP I-NP
+Building I-NP I-NP
+, O O
+near B-NP B-NP
+the I-NP I-NP
+Fountain I-NP I-NP
+. O O
+
+Corner B-NP B-NP
+of I-NP I-NP
+Moreland I-NP I-NP
+and I-NP I-NP
+citylink I-NP I-NP
+
+at B-NP B-NP
+the I-NP I-NP
+corner I-NP I-NP
+of I-NP I-NP
+Collins I-NP I-NP
+and I-NP I-NP
+Elizabeth I-NP I-NP
+street I-NP I-NP
+
+Four B-NP B-NP
+houses I-NP I-NP
+past B-NP I-NP
+Nhill I-NP I-NP
+Hospital I-NP I-NP
+heading O O
+to B-NP O
+Adelaide I-NP O
+on B-NP B-NP
+Western I-NP I-NP
+Highway I-NP I-NP
+. O O
+
+Just O O
+near B-NP B-NP
+the I-NP I-NP
+Theatre I-NP I-NP
+Royal I-NP I-NP
+and I-NP I-NP
+the I-NP I-NP
+supermarket I-NP I-NP
+. O O
+There O O
+\ O O
+' O O
+s B-NP O
+a I-NP O
+roundabout I-NP O
+with B-NP O
+a I-NP O
+mining I-NP O
+statue I-NP O
+/ B-NP O
+fountain I-NP O
+in O O
+the O O
+middle O O
+. O O
+
+Just O O
+near B-NP B-NP
+the I-NP I-NP
+Theatre I-NP I-NP
+Royal I-NP I-NP
+, I-NP O
+the I-NP O
+supermarket I-NP O
+is O O
+on B-NP B-NP
+one I-NP I-NP
+corner I-NP I-NP
+and I-NP I-NP
+an I-NP I-NP
+oval I-NP I-NP
+on O O
+another O O
+. O O
+There O O
+\\ O O
+
+I O O
+\ O O
+' O O
+m O O
+on B-NP B-NP
+the I-NP I-NP
+Docklands I-NP I-NP
+esplanade I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+multi I-NP I-NP
+coloured I-NP I-NP
+6 I-NP I-NP
+story I-NP I-NP
+building I-NP I-NP
+. O O
+If O O
+coming O O
+down O O
+La B-NP B-NP
+Trobe I-NP I-NP
+Street I-NP I-NP
+past B-NP I-NP
+Etihad I-NP O
+Stadium I-NP O
+turn O O
+right O O
+when O O
+you O O
+hit O O
+the B-NP B-NP
+Esplanade I-NP I-NP
+and O I-NP
+we O I-NP
+are O I-NP
+the B-NP I-NP
+second I-NP I-NP
+building I-NP I-NP
+on O O
+your O O
+right O O
+. O O
+
+Off B-NP O
+Rathdowne I-NP B-NP
+St I-NP I-NP
+, O O
+behind B-NP B-NP
+the I-NP I-NP
+Kent I-NP I-NP
+Hotel I-NP I-NP
+
+Parked O B-NP
+on B-NP B-NP
+road I-NP I-NP
+outside B-NP B-NP
+primary I-NP I-NP
+school I-NP I-NP
+
+In B-NP B-NP
+my I-NP I-NP
+appartment I-NP I-NP
+overlooking O O
+the B-NP B-NP
+sports I-NP I-NP
+oval I-NP I-NP
+on B-NP B-NP
+liardet I-NP I-NP
+street I-NP I-NP
+. O O
+
+Alma B-NP B-NP
+road I-NP I-NP
+near B-NP B-NP
+the I-NP I-NP
+church I-NP I-NP
+on B-NP B-NP
+the I-NP I-NP
+hill I-NP I-NP
+in B-NP B-NP
+St I-NP I-NP
+kilda I-NP I-NP
+
+In B-NP B-NP
+my I-NP I-NP
+appartment I-NP I-NP
+overlooking O O
+the B-NP B-NP
+grassed I-NP I-NP
+sports I-NP I-NP
+oval I-NP I-NP
+on B-NP B-NP
+liardet I-NP I-NP
+street I-NP I-NP
+
+In B-NP B-NP
+Swan I-NP I-NP
+St I-NP I-NP
+Optometrist I-NP I-NP
+in B-NP B-NP
+Docker I-NP I-NP
+Street I-NP I-NP
+, O O
+seven O O
+meters O O
+from B-NP B-NP
+the I-NP I-NP
+North I-NP I-NP
+- I-NP I-NP
+east I-NP I-NP
+corner I-NP I-NP
+of I-NP I-NP
+Swan I-NP I-NP
+St I-NP I-NP
+, O O
+opposite B-NP O
+the I-NP O
+stone I-NP O
+- I-NP O
+coloured I-NP O
+Beretta I-NP B-NP
+\ I-NP I-NP
+' I-NP I-NP
+s I-NP I-NP
+Hotel I-NP I-NP
+and O O
+next O O
+to B-NP B-NP
+the I-NP I-NP
+public I-NP I-NP
+car I-NP I-NP
+park I-NP I-NP
+. O O
+
+I O O
+\ O O
+' O O
+m O O
+in B-NP B-NP
+the I-NP I-NP
+court I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+estate I-NP I-NP
+opposite B-NP B-NP
+the I-NP I-NP
+new I-NP I-NP
+primary I-NP I-NP
+school I-NP I-NP
+. O O
+Close O O
+to B-NP B-NP
+the I-NP I-NP
+Pakenham I-NP I-NP
+bypass I-NP I-NP
+
+on B-NP B-NP
+Morotai I-NP I-NP
+Parade I-NP I-NP
+, O O
+at O O
+a O O
+t O O
+- O O
+intersection B-NP B-NP
+of I-NP I-NP
+Coomalie I-NP I-NP
+Crescent I-NP I-NP
+, O O
+7 O O
+o O O
+meters O O
+from O B-NP
+The O I-NP
+Tobruk B-NP I-NP
+Avenue I-NP I-NP
+end B-NP I-NP
+of O I-NP
+the O I-NP
+Bell B-NP I-NP
+St I-NP I-NP
+Mall B-NP I-NP
+in B-NP B-NP
+West I-NP I-NP
+Heidelberg I-NP I-NP
+
+In B-NP B-NP
+a I-NP I-NP
+school I-NP I-NP
+, O I-NP
+lots O I-NP
+of B-NP I-NP
+trees I-NP I-NP
+, O O
+just O O
+past B-NP O
+Diamond I-NP B-NP
+Valley I-NP I-NP
+Plaza I-NP I-NP
+. O O
+
+Maris B-NP B-NP
+warragul B-NP I-NP
+
+15 B-NP B-NP
+Dendle B-NP B-NP
+St I-NP I-NP
+Grovedale B-NP B-NP
+Victoria B-NP I-NP
+
+The B-NP B-NP
+corner I-NP I-NP
+where O O
+the O B-NP
+old O I-NP
+tyabb B-NP I-NP
+primary I-NP O
+school I-NP O
+is O O
+. O O
+Down B-NP O
+the I-NP O
+bottom I-NP O
+of I-NP B-NP
+jones I-NP I-NP
+road I-NP I-NP
+hill B-NP I-NP
+. O O
+
+At B-NP B-NP
+Deakin I-NP I-NP
+University I-NP I-NP
+Waurn B-NP B-NP
+Ponds I-NP I-NP
+Campus I-NP I-NP
+
+In B-NP B-NP
+the I-NP I-NP
+Big I-NP I-NP
+Siemens I-NP I-NP
+building I-NP I-NP
+on B-NP B-NP
+Mountain I-NP I-NP
+Highway I-NP I-NP
+near B-NP B-NP
+Dorset I-NP I-NP
+Rd I-NP I-NP
+
+15 B-NP B-NP
+dendle B-NP B-NP
+st I-NP I-NP
+grovdale B-NP I-NP
+victoria B-NP I-NP
+
+Opposite B-NP B-NP
+old I-NP I-NP
+stone I-NP I-NP
+flour I-NP I-NP
+mill I-NP I-NP
+on B-NP B-NP
+bridge I-NP I-NP
+rd I-NP I-NP
+near B-NP B-NP
+bridge I-NP I-NP
+. O O
+
+At B-NP B-NP
+the I-NP I-NP
+back I-NP I-NP
+entrance I-NP I-NP
+of I-NP I-NP
+Briar I-NP I-NP
+Hill I-NP I-NP
+Primary I-NP I-NP
+
+In B-NP B-NP
+my I-NP I-NP
+apartment I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+big I-NP I-NP
+block I-NP I-NP
+of I-NP I-NP
+flats I-NP I-NP
+on B-NP B-NP
+the I-NP I-NP
+corner I-NP I-NP
+of I-NP I-NP
+Park I-NP I-NP
+Street I-NP I-NP
+and I-NP I-NP
+Kings I-NP I-NP
+Way I-NP I-NP
+. O O
+The B-NP O
+apartments I-NP O
+take O O
+up O O
+the B-NP O
+whole I-NP O
+block I-NP O
+of I-NP B-NP
+Park I-NP I-NP
+Street I-NP I-NP
+, I-NP I-NP
+Eastern I-NP I-NP
+Road I-NP I-NP
+, I-NP I-NP
+Napier I-NP I-NP
+Street I-NP I-NP
+and I-NP I-NP
+Kings I-NP I-NP
+Way I-NP I-NP
+. O O
+You O O
+enter O O
+my B-NP O
+flat I-NP O
+on B-NP B-NP
+Napier I-NP I-NP
+Street I-NP I-NP
+. O O
+
+Opposite B-NP B-NP
+old I-NP I-NP
+stone I-NP I-NP
+flour I-NP I-NP
+mill I-NP I-NP
+near B-NP B-NP
+bridge I-NP I-NP
+on B-NP B-NP
+bridge I-NP I-NP
+road I-NP I-NP
+
+Outside B-NP B-NP
+the I-NP I-NP
+restaurant I-NP I-NP
+on B-NP B-NP
+warrigul I-NP I-NP
+rd I-NP I-NP
+with B-NP O
+the I-NP O
+big I-NP O
+fake I-NP O
+volcano I-NP O
+
+near B-NP B-NP
+flemington I-NP I-NP
+primary I-NP I-NP
+school I-NP I-NP
+, I-NP I-NP
+big I-NP I-NP
+tree I-NP I-NP
+lined I-NP I-NP
+street I-NP I-NP
+, O O
+elms O O
+, O O
+dog B-NP O
+park I-NP O
+
+Outside B-NP B-NP
+the I-NP I-NP
+restaurant I-NP I-NP
+with B-NP O
+the I-NP O
+big I-NP O
+fake I-NP O
+volcano I-NP O
+
+At B-NP B-NP
+the I-NP I-NP
+park I-NP I-NP
+where O O
+the B-NP O
+eastern I-NP O
+freeway I-NP O
+bike B-NP O
+path I-NP O
+is O O
+
+Near B-NP B-NP
+panasales I-NP I-NP
+on B-NP O
+nepean I-NP O
+
+Outside O B-NP
+house O I-NP
+with B-NP O
+green I-NP O
+bull I-NP O
+nosed I-NP O
+veranda I-NP O
+on B-NP B-NP
+Marquis I-NP I-NP
+rd I-NP I-NP
+
+Melbourne B-NP B-NP
+university I-NP I-NP
+
+Approximately O B-NP
+halfway O I-NP
+between B-NP B-NP
+Lara I-NP I-NP
+and I-NP I-NP
+Little I-NP I-NP
+River I-NP I-NP
+. O O
+Almost O O
+at B-NP O
+the I-NP O
+foot I-NP O
+of I-NP O
+the I-NP O
+You I-NP O
+Yangs I-NP O
+. O O
+
+shot B-NP B-NP
+tower I-NP I-NP
+
+melbourne B-NP B-NP
+central I-NP I-NP
+
+Doctors B-NP B-NP
+surgery I-NP I-NP
+in B-NP B-NP
+street I-NP I-NP
+behind B-NP B-NP
+shops I-NP I-NP
+on B-NP B-NP
+esplanade I-NP I-NP
+on B-NP O
+mt I-NP O
+. I-NP O
+Martha I-NP O
+. O O
+Opposite O B-NP
+childrens B-NP I-NP
+park I-NP I-NP
+. O O
+
+princes B-NP B-NP
+hill I-NP I-NP
+secondary I-NP I-NP
+college I-NP I-NP
+, I-NP I-NP
+footy I-NP I-NP
+ground I-NP I-NP
+, I-NP I-NP
+cemetary I-NP I-NP
+, I-NP I-NP
+milk I-NP I-NP
+bar I-NP I-NP
+
+At B-NP B-NP
+9 I-NP I-NP
+Lee B-NP I-NP
+Street I-NP I-NP
+Flemington B-NP I-NP
+where O O
+I O O
+am O O
+in B-NP B-NP
+my I-NP I-NP
+house I-NP I-NP
+which O O
+is O O
+on O O
+the O O
+right O O
+side O O
+if O O
+you O O
+\ O O
+' O O
+re O O
+facing O O
+the B-NP B-NP
+city I-NP I-NP
+and O O
+about O O
+half O O
+way O O
+down B-NP B-NP
+the I-NP I-NP
+street I-NP I-NP
+. O O
+There O O
+is O O
+an B-NP O
+arch I-NP O
+with I-NP O
+roses I-NP O
+growing O O
+on O O
+it O O
+at O B-NP
+the O I-NP
+gate O I-NP
+and O I-NP
+the B-NP I-NP
+house I-NP I-NP
+is O O
+a B-NP O
+double I-NP O
+- I-NP O
+fronted I-NP O
+Victorian I-NP B-NP
+house I-NP I-NP
+. O O
+
+Estou O O
+perto O O
+do O O
+nada O O
+. O O
+
+No O O
+, O O
+thanks O O
+. O O
+
+1 B-NP B-NP
+Lewis B-NP B-NP
+St I-NP I-NP
+, I-NP I-NP
+Hastings I-NP I-NP
+, I-NP I-NP
+Victoria I-NP I-NP
+, I-NP I-NP
+Australia I-NP I-NP
+
+Castlemaine B-NP B-NP
+
+I O O
+am O O
+at B-NP B-NP
+Union I-NP I-NP
+House I-NP I-NP
+, O O
+located O O
+in O B-NP
+the O I-NP
+centre O I-NP
+of B-NP I-NP
+the I-NP I-NP
+University I-NP I-NP
+of I-NP I-NP
+Melbourne I-NP I-NP
+in B-NP B-NP
+Parkville I-NP I-NP
+, I-NP I-NP
+Melbourne I-NP I-NP
+. O O
+
+Melbourne B-NP B-NP
+Museum I-NP I-NP
+
+Carlton B-NP B-NP
+Gardens I-NP I-NP
+
+Main B-NP B-NP
+St I-NP I-NP
+Mornington B-NP B-NP
+and I-NP I-NP
+queen I-NP I-NP
+street I-NP I-NP
+junction B-NP B-NP
+
+On B-NP B-NP
+the I-NP I-NP
+corner I-NP I-NP
+of I-NP I-NP
+Kings I-NP I-NP
+Way I-NP I-NP
+and I-NP I-NP
+Queens I-NP I-NP
+Road I-NP I-NP
+
+Melbourne B-NP B-NP
+central I-NP I-NP
+office I-NP I-NP
+towers I-NP I-NP
+, O O
+near B-NP O
+Melbourne I-NP B-NP
+Central I-NP I-NP
+shopping B-NP I-NP
+center I-NP I-NP
+. O O
+Its O O
+on B-NP B-NP
+Elizabeth I-NP I-NP
+st I-NP I-NP
+, O O
+just O O
+down O O
+from B-NP B-NP
+the I-NP I-NP
+intersection I-NP I-NP
+of I-NP I-NP
+Elizabeth I-NP I-NP
+and I-NP I-NP
+Latrobe I-NP I-NP
+. O O
+Opposite B-NP B-NP
+the I-NP I-NP
+Harley I-NP I-NP
+shop I-NP I-NP
+on B-NP B-NP
+Elizabeth I-NP I-NP
+st I-NP I-NP
+. O O
+
+babel B-NP B-NP
+building I-NP I-NP
+, I-NP I-NP
+university I-NP I-NP
+of I-NP I-NP
+melbourne I-NP I-NP
+
+391 B-NP B-NP
+st O I-NP
+georges B-NP I-NP
+rd I-NP I-NP
+north B-NP O
+fitzroy I-NP O
+
+Work B-NP B-NP
+
+Swan B-NP B-NP
+st I-NP I-NP
+, I-NP I-NP
+Rcihmond I-NP I-NP
+
+On O B-NP
+the O I-NP
+banks O I-NP
+of B-NP I-NP
+a I-NP I-NP
+pond I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+botanical I-NP I-NP
+gardens I-NP I-NP
+, I-NP I-NP
+melbourne I-NP I-NP
+, I-NP I-NP
+australia I-NP I-NP
+
+4 B-NP B-NP
+Tudor B-NP I-NP
+Road I-NP I-NP
+Doncaster B-NP I-NP
+
+Newmarket B-NP B-NP
+Street I-NP I-NP
+
+I O O
+am O O
+in B-NP B-NP
+apartment I-NP I-NP
+22 B-NP I-NP
+of I-NP I-NP
+the I-NP I-NP
+Byfass I-NP I-NP
+apartment I-NP I-NP
+in B-NP B-NP
+8 I-NP I-NP
+Trenerry B-NP I-NP
+Crescent I-NP I-NP
+in B-NP B-NP
+Abbotsford I-NP I-NP
+. O O
+Trennery B-NP B-NP
+Crescent I-NP I-NP
+is O O
+the B-NP B-NP
+last I-NP I-NP
+street I-NP I-NP
+on B-NP O
+the I-NP O
+north I-NP O
+side I-NP O
+of I-NP B-NP
+Johnston I-NP I-NP
+St I-NP I-NP
+before O O
+you O O
+cross O O
+the B-NP B-NP
+Yarra I-NP I-NP
+river I-NP I-NP
+going O O
+east O O
+. O O
+The B-NP B-NP
+Byfass I-NP I-NP
+building I-NP I-NP
+( O O
+No O O
+8 B-NP O
+) O O
+is O O
+a B-NP B-NP
+three I-NP I-NP
+storey I-NP I-NP
+red I-NP I-NP
+brick I-NP I-NP
+building I-NP I-NP
+and O O
+is O O
+on O B-NP
+the O I-NP
+east O I-NP
+( O O
+right O O
+) O O
+side O O
+of B-NP B-NP
+Trenerry I-NP I-NP
+crescent I-NP I-NP
+100 O O
+metres O O
+in O O
+from B-NP O
+Johnston I-NP B-NP
+St I-NP I-NP
+
+At B-NP B-NP
+the I-NP I-NP
+Murdoch I-NP I-NP
+Childrens I-NP I-NP
+Research I-NP I-NP
+Institute I-NP I-NP
+, O O
+in B-NP B-NP
+office I-NP I-NP
+W B-NP O
+1043 I-NP O
+, O O
+on B-NP O
+the I-NP O
+10 I-NP O
+th I-NP O
+Floor I-NP O
+of I-NP O
+the I-NP O
+Royal I-NP B-NP
+Children I-NP I-NP
+\ I-NP I-NP
+' I-NP I-NP
+s I-NP I-NP
+Hospital I-NP I-NP
+, I-NP I-NP
+Flemington I-NP I-NP
+Road I-NP I-NP
+, I-NP I-NP
+Parkville I-NP I-NP
+, I-NP I-NP
+Victoria I-NP I-NP
+, I-NP O
+3052 I-NP O
+
+I O O
+\ O O
+' O O
+m O O
+in B-NP B-NP
+the I-NP I-NP
+Baillieu I-NP I-NP
+library I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+University I-NP I-NP
+of I-NP I-NP
+Melbourne I-NP I-NP
+. O O
+This O O
+is O O
+in B-NP B-NP
+Carlton I-NP I-NP
+/ O O
+Parkville B-NP O
+in B-NP B-NP
+the I-NP I-NP
+city I-NP I-NP
+of I-NP I-NP
+Melbourne I-NP I-NP
+; O O
+between B-NP O
+Royal I-NP O
+Pde I-NP O
+& O O
+Swanston B-NP B-NP
+Street I-NP I-NP
+( O O
+from O B-NP
+West O I-NP
+to O B-NP
+East O I-NP
+) O O
+and O O
+between B-NP B-NP
+Grattan I-NP I-NP
+St I-NP I-NP
+. O O
+& O O
+College B-NP B-NP
+Crescent I-NP I-NP
+( O O
+from O B-NP
+South O I-NP
+to O B-NP
+North O I-NP
+) O O
+. O O
+I O O
+\ O O
+' O O
+m O O
+on B-NP B-NP
+the I-NP I-NP
+1 I-NP I-NP
+st I-NP I-NP
+floor I-NP I-NP
+of I-NP I-NP
+the I-NP I-NP
+library I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+Percy I-NP I-NP
+Baxter I-NP I-NP
+Collaborative I-NP I-NP
+Learning I-NP O
+Centre I-NP O
+siting O O
+in B-NP O
+my I-NP O
+chair I-NP O
+at O O
+computer O O
+terminal O O
+no O O
+. O O
+3 O O
+- O O
+5 O O
+( O O
+Group O B-NP
+3 O I-NP
+, O I-NP
+Computer B-NP I-NP
+5 O O
+) O O
+, O O
+facing O O
+the B-NP O
+screen I-NP O
+in O O
+a O O
+roughly O O
+south O O
+- O O
+easterly O O
+direction O O
+. O O
+
+Opposite B-NP B-NP
+Readings I-NP I-NP
+in B-NP B-NP
+Carlton I-NP I-NP
+
+Shields B-NP B-NP
+Street I-NP I-NP
+, O O
+between B-NP B-NP
+High I-NP I-NP
+Street I-NP I-NP
+and I-NP I-NP
+Mt I-NP I-NP
+. I-NP O
+alexander I-NP B-NP
+Road I-NP I-NP
+
+Inside B-NP B-NP
+building I-NP I-NP
+7 I-NP O
+at B-NP O
+RMIT I-NP O
+. O O
+
+media B-NP B-NP
+house I-NP I-NP
+
+corner B-NP B-NP
+of I-NP I-NP
+spenser I-NP I-NP
+street I-NP I-NP
+and I-NP I-NP
+collins I-NP I-NP
+st I-NP I-NP
+
+near B-NP B-NP
+Southern I-NP I-NP
+Cross I-NP I-NP
+station I-NP I-NP
+
+High B-NP B-NP
+street I-NP I-NP
+road I-NP I-NP
+
+On B-NP B-NP
+Maling I-NP I-NP
+Rd I-NP I-NP
+, O O
+next O O
+to B-NP B-NP
+the I-NP I-NP
+courtyard I-NP I-NP
+
+I O O
+\ O O
+' O O
+m O O
+on B-NP B-NP
+Mitcham I-NP I-NP
+Road I-NP I-NP
+, O O
+just O O
+past B-NP B-NP
+the I-NP I-NP
+pipeline I-NP I-NP
+coming O O
+from B-NP B-NP
+the I-NP I-NP
+station I-NP I-NP
+. O O
+
+I O O
+am O O
+at B-NP B-NP
+the I-NP I-NP
+University I-NP I-NP
+of I-NP I-NP
+Melbourne I-NP I-NP
+
+i O O
+am O O
+at B-NP B-NP
+federation I-NP I-NP
+square I-NP I-NP
+
+at B-NP B-NP
+home I-NP I-NP
+in B-NP B-NP
+bed I-NP I-NP
+
+McKean B-NP B-NP
+Street I-NP I-NP
+, I-NP I-NP
+Fitzroy I-NP I-NP
+North I-NP I-NP
+
+On B-NP B-NP
+the I-NP I-NP
+train I-NP I-NP
+at B-NP B-NP
+bentleigh I-NP I-NP
+
+Royal B-NP B-NP
+Melbourne I-NP I-NP
+Hospital I-NP I-NP
+Private B-NP I-NP
+
+Geomatics B-NP B-NP
+Dpt I-NP I-NP
+Unimelb B-NP I-NP
+
+unimelb B-NP B-NP
+
+I O O
+\ O O
+' O O
+m O O
+at B-NP B-NP
+home I-NP I-NP
+in B-NP B-NP
+Kensington I-NP I-NP
+
+In B-NP B-NP
+the I-NP I-NP
+car I-NP I-NP
+on B-NP B-NP
+the I-NP I-NP
+corner I-NP I-NP
+of I-NP I-NP
+Arden I-NP I-NP
+St I-NP I-NP
+and I-NP I-NP
+Dryburgh I-NP I-NP
+St I-NP I-NP
+
+380 B-NP B-NP
+st B-NP B-NP
+kilda I-NP I-NP
+road I-NP I-NP
+Melbourne B-NP B-NP
+3004 B-NP B-NP
+
+18 B-NP B-NP
+Golf B-NP I-NP
+Links I-NP I-NP
+Court I-NP I-NP
+Doncaster B-NP I-NP
+
+I O O
+am O O
+on B-NP B-NP
+high I-NP I-NP
+street I-NP I-NP
+facing O O
+beauty B-NP B-NP
+park I-NP I-NP
+. O O
+This B-NP B-NP
+park I-NP I-NP
+has O O
+a B-NP B-NP
+lake I-NP I-NP
+which O O
+overflows O O
+when O O
+a O B-NP
+heavy O I-NP
+rainfall O I-NP
+happens O I-NP
+which O O
+suggests O O
+there O O
+is O O
+inadequate O O
+drainage O O
+for O O
+this O O
+region O O
+. O O
+There O O
+is O O
+constant O B-NP
+construction O I-NP
+which O O
+keeps O O
+all O O
+residents O O
+up O O
+at O O
+night O O
+. O O
+The O O
+view O O
+towards B-NP B-NP
+the I-NP I-NP
+beach I-NP I-NP
+has O O
+a O O
+colorful O O
+sunset O O
+most O O
+of O O
+the O O
+time O O
+; O O
+except O O
+during O O
+overcast O O
+days O O
+. O O
+
+no O O
+idea O O
+
+National B-NP B-NP
+Gallery I-NP I-NP
+
+florence O O
+, O O
+Nj O O
+, O O
+08518 O O
+
+Florence O B-NP
+, O O
+NJ O O
+, O O
+USA O O
+, O O
+08518 O O
+
+Boneo B-NP B-NP
+market I-NP I-NP
+
+Boneo B-NP B-NP
+primary I-NP I-NP
+school I-NP I-NP
+
+Limestone B-NP B-NP
+road I-NP I-NP
+Boneo B-NP B-NP
+
+2 O O
+blocks O O
+away O O
+from B-NP B-NP
+the I-NP I-NP
+university I-NP I-NP
+
+I O O
+am O O
+at B-NP B-NP
+a I-NP I-NP
+private I-NP I-NP
+residence I-NP I-NP
+located O O
+on O O
+the O O
+western O O
+side O O
+of B-NP B-NP
+Barrington I-NP I-NP
+Avenue I-NP I-NP
+in B-NP O
+Kew I-NP O
+, O O
+approximately O O
+halfway O O
+along B-NP B-NP
+the I-NP I-NP
+street I-NP I-NP
+. O O
+
+6592882940 O O
+
+Beach B-NP B-NP
+motor I-NP I-NP
+inn I-NP I-NP
+Frankston B-NP I-NP
+. O O
+Next O O
+to O O
+kananook B-NP B-NP
+creek I-NP I-NP
+and I-NP I-NP
+the I-NP I-NP
+bp I-NP I-NP
+service I-NP I-NP
+station I-NP I-NP
+
+I O O
+am O O
+at O B-NP
+a O I-NP
+workshop O I-NP
+in O B-NP
+one O I-NP
+of B-NP I-NP
+the I-NP I-NP
+seminar I-NP I-NP
+rooms I-NP I-NP
+of I-NP I-NP
+the I-NP I-NP
+graduate I-NP I-NP
+house I-NP I-NP
+, O O
+at B-NP B-NP
+University I-NP I-NP
+Square I-NP I-NP
+
+116 B-NP B-NP
+murray B-NP B-NP
+street I-NP I-NP
+, I-NP I-NP
+Caulfield I-NP I-NP
+south I-NP I-NP
+, I-NP I-NP
+3162 I-NP I-NP
+VIC B-NP I-NP
+
+116 B-NP B-NP
+Murray B-NP I-NP
+street I-NP I-NP
+, I-NP I-NP
+Caulfield I-NP I-NP
+south I-NP I-NP
+3162 B-NP B-NP
+VIC B-NP I-NP
+
+At B-NP B-NP
+uni I-NP I-NP
+house I-NP I-NP
+
+Uni B-NP B-NP
+house I-NP I-NP
+parkville B-NP B-NP
+
+I O O
+am O O
+in O O
+a O O
+meeting O O
+with O O
+colleagues O O
+, O O
+in B-NP O
+the I-NP O
+lounge I-NP O
+of I-NP B-NP
+University I-NP I-NP
+House I-NP I-NP
+, O O
+having O O
+a O O
+coffee O O
+. O O
+
+Air B-NP B-NP
+port I-NP I-NP
+
+Airport B-NP B-NP
+
+723 B-NP B-NP
+swanston B-NP B-NP
+street I-NP I-NP
+
+Tootgarook B-NP B-NP
+
+Rathdowne B-NP B-NP
+st I-NP I-NP
+shops B-NP B-NP
+
+Mornington B-NP B-NP
+peninsula I-NP I-NP
+
+My B-NP B-NP
+office I-NP I-NP
+, O O
+in B-NP O
+the I-NP O
+Civil I-NP O
+Engineering I-NP O
+Block I-NP O
+. O O
+
+Favourite O B-NP
+bakery B-NP I-NP
+on B-NP B-NP
+scotchmer I-NP I-NP
+st I-NP I-NP
+nth B-NP I-NP
+Fitzroy I-NP I-NP
+
+I O O
+am O O
+in B-NP O
+the I-NP O
+living I-NP O
+room I-NP O
+of I-NP B-NP
+University I-NP I-NP
+House I-NP I-NP
+. O O
+
+crcsi B-NP O
+, O O
+behind B-NP B-NP
+kfc I-NP I-NP
+on B-NP B-NP
+swanston I-NP I-NP
+st I-NP I-NP
+
+723 B-NP B-NP
+swanston B-NP B-NP
+st I-NP I-NP
+
+CRCSI B-NP O
+
+Melboure B-NP B-NP
+University I-NP I-NP
+
+Department B-NP B-NP
+of I-NP I-NP
+Geomatics I-NP I-NP
+, I-NP I-NP
+University I-NP I-NP
+of I-NP I-NP
+Melbourne I-NP I-NP
+. O O
+
+At B-NP B-NP
+the I-NP I-NP
+university I-NP I-NP
+at B-NP B-NP
+the I-NP I-NP
+geomatics I-NP I-NP
+building I-NP I-NP
+
+Nicholson B-NP B-NP
+st I-NP I-NP
+shops B-NP B-NP
+
+Old B-NP O
+Engineering I-NP O
+Building I-NP O
+University B-NP O
+of I-NP B-NP
+Melbourne I-NP I-NP
+
+building B-NP B-NP
+174 I-NP I-NP
+, I-NP I-NP
+Grattan I-NP I-NP
+St I-NP I-NP
+, I-NP I-NP
+Melbourne I-NP I-NP
+, I-NP I-NP
+Victoria I-NP I-NP
+, I-NP I-NP
+Australia I-NP I-NP
+
+28 B-NP B-NP
+/ O O
+207 B-NP B-NP
+Queens B-NP B-NP
+Ave I-NP I-NP
+, I-NP I-NP
+hawthorn I-NP I-NP
+3122 B-NP B-NP
+Melbourne B-NP I-NP
+VIC B-NP I-NP
+, I-NP I-NP
+Australia I-NP I-NP
+
+28 B-NP B-NP
+/ O O
+207 B-NP B-NP
+Queens B-NP B-NP
+Ave I-NP I-NP
+, I-NP I-NP
+Hawthorne I-NP I-NP
+3122 B-NP I-NP
+, I-NP I-NP
+VIC I-NP I-NP
+, I-NP I-NP
+Melbourne I-NP I-NP
+, I-NP I-NP
+Australia I-NP I-NP
+
+Grattan B-NP B-NP
+ST I-NP I-NP
+, I-NP I-NP
+Melbourne I-NP I-NP
+, I-NP O
+VIC I-NP O
+3000 B-NP O
+
+In B-NP B-NP
+a I-NP I-NP
+very I-NP I-NP
+beautifull I-NP I-NP
+street I-NP I-NP
+in B-NP B-NP
+Melbourne I-NP I-NP
+called O B-NP
+Grattan B-NP I-NP
+street I-NP I-NP
+
+Royal B-NP B-NP
+melb I-NP I-NP
+hospital I-NP I-NP
+
+Eco B-NP B-NP
+and I-NP I-NP
+Comm I-NP I-NP
+, I-NP I-NP
+Melbourne I-NP I-NP
+Uni I-NP I-NP
+
+483 B-NP B-NP
+swanston B-NP B-NP
+st I-NP I-NP
+opposite B-NP B-NP
+public I-NP I-NP
+city I-NP I-NP
+bath I-NP I-NP
+
+339 B-NP O
+FLEMINGTON B-NP O
+RD I-NP O
+
+I O O
+am O O
+in B-NP O
+the I-NP O
+lobby I-NP O
+of I-NP B-NP
+the I-NP I-NP
+University I-NP I-NP
+House I-NP I-NP
+- O O
+you O O
+will O O
+find O O
+me O O
+in B-NP B-NP
+the I-NP I-NP
+room I-NP I-NP
+just O O
+to O O
+your O O
+left O O
+after O O
+passing O O
+the O O
+concierge O O
+. O O
+
+west B-NP B-NP
+melbourne I-NP I-NP
+
+1 B-NP B-NP
+bouverie B-NP B-NP
+st I-NP I-NP
+carlton B-NP B-NP
+3051 B-NP O
+vic B-NP O
+
+Flemington B-NP B-NP
+bridge I-NP I-NP
+station I-NP I-NP
+
+Brownless B-NP B-NP
+Library I-NP I-NP
+, I-NP I-NP
+University I-NP I-NP
+of I-NP I-NP
+Melbourne I-NP I-NP
+
+Home B-NP B-NP
+
+I O O
+\\ O O
+
+At B-NP B-NP
+home I-NP I-NP
+, I-NP I-NP
+43 I-NP I-NP
+Campbell B-NP B-NP
+st I-NP I-NP
+, I-NP I-NP
+Kew I-NP I-NP
+
+I O O
+am O O
+in O O
+a O O
+meeting O O
+at B-NP O
+RMIT I-NP O
+University I-NP O
+- O O
+somewhere O O
+in B-NP O
+Bldg I-NP O
+10 I-NP O
+, I-NP O
+Level I-NP O
+8 I-NP O
+, I-NP O
+one I-NP O
+of I-NP O
+the I-NP O
+theatres I-NP O
+. O O
+
+70 B-NP B-NP
+glyndon B-NP B-NP
+rd I-NP I-NP
+Camberwell B-NP B-NP
+
+At B-NP B-NP
+Home I-NP I-NP
+
+Baillieu B-NP B-NP
+Library I-NP I-NP
+in B-NP B-NP
+Melbourne I-NP I-NP
+University I-NP I-NP
+
+ICT B-NP B-NP
+building I-NP I-NP
+, I-NP I-NP
+University I-NP I-NP
+of I-NP I-NP
+Melbourne I-NP I-NP
+
+Waiting O O
+in O O
+front O O
+of B-NP B-NP
+the I-NP I-NP
+state I-NP I-NP
+library I-NP I-NP
+- O O
+under B-NP O
+the I-NP O
+statue I-NP O
+of O O
+Redmond O O
+Barry O O
+; O O
+actually O O
+I O O
+didn O O
+\ O O
+' O O
+t O O
+know O O
+it O O
+is O O
+his O O
+, O O
+but O O
+it O O
+is O O
+the O O
+one O O
+just O O
+in O O
+front O O
+of B-NP B-NP
+the I-NP I-NP
+entrance I-NP I-NP
+
+In B-NP B-NP
+a I-NP I-NP
+nice I-NP I-NP
+wine I-NP I-NP
+bar I-NP I-NP
+in B-NP B-NP
+little I-NP I-NP
+Bourke I-NP I-NP
+st I-NP I-NP
+, O O
+just O O
+after B-NP B-NP
+china I-NP I-NP
+town I-NP I-NP
+
+Little B-NP B-NP
+Bourke I-NP I-NP
+
+Little B-NP B-NP
+Bourke I-NP I-NP
+street I-NP I-NP
+
+At B-NP B-NP
+the I-NP I-NP
+tram I-NP I-NP
+stop I-NP I-NP
+lonsdale B-NP B-NP
+st I-NP I-NP
+cnr B-NP B-NP
+Elizabeth I-NP I-NP
+st I-NP I-NP
+, O O
+at B-NP B-NP
+michaels I-NP I-NP
+foto I-NP I-NP
+shop I-NP I-NP
+
+On B-NP B-NP
+the I-NP I-NP
+tram I-NP I-NP
+on O O
+my O O
+way O O
+home B-NP O
+, O O
+approaching O O
+Vic B-NP B-NP
+Market I-NP I-NP
+
+11 B-NP O
+A I-NP O
+Sturrock B-NP B-NP
+Street I-NP I-NP
+
+11 B-NP O
+A I-NP O
+Sturrock B-NP B-NP
+Street I-NP I-NP
+, I-NP I-NP
+Brunswick I-NP I-NP
+, I-NP O
+Vic I-NP O
+3056 B-NP O
+
+In B-NP O
+the I-NP O
+middle I-NP O
+of I-NP B-NP
+ayr I-NP I-NP
+st I-NP I-NP
+doncaster B-NP B-NP
+
+At B-NP B-NP
+a I-NP I-NP
+traffic I-NP I-NP
+light I-NP O
+opposite O O
+of B-NP B-NP
+the I-NP I-NP
+hospital I-NP I-NP
+, O O
+waiting O O
+
+Baillieu B-NP B-NP
+library I-NP I-NP
+, I-NP I-NP
+Melb I-NP I-NP
+Uni I-NP I-NP
+
+Baillieu B-NP B-NP
+library I-NP I-NP
+, I-NP I-NP
+melbourne I-NP I-NP
+Uni I-NP I-NP
+
+In B-NP B-NP
+my I-NP I-NP
+office I-NP I-NP
+on B-NP B-NP
+the I-NP I-NP
+7 I-NP I-NP
+th I-NP I-NP
+floor I-NP I-NP
+of I-NP I-NP
+the I-NP I-NP
+Babel I-NP I-NP
+building I-NP I-NP
+on B-NP O
+the I-NP O
+University I-NP O
+of I-NP B-NP
+Melbourne I-NP I-NP
+Parkville B-NP I-NP
+campus I-NP I-NP
+. O O
+I O O
+am O O
+on O O
+the O O
+south O O
+side O O
+of B-NP B-NP
+the I-NP I-NP
+building I-NP I-NP
+, O O
+which O O
+us O O
+just O O
+to O O
+the O O
+left O O
+of O O
+professors O O
+walk O O
+
+Brownless B-NP B-NP
+Library I-NP I-NP
+
+Brownless B-NP B-NP
+Medical I-NP I-NP
+Library I-NP I-NP
+, I-NP I-NP
+University I-NP I-NP
+of I-NP I-NP
+Melbourne I-NP I-NP
+
+Computer B-NP B-NP
+Science I-NP I-NP
+Lecture B-NP I-NP
+Theatre I-NP I-NP
+1 B-NP I-NP
+
+Melbourne B-NP B-NP
+Uni I-NP I-NP
+ICT B-NP I-NP
+building I-NP I-NP
+, O O
+in B-NP B-NP
+the I-NP I-NP
+lecture I-NP I-NP
+room I-NP I-NP
+on O O
+the O O
+left O O
+when O O
+coming O O
+in O B-NP
+the O I-NP
+barry B-NP I-NP
+st I-NP I-NP
+entrance B-NP I-NP
+. O O
+
+Shared B-NP B-NP
+room I-NP I-NP
+
+In B-NP B-NP
+an I-NP I-NP
+office I-NP I-NP
+
+Hallway B-NP B-NP
+on B-NP B-NP
+the I-NP I-NP
+second I-NP I-NP
+floor I-NP I-NP
+of I-NP I-NP
+the I-NP I-NP
+babel I-NP I-NP
+building I-NP I-NP
+
+at B-NP B-NP
+my I-NP I-NP
+house I-NP I-NP
+, O O
+in B-NP B-NP
+the I-NP I-NP
+lounge I-NP I-NP
+room I-NP I-NP
+. O O
+my B-NP B-NP
+house I-NP I-NP
+is O O
+at O B-NP
+the O I-NP
+top O I-NP
+of B-NP I-NP
+a I-NP I-NP
+hill I-NP I-NP
+. O O
+
+My B-NP B-NP
+house I-NP I-NP
+
+Inside B-NP B-NP
+my I-NP I-NP
+home I-NP I-NP
+
+5 B-NP B-NP
+pottery B-NP I-NP
+crt I-NP I-NP
+. O O
+Brunswick B-NP B-NP
+
+Melbourne B-NP B-NP
+high I-NP I-NP
+School I-NP I-NP
+. O O
+Sth B-NP B-NP
+Yarra I-NP I-NP
+
+10 B-NP B-NP
+Hylton B-NP B-NP
+Cres I-NP I-NP
+, I-NP I-NP
+rosanna I-NP I-NP
+
+Palais B-NP B-NP
+theatre I-NP B-NP
+st B-NP I-NP
+kilda I-NP I-NP
+
+131 B-NP B-NP
+Pelham B-NP B-NP
+st I-NP I-NP
+, I-NP I-NP
+Carlton I-NP I-NP
+, I-NP I-NP
+3053 I-NP I-NP
+, I-NP I-NP
+Victoria I-NP I-NP
+
+At O B-NP
+a O I-NP
+dinner O I-NP
+on B-NP B-NP
+toorak I-NP I-NP
+road I-NP I-NP
+, O O
+a O O
+place O O
+called O O
+lincoln B-NP O
+
+2 O O
+min O O
+drive O O
+to O O
+estern B-NP O
+free I-NP O
+way I-NP O
+
+440 B-NP B-NP
+Elizabeth B-NP B-NP
+Street I-NP I-NP
+, I-NP I-NP
+Melbourne I-NP I-NP
+
+flinders B-NP B-NP
+station I-NP I-NP
+
+flinders B-NP B-NP
+
+In B-NP B-NP
+the I-NP I-NP
+Treasury I-NP I-NP
+Theatre I-NP I-NP
+, I-NP O
+a I-NP O
+place I-NP O
+hard O O
+to O O
+find O O
+. O O
+It O O
+is O O
+behind B-NP B-NP
+Old I-NP I-NP
+Treasury I-NP I-NP
+, I-NP I-NP
+the I-NP I-NP
+landmark I-NP I-NP
+building I-NP I-NP
+at O B-NP
+the O I-NP
+end O I-NP
+of B-NP I-NP
+Collins I-NP I-NP
+Street I-NP I-NP
+, O I-NP
+and O I-NP
+then O I-NP
+downstairs O I-NP
+, O I-NP
+below O I-NP
+street O I-NP
+level O O
+. O O
+
+On B-NP B-NP
+Burke I-NP I-NP
+St I-NP I-NP
+, O O
+in O B-NP
+the O I-NP
+little O I-NP
+Pelegrino B-NP I-NP
+cafe I-NP I-NP
+, I-NP I-NP
+CBD I-NP I-NP
+
+In B-NP B-NP
+the I-NP I-NP
+\ I-NP I-NP
+' I-NP I-NP
+male I-NP I-NP
+\ O I-NP
+' O I-NP
+David B-NP I-NP
+Jones I-NP I-NP
+, O O
+on B-NP B-NP
+the I-NP I-NP
+mezzanine I-NP I-NP
+level I-NP I-NP
+, O O
+in B-NP B-NP
+the I-NP I-NP
+shoe I-NP I-NP
+department I-NP I-NP
+
+David B-NP B-NP
+Jones I-NP I-NP
+, O O
+south O O
+side O O
+of B-NP B-NP
+Bourke I-NP I-NP
+St I-NP I-NP
+
+oo O O
+
+517 B-NP B-NP
+royal B-NP B-NP
+parade I-NP I-NP
+
+Bus B-NP B-NP
+stop I-NP I-NP
+on B-NP B-NP
+Mitcham I-NP I-NP
+rd I-NP I-NP
+near B-NP B-NP
+springvale I-NP I-NP
+rd I-NP I-NP
+
+Genoa B-NP B-NP
+st I-NP I-NP
+moorabbin B-NP B-NP
+
+ERC B-NP O
+
+ERC B-NP B-NP
+building I-NP I-NP
+
+Esta O B-NP
+support B-NP I-NP
+office I-NP I-NP
+6 B-NP B-NP
+/ O O
+215 B-NP B-NP
+spring B-NP B-NP
+St I-NP I-NP
+, I-NP I-NP
+Melbourne I-NP I-NP
+
+three O O
+hundred O O
+meters O O
+far O O
+from B-NP B-NP
+auburn I-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+in B-NP B-NP
+second I-NP I-NP
+floor I-NP I-NP
+on B-NP B-NP
+an I-NP I-NP
+five I-NP I-NP
+floor I-NP I-NP
+apprtment I-NP I-NP
+in B-NP B-NP
+Gueens I-NP I-NP
+Ave I-NP I-NP
+which O O
+is O O
+incide O O
+of B-NP B-NP
+Hawthorn I-NP I-NP
+suburb I-NP O
+district I-NP O
+. O O
+
+in B-NP B-NP
+the I-NP I-NP
+university I-NP I-NP
+of I-NP I-NP
+melbourne I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+building I-NP I-NP
+number I-NP O
+174 I-NP O
+near O O
+to B-NP O
+Grattan I-NP B-NP
+street I-NP I-NP
+from O B-NP
+south O I-NP
+. O O
+
+in B-NP B-NP
+the I-NP I-NP
+university I-NP I-NP
+of I-NP I-NP
+melbourne I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+civil I-NP I-NP
+engineering I-NP O
+building I-NP O
+near O O
+to B-NP O
+Grattan I-NP B-NP
+street I-NP I-NP
+from O B-NP
+south O I-NP
+. O O
+
+At B-NP B-NP
+the I-NP I-NP
+university I-NP I-NP
+of I-NP I-NP
+melbourne I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+civil I-NP I-NP
+engineering I-NP O
+building I-NP O
+near O O
+to B-NP O
+Grattan I-NP B-NP
+street I-NP I-NP
+from O B-NP
+south O I-NP
+. O O
+
+I O O
+am O O
+at B-NP B-NP
+the I-NP I-NP
+university I-NP I-NP
+of I-NP I-NP
+melbourne I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+civil I-NP I-NP
+engineering I-NP O
+building I-NP O
+near O O
+to B-NP O
+Grattan I-NP B-NP
+street I-NP I-NP
+from O B-NP
+south O I-NP
+. O O
+
+I O O
+am O O
+at B-NP B-NP
+the I-NP I-NP
+university I-NP I-NP
+of I-NP I-NP
+melbourne I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+civil I-NP I-NP
+engineering I-NP I-NP
+building I-NP I-NP
+located O O
+near O O
+to B-NP O
+Grattan I-NP B-NP
+street I-NP I-NP
+from O B-NP
+south O I-NP
+. O O
+
+royal B-NP B-NP
+women I-NP I-NP
+hosipital I-NP I-NP
+
+The B-NP B-NP
+mint I-NP I-NP
+bar I-NP I-NP
+
+The B-NP B-NP
+mint I-NP I-NP
+
+Berwick B-NP B-NP
+victoria B-NP B-NP
+
+Prarhran B-NP B-NP
+train I-NP I-NP
+station I-NP I-NP
+l O O
+. O O
+tan O O
+20 O O
+@ O O
+ugrad O O
+. O O
+unimelb O B-NP
+. O O
+edu O O
+. O O
+au O O
+
+Prahran B-NP B-NP
+train I-NP I-NP
+station I-NP I-NP
+L O O
+. O O
+tan O O
+20 O O
+@ O O
+ugrad O O
+. O O
+unimelb O B-NP
+. O O
+edu O O
+. O O
+au O O
+
+Victoria B-NP B-NP
+Hotel I-NP I-NP
+
+570 B-NP B-NP
+Bourke B-NP I-NP
+Street I-NP I-NP
+, I-NP I-NP
+DSE I-NP I-NP
+building I-NP I-NP
+
+at B-NP B-NP
+604 I-NP I-NP
+St B-NP I-NP
+kilda I-NP I-NP
+rd I-NP I-NP
+near B-NP B-NP
+union I-NP I-NP
+St I-NP I-NP
+
+Bentleigh B-NP B-NP
+East I-NP I-NP
+
+1 B-NP B-NP
+Margaret B-NP B-NP
+St I-NP I-NP
+Richmond B-NP B-NP
+Vic B-NP I-NP
+3121 B-NP B-NP
+
+Southbank B-NP B-NP
+
+Bath B-NP B-NP
+Lane I-NP I-NP
+, I-NP I-NP
+Ballarat I-NP I-NP
+, O O
+in B-NP B-NP
+my I-NP I-NP
+rented I-NP I-NP
+apartment I-NP I-NP
+. O O
+
+Domain B-NP B-NP
+st I-NP I-NP
+, O O
+opposite B-NP B-NP
+the I-NP I-NP
+coffee I-NP I-NP
+houses I-NP I-NP
+
+A O O
+loud B-NP B-NP
+street I-NP I-NP
+intersection I-NP B-NP
+, O O
+just O O
+before O O
+crossing O O
+the B-NP B-NP
+yarra I-NP I-NP
+
+Chapel B-NP B-NP
+st I-NP I-NP
+, I-NP O
+a I-NP O
+boring I-NP O
+strip I-NP O
+with I-NP O
+apartment I-NP O
+houses I-NP O
+and O O
+... O O
+Is O O
+it O O
+Melbourne B-NP O
+grammar I-NP O
+? O O
+Not O O
+sure O O
+. O O
+
+In O O
+front O O
+of B-NP B-NP
+the I-NP I-NP
+Park I-NP I-NP
+Regis I-NP I-NP
+hotel I-NP I-NP
+on B-NP B-NP
+St I-NP I-NP
+kilda I-NP I-NP
+rd I-NP I-NP
+, O O
+on O O
+the O O
+left O O
+hand O O
+side O O
+if O O
+you O O
+are O O
+headed O O
+into B-NP B-NP
+the I-NP I-NP
+city I-NP I-NP
+. O O
+You O O
+need O O
+to O O
+be O O
+in B-NP O
+the I-NP O
+outside I-NP O
+lane I-NP O
+if O O
+driving O O
+or O O
+you O O
+won O O
+\ O O
+' O O
+t O O
+be O O
+able O O
+to O O
+turn O O
+in O O
+. O O
+There O O
+is O O
+a B-NP B-NP
+semi I-NP I-NP
+circular I-NP I-NP
+driveway I-NP I-NP
+in O O
+front O O
+, O O
+pull O O
+in O O
+there O O
+. O O
+
+In B-NP B-NP
+a I-NP I-NP
+shopping I-NP I-NP
+mall I-NP I-NP
+, O O
+just O O
+opened O O
+, O O
+calls O O
+itself O O
+vogue O O
+, O O
+but O O
+consists O O
+of B-NP B-NP
+Safeway I-NP I-NP
+and I-NP I-NP
+big I-NP I-NP
+w I-NP I-NP
+. O O
+One O O
+of O O
+these O O
+places O O
+without O O
+individual O O
+character O O
+, O O
+other O O
+than O O
+a O O
+beautiful O O
+view O O
+thru O O
+a B-NP O
+glass I-NP B-NP
+roof I-NP I-NP
+
+Chapel B-NP B-NP
+st I-NP I-NP
+, I-NP O
+a I-NP O
+new I-NP O
+shopping I-NP O
+mall I-NP O
+
+In B-NP B-NP
+Gopal I-NP I-NP
+\ I-NP I-NP
+' I-NP I-NP
+s I-NP I-NP
+restaurant I-NP I-NP
+, O I-NP
+diagonally O I-NP
+opposite O B-NP
+of B-NP I-NP
+Melbourne I-NP I-NP
+City I-NP I-NP
+Hall I-NP I-NP
+
+Stubbs B-NP B-NP
+St I-NP I-NP
+, O O
+in O O
+front O O
+of O B-NP
+a O I-NP
+line O I-NP
+of B-NP I-NP
+new I-NP I-NP
+office I-NP I-NP
+& I-NP I-NP
+warehouse I-NP I-NP
+buildings I-NP I-NP
+
+Levers B-NP B-NP
+St I-NP I-NP
+Royal B-NP I-NP
+Parade I-NP I-NP
+
+In O O
+front O O
+of B-NP B-NP
+flinders I-NP I-NP
+street I-NP I-NP
+station I-NP I-NP
+, O O
+opposite O O
+of B-NP B-NP
+federation I-NP I-NP
+square I-NP I-NP
+
+At B-NP B-NP
+the I-NP I-NP
+entrance I-NP I-NP
+of I-NP I-NP
+federation I-NP I-NP
+square I-NP I-NP
+, O I-NP
+still O I-NP
+downstairs O O
+( O O
+at B-NP B-NP
+the I-NP I-NP
+visitor I-NP I-NP
+centre I-NP I-NP
+) O O
+
+On B-NP B-NP
+federation I-NP I-NP
+square I-NP I-NP
+
+At O B-NP
+the O I-NP
+ACMI O I-NP
+, O I-NP
+entrance B-NP I-NP
+on B-NP B-NP
+federation I-NP I-NP
+square I-NP I-NP
+
+In B-NP B-NP
+Bok I-NP I-NP
+Choi I-NP I-NP
+, I-NP I-NP
+the I-NP I-NP
+Chinese I-NP I-NP
+restaurant I-NP I-NP
+at B-NP B-NP
+federation I-NP I-NP
+square I-NP I-NP
+- O I-NP
+top B-NP I-NP
+floor I-NP I-NP
+
+Waiting O O
+at B-NP B-NP
+a I-NP I-NP
+tram I-NP I-NP
+stop I-NP I-NP
+at B-NP B-NP
+flemington I-NP I-NP
+road I-NP I-NP
+for O O
+a O O
+trip O O
+to B-NP B-NP
+the I-NP I-NP
+city I-NP I-NP
+. O O
+Opposite B-NP B-NP
+a I-NP I-NP
+7 I-NP I-NP
+eleven I-NP I-NP
+. O O
+
+On B-NP B-NP
+Collins I-NP I-NP
+street I-NP I-NP
+, O O
+in O O
+front O O
+of O O
+\ O O
+"" O O
+the B-NP O
+hour I-NP O
+glass I-NP B-NP
+\ I-NP I-NP
+"" I-NP I-NP
+. O O
+Between B-NP B-NP
+Elizabeth I-NP I-NP
+and I-NP I-NP
+swanston I-NP I-NP
+st I-NP I-NP
+
+On B-NP O
+the I-NP O
+skybus I-NP O
+to B-NP B-NP
+the I-NP I-NP
+airport I-NP I-NP
+, O O
+10 O O
+min O O
+from B-NP B-NP
+the I-NP I-NP
+airport I-NP I-NP
+
+On B-NP O
+the I-NP O
+skybus I-NP O
+to B-NP B-NP
+the I-NP I-NP
+airport I-NP I-NP
+, O O
+entering O O
+tullamarine B-NP B-NP
+fwy I-NP I-NP
+
+I O O
+am O O
+living O O
+in B-NP O
+an I-NP O
+appartment I-NP O
+just O O
+3 O O
+minustes O O
+far O O
+from B-NP B-NP
+the I-NP I-NP
+Auburn I-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+which O O
+is O O
+a B-NP B-NP
+suburb I-NP I-NP
+of I-NP I-NP
+Melbourne I-NP I-NP
+located O O
+in O O
+east O O
+of O O
+it O O
+. O O
+
+I O O
+am O O
+living O O
+in B-NP O
+an I-NP O
+appartment I-NP O
+just O O
+3 O O
+minustes O O
+far O O
+from B-NP B-NP
+the I-NP I-NP
+Auburn I-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+which O O
+is O O
+a B-NP B-NP
+suburb I-NP I-NP
+of I-NP I-NP
+Melbourne I-NP I-NP
+located O O
+in O O
+east O O
+of O O
+that O O
+. O O
+
+barkly B-NP B-NP
+street I-NP I-NP
+
+on B-NP B-NP
+the I-NP I-NP
+train I-NP I-NP
+
+at B-NP B-NP
+the I-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+
+I O O
+am O O
+at B-NP B-NP
+Flinders I-NP I-NP
+Street I-NP I-NP
+Station I-NP I-NP
+in B-NP B-NP
+Melbourne I-NP I-NP
+. O O
+
+90 B-NP B-NP
+Camberwell B-NP B-NP
+Road I-NP I-NP
+, O O
+just O O
+down B-NP O
+the I-NP O
+road I-NP O
+from B-NP B-NP
+the I-NP I-NP
+Tower I-NP I-NP
+Hotel I-NP I-NP
+in B-NP B-NP
+Hawthorn I-NP I-NP
+East I-NP I-NP
+. O O
+
+About O O
+20 O O
+north O O
+of B-NP B-NP
+a I-NP I-NP
+roundabout I-NP I-NP
+on B-NP B-NP
+Rose I-NP I-NP
+St I-NP I-NP
+, O O
+near B-NP B-NP
+a I-NP I-NP
+4 I-NP I-NP
+storey I-NP I-NP
+apartment I-NP I-NP
+block I-NP I-NP
+
+About O O
+20 O O
+m O O
+north O O
+of B-NP B-NP
+a I-NP I-NP
+round I-NP I-NP
+about I-NP I-NP
+on B-NP B-NP
+Rose I-NP I-NP
+street I-NP I-NP
+, O O
+near B-NP B-NP
+a I-NP I-NP
+4 I-NP I-NP
+storey I-NP I-NP
+apartment I-NP I-NP
+
+at O B-NP
+the O I-NP
+end O I-NP
+of B-NP I-NP
+the I-NP I-NP
+court I-NP I-NP
+on B-NP B-NP
+Malibu I-NP I-NP
+Mews I-NP I-NP
+
+on B-NP B-NP
+traffic I-NP I-NP
+island I-NP I-NP
+, O O
+south O O
+of B-NP B-NP
+railway I-NP I-NP
+bridge I-NP I-NP
+on B-NP B-NP
+warrigal I-NP I-NP
+rd I-NP I-NP
+
+on B-NP B-NP
+pedestrian I-NP I-NP
+bridge I-NP I-NP
+over B-NP B-NP
+Monash I-NP I-NP
+Freeway I-NP I-NP
+, I-NP I-NP
+entrance I-NP I-NP
+from B-NP B-NP
+Jacana I-NP I-NP
+Street I-NP I-NP
+in B-NP B-NP
+Chadstone I-NP I-NP
+
+royal B-NP B-NP
+melbourne I-NP I-NP
+hosipital I-NP I-NP
+
+monash B-NP B-NP
+university I-NP I-NP
+
+monash B-NP B-NP
+university I-NP I-NP
+& O O
+# O O
+65288 O O
+; O O
+Parkville B-NP B-NP
+& O O
+# O O
+65289 O O
+; O O
+
+across B-NP B-NP
+the I-NP I-NP
+road I-NP I-NP
+from B-NP B-NP
+crown I-NP I-NP
+casino I-NP I-NP
+, O O
+near O B-NP
+the O I-NP
+spencer B-NP I-NP
+st I-NP I-NP
+dfo I-NP I-NP
+
+across O B-NP
+from B-NP B-NP
+st I-NP I-NP
+pats I-NP I-NP
+cathedral I-NP I-NP
+
+in B-NP O
+bed I-NP O
+at B-NP B-NP
+home I-NP I-NP
+: O O
+) O O
+
+across O B-NP
+from B-NP B-NP
+the I-NP I-NP
+park I-NP I-NP
+
+hawthorn B-NP B-NP
+near O O
+to O O
+auburn B-NP B-NP
+train I-NP I-NP
+station I-NP I-NP
+
+little B-NP B-NP
+burke I-NP I-NP
+street I-NP I-NP
+
+swinburn B-NP B-NP
+university I-NP I-NP
+
+lever B-NP B-NP
+street I-NP I-NP
+
+Royal B-NP B-NP
+Melbourne I-NP I-NP
+Hospital I-NP I-NP
+
+In O O
+front O O
+of B-NP B-NP
+the I-NP I-NP
+royal I-NP I-NP
+Melbourne I-NP I-NP
+hospital I-NP I-NP
+, O O
+at B-NP B-NP
+the I-NP I-NP
+emergency I-NP I-NP
+services I-NP I-NP
+entrance I-NP I-NP
+
+I O O
+am O O
+near O B-NP
+Coles B-NP I-NP
+in B-NP B-NP
+Noble I-NP I-NP
+Park I-NP I-NP
+. O O
+
+Newmarket B-NP B-NP
+railway I-NP I-NP
+ststion I-NP I-NP
+
+Allan B-NP B-NP
+Gilbert I-NP I-NP
+
+near B-NP B-NP
+the I-NP I-NP
+corner I-NP I-NP
+of I-NP I-NP
+John I-NP I-NP
+St I-NP I-NP
+and I-NP I-NP
+Glenlyon I-NP I-NP
+Road I-NP I-NP
+
+Yarra B-NP B-NP
+Crest I-NP I-NP
+apartments I-NP I-NP
+, I-NP I-NP
+99 I-NP I-NP
+Whiteman B-NP B-NP
+St I-NP I-NP
+, I-NP I-NP
+Southbank I-NP I-NP
+
+At B-NP B-NP
+the I-NP I-NP
+tram I-NP I-NP
+stop I-NP I-NP
+bourke B-NP I-NP
+street I-NP I-NP
+, O O
+in B-NP B-NP
+the I-NP I-NP
+city I-NP I-NP
+
+Newport B-NP B-NP
+Substation B-NP I-NP
+
+Diagonally O B-NP
+opposite O B-NP
+St B-NP I-NP
+Francis I-NP I-NP
+church I-NP I-NP
+, O O
+at B-NP B-NP
+a I-NP I-NP
+tram I-NP I-NP
+stop I-NP I-NP
+
+Dingley B-NP B-NP
+
+I O O
+\ O O
+' O O
+m O O
+in B-NP B-NP
+my I-NP I-NP
+office I-NP I-NP
+at B-NP B-NP
+215 I-NP I-NP
+Spring B-NP B-NP
+St I-NP I-NP
+Melbourne B-NP I-NP
+. O O
+Its O O
+on B-NP O
+spring I-NP O
+near B-NP B-NP
+the I-NP I-NP
+corner I-NP I-NP
+of I-NP I-NP
+Lonsdale I-NP I-NP
+St I-NP I-NP
+( O O
+between B-NP B-NP
+Little I-NP I-NP
+Bourke I-NP I-NP
+and I-NP I-NP
+Lonsdale I-NP I-NP
+St I-NP I-NP
+) O O
+, O O
+just O O
+across O O
+from B-NP B-NP
+the I-NP I-NP
+Chinese I-NP I-NP
+sculpture I-NP I-NP
+garden I-NP I-NP
+and I-NP O
+the I-NP O
+entrance I-NP O
+to B-NP B-NP
+Parliament I-NP I-NP
+Station I-NP I-NP
+. O O
+
+I O O
+\ O O
+' O O
+m O O
+at B-NP B-NP
+the I-NP I-NP
+Carousel I-NP I-NP
+restaurant I-NP I-NP
+. O O
+Its O O
+right O O
+on B-NP B-NP
+Albert I-NP I-NP
+Park I-NP I-NP
+lake I-NP I-NP
+, O O
+not O O
+on O O
+the O O
+side O O
+of B-NP B-NP
+the I-NP I-NP
+lake I-NP I-NP
+where O O
+Queensway B-NP O
+is O O
+, O O
+on O O
+the O O
+opposite O O
+side O O
+. O O
+
+I O O
+\ O O
+' O O
+m O O
+in B-NP O
+the I-NP O
+parking I-NP O
+lot I-NP O
+of I-NP B-NP
+the I-NP I-NP
+carousel I-NP I-NP
+Restaurant I-NP I-NP
+, O O
+which O O
+is O O
+on O O
+the O O
+south O O
+side O O
+of B-NP B-NP
+Albert I-NP I-NP
+Park I-NP I-NP
+Lake I-NP I-NP
+. O O
+
+I O O
+\ O O
+' O O
+m O O
+crossing O O
+the B-NP B-NP
+tram I-NP I-NP
+tracks I-NP I-NP
+at B-NP B-NP
+the I-NP I-NP
+St I-NP I-NP
+Kilda I-NP I-NP
+Red I-NP I-NP
+junction I-NP I-NP
+, O O
+on B-NP B-NP
+St I-NP I-NP
+Kilda I-NP I-NP
+Rd I-NP I-NP
+
+In O O
+front O O
+of B-NP B-NP
+huge I-NP I-NP
+brick I-NP I-NP
+warehouse I-NP I-NP
+walls I-NP I-NP
+. O O
+Close O O
+to B-NP B-NP
+Mccaoley I-NP I-NP
+Rd I-NP I-NP
+
+princes B-NP B-NP
+park I-NP I-NP
+
+Princess B-NP B-NP
+Park I-NP I-NP
+
+Cnr B-NP O
+newry B-NP O
+and I-NP O
+drummond I-NP O
+in B-NP B-NP
+carlton I-NP I-NP
+- O O
+near O B-NP
+the O I-NP
+rathdowne B-NP I-NP
+st I-NP I-NP
+shops B-NP B-NP
+
+College B-NP B-NP
+Square I-NP I-NP
+( O O
+Carlton B-NP O
+) O O
+
+College B-NP B-NP
+Square I-NP I-NP
+
+Princess B-NP B-NP
+Hill I-NP I-NP
+
+515 B-NP B-NP
+Royal B-NP I-NP
+Parade I-NP I-NP
+
+Fitzroy B-NP B-NP
+, O O
+a O O
+place O O
+in O O
+a O O
+( O O
+local O O
+) O O
+Victoria B-NP B-NP
+street I-NP I-NP
+, O O
+not O O
+too O O
+far O O
+from B-NP B-NP
+carlton I-NP I-NP
+gardens I-NP I-NP
+
+Tram B-NP B-NP
+lines I-NP I-NP
+
+Abbotsford B-NP B-NP
+
+In O B-NP
+a O I-NP
+cafe O I-NP
+opposite B-NP B-NP
+Kensington I-NP I-NP
+station I-NP I-NP
+, O O
+on O O
+a O O
+leafy O O
+strip B-NP O
+of I-NP B-NP
+small I-NP I-NP
+shops I-NP B-NP
+and I-NP I-NP
+cafes I-NP I-NP
+
+Park B-NP B-NP
+
+ringwood B-NP B-NP
+station I-NP I-NP
+
+ringwood B-NP B-NP
+east I-NP I-NP
+station I-NP I-NP
+
+lilydale B-NP B-NP
+station I-NP I-NP
+
+Rafeigh B-NP B-NP
+Street I-NP I-NP
+
+it O O
+wasnt O O
+even O O
+close O O
+to O O
+where O O
+i O O
+was O O
+but O O
+i O O
+couldnt O O
+move O O
+the O O
+map O O
+. O O
+
+139 B-NP B-NP
+Bouverie B-NP B-NP
+Street I-NP I-NP
+
+Sebastopol B-NP B-NP
+, I-NP I-NP
+victoria I-NP I-NP
+
+95 B-NP B-NP
+Coventry B-NP I-NP
+Street I-NP I-NP
+, O O
+near B-NP B-NP
+the I-NP I-NP
+corner I-NP I-NP
+of I-NP I-NP
+Sturt I-NP I-NP
+st I-NP I-NP
+and I-NP I-NP
+Kings I-NP I-NP
+way I-NP I-NP
+
+77 B-NP B-NP
+queens B-NP B-NP
+road I-NP I-NP
+, O O
+enter O O
+from B-NP B-NP
+queens I-NP I-NP
+lane I-NP I-NP
+and I-NP I-NP
+union I-NP I-NP
+st I-NP I-NP
+
+Main B-NP B-NP
+street I-NP I-NP
+Mornington B-NP B-NP
+
+Mornington B-NP B-NP
+
+I O O
+am O O
+in B-NP B-NP
+a I-NP I-NP
+large I-NP I-NP
+warehouse I-NP I-NP
+on B-NP B-NP
+Helen I-NP I-NP
+St I-NP I-NP
+between B-NP B-NP
+High I-NP I-NP
+St I-NP I-NP
+and I-NP I-NP
+the I-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+. O O
+
+Outside O B-NP
+Lakhsa B-NP I-NP
+Me I-NP I-NP
+restaurant B-NP I-NP
+
+At B-NP B-NP
+Fed I-NP I-NP
+square I-NP I-NP
+
+In O B-NP
+the O I-NP
+Bourke B-NP I-NP
+St I-NP I-NP
+Mall B-NP B-NP
+
+Standing O O
+at B-NP B-NP
+the I-NP I-NP
+bus I-NP I-NP
+stop I-NP I-NP
+near B-NP B-NP
+the I-NP I-NP
+railway I-NP I-NP
+crossing I-NP I-NP
+on B-NP B-NP
+Arthurton I-NP I-NP
+Rd I-NP I-NP
+. O O
+
+In B-NP B-NP
+the I-NP I-NP
+city I-NP I-NP
+, I-NP I-NP
+bourke I-NP I-NP
+st I-NP I-NP
+, I-NP O
+at I-NP O
+a I-NP O
+brutal I-NP O
+iron I-NP O
+sculpture I-NP O
+that O O
+despite O O
+it O O
+\ O O
+' O O
+s O O
+size O O
+disappears O O
+between B-NP B-NP
+the I-NP I-NP
+high I-NP I-NP
+rising I-NP O
+buildings I-NP O
+here O O
+
+Im O O
+at B-NP B-NP
+Spatial I-NP I-NP
+Vision I-NP I-NP
+Innovations I-NP I-NP
+, I-NP I-NP
+Level I-NP I-NP
+2 I-NP I-NP
+170 B-NP B-NP
+Queen B-NP B-NP
+Street I-NP I-NP
+Melbourne B-NP I-NP
+
+519 B-NP B-NP
+Royal B-NP I-NP
+Parade I-NP I-NP
+
+513 B-NP B-NP
+Royal B-NP I-NP
+Parade I-NP I-NP
+
+On B-NP B-NP
+Victoria I-NP B-NP
+St I-NP I-NP
+cr O I-NP
+Sydney B-NP I-NP
+Rd I-NP I-NP
+at B-NP B-NP
+the I-NP I-NP
+bus I-NP I-NP
+stop I-NP I-NP
+in O O
+front O O
+of B-NP B-NP
+the I-NP I-NP
+shoe I-NP I-NP
+repair I-NP I-NP
+. O O
+
+I O O
+am O O
+in B-NP B-NP
+the I-NP I-NP
+Greek I-NP I-NP
+cafe I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+shopping I-NP I-NP
+mall I-NP I-NP
+close O I-NP
+to B-NP B-NP
+High I-NP I-NP
+St I-NP I-NP
+and I-NP I-NP
+Separation I-NP I-NP
+Rd I-NP I-NP
+in B-NP B-NP
+Northcote I-NP I-NP
+. O O
+
+14 B-NP B-NP
+/ O O
+517 B-NP B-NP
+royal B-NP B-NP
+parade I-NP I-NP
+parkville B-NP B-NP
+
+melbourne B-NP B-NP
+uni I-NP I-NP
+
+In B-NP B-NP
+a I-NP I-NP
+really I-NP I-NP
+nice I-NP I-NP
+restaurant I-NP I-NP
+on B-NP B-NP
+Victoria I-NP I-NP
+street I-NP I-NP
+, O O
+quite O O
+out O O
+of O O
+place O O
+. O O
+Not O O
+far O O
+from B-NP B-NP
+the I-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+, O O
+to O B-NP
+the O I-NP
+south O I-NP
+
+On O B-NP
+Elizabeth O I-NP
+Street O I-NP
+, O O
+diagonally O O
+opposite O B-NP
+Central O I-NP
+Station O I-NP
+on O B-NP
+the O I-NP
+corner O I-NP
+of O I-NP
+Foveaux O I-NP
+Street O I-NP
+. O O
+
+At B-NP B-NP
+the I-NP I-NP
+tram I-NP I-NP
+stop I-NP I-NP
+of I-NP I-NP
+the I-NP I-NP
+55 I-NP I-NP
+where O O
+it O O
+enters O O
+flemington B-NP B-NP
+road I-NP I-NP
+
+At B-NP B-NP
+a I-NP I-NP
+tram I-NP I-NP
+stop I-NP I-NP
+of I-NP I-NP
+the I-NP I-NP
+59 I-NP I-NP
+towards B-NP B-NP
+the I-NP I-NP
+city I-NP I-NP
+, O O
+after O O
+a O O
+walk O O
+through B-NP O
+flemington I-NP O
+
+melourne B-NP B-NP
+uni I-NP I-NP
+
+I O O
+am O O
+in B-NP B-NP
+Hawthorn I-NP I-NP
+suburb I-NP O
+near O O
+to B-NP B-NP
+Auburn I-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+, O O
+and O O
+at B-NP O
+level I-NP O
+two I-NP O
+of I-NP B-NP
+an I-NP I-NP
+appartment I-NP I-NP
+in B-NP B-NP
+Queens I-NP I-NP
+Ave I-NP I-NP
+
+Hawthorn B-NP B-NP
+east I-NP I-NP
+near O B-NP
+to O I-NP
+Auburn B-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+in B-NP B-NP
+an I-NP I-NP
+four I-NP I-NP
+- I-NP I-NP
+foloor I-NP I-NP
+apartment I-NP I-NP
+. O O
+
+Hawthorn B-NP B-NP
+east I-NP I-NP
+near O B-NP
+to O I-NP
+Auburn B-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+. O O
+
+testing O O
+
+I O O
+am O O
+in B-NP O
+downtown I-NP O
+200 O O
+hundred O O
+meters O O
+far O O
+from B-NP B-NP
+the I-NP I-NP
+university I-NP I-NP
+of I-NP I-NP
+Melbourne I-NP I-NP
+
+I O O
+am O O
+in B-NP B-NP
+the I-NP I-NP
+second I-NP I-NP
+floor I-NP I-NP
+of I-NP I-NP
+university I-NP I-NP
+of I-NP I-NP
+Melbourne I-NP I-NP
+near O O
+to B-NP B-NP
+downtown I-NP I-NP
+. O O
+in B-NP B-NP
+174 I-NP I-NP
+building I-NP I-NP
+, O O
+located O O
+in O O
+the O O
+north O O
+of B-NP B-NP
+Grattan I-NP I-NP
+street I-NP I-NP
+. O O
+
+I O O
+am O O
+in B-NP B-NP
+the I-NP I-NP
+university I-NP I-NP
+of I-NP I-NP
+Melbourne I-NP I-NP
+. O O
+in B-NP B-NP
+174 I-NP I-NP
+building I-NP I-NP
+, O O
+located O O
+in O O
+the O O
+north O O
+of B-NP B-NP
+Grattan I-NP I-NP
+street I-NP I-NP
+. O O
+
+Test O O
+from O B-NP
+IPhone O I-NP
+
+transport B-NP B-NP
+bar I-NP I-NP
+
+At B-NP B-NP
+the I-NP I-NP
+last I-NP I-NP
+stop I-NP I-NP
+of I-NP I-NP
+the I-NP I-NP
+96 I-NP I-NP
+, O O
+not O O
+far O O
+from B-NP B-NP
+Ceres I-NP I-NP
+
+I O O
+am O O
+living O O
+in B-NP O
+2 I-NP O
+nd I-NP O
+floor I-NP O
+of I-NP B-NP
+an I-NP I-NP
+apartment I-NP I-NP
+in B-NP B-NP
+hawthorn I-NP I-NP
+, I-NP O
+a I-NP O
+suburb I-NP O
+of I-NP B-NP
+Melbourne I-NP I-NP
+in O O
+east O O
+of O O
+it O O
+near O O
+to O B-NP
+Auburn B-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+. O O
+
+At B-NP B-NP
+the I-NP I-NP
+heide I-NP I-NP
+museum I-NP I-NP
+, O O
+outside O O
+
+In B-NP B-NP
+a I-NP I-NP
+cafe I-NP I-NP
+in B-NP B-NP
+ivenhoe I-NP I-NP
+, O O
+between B-NP B-NP
+shopping I-NP I-NP
+centre I-NP I-NP
+and I-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+
+Royal B-NP B-NP
+Women I-NP I-NP
+hospital I-NP I-NP
+
+test O O
+
+On B-NP B-NP
+Arthurton I-NP I-NP
+Rd I-NP I-NP
+in O O
+front O O
+of B-NP B-NP
+the I-NP I-NP
+little I-NP I-NP
+warehouses I-NP I-NP
+compind O I-NP
+close O I-NP
+to B-NP B-NP
+the I-NP I-NP
+creek I-NP I-NP
+adjacent O O
+to B-NP O
+Storage I-NP O
+King I-NP O
+. O O
+
+Train B-NP B-NP
+station I-NP I-NP
+
+Hospital B-NP B-NP
+
+Park B-NP B-NP
+Street I-NP I-NP
+
+medical B-NP B-NP
+building I-NP I-NP
+
+Berwick B-NP B-NP
+main B-NP B-NP
+street I-NP I-NP
+
+Dead B-NP B-NP
+end I-NP I-NP
+road I-NP I-NP
+
+Harcourt B-NP B-NP
+pl I-NP I-NP
+
+Princess B-NP B-NP
+Hill I-NP I-NP
+Park B-NP I-NP
+
+Cabbage B-NP B-NP
+farm I-NP I-NP
+
+The B-NP B-NP
+bailleau I-NP I-NP
+library I-NP I-NP
+
+Sunshine B-NP B-NP
+
+In B-NP B-NP
+a I-NP I-NP
+building I-NP I-NP
+at B-NP B-NP
+the I-NP I-NP
+university I-NP I-NP
+of I-NP I-NP
+Melbourne I-NP I-NP
+in O O
+front O O
+of B-NP B-NP
+Grattan I-NP I-NP
+street I-NP I-NP
+. O O
+
+at B-NP B-NP
+the I-NP I-NP
+melbuni I-NP I-NP
+in O O
+front O O
+of B-NP B-NP
+arcitecture I-NP I-NP
+building I-NP I-NP
+
+in B-NP B-NP
+the I-NP I-NP
+city I-NP I-NP
+at B-NP B-NP
+Franklyn I-NP I-NP
+st I-NP I-NP
+, O O
+next O O
+to B-NP B-NP
+ALDI I-NP I-NP
+
+ERC B-NP B-NP
+( O I-NP
+university B-NP I-NP
+of I-NP I-NP
+Melbourne I-NP I-NP
+) O O
+
+Economics O B-NP
+class O I-NP
+
+Caulfield B-NP B-NP
+
+Tafe B-NP B-NP
+
+NAB B-NP B-NP
+BUILDING I-NP I-NP
+
+8 B-NP B-NP
+Nicholson B-NP I-NP
+street I-NP I-NP
+
+Goulburn O B-NP
+st O I-NP
+liverpool O B-NP
+
+Motogp B-NP B-NP
+
+the O B-NP
+nearest O I-NP
+train B-NP I-NP
+station I-NP I-NP
+is O O
+3 O O
+minutes O O
+far O O
+from O O
+where O O
+I O O
+live O O
+in B-NP B-NP
+Hawthon I-NP I-NP
+east I-NP I-NP
+suburb I-NP I-NP
+of I-NP I-NP
+Melbourne I-NP I-NP
+. O O
+
+My B-NP B-NP
+house I-NP I-NP
+in B-NP B-NP
+Beacy I-NP I-NP
+
+In B-NP B-NP
+prahran I-NP I-NP
+. O O
+In B-NP B-NP
+a I-NP I-NP
+restaurant I-NP I-NP
+just O I-NP
+after B-NP I-NP
+prahran I-NP I-NP
+market I-NP I-NP
+, O O
+when O O
+you O O
+come O O
+from B-NP B-NP
+chapel I-NP I-NP
+street I-NP I-NP
+. O O
+I O O
+don O O
+\ O O
+' O O
+t O O
+know O O
+the O O
+name O O
+, O O
+but O O
+it O O
+is O O
+a O O
+modern O O
+western O B-NP
+one O I-NP
+. O O
+
+city B-NP B-NP
+
+Haymarket B-NP B-NP
+
+School B-NP B-NP
+
+Drag O B-NP
+strip O I-NP
+for O O
+hoons O O
+
+Massive B-NP B-NP
+Coles I-NP I-NP
+store I-NP I-NP
+
+Beach B-NP B-NP
+
+Doncastor B-NP B-NP
+
+Freeway B-NP B-NP
+! I-NP O
+M I-NP O
+1 I-NP O
+
+Maccas B-NP B-NP
+
+Berwick B-NP B-NP
+( O O
+our B-NP O
+new I-NP O
+house I-NP O
+) O O
+
+Sofias B-NP B-NP
+
+Monash B-NP B-NP
+university I-NP I-NP
+( O O
+Parkville B-NP B-NP
+) O I-NP
+
+Relaxing O O
+at B-NP B-NP
+home I-NP I-NP
+
+carlton B-NP B-NP
+north I-NP I-NP
+
+McDonalda B-NP B-NP
+car B-NP I-NP
+park I-NP I-NP
+
+Repco B-NP B-NP
+
+Hallam B-NP B-NP
+hotel I-NP I-NP
+
+Estate B-NP B-NP
+park I-NP I-NP
+
+Blitz B-NP B-NP
+nightclub I-NP I-NP
+
+Berwick B-NP B-NP
+- O I-NP
+childrens B-NP I-NP
+park I-NP I-NP
+
+Village B-NP B-NP
+cinemas I-NP I-NP
+
+Kmart B-NP B-NP
+
+Fg B-NP B-NP
+football B-NP I-NP
+oval I-NP I-NP
+
+Sdyney O B-NP
+
+Bankstown O B-NP
+2200 O B-NP
+
+Best B-NP O
+bakery I-NP B-NP
+in B-NP B-NP
+world I-NP I-NP
+
+Montuna B-NP B-NP
+golf I-NP I-NP
+course I-NP I-NP
+
+Berwick B-NP B-NP
+mainstreet B-NP I-NP
+
+In O B-NP
+the O I-NP
+middle O I-NP
+of B-NP I-NP
+an I-NP I-NP
+estate I-NP I-NP
+where O O
+there O O
+are O O
+about O O
+50 O O
+round B-NP O
+abouts I-NP O
+
+Narre B-NP B-NP
+Warren I-NP I-NP
+south I-NP I-NP
+, O I-NP
+the O I-NP
+heart O I-NP
+of O I-NP
+muzzas O I-NP
+and O I-NP
+bogans O I-NP
+
+Thompsoms B-NP B-NP
+road I-NP I-NP
+, O O
+the O O
+easy O O
+way O O
+to O O
+get O O
+to O B-NP
+cranny B-NP I-NP
+doing O O
+100 O O
+
+Twisty B-NP B-NP
+roads I-NP I-NP
+through B-NP O
+harkaway I-NP O
+to O O
+get O O
+to O O
+emerald B-NP B-NP
+bakery O I-NP
+, O O
+very O O
+slow O O
+route O O
+tho O O
+
+Good O O
+fishing O O
+spot O O
+for O O
+snapper O O
+
+Take O B-NP
+arthurs B-NP I-NP
+seat I-NP I-NP
+road I-NP I-NP
+to O O
+get O O
+up O O
+there O O
+, O O
+it O O
+\ O O
+' O O
+s O O
+crazy O O
+tight O O
+but O O
+lots O O
+of O O
+fun O O
+
+South B-NP B-NP
+gippy I-NP I-NP
+highway I-NP I-NP
+out O I-NP
+of B-NP I-NP
+town I-NP I-NP
+
+St B-NP B-NP
+. I-NP I-NP
+Kilda I-NP I-NP
+road I-NP I-NP
+going O O
+over O O
+that O O
+river B-NP O
+with O O
+the O O
+small O O
+old O O
+as B-NP O
+bridge I-NP O
+
+Diner B-NP B-NP
+in B-NP B-NP
+parahn I-NP I-NP
+which O O
+has O O
+really O O
+nice O O
+american O O
+food O O
+, O O
+easy O O
+to O O
+get O O
+to O O
+from O B-NP
+st B-NP I-NP
+. I-NP O
+kilda I-NP O
+but O O
+its O O
+hard O O
+from O O
+S O O
+. O O
+E O O
+suburbs B-NP O
+
+Cricket B-NP O
+ground I-NP O
+right O O
+off B-NP B-NP
+east I-NP I-NP
+st I-NP I-NP
+
+Yarra B-NP B-NP
+BVD I-NP I-NP
+exit B-NP O
+is O O
+the O O
+best O O
+way O O
+to O O
+get O O
+to B-NP B-NP
+richy I-NP I-NP
+
+Chisholm B-NP B-NP
+Tafe I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+library I-NP I-NP
+, O O
+just O O
+off O B-NP
+kangan B-NP I-NP
+drive I-NP I-NP
+
+At B-NP O
+a I-NP O
+little I-NP O
+cafe I-NP O
+off B-NP B-NP
+a I-NP I-NP
+side I-NP I-NP
+street I-NP I-NP
+
+Hungry B-NP B-NP
+jacks I-NP I-NP
+, O O
+right O O
+next O O
+to B-NP B-NP
+castellos I-NP I-NP
+
+Good O O
+place O O
+to O O
+cut O O
+in O B-NP
+off O I-NP
+freewy B-NP I-NP
+
+Train B-NP B-NP
+tracks I-NP I-NP
+that O O
+run O O
+forever O O
+
+at B-NP B-NP
+a I-NP I-NP
+cafe I-NP I-NP
+on B-NP B-NP
+baclava I-NP I-NP
+street I-NP I-NP
+! O O
+
+beach B-NP B-NP
+road I-NP I-NP
+which O O
+goes O O
+for O O
+ages O O
+. O O
+
+Hawthorn B-NP B-NP
+right O O
+next O O
+to B-NP B-NP
+the I-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+from B-NP O
+that I-NP O
+little I-NP B-NP
+side I-NP I-NP
+street I-NP I-NP
+. O O
+
+Malvern B-NP B-NP
+golf I-NP I-NP
+course I-NP I-NP
+- O O
+18 O O
+holes O O
+, O O
+one O O
+of O O
+best O O
+in B-NP O
+melb I-NP O
+! O O
+
+burwood B-NP B-NP
+highway I-NP I-NP
+jam O I-NP
+
+bar B-NP O
+down O B-NP
+a B-NP I-NP
+little I-NP I-NP
+alley I-NP I-NP
+
+the B-NP B-NP
+arches I-NP I-NP
+around B-NP O
+this I-NP O
+huge I-NP B-NP
+street I-NP I-NP
+heading O O
+towards B-NP B-NP
+the I-NP I-NP
+fish I-NP I-NP
+and I-NP I-NP
+chip I-NP I-NP
+shop I-NP I-NP
+is O O
+a O B-NP
+joke O I-NP
+. O O
+
+Tynong B-NP B-NP
+pub B-NP I-NP
+
+MCG B-NP B-NP
+little B-NP I-NP
+trail I-NP I-NP
+
+Canterbury B-NP B-NP
+rd I-NP I-NP
+right O O
+near B-NP B-NP
+the I-NP I-NP
+711 I-NP I-NP
+store I-NP I-NP
+
+monash B-NP B-NP
+freeway I-NP I-NP
+stuck O I-NP
+in O O
+the O O
+80 B-NP O
+zone I-NP O
+at O B-NP
+10 O I-NP
+pm O I-NP
+
+Vert B-NP B-NP
+ave I-NP I-NP
+is O O
+the O O
+easiest O O
+way O O
+to B-NP B-NP
+the I-NP I-NP
+park I-NP I-NP
+! O O
+
+Driving O O
+down B-NP O
+earnest I-NP O
+wanky I-NP O
+the O O
+long O O
+way O O
+to O O
+reach O B-NP
+the B-NP I-NP
+freeway I-NP I-NP
+
+Dandenong B-NP B-NP
+chisholm B-NP I-NP
+campus I-NP I-NP
+off O B-NP
+busy O I-NP
+stud B-NP I-NP
+road I-NP I-NP
+
+corner B-NP B-NP
+of I-NP I-NP
+burwood I-NP I-NP
+highway I-NP I-NP
+, I-NP O
+little I-NP O
+cafe I-NP O
+opposite B-NP B-NP
+busy I-NP I-NP
+street I-NP I-NP
+
+Albert B-NP B-NP
+park I-NP I-NP
+side B-NP I-NP
+track I-NP I-NP
+which O O
+wraps O O
+around B-NP B-NP
+the I-NP I-NP
+track I-NP I-NP
+
+Narre B-NP B-NP
+north I-NP I-NP
+road I-NP I-NP
+about O O
+to O O
+give O O
+blood O O
+
+Berwick B-NP B-NP
+car B-NP I-NP
+wash I-NP I-NP
+which O O
+is O O
+on O O
+the O O
+edge O O
+of B-NP B-NP
+the I-NP I-NP
+street I-NP I-NP
+
+Suzuki B-NP B-NP
+auto I-NP I-NP
+centre I-NP I-NP
+where O O
+they O O
+sell O O
+crap O O
+cars O O
+on B-NP B-NP
+Narre I-NP I-NP
+cranny I-NP I-NP
+road I-NP I-NP
+
+Little B-NP B-NP
+old I-NP I-NP
+taco I-NP I-NP
+bill I-NP I-NP
+for O O
+some O O
+tequila O O
+
+Barry B-NP B-NP
+burke I-NP I-NP
+holden I-NP I-NP
+
+Repco B-NP B-NP
+auto I-NP I-NP
+centre I-NP I-NP
+
+Holm B-NP B-NP
+park I-NP I-NP
+road I-NP I-NP
+drag O I-NP
+steip O I-NP
+
+Easy O O
+way O O
+to O O
+dandenong B-NP B-NP
+
+At B-NP B-NP
+the I-NP I-NP
+local I-NP I-NP
+behind B-NP B-NP
+the I-NP I-NP
+big I-NP I-NP
+bin I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+cellar I-NP I-NP
+
+On O O
+the O O
+way O O
+home O B-NP
+, O O
+at B-NP B-NP
+La I-NP I-NP
+Trobe I-NP I-NP
+Street I-NP I-NP
+, O O
+on B-NP B-NP
+the I-NP I-NP
+55 I-NP I-NP
+
+Wild B-NP O
+duck I-NP O
+way I-NP O
+
+Flinder B-NP B-NP
+Street I-NP I-NP
+station I-NP I-NP
+
+Unit O B-NP
+in O B-NP
+Lusty O I-NP
+St O I-NP
+, O I-NP
+Wolli O I-NP
+Creek O I-NP
+. O O
+
+I O O
+am O O
+in B-NP B-NP
+a I-NP I-NP
+school I-NP I-NP
+. O O
+
+I O O
+am O O
+a O B-NP
+my B-NP I-NP
+house I-NP I-NP
+. O O
+
+Burwood B-NP B-NP
+highway I-NP I-NP
+through B-NP B-NP
+furntree I-NP I-NP
+gully I-NP I-NP
+, O O
+easy O O
+way O O
+through B-NP B-NP
+emerald I-NP I-NP
+
+I O O
+am O O
+at B-NP B-NP
+my I-NP I-NP
+house I-NP I-NP
+. O O
+
+seaford B-NP B-NP
+
+Cricket B-NP B-NP
+park I-NP I-NP
+
+Birregurra B-NP B-NP
+
+I O O
+am O O
+at O B-NP
+house O I-NP
+inspection O B-NP
+
+There O O
+were O O
+some O O
+events O O
+on B-NP B-NP
+the I-NP I-NP
+street I-NP I-NP
+in O O
+the O O
+morning O O
+. O O
+
+Linder B-NP B-NP
+bakery I-NP I-NP
+and O I-NP
+the O I-NP
+fish B-NP I-NP
+and I-NP I-NP
+chip I-NP I-NP
+shop I-NP I-NP
+
+Local B-NP B-NP
+community I-NP I-NP
+centre I-NP I-NP
+
+Black B-NP B-NP
+round I-NP I-NP
+about I-NP O
+where O O
+heaps O O
+of O O
+people O O
+are O O
+killed O O
+
+Linself O B-NP
+bend O I-NP
+in O O
+toad O O
+been O O
+there O O
+for O O
+a O O
+while O O
+
+Sweeny B-NP B-NP
+cricket B-NP I-NP
+and I-NP I-NP
+footy I-NP I-NP
+grounds I-NP I-NP
+
+Casey B-NP B-NP
+hospital I-NP I-NP
+on B-NP B-NP
+kangan I-NP I-NP
+drive I-NP I-NP
+
+HP O B-NP
+shopping B-NP I-NP
+precinct I-NP I-NP
+
+Lynbrook B-NP B-NP
+maccas B-NP I-NP
+the O O
+only O O
+one O O
+in B-NP B-NP
+the I-NP I-NP
+atea I-NP I-NP
+
+Cranny B-NP B-NP
+golf I-NP I-NP
+club I-NP I-NP
+
+Dandy B-NP B-NP
+valley I-NP I-NP
+where O O
+the O O
+slums O O
+live O O
+
+Off O B-NP
+tinks O I-NP
+
+Patterson B-NP B-NP
+river I-NP I-NP
+to B-NP B-NP
+bay I-NP I-NP
+
+Skye O O
+is O O
+the O O
+limit O O
+lol O O
+this O O
+place O O
+runs O O
+through B-NP B-NP
+paky I-NP I-NP
+
+Phillip B-NP B-NP
+island I-NP I-NP
+race B-NP B-NP
+track I-NP I-NP
+
+Osmington B-NP B-NP
+circle I-NP I-NP
+
+Mordiallic B-NP B-NP
+yacht I-NP I-NP
+club I-NP I-NP
+
+The B-NP B-NP
+new I-NP I-NP
+bypass I-NP I-NP
+where O O
+maccas B-NP O
+and I-NP O
+kfc I-NP O
+have O O
+been O B-NP
+built O I-NP
+
+Hillcrest B-NP B-NP
+Christian I-NP I-NP
+college I-NP I-NP
+
+New O B-NP
+Casey B-NP I-NP
+fields I-NP I-NP
+massive B-NP I-NP
+bike I-NP B-NP
+project I-NP I-NP
+
+Royal B-NP B-NP
+gardens I-NP I-NP
+are O O
+remarkable O O
+when O O
+walking O O
+through O O
+them O O
+
+Bay B-NP B-NP
+of I-NP I-NP
+p I-NP I-NP
+. I-NP I-NP
+i I-NP I-NP
+
+If O O
+you O O
+go O O
+right O O
+at O O
+end O O
+of B-NP O
+the I-NP O
+street I-NP O
+you O O
+will O O
+get O O
+a B-NP B-NP
+cafe I-NP I-NP
+
+South B-NP B-NP
+gippy I-NP I-NP
+highway I-NP I-NP
+reach O I-NP
+Its O I-NP
+end O B-NP
+
+Brighton B-NP B-NP
+square B-NP I-NP
+full O I-NP
+if O O
+cages O O
+and O O
+bars O O
+
+Nude B-NP O
+beach I-NP B-NP
+
+Centre O B-NP
+of B-NP I-NP
+geelong I-NP I-NP
+at B-NP B-NP
+the I-NP I-NP
+local I-NP I-NP
+pub I-NP I-NP
+
+Foy B-NP O
+av I-NP O
+to O O
+beach B-NP B-NP
+
+Now O O
+at B-NP B-NP
+the I-NP I-NP
+park I-NP I-NP
+
+Easing O O
+traffic O O
+while O O
+heading O O
+to O O
+rowville B-NP B-NP
+
+At B-NP B-NP
+my I-NP I-NP
+sister I-NP I-NP
+house I-NP I-NP
+wig O O
+her O O
+new O O
+baby O O
+on B-NP B-NP
+crabny I-NP I-NP
+
+Bhp B-NP O
+billion I-NP B-NP
+steel I-NP I-NP
+work I-NP I-NP
+area I-NP I-NP
+
+Portsea B-NP B-NP
+, O O
+right O O
+before B-NP O
+the I-NP O
+heads I-NP O
+
+Following O O
+a O O
+dog O O
+around B-NP B-NP
+the I-NP I-NP
+park I-NP I-NP
+late O O
+at O O
+night O O
+in B-NP B-NP
+the I-NP I-NP
+afl I-NP I-NP
+oval I-NP I-NP
+
+Berwick B-NP B-NP
+highschool B-NP B-NP
+right O I-NP
+near B-NP B-NP
+Edwin I-NP I-NP
+flack I-NP I-NP
+
+Car O B-NP
+crash O I-NP
+in O O
+this O O
+area O O
+killing O O
+one O O
+person O O
+off B-NP B-NP
+Tom I-NP I-NP
+st I-NP I-NP
+
+Liquer B-NP B-NP
+land I-NP I-NP
+near O B-NP
+cokes O I-NP
+biggest O I-NP
+in B-NP B-NP
+vic I-NP I-NP
+
+Tuna O B-NP
+golf B-NP B-NP
+course I-NP I-NP
+6 B-NP O
+th I-NP O
+hole B-NP O
+
+Wheelers B-NP B-NP
+night B-NP I-NP
+club I-NP I-NP
+for O O
+muzzas O O
+
+Where O O
+we O O
+get O O
+our O O
+water O O
+from O O
+: O O
+melb B-NP B-NP
+water B-NP I-NP
+plant I-NP I-NP
+near B-NP B-NP
+dande I-NP I-NP
+
+Po O O
+box O O
+at B-NP B-NP
+Casey I-NP I-NP
+central I-NP I-NP
+
+Carlton B-NP B-NP
+crew O I-NP
+hideout O I-NP
+
+Luna B-NP B-NP
+park I-NP I-NP
+on B-NP B-NP
+the I-NP I-NP
+beach I-NP I-NP
+is O O
+the O O
+best O O
+in O B-NP
+summer O I-NP
+
+Es B-NP O
+cafe I-NP O
+
+Hallam B-NP B-NP
+train I-NP I-NP
+station I-NP I-NP
+which O O
+is O O
+opposite O O
+from B-NP B-NP
+sexy I-NP I-NP
+land I-NP I-NP
+
+Monbulk B-NP B-NP
+road I-NP I-NP
+to O O
+emerald B-NP B-NP
+bakery B-NP I-NP
+Woot O O
+it O O
+\ O O
+' O O
+s O O
+the O B-NP
+best O I-NP
+bakery O I-NP
+in B-NP B-NP
+melbourne I-NP I-NP
+
+Pound B-NP B-NP
+road I-NP I-NP
+to B-NP B-NP
+the I-NP I-NP
+local I-NP I-NP
+seven I-NP I-NP
+eleven I-NP I-NP
+
+Sandwhich B-NP B-NP
+bar I-NP I-NP
+in B-NP B-NP
+Narre I-NP I-NP
+main O I-NP
+
+Ray B-NP B-NP
+bastin I-NP I-NP
+
+Crap O B-NP
+hole O I-NP
+doverton B-NP I-NP
+
+Royal B-NP B-NP
+Hosipital I-NP I-NP
+
+Working O O
+for B-NP O
+Coles I-NP O
+at O B-NP
+their O I-NP
+centre O I-NP
+
+Huge B-NP B-NP
+reserve I-NP I-NP
+
+Mistys B-NP B-NP
+diner I-NP I-NP
+on B-NP B-NP
+high I-NP I-NP
+street I-NP I-NP
+
+i O O
+am O O
+at B-NP O
+kids I-NP O
+cafe I-NP O
+. O O
+
+nice B-NP B-NP
+winery I-NP I-NP
+
+i O O
+am O O
+jogging O O
+at B-NP B-NP
+hillside I-NP I-NP
+park B-NP I-NP
+. O O
+
+tram B-NP B-NP
+19 I-NP I-NP
+station B-NP I-NP
+. O O
+busy B-NP O
+crossing I-NP O
+. O O
+
+7 B-NP B-NP
+- I-NP I-NP
+11 I-NP I-NP
+store I-NP I-NP
+left O I-NP
+hand O I-NP
+royal B-NP I-NP
+womens I-NP I-NP
+hospital I-NP I-NP
+right O O
+hand O O
+
+this B-NP B-NP
+building I-NP I-NP
+is O O
+an O O
+exam O O
+location O O
+. O O
+
+i O O
+am O O
+at B-NP B-NP
+the I-NP I-NP
+melbourne I-NP I-NP
+museum I-NP I-NP
+in B-NP B-NP
+carlton I-NP I-NP
+
+i O O
+am O O
+at B-NP B-NP
+the I-NP I-NP
+old I-NP I-NP
+arts I-NP I-NP
+building I-NP I-NP
+at B-NP B-NP
+the I-NP I-NP
+university I-NP I-NP
+of I-NP I-NP
+melbourne I-NP I-NP
+
+victoria B-NP B-NP
+markdet I-NP I-NP
+
+international B-NP B-NP
+house I-NP I-NP
+241 B-NP B-NP
+royal I-NP B-NP
+parade I-NP I-NP
+parkville B-NP B-NP
+vic B-NP B-NP
+3052 O B-NP
+australia B-NP B-NP
+
+241 B-NP B-NP
+royal B-NP B-NP
+parade I-NP I-NP
+parkville B-NP B-NP
+vic B-NP B-NP
+3052 O B-NP
+
+in O O
+front O O
+of B-NP O
+aldi I-NP O
+supermarket I-NP O
+in B-NP B-NP
+franklin I-NP I-NP
+st I-NP I-NP
+. O O
+
+melbourne B-NP B-NP
+central I-NP I-NP
+station I-NP I-NP
+
+in O O
+front O O
+of B-NP B-NP
+melbourne I-NP I-NP
+museum I-NP I-NP
+. O O
+just O O
+2 O O
+minutes O O
+far O O
+from B-NP B-NP
+car I-NP I-NP
+parking I-NP I-NP
+. O O
+
+in O B-NP
+frint O I-NP
+of B-NP I-NP
+chadstone I-NP I-NP
+shopping I-NP I-NP
+centre I-NP I-NP
+in B-NP B-NP
+princess I-NP I-NP
+highway I-NP I-NP
+. O O
+
+on B-NP B-NP
+the I-NP I-NP
+bolts I-NP I-NP
+bridge I-NP I-NP
+
+at B-NP B-NP
+the I-NP I-NP
+racecourse I-NP I-NP
+
+about O O
+to O O
+get O O
+on B-NP O
+hume I-NP O
+to B-NP O
+sydney I-NP O
+
+collins B-NP B-NP
+street I-NP I-NP
+
+kilmore B-NP B-NP
+hotel B-NP I-NP
+in B-NP B-NP
+small I-NP I-NP
+ass I-NP I-NP
+town I-NP I-NP
+
+broadford B-NP B-NP
+state I-NP I-NP
+motorcycle I-NP I-NP
+complex I-NP I-NP
+
+wallan B-NP B-NP
+suburb B-NP I-NP
+north O I-NP
+of B-NP I-NP
+melbourne I-NP I-NP
+which O O
+is O O
+in O O
+the O O
+middle O O
+of O O
+nothing O O
+
+at O B-NP
+the O I-NP
+local O I-NP
+in B-NP B-NP
+south I-NP I-NP
+morang I-NP I-NP
+pub O B-NP
+
+on O O
+the O O
+side O O
+of B-NP B-NP
+this I-NP I-NP
+road I-NP I-NP
+is O O
+speed O B-NP
+cameras O I-NP
+
+no O B-NP
+mans O I-NP
+land B-NP I-NP
+
+preston B-NP B-NP
+motorcycle I-NP I-NP
+club I-NP I-NP
+
+the B-NP B-NP
+brighton I-NP I-NP
+cemetery I-NP I-NP
+at O O
+night O O
+ooohhh O O
+
+broady B-NP B-NP
+road B-NP I-NP
+track I-NP B-NP
+
+close O O
+to B-NP O
+south I-NP B-NP
+yarra I-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+
+back O O
+to B-NP O
+city I-NP B-NP
+center I-NP I-NP
+
+near B-NP B-NP
+a I-NP I-NP
+busy I-NP I-NP
+crossing I-NP I-NP
+and I-NP I-NP
+myer I-NP I-NP
+store I-NP I-NP
+
+walk O O
+along O B-NP
+the O I-NP
+route O I-NP
+of B-NP I-NP
+tram I-NP I-NP
+19 I-NP I-NP
+
+swanston B-NP B-NP
+street I-NP I-NP
+
+i O O
+am O O
+at B-NP B-NP
+home I-NP I-NP
+. O O
+
+flemington B-NP B-NP
+
+yarra B-NP B-NP
+river I-NP I-NP
+
+i O O
+\ O O
+' O O
+m O O
+at B-NP B-NP
+the I-NP I-NP
+bp I-NP I-NP
+which O O
+is O O
+right O O
+next O O
+to B-NP B-NP
+hungry I-NP I-NP
+jacks I-NP I-NP
+and O O
+is O O
+also O O
+near B-NP B-NP
+the I-NP I-NP
+sofas I-NP I-NP
+restaurant I-NP I-NP
+
+sitting O O
+by B-NP B-NP
+the I-NP I-NP
+yarra I-NP I-NP
+on B-NP B-NP
+southbank I-NP I-NP
+in O O
+front O O
+of B-NP B-NP
+crown I-NP I-NP
+towers I-NP I-NP
+on O B-NP
+the O I-NP
+macbook O I-NP
+
+at O B-NP
+the O I-NP
+doncaster B-NP I-NP
+shopping B-NP I-NP
+centre I-NP I-NP
+parking B-NP I-NP
+spot I-NP I-NP
+
+sitting O O
+on B-NP B-NP
+the I-NP I-NP
+princess I-NP I-NP
+pier I-NP I-NP
+eating O O
+a O O
+mushroom O O
+pie O O
+! O O
+
+travelling O O
+down O B-NP
+the O I-NP
+napean B-NP I-NP
+highway I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+car I-NP I-NP
+
+at O B-NP
+the O I-NP
+princes B-NP I-NP
+park I-NP I-NP
+in B-NP B-NP
+coalfield I-NP I-NP
+park I-NP I-NP
+on O O
+this O O
+beautiful O O
+summer O O
+day O O
+
+yarra B-NP B-NP
+river I-NP I-NP
+sitting O O
+on B-NP B-NP
+the I-NP I-NP
+docks I-NP I-NP
+
+high B-NP B-NP
+street I-NP I-NP
+heading O O
+to B-NP B-NP
+mistys I-NP I-NP
+
+on B-NP B-NP
+beach I-NP I-NP
+road B-NP I-NP
+near B-NP B-NP
+st I-NP I-NP
+. I-NP I-NP
+kilda I-NP I-NP
+soakin O I-NP
+in O O
+the O O
+sun O O
+
+at B-NP O
+the I-NP O
+msg I-NP O
+doing O O
+a O O
+tour O O
+today O O
+which O O
+should O O
+be O O
+good O O
+
+at B-NP B-NP
+the I-NP I-NP
+sandown I-NP I-NP
+dog I-NP B-NP
+track I-NP I-NP
+for O O
+the O O
+day O O
+watching O O
+the O O
+dogs O O
+race O O
+. O O
+
+at B-NP B-NP
+landcox I-NP I-NP
+park I-NP I-NP
+with O O
+the O O
+dog O O
+sittting O O
+in O O
+the O O
+sun O O
+, O O
+its O O
+just O O
+off B-NP B-NP
+the I-NP I-NP
+main I-NP I-NP
+road I-NP I-NP
+which O O
+is O O
+pretty O O
+good O O
+. O O
+
+springvale B-NP B-NP
+cemetary I-NP I-NP
+rip O I-NP
+
+all B-NP B-NP
+nations I-NP I-NP
+park I-NP I-NP
+for O O
+the O O
+day O O
+, O O
+just O O
+off O B-NP
+the B-NP I-NP
+main I-NP I-NP
+road I-NP I-NP
+
+in B-NP B-NP
+northwest I-NP I-NP
+hospital I-NP I-NP
+after O O
+hurting O O
+my O O
+leg O O
+racing O O
+on O O
+the O O
+weekend O O
+at B-NP B-NP
+broadford I-NP I-NP
+
+heading O O
+down O O
+wellington B-NP B-NP
+road I-NP I-NP
+to O B-NP
+stud B-NP I-NP
+road I-NP I-NP
+so O O
+i O O
+can O O
+get O O
+to B-NP O
+rowville I-NP O
+to O O
+pick O O
+up O O
+my B-NP O
+computer I-NP O
+
+corner B-NP O
+of I-NP O
+wood I-NP O
+rd I-NP O
+round B-NP O
+about I-NP O
+counting O O
+cars O O
+
+spirit B-NP O
+of I-NP O
+tassie I-NP O
+which O O
+leaves O O
+at O O
+2 O O
+pm O O
+woot O O
+! O O
+
+just O O
+caught O O
+the B-NP O
+train I-NP O
+to O O
+flemington B-NP B-NP
+racecourse I-NP I-NP
+
+at B-NP B-NP
+st I-NP I-NP
+. I-NP O
+pauls I-NP O
+having O O
+a O O
+cold O O
+drink O O
+and O O
+praying O O
+to O O
+jesus O O
+
+the B-NP B-NP
+melbourne I-NP I-NP
+general I-NP I-NP
+doing O O
+signage O O
+for B-NP B-NP
+the I-NP I-NP
+cemetary I-NP I-NP
+. O O
+
+@ O O
+the O O
+vic B-NP B-NP
+road I-NP I-NP
+reserve B-NP I-NP
+
+just O O
+finished O B-NP
+the B-NP I-NP
+melbourne I-NP I-NP
+, O O
+now O O
+here O O
+doing O O
+more O O
+signage O O
+
+@ B-NP B-NP
+the I-NP I-NP
+box I-NP I-NP
+hill I-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+
+@ B-NP B-NP
+the I-NP I-NP
+rossdale I-NP I-NP
+golf I-NP I-NP
+club I-NP I-NP
+doing O O
+18 B-NP B-NP
+holes B-NP B-NP
+
+lost O O
+in B-NP B-NP
+some I-NP I-NP
+park I-NP I-NP
+in O O
+the O O
+middle O O
+of O O
+nowhere O O
+down O B-NP
+a B-NP I-NP
+little I-NP I-NP
+skinny I-NP I-NP
+road I-NP I-NP
+
+at B-NP B-NP
+the I-NP I-NP
+melbourne I-NP I-NP
+museum I-NP I-NP
+trying O O
+to O O
+look O O
+at O O
+all O O
+the O O
+boring O O
+stuff O O
+inside O O
+
+at B-NP B-NP
+a I-NP I-NP
+little I-NP I-NP
+cafe I-NP I-NP
+
+walking O O
+to B-NP B-NP
+john I-NP I-NP
+cain I-NP I-NP
+memorial I-NP I-NP
+park I-NP I-NP
+
+@ B-NP B-NP
+the I-NP I-NP
+shore I-NP I-NP
+reserve I-NP I-NP
+with O O
+my O O
+little O O
+dog O O
+
+getting O O
+the O O
+ducati O O
+ready O O
+in B-NP B-NP
+osmington I-NP I-NP
+circle I-NP I-NP
+
+fleetwood B-NP B-NP
+drive I-NP I-NP
+heading O O
+home O B-NP
+
+i O O
+\ O O
+' O O
+m O O
+speeding O O
+down O B-NP
+glasscocks B-NP I-NP
+, O O
+gonna O O
+get O O
+a O O
+boost O O
+; O O
+) O O
+
+in B-NP B-NP
+the I-NP I-NP
+car I-NP I-NP
+on O B-NP
+the O I-NP
+road O I-NP
+heading O O
+to O B-NP
+boost B-NP I-NP
+juice I-NP I-NP
+
+crossing O O
+road B-NP O
+to O O
+get O O
+to B-NP B-NP
+jbhifi I-NP I-NP
+
+heading O O
+up B-NP O
+narre I-NP B-NP
+north I-NP I-NP
+road I-NP I-NP
+to B-NP O
+the I-NP O
+hall I-NP O
+to O O
+give O O
+blood O O
+
+at O B-NP
+te O I-NP
+reserve B-NP I-NP
+kicking O O
+a O O
+footy O O
+: O O
+) O O
+
+stud B-NP B-NP
+park I-NP I-NP
+reserve I-NP I-NP
+playing O O
+with O O
+my O O
+little O O
+doggy O O
+
+cruisan O O
+in B-NP B-NP
+springvale I-NP I-NP
+
+on B-NP B-NP
+frawley I-NP I-NP
+road I-NP I-NP
+trying O O
+to O O
+get O O
+home B-NP B-NP
+quickly O I-NP
+
+yaya B-NP O
+blvd I-NP O
+exit O O
+is O O
+like O O
+the O O
+easiest O O
+way O O
+to O B-NP
+richmond B-NP I-NP
+which O O
+people O O
+fail O O
+to O O
+understand O O
+and O O
+thats O O
+where O O
+i O O
+am O O
+
+up O O
+at B-NP O
+eildon I-NP O
+this O O
+weekend O O
+on B-NP O
+the I-NP O
+drag I-NP O
+boat I-NP O
+
+at B-NP B-NP
+work I-NP I-NP
+at B-NP B-NP
+the I-NP I-NP
+defence I-NP I-NP
+department I-NP I-NP
+working O O
+on O O
+weapons O O
+
+walsh B-NP B-NP
+street I-NP I-NP
+subway B-NP I-NP
+for O O
+the O O
+win O O
+! O O
+!! O O
+
+up O O
+in B-NP B-NP
+taylors I-NP I-NP
+lakes I-NP I-NP
+for O O
+the O O
+day O O
+
+dropping O O
+a O O
+parcell O O
+off O O
+to B-NP O
+linfox I-NP B-NP
+company I-NP I-NP
+
+walking O O
+down B-NP B-NP
+collins I-NP I-NP
+street I-NP I-NP
+, O O
+trying O O
+to O O
+find O O
+a O O
+boost B-NP O
+cos O O
+im O O
+thirsty O O
+
+at B-NP B-NP
+the I-NP I-NP
+fruit I-NP I-NP
+and I-NP I-NP
+veg I-NP I-NP
+market I-NP I-NP
+
+in B-NP O
+gms I-NP O
+holding O O
+ground O O
+for O O
+all O O
+there O O
+cars O O
+just O O
+having O O
+a O O
+tour O O
+vip O O
+style O O
+
+moving O O
+house O O
+to B-NP B-NP
+little I-NP I-NP
+page I-NP I-NP
+street I-NP I-NP
+this O O
+summer O O
+to O O
+soak O O
+in B-NP B-NP
+st I-NP I-NP
+. I-NP O
+kildas I-NP B-NP
+beaches B-NP I-NP
+
+sitting O O
+by O B-NP
+the O I-NP
+beach B-NP I-NP
+opposite O B-NP
+beach B-NP I-NP
+street I-NP I-NP
+. O O
+
+up O O
+on B-NP O
+the I-NP O
+top I-NP O
+of I-NP B-NP
+the I-NP I-NP
+skydeck I-NP I-NP
+which O O
+is O O
+amazing O O
+! O O
+and O O
+only O O
+$ O O
+11 O O
+for O O
+concession O O
+
+old B-NP B-NP
+arts I-NP I-NP
+building I-NP I-NP
+, I-NP I-NP
+university I-NP I-NP
+of I-NP I-NP
+melbourne I-NP I-NP
+
+oon B-NP B-NP
+the I-NP I-NP
+train I-NP I-NP
+, O O
+duno O O
+if O O
+this O O
+location O O
+will O O
+work O O
+just O O
+going O O
+past B-NP B-NP
+malvern I-NP I-NP
+inbound O I-NP
+. O O
+
+toorak B-NP B-NP
+road I-NP I-NP
+at B-NP B-NP
+my I-NP I-NP
+aunites I-NP I-NP
+house I-NP I-NP
+
+at B-NP B-NP
+caufield I-NP I-NP
+racecourse I-NP I-NP
+helping O O
+the O O
+catering O O
+company O O
+
+today O O
+im O O
+at B-NP B-NP
+the I-NP I-NP
+library I-NP I-NP
+of I-NP I-NP
+melbourne I-NP I-NP
+checking O O
+out O O
+the O O
+old O O
+books O O
+
+jogging O O
+around O B-NP
+albert B-NP I-NP
+park I-NP I-NP
+lake I-NP I-NP
+5 O I-NP
+km O I-NP
+
+at B-NP B-NP
+moorabin I-NP I-NP
+airport I-NP I-NP
+about O O
+to O O
+do O O
+my O O
+first O O
+flying O O
+lessons O O
+
+watching O O
+letters O O
+to O O
+juliet O O
+: O O
+) O O
+
+relaxinggggggg O O
+. O O
+
+loving O O
+life O O
+watching O O
+tv O O
+. O O
+
+in B-NP O
+my I-NP O
+bed I-NP O
+: O O
+) O O
+
+i O O
+\ O O
+' O O
+m O O
+in O B-NP
+loveeeee O I-NP
+
+beating B-NP O
+heart I-NP O
+of I-NP B-NP
+melbourne I-NP I-NP
+
+hitting O O
+up O O
+the B-NP O
+albert I-NP B-NP
+park I-NP I-NP
+driving I-NP I-NP
+range I-NP I-NP
+with O O
+my O O
+new O O
+callaway O O
+
+walking O O
+down B-NP B-NP
+the I-NP I-NP
+streets I-NP I-NP
+of I-NP I-NP
+mildura I-NP I-NP
+shops B-NP I-NP
+
+i O O
+\ O O
+' O O
+m O O
+at B-NP B-NP
+nissan I-NP I-NP
+auto I-NP I-NP
+main I-NP I-NP
+centre I-NP I-NP
+in B-NP B-NP
+melbourne I-NP I-NP
+just O O
+working O O
+
+just O O
+off B-NP O
+the I-NP B-NP
+burwood I-NP I-NP
+highway I-NP I-NP
+at B-NP B-NP
+mcdonalds I-NP I-NP
+
+narre B-NP B-NP
+north I-NP I-NP
+road I-NP I-NP
+where O O
+there O O
+is O O
+a O O
+crash O O
+blocking O O
+me O O
+from O O
+getting O O
+on B-NP B-NP
+freeway I-NP I-NP
+xd O I-NP
+
+walking O O
+down B-NP B-NP
+bailey I-NP I-NP
+street I-NP I-NP
+about O O
+to O O
+hop O O
+on B-NP B-NP
+blackburn I-NP I-NP
+road I-NP I-NP
+and O O
+head O O
+inbound O O
+to B-NP B-NP
+the I-NP I-NP
+beach I-NP I-NP
+
+down O O
+in O B-NP
+seafood O I-NP
+about O O
+to O O
+go O O
+for O O
+a O O
+dip O O
+in B-NP B-NP
+the I-NP I-NP
+bay I-NP I-NP
+
+approaching O B-NP
+murambeena B-NP I-NP
+station I-NP I-NP
+, O O
+longest O O
+ride O O
+ever O O
+through O O
+the O O
+day O O
+about O O
+to O O
+walk O O
+down O O
+to B-NP B-NP
+the I-NP I-NP
+mainstreet I-NP I-NP
+
+using O O
+the O O
+new O O
+southern B-NP O
+dandy I-NP B-NP
+bypass B-NP I-NP
+which O O
+actually O O
+saves O O
+alot O O
+of O O
+time O O
+! O O
+
+at B-NP B-NP
+the I-NP I-NP
+elsternwick I-NP I-NP
+station I-NP I-NP
+about O O
+to O O
+head O O
+to O O
+st B-NP B-NP
+. I-NP I-NP
+kilda I-NP I-NP
+. O O
+
+i O O
+am O O
+walking O O
+around B-NP B-NP
+the I-NP I-NP
+botanical I-NP I-NP
+gardens I-NP I-NP
+with O O
+my O O
+nephew O O
+
+at B-NP B-NP
+the I-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+about O O
+to O O
+go O O
+to B-NP O
+the I-NP O
+malvern I-NP B-NP
+golf I-NP I-NP
+club I-NP I-NP
+for O O
+some O O
+drinks O O
+
+out O O
+in B-NP O
+the I-NP O
+bay I-NP O
+fishing O O
+off O B-NP
+the B-NP I-NP
+port I-NP I-NP
+of I-NP I-NP
+melbourne I-NP I-NP
+but O O
+nothing O O
+is O O
+happenig O O
+
+@ O B-NP
+the O I-NP
+westmeadows B-NP I-NP
+shopping B-NP I-NP
+centre I-NP I-NP
+
+walking O O
+around O O
+and O O
+i O O
+\ O O
+' O O
+m O O
+not O O
+sure O O
+where O O
+i O O
+am O O
+sorry O O
+
+@ O B-NP
+the O I-NP
+beautiful O I-NP
+fitzroy B-NP I-NP
+gardens I-NP I-NP
+laying O O
+in O O
+the O O
+sun O O
+in B-NP B-NP
+melbourne I-NP I-NP
+
+@ B-NP B-NP
+the I-NP I-NP
+royal I-NP I-NP
+park I-NP I-NP
+opposite O B-NP
+the O I-NP
+princess B-NP I-NP
+highway I-NP I-NP
+
+queens B-NP B-NP
+park I-NP I-NP
+lake I-NP I-NP
+sitting O O
+watching O O
+the O O
+ducks O O
+
+about O O
+to O O
+get O O
+off O O
+at O B-NP
+spencer B-NP I-NP
+street I-NP I-NP
+to O O
+go O O
+down O O
+to B-NP B-NP
+collins I-NP I-NP
+street I-NP I-NP
+
+just O O
+going O O
+down O B-NP
+braeside B-NP I-NP
+dandy I-NP I-NP
+road I-NP I-NP
+opposite B-NP O
+pilkington I-NP B-NP
+glass I-NP I-NP
+
+spring B-NP B-NP
+street I-NP I-NP
+about O O
+to O O
+get O O
+my O O
+new O O
+licence O O
+for O O
+gaming O O
+
+at B-NP B-NP
+the I-NP I-NP
+sport I-NP I-NP
+complex I-NP I-NP
+doing O O
+archery O O
+
+citylink B-NP O
+heading O O
+inbound O O
+through O B-NP
+tolls O I-NP
+
+melbourne B-NP B-NP
+ligon B-NP I-NP
+street I-NP I-NP
+
+in B-NP B-NP
+the I-NP I-NP
+yarra I-NP I-NP
+river I-NP I-NP
+doing O O
+the O B-NP
+cruise O I-NP
+
+corner B-NP B-NP
+of I-NP I-NP
+park I-NP I-NP
+and I-NP I-NP
+moray I-NP I-NP
+street I-NP I-NP
+
+walking O O
+down O B-NP
+little B-NP I-NP
+bourke I-NP I-NP
+street I-NP I-NP
+
+beacy B-NP B-NP
+parade I-NP I-NP
+walking O O
+on O O
+the O O
+decking O O
+
+at B-NP B-NP
+the I-NP I-NP
+queen I-NP I-NP
+vicky I-NP I-NP
+market I-NP I-NP
+getting O O
+some O O
+fruit O O
+and O O
+veg O O
+
+i O O
+\ O O
+' O O
+m O O
+parking O O
+my B-NP O
+car I-NP O
+in O O
+front O O
+of B-NP B-NP
+the I-NP I-NP
+royal I-NP I-NP
+childrens I-NP I-NP
+as O O
+they O O
+look O O
+after O O
+it O O
+
+by B-NP O
+the I-NP O
+waterfront I-NP O
+
+in B-NP B-NP
+nobal I-NP I-NP
+park I-NP I-NP
+and O O
+i O O
+dont O O
+feel O O
+safe O O
+
+lonsdale B-NP B-NP
+street I-NP I-NP
+walking O O
+to O B-NP
+train B-NP I-NP
+station I-NP I-NP
+
+travelling O O
+on B-NP B-NP
+chandler I-NP I-NP
+road I-NP I-NP
+
+i O O
+\ O O
+' O O
+m O O
+at B-NP B-NP
+boronia I-NP I-NP
+marine I-NP I-NP
+looking O O
+for B-NP O
+a I-NP O
+boat I-NP O
+for O O
+summer O O
+
+at B-NP B-NP
+the I-NP I-NP
+old I-NP I-NP
+sandy I-NP I-NP
+yacht I-NP I-NP
+club I-NP I-NP
+having O O
+a O O
+brewksy O O
+
+i O O
+\ O O
+' O O
+m O O
+on B-NP B-NP
+the I-NP I-NP
+r I-NP I-NP
+6 I-NP I-NP
+about O O
+to O O
+go O O
+up O O
+the B-NP O
+black I-NP O
+spur I-NP O
+
+yo B-NP B-NP
+thai B-NP I-NP
+vietmanise I-NP I-NP
+restaurant I-NP I-NP
+
+playing O O
+a O O
+round O O
+at O B-NP
+the O I-NP
+beacy B-NP I-NP
+golf B-NP I-NP
+course I-NP I-NP
+
+glen B-NP B-NP
+iris I-NP I-NP
+pub B-NP I-NP
+
+i O O
+\ O O
+' O O
+m O O
+at B-NP B-NP
+my I-NP I-NP
+house I-NP I-NP
+having O O
+a O O
+barbi O O
+
+i O O
+\ O O
+' O O
+m O O
+in B-NP O
+dinky I-NP O
+village I-NP O
+picking O O
+up O O
+my O O
+parrots O O
+for B-NP O
+my I-NP O
+cars I-NP O
+
+fitzroy B-NP B-NP
+subway B-NP I-NP
+getting O O
+
+bbq O O
+in O O
+the O O
+sun O O
+
+at O B-NP
+the O I-NP
+diggers O I-NP
+near O B-NP
+the O I-NP
+floweral O I-NP
+
+victoria B-NP B-NP
+market I-NP I-NP
+
+mistys B-NP B-NP
+diner I-NP I-NP
+
+lakeside B-NP B-NP
+driven O I-NP
+near B-NP B-NP
+albert I-NP I-NP
+park I-NP I-NP
+: O O
+) O O
+
+on B-NP B-NP
+hope I-NP I-NP
+st I-NP I-NP
+near B-NP B-NP
+fawkner I-NP I-NP
+park I-NP I-NP
+
+st B-NP B-NP
+. I-NP I-NP
+kilda I-NP I-NP
+cemetary I-NP I-NP
+
+at B-NP B-NP
+batman I-NP I-NP
+park I-NP I-NP
+opposite O B-NP
+spencer B-NP I-NP
+street I-NP I-NP
+
+walking O O
+along B-NP B-NP
+the I-NP I-NP
+beach I-NP I-NP
+at O O
+night O O
+
+having O O
+a O O
+round O O
+at B-NP B-NP
+the I-NP I-NP
+yarra I-NP I-NP
+golf I-NP I-NP
+course I-NP I-NP
+exclusive O O
+to O O
+private O B-NP
+members O I-NP
+
+im O O
+just O O
+checking O O
+out O O
+of B-NP B-NP
+my I-NP I-NP
+room I-NP I-NP
+in B-NP B-NP
+crown I-NP I-NP
+plaza I-NP I-NP
+opposite B-NP O
+jeffs I-NP O
+shed I-NP O
+. O O
+
+north B-NP B-NP
+melbourne I-NP I-NP
+station I-NP I-NP
+
+footscray B-NP B-NP
+station I-NP I-NP
+, I-NP I-NP
+market I-NP I-NP
+
+watergardens B-NP B-NP
+shopping I-NP I-NP
+centre I-NP I-NP
+, I-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+
+walking O O
+down B-NP B-NP
+greeves I-NP I-NP
+street I-NP I-NP
+to O B-NP
+spring B-NP I-NP
+street I-NP I-NP
+
+adderely B-NP B-NP
+street I-NP I-NP
+in B-NP B-NP
+west I-NP I-NP
+melbourne I-NP I-NP
+
+im O O
+in B-NP B-NP
+carlton I-NP I-NP
+at B-NP B-NP
+a I-NP I-NP
+cafe I-NP I-NP
+
+@ B-NP B-NP
+the I-NP I-NP
+john I-NP I-NP
+cain I-NP I-NP
+memorial I-NP I-NP
+park I-NP I-NP
+, O O
+took O O
+ages O O
+to O O
+walk O O
+here O O
+tho O O
+
+i O O
+am O O
+in B-NP B-NP
+north I-NP I-NP
+melbourne I-NP I-NP
+trying O O
+to O O
+find O O
+a B-NP B-NP
+car I-NP I-NP
+park I-NP I-NP
+xd O I-NP
+
+optus B-NP B-NP
+oval I-NP I-NP
+watching O O
+the O O
+footy O O
+
+visiting O O
+caufield B-NP B-NP
+park I-NP I-NP
+and O O
+playing O O
+in O B-NP
+the O I-NP
+snow O I-NP
+beats O I-NP
+grusiem O I-NP
+
+kyaking O O
+in B-NP B-NP
+this I-NP I-NP
+little I-NP I-NP
+lake I-NP I-NP
+with O O
+my O O
+nephew O O
+
+103 B-NP B-NP
+hephman B-NP B-NP
+street I-NP I-NP
+
+visiting O O
+rocky B-NP O
+point I-NP O
+for O O
+the O O
+day O O
+
+spencer B-NP B-NP
+street I-NP I-NP
+railway I-NP I-NP
+
+at B-NP B-NP
+the I-NP I-NP
+church I-NP I-NP
+opposite B-NP B-NP
+the I-NP I-NP
+station I-NP I-NP
+as O O
+well O O
+as O O
+mcdonalds B-NP O
+to O O
+my O O
+right O O
+
+at B-NP B-NP
+queens I-NP I-NP
+park I-NP I-NP
+lake I-NP I-NP
+opposite B-NP B-NP
+the I-NP I-NP
+big I-NP I-NP
+tree I-NP I-NP
+in O O
+the O O
+middle O O
+and O O
+4 O O
+roads B-NP O
+around O O
+me O O
+
+yarra O B-NP
+cruise O I-NP
+in B-NP B-NP
+the I-NP I-NP
+yarra I-NP I-NP
+river I-NP I-NP
+
+in B-NP B-NP
+the I-NP I-NP
+car I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+domain I-NP I-NP
+tunnel I-NP I-NP
+
+t O O
+
+i O O
+\ O O
+' O O
+m O O
+just O O
+off B-NP O
+cutter I-NP B-NP
+st I-NP I-NP
+
+i O O
+\ O O
+' O O
+m O O
+on B-NP B-NP
+verdant I-NP I-NP
+ave I-NP I-NP
+right O O
+near O B-NP
+the O I-NP
+south B-NP I-NP
+yarra I-NP I-NP
+tennis I-NP I-NP
+club I-NP I-NP
+
+i O O
+\ O O
+' O O
+m O O
+at B-NP B-NP
+the I-NP I-NP
+kevin I-NP I-NP
+bartlett I-NP I-NP
+sporting I-NP I-NP
+and I-NP I-NP
+recreation I-NP I-NP
+complex I-NP I-NP
+in B-NP B-NP
+fairview I-NP I-NP
+park I-NP I-NP
+
+at B-NP B-NP
+nymphaea I-NP I-NP
+lake I-NP I-NP
+
+on B-NP B-NP
+the I-NP I-NP
+corner I-NP I-NP
+of I-NP I-NP
+kelba I-NP I-NP
+st I-NP I-NP
+at B-NP B-NP
+a I-NP I-NP
+friends I-NP I-NP
+house I-NP I-NP
+
+on B-NP B-NP
+thurso I-NP I-NP
+st I-NP I-NP
+about O O
+to O O
+turn O O
+into B-NP B-NP
+the I-NP I-NP
+golf I-NP I-NP
+club I-NP I-NP
+
+standing O O
+under B-NP O
+a I-NP O
+tree I-NP O
+at B-NP B-NP
+tally I-NP I-NP
+ho I-NP I-NP
+reserve I-NP I-NP
+
+h O O
+
+at B-NP B-NP
+the I-NP I-NP
+valley I-NP I-NP
+private I-NP I-NP
+hospital I-NP I-NP
+
+at B-NP O
+joseph I-NP O
+banks I-NP O
+crescent I-NP O
+across O O
+from B-NP B-NP
+joseph I-NP I-NP
+banks I-NP I-NP
+medical I-NP I-NP
+centre I-NP I-NP
+
+at O B-NP
+james B-NP I-NP
+cook I-NP I-NP
+drive I-NP I-NP
+and I-NP I-NP
+heatherton I-NP I-NP
+rd I-NP I-NP
+intersection B-NP B-NP
+
+somewhere O O
+in B-NP B-NP
+lysterfield I-NP I-NP
+lake I-NP I-NP
+park I-NP I-NP
+there O O
+is O O
+lots O O
+of B-NP B-NP
+trees I-NP I-NP
+
+on B-NP B-NP
+cunningham I-NP I-NP
+drive I-NP I-NP
+infront O O
+of B-NP O
+thomas I-NP O
+mitchell I-NP B-NP
+primary I-NP I-NP
+school I-NP I-NP
+
+g O O
+
+v O O
+
+at B-NP B-NP
+timbarra I-NP I-NP
+shops B-NP I-NP
+across O O
+from B-NP B-NP
+timbarra I-NP I-NP
+primary O I-NP
+school O I-NP
+
+yarra B-NP B-NP
+blvd I-NP I-NP
+turn B-NP I-NP
+off O O
+just O O
+next O O
+to B-NP B-NP
+the I-NP I-NP
+freeway I-NP I-NP
+where O O
+the B-NP B-NP
+road I-NP I-NP
+meets O O
+the B-NP B-NP
+yarra I-NP I-NP
+
+sweeny B-NP O
+opposite B-NP B-NP
+the I-NP I-NP
+park I-NP I-NP
+and I-NP I-NP
+freeway I-NP I-NP
+m I-NP I-NP
+1 I-NP I-NP
+
+cursing O O
+up O O
+warana B-NP B-NP
+drive I-NP I-NP
+opposite B-NP B-NP
+the I-NP I-NP
+milk I-NP I-NP
+bar I-NP I-NP
+about O O
+to O O
+go O O
+round O O
+bend B-NP O
+
+collingwood B-NP O
+infront O O
+of B-NP B-NP
+the I-NP I-NP
+old I-NP I-NP
+churce I-NP I-NP
+near B-NP B-NP
+web I-NP I-NP
+street I-NP I-NP
+. O O
+
+schotchner B-NP B-NP
+street I-NP I-NP
+near B-NP B-NP
+the I-NP I-NP
+broken I-NP I-NP
+road I-NP I-NP
+with O O
+broken O O
+drains O O
+
+i O O
+am O O
+at O B-NP
+my O I-NP
+son O I-NP
+\ O I-NP
+' O I-NP
+s O I-NP
+childcare B-NP I-NP
+centre I-NP I-NP
+. O O
+
+pitt B-NP B-NP
+street I-NP I-NP
+on B-NP O
+the I-NP O
+peer I-NP O
+opposite B-NP B-NP
+the I-NP I-NP
+boat I-NP I-NP
+yard I-NP I-NP
+
+yarra B-NP B-NP
+bend I-NP I-NP
+park I-NP I-NP
+oppposite O O
+the B-NP B-NP
+cemetary I-NP I-NP
+and I-NP I-NP
+huge I-NP I-NP
+tree I-NP I-NP
+in O B-NP
+the O I-NP
+middle O I-NP
+
+7 B-NP B-NP
+- I-NP I-NP
+11 I-NP I-NP
+, I-NP I-NP
+royal I-NP I-NP
+womens I-NP I-NP
+hospital I-NP I-NP
+
+on O B-NP
+
+at B-NP B-NP
+the I-NP I-NP
+caltex I-NP I-NP
+near B-NP B-NP
+maccas I-NP I-NP
+and I-NP I-NP
+train I-NP I-NP
+atation I-NP I-NP
+
+abecket B-NP B-NP
+road I-NP I-NP
+to B-NP B-NP
+north I-NP I-NP
+road I-NP I-NP
+opposite B-NP B-NP
+the I-NP I-NP
+wide I-NP I-NP
+road I-NP I-NP
+and I-NP I-NP
+tennis I-NP I-NP
+courts I-NP I-NP
+
+edwin B-NP B-NP
+flack I-NP I-NP
+reserve I-NP I-NP
+opposite O B-NP
+the O I-NP
+berwick B-NP I-NP
+highschool B-NP I-NP
+
+decor B-NP B-NP
+drive I-NP I-NP
+opposite B-NP B-NP
+the I-NP I-NP
+princess I-NP I-NP
+highway I-NP I-NP
+
+goin O O
+up B-NP O
+ormand I-NP O
+road I-NP O
+to B-NP B-NP
+hallam I-NP I-NP
+road I-NP I-NP
+which O O
+is O O
+on B-NP B-NP
+a I-NP I-NP
+dirt I-NP I-NP
+track I-NP I-NP
+. O O
+
+outside O B-NP
+booran B-NP I-NP
+holden I-NP I-NP
+which O O
+is O O
+opposite B-NP O
+the I-NP O
+rays I-NP O
+outdoors I-NP O
+and I-NP O
+tyre I-NP O
+factory I-NP O
+
+lysterfield B-NP B-NP
+lake I-NP I-NP
+
+tailors B-NP B-NP
+lane I-NP I-NP
+near B-NP B-NP
+narre I-NP I-NP
+
+going O O
+down B-NP O
+westernpor I-NP O
+which O O
+has O O
+black B-NP O
+trees I-NP O
+either O O
+side O O
+
+in O O
+the O O
+neck O O
+of B-NP O
+the I-NP O
+woods I-NP O
+
+circuit B-NP B-NP
+lane I-NP I-NP
+where O O
+there O O
+is O O
+a O B-NP
+fire B-NP I-NP
+hose I-NP I-NP
+and I-NP I-NP
+truck I-NP I-NP
+always O I-NP
+on O O
+side O O
+of B-NP B-NP
+the I-NP I-NP
+road I-NP I-NP
+
+south B-NP B-NP
+gippy I-NP I-NP
+
+sporting B-NP O
+complex I-NP O
+i O O
+\ O O
+' O O
+m O O
+at O O
+
+near B-NP B-NP
+cranny I-NP I-NP
+rail I-NP I-NP
+way I-NP I-NP
+
+cranny B-NP B-NP
+shopping I-NP I-NP
+centre I-NP I-NP
+opposite B-NP B-NP
+old I-NP I-NP
+church I-NP I-NP
+
+i O O
+\ O O
+' O O
+m O O
+at O O
+
+how O O
+about O O
+you O O
+tell O O
+me O O
+where O O
+you O O
+are O O
+? O O
+
+yarrow B-NP B-NP
+court I-NP I-NP
+
+swimming O O
+in B-NP B-NP
+cardi I-NP I-NP
+reserve I-NP I-NP
+
+camberwell B-NP B-NP
+
+i O O
+am O O
+at B-NP B-NP
+my I-NP I-NP
+lab I-NP I-NP
+. O O
+
+kilmore B-NP O
+motel I-NP O
+opposite B-NP O
+op I-NP B-NP
+shop I-NP I-NP
+and I-NP I-NP
+empty I-NP I-NP
+land I-NP I-NP
+
+ching B-NP O
+chong I-NP O
+food I-NP O
+
+northern B-NP B-NP
+highway I-NP I-NP
+opposite B-NP B-NP
+the I-NP I-NP
+chimes I-NP I-NP
+place I-NP I-NP
+
+at O B-NP
+the O I-NP
+broady B-NP I-NP
+race B-NP B-NP
+circuit I-NP I-NP
+opposite B-NP O
+the I-NP O
+speed I-NP O
+circuit I-NP O
+and I-NP O
+motocross I-NP O
+
+at O B-NP
+the O I-NP
+shepperton B-NP I-NP
+pub B-NP O
+opposite B-NP O
+the I-NP O
+shrine I-NP O
+of I-NP B-NP
+remembrance I-NP I-NP
+
+. O O
+
+dubbo O B-NP
+
+at B-NP B-NP
+whitten I-NP I-NP
+oval I-NP I-NP
+near B-NP B-NP
+the I-NP I-NP
+tyre I-NP I-NP
+place I-NP I-NP
+
+sta O B-NP
+albens B-NP I-NP
+road I-NP I-NP
+off B-NP B-NP
+that I-NP I-NP
+little I-NP I-NP
+street I-NP I-NP
+with B-NP B-NP
+the I-NP I-NP
+statue I-NP I-NP
+and I-NP O
+shrine I-NP O
+
+airport B-NP B-NP
+near B-NP B-NP
+training I-NP I-NP
+centre I-NP I-NP
+
+selborne B-NP B-NP
+road I-NP I-NP
+near B-NP B-NP
+my I-NP I-NP
+house I-NP I-NP
+
+royal B-NP B-NP
+park I-NP I-NP
+
+in B-NP O
+nr I-NP O
+nar I-NP O
+goon I-NP O
+
+south B-NP B-NP
+morang I-NP I-NP
+
+im O O
+in B-NP B-NP
+australia I-NP I-NP
+
+on B-NP B-NP
+the I-NP I-NP
+train I-NP I-NP
+heading O O
+out O O
+of O B-NP
+city B-NP I-NP
+
+bolte B-NP B-NP
+bridge I-NP I-NP
+
+a B-NP O
+unit I-NP O
+i O O
+\ O O
+' O O
+m O O
+renting O O
+on B-NP B-NP
+clark I-NP I-NP
+street I-NP I-NP
+
+kilmore B-NP O
+gap I-NP O
+
+at B-NP B-NP
+kellys I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+bush I-NP I-NP
+
+broadford B-NP B-NP
+race B-NP B-NP
+track I-NP I-NP
+
+broady B-NP B-NP
+picnic B-NP B-NP
+park I-NP I-NP
+near B-NP B-NP
+cop I-NP I-NP
+shop I-NP I-NP
+
+stratford B-NP B-NP
+court I-NP I-NP
+
+motorcycle O B-NP
+rim O I-NP
+stickers O I-NP
+
+at B-NP B-NP
+the I-NP I-NP
+cemetery I-NP I-NP
+
+at B-NP B-NP
+my I-NP I-NP
+house I-NP I-NP
+in B-NP B-NP
+mollosin I-NP I-NP
+street I-NP I-NP
+
+driving O O
+up B-NP B-NP
+sugarloaf I-NP I-NP
+road I-NP I-NP
+
+on B-NP B-NP
+a I-NP I-NP
+farm I-NP I-NP
+
+seymour B-NP B-NP
+cafe B-NP I-NP
+
+doing O O
+a O O
+round O O
+at O B-NP
+the O I-NP
+broady B-NP I-NP
+racetrack B-NP I-NP
+
+i O O
+\ O O
+' O O
+m O O
+milking O O
+a O O
+cow O O
+on B-NP B-NP
+a I-NP I-NP
+farm I-NP I-NP
+
+turn B-NP O
+one I-NP O
+at B-NP B-NP
+broady I-NP I-NP
+
+turn B-NP B-NP
+2 I-NP I-NP
+broady B-NP B-NP
+
+turn B-NP B-NP
+3 I-NP I-NP
+
+i O O
+\ O O
+' O O
+m O O
+on B-NP B-NP
+srath I-NP I-NP
+creek I-NP I-NP
+road I-NP I-NP
+heading O O
+to B-NP O
+broady I-NP B-NP
+
+eating O O
+at B-NP B-NP
+the I-NP I-NP
+chocci I-NP I-NP
+factory I-NP I-NP
+in B-NP B-NP
+broady I-NP I-NP
+
+near B-NP B-NP
+the I-NP I-NP
+road I-NP I-NP
+at B-NP B-NP
+the I-NP I-NP
+creek I-NP I-NP
+where O O
+people O O
+camp O O
+
+out O O
+in O O
+the O O
+middle O O
+of O O
+nowhere O O
+
+at B-NP B-NP
+sunday I-NP I-NP
+creek I-NP I-NP
+off B-NP B-NP
+last I-NP I-NP
+st I-NP I-NP
+in B-NP B-NP
+kilmore I-NP I-NP
+
+on B-NP B-NP
+the I-NP I-NP
+hume I-NP I-NP
+heading O O
+inbound O O
+
+on B-NP B-NP
+mcdonalds I-NP I-NP
+rd I-NP I-NP
+in B-NP B-NP
+broady I-NP I-NP
+
+on O B-NP
+the O I-NP
+goulburn B-NP I-NP
+valley I-NP I-NP
+highway I-NP I-NP
+
+out O O
+in O O
+the O O
+middle O O
+if O O
+nowhere O O
+
+farm B-NP B-NP
+opposite O I-NP
+butchery B-NP I-NP
+and I-NP I-NP
+plant I-NP I-NP
+farm I-NP I-NP
+
+i O O
+\ O O
+' O O
+m O O
+on B-NP B-NP
+a I-NP I-NP
+boat I-NP I-NP
+
+i O O
+\ O O
+' O O
+m O O
+not O O
+sure O O
+where O O
+i O O
+am O O
+sorry O O
+
+at B-NP B-NP
+the I-NP I-NP
+local I-NP I-NP
+post I-NP I-NP
+office I-NP I-NP
+near B-NP B-NP
+cop I-NP I-NP
+shop I-NP I-NP
+
+near B-NP B-NP
+the I-NP I-NP
+m I-NP I-NP
+3 I-NP I-NP
+freeway I-NP I-NP
+to O B-NP
+echuca B-NP I-NP
+
+in B-NP B-NP
+wallan I-NP I-NP
+outside B-NP I-NP
+coles I-NP I-NP
+
+riding O O
+my O B-NP
+cbr O I-NP
+
+at B-NP B-NP
+the I-NP I-NP
+mansfield I-NP I-NP
+airport I-NP I-NP
+
+on B-NP B-NP
+gipps I-NP I-NP
+strwwt I-NP I-NP
+
+casey B-NP B-NP
+cres I-NP I-NP
+
+ferguson B-NP B-NP
+street I-NP I-NP
+bbq O O
+tonight O O
+near B-NP B-NP
+the I-NP I-NP
+park I-NP I-NP
+
+tree B-NP B-NP
+hill I-NP I-NP
+
+on O B-NP
+sugar O I-NP
+creek O I-NP
+road O I-NP
+
+on B-NP B-NP
+the I-NP I-NP
+cnr I-NP I-NP
+of I-NP I-NP
+hamilton I-NP I-NP
+st I-NP I-NP
+
+at O B-NP
+the O I-NP
+mitchell B-NP I-NP
+shire I-NP I-NP
+council I-NP I-NP
+in B-NP B-NP
+broardford I-NP I-NP
+
+easy B-NP B-NP
+street I-NP I-NP
+trying O O
+to O O
+get O O
+to O B-NP
+another O I-NP
+street B-NP I-NP
+but O O
+its O O
+a B-NP O
+dead I-NP O
+end I-NP O
+. O O
+
+swimming O O
+in B-NP B-NP
+lake I-NP I-NP
+mil I-NP I-NP
+
+on B-NP B-NP
+oxford I-NP I-NP
+street I-NP I-NP
+
+@ O B-NP
+woodlands B-NP I-NP
+golf I-NP I-NP
+club I-NP I-NP
+near B-NP B-NP
+the I-NP I-NP
+main I-NP I-NP
+road I-NP I-NP
+
+tourist B-NP B-NP
+road I-NP I-NP
+riding O O
+the B-NP B-NP
+slopes I-NP I-NP
+
+little B-NP B-NP
+lonsdale I-NP I-NP
+street I-NP I-NP
+near B-NP B-NP
+the I-NP I-NP
+parliament I-NP I-NP
+house I-NP I-NP
+
+francis B-NP B-NP
+street I-NP I-NP
+
+heading O O
+down B-NP O
+crockford I-NP B-NP
+street I-NP I-NP
+
+go B-NP B-NP
+cart I-NP I-NP
+track I-NP I-NP
+in B-NP B-NP
+port I-NP I-NP
+melbourne I-NP I-NP
+
+bourke B-NP B-NP
+street I-NP I-NP
+walk O B-NP
+way O I-NP
+
+20 B-NP B-NP
+little B-NP B-NP
+bourke I-NP I-NP
+street I-NP I-NP
+i O O
+work O O
+here O O
+
+capital B-NP B-NP
+city I-NP I-NP
+trail I-NP I-NP
+
+i O O
+\ O O
+' O O
+m O O
+in O O
+front O O
+of B-NP B-NP
+ella I-NP I-NP
+bache I-NP I-NP
+near B-NP B-NP
+the I-NP I-NP
+foodcourt I-NP I-NP
+
+maccas B-NP B-NP
+in B-NP B-NP
+food I-NP I-NP
+court I-NP I-NP
+near B-NP B-NP
+eb I-NP I-NP
+games I-NP I-NP
+
+at B-NP B-NP
+the I-NP I-NP
+patrick I-NP I-NP
+reserve I-NP I-NP
+
+i O O
+am O O
+at B-NP B-NP
+the I-NP I-NP
+library I-NP I-NP
+. O O
+
+ferntree B-NP B-NP
+gully I-NP I-NP
+road I-NP I-NP
+
+102 B-NP B-NP
+menzies B-NP B-NP
+street I-NP I-NP
+where O O
+im O O
+staying O O
+for O O
+the O O
+summer O O
+
+working O O
+at B-NP B-NP
+citiport I-NP I-NP
+
+in B-NP B-NP
+melbourne I-NP I-NP
+directly O O
+in B-NP B-NP
+the I-NP I-NP
+city I-NP I-NP
+
+@ B-NP B-NP
+the I-NP I-NP
+royal I-NP I-NP
+childrens I-NP I-NP
+hospital I-NP I-NP
+visiting O O
+the B-NP O
+maccas I-NP O
+for O O
+some O O
+grub O O
+
+beach B-NP B-NP
+road I-NP I-NP
+near B-NP B-NP
+black I-NP I-NP
+rock I-NP I-NP
+
+stanley B-NP B-NP
+street I-NP I-NP
+mall B-NP I-NP
+
+conventry B-NP B-NP
+street I-NP I-NP
+going O O
+to O O
+albert B-NP B-NP
+park I-NP I-NP
+through B-NP O
+the I-NP O
+side I-NP O
+streets I-NP O
+. O O
+
+brown B-NP B-NP
+alley I-NP I-NP
+street I-NP I-NP
+
+@ O B-NP
+cooks B-NP I-NP
+cottage I-NP I-NP
+
+@ O B-NP
+mcdonnell B-NP I-NP
+park I-NP I-NP
+on B-NP B-NP
+the I-NP I-NP
+swings I-NP I-NP
+
+apple B-NP B-NP
+store I-NP I-NP
+
+on B-NP B-NP
+the I-NP I-NP
+railway I-NP I-NP
+
+malvern B-NP B-NP
+golf I-NP I-NP
+course I-NP I-NP
+playing O O
+18 B-NP B-NP
+holes B-NP B-NP
+
+east B-NP B-NP
+richmond I-NP I-NP
+walking O O
+to B-NP B-NP
+the I-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+
+walking O O
+down B-NP B-NP
+middle I-NP I-NP
+street I-NP I-NP
+close O O
+to B-NP B-NP
+the I-NP I-NP
+city I-NP I-NP
+
+kaiaking O O
+down B-NP B-NP
+the I-NP I-NP
+creek I-NP I-NP
+
+nmit B-NP O
+tafe I-NP O
+
+@ O B-NP
+flemington B-NP I-NP
+racecourse I-NP I-NP
+
+at B-NP B-NP
+the I-NP I-NP
+dentist I-NP I-NP
+
+kaiaking O O
+down B-NP B-NP
+the I-NP I-NP
+marybanong I-NP I-NP
+river I-NP I-NP
+
+batman B-NP B-NP
+street I-NP I-NP
+to B-NP B-NP
+flagstaff I-NP I-NP
+park I-NP I-NP
+
+not O O
+sure O O
+where O O
+i O O
+am O O
+
+at B-NP B-NP
+the I-NP I-NP
+box I-NP I-NP
+hill I-NP I-NP
+cemetery I-NP I-NP
+
+macleavy B-NP B-NP
+park I-NP I-NP
+
+in O O
+between B-NP B-NP
+the I-NP I-NP
+parks I-NP I-NP
+
+darling B-NP B-NP
+gardens I-NP I-NP
+
+a O B-NP
+\ O I-NP
+' O I-NP
+beckett B-NP I-NP
+street I-NP I-NP
+
+empire B-NP B-NP
+street I-NP I-NP
+
+princess B-NP B-NP
+street I-NP I-NP
+
+sefton B-NP B-NP
+street I-NP I-NP
+
+at B-NP B-NP
+price I-NP I-NP
+park I-NP I-NP
+feeding O O
+the O O
+ducks O O
+
+buckley B-NP B-NP
+park I-NP I-NP
+kicking O O
+the O O
+footy O O
+
+queen B-NP B-NP
+market I-NP I-NP
+
+on B-NP B-NP
+king I-NP I-NP
+street I-NP I-NP
+
+pitt B-NP B-NP
+street I-NP I-NP
+opposite O B-NP
+the O I-NP
+water O I-NP
+
+university B-NP B-NP
+square I-NP I-NP
+
+siddely B-NP B-NP
+street I-NP I-NP
+near O B-NP
+the O I-NP
+water O I-NP
+and O I-NP
+towers B-NP I-NP
+
+looking O O
+at B-NP B-NP
+the I-NP I-NP
+habitat I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+forest I-NP I-NP
+
+nightmare O O
+on B-NP B-NP
+elm I-NP I-NP
+street I-NP I-NP
+
+queen B-NP B-NP
+street I-NP I-NP
+shops B-NP B-NP
+
+westbourne B-NP B-NP
+road I-NP I-NP
+
+in B-NP B-NP
+moone I-NP I-NP
+ponds I-NP I-NP
+having O O
+a O O
+rink O O
+
+at B-NP B-NP
+the I-NP I-NP
+hansen I-NP I-NP
+reserve I-NP I-NP
+having O O
+a O O
+bbq O O
+in O O
+this O O
+good O O
+weather O O
+near B-NP B-NP
+the I-NP I-NP
+statue I-NP I-NP
+and O I-NP
+old O I-NP
+clock O I-NP
+. O O
+
+mobil B-NP B-NP
+main I-NP B-NP
+centre I-NP I-NP
+where O O
+the O O
+fuel O O
+comes O O
+in O O
+, O O
+im O O
+working O O
+here O O
+today O O
+. O O
+
+park B-NP B-NP
+street I-NP I-NP
+... O O
+
+on B-NP B-NP
+valley I-NP I-NP
+parade I-NP I-NP
+about O O
+to O O
+go O O
+to O B-NP
+the O I-NP
+bike O I-NP
+
+carlton B-NP B-NP
+footy I-NP I-NP
+ground I-NP I-NP
+
+at B-NP B-NP
+atherton I-NP I-NP
+garden I-NP I-NP
+reserve I-NP I-NP
+just O O
+chilling O O
+
+swimming O O
+in B-NP B-NP
+the I-NP I-NP
+yarra I-NP I-NP
+... O O
+ewww O O
+
+at B-NP B-NP
+the I-NP I-NP
+park I-NP I-NP
+
+at B-NP B-NP
+royal I-NP I-NP
+childrens I-NP I-NP
+hospital I-NP I-NP
+having O O
+my O O
+baby O O
+
+shopping O O
+at B-NP B-NP
+waterfront I-NP I-NP
+city I-NP I-NP
+: O O
+) O O
+
+kickin O B-NP
+the O I-NP
+footy O I-NP
+at B-NP B-NP
+whitten I-NP I-NP
+oval I-NP I-NP
+
+checking O O
+in O O
+at B-NP B-NP
+flinders I-NP I-NP
+street I-NP I-NP
+station I-NP I-NP
+
+fawkner B-NP B-NP
+station I-NP I-NP
+getting O O
+off O B-NP
+the B-NP I-NP
+train I-NP I-NP
+
+on B-NP B-NP
+reef I-NP I-NP
+island I-NP I-NP
+
+studley B-NP B-NP
+park I-NP I-NP
+road I-NP I-NP
+
+victoria B-NP B-NP
+park I-NP I-NP
+
+londsdale B-NP B-NP
+street I-NP I-NP
+
+swan B-NP B-NP
+street I-NP I-NP
+
+young B-NP B-NP
+street I-NP I-NP
+
+walker B-NP B-NP
+street I-NP I-NP
+
+at B-NP B-NP
+my I-NP I-NP
+boyfriends I-NP I-NP
+house I-NP I-NP
+in B-NP B-NP
+osmington I-NP I-NP
+circle I-NP I-NP
+: O O
+) O O
+
+at B-NP B-NP
+berwick I-NP I-NP
+hospital I-NP I-NP
+giving O O
+birth O O
+
+im O O
+at B-NP B-NP
+napler I-NP I-NP
+street I-NP I-NP
+near B-NP B-NP
+the I-NP I-NP
+old I-NP I-NP
+folks I-NP I-NP
+home I-NP I-NP
+trying O O
+to O O
+get O O
+to B-NP O
+the I-NP O
+nearest I-NP O
+bus I-NP B-NP
+stop I-NP I-NP
+
+on B-NP B-NP
+tangerine I-NP I-NP
+drive I-NP I-NP
+
+22 B-NP B-NP
+kemp B-NP B-NP
+street I-NP I-NP
+
+at B-NP B-NP
+pendulum I-NP I-NP
+place I-NP I-NP
+
+im O O
+outside B-NP O
+my I-NP B-NP
+house I-NP I-NP
+number O O
+22 B-NP O
+in O O
+the O O
+rain O O
+about O O
+to O O
+get O O
+on B-NP O
+the I-NP O
+bus I-NP O
+in B-NP B-NP
+our I-NP I-NP
+court I-NP I-NP
+. O O
+
+at B-NP B-NP
+vert I-NP I-NP
+av I-NP I-NP
+
+tulip B-NP B-NP
+street I-NP I-NP
+in B-NP B-NP
+violet I-NP I-NP
+town I-NP I-NP
+
+in B-NP O
+fig I-NP O
+crt I-NP O
+across O O
+from B-NP B-NP
+cranny I-NP I-NP
+golf I-NP I-NP
+club I-NP I-NP
+
+pinces B-NP B-NP
+fwy I-NP I-NP
+
+jimboomba B-NP B-NP
+
+at B-NP O
+genesis I-NP O
+gym I-NP O
+in B-NP B-NP
+cranbourne I-NP I-NP
+
+heading O O
+through B-NP B-NP
+mia I-NP I-NP
+mia I-NP I-NP
+
+at B-NP B-NP
+sweeney I-NP I-NP
+getting O O
+high O O
+
+leaving O O
+from B-NP B-NP
+the I-NP I-NP
+albury I-NP I-NP
+airport I-NP I-NP
+
+hunting O O
+at B-NP B-NP
+hunt I-NP I-NP
+club I-NP I-NP
+rd I-NP I-NP
+
+bendigo B-NP B-NP
+shops B-NP I-NP
+
+derby O B-NP
+
+kennnnnnnnnnnnt O B-NP
+
+thursday O B-NP
+island O I-NP
+
+cruise O O
+to O B-NP
+harvey O I-NP
+bay O I-NP
+having O O
+some O O
+fun O O
+in O O
+the O O
+sun O O
+
+spoonbill O B-NP
+weowww O I-NP
+
+where O O
+are O O
+youuuuuuuu O O
+
+viewing O B-NP
+the B-NP I-NP
+kinglake I-NP I-NP
+national I-NP I-NP
+park I-NP I-NP
+where O O
+the B-NP B-NP
+trees I-NP I-NP
+are O O
+mostly O O
+dead O O
+but O O
+still O O
+growing O O
+
+at B-NP B-NP
+coles I-NP I-NP
+in B-NP B-NP
+casey I-NP I-NP
+central I-NP I-NP
+
+exton B-NP B-NP
+crek I-NP I-NP
+road I-NP I-NP
+
+deanna B-NP B-NP
+
+oshea B-NP B-NP
+rd I-NP I-NP
+brings O O
+back O O
+memories O O
+; O O
+) O O
+
+doing O O
+brayden O O
+on B-NP B-NP
+lexton I-NP I-NP
+ave I-NP I-NP
+
+13 O B-NP
+
+at B-NP B-NP
+eildon I-NP I-NP
+on O B-NP
+the O I-NP
+speed B-NP I-NP
+boat I-NP I-NP
+and I-NP I-NP
+house I-NP I-NP
+boat I-NP I-NP
+
+cursing O O
+domain B-NP O
+deive I-NP O
+
+in B-NP B-NP
+sugarloaf I-NP I-NP
+creek I-NP I-NP
+near B-NP B-NP
+our I-NP I-NP
+hotel I-NP I-NP
+across B-NP B-NP
+the I-NP I-NP
+road I-NP I-NP
+from B-NP B-NP
+the I-NP I-NP
+cemetery I-NP I-NP
+. O O
+
+e O O
+
+just O O
+off B-NP B-NP
+hoystead I-NP I-NP
+ave I-NP I-NP
+
+in O B-NP
+the O I-NP
+simpson O I-NP
+desert O I-NP
+but O O
+its O O
+hard O O
+to O O
+get O O
+reception O O
+or O O
+even O O
+describe O O
+the O B-NP
+landscape O I-NP
+
+under B-NP B-NP
+the I-NP I-NP
+tree I-NP I-NP
+at B-NP B-NP
+marinda I-NP I-NP
+park I-NP I-NP
+
+in O O
+the O O
+act O O
+
+billabong B-NP O
+in B-NP B-NP
+the I-NP I-NP
+national I-NP I-NP
+park I-NP I-NP
+
+in O B-NP
+hobart O I-NP
+for O O
+the O O
+weekend O O
+just O O
+got O O
+off O O
+spirit O O
+and O O
+travelled O O
+all O O
+the O O
+way O O
+here O O
+
+at B-NP B-NP
+my I-NP I-NP
+house I-NP I-NP
+
+on B-NP B-NP
+the I-NP I-NP
+boulevard I-NP I-NP
+near B-NP B-NP
+the I-NP I-NP
+reserve I-NP I-NP
+and O O
+also O O
+near B-NP B-NP
+coles I-NP I-NP
+express B-NP O
+fuel I-NP O
+
+on B-NP O
+darling I-NP O
+way I-NP O
+
+near B-NP B-NP
+the I-NP I-NP
+vic I-NP I-NP
+park I-NP I-NP
+but O O
+on B-NP B-NP
+lalia I-NP I-NP
+street I-NP I-NP
+house O I-NP
+number B-NP O
+21 I-NP O
+about O O
+to O O
+head O O
+to B-NP O
+shops I-NP O
+. O O
+
+d O O
+
+in O O
+wagga O O
+wagga O O
+
+visiting O O
+the O B-NP
+northern O I-NP
+territory O I-NP
+
+just O O
+off B-NP O
+sharp I-NP B-NP
+crt I-NP I-NP
+
+going O O
+along O O
+the O O
+coast O O
+to O O
+get O O
+to O O
+perth O O
+
+eureka B-NP B-NP
+on O B-NP
+the O I-NP
+waterfront O I-NP
+at B-NP B-NP
+the I-NP I-NP
+skydeck I-NP I-NP
+
+the B-NP B-NP
+ave I-NP I-NP
+, O O
+enough O O
+said O O
+
+bulla B-NP B-NP
+diggers I-NP I-NP
+road I-NP I-NP
+
+going O O
+along B-NP O
+trip I-NP B-NP
+street I-NP I-NP
+
+liam B-NP B-NP
+circuit I-NP I-NP
+woooooooo O I-NP
+
+park B-NP B-NP
+street I-NP I-NP
+now O O
+1111 O O
+
+this O O
+is O O
+killing O O
+me O O
+on B-NP B-NP
+mansfield I-NP I-NP
+st I-NP I-NP
+
+don O O
+\ O O
+' O O
+t O O
+be O O
+afraid O O
+to O O
+be O O
+young O O
+and O O
+free O O
+
+park B-NP B-NP
+place I-NP I-NP
+reading O O
+a O O
+book O O
+near B-NP B-NP
+the I-NP I-NP
+old I-NP I-NP
+school I-NP I-NP
+
+on B-NP B-NP
+hall I-NP I-NP
+street I-NP I-NP
+trying O O
+to O O
+look O O
+for B-NP O
+the I-NP O
+local I-NP O
+shops I-NP O
+
+just O O
+near B-NP B-NP
+the I-NP I-NP
+cemetary I-NP I-NP
+on B-NP B-NP
+lee I-NP I-NP
+street I-NP I-NP
+about O O
+to O O
+go O O
+to B-NP B-NP
+the I-NP I-NP
+bp I-NP I-NP
+on B-NP B-NP
+the I-NP I-NP
+corner I-NP I-NP
+
+clifton B-NP B-NP
+park I-NP I-NP
+which O O
+is O O
+north O O
+east O O
+of B-NP B-NP
+the I-NP I-NP
+city I-NP I-NP
+and O O
+near O O
+hieldlburg B-NP O
+
+i O O
+\ O O
+' O O
+m O O
+right O O
+where O O
+i O O
+need O O
+to O O
+be O O
+
+essendon B-NP B-NP
+hockey I-NP I-NP
+centre I-NP I-NP
+we O O
+are O O
+playing O O
+our O O
+finals O O
+for O O
+the O O
+year O O
+
+bristol B-NP B-NP
+street I-NP I-NP
+waiting O O
+out O O
+front O O
+of B-NP B-NP
+essendon I-NP I-NP
+airport I-NP I-NP
+for O O
+a O O
+flight O O
+to O O
+come O O
+in O O
+. O O
+
+i O O
+love O O
+you O O
+
+on B-NP B-NP
+skipperstone I-NP I-NP
+glen I-NP I-NP
+on B-NP B-NP
+my I-NP I-NP
+roof I-NP I-NP
+
+this O O
+will O O
+be O O
+an O O
+everlasting O O
+love O O
+
+at O O
+the O O
+good O O
+old O O
+eddie B-NP B-NP
+barron I-NP I-NP
+reserve B-NP I-NP
+
+at B-NP B-NP
+getaway I-NP I-NP
+drive I-NP I-NP
+
+corner B-NP B-NP
+of I-NP I-NP
+maybury I-NP I-NP
+and I-NP I-NP
+kingston I-NP I-NP
+
+at B-NP B-NP
+ardent I-NP I-NP
+crt I-NP I-NP
+
+at B-NP B-NP
+cashmere I-NP I-NP
+crt I-NP I-NP
+
+at B-NP B-NP
+jean I-NP I-NP
+crt I-NP I-NP
+
+at B-NP O
+the I-NP O
+end I-NP O
+of I-NP B-NP
+glenmaggie I-NP I-NP
+close I-NP I-NP
+
+at B-NP B-NP
+willmott I-NP I-NP
+crt I-NP I-NP
+
+at B-NP O
+the I-NP O
+end I-NP O
+of I-NP O
+broadford I-NP O
+way B-NP O
+
+highclogf O B-NP
+
+at B-NP B-NP
+gwen I-NP I-NP
+rd I-NP I-NP
+
+at B-NP B-NP
+innes I-NP I-NP
+crt I-NP I-NP
+
+somewhere O O
+
+on B-NP B-NP
+the I-NP I-NP
+esplanade I-NP I-NP
+
+just O O
+off B-NP B-NP
+yarrow I-NP I-NP
+court I-NP I-NP
+
+on B-NP B-NP
+huon I-NP I-NP
+park I-NP I-NP
+rd I-NP I-NP
+
+just O O
+cruising O O
+aeound O O
+
+rocking O O
+esprit B-NP B-NP
+ave I-NP I-NP
+
+on B-NP B-NP
+thompsoms I-NP I-NP
+rd I-NP I-NP
+heading O O
+towards B-NP B-NP
+cranbourne I-NP I-NP
+
+just O O
+off O O
+armitage B-NP O
+
+just O O
+on B-NP B-NP
+grantham I-NP I-NP
+cresent I-NP I-NP
+
+just O O
+on B-NP B-NP
+scottsdale I-NP I-NP
+turning O O
+on O O
+to O O
+linsell B-NP O
+
+turning O O
+off O B-NP
+windsor B-NP I-NP
+drive I-NP I-NP
+
+clubbing O O
+on B-NP B-NP
+mccubbin I-NP I-NP
+
+f O O
+
+in B-NP B-NP
+a I-NP I-NP
+paddock I-NP I-NP
+
+kurt O O
+off B-NP O
+perry I-NP B-NP
+circuit I-NP I-NP
+
+on B-NP B-NP
+nurture I-NP I-NP
+ave I-NP I-NP
+
+turning O O
+on O O
+to B-NP O
+network I-NP B-NP
+drive I-NP I-NP
+
+on B-NP B-NP
+hollywood I-NP I-NP
+avenue I-NP I-NP
+
+on B-NP B-NP
+rix I-NP I-NP
+rd I-NP I-NP
+
+brayden O B-NP
+
+at O B-NP
+the O I-NP
+tbd O I-NP
+of B-NP I-NP
+vernon I-NP I-NP
+rd I-NP I-NP
+
+sitting O O
+on O B-NP
+empower O I-NP
+r O I-NP
+
+jumping O O
+in B-NP B-NP
+the I-NP I-NP
+lake I-NP I-NP
+just O O
+off B-NP O
+snapper I-NP B-NP
+point I-NP I-NP
+drive I-NP I-NP
+
+go B-NP O
+karting I-NP O
+
+at O B-NP
+banjo O I-NP
+park O I-NP
+
+aldous B-NP O
+place I-NP O
+... O O
+needs O O
+a O O
+little O O
+snow O O
+; O O
+) O O
+
+at B-NP B-NP
+clocktower I-NP I-NP
+ct I-NP I-NP
+
+at B-NP B-NP
+a I-NP I-NP
+house I-NP I-NP
+
+just O O
+sitting O O
+in B-NP B-NP
+the I-NP I-NP
+dandenong I-NP I-NP
+creek I-NP I-NP
+
+at B-NP B-NP
+garfield I-NP I-NP
+berry I-NP B-NP
+farm I-NP I-NP
+and I-NP I-NP
+produce I-NP I-NP
+market I-NP I-NP
+
+on B-NP B-NP
+eight I-NP I-NP
+mile I-NP I-NP
+rd I-NP I-NP
+with O O
+eminem O O
+
+i O O
+\ O O
+' O O
+m O O
+lost O O
+someone O O
+come O O
+get O O
+me O O
+
+swimming O O
+
+mn O O
+
+on B-NP B-NP
+beacy I-NP I-NP
+emerald I-NP B-NP
+rd I-NP I-NP
+
+23 B-NP B-NP
+espirte B-NP B-NP
+avenue I-NP I-NP
+
+fishing O O
+in B-NP B-NP
+cardi I-NP I-NP
+creek I-NP I-NP
+
+cruising O O
+down B-NP B-NP
+soldiers I-NP I-NP
+road I-NP I-NP
+on O B-NP
+both O I-NP
+sides O I-NP
+are O O
+farms B-NP B-NP
+and I-NP I-NP
+a I-NP I-NP
+school I-NP I-NP
+
+at B-NP B-NP
+the I-NP I-NP
+local I-NP I-NP
+farm I-NP I-NP
+feeding O O
+the O O
+livestock O O
+and O O
+cursing O O
+on B-NP B-NP
+the I-NP I-NP
+tractor I-NP I-NP
+
+dropping O O
+some O O
+stuff O O
+off O O
+at O O
+the O O
+tip O O
+
+mount B-NP B-NP
+eliza I-NP I-NP
+near B-NP O
+the I-NP O
+peir I-NP O
+between B-NP B-NP
+the I-NP I-NP
+road I-NP I-NP
+and O I-NP
+sand O I-NP
+
+quail B-NP B-NP
+ialand I-NP I-NP
+
+crib B-NP B-NP
+point I-NP I-NP
+peir B-NP I-NP
+
+seafood B-NP B-NP
+beach B-NP I-NP
+
+looking O O
+at B-NP B-NP
+the I-NP I-NP
+heads I-NP I-NP
+of I-NP I-NP
+port I-NP I-NP
+phillip I-NP I-NP
+
+playing O O
+golf O O
+in B-NP B-NP
+franky I-NP I-NP
+
+melbourne B-NP B-NP
+road I-NP I-NP
+near B-NP B-NP
+rye I-NP I-NP
+
+doing O O
+some O O
+moto O O
+endurance O O
+up O O
+here O O
+
+wilsons B-NP B-NP
+prom I-NP I-NP
+
+near B-NP B-NP
+lakes I-NP I-NP
+enterance I-NP I-NP
+
+cape B-NP O
+where O O
+forest B-NP O
+meets O O
+the B-NP O
+road I-NP O
+, O O
+pretty O O
+good O O
+view O O
+from O O
+this O O
+part O O
+of B-NP O
+land I-NP O
+. O O
+
+heading O O
+to O O
+emerald B-NP B-NP
+offroad O I-NP
+
+next O O
+to B-NP O
+wellington I-NP B-NP
+road I-NP I-NP
+lysterfield B-NP B-NP
+park I-NP I-NP
+lake I-NP I-NP
+
+hams O B-NP
+boat O I-NP
+tour O I-NP
+near O B-NP
+rue O I-NP
+
+dormant B-NP B-NP
+drive I-NP I-NP
+ins O O
+off B-NP B-NP
+the I-NP I-NP
+freeway I-NP I-NP
+
+at B-NP B-NP
+the I-NP I-NP
+golf I-NP I-NP
+country I-NP I-NP
+resort I-NP I-NP
+
+croyden B-NP B-NP
+
+carr B-NP B-NP
+street I-NP I-NP
+in B-NP B-NP
+geloong I-NP I-NP
+
+frawley B-NP B-NP
+road I-NP I-NP
+near B-NP B-NP
+tennis I-NP I-NP
+courts I-NP I-NP
+
+zzzzzzz O B-NP
+
+paky B-NP B-NP
+cleaner B-NP I-NP
+
+on O O
+way O O
+to B-NP B-NP
+mill I-NP I-NP
+park I-NP I-NP
+
+legend B-NP B-NP
+court I-NP I-NP
+
+kew B-NP O
+
+uckapunyal B-NP B-NP
+race B-NP B-NP
+track I-NP I-NP
+
+thomastown B-NP B-NP
+area B-NP I-NP
+
+at B-NP O
+the I-NP O
+south I-NP O
+east I-NP O
+water I-NP B-NP
+purification I-NP I-NP
+plant I-NP I-NP
+
+hawthorn B-NP B-NP
+footy B-NP I-NP
+oval I-NP I-NP
+
+in B-NP O
+epping I-NP O
+trying O O
+to O O
+get O O
+to O O
+doncaster B-NP B-NP
+shopping B-NP B-NP
+centre I-NP I-NP
+
+at B-NP B-NP
+the I-NP I-NP
+km I-NP I-NP
+ready I-NP I-NP
+reserve I-NP I-NP
+
+motocross B-NP B-NP
+tracks I-NP I-NP
+in B-NP B-NP
+forest I-NP I-NP
+
+at B-NP B-NP
+the I-NP I-NP
+go I-NP I-NP
+cart I-NP I-NP
+track I-NP I-NP
+in B-NP B-NP
+dande I-NP I-NP
+
+dewhurst B-NP B-NP
+
+now O O
+i O O
+\ O O
+' O O
+m O O
+feelin O O
+so O O
+fly O O
+like O O
+a O B-NP
+g O I-NP
+6 O I-NP
+
+bob B-NP B-NP
+burgess I-NP I-NP
+reserve I-NP I-NP
+
+doherty B-NP B-NP
+st I-NP I-NP
+ewwwwww O B-NP
+
+at O B-NP
+the O I-NP
+golden B-NP I-NP
+beach I-NP I-NP
+surfing O O
+up O O
+the O O
+waves O O
+
+mr B-NP B-NP
+martha I-NP I-NP
+golf I-NP I-NP
+course I-NP I-NP
+
+royal B-NP B-NP
+children I-NP I-NP
+hospital I-NP I-NP
+
+qv B-NP O
+
+domain B-NP B-NP
+circuit I-NP I-NP
+
+high B-NP B-NP
+street I-NP I-NP
+
+rockin B-NP B-NP
+vic I-NP B-NP
+market I-NP I-NP
+
+at B-NP B-NP
+thomas I-NP I-NP
+embling I-NP I-NP
+hospital I-NP I-NP
+
+on O B-NP
+central O I-NP
+ave O I-NP
+across O O
+from O B-NP
+2 O I-NP
+nd O I-NP
+street O I-NP
+
+jeffcott B-NP B-NP
+st I-NP I-NP
+
+on O B-NP
+tinning O I-NP
+st O I-NP
+just O O
+off O B-NP
+sydney O I-NP
+st O I-NP
+
+popping O B-NP
+my O I-NP
+cherry O I-NP
+at O B-NP
+cherry O I-NP
+lake O I-NP
+
+quarry B-NP B-NP
+park I-NP I-NP
+just O O
+off B-NP B-NP
+farnsworth I-NP I-NP
+ave I-NP I-NP
+
+high B-NP B-NP
+st I-NP I-NP
+in B-NP B-NP
+thornbury I-NP I-NP
+
+end B-NP B-NP
+of I-NP I-NP
+arnold I-NP I-NP
+crt I-NP I-NP
+
+at B-NP B-NP
+melb I-NP I-NP
+gpo B-NP I-NP
+
+pretty O B-NP
+decent O I-NP
+intersection B-NP I-NP
+
+on B-NP B-NP
+a I-NP I-NP
+boat I-NP I-NP
+
+giving O O
+blood O O
+ooooh O O
+
+gtgfd O B-NP
+
+ogrady B-NP B-NP
+st I-NP I-NP
+
+immigration O O
+woooo O O
+
+on B-NP B-NP
+elm I-NP I-NP
+st I-NP I-NP
+... O O
+really O O
+hope O O
+im O O
+not O O
+dreaming O O
+
+bliss B-NP B-NP
+crt I-NP I-NP
+
+at B-NP B-NP
+the I-NP I-NP
+sewage I-NP I-NP
+treatment I-NP I-NP
+plant I-NP I-NP
+... O O
+smells O O
+like O O
+poop O O
+: O O
+( O O
+
+standin O O
+on B-NP B-NP
+the I-NP I-NP
+train I-NP I-NP
+tracks I-NP I-NP
+eeep O I-NP
+
+in B-NP B-NP
+the I-NP I-NP
+quarries I-NP I-NP
+
+cnr O B-NP
+of B-NP I-NP
+hampshire I-NP I-NP
+rd I-NP I-NP
+and I-NP I-NP
+couch I-NP I-NP
+st I-NP I-NP
+
+rod B-NP B-NP
+laver I-NP I-NP
+babayyyy O I-NP
+
+st B-NP B-NP
+pats I-NP I-NP
+cathedral I-NP I-NP
+gettin O O
+my O O
+god O O
+on O O
+
+gettin O B-NP
+buried O I-NP
+
+on B-NP B-NP
+gunn I-NP I-NP
+island I-NP I-NP
+with O O
+my O O
+ak O O
+47 O O
+
+alphiongton B-NP B-NP
+station I-NP I-NP
+fingers O I-NP
+crossed O I-NP
+i O O
+dont O O
+get O O
+stabbed O O
+
+at B-NP B-NP
+mcdonald I-NP I-NP
+reserve I-NP I-NP
+eating O O
+my O O
+cheeseburger O O
+
+on B-NP B-NP
+chandler I-NP I-NP
+highway I-NP I-NP
+watching O O
+friends O O
+, O O
+serously O O
+i O O
+am O O
+
+i O O
+like O O
+cops O O
+
+here O O
+
+bona B-NP B-NP
+vista I-NP I-NP
+rd I-NP I-NP
+
+bennetswood B-NP B-NP
+tennis I-NP I-NP
+club I-NP I-NP
+
+at O B-NP
+mobil O I-NP
+terminal O I-NP
+
+toyota B-NP B-NP
+motors I-NP I-NP
+in B-NP B-NP
+port I-NP I-NP
+melb I-NP I-NP
+
+byrne B-NP B-NP
+ave I-NP I-NP
+in O B-NP
+elwood O I-NP
+
+beach B-NP B-NP
+st I-NP I-NP
+
+on O B-NP
+pickles O I-NP
+st O I-NP
+hehe O B-NP
+pickles O I-NP
+
+bezza B-NP B-NP
+
+darling B-NP O
+way I-NP O
+
+this O O
+is O O
+where O O
+i O O
+want O O
+to O O
+be O O
+
+a O B-NP
+the B-NP I-NP
+green I-NP I-NP
+\ I-NP I-NP
+' I-NP I-NP
+s I-NP I-NP
+
+at B-NP B-NP
+my I-NP I-NP
+house I-NP I-NP
+on B-NP B-NP
+bess I-NP I-NP
+street I-NP I-NP
+
+flinders B-NP B-NP
+st I-NP I-NP
+railway I-NP B-NP
+station I-NP I-NP
+
+coffee O B-NP
+on B-NP B-NP
+charly I-NP I-NP
+street I-NP I-NP
+
+@ B-NP O
+the I-NP O
+yan I-NP O
+yean I-NP B-NP
+resivour I-NP I-NP
+
+going O O
+under B-NP B-NP
+the I-NP I-NP
+bridge I-NP I-NP
+in B-NP B-NP
+beacy I-NP I-NP
+
+in B-NP B-NP
+cockatoo I-NP I-NP
+
+in O B-NP
+a O I-NP
+motel O I-NP
+just O O
+outside O O
+of O O
+wagga O O
+wagga O O
+, O O
+directly O O
+at O B-NP
+the O I-NP
+sturt O I-NP
+highway O I-NP
+to O B-NP
+sydney O I-NP
+
+tuerong B-NP B-NP
+town I-NP I-NP
+
+heading O O
+to B-NP B-NP
+upper I-NP I-NP
+beacy I-NP I-NP
+, O O
+just O O
+passing O O
+golf B-NP B-NP
+course I-NP I-NP
+
+craigibourne B-NP B-NP
+crap O I-NP
+hole O I-NP
+town B-NP I-NP
+
+knox B-NP B-NP
+shopping I-NP I-NP
+centre I-NP I-NP
+
+corner B-NP B-NP
+of I-NP I-NP
+flinder I-NP I-NP
+st I-NP I-NP
+and I-NP I-NP
+elizabeth I-NP I-NP
+st I-NP I-NP
+
+tram B-NP B-NP
+station I-NP I-NP
+near B-NP B-NP
+mcdonalds I-NP I-NP
+and I-NP I-NP
+express I-NP I-NP
+pizza I-NP I-NP
+
+tram B-NP B-NP
+stop I-NP I-NP
+near B-NP B-NP
+myer I-NP I-NP
+
+melbourne B-NP B-NP
+central I-NP I-NP
+shopping I-NP I-NP
+centre I-NP I-NP
+
+close O O
+to O B-NP
+the O I-NP
+seafood B-NP I-NP
+beach B-NP I-NP
+
+there O O
+are O O
+many O O
+pizza B-NP O
+restaurants I-NP O
+around O O
+here O O
+. O O
+
+anz B-NP B-NP
+bank I-NP I-NP
+
+cruisen O O
+on B-NP B-NP
+horne I-NP I-NP
+streeet I-NP I-NP
+. O O
+
+wood B-NP B-NP
+street I-NP I-NP
+near B-NP B-NP
+the I-NP I-NP
+city I-NP I-NP
+
+@ O B-NP
+the O I-NP
+melbourne B-NP I-NP
+golf B-NP I-NP
+course I-NP I-NP
+
+barkly B-NP B-NP
+street I-NP I-NP
+heading O O
+to O O
+flemington B-NP B-NP
+park B-NP I-NP
+
+at B-NP B-NP
+the I-NP I-NP
+royal I-NP I-NP
+park I-NP I-NP
+near B-NP B-NP
+the I-NP I-NP
+city I-NP I-NP
+
+heading O O
+to O B-NP
+ballarat B-NP I-NP
+road I-NP I-NP
+off B-NP B-NP
+the I-NP I-NP
+princess I-NP I-NP
+
+on B-NP B-NP
+parsons I-NP I-NP
+street I-NP I-NP
+
+clyde B-NP B-NP
+street I-NP I-NP
+working O O
+
+moray B-NP B-NP
+street I-NP I-NP
+over B-NP B-NP
+the I-NP I-NP
+bridge I-NP I-NP
+
+boathouse B-NP B-NP
+drive I-NP I-NP
+on B-NP B-NP
+the I-NP I-NP
+yarra I-NP I-NP
+
+working O O
+at O B-NP
+the O I-NP
+coucil B-NP I-NP
+depot I-NP I-NP
+station O I-NP
+number O I-NP
+504 O I-NP
+
+waiting O O
+for B-NP B-NP
+a I-NP I-NP
+tram I-NP I-NP
+on B-NP B-NP
+collins I-NP I-NP
+street I-NP I-NP
+
+45 B-NP B-NP
+little B-NP B-NP
+londsdale I-NP I-NP
+street I-NP I-NP
+
+@ B-NP O
+spencer I-NP B-NP
+street I-NP I-NP
+station I-NP I-NP
+
+tudor B-NP B-NP
+street I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+city I-NP I-NP
+
+near B-NP B-NP
+willis I-NP I-NP
+street I-NP I-NP
+trying O O
+to O O
+head O O
+south O O
+to O O
+st B-NP B-NP
+. I-NP I-NP
+kilda I-NP I-NP
+
+dent B-NP B-NP
+street I-NP I-NP
+
+type B-NP B-NP
+street I-NP I-NP
+
+racing O O
+down B-NP O
+glasscocks I-NP B-NP
+
+smashing O O
+down O O
+wellington B-NP B-NP
+
+loft B-NP B-NP
+reserve I-NP I-NP
+
+elm B-NP B-NP
+street I-NP I-NP
+
+sidderly B-NP B-NP
+street I-NP I-NP
+
+ruby B-NP B-NP
+street I-NP I-NP
+
+footscray B-NP B-NP
+train I-NP I-NP
+station I-NP I-NP
+
+dover B-NP B-NP
+st I-NP I-NP
+
+princes B-NP B-NP
+street I-NP I-NP
+
+ryan B-NP B-NP
+st I-NP I-NP
+
+flagstaff B-NP B-NP
+station I-NP I-NP
+
+bell B-NP B-NP
+st I-NP I-NP
+
+vere B-NP B-NP
+st I-NP I-NP
+
+yarra B-NP B-NP
+boulavard I-NP I-NP
+
+la B-NP B-NP
+trobe I-NP I-NP
+street I-NP I-NP
+
+william B-NP B-NP
+st I-NP I-NP
+
+bent B-NP B-NP
+street I-NP I-NP
+
+near B-NP B-NP
+easy I-NP I-NP
+street I-NP I-NP
+
+lalor B-NP B-NP
+
+queen B-NP B-NP
+street I-NP I-NP
+
+princes B-NP B-NP
+highway I-NP I-NP
+to B-NP B-NP
+soldiers I-NP I-NP
+road I-NP I-NP
+
+selling O O
+a O O
+swift O O
+
+hedgely B-NP B-NP
+road I-NP I-NP
+
+woodend B-NP B-NP
+
+in B-NP B-NP
+cranbourne I-NP I-NP
+
+saffron B-NP B-NP
+street I-NP I-NP
+
+centre B-NP B-NP
+
+wilson B-NP B-NP
+botanic I-NP I-NP
+park I-NP I-NP
+
+melbourne B-NP B-NP
+water I-NP I-NP
+
+hight B-NP B-NP
+street I-NP I-NP
+
+harkaway B-NP B-NP
+
+not O O
+sure O O
+xoxo O O
+
+wood B-NP B-NP
+rd I-NP I-NP
+to B-NP B-NP
+grieves I-NP I-NP
+
+shelves O B-NP
+road O I-NP
+
+baxter B-NP B-NP
+
+heatherton B-NP B-NP
+road I-NP I-NP
+
+prime B-NP B-NP
+ct I-NP I-NP
+
+mansfield B-NP B-NP
+st I-NP I-NP
+
+inglis B-NP O
+
+the B-NP B-NP
+reserve I-NP I-NP
+
+raven B-NP B-NP
+crt I-NP I-NP
+
+point B-NP O
+leo I-NP O
+near B-NP O
+bass I-NP O
+
+mildura B-NP B-NP
+
+ararat B-NP B-NP
+
+south B-NP B-NP
+morang I-NP I-NP
+track B-NP I-NP
+
+norwhich B-NP B-NP
+drive I-NP I-NP
+in B-NP B-NP
+cranny I-NP I-NP
+
+woodstock B-NP B-NP
+
+echuca B-NP B-NP
+
+wonthaggi B-NP B-NP
+i O O
+\ O O
+' O O
+m O O
+near O O
+
+cardi B-NP B-NP
+resinous O I-NP
+
+near B-NP B-NP
+foster I-NP I-NP
+
+in B-NP B-NP
+melbourne I-NP I-NP
+
+near O O
+me O O
+; O O
+v O O
+
+collingwood B-NP B-NP
+
+coburg B-NP B-NP
+
+near B-NP B-NP
+the I-NP I-NP
+bend I-NP I-NP
+of I-NP I-NP
+island I-NP I-NP
+
+in B-NP B-NP
+boronia I-NP I-NP
+all O I-NP
+hot O I-NP
+
+i O O
+\ O O
+' O O
+m O O
+coree O O
+, O O
+i O O
+hope O O
+this O O
+helps O O
+
+going O O
+up O O
+the O B-NP
+m B-NP I-NP
+1 I-NP I-NP
+freeway I-NP I-NP
+
+on O O
+my O O
+way O O
+to O O
+knox B-NP O
+shops I-NP B-NP
+
+in B-NP B-NP
+buffalo I-NP I-NP
+near B-NP B-NP
+spring I-NP I-NP
+creek I-NP I-NP
+
+coldstream B-NP B-NP
+
+at B-NP B-NP
+the I-NP I-NP
+skate I-NP I-NP
+park I-NP I-NP
+
+near B-NP B-NP
+gelong I-NP I-NP
+
+vulleem B-NP B-NP
+
+raggedy O B-NP
+towny O I-NP
+
+big B-NP B-NP
+bourke I-NP I-NP
+
+bourke B-NP B-NP
+street I-NP I-NP
+
+going O O
+up O B-NP
+high B-NP I-NP
+street I-NP I-NP
+
+narre B-NP B-NP
+
+mg O B-NP
+corner O I-NP
+
+pit O B-NP
+corner O I-NP
+
+on B-NP B-NP
+the I-NP I-NP
+straight I-NP I-NP
+
+black O B-NP
+beech O B-NP
+rod O I-NP
+
+in O B-NP
+the O I-NP
+pits O I-NP
+at B-NP B-NP
+pi I-NP I-NP
+
+southern O B-NP
+loop O I-NP
+
+gap B-NP B-NP
+road I-NP I-NP
+watching O O
+gp O O
+
+walkin O O
+down B-NP B-NP
+storm I-NP I-NP
+lane I-NP I-NP
+
+red B-NP B-NP
+rocks I-NP I-NP
+road I-NP I-NP
+
+nature B-NP B-NP
+park I-NP I-NP
+
+rock B-NP B-NP
+road I-NP I-NP
+
+l O O
+
+200 O B-NP
+kph O B-NP
+gap O I-NP
+
+devi O B-NP
+lane O I-NP
+
+rhyll B-NP B-NP
+
+red B-NP B-NP
+rock I-NP I-NP
+rd I-NP I-NP
+
+foam B-NP B-NP
+st I-NP I-NP
+
+speed O B-NP
+run O I-NP
+
+back B-NP B-NP
+beach I-NP I-NP
+roas I-NP I-NP
+
+vetno O B-NP
+
+somewhere O O
+in B-NP B-NP
+australia I-NP I-NP
+
+cape B-NP B-NP
+wollomi I-NP I-NP
+
+sunset O B-NP
+strip O I-NP
+
+jam B-NP B-NP
+jerrup I-NP I-NP
+
+newhavan B-NP B-NP
+
+tarwin O B-NP
+tower O I-NP
+
+p O O
+
+in O B-NP
+the O I-NP
+sticks O I-NP
+
+bush O B-NP
+riding O I-NP
+in B-NP B-NP
+noojee I-NP I-NP
+
+lilydale B-NP B-NP
+farm B-NP I-NP
+
+devon B-NP B-NP
+milk B-NP I-NP
+produce I-NP I-NP
+factory I-NP I-NP
+
+chemist B-NP B-NP
+warehouse I-NP I-NP
+
+ireland B-NP B-NP
+ave I-NP I-NP
+
+near B-NP B-NP
+gordon I-NP I-NP
+close I-NP I-NP
+
+narre B-NP B-NP
+train I-NP I-NP
+station I-NP I-NP
+
+redman B-NP O
+close I-NP O
+
+on B-NP B-NP
+the I-NP I-NP
+monash I-NP I-NP
+
+near B-NP B-NP
+fg I-NP I-NP
+
+safron O B-NP
+rice O I-NP
+
+drystale B-NP B-NP
+
+corm O B-NP
+st O I-NP
+
+in B-NP B-NP
+the I-NP I-NP
+street I-NP I-NP
+
+watching O O
+due O O
+date O O
+: O O
+) O O
+at B-NP B-NP
+the I-NP I-NP
+movies I-NP I-NP
+with O O
+my O O
+girlfriend O O
+
+at B-NP B-NP
+the I-NP I-NP
+movies I-NP I-NP
+: O O
+) O O
+
+village B-NP B-NP
+cinemas I-NP I-NP
+- O O
+due O O
+date O O
+. O O
+
+loving O O
+lifeeeeeeee O O
+
+with O O
+my O O
+girl O O
+: O O
+) O O
+
+with O O
+my O O
+sister O O
+: O O
+) O O
+
+about O O
+to O O
+watch O O
+due O O
+date O O
+. O O
+
+stafford B-NP B-NP
+road I-NP I-NP
+heading O O
+to B-NP O
+subway I-NP O
+for O O
+some O O
+dinner O O
+
+heading O O
+to O B-NP
+abbotsford B-NP I-NP
+trying O O
+to O O
+find O O
+a B-NP O
+fish I-NP B-NP
+and I-NP I-NP
+chip I-NP I-NP
+shop I-NP I-NP
+near B-NP B-NP
+the I-NP I-NP
+town I-NP I-NP
+
+down B-NP B-NP
+a I-NP I-NP
+sidestreet I-NP I-NP
+in B-NP B-NP
+brunswick I-NP I-NP
+trying O O
+to O O
+find O O
+my O O
+way O O
+out O O
+
+sitting O O
+in B-NP B-NP
+uni I-NP I-NP
+square I-NP I-NP
+relaxing O O
+a O O
+bit O O
+
+in B-NP B-NP
+bulleen I-NP I-NP
+hope O O
+this O O
+helps O O
+
+clarke B-NP B-NP
+st I-NP I-NP
+
+o O O
+
+it O O
+was O O
+all O O
+yellow O O
+
+o B-NP O
+\ I-NP O
+' I-NP O
+hea I-NP B-NP
+st I-NP I-NP
+
+willy B-NP B-NP
+street I-NP I-NP
+
+nightmare O O
+on B-NP B-NP
+elm I-NP I-NP
+
+ellen B-NP B-NP
+road I-NP I-NP
+
+casey B-NP B-NP
+central I-NP I-NP
+shops I-NP I-NP
+
+sussex B-NP B-NP
+
+place O B-NP
+calked O I-NP
+home B-NP I-NP
+
+summerhill B-NP B-NP
+
+mill B-NP B-NP
+st I-NP I-NP
+
+lysol O B-NP
+road O I-NP
+
+at B-NP B-NP
+the I-NP I-NP
+cemetary I-NP I-NP
+
+berwick B-NP B-NP
+road I-NP I-NP
+
+hardys B-NP B-NP
+rd I-NP I-NP
+
+endeavor B-NP B-NP
+hills I-NP I-NP
+
+clyde B-NP B-NP
+
+pound B-NP B-NP
+rd I-NP I-NP
+
+tooriden B-NP B-NP
+
+train B-NP B-NP
+
+hampton B-NP B-NP
+park I-NP I-NP
+
+lysterfield B-NP B-NP
+park I-NP I-NP
+deice O I-NP
+
+riding O O
+my B-NP O
+bike I-NP O
+
+horswood B-NP B-NP
+road I-NP I-NP
+
+cambletown B-NP B-NP
+
+kaloora B-NP B-NP
+park I-NP I-NP
+
+monbrae B-NP B-NP
+circuit I-NP I-NP
+
+reserve B-NP B-NP
+
+fhhgdfjghtxhg O B-NP
+
+melbourne B-NP B-NP
+central I-NP I-NP
+railway I-NP I-NP
+station I-NP I-NP
+
+tram B-NP B-NP
+19 I-NP I-NP
+victoria B-NP B-NP
+market I-NP I-NP
+station I-NP I-NP
+
+victoria B-NP B-NP
+tram I-NP I-NP
+station I-NP I-NP
+
+melbourne B-NP B-NP
+uni I-NP I-NP
+, I-NP I-NP
+university I-NP I-NP
+square I-NP I-NP
+
+melbourne B-NP B-NP
+uni I-NP I-NP
+, I-NP I-NP
+under I-NP I-NP
+ground I-NP I-NP
+car I-NP I-NP
+park I-NP I-NP
+
+on O B-NP
+bluegum O I-NP
+way O I-NP
+
+you O O
+tell O O
+me O O
+where O O
+
+woo O B-NP
+
+picking O O
+up O O
+my B-NP B-NP
+car I-NP I-NP
+on B-NP B-NP
+vespa I-NP I-NP
+drive I-NP I-NP
+
+inland B-NP B-NP
+
+narre B-NP B-NP
+warren I-NP I-NP
+
+ovens B-NP B-NP
+reserrvw I-NP I-NP
+
+victoria B-NP B-NP
+garden I-NP I-NP
+shopping I-NP I-NP
+centre I-NP I-NP
+
+ikea B-NP B-NP
+richmond I-NP I-NP
+
+wonthaggi B-NP B-NP
+
+i O O
+\ O O
+' O O
+m O O
+in B-NP B-NP
+the I-NP I-NP
+park I-NP I-NP
+
+wonthaggi B-NP B-NP
+secondary I-NP I-NP
+college I-NP I-NP
+( O O
+dudley B-NP O
+campus I-NP O
+) O O
+
+royal B-NP B-NP
+park I-NP I-NP
+, I-NP I-NP
+cnr I-NP I-NP
+of I-NP I-NP
+royal I-NP I-NP
+pde I-NP I-NP
+and I-NP I-NP
+brunswick I-NP I-NP
+st I-NP I-NP
+. O O
+
+brunswick B-NP B-NP
+barkely B-NP I-NP
+square I-NP I-NP
+shopping I-NP I-NP
+centre I-NP I-NP
+, O O
+located O O
+on B-NP B-NP
+sydney I-NP I-NP
+road I-NP I-NP
+. O O
+
+barry B-NP B-NP
+st I-NP I-NP
+
+advancement B-NP B-NP
+office I-NP I-NP
+, I-NP I-NP
+barry I-NP I-NP
+st I-NP I-NP
+
+leongatha B-NP B-NP
+football B-NP I-NP
+ground I-NP I-NP
+
+at O B-NP
+the O I-NP
+center O I-NP
+of O I-NP
+the O I-NP
+map O I-NP
+
+kshek O B-NP
+
+down O B-NP
+the O I-NP
+way O I-NP
+
+innest B-NP B-NP
+court I-NP I-NP
+
+alexia B-NP B-NP
+drive I-NP I-NP
+
+armband O B-NP
+road O I-NP
+
+gri O O
+es O O
+es O O
+
+near B-NP B-NP
+coburg I-NP I-NP
+
+moorabim B-NP B-NP
+
+greaves B-NP B-NP
+
+cockatoo B-NP B-NP
+
+sarah B-NP B-NP
+ct I-NP I-NP
+
+centre B-NP B-NP
+rd I-NP I-NP
+
+fern B-NP B-NP
+way I-NP I-NP
+
+on B-NP B-NP
+the I-NP I-NP
+grass I-NP I-NP
+
+you O O
+
+glassocks B-NP B-NP
+
+jakes B-NP B-NP
+house I-NP I-NP
+
+hjhj O O
+
+vic B-NP B-NP
+street I-NP I-NP
+
+fitzroy B-NP B-NP
+
+albert B-NP B-NP
+street I-NP I-NP
+
+city B-NP B-NP
+rd I-NP I-NP
+
+grant B-NP B-NP
+street I-NP I-NP
+
+hope B-NP B-NP
+st I-NP I-NP
+
+highett B-NP B-NP
+street I-NP I-NP
+
+balmain B-NP B-NP
+st I-NP I-NP
+
+island O O
+of O O
+dreams O O
+
+serious O B-NP
+
+ernist B-NP B-NP
+wanke I-NP I-NP
+
+onyx B-NP O
+
+j O O
+
+magic O B-NP
+drive O I-NP
+
+norfolk B-NP B-NP
+drive I-NP I-NP
+
+eddy B-NP B-NP
+flack I-NP I-NP
+reserve I-NP I-NP
+
+near B-NP B-NP
+sweeny I-NP I-NP
+reserve I-NP I-NP
+
+swing B-NP O
+set I-NP O
+
+lake B-NP B-NP
+park B-NP I-NP
+
+at B-NP B-NP
+my I-NP I-NP
+house I-NP I-NP
+in B-NP B-NP
+beacy I-NP I-NP
+
+ipswich B-NP O
+
+narre B-NP B-NP
+warren I-NP I-NP
+central I-NP I-NP
+
+airport B-NP B-NP
+west I-NP I-NP
+
+clocktower B-NP B-NP
+
+center B-NP B-NP
+road I-NP I-NP
+
+near B-NP B-NP
+rowville I-NP I-NP
+
+kilcunda B-NP B-NP
+
+dandenong B-NP B-NP
+
+bundoora B-NP B-NP
+
+malvern B-NP B-NP
+east I-NP I-NP
+
+no O O
+place O O
+like O O
+home B-NP O
+
+near B-NP B-NP
+balla I-NP I-NP
+
+jb B-NP B-NP
+hifi I-NP I-NP
+brouk B-NP I-NP
+st I-NP I-NP
+
+brents B-NP B-NP
+house I-NP I-NP
+
+beacy B-NP B-NP
+
+sofas B-NP B-NP
+pizza I-NP I-NP
+
+uni B-NP O
+
+cop B-NP O
+
+donny B-NP B-NP
+
+blaclburn B-NP B-NP
+
+on B-NP B-NP
+the I-NP I-NP
+yarra I-NP I-NP
+
+walking O O
+up B-NP O
+swan I-NP B-NP
+street I-NP I-NP
+
+mulgrve B-NP B-NP
+
+dandenong B-NP B-NP
+apple B-NP I-NP
+
+hallam B-NP B-NP
+
+at B-NP B-NP
+train I-NP I-NP
+station I-NP I-NP
+
+by B-NP B-NP
+the I-NP I-NP
+beautiful I-NP I-NP
+secret I-NP I-NP
+harbour I-NP I-NP
+links B-NP I-NP
+golf I-NP I-NP
+course I-NP I-NP
+
+red B-NP B-NP
+rooter I-NP I-NP
+
+nobel B-NP B-NP
+park I-NP I-NP
+
+near B-NP B-NP
+craigie I-NP I-NP
+
+bear O B-NP
+trap O I-NP
+
+on B-NP B-NP
+the I-NP I-NP
+creek I-NP I-NP
+
+sa O O
+
+beconafield B-NP B-NP
+upper I-NP I-NP
+
+glasscocks B-NP B-NP
+
+narre B-NP B-NP
+spih O I-NP
+
+thompson B-NP B-NP
+road I-NP I-NP
+
+princes B-NP B-NP
+
+policd B-NP B-NP
+
+roville B-NP B-NP
+
+about O O
+to O O
+have O O
+baby O O
+in B-NP B-NP
+narre I-NP I-NP
+
+water B-NP B-NP
+
+pi B-NP O
+
+southern B-NP B-NP
+cross I-NP I-NP
+station I-NP I-NP
+
+babel B-NP B-NP
+building I-NP I-NP
+melbourne B-NP I-NP
+uni I-NP I-NP
+
+vmax O B-NP
+
+westfield B-NP B-NP
+
+tram B-NP B-NP
+station I-NP I-NP
+in O O
+front O O
+of B-NP B-NP
+victoria I-NP I-NP
+market I-NP I-NP
+
+freway B-NP B-NP
+
+koo B-NP O
+wee I-NP O
+rup I-NP O
+
+in B-NP B-NP
+paky I-NP I-NP
+
+near B-NP B-NP
+epping I-NP I-NP
+
+heading O O
+through B-NP B-NP
+craigie I-NP I-NP
+
+ringwood B-NP B-NP
+
+sticks O O
+
+water B-NP B-NP
+plant I-NP I-NP
+
+cranny B-NP B-NP
+
+somerville B-NP B-NP
+
+bailleau B-NP B-NP
+library I-NP I-NP
+, I-NP I-NP
+university I-NP I-NP
+of I-NP I-NP
+melbourne I-NP I-NP
+
+narre B-NP B-NP
+north I-NP I-NP
+
+indian O B-NP
+
+moorabin B-NP B-NP
+
+st B-NP B-NP
+. I-NP I-NP
+kilda I-NP I-NP
+footy I-NP I-NP
+club I-NP I-NP
+
+hippo O B-NP
+
+perth O O
+cbd O O
+
+toowoomba O B-NP
+
+east B-NP B-NP
+hawthorn I-NP I-NP
+
+federation B-NP B-NP
+square I-NP I-NP
+
+glen B-NP B-NP
+iris I-NP I-NP
+
+brougham B-NP B-NP
+street I-NP I-NP
+
+malvern B-NP B-NP
+east I-NP I-NP
+, I-NP I-NP
+vic I-NP I-NP
+, I-NP I-NP
+australia I-NP I-NP
+
+23 B-NP B-NP
+wiseman B-NP B-NP
+st I-NP I-NP
+hawthorn B-NP B-NP
+east I-NP I-NP
+
+iris B-NP B-NP
+road I-NP I-NP
+, I-NP O
+glen I-NP O
+iris I-NP O
+, I-NP O
+victoria I-NP B-NP
+, I-NP I-NP
+australia I-NP I-NP
+
+melbourne B-NP B-NP
+cbd B-NP I-NP
+
+willis B-NP B-NP
+street I-NP I-NP
+, I-NP O
+hampton I-NP O
+, I-NP O
+3188 I-NP O
+, I-NP O
+australia I-NP O
+
+willis B-NP B-NP
+street I-NP I-NP
+, I-NP O
+hamoton I-NP O
+, I-NP O
+3188 I-NP O
+, I-NP O
+australia I-NP O
+
+i O O
+am O O
+in B-NP B-NP
+my I-NP I-NP
+mother I-NP I-NP
+\ I-NP I-NP
+' I-NP I-NP
+s I-NP I-NP
+house I-NP I-NP
+, O O
+in B-NP B-NP
+her I-NP I-NP
+guest I-NP I-NP
+room I-NP I-NP
+, O O
+at B-NP B-NP
+campbell I-NP I-NP
+street I-NP I-NP
+in B-NP B-NP
+tecoma I-NP I-NP
+, O O
+just O O
+behind B-NP B-NP
+the I-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+. O O
+
+main B-NP B-NP
+building I-NP I-NP
+, I-NP I-NP
+ormond I-NP I-NP
+college I-NP I-NP
+, I-NP I-NP
+university I-NP I-NP
+of I-NP I-NP
+melbourne I-NP I-NP
+. O O
+
+ormond B-NP B-NP
+college I-NP I-NP
+, I-NP I-NP
+university I-NP I-NP
+of I-NP I-NP
+melbourne I-NP I-NP
+. O O
+
+ormond B-NP B-NP
+college I-NP I-NP
+, I-NP I-NP
+university I-NP I-NP
+of I-NP I-NP
+melbourne I-NP I-NP
+
+napier B-NP B-NP
+street I-NP I-NP
+fitzroy B-NP B-NP
+
+in O B-NP
+the O I-NP
+dawn O I-NP
+, O I-NP
+thornbury B-NP I-NP
+, O O
+near B-NP B-NP
+the I-NP I-NP
+creek I-NP I-NP
+
+rmit B-NP B-NP
+university I-NP I-NP
+cnr B-NP O
+latrobe B-NP O
+and I-NP O
+swanston I-NP O
+sts I-NP O
+
+burramine B-NP B-NP
+south I-NP I-NP
+
+1 B-NP B-NP
+bewdley B-NP B-NP
+st I-NP I-NP
+ormond B-NP B-NP
+vic B-NP I-NP
+on B-NP B-NP
+the I-NP I-NP
+corner I-NP I-NP
+of I-NP I-NP
+walnut I-NP I-NP
+st I-NP I-NP
+, O O
+off O B-NP
+north O I-NP
+rd O I-NP
+, O O
+directly O O
+behind B-NP B-NP
+mckinnon I-NP I-NP
+secondary I-NP I-NP
+college I-NP I-NP
+opposite B-NP B-NP
+the I-NP I-NP
+back I-NP I-NP
+entrance I-NP I-NP
+to B-NP B-NP
+the I-NP I-NP
+sports I-NP I-NP
+oval I-NP I-NP
+
+carlton B-NP B-NP
+
+warrion B-NP B-NP
+
+john B-NP B-NP
+street I-NP I-NP
+williamstown B-NP B-NP
+
+at B-NP B-NP
+my I-NP I-NP
+mother I-NP I-NP
+\ I-NP I-NP
+' I-NP I-NP
+s I-NP I-NP
+house I-NP I-NP
+in B-NP B-NP
+port I-NP I-NP
+fairy I-NP I-NP
+
+glen B-NP B-NP
+waverely I-NP I-NP
+
+near B-NP B-NP
+camberwell I-NP I-NP
+junction B-NP I-NP
+
+federation B-NP B-NP
+square I-NP I-NP
+, I-NP I-NP
+cnr B-NP I-NP
+flinders I-NP I-NP
+street I-NP I-NP
+and I-NP I-NP
+swanston I-NP I-NP
+street I-NP I-NP
+
+federation B-NP B-NP
+square I-NP I-NP
+corner B-NP I-NP
+st B-NP I-NP
+kilda I-NP I-NP
+road I-NP I-NP
+and I-NP I-NP
+flinders I-NP I-NP
+street I-NP I-NP
+, I-NP O
+melbourne I-NP B-NP
+vic B-NP I-NP
+3000 B-NP B-NP
+
+halfway O O
+down B-NP B-NP
+hill I-NP I-NP
+st I-NP I-NP
+of I-NP I-NP
+church I-NP I-NP
+street I-NP I-NP
+in B-NP B-NP
+hawthorn I-NP I-NP
+
+richmond B-NP B-NP
+
+corner B-NP B-NP
+of I-NP I-NP
+park I-NP I-NP
+and I-NP I-NP
+parry I-NP I-NP
+st I-NP I-NP
+. O O
+on O O
+the O O
+right O O
+hand O O
+side O O
+. O O
+big B-NP B-NP
+house I-NP I-NP
+, O I-NP
+two O I-NP
+storey O I-NP
+. O O
+near B-NP B-NP
+the I-NP I-NP
+railway I-NP I-NP
+crossing I-NP I-NP
+. O O
+
+8 B-NP B-NP
+exhibition B-NP B-NP
+street I-NP I-NP
+, I-NP I-NP
+melbourne I-NP I-NP
+3000 B-NP B-NP
+
+i O O
+am O O
+in B-NP B-NP
+st I-NP I-NP
+kilda I-NP I-NP
+road I-NP I-NP
+, I-NP I-NP
+melbourne I-NP I-NP
+, I-NP I-NP
+two I-NP I-NP
+buildings I-NP I-NP
+east O I-NP
+of B-NP I-NP
+the I-NP I-NP
+police I-NP I-NP
+headquarters I-NP I-NP
+. O O
+almost O O
+opposite O O
+is O O
+the B-NP B-NP
+royce I-NP I-NP
+hotel I-NP I-NP
+and O I-NP
+from B-NP I-NP
+my I-NP I-NP
+13 I-NP I-NP
+th I-NP I-NP
+floor I-NP I-NP
+balcony I-NP I-NP
+i O I-NP
+can O I-NP
+see O I-NP
+on O O
+my O O
+left O O
+melbourne B-NP B-NP
+grammar I-NP I-NP
+school I-NP I-NP
+, I-NP O
+the I-NP O
+botanical I-NP B-NP
+gardens I-NP I-NP
+and I-NP I-NP
+the I-NP I-NP
+shrine I-NP I-NP
+of I-NP I-NP
+remembrance I-NP I-NP
+to O O
+my O O
+right O O
+is O O
+the B-NP B-NP
+synagogue I-NP I-NP
+and I-NP I-NP
+fawkner I-NP I-NP
+park I-NP I-NP
+. O O
+
+i O O
+\ O O
+' O O
+m O O
+stuck O O
+between O B-NP
+a O I-NP
+children O I-NP
+\ O I-NP
+' O I-NP
+s O I-NP
+playground O I-NP
+, O I-NP
+a O I-NP
+retirement O I-NP
+village O I-NP
+, O I-NP
+a O I-NP
+new O I-NP
+building O I-NP
+site O I-NP
+and O I-NP
+a O I-NP
+defiant O I-NP
+old O I-NP
+fisherman O I-NP
+\ O I-NP
+' O I-NP
+s O I-NP
+shack O I-NP
+, O O
+a O O
+microcosm O O
+of O B-NP
+this O I-NP
+strange O I-NP
+little O I-NP
+town O I-NP
+that O O
+\ O O
+' O O
+s O O
+growing O O
+up O O
+do O O
+fast O O
+. O O
+
+in B-NP B-NP
+the I-NP I-NP
+basement I-NP I-NP
+carpark I-NP I-NP
+of I-NP I-NP
+the I-NP I-NP
+mcg I-NP I-NP
+
+redfern B-NP B-NP
+road I-NP I-NP
+, I-NP O
+hawthorn I-NP O
+east I-NP O
+
+redfern B-NP B-NP
+road I-NP I-NP
+hawthorn B-NP B-NP
+east I-NP I-NP
+
+i O O
+\ O O
+' O O
+m O O
+an O O
+expat O O
+australian O O
+currently O O
+living O O
+and O O
+working O O
+in O B-NP
+brussels O I-NP
+, O I-NP
+belgium O I-NP
+. O O
+when O O
+in O B-NP
+australia O I-NP
+, O I-NP
+i O I-NP
+stay O I-NP
+with O O
+family O O
+in O B-NP
+cole O I-NP
+st O I-NP
+brighton O I-NP
+, O O
+vic O O
+
+i O O
+am O O
+at B-NP B-NP
+the I-NP I-NP
+corner I-NP I-NP
+of I-NP I-NP
+flinders I-NP I-NP
+st I-NP I-NP
+and I-NP I-NP
+st I-NP I-NP
+kilda I-NP I-NP
+rd I-NP I-NP
+. O O
+opposite O O
+is O O
+flinders B-NP B-NP
+st I-NP I-NP
+station I-NP I-NP
+and O O
+on B-NP O
+the I-NP O
+other I-NP O
+corners I-NP O
+are O O
+young B-NP O
+and I-NP O
+jacksons I-NP B-NP
+and I-NP I-NP
+st I-NP I-NP
+pauls I-NP I-NP
+cathedral I-NP I-NP
+. O O
+
+on B-NP B-NP
+old I-NP I-NP
+lorne I-NP I-NP
+road I-NP I-NP
+deans B-NP O
+marsh I-NP O
+off B-NP O
+the I-NP O
+winchelsea I-NP O
+- I-NP O
+lorne I-NP B-NP
+road I-NP I-NP
+in B-NP B-NP
+deans I-NP I-NP
+marsh I-NP I-NP
+victoria B-NP I-NP
+
+x O O
+
+i O O
+am O O
+sitting O O
+in B-NP B-NP
+an I-NP I-NP
+office I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+sidney I-NP I-NP
+myer I-NP I-NP
+asia I-NP I-NP
+centre I-NP I-NP
+at B-NP B-NP
+the I-NP I-NP
+university I-NP I-NP
+of I-NP I-NP
+melbourne I-NP I-NP
+. O O
+
+i O O
+\ O O
+' O O
+m O O
+in B-NP B-NP
+an I-NP I-NP
+office I-NP I-NP
+. O I-NP
+i O I-NP
+can O I-NP
+see O I-NP
+the B-NP I-NP
+oval I-NP I-NP
+and I-NP I-NP
+the I-NP I-NP
+colleges I-NP I-NP
+and I-NP I-NP
+a I-NP I-NP
+lot I-NP I-NP
+of I-NP I-NP
+trees I-NP I-NP
+. O O
+
+i O O
+am O O
+in B-NP B-NP
+my I-NP I-NP
+office I-NP I-NP
+at O B-NP
+the O I-NP
+united O I-NP
+faculty O I-NP
+of O I-NP
+theology O I-NP
+, O O
+within B-NP O
+the I-NP O
+centre I-NP O
+for I-NP O
+theology I-NP O
+and I-NP O
+ministry I-NP O
+at B-NP B-NP
+29 I-NP I-NP
+college B-NP I-NP
+crescent I-NP I-NP
+, I-NP I-NP
+parkville I-NP I-NP
+, O O
+directly O O
+opposite B-NP B-NP
+the I-NP I-NP
+melbourne I-NP I-NP
+general I-NP I-NP
+cemetery I-NP I-NP
+main B-NP O
+gate I-NP O
+. O O
+
+222 B-NP B-NP
+exhibition B-NP B-NP
+street I-NP I-NP
+melbounre B-NP I-NP
+
+i O O
+am O O
+at B-NP B-NP
+1 I-NP I-NP
+collins B-NP I-NP
+street I-NP I-NP
+where O O
+i O O
+work O O
+, O O
+it O O
+is O O
+across B-NP O
+the I-NP O
+road I-NP O
+from B-NP B-NP
+parliament I-NP I-NP
+house I-NP I-NP
+
+in B-NP B-NP
+northern I-NP I-NP
+brunswick I-NP I-NP
+, O O
+just O O
+off O O
+albion B-NP B-NP
+st I-NP I-NP
+next O O
+to B-NP B-NP
+north I-NP I-NP
+brunswick I-NP I-NP
+primary B-NP I-NP
+school I-NP I-NP
+
+10 O O
+k O O
+east O O
+of B-NP B-NP
+melbourne I-NP I-NP
+, O I-NP
+1 O I-NP
+k O I-NP
+north O I-NP
+of B-NP I-NP
+camberwell I-NP I-NP
+station I-NP I-NP
+, O O
+near B-NP O
+the I-NP O
+t I-NP O
+junction I-NP O
+of I-NP B-NP
+barkers I-NP I-NP
+rd I-NP I-NP
+and I-NP I-NP
+burke I-NP I-NP
+rd I-NP I-NP
+, O O
+just O O
+off O B-NP
+harcourt B-NP I-NP
+st I-NP I-NP
+. O O
+
+hillview B-NP B-NP
+drive I-NP I-NP
+, I-NP I-NP
+kilsyth I-NP I-NP
+
+25 B-NP B-NP
+malmsbury B-NP B-NP
+st I-NP I-NP
+hawthorn B-NP B-NP
+
+1 B-NP B-NP
+/ O O
+25 B-NP B-NP
+malmsbury B-NP B-NP
+st I-NP I-NP
+hawthorn B-NP B-NP
+vic B-NP B-NP
+australia B-NP B-NP
+
+258 B-NP B-NP
+queensberry B-NP B-NP
+street I-NP I-NP
+, I-NP I-NP
+melbourne I-NP I-NP
+
+at B-NP B-NP
+federation I-NP I-NP
+square I-NP I-NP
+
+unit B-NP B-NP
+1 I-NP I-NP
+25 B-NP B-NP
+malmsbury B-NP B-NP
+st I-NP I-NP
+hawthorn B-NP B-NP
+vic B-NP B-NP
+
+healthcare B-NP B-NP
+chaplaincy I-NP I-NP
+council I-NP I-NP
+of I-NP I-NP
+victoria I-NP I-NP
+
+on O O
+the O O
+south O O
+side O O
+of B-NP B-NP
+cumming I-NP I-NP
+st I-NP I-NP
+about O O
+75 O O
+metres O O
+from B-NP B-NP
+melville I-NP I-NP
+road I-NP I-NP
+in B-NP B-NP
+brunswick I-NP I-NP
+west I-NP I-NP
+. O O
+
+456 B-NP B-NP
+lonsdale B-NP B-NP
+street I-NP I-NP
+, O O
+between B-NP B-NP
+queen I-NP I-NP
+and I-NP I-NP
+william I-NP I-NP
+streets I-NP I-NP
+. O O
+
+information B-NP B-NP
+centre I-NP I-NP
+, I-NP I-NP
+university I-NP I-NP
+of I-NP I-NP
+melbourne I-NP I-NP
+, I-NP I-NP
+swanston I-NP I-NP
+st I-NP I-NP
+
+fed B-NP B-NP
+square I-NP I-NP
+
+brunettis B-NP B-NP
+
+20 B-NP B-NP
+queen B-NP B-NP
+street I-NP I-NP
+
+12 B-NP B-NP
+th I-NP I-NP
+floor I-NP I-NP
+, I-NP I-NP
+the I-NP I-NP
+spot I-NP I-NP
+building I-NP I-NP
+
+i O O
+\ O O
+' O O
+m O O
+in B-NP B-NP
+an I-NP I-NP
+office I-NP I-NP
+on B-NP B-NP
+the I-NP I-NP
+eighth I-NP I-NP
+floor I-NP I-NP
+. O O
+my B-NP B-NP
+office I-NP I-NP
+doesn O I-NP
+\ O O
+' O O
+t O O
+have O O
+windows B-NP O
+, O O
+but O O
+if O O
+i O O
+look O O
+through O B-NP
+my O I-NP
+glass B-NP I-NP
+door I-NP I-NP
+i O O
+can O O
+see O O
+across B-NP B-NP
+the I-NP I-NP
+university I-NP I-NP
+campus I-NP O
+to B-NP B-NP
+the I-NP I-NP
+redmond I-NP I-NP
+barry I-NP I-NP
+building I-NP I-NP
+. O O
+i O O
+can O O
+hear O O
+the O O
+hum O O
+of B-NP O
+the I-NP O
+airconditioner I-NP O
+and O O
+the O O
+sound O O
+of O O
+typing O O
+. O O
+i O O
+\ O O
+' O O
+m O O
+surrounded O O
+by O B-NP
+books O I-NP
+and O I-NP
+papers O I-NP
+and O I-NP
+photographs O I-NP
+. O O
+
+i O O
+\ O O
+' O O
+m O O
+sitting O O
+on B-NP B-NP
+a I-NP I-NP
+bench I-NP I-NP
+. O O
+near B-NP B-NP
+a I-NP I-NP
+building I-NP I-NP
+. O O
+i O O
+think O O
+it O O
+\ O O
+' O O
+s O B-NP
+a B-NP I-NP
+public I-NP I-NP
+building I-NP I-NP
+. O O
+there O O
+is O O
+a B-NP B-NP
+busy I-NP I-NP
+road I-NP I-NP
+nearby O O
+. O O
+there O O
+are O O
+some B-NP O
+grassy I-NP O
+sculptures I-NP O
+. O O
+and O O
+bike B-NP O
+racks I-NP O
+. O O
+and O O
+a B-NP B-NP
+car I-NP I-NP
+park I-NP I-NP
+nearby O O
+. O O
+i O O
+think O O
+the B-NP B-NP
+neaby I-NP I-NP
+building I-NP I-NP
+is O O
+a B-NP B-NP
+council I-NP I-NP
+building I-NP I-NP
+. O O
+it O O
+is O O
+a O O
+few O O
+decades O O
+old O O
+. O O
+there O O
+are O O
+lots O O
+of O O
+people O O
+coming O O
+and O O
+going O O
+from B-NP B-NP
+the I-NP I-NP
+building I-NP I-NP
+. O O
+lots O O
+of O B-NP
+kids O I-NP
+too O I-NP
+. O O
+
+corner B-NP B-NP
+of I-NP I-NP
+grattan I-NP I-NP
+street I-NP I-NP
+and I-NP I-NP
+barry I-NP I-NP
+street I-NP I-NP
+, I-NP I-NP
+carlton I-NP I-NP
+, I-NP I-NP
+victoria I-NP I-NP
+, I-NP I-NP
+australia I-NP I-NP
+
+i O O
+live O O
+in B-NP B-NP
+a I-NP I-NP
+leafy I-NP I-NP
+street I-NP I-NP
+which O O
+has O O
+a B-NP O
+footpath I-NP O
+running O O
+down O O
+one O O
+side O O
+. O O
+it O O
+is O O
+a B-NP B-NP
+beautiful I-NP I-NP
+tranquil I-NP I-NP
+area I-NP I-NP
+with O O
+many O O
+family O O
+connections O O
+for O O
+me O O
+. O O
+ith O O
+a O O
+
+corner B-NP B-NP
+of I-NP I-NP
+como I-NP I-NP
+parade I-NP I-NP
+east I-NP I-NP
+and I-NP I-NP
+parkers I-NP I-NP
+road I-NP I-NP
+, O O
+in B-NP B-NP
+the I-NP I-NP
+library I-NP I-NP
+building I-NP I-NP
+, O O
+next O O
+to O B-NP
+the O I-NP
+bee B-NP I-NP
+shop I-NP I-NP
+and O O
+across O O
+from B-NP B-NP
+the I-NP I-NP
+parkdale I-NP I-NP
+railway I-NP I-NP
+station I-NP I-NP
+
+402 B-NP B-NP
+station B-NP B-NP
+street I-NP I-NP
+carlton B-NP B-NP
+north I-NP I-NP
+
+bungendore O B-NP
+
+11 B-NP B-NP
+grosvenor B-NP B-NP
+pde I-NP I-NP
+, I-NP I-NP
+balwyn I-NP I-NP
+, I-NP I-NP
+vic I-NP I-NP
+, I-NP I-NP
+3103 I-NP I-NP
+
+21 B-NP B-NP
+yarra B-NP B-NP
+grove I-NP I-NP
+, I-NP I-NP
+hawthorn I-NP I-NP
+
+402 B-NP B-NP
+station B-NP B-NP
+street I-NP I-NP
+north B-NP B-NP
+carlton I-NP I-NP
+
+on O B-NP
+the O I-NP
+border O I-NP
+between B-NP B-NP
+the I-NP I-NP
+old I-NP I-NP
+workers I-NP I-NP
+\ I-NP O
+' I-NP O
+district I-NP O
+and I-NP O
+a I-NP O
+new I-NP O
+industrial I-NP O
+zone I-NP O
+, O O
+now O O
+turning O O
+into B-NP O
+a I-NP O
+very I-NP O
+desirable I-NP O
+inner I-NP O
+- I-NP O
+city I-NP B-NP
+suburban I-NP I-NP
+area I-NP I-NP
+. O O
+
+63 B-NP B-NP
+exhibition B-NP B-NP
+street I-NP I-NP
+
+level B-NP B-NP
+6 I-NP I-NP
+, I-NP I-NP
+1 I-NP I-NP
+collins B-NP I-NP
+st I-NP I-NP
+melbourne B-NP I-NP
+
+121 B-NP B-NP
+exhibition B-NP B-NP
+st I-NP I-NP
+, I-NP I-NP
+melbourne I-NP I-NP
+
+63 B-NP B-NP
+exhibition B-NP B-NP
+streetr I-NP I-NP
+
+south B-NP B-NP
+yarra I-NP I-NP
+
+kirribilli B-NP B-NP
+
+state O B-NP
+records O I-NP
+office O I-NP
+of O I-NP
+western O I-NP
+australia O I-NP
+, O I-NP
+alexander O I-NP
+library O I-NP
+building O I-NP
+, O I-NP
+perth O I-NP
+cultural O I-NP
+centre O I-NP
+, O O
+perth O O
+, O O
+western O O
+australia O O
+, O O
+6000 O O
+
+corner B-NP B-NP
+grey B-NP I-NP
+& O O
+simpson B-NP B-NP
+street I-NP I-NP
+
+starbucks B-NP B-NP
+swanston B-NP I-NP
+st I-NP I-NP
+
+university O B-NP
+of O I-NP
+canberra O I-NP
+, O O
+act O O
+
+108 B-NP B-NP
+lonsdale B-NP B-NP
+st I-NP I-NP
+melbourne B-NP B-NP
+
+108 B-NP B-NP
+lonsdale B-NP B-NP
+st I-NP I-NP
+. O I-NP
+melbourne B-NP I-NP
+
+at B-NP B-NP
+work I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+law I-NP I-NP
+building I-NP I-NP
+on O O
+xmas O O
+eve O O
+eve O O
+
+jackson B-NP B-NP
+st I-NP I-NP
+richmond B-NP B-NP
+
+i O O
+\ O O
+' O O
+m O O
+in O B-NP
+my O I-NP
+tropical O I-NP
+louvred O I-NP
+home O I-NP
+surrounded O O
+by O B-NP
+lush O I-NP
+moist O I-NP
+garden O I-NP
+in O B-NP
+millner O I-NP
+a O I-NP
+darwin O I-NP
+suburb O I-NP
+. O O
+
+i O O
+am O O
+in O B-NP
+the O I-NP
+executive O I-NP
+building O I-NP
+at O B-NP
+15 O I-NP
+murray O B-NP
+st O I-NP
+, O O
+hobart O O
+. O O
+
+cheltenham B-NP B-NP
+
+from O B-NP
+the O I-NP
+nepean B-NP I-NP
+hwy I-NP I-NP
+service B-NP I-NP
+road I-NP I-NP
+, O O
+going O O
+* O O
+towards O B-NP
+* O I-NP
+mentone B-NP I-NP
+beach I-NP I-NP
+, O O
+turn O O
+left O O
+into B-NP O
+swinden I-NP O
+ave I-NP O
+i O O
+. O O
+e O O
+. O O
+before B-NP B-NP
+the I-NP I-NP
+royal I-NP I-NP
+oak I-NP I-NP
+hotel I-NP I-NP
+. O O
+my B-NP B-NP
+house I-NP I-NP
+is O O
+on O O
+the O O
+lhs O O
+about O O
+1 O O
+/ O O
+3 O O
+of O O
+the O O
+way O O
+up B-NP O
+the I-NP B-NP
+street I-NP I-NP
+. O O
+it O O
+has O O
+a B-NP O
+mushroom I-NP O
+pink I-NP O
+/ I-NP O
+brown I-NP O
+wire I-NP O
+1940 I-NP O
+s I-NP O
+style I-NP O
+fence I-NP B-NP
+and I-NP I-NP
+a I-NP I-NP
+double I-NP I-NP
+carport I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+driveway I-NP I-NP
+. O O
+ps O O
+i O O
+\ O O
+' O O
+d O O
+* O O
+hate O O
+* O O
+to O O
+see O O
+the O O
+development O O
+of O O
+automated O O
+systems O O
+for O B-NP
+emergency O I-NP
+services O I-NP
+, O O
+not O O
+if O O
+telstra O O
+\ O O
+' O O
+s O O
+automated O O
+service O O
+is O O
+anything O O
+to O O
+go O O
+by O O
+. O O
+
+@ O O
+my B-NP O
+art I-NP O
+studio I-NP O
+
+at B-NP B-NP
+my I-NP I-NP
+art I-NP I-NP
+studio I-NP I-NP
+
+tyndall B-NP B-NP
+street I-NP I-NP
+, I-NP O
+surrey I-NP O
+hills I-NP O
+, O O
+off B-NP B-NP
+highfield I-NP I-NP
+road I-NP I-NP
+near B-NP B-NP
+canterbury I-NP I-NP
+primary I-NP I-NP
+school I-NP I-NP
+. O O
+
+flinders B-NP B-NP
+street I-NP I-NP
+station I-NP I-NP
+
+northwest B-NP B-NP
+corner I-NP I-NP
+of I-NP I-NP
+king I-NP I-NP
+street I-NP I-NP
+and I-NP I-NP
+flinders I-NP I-NP
+lane I-NP I-NP
+, I-NP I-NP
+melbourne I-NP I-NP
+
+whitley B-NP B-NP
+college I-NP I-NP
+, I-NP I-NP
+271 I-NP I-NP
+royal B-NP I-NP
+pde I-NP I-NP
+parkville B-NP I-NP
+
+73 B-NP B-NP
+york B-NP B-NP
+street I-NP I-NP
+richmond B-NP B-NP
+3121 B-NP B-NP
+
+360 B-NP B-NP
+collins B-NP B-NP
+street I-NP I-NP
+
+i O O
+am O O
+located O O
+on O B-NP
+the O I-NP
+grange O I-NP
+estate O I-NP
+on O O
+the O O
+eastern O O
+side O O
+of B-NP B-NP
+jacksons I-NP I-NP
+hill I-NP I-NP
+within B-NP O
+the I-NP O
+precincts I-NP O
+of I-NP O
+the I-NP O
+township I-NP O
+of I-NP O
+sunbury I-NP O
+approximately O O
+40 O O
+kms O O
+from B-NP B-NP
+the I-NP I-NP
+centre I-NP I-NP
+of I-NP I-NP
+melbourne I-NP I-NP
+. O O
+
+exhibition B-NP B-NP
+street I-NP I-NP
+
+i O O
+am O O
+in B-NP B-NP
+west I-NP I-NP
+footscray I-NP I-NP
+at B-NP B-NP
+71 I-NP I-NP
+pitt B-NP B-NP
+st I-NP I-NP
+this O O
+is O O
+a B-NP B-NP
+street I-NP I-NP
+that O O
+runs O O
+off B-NP O
+ashley I-NP B-NP
+st I-NP I-NP
+opposite B-NP B-NP
+a I-NP I-NP
+shopping I-NP I-NP
+centre I-NP I-NP
+called O I-NP
+central O I-NP
+west O I-NP
+. O O
+i O O
+am O O
+about O O
+10 O O
+minutes O O
+walk O O
+from B-NP B-NP
+tottenham I-NP I-NP
+station I-NP I-NP
+
+brenbeal B-NP B-NP
+st I-NP I-NP
+balwyn B-NP B-NP
+3103 O B-NP
+
+in B-NP B-NP
+my I-NP I-NP
+office I-NP I-NP
+on B-NP B-NP
+the I-NP I-NP
+second I-NP I-NP
+floor I-NP I-NP
+of I-NP I-NP
+the I-NP I-NP
+baldwin I-NP I-NP
+spencer I-NP I-NP
+building I-NP I-NP
+, I-NP I-NP
+corner I-NP I-NP
+of I-NP I-NP
+tin I-NP I-NP
+alley I-NP I-NP
+and I-NP I-NP
+union I-NP I-NP
+rd I-NP I-NP
+at B-NP B-NP
+the I-NP I-NP
+university I-NP I-NP
+of I-NP I-NP
+melbourne I-NP I-NP
+
+state O B-NP
+records O I-NP
+office O I-NP
+of O I-NP
+wa O I-NP
+
+northbridge O B-NP
+
+st B-NP B-NP
+. I-NP I-NP
+kilda I-NP I-NP
+town B-NP I-NP
+hall I-NP I-NP
+
+sitting O O
+opposite O O
+a O O
+yellow O O
+pos O O
+
+28 B-NP B-NP
+webster B-NP B-NP
+street I-NP I-NP
+, I-NP O
+camberwell I-NP O
+3124 B-NP O
+
+don B-NP B-NP
+street I-NP I-NP
+. O O
+, O O
+bendigo B-NP O
+
+yarra B-NP O
+\ I-NP O
+' I-NP O
+s I-NP O
+edge I-NP O
+, I-NP O
+lorimer I-NP B-NP
+street I-NP I-NP
+docklands B-NP B-NP
+
+60 B-NP B-NP
+lorimer B-NP B-NP
+street I-NP I-NP
+, I-NP O
+docklands I-NP O
+3008 B-NP O
+
+on B-NP B-NP
+the I-NP I-NP
+footpath I-NP I-NP
+in B-NP B-NP
+a I-NP I-NP
+little I-NP I-NP
+side I-NP I-NP
+street I-NP I-NP
+. O O
+
+a B-NP B-NP
+warm I-NP I-NP
+happy I-NP I-NP
+place I-NP I-NP
+with O O
+my O O
+cat O O
+
+27 B-NP B-NP
+george B-NP B-NP
+st I-NP I-NP
+moonee B-NP B-NP
+ponds I-NP I-NP
+
+on B-NP B-NP
+tram I-NP I-NP
+going O O
+down B-NP B-NP
+royal I-NP I-NP
+parade I-NP I-NP
+
+having O O
+dinner O O
+at B-NP B-NP
+southbank I-NP I-NP
+
+canberra O B-NP
+
+melba B-NP B-NP
+
+near B-NP B-NP
+curtain I-NP I-NP
+street I-NP I-NP
+north B-NP B-NP
+carlton I-NP I-NP
+
+1 B-NP B-NP
+larado B-NP B-NP
+place I-NP I-NP
+, I-NP O
+clayton I-NP O
+south I-NP O
+3169 B-NP O
+
+on O O
+the O O
+south O O
+western O O
+side O O
+of B-NP B-NP
+the I-NP I-NP
+road I-NP I-NP
+at O B-NP
+the O I-NP
+merri B-NP I-NP
+river I-NP I-NP
+bridge B-NP I-NP
+woodford B-NP I-NP
+
+history B-NP B-NP
+house I-NP I-NP
+, O I-NP
+warrnambool O I-NP
+and O I-NP
+district O I-NP
+historical B-NP I-NP
+society I-NP I-NP
+, I-NP I-NP
+gilles I-NP I-NP
+street I-NP I-NP
+warrnambool B-NP B-NP
+
+mother B-NP B-NP
+\ I-NP I-NP
+' I-NP I-NP
+s I-NP I-NP
+house I-NP I-NP
+99 B-NP I-NP
+high B-NP B-NP
+street I-NP I-NP
+koroit B-NP I-NP
+
+devon B-NP B-NP
+meddows I-NP I-NP
+
+ascot B-NP B-NP
+vale I-NP I-NP
+
+corner B-NP B-NP
+of I-NP I-NP
+russell I-NP I-NP
+and I-NP I-NP
+la I-NP I-NP
+trobe I-NP I-NP
+sts I-NP I-NP
+
+i O O
+\ O O
+' O O
+m O O
+in O B-NP
+the O I-NP
+north O I-NP
+- O I-NP
+east O I-NP
+corner B-NP I-NP
+of I-NP I-NP
+warragul I-NP I-NP
+, O O
+as O O
+close O O
+as O O
+you O O
+can O O
+be O O
+to O O
+lillico B-NP O
+while O O
+being O O
+in B-NP O
+warragul I-NP O
+. O O
+i O O
+am O O
+literally O O
+on B-NP O
+the I-NP O
+edge I-NP O
+of I-NP B-NP
+town I-NP I-NP
+. O O
+i O O
+am O O
+across B-NP O
+the I-NP O
+paddock I-NP O
+from O B-NP
+the O I-NP
+old B-NP I-NP
+warragul I-NP I-NP
+drive I-NP I-NP
+- O O
+in B-NP B-NP
+cinema I-NP I-NP
+. O O
+the O O
+address O O
+is O O
+23 B-NP B-NP
+nicolas B-NP B-NP
+crt I-NP I-NP
+. O O
+it O O
+used O O
+to O O
+be O O
+called O O
+bunyip B-NP B-NP
+crt I-NP I-NP
+. O O
+
+i O O
+am O O
+currently O O
+at B-NP B-NP
+home I-NP I-NP
+in B-NP B-NP
+the I-NP I-NP
+sixth I-NP I-NP
+house I-NP I-NP
+from B-NP B-NP
+the I-NP I-NP
+end I-NP I-NP
+of I-NP I-NP
+princess I-NP I-NP
+st I-NP I-NP
+south I-NP O
+on O O
+the O O
+left O O
+hand O O
+side O O
+as O O
+you O O
+enter O B-NP
+the B-NP I-NP
+street I-NP I-NP
+from B-NP B-NP
+brougham I-NP I-NP
+st I-NP I-NP
+. O O
+i O O
+am O O
+in B-NP B-NP
+richmond I-NP I-NP
+, I-NP I-NP
+a I-NP I-NP
+suburb I-NP I-NP
+about O I-NP
+three O I-NP
+kilometres O I-NP
+directly O O
+east O O
+of B-NP B-NP
+the I-NP I-NP
+city I-NP I-NP
+. O O
+brougham B-NP B-NP
+st I-NP I-NP
+runs O O
+east O O
+off B-NP O
+church I-NP O
+st I-NP O
+south O O
+of B-NP B-NP
+bridge I-NP I-NP
+rd I-NP I-NP
+and I-NP I-NP
+princess I-NP I-NP
+st I-NP I-NP
+south O O
+is O O
+the B-NP O
+third I-NP O
+turn I-NP O
+on O O
+the O O
+left O O
+. O O
+if O O
+you O O
+return O O
+to B-NP O
+church I-NP O
+st I-NP O
+and O O
+go O O
+back O O
+north O O
+to B-NP B-NP
+the I-NP I-NP
+corner I-NP I-NP
+of I-NP I-NP
+bridge I-NP I-NP
+rd I-NP I-NP
+and O O
+turn O O
+left O O
+there O O
+and O O
+follow O O
+this B-NP O
+road I-NP O
+which O O
+becomes O O
+wellington B-NP B-NP
+parade I-NP I-NP
+and O O
+later O O
+flinders B-NP O
+st I-NP O
+you O O
+will O O
+arrive O O
+at B-NP B-NP
+federation I-NP I-NP
+square I-NP I-NP
+on O O
+your O O
+left O O
+at B-NP B-NP
+the I-NP I-NP
+corner I-NP I-NP
+of I-NP I-NP
+flinders I-NP I-NP
+st I-NP I-NP
+and I-NP I-NP
+swanston I-NP I-NP
+st I-NP I-NP
+. O O
+
+6 B-NP B-NP
+tarago B-NP B-NP
+court I-NP I-NP
+kialla B-NP I-NP
+vic B-NP B-NP
+3631 B-NP B-NP
+
+overlooking O O
+federation B-NP B-NP
+square I-NP I-NP
+
+97 O B-NP
+ebden O B-NP
+street O I-NP
+, O I-NP
+ainslie O I-NP
+- O O
+starting O O
+at O B-NP
+the O I-NP
+ainslie O I-NP
+shops O I-NP
+, O O
+head O O
+up O O
+the O B-NP
+middle O I-NP
+street O I-NP
+opposite O B-NP
+the O I-NP
+iga O I-NP
+supermarket O I-NP
+, O O
+turn O O
+left O O
+at O O
+the O O
+end O O
+of O B-NP
+the O I-NP
+street O I-NP
+and O O
+head O O
+250 O O
+m O O
+up O B-NP
+the O I-NP
+road O I-NP
+, O I-NP
+with O I-NP
+the O I-NP
+house O I-NP
+the O I-NP
+third O I-NP
+house O I-NP
+on O O
+the O O
+left O O
+before O O
+the O O
+roundabout O O
+. O O
+
+at B-NP B-NP
+home I-NP I-NP
+celebrating O I-NP
+christmas O I-NP
+, O O
+have O O
+a O O
+nice O O
+day O O
+guys O O
+
+in B-NP B-NP
+spencer I-NP I-NP
+st I-NP I-NP
+where O O
+there O O
+is O O
+a B-NP B-NP
+big I-NP I-NP
+shopping I-NP I-NP
+centre I-NP I-NP
+with O O
+the O O
+same O O
+name O O
+as O O
+it O O
+is O O
+located O O
+
+8 O B-NP
+benwerrin O B-NP
+rd O I-NP
+, O I-NP
+wamberal O I-NP
+
+deannas B-NP B-NP
+house I-NP I-NP
+
+monbrae O B-NP
+cir O I-NP
+
+on O B-NP
+my O I-NP
+parents O I-NP
+- O O
+in O O
+- O O
+law O O
+\ O O
+' O O
+s O O
+back B-NP O
+porch I-NP O
+, O O
+overlooking O O
+pine B-NP B-NP
+mountain I-NP I-NP
+. O O
+
+near O B-NP
+legal O I-NP
+wood B-NP I-NP
+street I-NP I-NP
+trying O O
+to O O
+find O O
+take O O
+away O O
+
+near B-NP B-NP
+m I-NP I-NP
+1 I-NP I-NP
+
+91 B-NP B-NP
+church B-NP B-NP
+st I-NP I-NP
+, I-NP I-NP
+creswick I-NP I-NP
+
+pilkington B-NP B-NP
+
+glasscocks B-NP B-NP
+road I-NP I-NP
+
+under O B-NP
+the O I-NP
+shade O I-NP
+of B-NP I-NP
+a I-NP I-NP
+golden I-NP I-NP
+elm I-NP I-NP
+, O O
+in B-NP O
+the I-NP O
+beautiful I-NP O
+goulburn I-NP B-NP
+river I-NP I-NP
+town B-NP I-NP
+of I-NP I-NP
+shepparton I-NP I-NP
+, O I-NP
+close O I-NP
+to O O
+the O O
+heart O O
+of B-NP O
+this I-NP O
+thriving I-NP O
+regional I-NP O
+arts I-NP O
+city I-NP B-NP
+. O O
+
+on B-NP B-NP
+bell I-NP I-NP
+st I-NP I-NP
+, O O
+north O O
+side O O
+, O O
+between B-NP B-NP
+melville I-NP I-NP
+rd I-NP I-NP
+and I-NP I-NP
+reynolds I-NP I-NP
+pde I-NP I-NP
+. O O
+
+bell B-NP B-NP
+st I-NP I-NP
+, O O
+north O O
+side O O
+, O O
+between B-NP B-NP
+melville I-NP I-NP
+rd I-NP I-NP
+and I-NP I-NP
+reynolds I-NP I-NP
+pde I-NP I-NP
+. O O
+
+on B-NP B-NP
+bridge I-NP I-NP
+over B-NP B-NP
+yarra I-NP I-NP
+river I-NP I-NP
+
+38 B-NP B-NP
+binbrook B-NP B-NP
+dve I-NP I-NP
+, I-NP I-NP
+croydon I-NP I-NP
+
+jacobena B-NP B-NP
+place I-NP I-NP
+, I-NP I-NP
+templestowe I-NP I-NP
+. O O
+on B-NP B-NP
+the I-NP I-NP
+hills I-NP I-NP
+, O O
+right O O
+near B-NP B-NP
+the I-NP I-NP
+local I-NP I-NP
+cemetery I-NP I-NP
+! O O
+
+a O B-NP
+place O I-NP
+called O O
+dockland B-NP B-NP
+which O O
+is O O
+famous O O
+for B-NP O
+shopping I-NP O
+centre I-NP O
+and O O
+its O O
+closeness O O
+to B-NP B-NP
+the I-NP I-NP
+see I-NP I-NP
+. O O
+
+george B-NP B-NP
+st I-NP I-NP
+east B-NP I-NP
+melbourne I-NP I-NP
+
+canberra O O
+, O O
+australian O B-NP
+capital O I-NP
+territory O I-NP
+, O I-NP
+australia O I-NP
+
+brunswick B-NP B-NP
+
+in B-NP B-NP
+seddon I-NP I-NP
+, O O
+next O O
+to B-NP B-NP
+footscray I-NP I-NP
+. O O
+melbourne B-NP B-NP
+\ I-NP I-NP
+' I-NP I-NP
+s I-NP I-NP
+inner O I-NP
+west O I-NP
+, O I-NP
+4 O I-NP
+or O O
+5 O O
+ks O O
+from B-NP O
+the I-NP O
+cbd I-NP O
+
+kensington B-NP B-NP
+
+melb B-NP B-NP
+
+golf B-NP B-NP
+links I-NP I-NP
+
+coral O B-NP
+
+cranborne B-NP B-NP
+south I-NP I-NP
+
+heading O O
+to B-NP O
+tyabb I-NP O
+for O O
+lunch O O
+
+i O O
+am O O
+in B-NP B-NP
+st I-NP I-NP
+kilda I-NP I-NP
+road I-NP I-NP
+where O O
+there O O
+is O O
+an B-NP B-NP
+amusement I-NP I-NP
+park I-NP I-NP
+called O O
+luna B-NP B-NP
+park I-NP I-NP
+which O O
+is O O
+located O O
+near O O
+to B-NP O
+the I-NP O
+see I-NP O
+. O O
+
+in B-NP B-NP
+the I-NP I-NP
+st I-NP I-NP
+called O O
+neerim B-NP B-NP
+rd I-NP I-NP
+in B-NP B-NP
+carnegie I-NP I-NP
+which O O
+holds O O
+the O O
+same O O
+distance O O
+from B-NP B-NP
+two I-NP I-NP
+train I-NP I-NP
+stations I-NP I-NP
+of I-NP I-NP
+carnegie I-NP I-NP
+and I-NP I-NP
+murrumbeena I-NP I-NP
+. O O
+
+cnr B-NP B-NP
+elizabeth B-NP I-NP
+st I-NP I-NP
+and I-NP I-NP
+flinders I-NP I-NP
+lane I-NP I-NP
+, I-NP I-NP
+coles I-NP I-NP
+central O I-NP
+
+flinders B-NP B-NP
+railway I-NP I-NP
+station I-NP I-NP
+
+myer B-NP B-NP
+shopping I-NP I-NP
+mall I-NP I-NP
+, I-NP I-NP
+brouk I-NP I-NP
+st I-NP I-NP
+. O O
+
+myer B-NP B-NP
+shopping I-NP I-NP
+mall I-NP I-NP
+, I-NP I-NP
+bourke I-NP I-NP
+st I-NP I-NP
+, I-NP I-NP
+melbourne I-NP I-NP
+city I-NP I-NP
+
+lonsdale B-NP B-NP
+st I-NP I-NP
+, I-NP I-NP
+melbourne I-NP I-NP
+central I-NP I-NP
+
+la B-NP B-NP
+trobe I-NP I-NP
+st I-NP I-NP
+, I-NP I-NP
+melbourne I-NP I-NP
+central I-NP I-NP
+railway I-NP I-NP
+station I-NP I-NP
+
+in O O
+front O O
+of B-NP B-NP
+melbourne I-NP I-NP
+uni I-NP I-NP
+in B-NP B-NP
+grattan I-NP I-NP
+st I-NP I-NP
+
+wonthaggi B-NP B-NP
+hospital I-NP I-NP
+
+dalyston B-NP B-NP
+general I-NP I-NP
+store I-NP I-NP
+
+mt B-NP B-NP
+misery I-NP I-NP
+, O I-NP
+outtrim O I-NP
+, O I-NP
+victoria B-NP I-NP
+. O O
+260 O O
+m O B-NP
+high O I-NP
+, O I-NP
+a O I-NP
+popular O I-NP
+, O I-NP
+challenging O I-NP
+, O I-NP
+route O I-NP
+for O O
+cyclists O O
+in B-NP O
+the I-NP O
+area I-NP O
+. O O
+
+kongwak B-NP B-NP
+, I-NP I-NP
+victoria I-NP I-NP
+
+wonthaggi B-NP B-NP
+railway B-NP I-NP
+station I-NP I-NP
+
+maryborough B-NP B-NP
+, I-NP I-NP
+victoria I-NP I-NP
+. O O
+the O B-NP
+racv O I-NP
+energy O I-NP
+breakthrough O I-NP
+is O O
+held O O
+here O O
+each O O
+november O O
+. O O
+
+number B-NP B-NP
+5 I-NP I-NP
+brace I-NP I-NP
+. O O
+this O O
+building O O
+was O O
+once O O
+a O O
+major O O
+part O O
+of O B-NP
+the O I-NP
+coal O I-NP
+mining O O
+in B-NP B-NP
+wonthaggi I-NP I-NP
+. O O
+
+victoria B-NP B-NP
+hall I-NP I-NP
+. O O
+
+whale B-NP B-NP
+rock I-NP I-NP
+, I-NP I-NP
+tidal I-NP I-NP
+river I-NP I-NP
+. O O
+these B-NP O
+rocks I-NP O
+resemble O O
+a O O
+whale O O
+. O O
+
+uluru O B-NP
+
+tooradin B-NP B-NP
+
+sidney B-NP B-NP
+myer I-NP I-NP
+music I-NP I-NP
+bowl I-NP I-NP
+
+east B-NP B-NP
+malvern I-NP I-NP
+station I-NP I-NP
+
+glen B-NP B-NP
+alvie I-NP I-NP
+recreational I-NP I-NP
+reserve I-NP I-NP
+
+wonthaggi B-NP B-NP
+desalination I-NP I-NP
+plant I-NP I-NP
+
+wonthaggi B-NP B-NP
+wind B-NP I-NP
+farm I-NP I-NP
+
+wonthaggi B-NP B-NP
+wetlands B-NP I-NP
+
+old B-NP B-NP
+rifle I-NP I-NP
+range I-NP I-NP
+wonthaggi B-NP I-NP
+
+caldermeade B-NP B-NP
+hobby O I-NP
+farm O I-NP
+
+windsor B-NP B-NP
+station I-NP I-NP
+
+punt B-NP B-NP
+road I-NP I-NP
+oval I-NP B-NP
+
+mcg B-NP B-NP
+
+arts B-NP B-NP
+centre I-NP I-NP
+
+leslie B-NP B-NP
+road I-NP I-NP
+, I-NP I-NP
+essendon I-NP I-NP
+
+there O O
+is O O
+a O O
+large O O
+expanse O O
+of B-NP O
+lawn I-NP O
+bordering O O
+the B-NP O
+merri I-NP O
+river I-NP O
+surrounded O O
+by B-NP O
+tall I-NP O
+gum I-NP O
+trees I-NP O
+and O O
+beyond O B-NP
+that O I-NP
+, O I-NP
+a B-NP I-NP
+hill I-NP I-NP
+with B-NP I-NP
+a I-NP I-NP
+single I-NP I-NP
+house I-NP I-NP
+. O O
+
+carlton B-NP B-NP
+nth I-NP I-NP
+
+30 B-NP B-NP
+greendale B-NP B-NP
+rd I-NP I-NP
+doncaster B-NP B-NP
+east I-NP I-NP
+
+in O O
+front O O
+of B-NP B-NP
+melbourne I-NP I-NP
+central I-NP I-NP
+station I-NP I-NP
+waiting O O
+for B-NP O
+the I-NP O
+tram I-NP O
+to O O
+go O O
+to B-NP B-NP
+the I-NP I-NP
+university I-NP I-NP
+. O O
+
+at B-NP B-NP
+richmond I-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+. O O
+
+in O O
+front O O
+of B-NP B-NP
+melbourne I-NP I-NP
+aquarium I-NP I-NP
+cross B-NP I-NP
+flinders B-NP I-NP
+and I-NP I-NP
+king I-NP I-NP
+street I-NP I-NP
+
+cape B-NP B-NP
+paterson I-NP I-NP
+boat B-NP I-NP
+ramp I-NP I-NP
+
+firstly O B-NP
+gardens B-NP I-NP
+
+rod B-NP B-NP
+lava I-NP I-NP
+arena I-NP I-NP
+
+state B-NP B-NP
+library I-NP I-NP
+
+melbourne B-NP B-NP
+high I-NP I-NP
+school I-NP I-NP
+
+st B-NP B-NP
+kilda I-NP I-NP
+botanical B-NP I-NP
+gardens I-NP I-NP
+
+melbourne B-NP B-NP
+aquarium I-NP I-NP
+
+victoria B-NP B-NP
+barracks I-NP I-NP
+
+albert B-NP B-NP
+park I-NP I-NP
+
+caufield B-NP B-NP
+racecourse I-NP I-NP
+
+parliament B-NP B-NP
+station I-NP I-NP
+
+phar B-NP B-NP
+lap I-NP I-NP
+
+items O B-NP
+skydeck B-NP I-NP
+
+etihad B-NP B-NP
+stadium I-NP I-NP
+
+olympic B-NP B-NP
+park I-NP I-NP
+
+mercy B-NP B-NP
+private I-NP I-NP
+hospital I-NP I-NP
+
+vodaphone B-NP B-NP
+arena I-NP I-NP
+
+barkley B-NP B-NP
+gardens I-NP I-NP
+
+stradbroke B-NP B-NP
+park I-NP I-NP
+
+maclea B-NP B-NP
+park I-NP I-NP
+
+queen B-NP B-NP
+victoria I-NP I-NP
+market I-NP I-NP
+
+arden B-NP B-NP
+st I-NP I-NP
+oval B-NP B-NP
+
+fawkner B-NP B-NP
+park I-NP I-NP
+
+royal B-NP B-NP
+botanic I-NP I-NP
+gardens I-NP I-NP
+
+albert B-NP B-NP
+park I-NP I-NP
+driving I-NP I-NP
+range I-NP I-NP
+
+albert B-NP B-NP
+park I-NP I-NP
+golf I-NP I-NP
+course I-NP I-NP
+
+st B-NP B-NP
+pauls I-NP I-NP
+cathedral I-NP I-NP
+
+st B-NP B-NP
+vincent I-NP I-NP
+gardens I-NP I-NP
+
+holbrook B-NP B-NP
+reserve I-NP I-NP
+
+cooks B-NP B-NP
+cottage I-NP I-NP
+
+powlett B-NP B-NP
+reserve I-NP I-NP
+
+fairview B-NP B-NP
+park I-NP I-NP
+
+norris B-NP B-NP
+reserve I-NP I-NP
+
+edinburgh B-NP B-NP
+gardens I-NP I-NP
+
+essendon B-NP B-NP
+airport I-NP I-NP
+
+lincoln B-NP B-NP
+square I-NP I-NP
+
+docklands B-NP B-NP
+park I-NP I-NP
+
+st B-NP B-NP
+patricks I-NP I-NP
+cathedral I-NP I-NP
+
+victoria B-NP B-NP
+gardens I-NP I-NP
+
+sir B-NP B-NP
+robert I-NP I-NP
+menzies I-NP I-NP
+reserve I-NP I-NP
+
+malvern B-NP B-NP
+reserve I-NP I-NP
+
+alma B-NP B-NP
+park I-NP I-NP
+west I-NP I-NP
+
+pinewood B-NP B-NP
+reserve I-NP I-NP
+
+fleming B-NP B-NP
+park I-NP I-NP
+
+port B-NP B-NP
+melbourne I-NP I-NP
+cricket I-NP I-NP
+ground I-NP I-NP
+
+point B-NP B-NP
+park I-NP I-NP
+
+melbourne B-NP B-NP
+grammar I-NP I-NP
+sports I-NP I-NP
+ground I-NP I-NP
+
+lagoon B-NP B-NP
+reserve I-NP I-NP
+
+st B-NP B-NP
+kilda I-NP I-NP
+beach I-NP B-NP
+
+lygon B-NP B-NP
+street I-NP I-NP
+
+edwards B-NP B-NP
+park I-NP I-NP
+
+catani B-NP B-NP
+gardens I-NP I-NP
+
+jolimont B-NP B-NP
+station I-NP I-NP
+
+windsor B-NP B-NP
+siding I-NP I-NP
+
+caribeen B-NP B-NP
+gardens I-NP I-NP
+
+glenferrie B-NP B-NP
+oval I-NP I-NP
+
+canterbery B-NP B-NP
+gardens I-NP I-NP
+
+st B-NP O
+james I-NP B-NP
+park I-NP I-NP
+
+argyle B-NP B-NP
+square I-NP I-NP
+
+clayton O B-NP
+square O I-NP
+
+freemasons B-NP B-NP
+hospital I-NP I-NP
+
+westfield B-NP B-NP
+ovals I-NP I-NP
+
+melbourne B-NP B-NP
+general I-NP I-NP
+cemetery I-NP I-NP
+
+herring B-NP O
+island I-NP O
+
+asdfhjkl O B-NP
+
+caulfield B-NP B-NP
+park I-NP I-NP
+
+burwood B-NP B-NP
+cemetry I-NP I-NP
+
+ha B-NP B-NP
+smith I-NP I-NP
+reserve I-NP I-NP
+
+toorak B-NP B-NP
+park I-NP I-NP
+
+valley B-NP B-NP
+reserve I-NP I-NP
+
+princes B-NP B-NP
+gardens I-NP I-NP
+
+ureka B-NP B-NP
+skydeck I-NP I-NP
+
+morang B-NP B-NP
+reserve I-NP I-NP
+
+kooyong B-NP B-NP
+tennis I-NP I-NP
+club I-NP I-NP
+
+melbourne B-NP B-NP
+university I-NP I-NP
+sports I-NP I-NP
+complex I-NP I-NP
+
+dickinson B-NP B-NP
+reserve I-NP I-NP
+
+paisley B-NP B-NP
+park I-NP I-NP
+
+state B-NP O
+library I-NP O
+of I-NP B-NP
+victoria I-NP I-NP
+
+campbell B-NP B-NP
+reserve I-NP I-NP
+
+surrey B-NP B-NP
+gardens I-NP I-NP
+
+newells B-NP B-NP
+paddock I-NP I-NP
+
+homemaker B-NP B-NP
+city I-NP I-NP
+
+gahan B-NP B-NP
+reserve I-NP I-NP
+
+south B-NP B-NP
+melbourne I-NP I-NP
+police I-NP I-NP
+station I-NP I-NP
+
+wonthaggi B-NP B-NP
+war B-NP I-NP
+memorial I-NP I-NP
+
+ornamental B-NP B-NP
+lake I-NP I-NP
+
+sol B-NP B-NP
+green I-NP I-NP
+reserve I-NP I-NP
+
+whale B-NP B-NP
+rock I-NP I-NP
+, I-NP I-NP
+tidal I-NP I-NP
+river I-NP I-NP
+
+dandy B-NP B-NP
+ranges I-NP I-NP
+
+princess B-NP B-NP
+freeway I-NP I-NP
+
+heidelberg B-NP B-NP
+
+ooo O O
+
+timber B-NP B-NP
+ridge I-NP I-NP
+reserve I-NP I-NP
+
+glassy B-NP B-NP
+road I-NP I-NP
+
+gunn B-NP B-NP
+island I-NP I-NP
+
+on O O
+way O O
+to O O
+phillip B-NP B-NP
+island I-NP I-NP
+
+on B-NP B-NP
+the I-NP I-NP
+bass I-NP I-NP
+hwy I-NP I-NP
+
+albert O B-NP
+point O I-NP
+
+bob B-NP B-NP
+jane I-NP I-NP
+stadium I-NP I-NP
+
+melbourne B-NP B-NP
+sports I-NP I-NP
+and I-NP I-NP
+aquatic I-NP I-NP
+centre I-NP I-NP
+
+san B-NP O
+remo I-NP O
+
+in O B-NP
+line O I-NP
+at B-NP B-NP
+p I-NP I-NP
+. I-NP I-NP
+i I-NP I-NP
+
+waves B-NP B-NP
+apartment I-NP I-NP
+
+phillip B-NP B-NP
+island I-NP I-NP
+road I-NP I-NP
+
+wonthaggi B-NP B-NP
+secondary I-NP I-NP
+college I-NP I-NP
+, O I-NP
+dudley O I-NP
+campus O I-NP
+
+438 O B-NP
+
+box B-NP B-NP
+hill I-NP I-NP
+gardens I-NP I-NP
+
+at B-NP B-NP
+surrey I-NP I-NP
+hills I-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+
+arpud B-NP B-NP
+the I-NP I-NP
+street I-NP I-NP
+
+on B-NP B-NP
+french I-NP I-NP
+island I-NP I-NP
+at O B-NP
+minogues O I-NP
+pla O I-NP
+e O I-NP
+
+devon B-NP B-NP
+meadows I-NP I-NP
+
+police B-NP B-NP
+paddocks I-NP I-NP
+
+reddy O B-NP
+
+m B-NP B-NP
+1 I-NP I-NP
+
+casey B-NP B-NP
+
+melb B-NP B-NP
+uni I-NP I-NP
+
+fg B-NP O
+
+magid O B-NP
+racimg O I-NP
+
+redman O B-NP
+
+freeway B-NP B-NP
+
+at B-NP B-NP
+glenferrie I-NP I-NP
+station I-NP I-NP
+in O O
+front O O
+of O B-NP
+safeway O I-NP
+supermarket O I-NP
+. O O
+
+masson B-NP B-NP
+road I-NP I-NP
+, I-NP I-NP
+university I-NP I-NP
+of I-NP I-NP
+melbourne I-NP I-NP
+
+rmh B-NP B-NP
+royal B-NP I-NP
+park I-NP I-NP
+campus O I-NP
+
+wa O O
+somewhere O O
+
+near O B-NP
+qork O I-NP
+
+near B-NP B-NP
+lilydale I-NP I-NP
+
+subway B-NP B-NP
+
+belgrave B-NP B-NP
+hallam I-NP I-NP
+
+centre B-NP B-NP
+road I-NP I-NP
+
+hete O O
+
+resivour B-NP B-NP
+
+tinks B-NP B-NP
+rd I-NP I-NP
+
+lysterfield B-NP B-NP
+
+moe B-NP B-NP
+
+loch B-NP O
+
+bittern B-NP B-NP
+
+queenscliff B-NP B-NP
+
+forster O B-NP
+
+grantville B-NP B-NP
+
+telford B-NP B-NP
+road I-NP I-NP
+
+glenmaggie B-NP B-NP
+
+pearcdale B-NP B-NP
+
+holm B-NP B-NP
+park I-NP I-NP
+
+telford B-NP B-NP
+
+harkarway B-NP B-NP
+
+arden B-NP B-NP
+street I-NP I-NP
+oval B-NP I-NP
+
+princes B-NP B-NP
+garden I-NP I-NP
+
+east B-NP B-NP
+richmond I-NP I-NP
+station I-NP I-NP
+
+eureka B-NP B-NP
+skydeck I-NP I-NP
+
+chris B-NP B-NP
+gahan I-NP I-NP
+reserve I-NP I-NP
+
+gallager B-NP B-NP
+reserve I-NP I-NP
+
+city B-NP B-NP
+reserve I-NP I-NP
+
+fa B-NP B-NP
+andrews I-NP I-NP
+reserve I-NP I-NP
+
+yarra B-NP B-NP
+bend I-NP I-NP
+park I-NP I-NP
+
+sheparton B-NP B-NP
+pib B-NP I-NP
+
+yack B-NP B-NP
+
+on O O
+way O O
+to O O
+emerald B-NP B-NP
+
+wanterna B-NP B-NP
+
+flinder B-NP B-NP
+
+in O O
+front O O
+of B-NP B-NP
+melbourne I-NP I-NP
+central I-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+. O O
+
+sale B-NP O
+
+first B-NP B-NP
+floor I-NP I-NP
+ama B-NP I-NP
+house I-NP I-NP
+293 B-NP B-NP
+royal B-NP B-NP
+parade I-NP I-NP
+parkville B-NP B-NP
+victoria B-NP B-NP
+australia B-NP I-NP
+
+near B-NP B-NP
+hawthorn I-NP I-NP
+train I-NP I-NP
+statin I-NP I-NP
+on B-NP B-NP
+the I-NP I-NP
+train I-NP I-NP
+. O O
+
+playin O O
+with O O
+my O O
+new O O
+iphone O O
+: O O
+) O O
+
+just O O
+chillin O O
+
+not O O
+sure O O
+
+crawlin O B-NP
+off B-NP B-NP
+crawley I-NP I-NP
+
+on B-NP B-NP
+the I-NP I-NP
+rd I-NP I-NP
+with O O
+a O O
+funny O O
+name O O
+
+ggi O B-NP
+
+never O O
+win O O
+anything O O
+
+lost O O
+lost O O
+lost O O
+
+dpyxits O O
+
+em O O
+
+in O O
+front O O
+of B-NP B-NP
+melbourne I-NP I-NP
+central I-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+at B-NP B-NP
+swanston I-NP I-NP
+street I-NP I-NP
+
+dandy B-NP B-NP
+
+le B-NP O
+mans I-NP O
+
+dandy B-NP B-NP
+going O O
+for O O
+job O O
+imterview O O
+
+in B-NP B-NP
+camberwell I-NP I-NP
+train I-NP I-NP
+station I-NP I-NP
+
+in B-NP B-NP
+hawthorn I-NP I-NP
+in O O
+front O O
+of B-NP B-NP
+a I-NP I-NP
+park I-NP I-NP
+called O I-NP
+central B-NP I-NP
+garden I-NP I-NP
+where O O
+the B-NP B-NP
+university I-NP I-NP
+of I-NP I-NP
+swinburne I-NP I-NP
+is O O
+located O O
+
+in O B-NP
+near O I-NP
+hawthorn B-NP I-NP
+shops B-NP I-NP
+
+moorolobark B-NP B-NP
+
+going O O
+to O O
+broken O B-NP
+hill O I-NP
+
+over O B-NP
+the O I-NP
+road O I-NP
+from B-NP B-NP
+pub I-NP I-NP
+on O B-NP
+iphone O I-NP
+
+cavendish B-NP B-NP
+
+mouth O B-NP
+
+at B-NP B-NP
+burwood I-NP I-NP
+rd I-NP I-NP
+in O O
+front O O
+of B-NP B-NP
+swinburne I-NP I-NP
+university I-NP I-NP
+of I-NP I-NP
+technology I-NP I-NP
+in B-NP B-NP
+hawthorn I-NP I-NP
+suburb O I-NP
+
+bikes B-NP B-NP
+and I-NP I-NP
+bits I-NP I-NP
+
+hey O O
+
+crime O B-NP
+
+seville B-NP B-NP
+east I-NP I-NP
+
+montrose B-NP B-NP
+
+whittlesea B-NP B-NP
+
+honey O O
+i O O
+\ O O
+' O O
+m O O
+home O O
+: O O
+) O O
+
+building B-NP B-NP
+9 I-NP I-NP
+at B-NP B-NP
+rmit I-NP I-NP
+university I-NP I-NP
+, O O
+on O B-NP
+the O I-NP
+corner O I-NP
+of B-NP I-NP
+bowen I-NP I-NP
+st I-NP I-NP
+and I-NP I-NP
+franklin I-NP I-NP
+st I-NP I-NP
+, I-NP I-NP
+melbourne I-NP I-NP
+. O O
+
+officer B-NP B-NP
+
+aussie O O
+day O O
+
+southern B-NP B-NP
+reserve I-NP I-NP
+
+lyndhurst B-NP B-NP
+
+nsw O O
+
+next O O
+to B-NP B-NP
+the I-NP I-NP
+m I-NP I-NP
+1 I-NP I-NP
+
+knox B-NP B-NP
+shopping I-NP I-NP
+
+donvale B-NP B-NP
+bbq B-NP I-NP
+place I-NP I-NP
+
+near B-NP O
+te I-NP O
+pub I-NP O
+but O O
+next O O
+to O O
+te O O
+post B-NP B-NP
+office I-NP I-NP
+
+heathmomt B-NP B-NP
+road I-NP I-NP
+
+hight B-NP B-NP
+street I-NP I-NP
+in B-NP B-NP
+ashburton I-NP I-NP
+town I-NP I-NP
+
+m B-NP O
+1 I-NP O
+motorway I-NP O
+accorising O O
+to O O
+gps O O
+
+balaclava B-NP B-NP
+
+woolamai B-NP B-NP
+racecourse B-NP I-NP
+
+heading O O
+to O O
+wagga O O
+wagga O O
+
+melbourne B-NP B-NP
+town I-NP B-NP
+hall I-NP I-NP
+
+eureka B-NP B-NP
+
+711 O B-NP
+
+slurpe O B-NP
+
+club B-NP B-NP
+rd I-NP I-NP
+
+new B-NP O
+estate I-NP O
+
+wish O O
+i O O
+was O O
+with O O
+brayden O O
+
+red B-NP B-NP
+cross I-NP I-NP
+blood I-NP B-NP
+bank I-NP I-NP
+
+m B-NP O
+1 I-NP O
+on O O
+way O O
+to O O
+broadford B-NP B-NP
+
+melbourne B-NP B-NP
+towl I-NP I-NP
+hall I-NP I-NP
+
+2 O B-NP
+/ O O
+23 O O
+herbert O O
+cres O O
+ainslie O O
+act O O
+
+aussie O B-NP
+dande O I-NP
+
+& O O
+# O O
+58382 O O
+; O O
+
+tram B-NP B-NP
+stop I-NP I-NP
+
+keiths B-NP B-NP
+fitness I-NP I-NP
+centre I-NP I-NP
+
+lonsdale B-NP B-NP
+street I-NP I-NP
+
+resy B-NP O
+
+cowes B-NP B-NP
+pier B-NP I-NP
+
+hotel B-NP B-NP
+rendavo I-NP I-NP
+
+the B-NP B-NP
+town I-NP I-NP
+of I-NP I-NP
+trentham I-NP I-NP
+in O B-NP
+the O I-NP
+central O I-NP
+highlands O I-NP
+of B-NP I-NP
+victoria I-NP I-NP
+, I-NP I-NP
+australia I-NP I-NP
+. O O
+once O O
+known O O
+for O O
+logging O O
+and O O
+gold O O
+but O O
+now O O
+potatoes O O
+and O O
+truffles O O
+and O O
+boutique O O
+get O O
+aways O O
+. O O
+close O O
+to O B-NP
+e O I-NP
+melbourne B-NP I-NP
+, I-NP I-NP
+ballarat I-NP I-NP
+, I-NP I-NP
+bendigo I-NP I-NP
+, O O
+and O O
+on O O
+the O O
+edge O O
+of B-NP B-NP
+the I-NP I-NP
+spa I-NP I-NP
+country I-NP I-NP
+\ O I-NP
+' O I-NP
+s O I-NP
+. O O
+
+wittlr O B-NP
+
+bear O O
+in O B-NP
+the O I-NP
+qoods O I-NP
+
+tunnel B-NP B-NP
+
+floods O B-NP
+
+yaradale B-NP B-NP
+
+waterfront B-NP O
+
+just O O
+licking O O
+chocolate O O
+off O O
+of O B-NP
+my O I-NP
+good O I-NP
+
+on O O
+way O O
+to O O
+broady B-NP B-NP
+
+hillside B-NP B-NP
+
+princess B-NP B-NP
+in B-NP B-NP
+beacy I-NP I-NP
+
+between O B-NP
+landgate O I-NP
+and O I-NP
+the O I-NP
+city O I-NP
+of O I-NP
+swan O I-NP
+offices O I-NP
+. O O
+
+wallan B-NP B-NP
+
+hallam B-NP B-NP
+north I-NP I-NP
+
+misses O B-NP
+ranalli O I-NP
+
+sitting O O
+under B-NP B-NP
+a I-NP I-NP
+tree I-NP I-NP
+
+deep O B-NP
+creek O I-NP
+
+lilydale B-NP B-NP
+
+dunno O O
+central O O
+
+at B-NP B-NP
+federation I-NP I-NP
+square I-NP I-NP
+, O O
+on O O
+the O O
+eastern O O
+side O O
+of B-NP B-NP
+st I-NP I-NP
+kilda I-NP I-NP
+road I-NP I-NP
+opposite B-NP B-NP
+flinders I-NP I-NP
+street I-NP I-NP
+station I-NP I-NP
+in B-NP B-NP
+melbourne I-NP I-NP
+city I-NP I-NP
+. O O
+
+heals B-NP B-NP
+
+game O B-NP
+lobby O I-NP
+closed O I-NP
+
+qualify B-NP B-NP
+drive I-NP I-NP
+
+girlfriends O B-NP
+
+trail O B-NP
+biking O O
+in B-NP B-NP
+harkaway I-NP I-NP
+
+my O B-NP
+panarama O I-NP
+
+wollert B-NP B-NP
+
+boathouse B-NP B-NP
+drive I-NP I-NP
+
+greenmeadows B-NP B-NP
+gardens I-NP I-NP
+
+wonthaggi B-NP B-NP
+secondary I-NP I-NP
+college I-NP I-NP
+
+inside B-NP B-NP
+a I-NP I-NP
+house I-NP I-NP
+
+rooftop B-NP B-NP
+bar I-NP I-NP
+
+in B-NP B-NP
+a I-NP I-NP
+house I-NP I-NP
+
+p B-NP O
+. I-NP O
+i I-NP O
+
+lynbrook B-NP B-NP
+
+triangle B-NP B-NP
+apartment I-NP I-NP
+, O O
+behind B-NP B-NP
+law I-NP I-NP
+building I-NP I-NP
+
+near B-NP B-NP
+hampton I-NP I-NP
+park I-NP I-NP
+in B-NP B-NP
+hallam I-NP I-NP
+
+i O O
+\ O O
+' O O
+m O O
+heading O O
+towards B-NP B-NP
+east I-NP I-NP
+link I-NP I-NP
+
+walking O O
+to B-NP B-NP
+the I-NP I-NP
+post I-NP I-NP
+office I-NP I-NP
+in B-NP B-NP
+hampton I-NP I-NP
+park I-NP I-NP
+
+aflame B-NP B-NP
+strip I-NP I-NP
+
+exploded O O
+on O B-NP
+impact O I-NP
+
+richy O B-NP
+downs O I-NP
+
+i O O
+\ O O
+' O O
+m O O
+next O O
+to B-NP B-NP
+the I-NP I-NP
+big I-NP I-NP
+tree I-NP I-NP
+near B-NP B-NP
+maccas I-NP I-NP
+
+corner O B-NP
+pound B-NP I-NP
+and I-NP I-NP
+south I-NP I-NP
+gippy I-NP I-NP
+highway I-NP I-NP
+
+heading O O
+to O B-NP
+yarrawonga O I-NP
+
+around B-NP B-NP
+the I-NP I-NP
+block I-NP I-NP
+
+right O O
+near O B-NP
+my O I-NP
+new O I-NP
+job O I-NP
+hooorahhh O I-NP
+
+wonthaggi B-NP B-NP
+rec B-NP I-NP
+reserve I-NP I-NP
+
+35 O B-NP
+
+nothing O O
+to O O
+describe O O
+
+melb B-NP B-NP
+water I-NP I-NP
+
+tell O O
+me O O
+qhere O O
+
+adrenilin O B-NP
+
+race B-NP B-NP
+track I-NP I-NP
+
+golf B-NP B-NP
+club I-NP I-NP
+
+bendigo B-NP B-NP
+
+crockford B-NP B-NP
+st I-NP I-NP
+
+near B-NP B-NP
+hallam I-NP I-NP
+
+wonthaggi B-NP B-NP
+aquatic B-NP I-NP
+centre I-NP I-NP
+
+drowning O O
+
+fur O B-NP
+pack O I-NP
+
+win O O
+win O O
+win O O
+win O O
+

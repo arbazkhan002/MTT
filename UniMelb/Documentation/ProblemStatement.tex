@@ -1,0 +1,51 @@
+\documentclass{article}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifxetex
+  \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\else
+  \ifluatex
+    \usepackage{fontspec}
+    \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \else
+    \usepackage[utf8]{inputenc}
+  \fi
+\fi
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex,
+              colorlinks=true,
+              linkcolor=blue]{hyperref}
+\else
+  \usepackage[unicode=true,
+              colorlinks=true,
+              linkcolor=blue]{hyperref}
+\fi
+\hypersetup{breaklinks=true, pdfborder={0 0 0}}
+\setlength{\parindent}{0pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\textheight 8.5in
+\addtolength{\topmargin}{-1in}
+
+\title{Extracting Spatial Relationships From Degenerate Locative Expressions}
+\author{Arbaz Khan}
+%\date{Progress Report \\ %\today}
+\begin{document}
+\maketitle 
+
+\section{Problem and Motivation}
+This proposal targets the automated extraction of spatial relationships between places using associated degenerate locative expressions. The locative expressions eligible for the extraction are degenerate in a sense that the prepositional phrases are devoid of subjects. Formally, such a locative expression can be defined as any expression containing a preposition and atleast one noun place as its object. 
+Informal text cant be processed by computer models directly due to the lack of fine lexical and semantic analysis required in a spatial domain. However, a locative expression can be interpreted provided it is represented appropriately. 
+
+\section{Research questions to be addressed}
+The introduction of the problem leads to the fundamental question - Given a degenerate locative expression, is it possible to extract the spatial relations with preferably addressing any ambiguities? If yes, how close are the extracted spatial relations in compared to the actual relations, that is how effective is it to use the path of locative expressions to identify spatial relations in place descriptions?
+
+\section{Approach}
+The locative expressions available from the place descriptions are in the form of IOB encoding with fair observed accuracy and the algorithm would be designed to output ordered triplets containing a reference object, a locatum and the spatial relation. The proposed algorithm makes use of an intermediate tree construction to exploit the depth-first relationship in place descriptions. The tree is constructed from an IOB encoding and is meant to represent the underlying spatial relationships between places in the descriptions.
+
+\section{Expected Results}
+The proposed problem if addressed successfully would provide the means to automatically generate a spatial model from the place descriptions which can be utilised to construct conflict-free sketch maps, spatial property graphs and other spatial representations for visualization of the mental image created while understanding place desciptions.
+
+\end{document}

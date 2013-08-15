@@ -1,0 +1,27 @@
+Down IN None None False False Aaaa Aa 4 -1 -1 PP None 1 0 O None None None IN 0 0 None None IN 1 Down B-PP False None None None False False 1 down False -1 True True O O
+the DT None None False False aaa a 3 -1 -1 NP None 2 0 O None Down the DT 1 1 hill NN DT 1 the B-NP False B-S B-HMSD O False False 2 the False -1 False True O O
+hill NN None None False False aaaa a 4 -1 -1 NP None 2 1 O None Down the DT 2 1 hill NN DT 1 hill I-NP False I-S I-HMSD O False False 2 hill False -1 False True O O
+along IN None None False False aaaaa a 5 -1 -1 PP None 1 0 O None None None IN 3 2 None None IN 1 along B-PP False None None None False False 1 along False -1 False True O O
+Grattan NNP None None False False Aaaaaaa Aa 7 -1 -1 NP None 2 0 O None along None NNP 4 3 street NN NN 1 Grattan B-NP False None None O False False 2 grattan False -1 True True O O
+street NN None None False False aaaaaa a 6 -1 -1 NP None 2 1 O None along None NNP 5 3 street NN NN 1 street I-NP False None None O True False 2 street False -1 False True O O
+the DT None None False False aaa a 3 -1 -1 NP None 3 0 O None None the DT 6 4 new JJ DT 1 the B-NP False None None O False False 3 the False -1 False True O O
+new JJ None None False False aaa a 3 -1 -1 NP None 3 1 O None None the DT 7 4 new JJ DT 1 new I-NP False None None O False False 3 new False -1 False True O O
+building NN None None False False aaaaaaaa a 8 -1 -1 NP None 3 2 O None None the DT 8 4 new JJ DT 1 building I-NP False None None O False False 3 building False -1 False True O O
+being VBG None None False False aaaaa a 5 -1 -1 VP None 2 0 O None None None VBG 9 5 constructed VBN VBG 1 being B-VP False None None None False True 2 be False -1 False True O O
+constructed VBN None None False False aaaaaaaaaaa a 11 -1 -1 VP None 2 1 O None None None VBG 10 5 constructed VBN VBG 1 constructed I-VP False None None None False False 2 construct False -1 False True O O
+is VBZ None None False False aa a 2 -1 -1 PP None 1 0 O None None None VBZ 11 6 None None VBZ 1 is B-PP False None None None False True 1 be False -1 False True O O
+the DT None None False False aaa a 3 -1 -1 NP None 4 0 O None is the DT 12 7 Peter NNP NNP 3 the B-NP False None None O False False 4 the False -1 False True O O
+Peter NNP None None False False Aaaaa Aa 5 -1 -1 NP None 4 1 O None is the DT 13 7 Peter NNP NNP 3 Peter I-NP False None None O False False 4 peter False -1 True True O O
+Doherty NNP None None False False Aaaaaaa Aa 7 -1 -1 NP None 4 2 O None is the DT 14 7 Peter NNP NNP 3 Doherty I-NP False None None O False False 4 doherty False -1 True True O O
+Institute NNP None None False False Aaaaaaaaa Aa 9 -1 -1 NP None 4 3 O None is the DT 15 7 Peter NNP NNP 3 Institute I-NP False None None O False False 4 institute False -1 True True O O
+and CC None None False False aaa a 3 -1 -1 None None 1 0 O None None None CC 16 8 None None CC 1 and O False None None None False False 1 and False -1 False True O O
+diagonally RB None None False False aaaaaaaaaa a 10 -1 -1 ADVP None 1 0 O None None None RB 17 9 None None RB 1 diagonally B-ADVP False None None None False False 1 diagonally False -1 False True O O
+across IN None None False False aaaaaa a 6 -1 -1 PP None 1 0 O None None None IN 18 10 None None IN 1 across B-PP False None None None False False 1 across False -1 False True O O
+the DT None None False False aaa a 3 -1 -1 NP None 4 0 O None across the DT 19 11 road NN NNP 2 the B-NP False None None O False False 4 the False -1 False True O O
+road NN None None False False aaaa a 4 -1 -1 NP None 4 1 O None across the DT 20 11 road NN NNP 2 road I-NP False None None O True False 4 road False -1 False True O O
+Royal NNP None None False False Aaaaa Aa 5 -1 -1 NP None 4 2 O None across the DT 21 11 road NN NNP 2 Royal I-NP False None None O False False 4 royal False -1 True True O O
+Parade NNP None None False False Aaaaaa Aa 6 -1 -1 NP None 4 3 O None across the DT 22 11 road NN NNP 2 Parade I-NP False None None O False False 4 parade False -1 True True O O
+is VBZ None None False False aa a 2 -1 -1 VP None 1 0 O None None None VBZ 23 12 None None VBZ 1 is B-VP False None None None False True 1 be False -1 False True O O
+Melbourne NNP None None False False Aaaaaaaaa Aa 9 -1 -1 NP None 2 0 O None None None NNP 24 13 Hospital NN NN 1 Melbourne B-NP False B-A B-ADM2 B-LOCB False False 2 melbourne False -1 True True O O
+Hospital NN None None False False Aaaaaaaa Aa 8 -1 -1 NP None 2 1 O None None None NNP 25 13 Hospital NN NN 1 Hospital I-NP False None None O False False 2 hospital False -1 True True O O
+

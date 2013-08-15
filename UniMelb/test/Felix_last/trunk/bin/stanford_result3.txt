@@ -1,0 +1,1609 @@
+getting	O	O
+the	O	NP
+ducati	O	NP
+ready	O	NP
+in	NP	NP
+osmington	NP	NP
+circle	NP	NP
+
+fleetwood	NP	NP
+drive	NP	NP
+heading	O	O
+home	O	NP
+
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+speeding	O	O
+down	O	NP
+glasscocks	NP	NP
+,	O	O
+gonna	O	O
+get	O	O
+a	O	O
+boost	O	O
+;	O	O
+)	O	O
+
+in	NP	NP
+the	NP	NP
+car	NP	NP
+on	O	NP
+the	O	NP
+road	O	NP
+heading	O	O
+to	O	NP
+boost	NP	NP
+juice	NP	NP
+
+crossing	O	O
+road	NP	O
+to	O	O
+get	O	O
+to	NP	NP
+jbhifi	NP	NP
+
+heading	O	O
+up	NP	O
+narre	NP	NP
+north	NP	NP
+road	NP	NP
+to	NP	O
+the	NP	O
+hall	NP	O
+to	O	O
+give	O	O
+blood	O	O
+
+at	O	NP
+te	O	NP
+reserve	NP	NP
+kicking	O	O
+a	O	O
+footy	O	O
+:	O	O
+)	O	O
+
+stud	NP	NP
+park	NP	NP
+reserve	NP	NP
+playing	O	O
+with	O	O
+my	O	O
+little	O	O
+doggy	O	O
+
+cruisan	O	NP
+in	NP	NP
+springvale	NP	NP
+
+on	NP	NP
+frawley	NP	NP
+road	NP	NP
+trying	O	O
+to	O	O
+get	O	O
+home	NP	NP
+quickly	O	NP
+
+yaya	NP	O
+blvd	NP	O
+exit	O	O
+is	O	O
+like	O	O
+the	O	O
+easiest	O	O
+way	O	O
+to	O	O
+richmond	NP	NP
+which	O	O
+people	O	O
+fail	O	O
+to	O	O
+understand	O	O
+and	O	O
+thats	O	O
+where	O	O
+i	O	O
+am	O	O
+
+up	O	O
+at	NP	NP
+eildon	NP	NP
+this	O	O
+weekend	O	O
+on	NP	O
+the	NP	O
+drag	NP	O
+boat	NP	O
+
+at	NP	NP
+work	NP	NP
+at	NP	NP
+the	NP	NP
+defence	NP	NP
+department	NP	NP
+working	O	O
+on	O	O
+weapons	O	O
+
+walsh	NP	NP
+street	NP	NP
+subway	NP	NP
+for	O	O
+the	O	O
+win	O	O
+!	O	O
+!!	O	O
+
+up	O	O
+in	NP	NP
+taylors	NP	NP
+lakes	NP	NP
+for	O	O
+the	O	O
+day	O	O
+
+dropping	O	O
+a	O	O
+parcell	O	O
+off	O	O
+to	NP	O
+linfox	NP	NP
+company	NP	NP
+
+walking	O	O
+down	NP	NP
+collins	NP	NP
+street	NP	NP
+,	O	O
+trying	O	O
+to	O	O
+find	O	O
+a	O	O
+boost	NP	O
+cos	O	O
+im	O	O
+thirsty	O	O
+
+at	NP	NP
+the	NP	NP
+fruit	NP	NP
+and	NP	NP
+veg	NP	NP
+market	NP	NP
+
+in	NP	O
+gms	NP	O
+holding	O	O
+ground	O	O
+for	O	O
+all	O	O
+there	O	O
+cars	O	O
+just	O	O
+having	O	O
+a	O	O
+tour	O	O
+vip	O	O
+style	O	O
+
+moving	O	O
+house	O	O
+to	NP	NP
+little	NP	NP
+page	NP	NP
+street	NP	NP
+this	O	O
+summer	O	O
+to	O	O
+soak	O	O
+in	NP	NP
+st	NP	NP
+.	NP	NP
+kildas	NP	NP
+beaches	NP	NP
+
+sitting	O	O
+by	O	NP
+the	O	NP
+beach	NP	NP
+opposite	O	NP
+beach	NP	NP
+street	NP	NP
+.	O	O
+
+up	O	O
+on	NP	O
+the	NP	O
+top	NP	O
+of	NP	NP
+the	NP	NP
+skydeck	NP	NP
+which	O	O
+is	O	O
+amazing	O	O
+!	O	O
+and	O	O
+only	O	O
+$	O	O
+11	O	NP
+for	O	NP
+concession	O	NP
+
+old	NP	NP
+arts	NP	NP
+building	NP	NP
+,	NP	NP
+university	NP	NP
+of	NP	NP
+melbourne	NP	NP
+
+oon	NP	NP
+the	NP	NP
+train	NP	NP
+,	O	O
+duno	O	O
+if	O	O
+this	O	O
+location	O	O
+will	O	O
+work	O	O
+just	O	O
+going	O	O
+past	NP	NP
+malvern	NP	NP
+inbound	O	NP
+.	O	O
+
+toorak	NP	NP
+road	NP	NP
+at	NP	NP
+my	NP	NP
+aunites	NP	NP
+house	NP	NP
+
+at	NP	NP
+caufield	NP	NP
+racecourse	NP	NP
+helping	O	O
+the	O	O
+catering	O	O
+company	O	O
+
+today	O	O
+im	O	O
+at	NP	NP
+the	NP	NP
+library	NP	NP
+of	NP	NP
+melbourne	NP	NP
+checking	O	O
+out	O	O
+the	O	O
+old	O	O
+books	O	O
+
+jogging	O	O
+around	O	NP
+albert	NP	NP
+park	NP	NP
+lake	NP	NP
+5	O	NP
+km	O	NP
+
+at	NP	NP
+moorabin	NP	NP
+airport	NP	NP
+about	O	O
+to	O	O
+do	O	O
+my	O	O
+first	O	O
+flying	O	O
+lessons	O	O
+
+watching	O	O
+letters	O	O
+to	O	O
+juliet	O	O
+:	O	O
+)	O	O
+
+relaxinggggggg	O	O
+.	O	O
+
+loving	O	O
+life	O	O
+watching	O	O
+tv	O	O
+.	O	O
+
+in	NP	O
+my	NP	O
+bed	NP	O
+:	O	O
+)	O	O
+
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+in	O	NP
+loveeeee	O	NP
+
+beating	NP	O
+heart	NP	O
+of	NP	NP
+melbourne	NP	NP
+
+hitting	O	O
+up	O	NP
+the	NP	NP
+albert	NP	NP
+park	NP	NP
+driving	NP	NP
+range	NP	NP
+with	O	O
+my	O	O
+new	O	O
+callaway	O	O
+
+walking	O	O
+down	NP	NP
+the	NP	NP
+streets	NP	NP
+of	NP	NP
+mildura	NP	NP
+shops	NP	NP
+
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+at	NP	NP
+nissan	NP	NP
+auto	NP	NP
+main	NP	NP
+centre	NP	NP
+in	NP	NP
+melbourne	NP	NP
+just	O	O
+working	O	O
+
+just	O	O
+off	NP	O
+the	NP	NP
+burwood	NP	NP
+highway	NP	NP
+at	NP	NP
+mcdonalds	NP	NP
+
+narre	NP	NP
+north	NP	NP
+road	NP	NP
+where	O	O
+there	O	O
+is	O	O
+a	O	O
+crash	O	O
+blocking	O	O
+me	O	O
+from	O	O
+getting	O	O
+on	NP	NP
+freeway	NP	NP
+xd	O	NP
+
+walking	O	O
+down	NP	NP
+bailey	NP	NP
+street	NP	NP
+about	O	O
+to	O	O
+hop	O	O
+on	NP	NP
+blackburn	NP	NP
+road	NP	NP
+and	O	O
+head	O	O
+inbound	O	O
+to	NP	NP
+the	NP	NP
+beach	NP	NP
+
+down	O	O
+in	O	NP
+seafood	O	NP
+about	O	O
+to	O	O
+go	O	O
+for	O	O
+a	O	O
+dip	O	O
+in	NP	NP
+the	NP	NP
+bay	NP	NP
+
+approaching	O	O
+murambeena	NP	NP
+station	NP	NP
+,	O	O
+longest	O	O
+ride	O	O
+ever	O	O
+through	O	O
+the	O	O
+day	O	O
+about	O	O
+to	O	O
+walk	O	O
+down	O	O
+to	NP	NP
+the	NP	NP
+mainstreet	NP	NP
+
+using	O	O
+the	O	NP
+new	O	NP
+southern	NP	NP
+dandy	NP	NP
+bypass	NP	NP
+which	O	O
+actually	O	O
+saves	O	O
+alot	O	O
+of	O	O
+time	O	O
+!	O	O
+
+at	NP	NP
+the	NP	NP
+elsternwick	NP	NP
+station	NP	NP
+about	O	O
+to	O	O
+head	O	O
+to	O	NP
+st	NP	NP
+.	NP	NP
+kilda	NP	NP
+.	O	O
+
+i	O	O
+am	O	O
+walking	O	O
+around	NP	NP
+the	NP	NP
+botanical	NP	NP
+gardens	NP	NP
+with	O	O
+my	O	O
+nephew	O	O
+
+at	NP	NP
+the	NP	NP
+train	NP	NP
+station	NP	NP
+about	O	O
+to	O	O
+go	O	O
+to	NP	NP
+the	NP	NP
+malvern	NP	NP
+golf	NP	NP
+club	NP	NP
+for	O	O
+some	O	O
+drinks	O	O
+
+out	O	O
+in	NP	O
+the	NP	O
+bay	NP	O
+fishing	O	O
+off	O	NP
+the	NP	NP
+port	NP	NP
+of	NP	NP
+melbourne	NP	NP
+but	O	O
+nothing	O	O
+is	O	O
+happenig	O	O
+
+@	O	NP
+the	O	NP
+westmeadows	NP	NP
+shopping	NP	NP
+centre	NP	NP
+
+walking	O	O
+around	O	NP
+and	O	O
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+not	O	O
+sure	O	O
+where	O	O
+i	O	O
+am	O	O
+sorry	O	O
+
+@	O	NP
+the	O	NP
+beautiful	O	NP
+fitzroy	NP	NP
+gardens	NP	NP
+laying	O	O
+in	O	O
+the	O	O
+sun	O	O
+in	NP	NP
+melbourne	NP	NP
+
+@	NP	NP
+the	NP	NP
+royal	NP	NP
+park	NP	NP
+opposite	O	NP
+the	O	NP
+princess	NP	NP
+highway	NP	NP
+
+queens	NP	NP
+park	NP	NP
+lake	NP	NP
+sitting	O	O
+watching	O	O
+the	O	O
+ducks	O	O
+
+about	O	O
+to	O	O
+get	O	O
+off	O	O
+at	O	NP
+spencer	NP	NP
+street	NP	NP
+to	O	O
+go	O	O
+down	O	O
+to	NP	NP
+collins	NP	NP
+street	NP	NP
+
+just	O	O
+going	O	O
+down	O	NP
+braeside	NP	NP
+dandy	NP	NP
+road	NP	NP
+opposite	NP	NP
+pilkington	NP	NP
+glass	NP	NP
+
+spring	NP	NP
+street	NP	NP
+about	O	O
+to	O	O
+get	O	O
+my	O	O
+new	O	O
+licence	O	O
+for	O	O
+gaming	O	O
+
+at	NP	NP
+the	NP	NP
+sport	NP	NP
+complex	NP	NP
+doing	O	O
+archery	O	O
+
+citylink	NP	NP
+heading	O	O
+inbound	O	O
+through	O	NP
+tolls	O	NP
+
+melbourne	NP	NP
+ligon	NP	NP
+street	NP	NP
+
+in	NP	NP
+the	NP	NP
+yarra	NP	NP
+river	NP	NP
+doing	O	O
+the	O	O
+cruise	O	O
+
+corner	NP	NP
+of	NP	NP
+park	NP	NP
+and	NP	NP
+moray	NP	NP
+street	NP	NP
+
+walking	O	O
+down	O	NP
+little	NP	NP
+bourke	NP	NP
+street	NP	NP
+
+beacy	NP	NP
+parade	NP	NP
+walking	O	O
+on	O	O
+the	O	O
+decking	O	O
+
+at	NP	NP
+the	NP	NP
+queen	NP	NP
+vicky	NP	NP
+market	NP	NP
+getting	O	O
+some	O	O
+fruit	O	O
+and	O	O
+veg	O	O
+
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+parking	O	O
+my	NP	O
+car	NP	O
+in	O	O
+front	O	O
+of	NP	NP
+the	NP	NP
+royal	NP	NP
+childrens	NP	NP
+as	O	O
+they	O	O
+look	O	O
+after	O	O
+it	O	O
+
+by	NP	NP
+the	NP	NP
+waterfront	NP	NP
+
+in	NP	NP
+nobal	NP	NP
+park	NP	NP
+and	O	O
+i	O	O
+dont	O	O
+feel	O	O
+safe	O	O
+
+lonsdale	NP	NP
+street	NP	NP
+walking	O	O
+to	O	NP
+train	NP	NP
+station	NP	NP
+
+travelling	O	O
+on	NP	NP
+chandler	NP	NP
+road	NP	NP
+
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+at	NP	NP
+boronia	NP	NP
+marine	NP	NP
+looking	O	O
+for	NP	O
+a	NP	O
+boat	NP	O
+for	O	O
+summer	O	O
+
+at	NP	NP
+the	NP	NP
+old	NP	NP
+sandy	NP	NP
+yacht	NP	NP
+club	NP	NP
+having	O	O
+a	O	O
+brewksy	O	O
+
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+on	NP	O
+the	NP	O
+r	NP	O
+6	NP	O
+about	O	O
+to	O	O
+go	O	O
+up	O	O
+the	NP	O
+black	NP	O
+spur	NP	O
+
+yo	NP	NP
+thai	NP	NP
+vietmanise	NP	NP
+restaurant	NP	NP
+
+playing	O	O
+a	O	O
+round	O	O
+at	O	NP
+the	O	NP
+beacy	NP	NP
+golf	NP	NP
+course	NP	NP
+
+glen	NP	NP
+iris	NP	NP
+pub	NP	NP
+
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+at	NP	NP
+my	NP	NP
+house	NP	NP
+having	O	O
+a	O	O
+barbi	O	O
+
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+in	NP	O
+dinky	NP	O
+village	NP	O
+picking	O	O
+up	O	O
+my	O	O
+parrots	O	O
+for	NP	O
+my	NP	O
+cars	NP	O
+
+fitzroy	NP	NP
+subway	NP	NP
+getting	O	O
+
+bbq	O	O
+in	O	O
+the	O	O
+sun	O	O
+
+at	O	NP
+the	O	NP
+diggers	O	NP
+near	O	NP
+the	O	NP
+floweral	O	NP
+
+victoria	NP	NP
+market	NP	NP
+
+mistys	NP	NP
+diner	NP	NP
+
+lakeside	NP	NP
+driven	O	NP
+near	NP	NP
+albert	NP	NP
+park	NP	NP
+:	O	O
+)	O	O
+
+on	NP	NP
+hope	NP	NP
+st	NP	NP
+near	NP	NP
+fawkner	NP	NP
+park	NP	NP
+
+st	NP	NP
+.	NP	NP
+kilda	NP	NP
+cemetary	NP	NP
+
+at	NP	NP
+batman	NP	NP
+park	NP	NP
+opposite	O	NP
+spencer	NP	NP
+street	NP	NP
+
+walking	O	O
+along	NP	NP
+the	NP	NP
+beach	NP	NP
+at	O	O
+night	O	O
+
+having	O	O
+a	O	O
+round	O	O
+at	NP	NP
+the	NP	NP
+yarra	NP	NP
+golf	NP	NP
+course	NP	NP
+exclusive	O	NP
+to	O	NP
+private	O	NP
+members	O	NP
+
+im	O	O
+just	O	O
+checking	O	O
+out	O	O
+of	NP	NP
+my	NP	NP
+room	NP	NP
+in	NP	NP
+crown	NP	NP
+plaza	NP	NP
+opposite	NP	O
+jeffs	NP	O
+shed	NP	O
+.	O	O
+
+north	NP	NP
+melbourne	NP	NP
+station	NP	NP
+
+footscray	NP	NP
+station	NP	NP
+,	NP	NP
+market	NP	NP
+
+watergardens	NP	NP
+shopping	NP	NP
+centre	NP	NP
+,	NP	NP
+train	NP	NP
+station	NP	NP
+
+walking	O	O
+down	NP	NP
+greeves	NP	NP
+street	NP	NP
+to	O	NP
+spring	NP	NP
+street	NP	NP
+
+adderely	NP	NP
+street	NP	NP
+in	NP	NP
+west	NP	NP
+melbourne	NP	NP
+
+im	O	O
+in	NP	NP
+carlton	NP	NP
+at	NP	NP
+a	NP	NP
+cafe	NP	NP
+
+@	NP	NP
+the	NP	NP
+john	NP	NP
+cain	NP	NP
+memorial	NP	NP
+park	NP	NP
+,	O	O
+took	O	O
+ages	O	O
+to	O	O
+walk	O	O
+here	O	O
+tho	O	O
+
+i	O	O
+am	O	O
+in	NP	NP
+north	NP	NP
+melbourne	NP	NP
+trying	O	O
+to	O	O
+find	O	O
+a	NP	NP
+car	NP	NP
+park	NP	NP
+xd	O	NP
+
+optus	NP	NP
+oval	NP	NP
+watching	O	O
+the	O	O
+footy	O	O
+
+visiting	O	O
+caufield	NP	NP
+park	NP	NP
+and	O	O
+playing	O	O
+in	O	NP
+the	O	NP
+snow	O	NP
+beats	O	NP
+grusiem	O	NP
+
+kyaking	O	O
+in	NP	NP
+this	NP	NP
+little	NP	NP
+lake	NP	NP
+with	O	O
+my	O	O
+nephew	O	O
+
+103	NP	NP
+hephman	NP	NP
+street	NP	NP
+
+visiting	O	O
+rocky	NP	O
+point	NP	O
+for	O	O
+the	O	O
+day	O	O
+
+spencer	NP	NP
+street	NP	NP
+railway	NP	NP
+
+at	NP	NP
+the	NP	NP
+church	NP	NP
+opposite	NP	NP
+the	NP	NP
+station	NP	NP
+as	O	O
+well	O	O
+as	O	O
+mcdonalds	NP	O
+to	O	O
+my	O	O
+right	O	O
+
+at	NP	NP
+queens	NP	NP
+park	NP	NP
+lake	NP	NP
+opposite	NP	NP
+the	NP	NP
+big	NP	NP
+tree	NP	NP
+in	O	O
+the	O	O
+middle	O	O
+and	O	O
+4	O	NP
+roads	NP	NP
+around	O	NP
+me	O	NP
+
+yarra	O	NP
+cruise	O	NP
+in	NP	NP
+the	NP	NP
+yarra	NP	NP
+river	NP	NP
+
+in	NP	NP
+the	NP	NP
+car	NP	NP
+in	NP	NP
+the	NP	NP
+domain	NP	NP
+tunnel	NP	NP
+
+t	O	O
+
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+just	O	O
+off	NP	NP
+cutter	NP	NP
+st	NP	NP
+
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+on	NP	NP
+verdant	NP	NP
+ave	NP	NP
+right	O	O
+near	O	NP
+the	O	NP
+south	NP	NP
+yarra	NP	NP
+tennis	NP	NP
+club	NP	NP
+
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+at	NP	NP
+the	NP	NP
+kevin	NP	NP
+bartlett	NP	NP
+sporting	NP	NP
+and	NP	NP
+recreation	NP	NP
+complex	NP	NP
+in	NP	NP
+fairview	NP	NP
+park	NP	NP
+
+at	NP	NP
+nymphaea	NP	NP
+lake	NP	NP
+
+on	NP	NP
+the	NP	NP
+corner	NP	NP
+of	NP	NP
+kelba	NP	NP
+st	NP	NP
+at	NP	NP
+a	NP	NP
+friends	NP	NP
+house	NP	NP
+
+on	NP	NP
+thurso	NP	NP
+st	NP	NP
+about	O	O
+to	O	O
+turn	O	O
+into	NP	NP
+the	NP	NP
+golf	NP	NP
+club	NP	NP
+
+standing	O	O
+under	NP	NP
+a	NP	NP
+tree	NP	NP
+at	NP	NP
+tally	NP	NP
+ho	NP	NP
+reserve	NP	NP
+
+h	O	O
+
+at	NP	NP
+the	NP	NP
+valley	NP	NP
+private	NP	NP
+hospital	NP	NP
+
+at	NP	O
+joseph	NP	O
+banks	NP	O
+crescent	NP	O
+across	O	O
+from	NP	NP
+joseph	NP	NP
+banks	NP	NP
+medical	NP	NP
+centre	NP	NP
+
+at	O	NP
+james	NP	NP
+cook	NP	NP
+drive	NP	NP
+and	NP	NP
+heatherton	NP	NP
+rd	NP	NP
+intersection	NP	NP
+
+somewhere	O	O
+in	NP	NP
+lysterfield	NP	NP
+lake	NP	NP
+park	NP	NP
+there	O	O
+is	O	O
+lots	O	O
+of	NP	NP
+trees	NP	NP
+
+on	NP	NP
+cunningham	NP	NP
+drive	NP	NP
+infront	O	O
+of	NP	NP
+thomas	NP	NP
+mitchell	NP	NP
+primary	NP	NP
+school	NP	NP
+
+g	O	O
+
+v	O	O
+
+at	NP	NP
+timbarra	NP	NP
+shops	NP	NP
+across	O	O
+from	NP	NP
+timbarra	NP	NP
+primary	O	NP
+school	O	NP
+
+yarra	NP	NP
+blvd	NP	NP
+turn	NP	NP
+off	O	O
+just	O	O
+next	O	O
+to	NP	NP
+the	NP	NP
+freeway	NP	NP
+where	O	O
+the	NP	NP
+road	NP	NP
+meets	O	O
+the	NP	NP
+yarra	NP	NP
+
+sweeny	NP	NP
+opposite	NP	NP
+the	NP	NP
+park	NP	NP
+and	NP	NP
+freeway	NP	NP
+m	NP	NP
+1	NP	NP
+
+cursing	O	O
+up	O	O
+warana	NP	NP
+drive	NP	NP
+opposite	NP	NP
+the	NP	NP
+milk	NP	NP
+bar	NP	NP
+about	O	O
+to	O	O
+go	O	O
+round	O	NP
+bend	NP	NP
+
+collingwood	NP	O
+infront	O	O
+of	NP	NP
+the	NP	NP
+old	NP	NP
+churce	NP	NP
+near	NP	NP
+web	NP	NP
+street	NP	NP
+.	O	O
+
+schotchner	NP	NP
+street	NP	NP
+near	NP	NP
+the	NP	NP
+broken	NP	NP
+road	NP	NP
+with	O	O
+broken	O	O
+drains	O	O
+
+i	O	O
+am	O	O
+at	O	O
+my	O	O
+son	O	O
+\	O	O
+'	O	O
+s	O	O
+childcare	NP	O
+centre	NP	O
+.	O	O
+
+pitt	NP	NP
+street	NP	NP
+on	NP	O
+the	NP	O
+peer	NP	O
+opposite	NP	O
+the	NP	NP
+boat	NP	NP
+yard	NP	NP
+
+yarra	NP	NP
+bend	NP	NP
+park	NP	NP
+oppposite	O	NP
+the	NP	NP
+cemetary	NP	NP
+and	NP	NP
+huge	NP	NP
+tree	NP	NP
+in	O	NP
+the	O	NP
+middle	O	NP
+
+7	NP	NP
+-	NP	NP
+11	NP	NP
+,	NP	NP
+royal	NP	NP
+womens	NP	NP
+hospital	NP	NP
+
+on	O	NP
+
+at	NP	NP
+the	NP	NP
+caltex	NP	NP
+near	NP	NP
+maccas	NP	NP
+and	NP	NP
+train	NP	NP
+atation	NP	NP
+
+abecket	NP	NP
+road	NP	NP
+to	NP	O
+north	NP	NP
+road	NP	NP
+opposite	NP	NP
+the	NP	NP
+wide	NP	NP
+road	NP	NP
+and	NP	NP
+tennis	NP	NP
+courts	NP	NP
+
+edwin	NP	NP
+flack	NP	NP
+reserve	NP	NP
+opposite	O	NP
+the	O	NP
+berwick	NP	NP
+highschool	NP	NP
+
+decor	NP	NP
+drive	NP	NP
+opposite	NP	NP
+the	NP	NP
+princess	NP	NP
+highway	NP	NP
+
+goin	O	O
+up	NP	O
+ormand	NP	NP
+road	NP	NP
+to	NP	O
+hallam	NP	NP
+road	NP	NP
+which	O	O
+is	O	O
+on	NP	NP
+a	NP	NP
+dirt	NP	NP
+track	NP	NP
+.	O	O
+
+outside	O	NP
+booran	NP	NP
+holden	NP	NP
+which	O	O
+is	O	O
+opposite	NP	O
+the	NP	O
+rays	NP	O
+outdoors	NP	O
+and	NP	O
+tyre	NP	O
+factory	NP	O
+
+lysterfield	NP	NP
+lake	NP	NP
+
+tailors	NP	NP
+lane	NP	NP
+near	NP	NP
+narre	NP	NP
+
+going	O	O
+down	NP	NP
+westernpor	NP	NP
+which	O	O
+has	O	O
+black	NP	O
+trees	NP	O
+either	O	O
+side	O	O
+
+in	O	O
+the	O	O
+neck	O	O
+of	NP	NP
+the	NP	NP
+woods	NP	NP
+
+circuit	NP	NP
+lane	NP	NP
+where	O	O
+there	O	O
+is	O	O
+a	O	O
+fire	NP	O
+hose	NP	NP
+and	NP	NP
+truck	NP	NP
+always	O	NP
+on	O	O
+side	O	O
+of	NP	NP
+the	NP	NP
+road	NP	NP
+
+south	NP	NP
+gippy	NP	NP
+
+sporting	NP	O
+complex	NP	O
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+at	O	NP
+
+near	NP	NP
+cranny	NP	NP
+rail	NP	NP
+way	NP	NP
+
+cranny	NP	NP
+shopping	NP	NP
+centre	NP	NP
+opposite	NP	NP
+old	NP	NP
+church	NP	NP
+
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+at	O	NP
+
+how	O	O
+about	O	O
+you	O	O
+tell	O	O
+me	O	O
+where	O	O
+you	O	O
+are	O	O
+?	O	O
+
+yarrow	NP	NP
+court	NP	NP
+
+swimming	O	O
+in	NP	NP
+cardi	NP	NP
+reserve	NP	NP
+
+camberwell	NP	NP
+
+i	O	O
+am	O	O
+at	NP	NP
+my	NP	NP
+lab	NP	NP
+.	O	O
+
+kilmore	NP	O
+motel	NP	O
+opposite	NP	O
+op	NP	NP
+shop	NP	NP
+and	NP	NP
+empty	NP	NP
+land	NP	NP
+
+ching	NP	O
+chong	NP	O
+food	NP	O
+
+northern	NP	NP
+highway	NP	NP
+opposite	NP	NP
+the	NP	NP
+chimes	NP	NP
+place	NP	NP
+
+at	O	NP
+the	O	NP
+broady	NP	NP
+race	NP	NP
+circuit	NP	NP
+opposite	NP	NP
+the	NP	NP
+speed	NP	NP
+circuit	NP	NP
+and	NP	NP
+motocross	NP	NP
+
+at	O	NP
+the	O	NP
+shepperton	NP	NP
+pub	NP	NP
+opposite	NP	NP
+the	NP	NP
+shrine	NP	NP
+of	NP	NP
+remembrance	NP	NP
+
+.	O	O
+
+dubbo	O	O
+
+at	NP	NP
+whitten	NP	NP
+oval	NP	NP
+near	NP	NP
+the	NP	NP
+tyre	NP	NP
+place	NP	NP
+
+sta	O	NP
+albens	NP	NP
+road	NP	NP
+off	NP	NP
+that	NP	NP
+little	NP	NP
+street	NP	NP
+with	NP	NP
+the	NP	NP
+statue	NP	NP
+and	NP	NP
+shrine	NP	NP
+
+airport	NP	NP
+near	NP	NP
+training	NP	NP
+centre	NP	NP
+
+selborne	NP	NP
+road	NP	NP
+near	NP	NP
+my	NP	NP
+house	NP	NP
+
+royal	NP	NP
+park	NP	NP
+
+in	NP	O
+nr	NP	O
+nar	NP	O
+goon	NP	O
+
+south	NP	NP
+morang	NP	NP
+
+im	O	O
+in	NP	NP
+australia	NP	NP
+
+on	NP	NP
+the	NP	NP
+train	NP	NP
+heading	O	O
+out	O	O
+of	O	NP
+city	NP	NP
+
+bolte	NP	NP
+bridge	NP	NP
+
+a	NP	O
+unit	NP	O
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+renting	O	O
+on	NP	NP
+clark	NP	NP
+street	NP	NP
+
+kilmore	NP	O
+gap	NP	O
+
+at	NP	NP
+kellys	NP	NP
+in	NP	NP
+the	NP	NP
+bush	NP	NP
+
+broadford	NP	NP
+race	NP	NP
+track	NP	NP
+
+broady	NP	NP
+picnic	NP	NP
+park	NP	NP
+near	NP	NP
+cop	NP	NP
+shop	NP	NP
+
+stratford	NP	NP
+court	NP	NP
+
+motorcycle	O	NP
+rim	O	NP
+stickers	O	NP
+
+at	NP	NP
+the	NP	NP
+cemetery	NP	NP
+
+at	NP	NP
+my	NP	NP
+house	NP	NP
+in	NP	NP
+mollosin	NP	NP
+street	NP	NP
+
+driving	O	O
+up	NP	O
+sugarloaf	NP	NP
+road	NP	NP
+
+on	NP	NP
+a	NP	NP
+farm	NP	NP
+
+seymour	NP	NP
+cafe	NP	NP
+
+doing	O	O
+a	O	O
+round	O	O
+at	O	NP
+the	O	NP
+broady	NP	NP
+racetrack	NP	NP
+
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+milking	O	O
+a	O	O
+cow	O	O
+on	NP	NP
+a	NP	NP
+farm	NP	NP
+

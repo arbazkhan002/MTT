@@ -1,0 +1,50 @@
+\documentclass{article}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifxetex
+  \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\else
+  \ifluatex
+    \usepackage{fontspec}
+    \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \else
+    \usepackage[utf8]{inputenc}
+  \fi
+\fi
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex,
+              colorlinks=true,
+              linkcolor=blue]{hyperref}
+\else
+  \usepackage[unicode=true,
+              colorlinks=true,
+              linkcolor=blue]{hyperref}
+\fi
+\hypersetup{breaklinks=true, pdfborder={0 0 0}}
+\setlength{\parindent}{0pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\textheight 8.5in
+\addtolength{\topmargin}{-1in}
+
+\title{Place Descriptions}
+\author{Arbaz Khan}
+\date{Progress Report \\ \today}
+\begin{document}
+\maketitle 
+
+\section{Progress}
+
+\subsection*{Insight into the Parser Program}
+The parser program provided by \textit{Felix} was studied to understand its output response to the campus descriptions. The parser program took input in the form of two files containing the POS tagged \& chunked text file and the manual annotations in a format proposed by \textit{Igor}. Chunking was done with the help of \textit{Apache-OpenNLP} and the manual annotations were done with the help of \textit{brat} as suggested by \textit{Igor}. The parser program was then run on a short sample input generated from the campus descriptions (I). \\\\
+This helped getting familiar directly with the complexity of the problem of generating triplets from the output of \textit{Felix's} parser.
+
+\subsection*{Analysis of the functioning}
+The output provided by the parser is in the form of tagging each word with the IOB encoding. The accuracy of the results on \textit{tellUsWhere} data are observed to be promising. As per the experiments of \textit{Felix}, about three quarters of the locative expressions are recognized by the parser. \\\\ However, the \textit{tellUsWhere} data contains pretty straightforward place desciptions where identifying the locative expressions were not non-trivial, esp. as compared to the campus descriptions which contains implicit locative expressions represented by paths. Also, the concern is the input format taken by parser. It requires manual annotations where geospatial noun entities(NE) and noun phrases (NP) need to be identified and tagged for the words occuring in the original place descriptions. Feasibility of the application to a large project stays a major issue henceforth.
+
+\section{Future Work}
+Having set up the input requirements, the next step is to get the output from the parser and visualize the approach for generation of triplets either using DFS method proposed earlier or some other alternative efficient algorithm to extract triplets from the IOB encoded output.
+
+\end{document}

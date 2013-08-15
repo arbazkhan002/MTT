@@ -1,0 +1,806 @@
+438	O	NP
+
+box	NP	NP
+hill	NP	NP
+gardens	NP	NP
+
+at	NP	NP
+surrey	NP	NP
+hills	NP	NP
+train	NP	NP
+station	NP	NP
+
+arpud	NP	NP
+the	NP	NP
+street	NP	NP
+
+on	NP	NP
+french	NP	NP
+island	NP	NP
+at	O	NP
+minogues	O	NP
+pla	O	NP
+e	O	NP
+
+devon	NP	NP
+meadows	NP	NP
+
+police	NP	NP
+paddocks	NP	NP
+
+reddy	O	NP
+
+m	NP	NP
+1	NP	NP
+
+casey	NP	NP
+
+melb	NP	NP
+uni	NP	NP
+
+fg	NP	O
+
+magid	O	NP
+racimg	O	NP
+
+redman	O	NP
+
+freeway	NP	NP
+
+at	NP	NP
+glenferrie	NP	NP
+station	NP	NP
+in	O	O
+front	O	O
+of	O	NP
+safeway	O	NP
+supermarket	O	NP
+.	O	O
+
+masson	NP	NP
+road	NP	NP
+,	NP	NP
+university	NP	NP
+of	NP	NP
+melbourne	NP	NP
+
+rmh	NP	NP
+royal	NP	NP
+park	NP	NP
+campus	O	NP
+
+wa	O	O
+somewhere	O	O
+
+near	O	NP
+qork	O	NP
+
+near	NP	NP
+lilydale	NP	NP
+
+subway	NP	NP
+
+belgrave	NP	NP
+hallam	NP	NP
+
+centre	NP	NP
+road	NP	NP
+
+hete	O	O
+
+resivour	NP	NP
+
+tinks	NP	NP
+rd	NP	NP
+
+lysterfield	NP	NP
+
+moe	NP	NP
+
+loch	NP	O
+
+bittern	NP	NP
+
+queenscliff	NP	NP
+
+forster	O	NP
+
+grantville	NP	NP
+
+telford	NP	NP
+road	NP	NP
+
+glenmaggie	NP	NP
+
+pearcdale	NP	NP
+
+holm	NP	NP
+park	NP	NP
+
+telford	NP	NP
+
+harkarway	NP	NP
+
+arden	NP	NP
+street	NP	NP
+oval	NP	NP
+
+princes	NP	NP
+garden	NP	NP
+
+east	NP	NP
+richmond	NP	NP
+station	NP	NP
+
+eureka	NP	NP
+skydeck	NP	NP
+
+chris	NP	NP
+gahan	NP	NP
+reserve	NP	NP
+
+gallager	NP	NP
+reserve	NP	NP
+
+city	NP	NP
+reserve	NP	NP
+
+fa	NP	NP
+andrews	NP	NP
+reserve	NP	NP
+
+yarra	NP	NP
+bend	NP	NP
+park	NP	NP
+
+sheparton	NP	NP
+pib	NP	NP
+
+yack	NP	NP
+
+on	O	O
+way	O	O
+to	O	O
+emerald	NP	NP
+
+wanterna	NP	NP
+
+flinder	NP	NP
+
+in	O	O
+front	O	O
+of	NP	NP
+melbourne	NP	NP
+central	NP	NP
+train	NP	NP
+station	NP	NP
+.	O	O
+
+sale	NP	NP
+
+first	NP	NP
+floor	NP	NP
+ama	NP	NP
+house	NP	NP
+293	NP	NP
+royal	NP	NP
+parade	NP	NP
+parkville	NP	NP
+victoria	NP	NP
+australia	NP	NP
+
+near	NP	NP
+hawthorn	NP	NP
+train	NP	NP
+statin	NP	NP
+on	NP	NP
+the	NP	NP
+train	NP	NP
+.	O	O
+
+playin	O	NP
+with	O	O
+my	O	O
+new	O	O
+iphone	O	O
+:	O	O
+)	O	O
+
+just	O	O
+chillin	O	O
+
+not	O	O
+sure	O	O
+
+crawlin	O	NP
+off	NP	NP
+crawley	NP	NP
+
+on	NP	NP
+the	NP	NP
+rd	NP	NP
+with	O	O
+a	O	O
+funny	O	O
+name	O	O
+
+ggi	O	NP
+
+never	O	O
+win	O	O
+anything	O	O
+
+lost	O	O
+lost	O	O
+lost	O	O
+
+dpyxits	O	O
+
+em	O	O
+
+in	O	O
+front	O	O
+of	NP	NP
+melbourne	NP	NP
+central	NP	NP
+train	NP	NP
+station	NP	NP
+at	NP	NP
+swanston	NP	NP
+street	NP	NP
+
+dandy	NP	NP
+
+le	NP	O
+mans	NP	O
+
+dandy	NP	NP
+going	O	O
+for	O	O
+job	O	O
+imterview	O	O
+
+in	NP	NP
+camberwell	NP	NP
+train	NP	NP
+station	NP	NP
+
+in	NP	NP
+hawthorn	NP	NP
+in	O	O
+front	O	O
+of	NP	NP
+a	NP	NP
+park	NP	NP
+called	O	O
+central	NP	NP
+garden	NP	NP
+where	O	O
+the	NP	NP
+university	NP	NP
+of	NP	NP
+swinburne	NP	NP
+is	O	O
+located	O	O
+
+in	O	NP
+near	O	NP
+hawthorn	NP	NP
+shops	NP	NP
+
+moorolobark	NP	NP
+
+going	O	O
+to	O	O
+broken	O	NP
+hill	O	NP
+
+over	O	NP
+the	O	NP
+road	O	NP
+from	NP	NP
+pub	NP	NP
+on	O	NP
+iphone	O	NP
+
+cavendish	NP	NP
+
+mouth	O	NP
+
+at	NP	NP
+burwood	NP	NP
+rd	NP	NP
+in	O	O
+front	O	O
+of	NP	NP
+swinburne	NP	NP
+university	NP	NP
+of	NP	NP
+technology	NP	NP
+in	NP	NP
+hawthorn	NP	NP
+suburb	O	NP
+
+bikes	NP	NP
+and	NP	NP
+bits	NP	NP
+
+hey	O	O
+
+crime	O	NP
+
+seville	NP	NP
+east	NP	NP
+
+montrose	NP	NP
+
+whittlesea	NP	NP
+
+honey	O	O
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+home	O	O
+:	O	O
+)	O	O
+
+building	NP	NP
+9	NP	NP
+at	NP	NP
+rmit	NP	NP
+university	NP	NP
+,	O	O
+on	O	NP
+the	O	NP
+corner	O	NP
+of	NP	NP
+bowen	NP	NP
+st	NP	NP
+and	NP	NP
+franklin	NP	NP
+st	NP	NP
+,	NP	NP
+melbourne	NP	NP
+.	O	O
+
+officer	NP	NP
+
+aussie	O	O
+day	O	O
+
+southern	NP	NP
+reserve	NP	NP
+
+lyndhurst	NP	NP
+
+nsw	O	O
+
+next	O	O
+to	NP	NP
+the	NP	NP
+m	NP	NP
+1	NP	NP
+
+knox	NP	NP
+shopping	NP	NP
+
+donvale	NP	NP
+bbq	NP	NP
+place	NP	NP
+
+near	NP	O
+te	NP	O
+pub	NP	O
+but	O	O
+next	O	O
+to	O	O
+te	O	O
+post	NP	NP
+office	NP	NP
+
+heathmomt	NP	NP
+road	NP	NP
+
+hight	NP	NP
+street	NP	NP
+in	NP	NP
+ashburton	NP	NP
+town	NP	NP
+
+m	NP	NP
+1	NP	NP
+motorway	NP	NP
+accorising	O	O
+to	O	O
+gps	O	O
+
+balaclava	NP	NP
+
+woolamai	NP	NP
+racecourse	NP	NP
+
+heading	O	O
+to	O	O
+wagga	O	O
+wagga	O	O
+
+melbourne	NP	NP
+town	NP	NP
+hall	NP	NP
+
+eureka	NP	NP
+
+711	O	NP
+
+slurpe	O	NP
+
+club	NP	NP
+rd	NP	NP
+
+new	NP	O
+estate	NP	O
+
+wish	O	NP
+i	O	O
+was	O	O
+with	O	O
+brayden	O	O
+
+red	NP	NP
+cross	NP	NP
+blood	NP	NP
+bank	NP	NP
+
+m	NP	O
+1	NP	O
+on	O	O
+way	O	O
+to	O	NP
+broadford	NP	NP
+
+melbourne	NP	NP
+towl	NP	NP
+hall	NP	NP
+
+2	O	NP
+/	O	O
+23	O	O
+herbert	O	O
+cres	O	O
+ainslie	O	O
+act	O	O
+
+aussie	O	NP
+dande	O	NP
+
+&	O	O
+#	O	O
+58382	O	O
+;	O	O
+
+tram	NP	NP
+stop	NP	NP
+
+keiths	NP	NP
+fitness	NP	NP
+centre	NP	NP
+
+lonsdale	NP	NP
+street	NP	NP
+
+resy	NP	O
+
+cowes	NP	NP
+pier	NP	NP
+
+hotel	NP	NP
+rendavo	NP	NP
+
+the	NP	NP
+town	NP	NP
+of	NP	NP
+trentham	NP	NP
+in	O	NP
+the	O	NP
+central	O	NP
+highlands	O	NP
+of	NP	NP
+victoria	NP	NP
+,	NP	NP
+australia	NP	NP
+.	O	O
+once	O	O
+known	O	O
+for	O	O
+logging	O	O
+and	O	O
+gold	O	O
+but	O	O
+now	O	O
+potatoes	O	O
+and	O	O
+truffles	O	O
+and	O	O
+boutique	O	O
+get	O	O
+aways	O	O
+.	O	O
+close	O	O
+to	O	NP
+e	O	NP
+melbourne	NP	NP
+,	NP	NP
+ballarat	NP	NP
+,	NP	NP
+bendigo	NP	NP
+,	O	O
+and	O	O
+on	O	O
+the	O	O
+edge	O	O
+of	NP	NP
+the	NP	NP
+spa	NP	NP
+country	NP	NP
+\	O	NP
+'	O	NP
+s	O	NP
+.	O	O
+
+wittlr	O	NP
+
+bear	O	O
+in	O	NP
+the	O	NP
+qoods	O	NP
+
+tunnel	NP	NP
+
+floods	O	NP
+
+yaradale	NP	NP
+
+waterfront	NP	O
+
+just	O	O
+licking	O	O
+chocolate	O	O
+off	O	O
+of	O	NP
+my	O	NP
+good	O	NP
+
+on	O	O
+way	O	O
+to	O	NP
+broady	NP	NP
+
+hillside	NP	NP
+
+princess	NP	NP
+in	NP	NP
+beacy	NP	NP
+
+between	O	NP
+landgate	O	NP
+and	O	NP
+the	O	NP
+city	O	NP
+of	O	NP
+swan	O	NP
+offices	O	NP
+.	O	O
+
+wallan	NP	NP
+
+hallam	NP	NP
+north	NP	NP
+
+misses	O	NP
+ranalli	O	NP
+
+sitting	O	O
+under	NP	NP
+a	NP	NP
+tree	NP	NP
+
+deep	O	NP
+creek	O	NP
+
+lilydale	NP	NP
+
+dunno	O	O
+central	O	O
+
+at	NP	NP
+federation	NP	NP
+square	NP	NP
+,	O	O
+on	O	O
+the	O	O
+eastern	O	O
+side	O	O
+of	NP	NP
+st	NP	NP
+kilda	NP	NP
+road	NP	NP
+opposite	NP	NP
+flinders	NP	NP
+street	NP	NP
+station	NP	NP
+in	NP	NP
+melbourne	NP	NP
+city	NP	NP
+.	O	O
+
+heals	NP	NP
+
+game	O	NP
+lobby	O	NP
+closed	O	NP
+
+qualify	NP	NP
+drive	NP	NP
+
+girlfriends	O	NP
+
+trail	O	NP
+biking	O	O
+in	NP	NP
+harkaway	NP	NP
+
+my	O	NP
+panarama	O	NP
+
+wollert	NP	NP
+
+boathouse	NP	NP
+drive	NP	NP
+
+greenmeadows	NP	NP
+gardens	NP	NP
+
+wonthaggi	NP	NP
+secondary	NP	NP
+college	NP	NP
+
+inside	NP	NP
+a	NP	NP
+house	NP	NP
+
+rooftop	NP	NP
+bar	NP	NP
+
+in	NP	NP
+a	NP	NP
+house	NP	NP
+
+p	NP	O
+.	NP	O
+i	NP	O
+
+lynbrook	NP	NP
+
+triangle	NP	NP
+apartment	NP	NP
+,	O	NP
+behind	NP	NP
+law	NP	NP
+building	NP	NP
+
+near	NP	NP
+hampton	NP	NP
+park	NP	NP
+in	NP	NP
+hallam	NP	NP
+
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+heading	O	O
+towards	NP	NP
+east	NP	NP
+link	NP	NP
+
+walking	O	O
+to	NP	NP
+the	NP	NP
+post	NP	NP
+office	NP	NP
+in	NP	NP
+hampton	NP	NP
+park	NP	NP
+
+aflame	NP	NP
+strip	NP	NP
+
+exploded	O	O
+on	O	O
+impact	O	O
+
+richy	O	NP
+downs	O	NP
+
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+next	O	O
+to	NP	NP
+the	NP	NP
+big	NP	NP
+tree	NP	NP
+near	NP	NP
+maccas	NP	NP
+
+corner	O	NP
+pound	NP	NP
+and	NP	NP
+south	NP	NP
+gippy	NP	NP
+highway	NP	NP
+
+heading	O	O
+to	O	NP
+yarrawonga	O	NP
+
+around	NP	NP
+the	NP	NP
+block	NP	NP
+
+right	O	O
+near	O	NP
+my	O	NP
+new	O	NP
+job	O	NP
+hooorahhh	O	NP
+
+wonthaggi	NP	NP
+rec	NP	NP
+reserve	NP	NP
+
+35	O	NP
+
+nothing	O	O
+to	O	O
+describe	O	O
+
+melb	NP	NP
+water	NP	NP
+
+tell	O	O
+me	O	O
+qhere	O	O
+
+adrenilin	O	NP
+
+race	NP	NP
+track	NP	NP
+
+golf	NP	NP
+club	NP	NP
+
+bendigo	NP	NP
+
+crockford	NP	NP
+st	NP	NP
+
+near	NP	NP
+hallam	NP	NP
+
+wonthaggi	NP	NP
+aquatic	NP	NP
+centre	NP	NP
+
+drowning	O	O
+
+fur	O	NP
+pack	O	NP
+
+win	O	O
+win	O	O
+win	O	O
+win	O	O
+

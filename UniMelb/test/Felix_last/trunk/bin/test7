@@ -1,0 +1,25 @@
+All DT None None False False Aaa Aa 3 -1 -1 NP None 2 0 O None None None DT 0 0 trams NNS DT 1 All B-NP False O O O False False 2 all False -1 True True O None O
+trams NNS None None False False aaaaa a 5 -1 -1 NP None 2 1 O None None None DT 1 0 trams NNS DT 1 trams I-NP False O O O False False 2 tram False -1 False True O None O
+are VBP None None False False aaa a 3 -1 -1 VP None 2 0 O None None None VBP 2 1 going VBG VBP 1 are B-VP False None None None False False 2 be False -1 False True O None O
+going VBG None None False False aaaaa a 5 -1 -1 VP None 2 1 O None None None VBP 3 1 going VBG VBP 1 going I-VP False None None None False False 2 go False -1 False True O None O
+down RB None None False False aaaa a 4 -1 -1 ADVP None 1 0 O None None None RB 4 2 None None RB 1 down B-ADVP False None None None False False 1 down False -1 False True O None O
+to TO None None False False aa a 2 -1 -1 PP None 1 0 O None None None TO 5 3 None None TO 1 to B-PP False None None None False False 1 to False -1 False True O None B-NP
+the DT B-no B-6 B-False B-False aaa a 3 -1 -1 NP to 2 0 O None to the DT 6 4 city NN DT 1 the B-NP False O O O False False 2 the False -1 False True O None I-NP
+city NN I-no I-6 I-False I-False aaaa a 4 -1 -1 NP to 2 1 O None to the DT 7 4 city NN DT 1 city I-NP False B-P B-PPLX O True False 2 city False -1 False True O False I-NP
+, , None None False False _ _ 1 -1 -1 None None 1 0 O None None None , 8 5 None None , 1 , O False None None None False False 1 , False -1 False True O None O
+but CC None None False False aaa a 3 -1 -1 None None 1 0 O None None None CC 9 6 None None CC 1 but O False None None None False False 1 but False -1 False True O None O
+the DT B-no B-4 B-False B-False aaa a 3 -1 -1 NP None 2 0 O None None the DT 10 7 city NN DT 1 the B-NP False O O O False False 2 the False -1 False True O None B-NP
+city NN I-no I-4 I-False I-False aaaa a 4 -1 -1 NP None 2 1 O None None the DT 11 7 city NN DT 1 city I-NP False B-P B-PPLX O True False 2 city False -1 False True O False I-NP
+is VBZ None None False False aa a 2 -1 -1 VP None 1 0 O None None None VBZ 12 8 None None VBZ 1 is B-VP False None None None False False 1 be False -1 False True O None O
+also RB None None False False aaaa a 4 -1 -1 ADVP None 2 0 O None None None RB 13 9 so RB RB 2 also B-ADVP False None None None False False 2 also False -1 False True O None O
+so RB None None False False aa a 2 -1 -1 ADVP None 2 1 O None None None RB 14 9 so RB RB 2 so I-ADVP False None None None False False 2 so False -1 False True O None O
+close RB None None False False aaaaa a 5 -1 -1 ADVP None 1 0 O None None None RB 15 10 None None RB 1 close B-ADVP False None None None False False 1 close False -1 False True O None O
+, , None None False False _ _ 1 -1 -1 None None 1 0 O None None None , 16 11 None None , 1 , O False None None None False False 1 , False -1 False True O None O
+it PRP None None False False aa a 2 -1 -1 NP None 1 0 O None None None PRP 17 12 None None PRP 1 it B-NP False O O O False False 1 it False -1 False True O None O
+xs VBZ None None False False aa a 2 -1 -1 VP None 3 0 O None None None VBZ 18 13 just RB VBZ 1 excess B-VP False None None None False False 3 xs False -1 False True O None O
+just RB None None False False aaaa a 4 -1 -1 VP None 3 1 O None None None VBZ 19 13 just RB VBZ 1 just I-VP False None None None False False 3 just False -1 False True O None O
+walking VBG None None False False aaaaaaa a 7 -1 -1 VP None 3 2 O None None None VBZ 20 13 just RB VBZ 1 walking I-VP False None None None False True 3 walk False -1 False True O None O
+distance NN None None False False aaaaaaaa a 8 -1 -1 NP None 1 0 O None None None NN 21 14 None None NN 1 distance B-NP False O O O True False 1 distance False -1 False True O None O
+. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 22 15 None None . 1 . O False None None None False False 1 . False -1 False True O None O
+
+

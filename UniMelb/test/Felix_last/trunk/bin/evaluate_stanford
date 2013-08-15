@@ -1,0 +1,25 @@
+#!/bin/bash
+
+COUNTER=0
+#rm -rf result
+#rm -rf result.txt
+
+
+rm -rf retrained_stanford_result
+touch retrained_stanford_result
+for F in $(ls train?)
+do
+    perl -pne "s/ /\t/g" train$COUNTER > stanford_train$COUNTER.tsv
+    perl -pne "s/ /\t/g" test$COUNTER > stanford_test$COUNTER.tsv
+    
+    java -cp ../stanford-ner-2012-11-11/stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -prop stanfordner$COUNTER.prop
+    java -cp ../stanford-ner-2012-11-11/stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -loadClassifier ner-model$COUNTER.ser.gz -testFile stanford_test$COUNTER.tsv >> retrained_stanford_result
+    rm -rf ner-model$COUNTER.ser.gz
+    COUNTER=$((COUNTER + 1))
+done
+
+perl -pne "s/\t/ /g" retrained_stanford_result > retrained_stanford_result.txt
+
+./conlleval < retrained_stanford_result.txt
+
+exit 0

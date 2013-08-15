@@ -1,0 +1,27 @@
+In IN None None False False Aa Aa 2 -1 -1 PP None 1 0 O None None None IN 0 0 None None IN 1 In B-PP False None None None False False 1 in False -1 True True O O
+the DT None None False False aaa a 3 -1 -1 NP None 3 0 O None In the DT 1 1 other JJ DT 1 the B-NP False None None O False False 3 the False -1 False True O O
+other JJ None None False False aaaaa a 5 -1 -1 NP None 3 1 O None In the DT 2 1 other JJ DT 1 other I-NP False None None O False False 3 other False -1 False True O O
+direction NN None None False False aaaaaaaaa a 9 -1 -1 NP None 3 2 O None In the DT 3 1 other JJ DT 1 direction I-NP False None None O True False 3 direction False -1 False True O O
+the DT None None False False aaa a 3 -1 -1 NP None 3 0 O None None the DT 4 2 open JJ DT 1 the B-NP False None None O False False 3 the False -1 False True O O
+open JJ None None False False aaaa a 4 -1 -1 NP None 3 1 O None None the DT 5 2 open JJ DT 1 open I-NP False None None O True False 3 open False -1 False True O O
+area NN None None False False aaaa a 4 -1 -1 NP None 3 2 O None None the DT 6 2 open JJ DT 1 area I-NP False None None O True False 3 area False -1 False True O O
+is VBZ None None False False aa a 2 -1 -1 VP None 1 0 O None None None VBZ 7 3 None None VBZ 1 is B-VP False None None None False True 1 be False -1 False True O O
+University NNP None None False False Aaaaaaaaaa Aa 10 -1 -1 NP None 2 0 O None None None NNP 8 4 square NN NN 1 University B-NP False None None B-PARK True False 2 university False -1 True True O O
+square NN None None False False aaaaaa a 6 -1 -1 NP None 2 1 O None None None NNP 9 4 square NN NN 1 square I-NP False None None I-PARK True False 2 square False -1 False True O O
+there EX None None False False aaaaa a 5 -1 -1 NP None 1 0 O None None None EX 10 5 None None EX 1 there B-NP False None None O False False 1 there False -1 False True O O
+is VBZ None None False False aa a 2 -1 -1 VP None 1 0 O None None None VBZ 11 6 None None VBZ 1 is B-VP False None None None False True 1 be False -1 False True O O
+a DT None None False False a a 1 -1 -1 NP None 2 0 O None None a DT 12 7 carpark NN DT 1 a B-NP False None None O False False 2 a False -1 False True O O
+carpark NN None None False False aaaaaaa a 7 -1 -1 NP None 2 1 O None None a DT 13 7 carpark NN DT 1 carpark I-NP False None None O False False 2 carpark False -1 False True O O
+underneath IN None None False False aaaaaaaaaa a 10 -1 -1 PP None 1 0 O None None None IN 14 8 None None IN 1 underneath B-PP False None None None False False 1 underneath False -1 False True O O
+at IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 15 9 None None IN 1 at B-PP False None None None False False 1 at False -1 False True O O
+the DT None None False False aaa a 3 -1 -1 NP None 3 0 O None at the DT 16 10 city NN NN 2 the B-NP False None None O False False 3 the False -1 False True O O
+city NN None None False False aaaa a 4 -1 -1 NP None 3 1 O None at the DT 17 10 city NN NN 2 city I-NP False B-P B-PPLX O True False 3 city False -1 False True O O
+end NN None None False False aaa a 3 -1 -1 NP None 3 2 O None at the DT 18 10 city NN NN 2 end I-NP False None None O False False 3 end False -1 False True O O
+of IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 19 11 None None IN 1 of B-PP False None None None False False 1 of False -1 False True O O
+University NNP None None False False Aaaaaaaaaa Aa 10 -1 -1 NP None 2 0 O None of None NNP 20 12 square NN NN 1 University B-NP False None None B-PARK True False 2 university False -1 True True O O
+square NN None None False False aaaaaa a 6 -1 -1 NP None 2 1 O None of None NNP 21 12 square NN NN 1 square I-NP False None None I-PARK True False 2 square False -1 False True O O
+is VBZ None None False False aa a 2 -1 -1 VP None 1 0 O None None None VBZ 22 13 None None VBZ 1 is B-VP False None None None False True 1 be False -1 False True O O
+the DT None None False False aaa a 3 -1 -1 NP None 3 0 O None None the DT 23 14 law NN NN 2 the B-NP False None None O False False 3 the False -1 False True O O
+law NN None None False False aaa a 3 -1 -1 NP None 3 1 O None None the DT 24 14 law NN NN 2 law I-NP False None None O False False 3 law False -1 False True O O
+building NN None None False False aaaaaaaa a 8 -1 -1 NP None 3 2 O None None the DT 25 14 law NN NN 2 building I-NP False None None O True False 3 building False -1 False True O O
+

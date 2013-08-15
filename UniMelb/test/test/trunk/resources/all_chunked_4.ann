@@ -1,0 +1,158 @@
+T1	NP_NP 27 49	[NP The_DT campus_NN ]
+A1	identifiability T1 no
+A2	gran_level T1 4
+T2	NE_NP 258 271	NP Oxford_NNP
+A3	identifiability T2 yes_unamb
+A4	gran_level T2 4
+T3	NE_NP 279 292	Cambridge_NNP
+A5	identifiability T3 yes_unamb
+A6	gran_level T3 4
+T4	NP_NP 114 144	[NP central_JJ buildings_NNS ]
+A7	identifiability T4 no
+A8	gran_level T4 4
+T5	NP_NP 329 353	central_JJ buildings_NNS
+A9	identifiability T5 no
+A10	gran_level T5 4
+T6	NP_NP 400 423	modern_JJ buildings_NNS
+A11	identifiability T6 no
+A12	gran_level T6 4
+T7	NP_NP 551 584	[NP the_DT sandstone_NN core_NN ]
+A13	identifiability T7 no
+A14	gran_level T7 3
+T8	NE_NP 598 623	[NP Wilson_NNP Hall_NNP ]
+A15	identifiability T8 yes_amb
+A16	gran_level T8 3
+T9	NE_NP 1009 1034	[NP Wilson_NNP Hall_NNP ]
+A17	identifiability T9 yes_amb
+A18	gran_level T9 3
+T10	NP_NP 1048 1107	[NP the_DT University’s_NNP administration_NN building_NN ]
+A19	identifiability T10 no
+A20	gran_level T10 3
+T11	NP_NP 1126 1174	[NP the_DT Vice_NNP Chancellor’s_NNP office_NN ]
+A21	identifiability T11 no
+A22	gran_level T11 3
+T12	NP_NP 1468 1479	building_NN
+A23	identifiability T12 no
+A24	gran_level T12 3
+T13	NE_NP 1495 1529	[NP the_DT Student_NNP Union_NNP ]
+A25	identifiability T13 yes_amb
+A26	gran_level T13 3
+T14	NP_NP 1625 1637	gymnasium_NN
+A27	identifiability T14 no
+A28	gran_level T14 3
+T15	NP_NP 1645 1652	pool_NN
+A29	identifiability T15 no
+A30	gran_level T15 3
+T16	NE_NP 2152 2184	[NP The_DT student_NN union_NN ]
+A31	identifiability T16 yes_amb
+A32	gran_level T16 3
+T17	NP_NP 2248 2263	[NP shops_NNS ]
+A33	identifiability T17 no
+A34	gran_level T17 3
+T18	NP_NP 2283 2295	eateries_NNS
+A35	identifiability T18 no
+A36	gran_level T18 3
+T19	NP_NP 2609 2669	[NP the_DT Psychology_NNP and_CC Physics_NNP buildings_NNS ]
+A37	identifiability T19 no
+A38	gran_level T19 4
+T20	NE_NP 2430 2488	[NP the_DT School_NNP ] [PP of_IN ] [NP Architecture_NNP ]
+A39	identifiability T20 no
+A40	gran_level T20 3
+T21	NP_NP 2765 2780	[NP campus_NN ]
+A41	identifiability T21 no
+A42	gran_level T21 4
+T22	NE_NP 3103 3143	[NP the_DT Engineering_NNP precinct_NN ]
+A43	identifiability T22 yes_unamb
+A44	gran_level T22 4
+T23	NE_NP 3297 3326	[NP Old_NNP Engineering_NNP ]
+A45	identifiability T23 yes_amb
+A46	gran_level T23 3
+T24	NP_NP 3371 3397	the_DT Dean’s_JJ office_NN
+A47	identifiability T24 no
+A48	gran_level T24 3
+T25	NP_NP 3561 3594	[NP the_DT sandstone_NN core_NN ]
+A49	identifiability T25 no
+A50	gran_level T25 3
+T26	NE_NP 3595 3631	[NP the_DT medicine_NN precinct_NN ]
+A51	identifiability T26 yes_unamb
+A52	gran_level T26 4
+T27	NE_NP 3711 3735	[NP Royal_NNP Park_NNP ]
+A53	identifiability T27 yes_unamb
+A54	gran_level T27 4
+T28	NE_NP 3750 3800	[NP the_DT Royal_NNP Melbourne_NNP Hospitals_NNP ]
+A55	identifiability T28 yes_unamb
+A56	gran_level T28 4
+T29	NE_NP 3840 3892	[NP the_DT Comprehensive_NNP Cancer_NNP Centre_NNP ]
+A57	identifiability T29 yes_unamb
+A58	gran_level T29 3
+T30	NE_NP 4087 4126	[NP the_DT new_JJ Brain_NN Centre_NNP ]
+A59	identifiability T30 yes_amb
+A60	gran_level T30 3
+T31	NE_NP 4143 4158	[NP campus_NN ]
+A61	identifiability T31 no
+A62	gran_level T31 4
+T32	NE_NP 4183 4215	[NP Royal_NNP Parade_NNP –_NNP ]
+A63	identifiability T32 yes_amb
+A64	gran_level T32 4
+T33	NP_NP 4261 4284	[NP the_DT library_NN ]
+A65	identifiability T33 no
+A66	gran_level T33 3
+T34	NP_NP 4355 4394	[NP the_DT sandstone_NN buildings_NNS ]
+A67	identifiability T34 no
+A68	gran_level T34 3
+T35	NP_NP 4545 4571	[NP the_DT university_NN ]
+A69	identifiability T35 no
+A70	gran_level T35 4
+T36	NE_NP 4691 4715	[NP South_NNP Lawn_NNP ]
+A71	identifiability T36 yes_unamb
+A72	gran_level T36 4
+T37	NE_NP 4414 4438	[NP Grattan_NNP St_NNP ]
+A73	identifiability T37 yes_amb
+A74	gran_level T37 4
+A75	normalized T37
+#1	AnnotatorNotes T37	Grattan Street
+T38	NE_NP 4822 4844	Graduate_NNP House_NNP
+A76	identifiability T38 yes_unamb
+A77	gran_level T38 3
+T39	NE_NP 4851 4901	[NP the_DT Melbourne_NNP Business_NNP School_NNP ]
+A78	identifiability T39 yes_unamb
+A79	gran_level T39 3
+T40	NE_NP 4966 4999	Alan_NNP Gilbert_NNP Building_NNP
+A80	identifiability T40 yes_unamb
+A81	gran_level T40 3
+T41	NE_NP 5152 5206	[NP the_DT old_JJ Royal_NNP Woman’s_NNP Hospital_NNP ]
+A82	identifiability T41 yes_unamb
+A83	gran_level T41 3
+T42	NE_NP 5605 5621	NP Parkville_NNP
+A84	identifiability T42 yes_unamb
+A85	gran_level T42 5
+T43	NP_NP 5687 5709	[NP the_DT campus_NN ]
+A86	identifiability T43 no
+A87	gran_level T43 4
+T44	NE_NP 5726 5751	[NP Swanston_NNP St_NNP ]
+A88	identifiability T44 yes_amb
+A89	gran_level T44 4
+T45	NP_NP 5834 5861	[NP the_DT University_NNP ]
+A90	identifiability T45 no
+A91	gran_level T45 4
+T46	NP_NP 5942 5962	[NP the_DT city_NN ]
+A92	identifiability T46 no
+A93	gran_level T46 6
+T47	NP_NP 5974 5994	[NP the_DT city_NN ]
+A94	identifiability T47 no
+A95	gran_level T47 4
+T48	NP_NP 2917 2985	[NP the_DT Northern_JJ suburbs_NNS ] [PP of_IN ] [NP Melbourne_NNP ]
+A96	identifiability T48 no
+A97	gran_level T48 5
+T49	NP_NP 3041 3074	[NP the_DT sandstone_NN core_NN ]
+A98	identifiability T49 no
+A99	gran_level T49 3
+T50	NP_NP 4502 4524	[NP the_DT campus_NN ]
+A100	identifiability T50 no
+A101	gran_level T50 4
+T51	NE_NP 870 886	[NP Oxford_NNP ]
+A102	identifiability T51 yes_unamb
+A103	gran_level T51 4
+T52	NP_NP 628 664	[NP a_DT multi-function_NN hall_NN ]
+A104	identifiability T52 no
+A105	gran_level T52 3

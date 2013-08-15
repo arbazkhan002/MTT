@@ -1,0 +1,1688 @@
+swing	NP	O
+set	NP	O
+
+lake	NP	NP
+park	NP	NP
+
+at	NP	NP
+my	NP	NP
+house	NP	NP
+in	NP	NP
+beacy	NP	NP
+
+ipswich	NP	O
+
+narre	NP	NP
+warren	NP	NP
+central	NP	NP
+
+airport	NP	NP
+west	NP	NP
+
+clocktower	NP	O
+
+center	NP	NP
+road	NP	NP
+
+near	NP	NP
+rowville	NP	NP
+
+kilcunda	NP	NP
+
+dandenong	NP	NP
+
+bundoora	NP	NP
+
+malvern	NP	NP
+east	NP	NP
+
+no	O	O
+place	O	O
+like	O	O
+home	NP	NP
+
+near	NP	NP
+balla	NP	NP
+
+jb	NP	NP
+hifi	NP	NP
+brouk	NP	NP
+st	NP	NP
+
+brents	NP	NP
+house	NP	NP
+
+beacy	NP	NP
+
+sofas	NP	NP
+pizza	NP	NP
+
+uni	NP	NP
+
+cop	NP	O
+
+donny	NP	NP
+
+blaclburn	NP	NP
+
+on	NP	NP
+the	NP	NP
+yarra	NP	NP
+
+walking	O	O
+up	NP	O
+swan	NP	NP
+street	NP	NP
+
+mulgrve	NP	NP
+
+dandenong	NP	NP
+apple	NP	NP
+
+hallam	NP	NP
+
+at	NP	NP
+train	NP	NP
+station	NP	NP
+
+by	NP	NP
+the	NP	NP
+beautiful	NP	NP
+secret	NP	NP
+harbour	NP	NP
+links	NP	NP
+golf	NP	NP
+course	NP	NP
+
+red	NP	NP
+rooter	NP	NP
+
+nobel	NP	NP
+park	NP	NP
+
+near	NP	NP
+craigie	NP	NP
+
+bear	O	NP
+trap	O	NP
+
+on	NP	NP
+the	NP	NP
+creek	NP	NP
+
+sa	O	O
+
+beconafield	NP	NP
+upper	NP	NP
+
+glasscocks	NP	NP
+
+narre	NP	NP
+spih	O	NP
+
+thompson	NP	NP
+road	NP	NP
+
+princes	NP	NP
+
+policd	NP	NP
+
+roville	NP	NP
+
+about	O	O
+to	O	O
+have	O	O
+baby	O	O
+in	NP	NP
+narre	NP	NP
+
+water	NP	O
+
+pi	NP	O
+
+southern	NP	NP
+cross	NP	NP
+station	NP	NP
+
+babel	NP	NP
+building	NP	NP
+melbourne	NP	NP
+uni	NP	NP
+
+vmax	O	NP
+
+westfield	NP	NP
+
+tram	NP	NP
+station	NP	NP
+in	O	O
+front	O	O
+of	NP	NP
+victoria	NP	NP
+market	NP	NP
+
+freway	NP	NP
+
+koo	NP	O
+wee	NP	O
+rup	NP	O
+
+in	NP	NP
+paky	NP	NP
+
+near	NP	NP
+epping	NP	NP
+
+heading	O	O
+through	NP	NP
+craigie	NP	NP
+
+ringwood	NP	NP
+
+sticks	O	O
+
+water	NP	NP
+plant	NP	NP
+
+cranny	NP	NP
+
+somerville	NP	NP
+
+bailleau	NP	NP
+library	NP	NP
+,	NP	NP
+university	NP	NP
+of	NP	NP
+melbourne	NP	NP
+
+narre	NP	NP
+north	NP	NP
+
+indian	O	NP
+
+moorabin	NP	NP
+
+st	NP	NP
+.	NP	NP
+kilda	NP	NP
+footy	NP	NP
+club	NP	NP
+
+hippo	O	NP
+
+perth	O	O
+cbd	O	O
+
+toowoomba	O	NP
+
+east	NP	NP
+hawthorn	NP	NP
+
+federation	NP	NP
+square	NP	NP
+
+glen	NP	NP
+iris	NP	NP
+
+brougham	NP	NP
+street	NP	NP
+
+malvern	NP	O
+east	NP	O
+,	NP	O
+vic	NP	O
+,	NP	O
+australia	NP	O
+
+23	NP	NP
+wiseman	NP	NP
+st	NP	NP
+hawthorn	NP	NP
+east	NP	NP
+
+iris	NP	NP
+road	NP	NP
+,	NP	NP
+glen	NP	NP
+iris	NP	NP
+,	NP	NP
+victoria	NP	NP
+,	NP	NP
+australia	NP	NP
+
+melbourne	NP	NP
+cbd	NP	NP
+
+willis	NP	NP
+street	NP	NP
+,	NP	NP
+hampton	NP	NP
+,	NP	NP
+3188	NP	NP
+,	NP	NP
+australia	NP	NP
+
+willis	NP	NP
+street	NP	NP
+,	NP	NP
+hamoton	NP	NP
+,	NP	NP
+3188	NP	NP
+,	NP	NP
+australia	NP	NP
+
+i	O	O
+am	O	O
+in	NP	NP
+my	NP	NP
+mother	NP	NP
+\	NP	NP
+'	NP	NP
+s	NP	NP
+house	NP	NP
+,	O	O
+in	NP	NP
+her	NP	NP
+guest	NP	NP
+room	NP	NP
+,	O	O
+at	NP	NP
+campbell	NP	NP
+street	NP	NP
+in	NP	NP
+tecoma	NP	NP
+,	O	O
+just	O	O
+behind	NP	NP
+the	NP	NP
+train	NP	NP
+station	NP	NP
+.	O	O
+
+main	NP	NP
+building	NP	NP
+,	NP	NP
+ormond	NP	NP
+college	NP	NP
+,	NP	NP
+university	NP	NP
+of	NP	NP
+melbourne	NP	NP
+.	O	O
+
+ormond	NP	NP
+college	NP	NP
+,	NP	NP
+university	NP	NP
+of	NP	NP
+melbourne	NP	NP
+.	O	O
+
+ormond	NP	NP
+college	NP	NP
+,	NP	NP
+university	NP	NP
+of	NP	NP
+melbourne	NP	NP
+
+napier	NP	NP
+street	NP	NP
+fitzroy	NP	NP
+
+in	O	NP
+the	O	NP
+dawn	O	NP
+,	O	NP
+thornbury	NP	NP
+,	O	O
+near	NP	NP
+the	NP	NP
+creek	NP	NP
+
+rmit	NP	NP
+university	NP	NP
+cnr	NP	O
+latrobe	NP	O
+and	NP	O
+swanston	NP	O
+sts	NP	O
+
+burramine	NP	NP
+south	NP	NP
+
+1	NP	NP
+bewdley	NP	NP
+st	NP	NP
+ormond	NP	NP
+vic	NP	NP
+on	NP	NP
+the	NP	NP
+corner	NP	NP
+of	NP	NP
+walnut	NP	NP
+st	NP	NP
+,	O	NP
+off	O	NP
+north	O	NP
+rd	O	NP
+,	O	O
+directly	O	O
+behind	NP	NP
+mckinnon	NP	NP
+secondary	NP	NP
+college	NP	NP
+opposite	NP	NP
+the	NP	NP
+back	NP	NP
+entrance	NP	NP
+to	NP	NP
+the	NP	NP
+sports	NP	NP
+oval	NP	NP
+
+carlton	NP	NP
+
+warrion	NP	NP
+
+john	NP	NP
+street	NP	NP
+williamstown	NP	NP
+
+at	NP	NP
+my	NP	NP
+mother	NP	NP
+\	NP	NP
+'	NP	NP
+s	NP	NP
+house	NP	NP
+in	NP	NP
+port	NP	NP
+fairy	NP	NP
+
+glen	NP	NP
+waverely	NP	NP
+
+near	NP	NP
+camberwell	NP	NP
+junction	NP	NP
+
+federation	NP	NP
+square	NP	NP
+,	NP	NP
+cnr	NP	NP
+flinders	NP	NP
+street	NP	NP
+and	NP	NP
+swanston	NP	NP
+street	NP	NP
+
+federation	NP	NP
+square	NP	NP
+corner	NP	NP
+st	NP	NP
+kilda	NP	NP
+road	NP	NP
+and	NP	NP
+flinders	NP	NP
+street	NP	NP
+,	NP	NP
+melbourne	NP	NP
+vic	NP	NP
+3000	NP	NP
+
+halfway	O	NP
+down	NP	NP
+hill	NP	NP
+st	NP	NP
+of	NP	NP
+church	NP	NP
+street	NP	NP
+in	NP	NP
+hawthorn	NP	NP
+
+richmond	NP	NP
+
+corner	NP	NP
+of	NP	NP
+park	NP	NP
+and	NP	NP
+parry	NP	NP
+st	NP	NP
+.	O	O
+on	O	O
+the	O	O
+right	O	O
+hand	O	O
+side	O	O
+.	O	O
+big	NP	NP
+house	NP	NP
+,	O	NP
+two	O	NP
+storey	O	NP
+.	O	O
+near	NP	NP
+the	NP	NP
+railway	NP	NP
+crossing	NP	NP
+.	O	O
+
+8	NP	NP
+exhibition	NP	NP
+street	NP	NP
+,	NP	NP
+melbourne	NP	NP
+3000	NP	NP
+
+i	O	O
+am	O	O
+in	NP	NP
+st	NP	NP
+kilda	NP	NP
+road	NP	NP
+,	NP	NP
+melbourne	NP	NP
+,	NP	NP
+two	NP	NP
+buildings	NP	NP
+east	O	NP
+of	NP	NP
+the	NP	NP
+police	NP	NP
+headquarters	NP	NP
+.	O	O
+almost	O	O
+opposite	O	O
+is	O	O
+the	NP	NP
+royce	NP	NP
+hotel	NP	NP
+and	O	NP
+from	NP	NP
+my	NP	NP
+13	NP	NP
+th	NP	NP
+floor	NP	NP
+balcony	NP	NP
+i	O	NP
+can	O	NP
+see	O	NP
+on	O	NP
+my	O	NP
+left	O	NP
+melbourne	NP	NP
+grammar	NP	NP
+school	NP	NP
+,	NP	NP
+the	NP	NP
+botanical	NP	NP
+gardens	NP	NP
+and	NP	NP
+the	NP	NP
+shrine	NP	NP
+of	NP	NP
+remembrance	NP	NP
+to	O	O
+my	O	O
+right	O	O
+is	O	O
+the	NP	NP
+synagogue	NP	NP
+and	NP	NP
+fawkner	NP	NP
+park	NP	NP
+.	O	O
+
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+stuck	O	O
+between	O	NP
+a	O	NP
+children	O	NP
+\	O	NP
+'	O	NP
+s	O	NP
+playground	O	NP
+,	O	NP
+a	O	NP
+retirement	O	NP
+village	O	NP
+,	O	NP
+a	O	NP
+new	O	NP
+building	O	NP
+site	O	NP
+and	O	NP
+a	O	NP
+defiant	O	NP
+old	O	NP
+fisherman	O	NP
+\	O	NP
+'	O	NP
+s	O	NP
+shack	O	NP
+,	O	O
+a	O	O
+microcosm	O	O
+of	O	NP
+this	O	NP
+strange	O	NP
+little	O	NP
+town	O	NP
+that	O	O
+\	O	O
+'	O	O
+s	O	O
+growing	O	O
+up	O	O
+do	O	O
+fast	O	O
+.	O	O
+
+in	NP	NP
+the	NP	NP
+basement	NP	NP
+carpark	NP	NP
+of	NP	NP
+the	NP	NP
+mcg	NP	NP
+
+redfern	NP	NP
+road	NP	NP
+,	NP	NP
+hawthorn	NP	NP
+east	NP	NP
+
+redfern	NP	NP
+road	NP	NP
+hawthorn	NP	NP
+east	NP	NP
+
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+an	O	O
+expat	O	O
+australian	O	O
+currently	O	O
+living	O	O
+and	O	O
+working	O	O
+in	O	NP
+brussels	O	NP
+,	O	NP
+belgium	O	NP
+.	O	O
+when	O	O
+in	O	NP
+australia	O	NP
+,	O	O
+i	O	O
+stay	O	O
+with	O	O
+family	O	O
+in	O	NP
+cole	O	NP
+st	O	NP
+brighton	O	NP
+,	O	NP
+vic	O	NP
+
+i	O	O
+am	O	O
+at	NP	NP
+the	NP	NP
+corner	NP	NP
+of	NP	NP
+flinders	NP	NP
+st	NP	NP
+and	NP	NP
+st	NP	NP
+kilda	NP	NP
+rd	NP	NP
+.	O	O
+opposite	O	O
+is	O	O
+flinders	NP	NP
+st	NP	NP
+station	NP	NP
+and	O	O
+on	NP	O
+the	NP	O
+other	NP	O
+corners	NP	O
+are	O	O
+young	NP	O
+and	NP	O
+jacksons	NP	NP
+and	NP	NP
+st	NP	NP
+pauls	NP	NP
+cathedral	NP	NP
+.	O	O
+
+on	NP	NP
+old	NP	NP
+lorne	NP	NP
+road	NP	NP
+deans	NP	NP
+marsh	NP	NP
+off	NP	NP
+the	NP	NP
+winchelsea	NP	NP
+-	NP	O
+lorne	NP	NP
+road	NP	NP
+in	NP	NP
+deans	NP	NP
+marsh	NP	NP
+victoria	NP	NP
+
+x	O	O
+
+i	O	O
+am	O	O
+sitting	O	O
+in	NP	NP
+an	NP	NP
+office	NP	NP
+in	NP	NP
+the	NP	NP
+sidney	NP	NP
+myer	NP	NP
+asia	NP	NP
+centre	NP	NP
+at	NP	NP
+the	NP	NP
+university	NP	NP
+of	NP	NP
+melbourne	NP	NP
+.	O	O
+
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+in	NP	NP
+an	NP	NP
+office	NP	NP
+.	O	O
+i	O	NP
+can	O	NP
+see	O	NP
+the	NP	NP
+oval	NP	NP
+and	NP	NP
+the	NP	NP
+colleges	NP	NP
+and	NP	NP
+a	NP	NP
+lot	NP	NP
+of	NP	NP
+trees	NP	NP
+.	O	O
+
+i	O	O
+am	O	O
+in	NP	NP
+my	NP	NP
+office	NP	NP
+at	O	NP
+the	O	NP
+united	O	NP
+faculty	O	NP
+of	O	NP
+theology	O	NP
+,	O	O
+within	NP	O
+the	NP	O
+centre	NP	O
+for	NP	O
+theology	NP	O
+and	NP	O
+ministry	NP	O
+at	NP	NP
+29	NP	NP
+college	NP	NP
+crescent	NP	NP
+,	NP	NP
+parkville	NP	NP
+,	O	O
+directly	O	O
+opposite	NP	NP
+the	NP	NP
+melbourne	NP	NP
+general	NP	NP
+cemetery	NP	NP
+main	NP	NP
+gate	NP	NP
+.	O	O
+
+222	NP	NP
+exhibition	NP	NP
+street	NP	NP
+melbounre	NP	NP
+
+i	O	O
+am	O	O
+at	NP	NP
+1	NP	NP
+collins	NP	NP
+street	NP	NP
+where	O	O
+i	O	O
+work	O	O
+,	O	O
+it	O	O
+is	O	O
+across	NP	O
+the	NP	O
+road	NP	O
+from	NP	NP
+parliament	NP	NP
+house	NP	NP
+
+in	NP	NP
+northern	NP	NP
+brunswick	NP	NP
+,	O	O
+just	O	O
+off	O	NP
+albion	NP	NP
+st	NP	NP
+next	O	O
+to	NP	NP
+north	NP	NP
+brunswick	NP	NP
+primary	NP	NP
+school	NP	NP
+
+10	O	NP
+k	O	NP
+east	O	NP
+of	NP	NP
+melbourne	NP	NP
+,	O	NP
+1	O	NP
+k	O	NP
+north	O	NP
+of	NP	NP
+camberwell	NP	NP
+station	NP	NP
+,	O	O
+near	NP	NP
+the	NP	NP
+t	NP	NP
+junction	NP	NP
+of	NP	NP
+barkers	NP	NP
+rd	NP	NP
+and	NP	NP
+burke	NP	NP
+rd	NP	NP
+,	O	O
+just	O	O
+off	O	NP
+harcourt	NP	NP
+st	NP	NP
+.	O	O
+
+hillview	NP	NP
+drive	NP	NP
+,	NP	NP
+kilsyth	NP	NP
+
+25	NP	NP
+malmsbury	NP	NP
+st	NP	NP
+hawthorn	NP	NP
+
+1	NP	NP
+/	O	O
+25	NP	NP
+malmsbury	NP	NP
+st	NP	NP
+hawthorn	NP	NP
+vic	NP	NP
+australia	NP	NP
+
+258	NP	NP
+queensberry	NP	NP
+street	NP	NP
+,	NP	NP
+melbourne	NP	NP
+
+at	NP	NP
+federation	NP	NP
+square	NP	NP
+
+unit	NP	NP
+1	NP	NP
+25	NP	NP
+malmsbury	NP	NP
+st	NP	NP
+hawthorn	NP	NP
+vic	NP	NP
+
+healthcare	NP	NP
+chaplaincy	NP	NP
+council	NP	NP
+of	NP	NP
+victoria	NP	NP
+
+on	O	O
+the	O	O
+south	O	O
+side	O	O
+of	NP	NP
+cumming	NP	NP
+st	NP	NP
+about	O	O
+75	O	O
+metres	O	O
+from	NP	NP
+melville	NP	NP
+road	NP	NP
+in	NP	NP
+brunswick	NP	NP
+west	NP	NP
+.	O	O
+
+456	NP	NP
+lonsdale	NP	NP
+street	NP	NP
+,	O	O
+between	NP	NP
+queen	NP	NP
+and	NP	NP
+william	NP	NP
+streets	NP	NP
+.	O	O
+
+information	NP	NP
+centre	NP	NP
+,	NP	NP
+university	NP	NP
+of	NP	NP
+melbourne	NP	NP
+,	NP	NP
+swanston	NP	NP
+st	NP	NP
+
+fed	NP	NP
+square	NP	NP
+
+brunettis	NP	NP
+
+20	NP	NP
+queen	NP	NP
+street	NP	NP
+
+12	NP	NP
+th	NP	NP
+floor	NP	NP
+,	NP	NP
+the	NP	NP
+spot	NP	NP
+building	NP	NP
+
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+in	NP	NP
+an	NP	NP
+office	NP	NP
+on	NP	NP
+the	NP	NP
+eighth	NP	NP
+floor	NP	NP
+.	O	O
+my	NP	NP
+office	NP	NP
+doesn	O	NP
+\	O	O
+'	O	O
+t	O	O
+have	O	O
+windows	NP	O
+,	O	O
+but	O	O
+if	O	O
+i	O	O
+look	O	O
+through	O	NP
+my	O	NP
+glass	NP	NP
+door	NP	NP
+i	O	NP
+can	O	NP
+see	O	NP
+across	NP	NP
+the	NP	NP
+university	NP	NP
+campus	NP	O
+to	NP	O
+the	NP	O
+redmond	NP	NP
+barry	NP	NP
+building	NP	NP
+.	O	O
+i	O	O
+can	O	O
+hear	O	O
+the	O	O
+hum	O	O
+of	NP	O
+the	NP	O
+airconditioner	NP	O
+and	O	O
+the	O	O
+sound	O	O
+of	O	NP
+typing	O	NP
+.	O	O
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+surrounded	O	O
+by	O	O
+books	O	O
+and	O	O
+papers	O	O
+and	O	O
+photographs	O	O
+.	O	O
+
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+sitting	O	O
+on	NP	NP
+a	NP	NP
+bench	NP	NP
+.	O	O
+near	NP	NP
+a	NP	NP
+building	NP	NP
+.	O	O
+i	O	O
+think	O	O
+it	O	O
+\	O	O
+'	O	O
+s	O	NP
+a	NP	NP
+public	NP	NP
+building	NP	NP
+.	O	O
+there	O	O
+is	O	O
+a	NP	NP
+busy	NP	NP
+road	NP	NP
+nearby	O	NP
+.	O	O
+there	O	O
+are	O	O
+some	NP	O
+grassy	NP	NP
+sculptures	NP	NP
+.	O	O
+and	O	O
+bike	NP	O
+racks	NP	O
+.	O	O
+and	O	O
+a	NP	NP
+car	NP	NP
+park	NP	NP
+nearby	O	NP
+.	O	O
+i	O	O
+think	O	O
+the	NP	NP
+neaby	NP	NP
+building	NP	NP
+is	O	O
+a	NP	NP
+council	NP	NP
+building	NP	NP
+.	O	O
+it	O	O
+is	O	O
+a	O	O
+few	O	O
+decades	O	O
+old	O	O
+.	O	O
+there	O	O
+are	O	O
+lots	O	O
+of	O	O
+people	O	O
+coming	O	O
+and	O	O
+going	O	O
+from	NP	NP
+the	NP	NP
+building	NP	NP
+.	O	O
+lots	O	O
+of	O	NP
+kids	O	NP
+too	O	NP
+.	O	O
+
+corner	NP	NP
+of	NP	NP
+grattan	NP	NP
+street	NP	NP
+and	NP	NP
+barry	NP	NP
+street	NP	NP
+,	NP	NP
+carlton	NP	NP
+,	NP	NP
+victoria	NP	NP
+,	NP	NP
+australia	NP	NP
+
+i	O	O
+live	O	O
+in	NP	NP
+a	NP	NP
+leafy	NP	NP
+street	NP	NP
+which	O	O
+has	O	O
+a	NP	O
+footpath	NP	O
+running	O	O
+down	O	O
+one	O	O
+side	O	O
+.	O	O
+it	O	O
+is	O	O
+a	NP	NP
+beautiful	NP	NP
+tranquil	NP	NP
+area	NP	NP
+with	O	O
+many	O	O
+family	O	O
+connections	O	O
+for	O	O
+me	O	O
+.	O	O
+ith	O	O
+a	O	O
+
+corner	NP	NP
+of	NP	NP
+como	NP	NP
+parade	NP	NP
+east	NP	NP
+and	NP	NP
+parkers	NP	NP
+road	NP	NP
+,	O	O
+in	NP	NP
+the	NP	NP
+library	NP	NP
+building	NP	NP
+,	O	O
+next	O	O
+to	O	NP
+the	O	NP
+bee	NP	NP
+shop	NP	NP
+and	O	O
+across	O	O
+from	NP	NP
+the	NP	NP
+parkdale	NP	NP
+railway	NP	NP
+station	NP	NP
+
+402	NP	NP
+station	NP	NP
+street	NP	NP
+carlton	NP	NP
+north	NP	NP
+
+bungendore	O	NP
+
+11	NP	NP
+grosvenor	NP	NP
+pde	NP	NP
+,	NP	NP
+balwyn	NP	NP
+,	NP	NP
+vic	NP	NP
+,	NP	NP
+3103	NP	NP
+
+21	NP	NP
+yarra	NP	NP
+grove	NP	NP
+,	NP	NP
+hawthorn	NP	NP
+
+402	NP	NP
+station	NP	NP
+street	NP	NP
+north	NP	NP
+carlton	NP	NP
+
+on	O	O
+the	O	O
+border	O	O
+between	NP	O
+the	NP	O
+old	NP	O
+workers	NP	O
+\	NP	O
+'	NP	O
+district	NP	O
+and	NP	O
+a	NP	O
+new	NP	O
+industrial	NP	O
+zone	NP	O
+,	O	O
+now	O	O
+turning	O	O
+into	NP	O
+a	NP	O
+very	NP	O
+desirable	NP	O
+inner	NP	O
+-	NP	O
+city	NP	NP
+suburban	NP	NP
+area	NP	NP
+.	O	O
+
+63	NP	NP
+exhibition	NP	NP
+street	NP	NP
+
+level	NP	NP
+6	NP	NP
+,	NP	NP
+1	NP	NP
+collins	NP	NP
+st	NP	NP
+melbourne	NP	NP
+
+121	NP	NP
+exhibition	NP	NP
+st	NP	NP
+,	NP	NP
+melbourne	NP	NP
+
+63	NP	NP
+exhibition	NP	NP
+streetr	NP	NP
+
+south	NP	NP
+yarra	NP	NP
+
+kirribilli	NP	NP
+
+state	O	NP
+records	O	NP
+office	O	NP
+of	O	NP
+western	O	NP
+australia	O	NP
+,	O	NP
+alexander	O	NP
+library	O	NP
+building	O	NP
+,	O	O
+perth	O	O
+cultural	O	O
+centre	O	O
+,	O	O
+perth	O	O
+,	O	O
+western	O	O
+australia	O	O
+,	O	O
+6000	O	O
+
+corner	NP	NP
+grey	NP	NP
+&	O	NP
+simpson	NP	NP
+street	NP	NP
+
+starbucks	NP	NP
+swanston	NP	NP
+st	NP	NP
+
+university	O	NP
+of	O	NP
+canberra	O	NP
+,	O	O
+act	O	O
+
+108	NP	NP
+lonsdale	NP	NP
+st	NP	NP
+melbourne	NP	NP
+
+108	NP	NP
+lonsdale	NP	NP
+st	NP	NP
+.	O	NP
+melbourne	NP	NP
+
+at	NP	NP
+work	NP	NP
+in	NP	NP
+the	NP	NP
+law	NP	NP
+building	NP	NP
+on	O	O
+xmas	O	O
+eve	O	O
+eve	O	O
+
+jackson	NP	NP
+st	NP	NP
+richmond	NP	NP
+
+i	O	O
+\	O	O
+'	O	O
+m	O	O
+in	O	NP
+my	O	NP
+tropical	O	NP
+louvred	O	NP
+home	O	NP
+surrounded	O	O
+by	O	NP
+lush	O	NP
+moist	O	NP
+garden	O	NP
+in	O	NP
+millner	O	NP
+a	O	NP
+darwin	O	NP
+suburb	O	NP
+.	O	O
+
+i	O	O
+am	O	O
+in	O	NP
+the	O	NP
+executive	O	NP
+building	O	NP
+at	O	NP
+15	O	NP
+murray	O	NP
+st	O	NP
+,	O	O
+hobart	O	O
+.	O	O
+
+cheltenham	NP	NP
+
+from	O	NP
+the	O	NP
+nepean	NP	NP
+hwy	NP	NP
+service	NP	NP
+road	NP	NP
+,	O	O
+going	O	O
+*	O	O
+towards	O	NP
+*	O	NP
+mentone	NP	NP
+beach	NP	NP
+,	O	O
+turn	O	O
+left	O	O
+into	NP	O
+swinden	NP	O
+ave	NP	O
+i	O	O
+.	O	O
+e	O	O
+.	O	O
+before	NP	NP
+the	NP	NP
+royal	NP	NP
+oak	NP	NP
+hotel	NP	NP
+.	O	O
+my	NP	NP
+house	NP	NP
+is	O	O
+on	O	NP
+the	O	NP
+lhs	O	NP
+about	O	NP
+1	O	NP
+/	O	O
+3	O	O
+of	O	O
+the	O	O
+way	O	O
+up	NP	O
+the	NP	NP
+street	NP	NP
+.	O	O
+it	O	O
+has	O	O
+a	NP	NP
+mushroom	NP	NP
+pink	NP	NP
+/	NP	NP
+brown	NP	NP
+wire	NP	NP
+1940	NP	NP
+s	NP	NP
+style	NP	NP
+fence	NP	NP
+and	NP	NP
+a	NP	NP
+double	NP	NP
+carport	NP	NP
+in	NP	NP
+the	NP	NP
+driveway	NP	NP
+.	O	O
+ps	O	O
+i	O	O
+\	O	O
+'	O	O
+d	O	O
+*	O	O
+hate	O	O
+*	O	O
+to	O	O
+see	O	O
+the	O	O
+development	O	O
+of	O	NP
+automated	O	NP
+systems	O	NP
+for	O	NP
+emergency	O	NP
+services	O	NP
+,	O	O
+not	O	O
+if	O	O
+telstra	O	O
+\	O	O
+'	O	O
+s	O	O
+automated	O	O
+service	O	O
+is	O	O
+anything	O	O
+to	O	O
+go	O	O
+by	O	O
+.	O	O
+
+@	O	O
+my	NP	O
+art	NP	O
+studio	NP	O
+
+at	NP	NP
+my	NP	NP
+art	NP	NP
+studio	NP	NP
+
+tyndall	NP	NP
+street	NP	NP
+,	NP	O
+surrey	NP	O
+hills	NP	O
+,	O	O
+off	NP	NP
+highfield	NP	NP
+road	NP	NP
+near	NP	NP
+canterbury	NP	NP
+primary	NP	NP
+school	NP	NP
+.	O	O
+
+flinders	NP	NP
+street	NP	NP
+station	NP	NP
+
+northwest	NP	NP
+corner	NP	NP
+of	NP	NP
+king	NP	NP
+street	NP	NP
+and	NP	NP
+flinders	NP	NP
+lane	NP	NP
+,	NP	NP
+melbourne	NP	NP
+
+whitley	NP	NP
+college	NP	NP
+,	NP	NP
+271	NP	NP
+royal	NP	NP
+pde	NP	NP
+parkville	NP	NP
+
+73	NP	NP
+york	NP	NP
+street	NP	NP
+richmond	NP	NP
+3121	NP	NP
+
+360	NP	NP
+collins	NP	NP
+street	NP	NP
+
+i	O	O
+am	O	O
+located	O	O
+on	O	NP
+the	O	NP
+grange	O	NP
+estate	O	NP
+on	O	O
+the	O	O
+eastern	O	O
+side	O	O
+of	NP	NP
+jacksons	NP	NP
+hill	NP	NP
+within	NP	NP
+the	NP	NP
+precincts	NP	NP
+of	NP	NP
+the	NP	NP
+township	NP	NP
+of	NP	NP
+sunbury	NP	NP
+approximately	O	O
+40	O	O
+kms	O	O
+from	NP	NP
+the	NP	NP
+centre	NP	NP
+of	NP	NP
+melbourne	NP	NP
+.	O	O
+
+exhibition	NP	NP
+street	NP	NP
+
+i	O	O
+am	O	O
+in	NP	NP
+west	NP	NP
+footscray	NP	NP
+at	NP	NP
+71	NP	NP
+pitt	NP	NP
+st	NP	NP
+this	O	O
+is	O	O
+a	NP	NP
+street	NP	NP
+that	O	O
+runs	O	O
+off	NP	O
+ashley	NP	O
+st	NP	O
+opposite	NP	O
+a	NP	O
+shopping	NP	NP
+centre	NP	NP
+called	O	O
+central	O	NP
+west	O	NP
+.	O	O
+i	O	O
+am	O	O
+about	O	O
+10	O	O
+minutes	O	O
+walk	O	O
+from	NP	NP
+tottenham	NP	NP
+station	NP	NP
+
+brenbeal	NP	NP
+st	NP	NP
+balwyn	NP	NP
+3103	O	NP
+
+in	NP	NP
+my	NP	NP
+office	NP	NP
+on	NP	NP
+the	NP	NP
+second	NP	NP
+floor	NP	NP
+of	NP	NP
+the	NP	NP
+baldwin	NP	NP
+spencer	NP	NP
+building	NP	NP
+,	NP	NP
+corner	NP	NP
+of	NP	NP
+tin	NP	NP
+alley	NP	NP
+and	NP	NP
+union	NP	NP
+rd	NP	NP
+at	NP	NP
+the	NP	NP
+university	NP	NP
+of	NP	NP
+melbourne	NP	NP
+
+state	O	NP
+records	O	NP
+office	O	NP
+of	O	NP
+wa	O	NP
+
+northbridge	O	NP
+
+st	NP	NP
+.	NP	NP
+kilda	NP	NP
+town	NP	NP
+hall	NP	NP
+
+sitting	O	O
+opposite	O	O
+a	O	O
+yellow	O	O
+pos	O	O
+
+28	NP	NP
+webster	NP	NP
+street	NP	NP
+,	NP	NP
+camberwell	NP	NP
+3124	NP	NP
+
+don	NP	NP
+street	NP	NP
+.	O	O
+,	O	O
+bendigo	NP	O
+
+yarra	NP	NP
+\	NP	NP
+'	NP	NP
+s	NP	NP
+edge	NP	NP
+,	NP	NP
+lorimer	NP	NP
+street	NP	NP
+docklands	NP	NP
+
+60	NP	NP
+lorimer	NP	NP
+street	NP	NP
+,	NP	NP
+docklands	NP	NP
+3008	NP	NP
+
+on	NP	NP
+the	NP	NP
+footpath	NP	NP
+in	NP	NP
+a	NP	NP
+little	NP	NP
+side	NP	NP
+street	NP	NP
+.	O	O
+
+a	NP	NP
+warm	NP	NP
+happy	NP	NP
+place	NP	NP
+with	O	O
+my	O	O
+cat	O	O
+
+27	NP	NP
+george	NP	NP
+st	NP	NP
+moonee	NP	NP
+ponds	NP	NP
+
+on	NP	NP
+tram	NP	NP
+going	O	O
+down	NP	NP
+royal	NP	NP
+parade	NP	NP
+
+having	O	O
+dinner	O	O
+at	NP	NP
+southbank	NP	NP
+
+canberra	O	NP
+

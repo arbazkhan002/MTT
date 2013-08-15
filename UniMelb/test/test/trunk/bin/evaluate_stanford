@@ -1,0 +1,21 @@
+#!/bin/bash
+
+COUNTER=0
+rm -rf result
+rm -rf result.txt
+
+python ler.py
+
+touch result
+for F in $(ls train?)
+do
+    perl -pne "s/ /\t/g" train$COUNTER > stanford_train$COUNTER.tsv
+    perl -pne "s/ /\t/g" test$COUNTER > stanford_test$COUNTER.tsv
+    
+    java -cp ../stanford-ner-2012-11-11/stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -prop stanfordner$COUNTER.prop
+    java -cp ../stanford-ner-2012-11-11/stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -loadClassifier ner-model$COUNTER.ser.gz -testFile stanford_test$COUNTER.tsv > stanford_result$COUNTER.txt
+    rm -rf ner-model$COUNTER.ser.gz
+    COUNTER=$((COUNTER + 1))
+done
+
+exit 0
