@@ -252,9 +252,16 @@ Why????
 ----------------------------------------------------------------------------------------------------------------------
 PROCEEDING THE SAME WAY AS MENTIONED IN STEPS ABOVE DOESNT GIVE PG ROUTING ENGINE RESULTS
 BUT NETWORK_BACKUP GIVES THE RESULTS
+All X_BACKUP are correct and working!!
 ----------------------------------------------------------------------------------------------------------------------S
 
-TOwards Discourse
+Towards Discourse
+
+-----------------------------------------------------------------------------------------
+To Compile : psql -U postgres -d "demo" -h localhost < /home/MTT/Quantum/discourse.sql
+To run : select discourse();
+-----------------------------------------------------------------------------------------
+
 1. Store angle information for starting line segment and ending line segment for all linestrings
 create table network_extended as select degrees(st_azimuth(st_startpoint(geom),st_pointN(geom,2))) as start_angle, degrees(st_azimuth(st_pointN(geom,st_Npoints(geom)-1),st_endpoint(geom))) as end_angle,  * from network;
 
