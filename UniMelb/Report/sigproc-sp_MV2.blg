@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: sigproc-sp_MV2.aux
+The style file: abbrv.bst
+Database file #1: sigproc.bib
+Warning--to sort, need author or key in tuw
+Warning--empty school in kollar:robotic
+Warning--empty year in Hanjing:route
+Warning--empty school in fei:locative
+Warning--empty journal in tappan:knowledge
+Warning--empty booktitle in maria:descriptions
+You've used 31 entries,
+            2118 wiz_defined-function locations,
+            687 strings with 9556 characters,
+and the built_in function-call counts, 10907 in all, are:
+= -- 1102
+> -- 440
+< -- 13
++ -- 179
+- -- 142
+* -- 689
+:= -- 1724
+add.period$ -- 100
+call.type$ -- 31
+change.case$ -- 160
+chr.to.int$ -- 0
+cite$ -- 37
+duplicate$ -- 467
+empty$ -- 899
+format.name$ -- 142
+if$ -- 2370
+int.to.chr$ -- 0
+int.to.str$ -- 31
+missing$ -- 28
+newline$ -- 159
+num.names$ -- 62
+pop$ -- 202
+preamble$ -- 1
+purify$ -- 132
+quote$ -- 0
+skip$ -- 345
+stack$ -- 0
+substring$ -- 690
+swap$ -- 138
+text.length$ -- 13
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 122
+warning$ -- 6
+while$ -- 107
+width$ -- 33
+write$ -- 343
+(There were 6 warnings)

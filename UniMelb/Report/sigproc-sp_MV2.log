@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.6)  19 AUG 2013 20:42
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.6)  16 AUG 2013 17:54
 entering extended mode
  %&-line parsing enabled.
-**sigproc-sp.tex
-(./sigproc-sp.tex
+**sigproc-sp_MV2.tex
+(./sigproc-sp_MV2.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, loaded.
@@ -176,8 +176,8 @@ LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
 
 (/usr/share/texmf-texlive/tex/latex/ae/t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
-))) (./sigproc-sp.aux)
-\openout1 = `sigproc-sp.aux'.
+))) (./sigproc-sp_MV2.aux)
+\openout1 = `sigproc-sp_MV2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
@@ -212,80 +212,85 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+aett on input line 154.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 156.
 
 
 (/usr/share/texmf-texlive/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-Overfull \hbox (12.60048pt too wide) in paragraph at lines 154--157
+Overfull \hbox (12.60048pt too wide) in paragraph at lines 156--159
 \T1/aett/m/n/9 tal $\OML/cmm/m/it/9 diagonally$ $across$ \T1/aett/m/n/9 Pe-ter 
 Do-herty In-sti-tute> \T1/aer/m/n/9 ref-er-ences
  []
 
-
-Overfull \hbox (5.0203pt too wide) in paragraph at lines 162--167
+[2]
+Overfull \hbox (5.0203pt too wide) in paragraph at lines 164--169
 \T1/aer/m/n/9 From the def-i-ni-tion of a de-gen-er-ate loca-tive ex-pres-sion 
 (DLE),
  []
 
-[2]
 File: phase1.eps Graphic file (type eps)
- <phase1.eps> [3]
+<phase1.eps> [3]
 File: IOB.eps Graphic file (type eps)
  <IOB.eps> [4]
 \c@example=\count108
 
-Overfull \hbox (3.96556pt too wide) in paragraph at lines 245--246
+Overfull \hbox (3.96556pt too wide) in paragraph at lines 246--247
 \T1/aer/m/it/9 the corner$\OT1/cmr/m/n/9 ]$ $[$\T1/aer/m/it/9 between Chetwynd 
 Street and Queens-berry Street$\OT1/cmr/m/n/9 ]$\T1/aer/m/it/9 .
  []
 
 
-Overfull \hbox (9.59625pt too wide) in paragraph at lines 279--280
+Overfull \hbox (9.59625pt too wide) in paragraph at lines 280--281
 []\T1/aer/m/it/9 We're sit-ting $\OT1/cmr/m/n/9 [$\T1/aer/m/it/9 in Baretto$\OT
 1/cmr/m/n/9 ]$\T1/aer/m/it/9 's $\OT1/cmr/m/n/9 [$\T1/aer/m/it/9 in the Alan Gi
 lbert
  []
 
 
-Overfull \hbox (2.25504pt too wide) in paragraph at lines 279--280
+Overfull \hbox (2.25504pt too wide) in paragraph at lines 280--281
 \T1/aer/m/it/9 and di-ag-o-nally across the road ($\OT1/cmr/m/n/9 [$\T1/aer/m/i
 t/9 Royal Parade$\OT1/cmr/m/n/9 ]$\T1/aer/m/it/9 ) is $\OT1/cmr/m/n/9 [$\T1/aer
 /m/it/9 Melbourne
  []
 
 [5]
-Overfull \hbox (3.21411pt too wide) in paragraph at lines 311--313
+Overfull \hbox (3.21411pt too wide) in paragraph at lines 312--314
 \T1/aett/m/n/9 <Wilson Hall a multi-function hall $\OML/cmm/m/it/9 next$ $to$ \
 T1/aett/m/n/9 the sand-
  []
 
 
-Overfull \hbox (2.88695pt too wide) in paragraph at lines 315--317
+Overfull \hbox (2.88695pt too wide) in paragraph at lines 316--318
 \T1/aer/m/n/9 The er-rors cor-re-spond-ing to lim-i-ta-tions of the Stan-ford p
 arser
  []
 
 
-Overfull \hbox (3.01498pt too wide) in paragraph at lines 320--325
+Overfull \hbox (3.01498pt too wide) in paragraph at lines 321--326
 \T1/aett/m/n/9 <a pri-vate res-i-dence $\OML/cmm/m/it/9 on$ $the$ $western$ $si
 de$ $of$ \T1/aett/m/n/9 Bar-ring-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--325
+Underfull \hbox (badness 10000) in paragraph at lines 321--326
 
  []
 
-[6] [7] (./sigproc-sp.bbl) [8] (./sigproc-sp.aux) ) 
+[6] [7] (./sigproc-sp_MV2.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8])
+[9
+
+] (./sigproc-sp_MV2.aux) ) 
 Here is how much of TeX's memory you used:
- 1889 strings out of 495062
- 20879 string characters out of 1182644
- 80973 words of memory out of 3000000
- 5049 multiletter control sequences out of 15000+50000
+ 1895 strings out of 495062
+ 21029 string characters out of 1182644
+ 83973 words of memory out of 3000000
+ 5055 multiletter control sequences out of 15000+50000
  43621 words of font info for 55 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 39i,10n,26p,1821b,258s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,10n,26p,1825b,258s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on sigproc-sp.dvi (8 pages, 67324 bytes).
+Output written on sigproc-sp_MV2.dvi (9 pages, 70164 bytes).

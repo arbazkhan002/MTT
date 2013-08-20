@@ -5,6 +5,13 @@
 \newblock http://telluswhere.net.
 \newblock Location based mobile game.
 
+\bibitem{bastianelli:unitor}
+E.~Bastianelli, D.~Croce, R.~Basili, and D.~Nardi.
+\newblock Unitor-hmm-tk: Structured kernel-based learning for spatial role
+  labeling.
+\newblock In {\em Proceedings of the Seventh International Workshop on Semantic
+  Evaluation (SemEval 2013). Association for Computational Linguistics}, 2013.
+
 \bibitem{Bateman:language}
 J.~Bateman.
 \newblock Language and space: a two-level semantic approach based
@@ -52,11 +59,25 @@ D.~Klein and C.~D. Manning.
   Computational Linguistics-Volume 1}, pages 423--430. Association for
   Computational Linguistics, 2003.
 
+\bibitem{kollar:robotic}
+T.~Kollar.
+\newblock {\em Learning to understand spatial language for robotic navigation
+  and mobile manipulation}.
+\newblock PhD thesis, Cambridge, MA, USA, 2011.
+\newblock AAI0823797.
+
 \bibitem{tellex:language}
 T.~Kollar, S.~Tellex, D.~Roy, and N.~Roy.
 \newblock Toward understanding natural language directions.
 \newblock In {\em Human-Robot Interaction (HRI), 2010 5th ACM/IEEE
   International Conference on}, pages 259--266, 2010.
+
+\bibitem{kolomiyets:semeval}
+O.~Kolomiyets, P.~Kordjamshidi, S.~Bethard, and M.-F. Moens.
+\newblock Semeval-2013 task 3: Spatial role labeling.
+\newblock In {\em Proceedings of the 7th International Workshop on Semantic
+  Evaluation}, volume~2, pages 255--262, Atlanta, Georgia, USA, 2013.
+  Association for Computational Linguistics.
 
 \bibitem{parisa:semeval}
 P.~Kordjamshidi, S.~.~M. Bethard, and Marie-Francine.
@@ -81,6 +102,12 @@ B.~Landau and R.~Jackendoff.
 \newblock " what" and" where" in spatial language and spatial cognition.
 \newblock {\em Behavioral and brain sciences}, 16:217--217, 1993.
 
+\bibitem{levit:interpretation}
+M.~Levit and D.~Roy.
+\newblock Interpretation of spatial language in a map navigation task.
+\newblock {\em Systems, Man, and Cybernetics, Part B: Cybernetics, IEEE
+  Transactions on}, 37(3):667--679, 2007.
+
 \bibitem{Hanjing:route}
 H.~Li, T.~Zhao, S.~Li, and J.~Zhao.
 \newblock The extraction of trajectories from real texts based on linear
@@ -104,6 +131,19 @@ K.~Litkowski and O.~Hargraves.
 F.~Liu.
 \newblock Automatic identification of locative expressions from informal text.
 \newblock Master's thesis, Melbourne, Victoria, Australia, 2013.
+
+\bibitem{macmahon:walk}
+M.~Macmahon.
+\newblock Walk the talk: Connecting language, knowledge, and action in route
+  instructions.
+\newblock In {\em In Proc. of the Nat. Conf. on Artificial Intelligence (AAAI},
+  pages 1475--1482, 2006.
+
+\bibitem{mani:motion}
+I.~Mani and J.~Pustejovsky.
+\newblock {\em Interpreting Motion: Grounded Representations for Spatial
+  Language}, volume~5.
+\newblock Oxford University Press, 2012.
 
 \bibitem{matuszek:following}
 C.~Matuszek, D.~Fox, and K.~Koscher.

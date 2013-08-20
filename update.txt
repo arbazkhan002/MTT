@@ -29,6 +29,7 @@ No or nominal cost of service
 Accessible for even basic feature phones
 Doesnt require GPRS/GPS
 A natural navigation guide for humans
+Can identify context and abstract irrelevant details
 
 Cons:
 User experience inferior to smartphones apps

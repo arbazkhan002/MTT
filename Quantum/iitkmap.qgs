@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>422815.254013</xmin>
-            <ymin>2931659.264478</ymin>
-            <xmax>424017.947471</xmax>
-            <ymax>2932403.105058</ymax>
+            <xmin>421914.199629</xmin>
+            <ymin>2931471.587213</ymin>
+            <xmax>425084.215956</xmax>
+            <ymax>2933432.175563</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -64,6 +64,11 @@
                 <legendlayerfile isInOverview="0" layerid="Transportation20130211035207687" visible="0"/>
             </filegroup>
         </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Front_IITK_Route_map" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Front_IITK_Route_map20130815151727999" visible="0"/>
+            </filegroup>
+        </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Landmarks" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="Landmarks20130211035146141" visible="1"/>
@@ -84,8 +89,8 @@
                 <legendlayerfile isInOverview="0" layerid="Hostel20130211035046090" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Facilities" showFeatureCount="0">
-            <filegroup open="false" hidden="false">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Facilities" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="Facilities20130211035031813" visible="1"/>
             </filegroup>
         </legendlayer>
@@ -94,23 +99,28 @@
                 <legendlayerfile isInOverview="0" layerid="Academic_area20130211034716015" visible="0"/>
             </filegroup>
         </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="testshape" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="testshape20130815150418371" visible="1"/>
+            </filegroup>
+        </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Academic_area copy" showFeatureCount="0">
             <filegroup open="false" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="Academic_area_copy20130814194121958" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Play_Grounds" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Play_Grounds" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Play_Grounds20130211032402154" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="Play_Grounds20130211032402154" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Play_Grounds_copy" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Play_Grounds_copy" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Play_Grounds_copy20130814175506584" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="Play_Grounds_copy20130814175506584" visible="0"/>
             </filegroup>
         </legendlayer>
     </legend>
-    <projectlayers layercount="18">
+    <projectlayers layercount="20">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>Academic_area20130211034716015</id>
             <datasource>../Geoserver/IITK_Map_Raw_data/Academic_area.shp</datasource>
@@ -476,6 +486,34 @@
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>Front_IITK_Route_map20130815151727999</id>
+            <datasource>../Geoserver/IITK_Map_Raw_data/Front_IITK_Route_map.pdf</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Front_IITK_Route_map</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=44 +datum=WGS84 +units=m +no_defs</proj4>
+                    <srsid>3128</srsid>
+                    <srid>32644</srid>
+                    <authid>EPSG:32644</authid>
+                    <description>WGS 84 / UTM zone 44N</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                <rasterTransparency/>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2"/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>Hostel20130211035046090</id>
@@ -1432,6 +1470,74 @@
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>testshape20130815150418371</id>
+            <datasource>./testshape.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>testshape</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="95,104,140,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field="" scalemethod=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield></displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Ubuntu"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
