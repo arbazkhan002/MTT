@@ -3,49 +3,45 @@ The top-level auxiliary file: sigproc-sp.aux
 The style file: abbrv.bst
 Database file #1: sigproc.bib
 Warning--to sort, need author or key in tuw
-Warning--empty year in Hanjing:route
-Warning--empty school in fei:locative
-Warning--empty journal in tappan:knowledge
-Warning--empty booktitle in maria:descriptions
-You've used 25 entries,
+You've used 26 entries,
             2118 wiz_defined-function locations,
-            656 strings with 8321 characters,
-and the built_in function-call counts, 8777 in all, are:
-= -- 887
-> -- 354
-< -- 9
-+ -- 145
-- -- 114
-* -- 554
-:= -- 1389
-add.period$ -- 80
-call.type$ -- 25
-change.case$ -- 130
+            674 strings with 8750 characters,
+and the built_in function-call counts, 9518 in all, are:
+= -- 969
+> -- 399
+< -- 12
++ -- 160
+- -- 128
+* -- 628
+:= -- 1509
+add.period$ -- 85
+call.type$ -- 26
+change.case$ -- 135
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 373
-empty$ -- 725
-format.name$ -- 114
-if$ -- 1907
+cite$ -- 27
+duplicate$ -- 392
+empty$ -- 777
+format.name$ -- 128
+if$ -- 2065
 int.to.chr$ -- 0
-int.to.str$ -- 25
-missing$ -- 22
-newline$ -- 128
-num.names$ -- 50
-pop$ -- 163
+int.to.str$ -- 26
+missing$ -- 21
+newline$ -- 133
+num.names$ -- 56
+pop$ -- 160
 preamble$ -- 1
-purify$ -- 106
+purify$ -- 111
 quote$ -- 0
-skip$ -- 274
+skip$ -- 285
 stack$ -- 0
-substring$ -- 563
-swap$ -- 108
-text.length$ -- 9
+substring$ -- 624
+swap$ -- 120
+text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 100
-warning$ -- 5
-while$ -- 87
-width$ -- 27
-write$ -- 273
-(There were 5 warnings)
+type$ -- 104
+warning$ -- 1
+while$ -- 99
+width$ -- 28
+write$ -- 297
+(There was 1 warning)

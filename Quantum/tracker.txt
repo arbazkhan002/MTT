@@ -305,3 +305,17 @@ pg_dump -U postgres -h localhost -t network_extended GIStest | psql -U postgres 
 Pick up the polygons from Front IITK Map 
 http://www.youtube.com/watch?v=A3EfxDMNMpk
 
+/******************************************
+NOW LOGGING DONE in /var/log/postgresql;
+******************************************/
+
+8. MAP ANNOTATION
+psql -U postgres -h localhost demo < annotatedmap.sql
+
+Note: When SRIDs are different, UPDATE TABLE x SET geom=st_SetSRID(geom);
+
+
+/******************************************
+TIP: To iterate over the columns of a table
+select column_name from information_schema.columns where table_name='parks';
+******************************************/

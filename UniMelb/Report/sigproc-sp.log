@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.6)  19 AUG 2013 20:42
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.6)  29 AUG 2013 11:58
 entering extended mode
  %&-line parsing enabled.
 **sigproc-sp.tex
@@ -179,113 +179,135 @@ File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 ))) (./sigproc-sp.aux)
 \openout1 = `sigproc-sp.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Try loading font information for U+msa on input line 113.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Try loading font information for U+msa on input line 118.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 113.
+LaTeX Font Info:    Try loading font information for U+msb on input line 118.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 113.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 118.
 
 (/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
+Overfull \hbox (3.32892pt too wide) in paragraph at lines 125--128
+\T1/aer/m/n/9 H.3.1 [\T1/aer/bx/n/9 Information Stor-age and Re-trieval\T1/aer/
+m/n/9 ]: con-tent anal-
+ []
+
+
+Overfull \hbox (5.44382pt too wide) in paragraph at lines 125--128
+\T1/aer/bx/n/9 In-tel-li-gence\T1/aer/m/n/9 ]: Nat-u-ral Lan-guage Pro-cess-ing
+ - \T1/aer/m/it/9 Lan-guage pars-
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+aett on input line 154.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 158.
 
 
 (/usr/share/texmf-texlive/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-Overfull \hbox (12.60048pt too wide) in paragraph at lines 154--157
+Overfull \hbox (12.60048pt too wide) in paragraph at lines 158--161
 \T1/aett/m/n/9 tal $\OML/cmm/m/it/9 diagonally$ $across$ \T1/aett/m/n/9 Pe-ter 
 Do-herty In-sti-tute> \T1/aer/m/n/9 ref-er-ences
  []
 
 
-Overfull \hbox (5.0203pt too wide) in paragraph at lines 162--167
+Underfull \hbox (badness 7907) in paragraph at lines 164--164
+[][]\T1/aer/m/n/9 Data col-lected by a mo-bile location-based game,
+ []
+
+[2]
+Overfull \hbox (5.0203pt too wide) in paragraph at lines 167--172
 \T1/aer/m/n/9 From the def-i-ni-tion of a de-gen-er-ate loca-tive ex-pres-sion 
 (DLE),
  []
 
-[2]
 File: phase1.eps Graphic file (type eps)
- <phase1.eps> [3]
+<phase1.eps> [3]
 File: IOB.eps Graphic file (type eps)
  <IOB.eps> [4]
 \c@example=\count108
 
-Overfull \hbox (3.96556pt too wide) in paragraph at lines 245--246
+Overfull \hbox (3.96556pt too wide) in paragraph at lines 249--250
 \T1/aer/m/it/9 the corner$\OT1/cmr/m/n/9 ]$ $[$\T1/aer/m/it/9 between Chetwynd 
 Street and Queens-berry Street$\OT1/cmr/m/n/9 ]$\T1/aer/m/it/9 .
  []
 
 
-Overfull \hbox (9.59625pt too wide) in paragraph at lines 279--280
+Overfull \hbox (9.59625pt too wide) in paragraph at lines 282--283
 []\T1/aer/m/it/9 We're sit-ting $\OT1/cmr/m/n/9 [$\T1/aer/m/it/9 in Baretto$\OT
 1/cmr/m/n/9 ]$\T1/aer/m/it/9 's $\OT1/cmr/m/n/9 [$\T1/aer/m/it/9 in the Alan Gi
 lbert
  []
 
 
-Overfull \hbox (2.25504pt too wide) in paragraph at lines 279--280
+Overfull \hbox (2.25504pt too wide) in paragraph at lines 282--283
 \T1/aer/m/it/9 and di-ag-o-nally across the road ($\OT1/cmr/m/n/9 [$\T1/aer/m/i
 t/9 Royal Parade$\OT1/cmr/m/n/9 ]$\T1/aer/m/it/9 ) is $\OT1/cmr/m/n/9 [$\T1/aer
 /m/it/9 Melbourne
  []
 
 [5]
-Overfull \hbox (3.21411pt too wide) in paragraph at lines 311--313
+Overfull \hbox (3.21411pt too wide) in paragraph at lines 314--316
 \T1/aett/m/n/9 <Wilson Hall a multi-function hall $\OML/cmm/m/it/9 next$ $to$ \
 T1/aett/m/n/9 the sand-
  []
 
 
-Overfull \hbox (2.88695pt too wide) in paragraph at lines 315--317
+Overfull \hbox (2.88695pt too wide) in paragraph at lines 318--320
 \T1/aer/m/n/9 The er-rors cor-re-spond-ing to lim-i-ta-tions of the Stan-ford p
 arser
  []
 
 
-Overfull \hbox (3.01498pt too wide) in paragraph at lines 320--325
+Overfull \hbox (3.01498pt too wide) in paragraph at lines 323--328
 \T1/aett/m/n/9 <a pri-vate res-i-dence $\OML/cmm/m/it/9 on$ $the$ $western$ $si
 de$ $of$ \T1/aett/m/n/9 Bar-ring-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--325
-
+[6] [7]
+Overfull \hbox (20.03151pt too wide) in paragraph at lines 773--776
+\T1/aer/m/n/9 http://nlp.stanford.edu/software/dependencies_manual.pdf, 
  []
 
-[6] [7] (./sigproc-sp.bbl) [8] (./sigproc-sp.aux) ) 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+[9
+
+] (./sigproc-sp.aux) ) 
 Here is how much of TeX's memory you used:
  1889 strings out of 495062
- 20879 string characters out of 1182644
- 80973 words of memory out of 3000000
- 5049 multiletter control sequences out of 15000+50000
+ 20886 string characters out of 1182644
+ 82973 words of memory out of 3000000
+ 5052 multiletter control sequences out of 15000+50000
  43621 words of font info for 55 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 39i,10n,26p,1821b,258s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,10n,26p,1825b,258s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on sigproc-sp.dvi (8 pages, 67324 bytes).
+Output written on sigproc-sp.dvi (9 pages, 69552 bytes).

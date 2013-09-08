@@ -280,3 +280,32 @@ publisher={Springer Berlin Heidelberg},
 author={Richter, Kai-Florian and Klippel, Alexander},
 pages={453-469}
 }
+@article{landau:and,
+  title={" What" and" where" in spatial language and spatial cognition},
+  author={Landau, Barbara and Jackendoff, Ray},
+  journal={Behavioral and brain sciences},
+  volume={16},
+  pages={217--217},
+  year={1993},
+  publisher={Cambridge Univ Press}
+}
+@article{zwarts:vector,
+  title={Vector space semantics: A model-theoretic analysis of locative prepositions},
+  author={Zwarts, Joost and Winter, Yoad},
+  journal={Journal of logic, language and information},
+  volume={9},
+  number={2},
+  pages={169--211},
+  year={2000},
+  publisher={Springer}
+}
+@article{xu:case,
+  title={Case based reasoning},
+  author={Xu, Li D},
+  journal={Potentials, IEEE},
+  volume={13},
+  number={5},
+  pages={10--13},
+  year={1994},
+  publisher={IEEE}
+}

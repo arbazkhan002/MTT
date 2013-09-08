@@ -1,4 +1,5 @@
- [NP Hi_NNP Sue_NNP ] ._.
+ 
+  [NP Hi_NNP Sue_NNP ] ._.
  [NP The_DT campus_NN ] [VP is_VBZ ] [NP a_DT beautiful_JJ place_NN ] ,_, [PP with_IN ] [NP central_JJ buildings_NNS ] [VP copying_VBG ] [NP the_DT sandstone_NN architecture_NN ] [PP of_IN ] [NP the_DT archetypes_NNS ] [PP of_IN ] [NP Oxford_NNP and_CC Cambridge_NNP ] ._.
  [PP Around_IN ] [NP these_DT central_JJ buildings_NNS ] [ADVP there_RB ] [VP are_VBP ] [NP more_JJR modern_JJ buildings_NNS ] ,_, [PP of_IN ] [NP course_NN ] ,_, [NP some_DT convincing_NN ] ,_, [NP some_DT boring_NN ] ._.
  [ADVP Next_JJ ] [PP to_TO ] [NP the_DT sandstone_NN core_NN ] [VP is_VBZ ] [NP Wilson_NNP Hall_NNP ] ,_, [NP a_DT multi-function_NN hall_NN ] [PP from_IN ] [NP the_DT 50ies_NNS ] [VP x_VBP ] [PP for_IN ] [NP traditionalists_NNS ] [ADJP controversial_JJ ] [PP because_IN ] [NP the_DT predecessor_NN ] [VP looked_VBD ] [ADVP also_RB ] [PP like_IN ] [NP Oxford_NNP ] and_CC [NP this_DT one_CD ] [VP does_VBZ nxt_RB ] ._.

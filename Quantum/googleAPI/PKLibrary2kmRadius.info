@@ -1,0 +1,13 @@
+https://maps.googleapis.com/maps/api/place/nearbysearch/xml?location=26.51232,80.23387&radius=2000&rankby=prominence&sensor=false&key=AIzaSyCzhOo4mqXFIMa73xk5N-2A5mifzcpINfo
+
+
+//WIKIMAPIA 
+/* A bounding box of IIT Kanpur */
+left end : 26.510423, 80.2183914
+right end : 26.5107302, 80.2468657
+bottom : 26.503299, 80.235343
+top : 26.5210697, 80.2329075
+
+http://api.wikimapia.org/?key=8CD4EFB5-75BA267B-50A173EB-0C2F4999-191CB031-4173BFC9-CDF91AD6-D3347C0B&function=box&lon_min=80.2183914&lat_min=26.503299&lon_max=80.2468657&lat_max=26.5210697&pack=gzip&page=3&count=100
+
+Here iterate through the pages to get all the results

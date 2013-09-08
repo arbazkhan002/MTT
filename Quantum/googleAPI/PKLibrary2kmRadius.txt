@@ -1,0 +1,400 @@
+{
+   "debug_info" : [],
+   "html_attributions" : [
+      "Listings by \u003ca href=\"http://www.indiacom.com/\"\u003eIndiacom Yellow Pages\u003c/a\u003e"
+   ],
+   "next_page_token" : "ClRJAAAA6v2zOigp4iOCjYO7wmU2eyhVHpb9eKCR_cJQGi0__7UB2_SKBTvxhApujQ10WsRSdEwtkFdvIVv0QN_7Y8qho6hJh253PB5Mp3tJYos-m_ESENZ4J9Ylsv0MrBJ7jE46fhQaFCeaPMkLUPmiuwFBHfzlknYTVoff",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 26.5018368,
+               "lng" : 80.2446779
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 26.5103653,
+                  "lng" : 80.2537536
+               },
+               "southwest" : {
+                  "lat" : 26.497154,
+                  "lng" : 80.23590089999999
+               }
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "867cdbc640abc8cd2e128a04ad7724cf2cb7a056",
+         "name" : "Gooba Gardens",
+         "reference" : "CqQBngAAAGk2wObmzHxdJYqKEpOp2NC0o7N60ykZbVr7WjuXt_kshRDYaoBrPWuMFLRT9vgCdOCv_1RQTAvTMDZ69kRhS90wUojKPKxu-ICXxCsuWkXft89c6xIvRRHub7kRhdepLoIC7Bxg192UCaCvOzy5ixtRYH3PcW8CjVW934XbwMdoMorE6QCZ5gqGxNqxmw9gz8_g-JWSjXIU8EJiGudM1JoSEJQYriSAP-XAMI1CWTK1gnoaFAW7VQ5jB9WlsHLsiYGGG5MJ5IUc",
+         "types" : [ "neighborhood", "political" ],
+         "vicinity" : "Kalyanpur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 26.508328,
+               "lng" : 80.229749
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "28fbb55f0d153d3d452c2eaa3ffd52512d0c3aa8",
+         "name" : "Electronics Club, IIT Kanpur",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 607,
+               "html_attributions" : [ "From a Google User" ],
+               "photo_reference" : "CpQBiQAAAEbu8a23TJlCVi8sKCnBE0KLavh47eBKWRjukKVySnj4ptkRA43-V1rdWBvvHdIxGQevxV9FcebMfl1kB-S6rHbKzaNaSEJ5mqp7TTzFdLM33SHefyD0N61BcCo2jHaMVB7PdJaMZy4-IsVgLPZIMaAjbwom2fo7B7L9N81DuUE2pmvtB2HUPJAD5e9uvLyB2BIQEbW7PlUTbz3MlkJfyraTfBoUcsPueAbP660etuKDxlgF1hCaoWo",
+               "width" : 814
+            }
+         ],
+         "rating" : 4.6,
+         "reference" : "CoQBegAAAF7T_GOpTGgueo1My2iz6TPLgcJ2I4_Z35ZwvHvrR_XfTbddvokYwehtyGovJ_DNubmHsuzsEeFZx0uv69XDhAXkRHwzdRW38U2oAarwOhIEOeFStdPwIpMwvMFrO07NmSTbb-rxTErsFNJBu9Gog3Tx7gCm4FN-UAF8tBcRsPE-EhBaUPpMnZx9bh_izAHE3E7fGhTC9vHGdY0L0BsBtyVSu3BlinChAg",
+         "types" : [
+            "night_club",
+            "book_store",
+            "store",
+            "university",
+            "school",
+            "establishment"
+         ],
+         "vicinity" : "IIT Kanpur, Kalyanpur, Kanpur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 26.512329,
+               "lng" : 80.233868
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/library-71.png",
+         "id" : "262d716aca8ea5bb7015f27ed4d414ef4a5b3e2e",
+         "name" : "P K Kelkar Library",
+         "reference" : "CnRvAAAAERtZ1Tsgtc8_fEY-uooN-ub7gPLwYmDxo8i7zPBCw4gvb0IZDgwWpdyqg6TDPVzDrgETk_rO4pzrFBVnPN0bTaqnH1KRPzcS_gD3gl4SaztSuMGSkul98aum846Y6Sz05xChM8mtSpQ5E-8NZr7Q-xIQqKwnz_NUABNFPLrTH0dkyhoU-R1Zg32hpUi4g36LKZAhVb4j2c4",
+         "types" : [ "library", "establishment" ],
+         "vicinity" : "IIT Kanpur, Kalyanpur, Kanpur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 26.494633,
+               "lng" : 80.246072
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "eb9e9fec5fec6cc686f82f4bef0f31cbe8ed7a56",
+         "name" : "Dehli Public School",
+         "reference" : "CnRwAAAAkk-uf1FgjVedYgEN_Mp09axi1u0zWJbkOejX4CF5G0A7q7AzoqualdieZAhDkJ8nBbeQUeJk6WsPhJDNaUQHRtHMi6hdErXlV6ZIvuH4yaWG2mNL0jcYDr9KcG5U4kQKfL_fx9zW_lMlrM5mEftHWRIQjz3LIwWOg_XPkRihH_qD4xoUTVvnXT2ws-CO6m0AFnyaaTCKCws",
+         "types" : [ "school", "establishment" ],
+         "vicinity" : "287-295, Bairy, Kalyanpur, Kalyanpur, Kanpur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 26.511954,
+               "lng" : 80.234278
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+         "id" : "2e6fb0c1eb01cfe045acc4e2f21a303895b301d2",
+         "name" : "CCD",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "rating" : 3.9,
+         "reference" : "CmRgAAAANwXkKoQuEx6RuVgUCu4z27j9g9x-9tJVNLvR3lipvb_rqppNeCxXyWxHisHACAu6wyngw97kRFy0FaUDpTPHX7IVH7G_BUqh15vn7DLiIuBw23C7RX4U455vJuC2s1uNEhC-yGZa1meQhxy9UZvIA2raGhTt79c_KqsdDX8SvsfEdXEZDO3MpQ",
+         "types" : [ "cafe", "food", "establishment" ],
+         "vicinity" : "Beside Southern Laboratory, Academic Area, IIT Kanpur, Kalyanpur, Kanpur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 26.507104,
+               "lng" : 80.232342
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "32a63820ee813356d22f047c3913464228ad1efb",
+         "name" : "Hall of Residence IV",
+         "rating" : 4.8,
+         "reference" : "CoQBcgAAAJO73z6sAjeiJx7MXnFMvQcHsbh95h-rcsEQS4vkVED1j0m0tdXRNWxnn9DcwjNW6KifAFOeXrwQ74UGZAo7FUtunMIgVfRnUPdYTiB5ySI9WKWkwcQXQLAXv3LYer7pnmx9VCvZIjMliGTqjUxiH3kdVdZbbyFQO94cXKQJSvZ7EhBBI_sW7nZqtqpl9gpJI4q6GhRaPII47wYedMViTn0XpmEgFhtq8g",
+         "types" : [ "lodging", "establishment" ],
+         "vicinity" : "Nankari, Kalyanpur, Kanpur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 26.509286,
+               "lng" : 80.241541
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "b695f0ebadf3c54beeafd8f55936d7ea62c390fb",
+         "name" : "House Type II",
+         "photos" : [
+            {
+               "height" : 600,
+               "html_attributions" : [ "From a Google User" ],
+               "photo_reference" : "CnRoAAAAlVsUh6DVrGNTeRwaNO8d2zScqmC_KGnjTBCasitJKlstVsu7hcQJvlWjfZd6cIIH4F4DWYRmJ_wbTM0CGvwER3IU2CI_yZmFX_1cK5lNjQ-LM8oATRa3YIvHkBQZGX5EEr0bgeXY3Vq-eIurOpJBdRIQrT0lHel_MMPUdaeuJ4bpgRoUqs0gilSuljAMiT8MUN1q9KkDSmQ",
+               "width" : 800
+            }
+         ],
+         "reference" : "CnRqAAAA47vjhlE8tfyR7dq2Vu3fQNXmEbxUIVmnGnrQzlolWFyyfwb8UnBzVmnenTsc-1-H6pnaHC9-BDHYX4v3H7luZqMEgXLwUnqW0yMrKum9BTKlKJAAV-VRUg81ABGgjfFRM2L-ALaBvTXFU1LRICUFRBIQMX1oL5aBbNpwm4Kn-r0-dhoUBNG31siBWjegCdYvCxBK8QYfRew",
+         "types" : [ "establishment" ],
+         "vicinity" : "12th Street, Nankari, Kanpur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 26.50528,
+               "lng" : 80.2337
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "8071427c3d52b295e805cbae04bb629ef0f02952",
+         "name" : "Health Center",
+         "photos" : [
+            {
+               "height" : 1024,
+               "html_attributions" : [ "From a Google User" ],
+               "photo_reference" : "CnRoAAAAJ5ks4i8ZfxLU4FQ8eDMT8qyFdHDo-T2E2E-Exkhj783ClxiSYuf3NdXLTJf3y7KxDjBzaoXYKrke4WSkNYMjq4LJXI-JFeSKlEwf7xI5IQeU-ObTziIonm9M8Pw5BwsJN47DUT2zOKZPLRHqH67sVhIQ9vfXBf5W6trMOCpQG6McthoUKCWDaY3Sg-ILaetJxR7Y9kYA79M",
+               "width" : 768
+            }
+         ],
+         "reference" : "CnRqAAAAQj0MCNc2DaTVLFayipwx4-_n4FVOpbC0Nnx1P0xZE7BbbycB8gCqv6re6PqcaY8ML4XAgNxK6i9_mk4vOA7NNMDSn9wwoi56_PIVcrVqPasou_cyGMwHrN6cQpOCfqoM1F0LSbS_iHgi0Vhe4Eg9ChIQ9OOhFFH197daJWCydS9pkxoU5WHyqCfBB0vh7sqZ7Le-wOKchZ0",
+         "types" : [ "hospital", "establishment" ],
+         "vicinity" : "IIT Kanpur, Kalyanpur, Kanpur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 26.496433,
+               "lng" : 80.251682
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "e5794c0640873e3c914b8407f245c689a1549d57",
+         "name" : "HAM Technologies And Outsourcing (P) Ltd",
+         "reference" : "CpQBhQAAANHWxvJEMVv_nizz2yXFoInr4AfAH9IYzU6xnDdOnZMa7jZfpw137_kdepQMMa2tPZl_CYgi7QXrZCfxe2QDVIRkyQkpZIjlbp5uApJD4xQoud5g33mN0br8SDF0bsiyoekEL1qaRh9_fqqAjbBK7TJtvif0JTZPMEGubj87ltkuO22rIWf8hG7r1hSGRyb-xhIQFwOkmsPToOk6RwPm4FPyiRoU-Wb2RO5UHfCCk5jxSnlEFi2hGx4",
+         "types" : [ "establishment" ],
+         "vicinity" : "2nd Floor, Deep Complex, GC-91 Awas Vikas no.1, Klyanpur, Keshav Puram, Kalyanpur, Kanpur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 26.515693,
+               "lng" : 80.231201
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "4f49562c31f31434624ded874ddd70c77fc72496",
+         "name" : "Orane Infosystems Pvt. Ltd.",
+         "reference" : "CoQBeAAAAB3uqqz6AsGI03o1wMMpItsMEXUZHbong8jDVCC3hg5WKLh59YkPF9DJ00Bqd4Op5DR8-36UCL42hFuqhfmNPRCC3r7l0SmJwigKEL2eZGFkQ-5O-j9NM4KrMylND6p-5YpVszL096w_qLgtVOY6yQ6oM3IRnI79_-_WxJ6ZDhACEhBnHITjfAroFRSf3ha51ZNHGhSlKvqCuUok1LP0nA1iva-yEv-uwQ",
+         "types" : [ "establishment" ],
+         "vicinity" : "F-4-I,SIDBI Innovation and Incubation Centre, IIT Kanpur, Kanpur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 26.494633,
+               "lng" : 80.246072
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "5d29ca93d8f1d04dafbc8b78f831146ae97c2e52",
+         "name" : "KASHI VISHWANATH PACKERS & MOVERS",
+         "reference" : "CoQBfgAAAE0T8BJ2rXD6BCSrENaWfd8l9OylHm4McyheqatqlnybeUWoVeNt0oOcMLaHR-gjwVF7eszr8duEvGOy4iACtQ5ajrxnA25lNjgK7wabfgOIED9Y-itvo2n6bnYEV1b6LMf6xErszTkEPxRf8EA6RNTCe-K2OYzFQ6Kt9XKFSzR0EhBz9GcTHKeHcpbHWA-AybF5GhQXm6MW354zmZeOFxhYcfOe_BGWKg",
+         "types" : [ "establishment" ],
+         "vicinity" : "Kalyanpur, Kanpur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 26.526531,
+               "lng" : 80.236405
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "7f0c53188999d97dfe298a0d21317b491952c2e9",
+         "name" : "Ratan Planet",
+         "photos" : [
+            {
+               "height" : 810,
+               "html_attributions" : [ "From a Google User" ],
+               "photo_reference" : "CnRsAAAAenAVtKBBI3KUOtmI98oNL7_OMC0G1aogCvTfq4SLCZ1ITmeSZ_bQDTnFfXWRlQboaN679TieUMIQ60R0ejDw71tPatFezHgAd9NKN8Yxng8yiexaS9U5q2XrQ7G3JcNlloTfW-rBPrpkH29fyN03YhIQPrcex1QUT-JveHT4c6ghRBoUgpSvbxU48RN6u28kglv96yftTSc",
+               "width" : 1080
+            }
+         ],
+         "reference" : "CnRpAAAAw6sPcCdP0DeTjQqEaJMirHh7dkbfto7y4M97q3OxEHb-_AoKuz0SSS4YJtBYBZvHeGEL3qdrnyY41jmRREekVO6TWU5GrKSPiONNRM9SgEkDQ0DyvymTyPlNp0Xhnr72KH0GsK9-ULWd0INTfGkatxIQVliEYRtd0UjyiTniOm4rIxoUmEUcQrRvTtQRSx60EdoBs9Z566E",
+         "types" : [ "establishment" ],
+         "vicinity" : "Naramau, Kanpur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 26.508472,
+               "lng" : 80.229692
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "375b836b2cc9df52d09e8de7e5cf397c8383666d",
+         "name" : "Hall 3",
+         "rating" : 4.6,
+         "reference" : "CnRjAAAAiUmY8v8k1hKGyhwGoUD2gF_nOyRYghZVJ_AWYFfSJxpz-viIGuQZF3Y_8Apw2vm8jIM3vN8tCKo2el0YFOkJmKhMaFeOb33LUTCh2ogzDX84NzOTpGYU8ZW4Ok-XMl3bsj6UZLUp_8rVbyGOMXBwwhIQxPZCgppdQLa2-GwmMsULnRoU0rxQ48UXertmPgD16TLBDWdOkUg",
+         "types" : [ "lodging", "establishment" ],
+         "vicinity" : "Hall 5 - Connector Road, Nankari, Kalyanpur, Kanpur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 26.511615,
+               "lng" : 80.236547
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "4271b89f64b8973da88c20dad424ac500902f740",
+         "name" : "State Bank of India ATM",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 800,
+               "html_attributions" : [ "From a Google User" ],
+               "photo_reference" : "CoQBfQAAAIOtwmwyTrrwxhdh5E0GWpnqyR__bKwSxlXEdWtwsoQRLuBVOfEPsgO9VR-9mSoYbNYlo7IBInY8vccMs4vhuKSxIu23gAz_dbYM6zBDejU1VjYKv8PO5wNSjwOTr1oK0Agg4WTK4xbHWRgVWL9t-QHgtdBOzzeuJDKwN6MoP4EYEhBqBidAuw5ugkgZkKf-uXF2GhTUoQsXYkxmcqtv4yLY3cVaBHj2vg",
+               "width" : 600
+            }
+         ],
+         "rating" : 4.1,
+         "reference" : "CoQBdAAAAMxCtC1cPIL55L2MmoSs-rfJAD21PHU32sZR0LuyCmzJFSnlXm8QCXhBQuDsXj6kI9lUNxfPcG8CrFyBxYqquzukhF9DNTxrVXWQCv4-QCv7k7rZssGoHmV1nRGEEEjvd9bNzWlNPrDRiD84vQhzhYKeGdYTfUm87HFU5bA0mooEEhA05hfqfzZgBwgaj6DZjmK_GhT6rQQwghb_4anHPPZzSxn-L1DapA",
+         "types" : [ "atm", "finance", "establishment" ],
+         "vicinity" : "Shopping Center, IIT Kanpur, Kalyanpur, Kanpur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 26.506515,
+               "lng" : 80.22637400000001
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "e779f0762857ab5d3d912ff13d716e69800c817a",
+         "name" : "Hall 10",
+         "photos" : [
+            {
+               "height" : 1224,
+               "html_attributions" : [ "From a Google User" ],
+               "photo_reference" : "CnRoAAAAOGg45-mUvTNILNWua-14QJyyqemfI8_MfxUYCGewEikOe8L3zBho6ihHlxqwJGHxylJJS1WWtr45JZit7ajJTZWH040QG28U2xOoGNIMSc_-mTPn8mEhLrCAUGP5s-JYT9ab_ssOu0N8488qHFPcARIQ7T0bKCl-sMm4Fbdxd6mwURoUam_9MiPnqDM9i1wc8hbWoRBD-g4",
+               "width" : 1632
+            }
+         ],
+         "rating" : 4.3,
+         "reference" : "CnRkAAAAbz4db6VF1xG-yZ3OMED-T5_FVuelEoaIzd83j6XuEPhOkGH12mSNglGm27sPkqqRJodvEmRPoSkHEpNzR-1NEKSQrRnsPcwI8vDeAobKJa7MqoLN8hE87A-ZJHE5AVSNXL85NjCqJo7PFOlTkSSyDxIQyy1xY4zmoRxVopuWDzsflhoUnzutcC-Zs2C8bt2wauJZJ2_92-w",
+         "types" : [ "lodging", "establishment" ],
+         "vicinity" : "Nankari, Kalyanpur, Kanpur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 26.498045,
+               "lng" : 80.247265
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "f79c5be7da13aa82d5887f7e5c24e584d384b997",
+         "name" : "Lavkush puram",
+         "photos" : [
+            {
+               "height" : 972,
+               "html_attributions" : [ "From a Google User" ],
+               "photo_reference" : "CnRoAAAArS8SoZdHoTtyeSxJQFF0piwcPHejHqZ05AG9brD7obJc2-ErrVhTZxmHHbgj7s-kFp5r9srHQO4n7y8UC03CoqjS5DQB15gOeYtdqQZg7UljNDkFqMfIqOidCm4bKdZSOODoHojP99eGtXwV7MuENhIQ3jqdcMlFevtTHXZmewHrvhoU6iRxp9EMXSZ581GzMuV3hku-FMs",
+               "width" : 1296
+            }
+         ],
+         "reference" : "CnRqAAAA3m_hhIK2j6ivsOVTOFWTwIw940JtGp9OvCm7SSHjJhPEXyAxAxtvc32K2jLRmmbAK2M5BcSIg0DfNkS_cM6xyQjdVOheJJtWAE0o7L_Cf4YWRXw0pcvwBSDg_i9BlPYIRuAc_W-hfFdmYJc6lEJMnhIQ80OirNpy3Gw0TfoWNrzGgRoUSCAi2BZyiX3EiZBzDPO70xA4rgw",
+         "types" : [ "establishment" ],
+         "vicinity" : "Kalyanpur, Kanpur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 26.514122,
+               "lng" : 80.234251
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "3b136264cbba9ed7b1fcf473ea32683fe486fc38",
+         "name" : "CSE Canteen",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "rating" : 3.2,
+         "reference" : "CnRoAAAAsZBTm-CvscNDfR1zre2vp0rkDBWjpVXnSp-n9t0GKTsA7mSpALV9_Ipac50t7vlDR6Y7xtMPa6atQ0SCNdUx4qU9Pmxa0wJtbd-0OY4UN5phLXyW4H-5CshvbfBjaNPrEEXJ6wLaJX3Wf41IAOMsPxIQkOmJ2CJ1FomputCfySH3FRoUm_ZApuuWnlPSFsemqMybiEAY5pE",
+         "types" : [ "meal_takeaway", "restaurant", "food", "establishment" ],
+         "vicinity" : "IIT Kanpur, Nankari, Kanpur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 26.510661,
+               "lng" : 80.229692
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "44737407ab2954f0a1f0d3ad31b1146e58a584fa",
+         "name" : "Hall of Residence II",
+         "photos" : [
+            {
+               "height" : 540,
+               "html_attributions" : [ "From a Google User" ],
+               "photo_reference" : "CpQBhwAAAF_MwExK8Mkkp4gR_sfYm8yqIuI7SGqIJx3AQN3tIpOrjEN-4Jxc4kI2RYPjM-d3sV1tWH2aa6Xr8-x9iyyngdqb1Sxk3PWk-maplAhlDDtOybqx_4_yPO73D5cYAJo1WllLB9mJgDu8L0aSGY4udFj-9pETPbfq2HRo-DjQ0TMBOn3_oYFg2_dvCS7jTnVzAhIQTlT-_xVq4WuZw9piRDox4BoUtu4Q_vyZQqDQKSPN0GM96SaO14Q",
+               "width" : 720
+            }
+         ],
+         "reference" : "CoQBcQAAAPG3Up1O6P9xJ_c6T81ZdmbVc02-XudhU9D7mPaA-DDkMEaj3DpwI50CjNfBoVnhZ0RQsu7G-Sl04EHgpMFJUlZj9NQNhBM9jI2nAqBu2TKIRImnYztBmYBhuDRrzZzTrVxeP6JSD3oc1occQul7LV1nn8767pw-w_dU4dGiuYRbEhDY49GQVt7LIBsSszLrC43pGhT1ukNR05WS96DZifVauyJheX1bSA",
+         "types" : [ "establishment" ],
+         "vicinity" : "Nankari, Kalyanpur, Kanpur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 26.509588,
+               "lng" : 80.231272
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "795934b1e220940166c006f2f97797018a0617c9",
+         "name" : "Hall of Residence I",
+         "reference" : "CnRwAAAAD494VFgFwI3cwyN-gUiLTF0RIR3nS4ouLjINpI9RzaCpHB1OnB5f96aOiZy2DSTx-a8kOQ5b5I3cUie6vM9WoC_rC9B02hmdCc5OYY4NTeR6YTav1qzbSWeqzIg0ZqQJdgTSzBQ1U_zzFvCCIKlisxIQliN1sTBK9Ay8lEoT2RrAKhoUkgSN44aaslGtx7Ri4il2kOu9kak",
+         "types" : [ "lodging", "establishment" ],
+         "vicinity" : "Sixth Avenue, Nankari, Kalyanpur, Kanpur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 26.5289033,
+               "lng" : 80.2349196
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 26.5416,
+                  "lng" : 80.2429801
+               },
+               "southwest" : {
+                  "lat" : 26.5120399,
+                  "lng" : 80.22484
+               }
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "f8401d1c851d42aaa83e9a0ae255be0f53293b54",
+         "name" : "Pargahi Bangar",
+         "reference" : "CpQBiwAAACbF--f96giNS7MQjpBDhO4ZmLhAZdLX-y5FPjiKK3bsql3hFbHl5uopouW0TC0zFDvH_SuZ4Y4GefwvMwaR5Sdj3L8WL3cBV9y88u-h6y9CghDqSdjvvNpkZ4jrBRqsF7rNaQylHLwMrd2RYqrEy7tkiR2H6fqrSEoSaqUa9eDZpOhCT5Ys72kQQEkqvQlumRIQgc_chpzhFnBzMhg8oEQRmRoUoHW7Wvu71uPz5lT8fKmLbz6SW1g",
+         "types" : [ "locality", "political" ],
+         "vicinity" : "Pargahi Bangar"
+      }
+   ],
+   "status" : "OK"
+}

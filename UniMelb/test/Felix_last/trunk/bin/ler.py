@@ -517,7 +517,7 @@ def main():
 #    print "identifiability_num = " + str(identifiability_num)
     
     
-    sentences = ChunkedDataReader.read_chunked_data("../resources/tuw_chunked_data.txt")
+    sentences = ChunkedDataReader.read_chunked_data("../resources/Description1_chunked.txt")
     #~ print "sentences:",sentences
     char_counter = 1
     word_counter = 0
@@ -589,8 +589,8 @@ def main():
         print "deviation: " + str(math.sqrt(math.sqrt(c) / (loc_exp_count - 1)))
     except ZeroDivisionError:
         print "deviation: n/a"
-    print "max: " + str(max(loc_words))
-    print "min: " + str(min(loc_words))
+    #~ print "max: " + str(max(loc_words))
+    #~ print "min: " + str(min(loc_words))
     print m
     
     
@@ -663,20 +663,23 @@ def main():
         with open("./train" + str(i), "w") as f:
             for j in range(0, slice_num * i):
                 # sentences before the slice
-                for o in output_sentence[j]:
-                    f.write(str(o) + "\n")
-                f.write("\n")
+                if j<len(output_sentence):
+					for o in output_sentence[j]:
+						f.write(str(o) + "\n")
+					f.write("\n")
             for j in range(slice_num * (i + 1), sentence_num):
                 # sentences after the slice
-                for o in output_sentence[j]:
-                    f.write(str(o) + "\n")
-                f.write("\n")
+                if j<len(output_sentence):
+					for o in output_sentence[j]:
+						f.write(str(o) + "\n")
+					f.write("\n")
         with open("./test" + str(i), "w") as f:
             for j in range(slice_num * i, min(slice_num * (i + 1), sentence_num)):
                 # sentences in the slice
-                for o in output_sentence[j]:
-                    f.write(str(o) + "\n")
-                f.write("\n")
+                if j<len(output_sentence):
+					for o in output_sentence[j]:
+						f.write(str(o) + "\n")
+					f.write("\n")
 
 if __name__ == "__main__":
     main()

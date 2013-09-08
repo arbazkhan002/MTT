@@ -54,8 +54,8 @@ class ParserDemo {
       //~ System.out.println(taggedWords);
       System.out.println("***");
 
-      parse.pennPrint();
-      System.out.println("***");
+      //~ parse.pennPrint();
+      //~ System.out.println("***");
 
       GrammaticalStructure gs = gsf.newGrammaticalStructure(parse);
       Collection tdl = gs.typedDependenciesCCprocessed();

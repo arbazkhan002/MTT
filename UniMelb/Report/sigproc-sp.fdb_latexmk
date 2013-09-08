@@ -1,17 +1,9 @@
 # Fdb version 3
-["bibtex sigproc-sp"] 1376889422 "sigproc-sp.aux" "sigproc-sp.bbl" "sigproc-sp" 
-  "/usr/share/texmf-texlive/bibtex/bst/base/abbrv.bst" 1136766823 20285 80a4cd697aa25f551be22e1a27ee1109 ""
-  "sigproc-sp.aux" 1376925140 5234 4f887d26a8ab20599bd3c684f91b8686 ""
-  "sigproc-sp.bcf" 0 -1 0 ""
-  "sigproc.bib" 1376413752 11469 c34993d053e4dc1541db5652bebfd0d1 ""
-  (generated)
-  "sigproc-sp.blg"
-  "sigproc-sp.bbl"
-["dvipdf"] 1376925140 "sigproc-sp.dvi" "sigproc-sp.pdf" "sigproc-sp" 
-  "sigproc-sp.dvi" 1376925140 67324 fac17a3533bd836de92fb1daa520723b "latex"
+["dvipdf"] 1377757708 "sigproc-sp.dvi" "sigproc-sp.pdf" "sigproc-sp" 
+  "sigproc-sp.dvi" 1377757708 69552 62aa440bb2144cd524d13613daea4c49 "latex"
   (generated)
   "sigproc-sp.pdf"
-["latex"] 1376925140 "sigproc-sp.tex" "sigproc-sp.dvi" "sigproc-sp" 
+["latex"] 1377757708 "sigproc-sp.tex" "sigproc-sp.dvi" "sigproc-sp" 
   "/etc/texmf/tex/latex/config/graphics.cfg" 1255993321 3328 2584cfe577535f0a08f3a9717b5152ab ""
   "/usr/share/texmf-texlive/tex/latex/ae/t1aer.fd" 1191308783 1844 da911cbbb4e7e5dc2776545b8b9cbc06 ""
   "/usr/share/texmf-texlive/tex/latex/ae/t1aett.fd" 1191308783 1265 104c75383e0b9b5fac7ca7880a6cdf30 ""
@@ -37,9 +29,8 @@
   "IOB.eps" 1371652752 24553 22c14e20a5b7c44b03853062f844671e ""
   "acm_proc_article-sp.cls" 1371099195 59629 49fc14f68a73f326183ff0d766bec0c2 ""
   "phase1.eps" 1373524426 94396 ed94e8fb927083ddde15a4dac155c3d3 ""
-  "sigproc-sp.aux" 1376925140 5234 4f887d26a8ab20599bd3c684f91b8686 ""
-  "sigproc-sp.bbl" 1376889422 5617 d16afd0a232441ba36a5b34040762157 "bibtex sigproc-sp"
-  "sigproc-sp.tex" 1376925137 72692 d9973321176e8bca54b5729fd0b3cb58 ""
+  "sigproc-sp.aux" 1377757708 5308 3ba00da036b7943f223275307db6c75a ""
+  "sigproc-sp.tex" 1377757707 80369 8ab6326fb307638122a28cc00ce0b967 ""
   (generated)
   "sigproc-sp.aux"
   "sigproc-sp.dvi"

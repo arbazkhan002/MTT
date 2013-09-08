@@ -1,2 +1,3 @@
 Script executed to generate chunking files :
 /Downloads/apache-opennlp-1.5.3/bin $ ./opennlp SentenceDetector en-sent.bin < ../../../MTT/UniMelb/Code/all_1.txt | ./opennlp TokenizerME en-token.bin | ./opennlp POSTagger en-pos-maxent.bin | ./opennlp ChunkerME en-chunker.bin > chunking\ results/all_chunked_1a.txt
+/Downloads/apache-opennlp-1.5.3/bin $ ./opennlp SentenceDetector en-sent.bin < /home/arbazk/MTT/UniMelb/test/Felix_last/trunk/resources/Junchul/ext.txt | ./opennlp TokenizerME en-token.bin | ./opennlp POSTagger en-pos-maxent.bin | ./opennlp ChunkerME en-chunker.bin > /home/arbazk/MTT/UniMelb/test/Felix_last/trunk/resources/Junchul/extchunked.txt

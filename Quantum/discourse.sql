@@ -43,7 +43,7 @@ BEGIN
 		
 		-- If vertex in route is start point, store the end angle for future use
 		IF row.vertex_id = row.start_id THEN 		
-			orientation := TRUE;
+			orientation := TRUE; --Going in the same direction as the edge
 			
 			IF prev_deg=-360 THEN
 				prev_deg := row.end_angle;
@@ -56,7 +56,7 @@ BEGIN
 			
 		-- else store the start angle	
 		ELSE
-			orientation := FALSE;
+			orientation := FALSE; --Going in the opp direction as the edge (endid to startid)
 			
 			IF prev_deg=-360 THEN
 				prev_deg := flip(row.start_angle);
@@ -68,9 +68,10 @@ BEGIN
 			prev_deg := flip(row.start_angle);
 		END IF;		
 		
-		RAISE NOTICE 'ID:% ANGLE %',row.vertex_id,x;
+		--~ RAISE NOTICE 'ID:% ORIENTATION % StartConnections % and ANGLE %',row.vertex_id,orientation,row.start_connections,x;
 		
 		IF (orientation=TRUE and row.start_connections=TRUE) or  (orientation=FALSE and row.end_connections=TRUE) THEN 
+			RAISE NOTICE 'On %',row.vertex_id;
 			CASE 		
 				WHEN x BETWEEN 45 AND 135 THEN
 					RAISE NOTICE 'GO RIGHT';
