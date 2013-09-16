@@ -1,0 +1,3 @@
+Acad-Area-Gate(Hall2).IIT-Gate.a someone new to IITK.
+Go straight towards SAC-Circle.
+From SAC-Circle, go straight till you reach IIT-Gate.

@@ -316,6 +316,24 @@ Note: When SRIDs are different, UPDATE TABLE x SET geom=st_SetSRID(geom);
 
 
 /******************************************
-TIP: To iterate over the columns of a table
+TIP: 
+To iterate over the tables of a database
+select table_name from information_schema.tables where table_type='BASE TABLE' and table_schema='public'
+
+To iterate over the columns of a table
 select column_name from information_schema.columns where table_name='parks';
 ******************************************/
+
+Added to google_api : wikimapia.py and buildPOI.py
+
+
+/-------------------------------------------------------------------------------
+Towards Salience of Landmarks
+-------------------------------------------------------------------------------/
+create table salience_helper (gid integer, category character varying(100), name character varying(100), geom geometry, wiki integer);
+
+now run salience_helper.sql
+
+update fence set geom=st_setSRID(geom,32644);  (fences_qgis created with srid 0 as only then qgis GUI works for fences layer, strange!!)
+
+NOTE : GOOGLE RADAR SEARCH discarded, picking only the first 60 results of nearby search ranked by prominence in a circle of radius 2 km centered at PK library.

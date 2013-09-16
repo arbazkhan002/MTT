@@ -14,7 +14,7 @@ cur.execute("select name from poi;")
 results=[]
 for row in cur.fetchall():
 	results.append(row[0])
-print difflib.get_close_matches("Computer Centre",results,3,0.3);
+print difflib.get_close_matches("theater",results,3,0.3);
 
 #~ results=open("names.txt","w")
 #~ for row in cur.fetchall():

@@ -32,3 +32,8 @@
 				--~ from edget4 as e 
 					--~ LEFT JOIN "parks" as l ON st_dwithin(e.geom,l.geom,10)
 				--~ order by e.split_id,st_distance(e.geom,l.geom);					
+				
+create table edget6 as select distinct on (e.split_id) e.*,l.gid as fence_id, l.name as fence, l.geom as fence_geom
+				from edget4 as e 
+					LEFT JOIN "fences" as l ON st_dwithin(e.geom,l.geom,10)
+				order by e.split_id,st_distance(e.geom,l.geom);					

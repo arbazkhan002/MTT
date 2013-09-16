@@ -1,0 +1,1 @@
+New-SAC.Hall-7.a someone new to IITK.From New-SAC turn left and ride for 100 m straight till T-junction. Turn right from T-junction and walk straight till you see Hall-7 on your left.

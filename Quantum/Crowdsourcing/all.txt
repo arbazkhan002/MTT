@@ -1,0 +1,137 @@
+﻿Acad-Area-Gate(Hall2).IIT-Gate.a someone new to IITK.
+Go straight towards SAC-Circle.
+From SAC-Circle, go straight till you reach IIT-Gate.
+
+MT.New-SAC.a someone new to IITK.Go straight till you reach Swimming-Pool.Turn right and continue till you reach New-SAC.
+
+Health-Centre.VH.a first year student on bicycle.Go straight till you reach GH-1.Take right turn and keep riding straight till you reach a T-Junction.Take right from there and ride till you reach VH.
+
+Hall-1.Hall-3.a someone new to IITK.From Hall1 gate, turn left, go 100m straight. Hall3 is on your right.
+
+Cricket-Stadium.Hall-3.a someone new to IITK.Take right and Go straight for 150m till the T-junction.Take left and go on for another 50m.Turn left and go straight till you see Hall-3 on your right.
+
+Old-SAC.Shopping-Center.a someone new to IITK.Go right for 20 m till SAC-Circle. Take a left and go on for another 50 m. Turn at the first right and go on for 50 m. Shopping-Center will be on your right.
+
+IIT-Gate.SIS-control-room.a someone new to IITK.Go straight for 1.5 km till you reach Hall-2.Take right and go on for 100 m. Take the first left. SIS-control-room will be on your left.
+
+Outreach.Hall-4.a someone new to IITK.Take left from Outreach and go straight till you reach SAC-Circle.turn left and keep going straight till you reach Hall-2. Take left and keep going straight for around 200m till you see Hall-4 on your left.
+
+Outreach.Campus-School.a someone new to IITK.Go straight till you reach Campus-School.
+
+New-SAC.Swimming-Pool.a someone new to IITK.Go right from New-SAC till you reach Swimming-Pool.
+
+New-Core-Lab.MT.a someone new to IITK.Go right from New-Core-Lab for about 20 m. Then take a left and go straight for about 150 m till you reach Acad-Area-Gate(MT). Take left and keepgoing straight till you see MT on your right.
+
+Acad-Area-Gate(Hall2).Hall-1.a someone new to IITK.Go straight towards Hall-2 and take a left. Go straight for about 50 m and you will see Hall-1 on your left.
+
+Acad-Area-Gate(CC).Football-Ground.a someone new to IITK.Take right and go for about 100 m till SAC-circle. Take right from SAC-Circle and go straight till Hall-2.Take a left. Go straight till you reach Swimming-Pool.Take right from there and go for another 50 m.Football-Ground is on your right.
+
+Acad-Area-Gate(MT).Football-Ground.a first year student on bicycle.From Acad-Area-Gate(MT), Ride straight for 5 minutes till Hall-2.Take a left. Go straight till you reach Swimming-Pool.Take right from there and go for another 50 m.Football-Ground is on your right.
+
+IIT-Gate.Outreach.a someone new to IITK.Go straight from IIT-Gate till you reach SAC-Circle.Turn left and go straight till you reach Outreach.
+
+Library.Acad-Area-Gate(CC).a foreigner visiting the campus on foot.Turn right from Libraryan go straight for around 100 m.Then turn right and Go straight till you reach Acad-Area-Gate(CC).
+
+New-SAC.Hall-7.a someone new to IITK.From New-SAC turn left and ride for 100 m straight till T-junction. Turn right from T-junction and walk straight till you see Hall-7 on your left.
+
+Hall-3.Shopping-Center.a first year student on bicycle.From Hall-3 take Left and Ride till you reach Hall-2.Take right from Hall-2 and ride for 200 m till you reach SAC-Circle. Take left and ride for 150 m till the next T-Jucntion. Take right from the T-Junction. Ride for 50 m. Shopping-Center is on your left.
+
+Hall-7.GH-2.a foreigner visiting the campus on foot.Go straight till you reach Hall-8.Follow the direction till you reach a T-Junction.Take left and go straight till you reach GH-2.
+
+Hall-9.Acad-Area-Gate(CC).a middle-aged man in a car.Turn left and follow the path till you reach a T-junction.Go straight till you reach the next T-junction.Go straight till you reach another T-junction.Take left and drive straight till you reach Hall-2. Take right and drive straight till SAC-circle. Take left and drive straight till you reach Academic-Area-Gate(CC).
+
+Gym.SAC-Circle.a someone new to IITK.Turn left and go straight till you reach a T-Junction.Turn left and go straight till you reach a T-Junction.Turn right and go straight till you reach SAC-Circle.
+
+Acad-Area-Gate(MT).Hall-1.a someone new to IITK.Keep going straight till you reach Hall-1.
+
+Hall-8.Hall-9.a first year student on bicycle.From Hall-8, ride 50m left till you reach a T-Junction. Take left and Ride 100m straight till you reach a T-Junction. Take right and go straight till you see Hall-9 on your left.
+
+Audi.Hall-2.a first year student on bicycle.From Audi, take left and ride 100 m straight till you reach SAC-Circle. Take right from SAC-Circle. Ride 200 m straight till T-junction. Hall-2 is on your front.
+
+Hall-1.Football-Ground.a someone new to IITK.Take left and go straight till you reach Swimming-Pool.Turn right and go straight for another 50m till you reach Football-Ground.
+
+VH.Football-Ground.a first year student on bicycle.Take right and go straight till you reach a T-Junction.Take right and go straight till you reach Health-Centre.Go straight till you reach a T-Junction.Take right and go straight till you reach a T-Junction.Take left and go straight till you reach Football-Ground.
+
+IIT-Gate.Lawn-Tennis-Court.a first year student on bicycle.From IIT-Gate go straight till you reach Hall-2.Take left and go straight till the next T-Junction.Go straight till the next T-Junction.Lawn-Tennis-court is on your right.
+
+Acad-Area-Gate(CC).GH-2.Go straight till SAC-Circle.Keep going straight till you reach Campus-School.Go straight till you reach a T-Junction.Take right and go straight till you reach GH-2.
+
+Audi.Acad-Area-Gate(CC).a middle-aged man in a car.Go straight till you reach Computer-Center.
+
+GH-1.Acad-Area-Gate(CC).a first year student on bicycle.From GH-1, take right and go straight till you reach a T-Junction.Take left and go straight till Acad-Area-Gate(CC).
+
+New-SAC.Lawn-Tennis-Court.a middle-aged man in a car.Take right and go straight till you reach a T-Junction.Take left and move straight till Hall-3.Go straight till the next T-Junction.Lawn-Tennis-Court is on your left.
+
+Hall-3.Audi.a someone new to IITK.Go straight till Hall-2.take right.Go straight till SAC-Circle.Take left from SAC-Circle and keep going straight till you reach Audi.
+
+Outreach.Health-Centre.a middle-aged man in a car.Drive right till the next T-Junction.Take right from there and go straight till GH-1.Take left from there and follow the path till you reach Health-Centre.
+
+Hall-9.Hall-5.a foreigner visiting the campus on foot.Take left and go straight till you reach a T-Junction.Take right and go straight till the T-Junction.take left.Go straight till you reach Hall-5.
+The hall on the left at the next T-Junction is Hall-5
+
+IIT-Gate.Hall-1.a someone new to IITK.From IIT-Gate, Go straight for 1200m till Hall-2.Take left and go straight till you reach Hall-1.
+
+Hall-2.Hall-1.a middle-aged man in a car.Take right and go straight till you reach Hall-1.
+
+Cricket-Stadium.Hall-5.a middle-aged man in a car.Take right and go straight till the T-Junction.Take left and go straight till Hall-2.Take left and go straight till the T-Junction.Take right and follow the path till you reach Hall-5.
+
+Hall-9.Hall-7.a middle-aged man in a car.Take right and go straight till you reach a T-Junction.Take left and go straight till you reach a T-Junction.Take left and go straight till you reach Hall-7.
+
+VH.Hall-8.a foreigner visiting the campus on foot.Take right and walk till you reach a T-Junction.
+Take right from there and go straight for 450m.
+Take right and go straight till you reach Swimming-Pool.Turn left and go straight till you reach Hall-8.
+
+Hall-3.Acad-Area-Gate(CC).a first year student on bicycle.From Hall-3 take Left and Ride till you reach Hall-2.Take right from Hall-2 and ride for 200m till you reach SAC-Circle.Take left and go straight till Acad-Area-Gate(CC).
+
+Hall-2.MT.a middle-aged man in a car.Go straight till you reach MT.
+
+Acad-Area-Gate(MT).Football-Ground.a first year student on bicycle.Go straight till you reach Swimming-Pool.Turn right and go straight for another 50m. Football-Ground is on your right.
+
+VH.Football-Ground.a first year student on bicycle.Take right and Ride till you reach a T-Junction.Take right from there and go straight for 400.Take left and go straight till you reach Swimming-Pool.Turn right and go straight for another 50 m.Football-Ground is on your right.
+
+Acad-Area-Gate(CC).Aero-Department.a middle-aged man in a car.Drive straight till you reach Nursery.Take left and go straight till you reach Aero-Department.
+
+Audi.Acad-Area-Gate(MT).a middle-aged man in a car.Drive straight till you reach Nursery.Take left and go straight for 500m.Take left and go straight till you reach Acad-Area-Gate(MT).
+
+Nursery.Lawn-Tennis-Court.a someone new to IITK.Go straight till SAC-Circle.Take right and go straight till you reach Hall-2.Take left till you reach a T-Junction.Go straight till the next T-Junction.Lawn-Tennis-Court is on your left.
+
+Hall-2.Lawn-Tennis-Court.a foreigner visiting the campus on foot.Take left till you reach a T-Junction.Go straight till the next T-Junction.Lawn-Tennis-Court is on your left.
+
+Hall-8.SAC-Circle.a foreigner visiting the campus on foot.Take right till you reach a T-Junction.Go straight for 650 m.Take right and go straight till you reach SAC-Circle.
+
+Hall-3.GH-2.a foreigner visiting the campus on foot.Take right and go straight till you reach a T-Junction.Take left and straight for 450 m.Take right and go straight till you reach GH-2.
+
+Nursery.Shopping-Center.a middle-aged man in a car.Go straight till you reach Audi.Go straight till you reach a T-Junction.Take left and go straight till you reach Shopping-Center.
+
+Acad-Area-Gate(CC).Hall-3.a foreigner visiting the campus on foot.Go straight till you reach SAC-Circle.Take right and go straight till you reach Hall-2.Take left and go straight till you reach Hall-3.
+
+Nursery.Outreach.a middle-aged man in a car.Go straight till you reach SAC-Circle.Go straight till you reach Outreach.
+
+Football-Ground.GH-1.a someone new to IITK.Take right and go straight till the next T-Junction.Take left and go straight till the next T-Junction.Go straight till the next T-Junction.Take right and go straight till you reach GH-1.
+
+Hall-9.New-SAC.a middle-aged man in a car.Take right and go straight till you reach Hall-10.Take left and go straight till you reach a T-Junction.Take right and go straight till you reach Hall-8.Take left and go straight till you reach New-SAC.
+
+Swimming-Pool.GH-2.a first year student on bicycle.Take left and go straight till you reach a T-Junction.Take left and go straight till you reach GH-2.
+
+Campus-School.Acad-Area-Gate(MT).a middle-aged man in a car.Go straight towards Outreach.From Outreach, move straight till you reach SAC-Circle.Take left and go straight till you reach Hall-2.Take right and go straight till you reach Acad-Area-Gate(MT).
+
+Hall-9.Outreach.a foreigner visiting the campus on foot.Take right and Go straight till your reach a T-junction passing Hall-10.Take left and go straight till you reach a T-junction.Take left and drive straight till you reach Hall-2. Take right and drive straight till SAC-circle.Take right and drive straight till you reach Outreach.
+
+Hall-10.MT.a middle-aged man in a car.Take right and follow the path till you reach a T-junction.Take left and drive straight till you reach MT.
+
+Hall-7.Health-Centre.a someone new to IITK.Take right and go straight till you reach a Hall-8.Go straight in the same direction till your reach a T-junction.Take left and go straight till you reach Health-Centre.
+
+Hall-10.Football-Ground.a someone new to IITK.Go straight till you reach a T-Junction.Take right and go straight till you reach Hall-8.Take left and go straight till you reach Football-Ground.
+
+Cricket-Stadium.Hall-9.a someone new to IITK.Turn right and go straight till you reach a T-Junction.Take left and go straight till you reach Hall-2.Take left and go straight till you reach a T-Junction.Take right and follow the path till you reach a T-Junction.Go straight and follow the path till you reach a T-Junction.Take right and go straight till you reach Hall-9.
+
+New-SAC.Old-SAC.a first year student on bicycle.Take right and go till you reach Swimming-Pool.Take left and ride straight till Hall-2.Take right and go straight till you reach Old-SAC.
+
+Hall-4.Cricket-Stadium.a middle-aged man in a car.Drive straight till Hall-2.Take right and go straight till you reach a T-Junction.Turn right and go straight till you reach Cricket-Stadium.
+
+Hall-8.Hall-5.a middle-aged man in a car.Go straight till you reach Hall-7.Go straight till you reach a T-Junction.Take left and go straight till you reach a T-Junction.Take right and follow the path till you reach a T-Junction.Go straight till you reach Hall-5.
+
+Audi.Acad-Area-Gate(MT).a someone new to IITK.bn
+
+Hall-7.Hall-8.a foreigner visiting the campus on foot.हॉल ३ से ऑडी 
+

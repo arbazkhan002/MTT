@@ -1,4 +1,4 @@
-""" Program to extract all the names in wikimapia inside IIT Kanpur's bounding box"""
+""" Program to create point geometry using lat/lon results in wikimapia/google"""
 
 from urllib import *
 from bs4 import BeautifulSoup
@@ -9,10 +9,11 @@ import difflib
 
 conn = connect("dbname=demo user=postgres host=localhost password=indian")
 cur	= conn.cursor()
-
-cur.execute("select pid,lon,lat from poi;")
+#~ cur.execute("select pid,lon,lat from poi;")  # For wikimapia 
+cur.execute("alter table poigoogle add column geom geometry") # For google
+cur.execute("select pid,lon,lat from poigoogle;") # For google
 for row in cur.fetchall():
-	cur.execute("update poi set geom=st_transform(st_setSRID(st_makepoint(%s,%s),4326),32644) where pid=%s" % (row[1],row[2],row[0]))
+	cur.execute("update poigoogle set geom=st_transform(st_setSRID(st_makepoint(%s,%s),4326),32644) where pid='%s'" % (row[1],row[2],row[0]))
 
 conn.commit()			
 	

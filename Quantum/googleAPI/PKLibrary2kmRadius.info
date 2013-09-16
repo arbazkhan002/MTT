@@ -1,5 +1,5 @@
-https://maps.googleapis.com/maps/api/place/nearbysearch/xml?location=26.51232,80.23387&radius=2000&rankby=prominence&sensor=false&key=AIzaSyCzhOo4mqXFIMa73xk5N-2A5mifzcpINfo
-
+PKKelkar : https://maps.googleapis.com/maps/api/place/nearbysearch/xml?location=26.51232,80.23387&radius=2000&rankby=prominence&sensor=false&key=AIzaSyCzhOo4mqXFIMa73xk5N-2A5mifzcpINfo
+Cricket field road: https://maps.googleapis.com/maps/api/place/nearbysearch/xml?location=26.5104806, 80.2341843&radius=1000&rankby=prominence&sensor=false&key=AIzaSyCzhOo4mqXFIMa73xk5N-2A5mifzcpINfo
 
 //WIKIMAPIA 
 /* A bounding box of IIT Kanpur */
