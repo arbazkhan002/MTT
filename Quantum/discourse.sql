@@ -24,6 +24,7 @@ $$
 
 DECLARE
     row record;
+    col record;
     deg float;
     prev_deg float;
     x float;
@@ -40,6 +41,8 @@ BEGIN
 
 	FOR row in EXECUTE 'SELECT * FROM network_extended JOIN (SELECT * FROM shortest_path($1, 260, 261, false, false)) AS route ON network_extended.split_id = route.edge_id' USING 'SELECT split_id AS id, start_id::int4 AS source, end_id::int4 AS target, length::float8 AS cost FROM network_extended' LOOP
 		--RAISE NOTICE '%',row.split_id;
+		
+
 		
 		-- If vertex in route is start point, store the end angle for future use
 		IF row.vertex_id = row.start_id THEN 		
@@ -74,18 +77,33 @@ BEGIN
 			RAISE NOTICE 'On %',row.vertex_id;
 			CASE 		
 				WHEN x BETWEEN 45 AND 135 THEN
+					FOR col in EXECUTE 'SELECT n.split_id,acad_building,facility,fence FROM network_extended as n,edget6  WHERE edget6.split_id=n.split_id AND n.split_id=' || row.split_id || ' ;' LOOP 
+						RAISE NOTICE 'fence:% building:%',col.fence,col.facility;
+					END LOOP;	
 					RAISE NOTICE 'GO RIGHT';
 
 				WHEN x BETWEEN 225 AND 315 THEN
+					FOR col in EXECUTE 'SELECT n.split_id,acad_building,facility,fence FROM network_extended as n,edget6  WHERE edget6.split_id=n.split_id AND n.split_id=' || row.split_id || ' ;' LOOP 
+						RAISE NOTICE 'fence:% building:%',col.fence,col.facility;
+					END LOOP;				
 					RAISE NOTICE 'GO LEFT';	
 
 				WHEN x BETWEEN -135 AND -45 THEN
+					FOR col in EXECUTE 'SELECT n.split_id,acad_building,facility,fence FROM network_extended as n,edget6  WHERE edget6.split_id=n.split_id AND n.split_id=' || row.split_id || ' ;' LOOP 
+						RAISE NOTICE 'fence:% building:%',col.fence,col.facility;
+					END LOOP;	
 					RAISE NOTICE 'GO LEFT';
 
 				WHEN x BETWEEN -315 AND -225 THEN
+					FOR col in EXECUTE 'SELECT n.split_id,acad_building,facility,fence FROM network_extended as n,edget6  WHERE edget6.split_id=n.split_id AND n.split_id=' || row.split_id || ' ;' LOOP 
+						RAISE NOTICE 'fence:% building:%',col.fence,col.facility;
+					END LOOP;	
 					RAISE NOTICE 'GO RIGHT';	
 					
 				ELSE
+					FOR col in EXECUTE 'SELECT n.split_id,acad_building,facility,fence FROM network_extended as n,edget6  WHERE edget6.split_id=n.split_id AND n.split_id=' || row.split_id || ' ;' LOOP 
+						RAISE NOTICE 'fence:% building:%',col.fence,col.facility;
+					END LOOP;	
 					RAISE NOTICE 'GO STRAIGHT';			 	
 			END CASE;
 		END IF;	
