@@ -1,10 +1,22 @@
-Suburban JJ None None False False Aaaaaaaa Aa 8 -1 -1 NP None 4 0 O None None None JJ 0 0 Stanthorpe NNP NNS 1 Suburban B-NP False O O O False False 4 suburban False -1 True True O None O
-Stanthorpe NNP None None False False Aaaaaaaaaa Aa 10 -1 -1 NP None 4 1 O None None None JJ 1 0 Stanthorpe NNP NNS 1 Stanthorpe I-NP False B-P B-PPL O False False 4 stanthorpe False -1 True True O False O
-street NN None None False False aaaaaa a 6 -1 -1 NP None 4 2 O None None None JJ 2 0 Stanthorpe NNP NNS 1 street I-NP False O O O True False 4 street False -1 False True O None O
-runs NNS None None False False aaaa a 4 -1 -1 NP None 4 3 O None None None JJ 3 0 Stanthorpe NNP NNS 1 runs I-NP False O O O False False 4 run False -1 False True O None O
-from IN None None False False aaaa a 4 -1 -1 PP None 1 0 O None None None IN 4 1 None None IN 1 from B-PP False None None None False False 1 from False -1 False True O None O
-South NNP None None False False Aaaaa Aa 5 -1 -1 NP None 1 0 O None from None NNP 5 2 None None NNP 1 South B-NP False O O O True False 1 south False -1 True True O None O
-to TO None None False False aa a 2 -1 -1 PP None 1 0 O None None None TO 6 3 None None TO 1 to B-PP False None None None False False 1 to False -1 False True O None O
-North NNP None None False False Aaaaa Aa 5 -1 -1 NP None 1 0 O None to None NNP 7 4 None None NNP 1 North B-NP False O O O True False 1 north False -1 True True O None O
-. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 8 5 None None . 1 . O False None None None False False 1 . False -1 False True O None O
+That DT None None False False Aaaa Aa 4 -1 -1 NP None 1 0 O None None None DT 0 0 None None DT 1 That B-NP False O O O False False 1 that False -1 True True O None O
+would MD None None False False aaaaa a 5 -1 -1 VP None 2 0 O None None None MD 1 1 be VB MD 1 would B-VP False None None None False False 2 would False -1 False True O None O
+be VB None None False False aa a 2 -1 -1 VP None 2 1 O None None None MD 2 1 be VB MD 1 be I-VP False None None None False False 2 be False -1 False True O None O
+all PDT None None False False aaa a 3 -1 -1 NP None 7 0 O None None None PDT 3 2 the DT NNS 2 all B-NP False O O O False False 7 all False -1 False True O None O
+the DT None None False False aaa a 3 -1 -1 NP None 7 1 O None None None PDT 4 2 the DT NNS 2 the I-NP False O O O False False 7 the False -1 False True O None O
+athletic JJ B-yes_amb B-None B-False B-False aaaaaaaa a 8 -1 -1 NP None 7 2 O None None None PDT 5 2 the DT NNS 2 athletic I-NP False O O O False False 7 athletic False -1 False True O None B-NP
+tracks NNS I-yes_amb I-None I-False I-False aaaaaa a 6 -1 -1 NP None 7 3 O None None None PDT 6 2 the DT NNS 2 tracks I-NP False O O O True False 7 track False -1 False True O None I-NP
+and CC None None False False aaa a 3 -1 -1 NP None 7 4 O None None None PDT 7 2 the DT NNS 2 and I-NP False O O O False False 7 and False -1 False True O None I-NP
+sports NNS B-yes_amb B-None B-False B-False aaaaaa a 6 -1 -1 NP and 7 5 O HTL None None PDT 8 2 the DT NNS 2 sports I-NP False O O O False False 7 sport False -1 False True O None I-NP
+field NN I-yes_amb I-None I-False I-False aaaaa a 5 -1 -1 NP and 7 6 O HTL None None PDT 9 2 the DT NNS 2 field I-NP False O O O True False 7 field False -1 False True O None I-NP
+. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 10 3 None None . 1 . O False None None None False False 1 . False -1 False True O None O
+
+Add VB None None False False Aaa Aa 3 -1 -1 VP None 1 0 O None None None VB 0 0 None None VB 1 Add B-VP False None None None False True 1 add False -1 True True O None O
+a DT None None False False a a 1 -1 -1 NP None 3 0 O None None a DT 1 1 small JJ DT 1 a B-NP False O O O False False 3 a False -1 False True O None O
+small JJ None None False False aaaaa a 5 -1 -1 NP None 3 1 O None None a DT 2 1 small JJ DT 1 small I-NP False O O O False False 3 small False -1 False True O None O
+rectangle NN B-yes_unamb B-None B-False B-False aaaaaaaaa a 9 -1 -1 NP None 3 2 O None None a DT 3 1 small JJ DT 1 rectangle I-NP False O O O False False 3 rectangle False -1 False True O None B-NP
+below IN None None False False aaaaa a 5 -1 -1 PP None 1 0 O None None None IN 4 2 None None IN 1 below B-PP False None None None False False 1 below False -1 False True O None O
+the DT None None False False aaa a 3 -1 -1 NP None 3 0 O None below the DT 5 3 initial JJ DT 1 the B-NP False O O O False False 3 the False -1 False True O None O
+initial JJ None None False False aaaaaaa a 7 -1 -1 NP None 3 1 O None below the DT 6 3 initial JJ DT 1 initial I-NP False O O O False False 3 initial False -1 False True O None O
+rectangle NN B-yes_amb B-None B-False B-False aaaaaaaaa a 9 -1 -1 NP None 3 2 O None below the DT 7 3 initial JJ DT 1 rectangle I-NP False O O O False False 3 rectangle False -1 False True O None B-NP
+. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 8 4 None None . 1 . O False None None None False False 1 . False -1 False True O None O
 

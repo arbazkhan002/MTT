@@ -1,0 +1,8 @@
+T1	NE_NP 12 25	university_NN
+A1	identifiability T1 yes_amb
+T2	NE_NP 57 66	gates_NNS
+A2	identifiability T2 yes_amb
+T3	NE_NP 120 140	[NP Gate_NNP 10_CD ]
+A3	identifiability T3 yes_unamb
+T4	NE_NP 156 184	[NP Grattan_NNP Street_NNP ]
+A4	identifiability T4 yes_unamb

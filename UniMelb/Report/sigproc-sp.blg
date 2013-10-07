@@ -3,45 +3,45 @@ The top-level auxiliary file: sigproc-sp.aux
 The style file: abbrv.bst
 Database file #1: sigproc.bib
 Warning--to sort, need author or key in tuw
-You've used 26 entries,
+You've used 27 entries,
             2118 wiz_defined-function locations,
-            674 strings with 8750 characters,
-and the built_in function-call counts, 9518 in all, are:
-= -- 969
-> -- 399
+            681 strings with 8860 characters,
+and the built_in function-call counts, 9802 in all, are:
+= -- 999
+> -- 406
 < -- 12
-+ -- 160
-- -- 128
-* -- 628
-:= -- 1509
-add.period$ -- 85
-call.type$ -- 26
-change.case$ -- 135
++ -- 163
+- -- 130
+* -- 651
+:= -- 1556
+add.period$ -- 88
+call.type$ -- 27
+change.case$ -- 139
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 392
-empty$ -- 777
-format.name$ -- 128
-if$ -- 2065
+cite$ -- 28
+duplicate$ -- 403
+empty$ -- 803
+format.name$ -- 130
+if$ -- 2123
 int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 21
-newline$ -- 133
-num.names$ -- 56
-pop$ -- 160
+int.to.str$ -- 27
+missing$ -- 22
+newline$ -- 138
+num.names$ -- 58
+pop$ -- 162
 preamble$ -- 1
-purify$ -- 111
+purify$ -- 114
 quote$ -- 0
-skip$ -- 285
+skip$ -- 292
 stack$ -- 0
-substring$ -- 624
-swap$ -- 120
+substring$ -- 648
+swap$ -- 121
 text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 104
+type$ -- 108
 warning$ -- 1
-while$ -- 99
-width$ -- 28
-write$ -- 297
+while$ -- 103
+width$ -- 29
+write$ -- 308
 (There was 1 warning)

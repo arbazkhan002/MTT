@@ -1,0 +1,28 @@
+T1	NE_NP 12 21	campus_NN
+A1	identifiability T1 yes_amb
+T2	NE_NP 55 63	space_NN
+A2	identifiability T2 yes_amb
+T3	NE_NP 88 96	north_RB
+A3	identifiability T3 yes_amb
+T4	NE_NP 122 129	CBD_NNP
+A4	identifiability T4 yes_unamb
+T5	NE_NP 189 208	[NP buildings_NNS ]
+A5	identifiability T5 yes_amb
+T6	NE_NP 327 347	art_NN buildings_NNS
+A6	identifiability T6 yes_amb
+T7	NE_NP 420 429	lawns_NNS
+A7	identifiability T7 yes_amb
+T8	NE_NP 437 448	gardens_NNS
+A8	identifiability T8 yes_amb
+T9	NE_NP 496 505	campus_NN
+A9	identifiability T9 yes_amb
+T10	NE_NP 621 633	building_VBG
+A10	identifiability T10 yes_amb
+T11	NE_NP 703 712	campus_NN
+A11	identifiability T11 yes_amb
+T12	NE_NP 731 740	campus_NN
+A12	identifiability T12 yes_amb
+T14	NE_NP 843 852	pocket_NN
+A14	identifiability T14 yes_amb
+T15	NE_NP 913 920	area_NN
+A15	identifiability T15 yes_amb

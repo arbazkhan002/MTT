@@ -1,0 +1,9 @@
+ [NP The_DT Lewiss_NNP house_NN ] [PP at_IN ] [NP 11_CD Prospect_NNP hill_NN Road_NNP ] ._.
+ [NP Street_NNP sign_NN ] [PP at_IN ] [NP Prospect_NNP Hill_NNP Road_NNP ,intersection_NN ] ._.
+ [NP I_PRP ] [VP am_VBP Waiting_VBG ] [PP for_IN ] [NP the_DT pub_NN ] [VP to_TO open_VB ] [PP at_IN ] [NP the_DT Wobbly_NNP Boot_NNP Hotel_NNP ] [PP at_IN ] [NP Boggabilla_NNP ] ,_, NSW._.
+ [NP Suburban_JJ Stanthorpe_NNP street_NN runs_NNS ] [PP from_IN ] [NP South_NNP ] [PP to_TO ] [NP North_NNP ] ._.
+ [NP The_DT distant_JJ hills_NNS ] [VP are_VBP ] [ADVP just_RB ] [PP across_IN ] [NP the_DT valley_NN ] [PP of_IN ] [NP Quart_NNP Pot_NNP Creek_NNP ] ._.
+ [NP Our_PRP$ campsite_NN ] [PP at_IN ] [NP Lake_NNP ] [PP of_IN ] [NP the_DT Woods_NNP ] [PP in_IN ] [NP Cathedral_NNP Park_NNP ] ._.
+ [NP A_DT lovely_JJ spot_NN ] ._.
+ [NP Different_JJ ] [PP that_IN ] [NP the_DT sharp_JJ and_CC heavily_RB gaciated_JJ peaks_NNS ] [PP of_IN ] [NP the_DT Coastals_NNS ] ._.
+ [NP Cathedral_NNP Park_NNP ] [VP is_VBZ ] [PP in_IN ] [NP the_DT northern_JJ reach_NN ] [PP of_IN ] [NP the_DT Cascades_NNS ] [VP is_VBZ rolling_VBG ] and_CC [ADJP dry_JJ ] [PP in_IN ] [NP the_DT alpine_NN ] ._.

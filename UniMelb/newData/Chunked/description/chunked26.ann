@@ -1,0 +1,102 @@
+T1	NE_NP 1 30	[NP Parkville_NNP campus_NN ]
+A1	identifiability T1 yes_unamb
+T2	NE_NP 81 91	Campus_NNP
+A2	identifiability T2 yes_amb
+T3	NE_NP 117 163	University_NNP ] [PP of_IN ] [NP Melbourne_NNP
+A3	identifiability T3 yes_unamb
+T4	NE_NP 180 209	[NP Swanston_NNP Street_NNP ]
+A4	identifiability T4 yes_unamb
+T5	NE_NP 214 242	[NP Gratten_NNP Street_NNP ]
+A5	identifiability T5 yes_unamb
+T6	NE_NP 250 276	[NP Royal_NNP Parade_NNP ]
+A6	identifiability T6 yes_unamb
+T7	NE_NP 321 338	road_NN lines_NNS
+A7	identifiability T7 yes_amb
+T8	NE_NP 415 424	campus_NN
+A8	identifiability T8 yes_amb
+T9	NE_NP 441 463	[NP Gate_NNP #_# 10_CD
+A9	identifiability T9 yes_unamb
+T10	NE_NP 481 506	[NP Gratten_NNP St._NNP ]
+A10	identifiability T10 yes_unamb
+T11	NE_NP 647 662	[NP North_NNP ]
+A11	identifiability T11 yes_amb
+T12	NE_NP 716 728	landscape_NN
+A12	identifiability T12 yes_amb
+T13	NE_NP 770 804	[NP Old_NNP Arts_NNP building_NN ]
+A13	identifiability T13 yes_unamb
+T14	NE_NP 989 1000	footpath_NN
+A14	identifiability T14 yes_amb
+T15	NE_NP 1052 1064	greenland_NN
+A15	identifiability T15 yes_amb
+T16	NE_NP 1165 1173	place_NN
+A16	identifiability T16 yes_amb
+T17	NE_NP 1451 1459	world_NN
+A17	identifiability T17 yes_amb
+T18	NE_NP 1507 1516	campus_NN
+A18	identifiability T18 yes_amb
+T19	NE_NP 1825 1851	[NP Royal_NNP Parade_NNP ]
+A19	identifiability T19 yes_unamb
+T20	NE_NP 1870 1938	[NP medical_JJ schools_NNS and_CC brain_NN research_NN centers_NNS ]
+A20	identifiability T20 yes_unamb
+T21	NE_NP 2099 2112	university_NN
+A21	identifiability T21 yes_amb
+T22	NE_NP 2214 2222	maps_NNS
+A22	identifiability T22 yes_amb
+T23	NE_NP 2230 2244	directions_NNS
+A23	identifiability T23 yes_amb
+T24	NE_NP 2422 2433	streets_NNS
+A24	identifiability T24 yes_amb
+T25	NE_NP 2441 2454	footpaths_NNS
+A25	identifiability T25 yes_amb
+T26	NE_NP 2493 2534	[NP Professor_NNP ] [NP 's_POS Walk_NNP ]
+A26	identifiability T26 yes_unamb
+T27	NE_NP 2766 2778	landscape_NN
+A27	identifiability T27 yes_amb
+T28	NE_NP 2958 2973	envioronment_NN
+A28	identifiability T28 yes_amb
+T29	NE_NP 2990 3037	[NP Sydney_NNP Myer_NNP Asia_NNP Building_NNP ]
+A29	identifiability T29 yes_unamb
+T30	NE_NP 3046 3059	libraries_NNS
+A30	identifiability T30 yes_amb
+T31	NE_NP 3119 3130	couryard_NN
+A31	identifiability T31 yes_amb
+T32	NE_NP 3138 3166	sports_NNS ] [VP ground_NN ]
+A32	identifiability T32 yes_amb
+T33	NE_NP 3196 3221	[NP Union_NNP House_NNP ]
+A33	identifiability T33 yes_unamb
+T34	NE_NP 3343 3356	buildings_NNS
+A34	identifiability T34 yes_amb
+T35	NE_NP 3394 3424	[NP Parkville_NNP Campus_NNP ]
+A35	identifiability T35 yes_unamb
+T36	NE_NP 3609 3628	1888_CD Building_NN
+A36	identifiability T36 yes_unamb
+T37	NE_NP 3674 3687	J building_NN
+A37	identifiability T37 yes_amb
+T38	NE_NP 3725 3737	landscape_NN
+A38	identifiability T38 yes_amb
+T39	NE_NP 3781 3840	Ian_NNP Potter_NNP Museum_NNP ] [PP of_IN ] [NP Arts_NNP )_
+A39	identifiability T39 yes_unamb
+T40	NE_NP 3918 3925	area_NN
+A40	identifiability T40 yes_amb
+T41	NE_NP 3969 3984	Gate#_NNP 10_CD
+A41	identifiability T41 yes_unamb
+T42	NE_NP 4002 4026	[NP Grateen_NNP St_NNP ]
+A42	identifiability T42 yes_unamb
+T43	NE_NP 4069 4081	landscape_NN
+A43	identifiability T43 yes_amb
+T44	NE_NP 4128 4141	buildings_NNS
+A44	identifiability T44 yes_amb
+T45	NE_NP 4181 4202	Melbourne_NNP CBD_NNP
+A45	identifiability T45 yes_unamb
+T46	NE_NP 4299 4308	campus_NN
+A46	identifiability T46 yes_amb
+T47	NE_NP 4323 4338	[NP World_NNP ]
+A47	identifiability T47 yes_amb
+T48	NE_NP 4409 4425	universities_NNS
+A48	identifiability T48 yes_amb
+T49	NE_NP 4469 4477	world_NN
+A49	identifiability T49 yes_amb
+T50	NE_NP 4522 4535	[NP city_NN ]
+A50	identifiability T50 yes_amb
+T51	NE_NP 4540 4559	[NP Melbourne_NNP ]
+A51	identifiability T51 yes_unamb

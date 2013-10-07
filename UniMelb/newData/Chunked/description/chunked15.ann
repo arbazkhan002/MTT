@@ -1,0 +1,96 @@
+T1	NE_NP 12 35	Parkville_NNP campus_NN
+A1	identifiability T1 yes_unamb
+T2	NE_NP 157 165	south_NN
+A2	identifiability T2 yes_amb
+T3	NE_NP 200 206	law_NN
+A3	identifiability T3 yes_amb
+T4	NE_NP 213 263	[NP commerce_NN and_CC business_NN buildings_NNS ]
+A4	identifiability T4 yes_amb
+T5	NE_NP 320 354	Haymarket_NN ] [ADVP roundabout_RB
+A5	identifiability T5 yes_unamb
+T6	NE_NP 509 519	section_NN
+A6	identifiability T6 yes_amb
+T7	NE_NP 545 568	Parkville_NNP campus_NN
+A7	identifiability T7 yes_unamb
+T8	NE_NP 588 603	main_JJ part_NN
+A8	identifiability T8 yes_amb
+T9	NE_NP 643 666	[NP Grattan_NNP st_NN ]
+A9	identifiability T9 yes_unamb
+T10	NE_NP 690 700	south_NN ]
+A10	identifiability T10 yes_amb
+T11	NE_NP 705 723	[NP Swanston_NNP ]
+A11	identifiability T11 yes_unamb
+T12	NE_NP 759 772	Elizabeth_NNP
+A12	identifiability T12 yes_unamb
+T13	NE_NP 826 852	university_NN colleges_NNS
+A13	identifiability T13 yes_amb
+T14	NE_NP 747 754	east_JJ
+A14	identifiability T14 yes_amb
+T15	NE_NP 798 805	west_NN
+A15	identifiability T15 yes_amb
+T16	NE_NP 878 886	north_NN
+A16	identifiability T16 yes_amb
+T17	NE_NP 938 947	east_JJ ]
+A17	identifiability T17 yes_amb
+T18	NE_NP 960 984	[NP Swanston_NNP st_NN ]
+A18	identifiability T18 yes_unamb
+T19	NE_NP 1017 1032	tram_NN stop_NN
+A19	identifiability T19 yes_amb
+T20	NE_NP 1073 1080	west_NN
+A20	identifiability T20 yes_amb
+T21	NE_NP 1108 1142	physics_NNS and_CC mathematics_NNS
+A21	identifiability T21 yes_amb
+T22	NE_NP 1151 1170	richard_JJ berry_NN
+A22	identifiability T22 yes_unamb
+T23	NE_NP 1187 1206	[NP buildings_NNS ]
+A23	identifiability T23 yes_amb
+T24	NE_NP 1230 1238	north_NN
+A24	identifiability T24 yes_amb
+T25	NE_NP 1245 1292	[NP Sydney_NNP ] myer_, [NP asia_DT centre_NN ]
+A25	identifiability T25 yes_unamb
+T26	NE_NP 1357 1379	arts_NNS buildings_NNS
+A26	identifiability T26 yes_amb
+T28	NE_NP 1441 1449	north_NN
+A28	identifiability T28 yes_amb
+T29	NE_NP 1481 1566	science_NN (_-LRB- chemistry_NN ] ,_, [NP biology_NN )_-RRB- faculty_NN buildings_NNS
+A29	identifiability T29 yes_amb
+T30	NE_NP 1599 1607	south_NN
+A30	identifiability T30 yes_amb
+T31	NE_NP 1635 1674	engineering_NN faculty_NN buildings_NNS
+A31	identifiability T31 yes_amb
+T32	NE_NP 1745 1754	campus_NN
+A32	identifiability T32 yes_amb
+T33	NE_NP 1802 1815	buildings_NNS
+A33	identifiability T33 yes_amb
+T34	NE_NP 1853 1870	union_NN house_NN
+A34	identifiability T34 yes_unamb
+T35	NE_NP 1881 1909	student_NN administration_NN
+A35	identifiability T35 yes_amb
+T36	NE_NP 1952 1980	[NP arts_NNS buildings_NNS ]
+A36	identifiability T36 yes_amb
+T37	NE_NP 1990 1999	South_NNP
+A37	identifiability T37 yes_amb
+T38	NE_NP 2041 2063	[NP South_JJ lawn_NN ]
+A38	identifiability T38 yes_unamb
+T39	NE_NP 2098 2105	west_NN
+A39	identifiability T39 yes_amb
+T40	NE_NP 2131 2140	lawns_NNS
+A40	identifiability T40 yes_amb
+T41	NE_NP 2168 2212	Baillieu_NNP and_CC medical_JJ libraries_NNS
+A41	identifiability T41 yes_unamb
+T42	NE_NP 2286 2295	campus_NN
+A42	identifiability T42 yes_amb
+T43	NE_NP 2325 2387	health/biological_JJ and_CC food_NN sciences_NNS buildings_NNS
+A43	identifiability T43 yes_amb
+T44	NE_NP 2419 2441	Botany_NNP building_NN
+A44	identifiability T44 yes_amb
+T45	NE_NP 2467 2475	north_NN
+A45	identifiability T45 yes_amb
+T46	NE_NP 2480 2525	biology_NN and_CC immunology_NN buildings_NNS
+A46	identifiability T46 yes_amb
+T47	NE_NP 2594 2616	medical_JJ building_NN
+A47	identifiability T47 yes_amb
+T48	NE_NP 2662 2671	corner_NN
+A48	identifiability T48 yes_amb
+T49	NE_NP 2697 2706	campus_NN
+A49	identifiability T49 yes_amb

@@ -1,0 +1,38 @@
+T1	NE_NP 12 33	parkvile_JJ campus_NN
+A1	identifiability T1 yes_unamb
+T2	NE_NP 52 71	melbourne_JJ uni_JJ
+A2	identifiability T2 yes_unamb
+T3	NE_NP 96 106	sequare_NN
+A3	identifiability T3 yes_amb
+T4	NE_NP 124 143	southern_JJ road_NN
+A4	identifiability T4 yes_amb
+T5	NE_NP 159 183	[NP garttan_NNP rd_NNP ]
+A5	identifiability T5 yes_unamb
+T6	NE_NP 188 211	[NP northern_JJ road_NN
+A6	identifiability T6 yes_amb
+T7	NE_NP 227 248	[NP tin_NN alley_NN ]
+A7	identifiability T7 yes_unamb
+T8	NE_NP 253 276	[NP swanston_NN st_NN ]
+A8	identifiability T8 yes_unamb
+T10	NE_NP 335 359	[NP royal_JJ parade_NN ]
+A10	identifiability T10 yes_unamb
+T11	NE_NP 385 398	[NP west_NN ]
+A11	identifiability T11 yes_amb
+T12	NE_NP 513 544	[NP engineering_NN faculty_NN ]
+A12	identifiability T12 yes_amb
+T13	NE_NP 606 632	south_JJ east_JJ part_NN ]
+A13	identifiability T13 yes_amb
+T14	NE_NP 656 665	campus_NN
+A14	identifiability T14 yes_amb
+T15	NE_NP 717 730	buildings_NNS
+A15	identifiability T15 yes_amb
+T16	NE_NP 762 784	[NP grattan_JJ rd_NN ]
+A16	identifiability T16 yes_unamb
+T17	NE_NP 823 858	engineering_NN student_NN center_NN
+A17	identifiability T17 yes_amb
+T18	NE_NP 985 992	area_NN
+A18	identifiability T18 yes_amb
+T19	NE_NP 1013 1034	south-east_JJ part_NN
+A19	identifiability T19 yes_amb
+T9	NE_NP 303 311	NP east_
+A9	identifiability T9 yes_amb

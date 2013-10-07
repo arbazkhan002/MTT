@@ -1,0 +1,26 @@
+T1	NE_NP 12 35	university_NN campus_NN
+A1	identifiability T1 yes_amb
+T2	NE_NP 143 152	roads_NNS
+A2	identifiability T2 yes_amb
+T3	NE_NP 194 207	buildings_NNS
+A3	identifiability T3 yes_amb
+T4	NE_NP 253 264	boundary_NN
+A4	identifiability T4 yes_amb
+T5	NE_NP 301 315	boundaries_NNS
+A5	identifiability T5 yes_amb
+T6	NE_NP 373 382	roads_NNS
+A6	identifiability T6 yes_amb
+T7	NE_NP 390 402	pathways_NNS
+A7	identifiability T7 yes_amb
+T8	NE_NP 500 506	map_NN
+A8	identifiability T8 yes_amb
+T9	NE_NP 723 741	[VP building_VBG ]
+A9	identifiability T9 yes_amb
+T10	NE_NP 825 831	map_NN
+A10	identifiability T10 yes_amb
+T11	NE_NP 881 896	[NP campus_NN ]
+A11	identifiability T11 yes_amb
+T12	NE_NP 1027 1036	signs_NNS
+A12	identifiability T12 yes_amb
+T13	NE_NP 1100 1111	building_NN
+A13	identifiability T13 yes_amb

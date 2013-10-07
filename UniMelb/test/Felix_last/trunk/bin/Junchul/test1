@@ -1,0 +1,9 @@
+Street NNP None None False False Aaaaaa Aa 6 -1 -1 NP None 2 0 O None None None NNP 0 0 sign NN NN 1 Street B-NP False O O O True False 2 street False -1 True True O None O
+sign NN None None False False aaaa a 4 -1 -1 NP None 2 1 O None None None NNP 1 0 sign NN NN 1 sign I-NP False O O O False False 2 sign False -1 False True O None O
+at IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 2 1 None None IN 1 at B-PP False None None None False False 1 at False -1 False True O None O
+Prospect NNP None None False False Aaaaaaaa Aa 8 -1 -1 NP None 4 0 O None at None NNP 3 2 Hill NNP NNP 3 Prospect B-NP False B-S B-HMSD O False False 4 prospect False -1 True True O False O
+Hill NNP None None False False Aaaa Aa 4 -1 -1 NP None 4 1 O None at None NNP 4 2 Hill NNP NNP 3 Hill I-NP False B-S B-FRM O False False 4 hill False -1 True True O False O
+Road NNP None None False False Aaaa Aa 4 -1 -1 NP None 4 2 O None at None NNP 5 2 Hill NNP NNP 3 Road I-NP False O O O True False 4 road False -1 True True O None O
+,intersection NN None None False False _aaaaaaaaaaaa _a 13 -1 -1 NP None 4 3 O None at None NNP 6 2 Hill NNP NNP 3 ,intersection I-NP False O O O False False 4 ,intersection False -1 False True O None O
+. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 7 3 None None . 1 . O False None None None False False 1 . False -1 False True O None O
+

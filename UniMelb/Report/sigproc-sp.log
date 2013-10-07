@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.6)  29 AUG 2013 11:58
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.6)  6 OCT 2013 15:46
 entering extended mode
  %&-line parsing enabled.
 **sigproc-sp.tex
@@ -6,8 +6,7 @@ entering extended mode
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, loaded.
-(./acm_proc_article-sp.cls
-(/usr/share/texmf-texlive/tex/latex/graphics/epsfig.sty
+(./sig-alternate.cls (/usr/share/texmf-texlive/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
 (/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
@@ -106,12 +105,15 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-Document Class 'acm_proc_article-sp' <22nd. April '09>. Modified by G.K.M. Tobi
-n
+Document Class 'sig-alternate' <23rd. May '12>. Modified by G.K.M. Tobin/Gerry 
+Murray
 Based in part upon document Style `acmconf' <22 May 89>. Hacked 4/91 by
 shivers@cs.cmu.edu, 4/93 by theobald@cs.mcgill.ca
 Excerpts were taken from (Journal Style) 'esub2acm.cls'.
-****** Bugs/comments/suggestions to Gerry Murray -- murray@hq.acm.org ******
+****** Bugs/comments/suggestions/technicalities to Gerry Murray -- murray@hq.ac
+m.org ******
+Questions on the style, SIGS policies, etc. to Adrienne Griscti griscti@acm.org
+
 \footheight=\dimen115
 \@maxsep=\dimen116
 \@dblmaxsep=\dimen117
@@ -131,8 +133,8 @@ Excerpts were taken from (Journal Style) 'esub2acm.cls'.
 \c@table=\count98
 \titleboxnotes=\toks23
 \titleboxnoteflag=\count99
-Document Class: acm_proc_article-sp 2009/04/22 - V3.2SP - based on esub2acm.sty
- <23 April 96>
+Document Class: sig-alternate 2012/05/23 - V2.5 - based on acmproc.cls V1.3 <No
+v. 30 '99>
 (/usr/share/texmf-texlive/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
@@ -157,7 +159,7 @@ LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 \c@paragraph=\count106
 
 Using 'Abbrev' bibliography style
-LaTeX Info: Redefining \cite on input line 1236.
+LaTeX Info: Redefining \cite on input line 1211.
 \bibindent=\dimen122
 \colcntr=\count107
 \saveb@x=\box29
@@ -191,30 +193,36 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Try loading font information for U+msa on input line 118.
+LaTeX Font Info:    Try loading font information for U+msa on input line 120.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 118.
+LaTeX Font Info:    Try loading font information for U+msb on input line 120.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 118.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 120.
 
 (/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Overfull \hbox (3.32892pt too wide) in paragraph at lines 125--128
+Overfull \hbox (3.32892pt too wide) in paragraph at lines 127--130
 \T1/aer/m/n/9 H.3.1 [\T1/aer/bx/n/9 Information Stor-age and Re-trieval\T1/aer/
 m/n/9 ]: con-tent anal-
  []
 
 
-Overfull \hbox (5.44382pt too wide) in paragraph at lines 125--128
+Overfull \hbox (5.44382pt too wide) in paragraph at lines 127--130
 \T1/aer/bx/n/9 In-tel-li-gence\T1/aer/m/n/9 ]: Nat-u-ral Lan-guage Pro-cess-ing
  - \T1/aer/m/it/9 Lan-guage pars-
+ []
+
+
+Overfull \hbox (3.78719pt too wide) in paragraph at lines 143--144
+[]\T1/aer/m/n/9 The ex-trac-tion pro-cess is ac-com-pa-nied with a trained lear
+n-
  []
 
 
@@ -224,90 +232,57 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+aett on input line 158.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 162.
 
 
 (/usr/share/texmf-texlive/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-Overfull \hbox (12.60048pt too wide) in paragraph at lines 158--161
-\T1/aett/m/n/9 tal $\OML/cmm/m/it/9 diagonally$ $across$ \T1/aett/m/n/9 Pe-ter 
-Do-herty In-sti-tute> \T1/aer/m/n/9 ref-er-ences
- []
-
-
-Underfull \hbox (badness 7907) in paragraph at lines 164--164
-[][]\T1/aer/m/n/9 Data col-lected by a mo-bile location-based game,
+Overfull \hbox (1.42815pt too wide) in paragraph at lines 168--173
+[]\T1/aer/m/n/9 A loca-tive ex-pres-sion is a spa-tial re-fer-ring ex-pres-sion
+ which
  []
 
 [2]
-Overfull \hbox (5.0203pt too wide) in paragraph at lines 167--172
+Overfull \hbox (5.0203pt too wide) in paragraph at lines 174--184
 \T1/aer/m/n/9 From the def-i-ni-tion of a de-gen-er-ate loca-tive ex-pres-sion 
 (DLE),
  []
 
 File: phase1.eps Graphic file (type eps)
-<phase1.eps> [3]
-File: IOB.eps Graphic file (type eps)
- <IOB.eps> [4]
+<phase1.eps> [3] [4]
 \c@example=\count108
 
-Overfull \hbox (3.96556pt too wide) in paragraph at lines 249--250
+Overfull \hbox (3.96556pt too wide) in paragraph at lines 275--276
 \T1/aer/m/it/9 the corner$\OT1/cmr/m/n/9 ]$ $[$\T1/aer/m/it/9 between Chetwynd 
 Street and Queens-berry Street$\OT1/cmr/m/n/9 ]$\T1/aer/m/it/9 .
  []
 
-
-Overfull \hbox (9.59625pt too wide) in paragraph at lines 282--283
-[]\T1/aer/m/it/9 We're sit-ting $\OT1/cmr/m/n/9 [$\T1/aer/m/it/9 in Baretto$\OT
-1/cmr/m/n/9 ]$\T1/aer/m/it/9 's $\OT1/cmr/m/n/9 [$\T1/aer/m/it/9 in the Alan Gi
-lbert
- []
-
-
-Overfull \hbox (2.25504pt too wide) in paragraph at lines 282--283
-\T1/aer/m/it/9 and di-ag-o-nally across the road ($\OT1/cmr/m/n/9 [$\T1/aer/m/i
-t/9 Royal Parade$\OT1/cmr/m/n/9 ]$\T1/aer/m/it/9 ) is $\OT1/cmr/m/n/9 [$\T1/aer
-/m/it/9 Melbourne
- []
-
 [5]
-Overfull \hbox (3.21411pt too wide) in paragraph at lines 314--316
+Overfull \hbox (3.21411pt too wide) in paragraph at lines 362--364
 \T1/aett/m/n/9 <Wilson Hall a multi-function hall $\OML/cmm/m/it/9 next$ $to$ \
 T1/aett/m/n/9 the sand-
  []
 
 
-Overfull \hbox (2.88695pt too wide) in paragraph at lines 318--320
-\T1/aer/m/n/9 The er-rors cor-re-spond-ing to lim-i-ta-tions of the Stan-ford p
-arser
- []
-
-
-Overfull \hbox (3.01498pt too wide) in paragraph at lines 323--328
+Overfull \hbox (3.01498pt too wide) in paragraph at lines 371--376
 \T1/aett/m/n/9 <a pri-vate res-i-dence $\OML/cmm/m/it/9 on$ $the$ $western$ $si
 de$ $of$ \T1/aett/m/n/9 Bar-ring-
  []
 
-[6] [7]
-Overfull \hbox (20.03151pt too wide) in paragraph at lines 773--776
+[6] [7] (./sigproc-sp.bbl
+Overfull \hbox (20.03151pt too wide) in paragraph at lines 33--36
 \T1/aer/m/n/9 http://nlp.stanford.edu/software/dependencies_manual.pdf, 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
-[9
-
-] (./sigproc-sp.aux) ) 
+) [8] (./sigproc-sp.aux) ) 
 Here is how much of TeX's memory you used:
- 1889 strings out of 495062
- 20886 string characters out of 1182644
- 82973 words of memory out of 3000000
- 5052 multiletter control sequences out of 15000+50000
+ 1893 strings out of 495062
+ 20914 string characters out of 1182644
+ 84312 words of memory out of 3000000
+ 5054 multiletter control sequences out of 15000+50000
  43621 words of font info for 55 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 39i,10n,26p,1825b,258s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,10n,26p,1827b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on sigproc-sp.dvi (9 pages, 69552 bytes).
+Output written on sigproc-sp.dvi (8 pages, 72312 bytes).

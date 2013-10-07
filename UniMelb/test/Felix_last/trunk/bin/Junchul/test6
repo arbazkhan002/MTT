@@ -1,0 +1,5 @@
+A DT None None False False A A 1 -1 -1 NP None 3 0 O None None A DT 0 0 lovely JJ DT 1 A B-NP True O O O False False 3 a False -1 True True O None O
+lovely JJ None None False False aaaaaa a 6 -1 -1 NP None 3 1 O None None A DT 1 0 lovely JJ DT 1 lovely I-NP False O O O False False 3 lovely False -1 False True O None O
+spot NN None None False False aaaa a 4 -1 -1 NP None 3 2 O None None A DT 2 0 lovely JJ DT 1 spot I-NP False O O O True False 3 spot False -1 False True O None O
+. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 3 1 None None . 1 . O False None None None False False 1 . False -1 False True O None O
+

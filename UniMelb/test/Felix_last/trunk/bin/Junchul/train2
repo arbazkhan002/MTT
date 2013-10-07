@@ -1,0 +1,92 @@
+The DT None None False False Aaa Aa 3 -1 -1 NP None 3 0 O None None The DT 0 0 Lewiss NNP DT 1 The B-NP False O O O False False 3 the False -1 True True O None O
+Lewiss NNP None None False False Aaaaaa Aa 6 -1 -1 NP None 3 1 O None None The DT 1 0 Lewiss NNP DT 1 Lewiss I-NP False O O O False False 3 lewis False -1 True True O None O
+house NN None None False False aaaaa a 5 -1 -1 NP None 3 2 O None None The DT 2 0 Lewiss NNP DT 1 house I-NP False O O O True False 3 house False -1 False True O None O
+at IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 3 1 None None IN 1 at B-PP False None None None False False 1 at False -1 False True O None O
+11 CD None None False False 00 0 2 -1 -1 NP None 4 0 O None at None CD 4 2 Prospect NNP NNP 2 11 B-NP False O O O False False 4 11 True 0 False True O None O
+Prospect NNP None None False False Aaaaaaaa Aa 8 -1 -1 NP None 4 1 O None at None CD 5 2 Prospect NNP NNP 2 Prospect I-NP False B-S B-HMSD O False False 4 prospect True 0 True True O False O
+hill NN None None False False aaaa a 4 -1 -1 NP None 4 2 O None at None CD 6 2 Prospect NNP NNP 2 hill I-NP False B-S B-FRM O False False 4 hill True 0 False True O False O
+Road NNP None None False False Aaaa Aa 4 -1 -1 NP None 4 3 O None at None CD 7 2 Prospect NNP NNP 2 Road I-NP False O O O True False 4 road True 0 True True O None O
+. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 8 3 None None . 1 . O False None None None False False 1 . False -1 False True O None O
+
+Street NNP None None False False Aaaaaa Aa 6 -1 -1 NP None 2 0 O None None None NNP 0 0 sign NN NN 1 Street B-NP False O O O True False 2 street False -1 True True O None O
+sign NN None None False False aaaa a 4 -1 -1 NP None 2 1 O None None None NNP 1 0 sign NN NN 1 sign I-NP False O O O False False 2 sign False -1 False True O None O
+at IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 2 1 None None IN 1 at B-PP False None None None False False 1 at False -1 False True O None O
+Prospect NNP None None False False Aaaaaaaa Aa 8 -1 -1 NP None 4 0 O None at None NNP 3 2 Hill NNP NNP 3 Prospect B-NP False B-S B-HMSD O False False 4 prospect False -1 True True O False O
+Hill NNP None None False False Aaaa Aa 4 -1 -1 NP None 4 1 O None at None NNP 4 2 Hill NNP NNP 3 Hill I-NP False B-S B-FRM O False False 4 hill False -1 True True O False O
+Road NNP None None False False Aaaa Aa 4 -1 -1 NP None 4 2 O None at None NNP 5 2 Hill NNP NNP 3 Road I-NP False O O O True False 4 road False -1 True True O None O
+,intersection NN None None False False _aaaaaaaaaaaa _a 13 -1 -1 NP None 4 3 O None at None NNP 6 2 Hill NNP NNP 3 ,intersection I-NP False O O O False False 4 ,intersection False -1 False True O None O
+. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 7 3 None None . 1 . O False None None None False False 1 . False -1 False True O None O
+
+Suburban JJ None None False False Aaaaaaaa Aa 8 -1 -1 NP None 4 0 O None None None JJ 0 0 Stanthorpe NNP NNS 1 Suburban B-NP False O O O False False 4 suburban False -1 True True O None O
+Stanthorpe NNP None None False False Aaaaaaaaaa Aa 10 -1 -1 NP None 4 1 O None None None JJ 1 0 Stanthorpe NNP NNS 1 Stanthorpe I-NP False B-P B-PPL O False False 4 stanthorpe False -1 True True O False O
+street NN None None False False aaaaaa a 6 -1 -1 NP None 4 2 O None None None JJ 2 0 Stanthorpe NNP NNS 1 street I-NP False O O O True False 4 street False -1 False True O None O
+runs NNS None None False False aaaa a 4 -1 -1 NP None 4 3 O None None None JJ 3 0 Stanthorpe NNP NNS 1 runs I-NP False O O O False False 4 run False -1 False True O None O
+from IN None None False False aaaa a 4 -1 -1 PP None 1 0 O None None None IN 4 1 None None IN 1 from B-PP False None None None False False 1 from False -1 False True O None O
+South NNP None None False False Aaaaa Aa 5 -1 -1 NP None 1 0 O None from None NNP 5 2 None None NNP 1 South B-NP False O O O True False 1 south False -1 True True O None O
+to TO None None False False aa a 2 -1 -1 PP None 1 0 O None None None TO 6 3 None None TO 1 to B-PP False None None None False False 1 to False -1 False True O None O
+North NNP None None False False Aaaaa Aa 5 -1 -1 NP None 1 0 O None to None NNP 7 4 None None NNP 1 North B-NP False O O O True False 1 north False -1 True True O None O
+. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 8 5 None None . 1 . O False None None None False False 1 . False -1 False True O None O
+
+The DT None None False False Aaa Aa 3 -1 -1 NP None 3 0 O None None The DT 0 0 distant JJ DT 1 The B-NP False O O O False False 3 the False -1 True True O None O
+distant JJ None None False False aaaaaaa a 7 -1 -1 NP None 3 1 O None None The DT 1 0 distant JJ DT 1 distant I-NP False O O O False False 3 distant False -1 False True O None O
+hills NNS None None False False aaaaa a 5 -1 -1 NP None 3 2 O None None The DT 2 0 distant JJ DT 1 hills I-NP False O O O False False 3 hill False -1 False True O None O
+are VBP None None False False aaa a 3 -1 -1 VP None 1 0 O None None None VBP 3 1 None None VBP 1 are B-VP False None None None False False 1 be False -1 False True O None O
+just RB None None False False aaaa a 4 -1 -1 ADVP None 1 0 O None None None RB 4 2 None None RB 1 just B-ADVP False None None None False False 1 just False -1 False True O None O
+across IN None None False False aaaaaa a 6 -1 -1 PP None 1 0 O None None None IN 5 3 None None IN 1 across B-PP False None None None False False 1 across False -1 False True O None O
+the DT None None False False aaa a 3 -1 -1 NP None 2 0 O None across the DT 6 4 valley NN DT 1 the B-NP False B-S B-HMSD B-VAL False False 2 the False -1 False True O False O
+valley NN None None False False aaaaaa a 6 -1 -1 NP None 2 1 O None across the DT 7 4 valley NN DT 1 valley I-NP False I-S I-HMSD I-VAL True False 2 valley False -1 False True O False O
+of IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 8 5 None None IN 1 of B-PP False None None None False False 1 of False -1 False True O None O
+Quart NNP None None False False Aaaaa Aa 5 -1 -1 NP None 3 0 O None of None NNP 9 6 Pot NNP NNP 3 Quart B-NP False B-H B-STM B-STRM False False 3 quart False -1 True True O False O
+Pot NNP None None False False Aaa Aa 3 -1 -1 NP None 3 1 O None of None NNP 10 6 Pot NNP NNP 3 Pot I-NP False I-H I-STM I-STRM True False 3 pot False -1 True True O False O
+Creek NNP None None False False Aaaaa Aa 5 -1 -1 NP None 3 2 O None of None NNP 11 6 Pot NNP NNP 3 Creek I-NP False I-H I-STM I-STRM False False 3 creek False -1 True True O False O
+. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 12 7 None None . 1 . O False None None None False False 1 . False -1 False True O None O
+
+Our PRP$ None None False False Aaa Aa 3 -1 -1 NP None 2 0 O None None None PRP$ 0 0 campsite NN PRP$ 1 Our B-NP False O O O False False 2 our False -1 True True O None O
+campsite NN None None False False aaaaaaaa a 8 -1 -1 NP None 2 1 O None None None PRP$ 1 0 campsite NN PRP$ 1 campsite I-NP False O O O True False 2 campsite False -1 False True O None O
+at IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 2 1 None None IN 1 at B-PP False None None None False False 1 at False -1 False True O None O
+Lake NNP None None False False Aaaa Aa 4 -1 -1 NP None 1 0 O None at None NNP 3 2 None None NNP 1 Lake B-NP False B-S B-FRM O False False 1 lake False -1 True True O False O
+of IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 4 3 None None IN 1 of B-PP False None None None False False 1 of False -1 False True O None O
+the DT None None False False aaa a 3 -1 -1 NP None 2 0 O None of the DT 5 4 Woods NNP DT 1 the B-NP False O O O False False 2 the False -1 False True O None O
+Woods NNP None None False False Aaaaa Aa 5 -1 -1 NP None 2 1 O None of the DT 6 4 Woods NNP DT 1 Woods I-NP False B-P B-PPL O True False 2 wood False -1 True True O False O
+in IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 7 5 None None IN 1 in B-PP False None None None False False 1 in False -1 False True O None O
+Cathedral NNP None None False False Aaaaaaaaa Aa 9 -1 -1 NP None 2 0 O None in None NNP 8 6 Park NNP NNP 2 Cathedral B-NP False O O O True False 2 cathedral False -1 True True O None O
+Park NNP None None False False Aaaa Aa 4 -1 -1 NP None 2 1 O None in None NNP 9 6 Park NNP NNP 2 Park I-NP False O O O True False 2 park False -1 True True O None O
+. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 10 7 None None . 1 . O False None None None False False 1 . False -1 False True O None O
+
+A DT None None False False A A 1 -1 -1 NP None 3 0 O None None A DT 0 0 lovely JJ DT 1 A B-NP True O O O False False 3 a False -1 True True O None O
+lovely JJ None None False False aaaaaa a 6 -1 -1 NP None 3 1 O None None A DT 1 0 lovely JJ DT 1 lovely I-NP False O O O False False 3 lovely False -1 False True O None O
+spot NN None None False False aaaa a 4 -1 -1 NP None 3 2 O None None A DT 2 0 lovely JJ DT 1 spot I-NP False O O O True False 3 spot False -1 False True O None O
+. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 3 1 None None . 1 . O False None None None False False 1 . False -1 False True O None O
+
+Different JJ None None False False Aaaaaaaaa Aa 9 -1 -1 NP None 1 0 O None None None JJ 0 0 None None JJ 1 Different B-NP False O O O False False 1 different False -1 True True O None O
+that IN None None False False aaaa a 4 -1 -1 PP None 1 0 O None None None IN 1 1 None None IN 1 that B-PP False None None None False False 1 that False -1 False True O None O
+the DT None None False False aaa a 3 -1 -1 NP None 6 0 O None that the DT 2 2 sharp JJ JJ 2 the B-NP False O O O False False 6 the False -1 False True O None O
+sharp JJ None None False False aaaaa a 5 -1 -1 NP None 6 1 O None that the DT 3 2 sharp JJ JJ 2 sharp I-NP False O O O True False 6 sharp False -1 False True O None O
+and CC None None False False aaa a 3 -1 -1 NP None 6 2 O None that the DT 4 2 sharp JJ JJ 2 and I-NP False O O O False False 6 and False -1 False True O None O
+heavily RB None None False False aaaaaaa a 7 -1 -1 NP None 6 3 O None that the DT 5 2 sharp JJ JJ 2 heavily I-NP False O O O False False 6 heavily False -1 False True O None O
+gaciated JJ None None False False aaaaaaaa a 8 -1 -1 NP None 6 4 O None that the DT 6 2 sharp JJ JJ 2 gaciated I-NP False O O O False False 6 gaciated False -1 False True O None O
+peaks NNS None None False False aaaaa a 5 -1 -1 NP None 6 5 O None that the DT 7 2 sharp JJ JJ 2 peaks I-NP False O O O False False 6 peak False -1 False True O None O
+of IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 8 3 None None IN 1 of B-PP False None None None False False 1 of False -1 False True O None O
+the DT None None False False aaa a 3 -1 -1 NP None 2 0 O None of the DT 9 4 Coastals NNS DT 1 the B-NP False O O O False False 2 the False -1 False True O None O
+Coastals NNS None None False False Aaaaaaaa Aa 8 -1 -1 NP None 2 1 O None of the DT 10 4 Coastals NNS DT 1 Coastals I-NP False O O O False False 2 coastals False -1 True True O None O
+. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 11 5 None None . 1 . O False None None None False False 1 . False -1 False True O None O
+
+Cathedral NNP None None False False Aaaaaaaaa Aa 9 -1 -1 NP None 2 0 O None None None NNP 0 0 Park NNP NNP 2 Cathedral B-NP False O O O True False 2 cathedral False -1 True True O None O
+Park NNP None None False False Aaaa Aa 4 -1 -1 NP None 2 1 O None None None NNP 1 0 Park NNP NNP 2 Park I-NP False O O O True False 2 park False -1 True True O None O
+is VBZ None None False False aa a 2 -1 -1 VP None 1 0 O None None None VBZ 2 1 None None VBZ 1 is B-VP False None None None False False 1 be False -1 False True O None O
+in IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 3 2 None None IN 1 in B-PP False None None None False False 1 in False -1 False True O None O
+the DT None None False False aaa a 3 -1 -1 NP None 3 0 O None in the DT 4 3 northern JJ DT 1 the B-NP False O O O False False 3 the False -1 False True O None O
+northern JJ None None False False aaaaaaaa a 8 -1 -1 NP None 3 1 O None in the DT 5 3 northern JJ DT 1 northern I-NP False O O O False False 3 northern False -1 False True O None O
+reach NN None None False False aaaaa a 5 -1 -1 NP None 3 2 O None in the DT 6 3 northern JJ DT 1 reach I-NP False O O O False False 3 reach False -1 False True O None O
+of IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 7 4 None None IN 1 of B-PP False None None None False False 1 of False -1 False True O None O
+the DT None None False False aaa a 3 -1 -1 NP None 2 0 O None of the DT 8 5 Cascades NNS DT 1 the B-NP False O O B-WTRF False False 2 the False -1 False True O None O
+Cascades NNS None None False False Aaaaaaaa Aa 8 -1 -1 NP None 2 1 O None of the DT 9 5 Cascades NNS DT 1 Cascades I-NP False B-P B-PPLX I-WTRF False False 2 cascade False -1 True True O False O
+is VBZ None None False False aa a 2 -1 -1 VP None 2 0 O None None None VBZ 10 6 rolling VBG VBZ 1 is B-VP False None None None False False 2 be False -1 False True O None O
+rolling VBG None None False False aaaaaaa a 7 -1 -1 VP None 2 1 O None None None VBZ 11 6 rolling VBG VBZ 1 rolling I-VP False None None None False True 2 roll False -1 False True O None O
+and CC None None False False aaa a 3 -1 -1 None None 1 0 O None None None CC 12 7 None None CC 1 and O False None None None False False 1 and False -1 False True O None O
+dry JJ None None False False aaa a 3 -1 -1 ADJP None 1 0 O None None None JJ 13 8 None None JJ 1 dry B-ADJP False None None None False False 1 dry False -1 False True O None O
+in IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 14 9 None None IN 1 in B-PP False None None None False False 1 in False -1 False True O None O
+the DT None None False False aaa a 3 -1 -1 NP None 2 0 O None in the DT 15 10 alpine NN DT 1 the B-NP False O O O False False 2 the False -1 False True O None O
+alpine NN None None False False aaaaaa a 6 -1 -1 NP None 2 1 O None in the DT 16 10 alpine NN DT 1 alpine I-NP False B-A B-ADM2 O False False 2 alpine False -1 False True O False O
+. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 17 11 None None . 1 . O False None None None False False 1 . False -1 False True O None O
+

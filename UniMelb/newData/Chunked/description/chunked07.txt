@@ -1,0 +1,6 @@
+ [NP I_PRP ] [VP will_MD suggest_VB ] [NP my_PRP$ friend_NN ] [VP to_TO take_VB ] [NP the_DT tram_NN ] [PP to_TO ] [NP the_DT University_NNP ] [PP of_IN ] [NP Melbourne_NNP ] ._.
+ [NP The_DT start_NN ] [VP could_MD be_VB set_VBN ] [PP in_IN ] [NP the_DT tram_JJ stop_NN ] [PP of_IN ] [NP Finders_NNP Street_NNP Station_NNP ] or_CC [NP Melbourne_NNP Central_NNP Station_NNP ] [PP on_IN ] [NP Swanston_NNP Street_NNP ] ._.
+ [VP Take_VB ] [NP any_DT tram_NN ] [PP along_IN ] [NP the_DT Swanston_NNP Street_NNP ] [PP to_TO ] [NP the_DT north_NN ] ,_, [NP it_PRP ] [VP will_MD be_VB ] [ADJP easy_JJ ] [VP to_TO find_VB ] [NP the_DT campus_NN ] [PP by_IN ] [NP the_DT buildings_NNS ] [PP with_IN ] [NP marks_NNS ] [PP of_IN ] [NP the_DT University_NNP ] [PP of_IN ] [NP Melbourne_NNP ] ._.
+ [PP After_IN ] [VP arriving_VBG ] ,_, [NP I_PRP ] [VP will_MD suggest_VB ] [NP him_PRP ] or_CC [NP she_PRP ] [VP to_TO take_VB ] [NP a_DT look_NN ] [PP at_IN ] [NP the_DT department_NN ] and_CC [NP the_DT historical_JJ buildings_NNS ] [PP in_IN ] [NP the_DT campus_NN ] ._.
+ [VP Take_VB ] [NP a_DT walk_NN ] [PP on_IN ] [NP South_NNP Lawn_NNP ] [ADVP then_RB ] [VP have_VBP ] [NP a_DT meal_NN ] [PP in_IN ] [NP Union_NNP house_NN ] or_CC [NP Lygon_NNP Street_NNP ] ._.
+ 

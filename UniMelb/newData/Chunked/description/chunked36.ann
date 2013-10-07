@@ -1,0 +1,169 @@
+T1	NE_NP 12 35	Parkville_NNP campus_NN
+A1	identifiability T1 yes_unamb
+T2	NE_NP 114 140	[NP Royal_NNP Parade_NNP ]
+A2	identifiability T2 yes_unamb
+T3	NE_NP 148 177	[NP Swanston_NNP Street_NNP ]
+A3	identifiability T3 yes_unamb
+T4	NE_NP 182 210	[NP Grattan_NNP Street_NNP ]
+A4	identifiability T4 yes_unamb
+T5	NE_NP 218 241	[NP Tin_NNP Alley_NNP ]
+T6	NE_NP 302 311	corner_NN
+A5	identifiability T6 yes_amb
+T7	NE_NP 326 355	[NP Swanston_NNP Street_NNP ]
+A6	identifiability T7 yes_unamb
+T8	NE_NP 363 391	[NP Grattan_NNP Street_NNP ]
+A7	identifiability T8 yes_unamb
+T9	NE_NP 444 466	Grattan_NNP Street_NNP
+A8	identifiability T9 yes_unamb
+T10	NE_NP 521 540	1888_CD building_NN
+A9	identifiability T10 yes_unamb
+T11	NE_NP 691 702	building_NN
+A10	identifiability T11 yes_amb
+T12	NE_NP 823 842	1888_CD building_NN
+A11	identifiability T12 yes_unamb
+T13	NE_NP 899 908	cafés_NNS
+A12	identifiability T13 yes_amb
+T14	NE_NP 915 938	[NP Lot_NN ] [NP 6_CD ]
+A13	identifiability T14 yes_unamb
+T15	NE_NP 950 959	Tsubu_NNP
+A14	identifiability T15 yes_unamb
+T16	NE_NP 1102 1114	staircase_NN
+A15	identifiability T16 yes_amb
+T17	NE_NP 1184 1202	[NP Lot_NNP 6_CD ]
+A16	identifiability T17 yes_unamb
+T18	NE_NP 1254 1261	ERC_NNP
+A17	identifiability T18 yes_unamb
+T19	NE_NP 1324 1331	ERC_NNP
+A18	identifiability T19 yes_unamb
+T20	NE_NP 1531 1540	doors_NNS
+A19	identifiability T20 yes_amb
+T21	NE_NP 1566 1595	Alice_NNP Hoy_NNP building_NN
+A20	identifiability T21 yes_unamb
+T22	NE_NP 1701 1712	basement_NN
+A21	identifiability T22 yes_amb
+T23	NE_NP 1860 1885	[NP Monash_NNP Road_NNP ]
+A22	identifiability T23 yes_unamb
+T24	NE_NP 1972 1981	campus_NN
+A23	identifiability T24 yes_amb
+T25	NE_NP 1938 1953	thoroughfare_NN
+A24	identifiability T25 yes_amb
+T26	NE_NP 2022 2047	[NP Monash_NNP Road_NNP ]
+A25	identifiability T26 yes_unamb
+T27	NE_NP 2165 2190	[NP Monash_NNP Road_NNP ]
+A26	identifiability T27 yes_unamb
+T28	NE_NP 2204 2226	[NP Wilson_NNP Hall_NN
+A27	identifiability T28 yes_unamb
+T29	NE_NP 2245 2256	building_NN
+A28	identifiability T29 yes_amb
+T30	NE_NP 2498 2510	staircase_NN
+A29	identifiability T30 yes_amb
+T31	NE_NP 2611 2619	plaza_NN
+A30	identifiability T31 yes_amb
+T32	NE_NP 2661 2686	[NP Wilson_NNP Hall_NNP ]
+A31	identifiability T32 yes_unamb
+T33	NE_NP 2732 2742	archway_NN
+A32	identifiability T33 yes_amb
+T34	NE_NP 2860 2889	Old_NNP Quad_NNP courtyard_NN
+A33	identifiability T34 yes_unamb
+T35	NE_NP 2945 2953	space_NN
+A34	identifiability T35 yes_amb
+T36	NE_NP 3037 3047	archway_NN
+A35	identifiability T36 yes_amb
+T37	NE_NP 3097 3109	courtyard_NN
+A36	identifiability T37 yes_amb
+T38	NE_NP 3182 3210	Old_NNP Arts_NNP building_NN
+A37	identifiability T38 yes_unamb
+T39	NE_NP 3457 3485	Old_NNP Arts_NNP building_NN
+A38	identifiability T39 yes_unamb
+T40	NE_NP 3520 3527	door_NN
+A39	identifiability T40 yes_amb
+T41	NE_NP 3692 3703	building_NN
+A40	identifiability T41 yes_amb
+T42	NE_NP 3730 3751	Babel_NNP building_NN
+A41	identifiability T42 yes_unamb
+T43	NE_NP 4014 4030	brick_NN road_NN
+A42	identifiability T43 yes_amb
+T44	NE_NP 4084 4095	bookshop_NN
+A43	identifiability T44 yes_amb
+T45	NE_NP 4109 4132	Bailieu_NNP Library_NNP
+A44	identifiability T45 yes_unamb
+T46	NE_NP 4168 4178	library_NN
+A45	identifiability T46 yes_amb
+T47	NE_NP 4197 4208	campus_NN )
+A46	identifiability T47 yes_amb
+T48	NE_NP 4343 4366	Bailieu_NNP Library_NNP
+A47	identifiability T48 yes_unamb
+T49	NE_NP 4417 4428	building_NN
+A48	identifiability T49 yes_amb
+T50	NE_NP 4522 4539	"board_JJ walk_NN
+A49	identifiability T50 yes_amb
+T51	NE_NP 4597 4607	stairs_NNS
+A50	identifiability T51 yes_amb
+T52	NE_NP 4672 4681	doors_NNS
+A51	identifiability T52 yes_amb
+T53	NE_NP 4714 4724	stairs_NNS
+A52	identifiability T53 yes_amb
+T54	NE_NP 4807 4828	[NP Dr._NNP DAX_NNP ]
+A53	identifiability T54 yes_unamb
+T55	NE_NP 4876 4884	place_NN
+A54	identifiability T55 yes_amb
+T56	NE_NP 4960 4967	road_NN
+A55	identifiability T56 yes_amb
+T57	NE_NP 5015 5036	[NP Dr._NNP DAX_NNP ]
+A56	identifiability T57 yes_unamb
+T58	NE_NP 5050 5076	[NP Royal_NNP Parade_NNP ]
+A57	identifiability T58 yes_unamb
+T59	NE_NP 5174 5183	campus_NN
+A58	identifiability T59 yes_amb
+T60	NE_NP 5208 5229	[NP Dr._NNP DAX_NNP ]
+A59	identifiability T60 yes_unamb
+T61	NE_NP 5252 5260	plaza_NN
+A60	identifiability T61 yes_amb
+T62	NE_NP 5504 5512	plaza_NN
+A61	identifiability T62 yes_amb
+T63	NE_NP 5618 5629	overpass_NN
+A62	identifiability T63 yes_amb
+T64	NE_NP 5749 5770	Babel_NNP building_NN
+A63	identifiability T64 yes_unamb
+T65	NE_NP 6070 6098	Old_NNP Arts_NNP building_NN
+A64	identifiability T65 yes_unamb
+T66	NE_NP 6204 6219	NAB_NNP bank_NN
+A65	identifiability T66 yes_unamb
+T67	NE_NP 6295 6306	building_NN
+A66	identifiability T67 yes_amb
+T68	NE_NP 6388 6407	Union_NNP House_NNP
+A67	identifiability T68 yes_unamb
+T69	NE_NP 6529 6554	[NP Union_NNP House_NNP ]
+A68	identifiability T69 yes_unamb
+T70	NE_NP 6607 6615	plaza_NN
+A69	identifiability T70 yes_amb
+T71	NE_NP 6669 6675	gym_NN
+A70	identifiability T71 yes_amb
+T72	NE_NP 6686 6717	VP swimming_VBG ] [NP pool_NN ]
+A71	identifiability T72 yes_amb
+T73	NE_NP 6818 6824	gym_NN
+A72	identifiability T73 yes_amb
+T74	NE_NP 6860 6870	college_NN
+A73	identifiability T74 yes_amb
+T75	NE_NP 6967 6976	street_NN
+A74	identifiability T75 yes_amb
+T76	NE_NP 7050 7059	corner_NN
+A75	identifiability T76 yes_amb
+T77	NE_NP 7074 7103	[NP Swanston_NNP Street_NNP ]
+A76	identifiability T77 yes_unamb
+T78	NE_NP 7111 7137	[NP Elgin_NNP Street_NNP ]
+A77	identifiability T78 yes_amb
+T79	NE_NP 7239 7265	NP Swanston_NNP Street_NNP
+A78	identifiability T79 yes_unamb
+T80	NE_NP 7357 7372	tram_NN stop_NN
+A79	identifiability T80 yes_amb
+T81	NE_NP 7444 7479	[NP Swanston_NNP Street_NNP stop_NN
+A80	identifiability T81 yes_unamb
+T82	NE_NP 7529 7544	tram_JJ stop_NN
+A81	identifiability T82 yes_amb
+T83	NE_NP 7603 7612	corner_NN
+A82	identifiability T83 yes_amb
+T84	NE_NP 7672 7683	Grattan_NNP
+A83	identifiability T84 yes_unamb
+T85	NE_NP 7691 7703	Swanston_NNP
+A84	identifiability T85 yes_unamb

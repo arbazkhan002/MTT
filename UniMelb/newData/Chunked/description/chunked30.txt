@@ -1,0 +1,5 @@
+ [NP There_EX ] [VP are_VBP ] [NP several_JJ gates_NNS ] [PP around_IN ] [NP the_DT campus_NN ] [VP to_TO enter_VB ] ._.
+ [ADVP As_RB far_RB ] [SBAR as_IN ] [NP I_PRP ] [VP know_VBP ] [PP near_IN ] [NP each_DT gate_NN ] [NP there_EX ] [VP is_VBZ ] [NP a_DT map_NN ] [PP with_IN ] [NP description_NN ] [SBAR so_RB that_IN ] [NP you_PRP ] [VP can_MD easily_RB find_VB ] [NP the_DT buildings_NNS ] and_CC [ADVP where_WRB ] [NP you_PRP ] [VP are_VBP located_VBN ] ._.
+ [SBAR If_IN ] [NP you_PRP ] [VP divide_VBP ] [NP the_DT campus_NN ] [PP in_IN ] [NP four_CD blocks_NNS ] ,_, [NP the_DT Engineering_NNP buildings_NNS ] [VP are_VBP mostly_RB located_VBN ] [PP in_IN ] [NP the_DT bottom_NN right_JJ block_NN ] ._.
+ [NP The_DT union_NN house_NN ] [NP which_WDT ] [VP is_VBZ located_VBN ] [PP in_IN ] [NP North_JJ part_NN ] [PP of_IN ] [NP the_DT campus_NN ] ,_, [PP beside_IN ] [NP the_DT sport_NN ] [VP centre_NN provide_VBP ] [NP you_PRP ] [NP the_DT maps_NNS and_CC people_NNS ] [ADVP there_RB ] [VP will_MD help_VB ] [NP you_PRP ] [VP to_TO find_VB ] [NP the_DT places_NNS ] ._.
+ 

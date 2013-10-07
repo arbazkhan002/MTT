@@ -1,0 +1,132 @@
+T1	NE_NP 56 65	campus_NN
+A1	identifiability T1 yes_amb
+T2	NE_NP 97 106	gates_NNS
+A2	identifiability T2 yes_amb
+T3	NE_NP 124 150	[NP Royal_NNP Parade_NNP ]
+A3	identifiability T3 yes_unamb
+T4	NE_NP 155 173	[NP Swanston_NNP ]
+A4	identifiability T4 yes_unamb
+T5	NE_NP 181 211	[NP Grattan_NNP Streets_NNPS ]
+A5	identifiability T5 yes_unamb
+T6	NE_NP 236 247	entrance_NN
+A6	identifiability T6 yes_amb
+T7	NE_NP 275 297	[NP Grattan_NNP street
+A7	identifiability T7 yes_unamb
+T8	NE_NP 336 345	square_NN
+A8	identifiability T8 yes_amb
+T9	NE_NP 370 399	[NP University_NNP Square_NNP
+A9	identifiability T9 yes_unamb
+T10	NE_NP 472 483	entrance_NN
+A10	identifiability T10 yes_amb
+T11	NE_NP 775 783	north_NN
+A11	identifiability T11 yes_amb
+T12	NE_NP 839 846	CBD_NNP
+A12	identifiability T12 yes_unamb
+T13	NE_NP 872 880	south_NN
+A13	identifiability T13 yes_amb
+T14	NE_NP 993 1006	buildings_NNS
+A14	identifiability T14 yes_amb
+T15	NE_NP 1097 1141	School_NNP ] [PP of_IN ] [NP Engineering_NNP
+A15	identifiability T15 yes_unamb
+T16	NE_NP 1161 1172	building_NN
+A16	identifiability T16 yes_amb
+T17	NE_NP 1204 1214	stairs_NNS
+A17	identifiability T17 yes_amb
+T18	NE_NP 1244 1255	building_NN
+A18	identifiability T18 yes_amb
+T19	NE_NP 1284 1307	Old_NNP Engineering_NNP
+A19	identifiability T19 yes_unamb
+T20	NE_NP 1474 1484	stairs_NNS
+A20	identifiability T20 yes_amb
+T21	NE_NP 1562 1571	lawns_NNS
+A21	identifiability T21 yes_amb
+T22	NE_NP 1590 1620	1800_CD styled_VBN building_NN
+A22	identifiability T22 yes_amb
+T23	NE_NP 1646 1654	tower_NN
+A23	identifiability T23 yes_amb
+T24	NE_NP 1663 1678	Old_JJ Arts_NNS
+A24	identifiability T24 yes_unamb
+T26	NE_NP 1787 1796	square_NN
+A26	identifiability T26 yes_amb
+T25	NE_NP 1841 1850	paths_NNS
+A25	identifiability T25 yes_amb
+T27	NE_NP 1913 1920	path_NN
+A27	identifiability T27 yes_amb
+T28	NE_NP 1976 1999	Baillieu_NNP library_NN
+A28	identifiability T28 yes_unamb
+T29	NE_NP 2017 2055	schools_NNS ] [PP of_IN ] [NP Arts_NNS
+A29	identifiability T29 yes_unamb
+T30	NE_NP 2062 2079	[NP Zoology_NNP ]
+A30	identifiability T30 yes_unamb
+T31	NE_NP 2087 2103	[NP Botany_NNP ]
+A31	identifiability T31 yes_unamb
+T32	NE_NP 2198 2208	library_NN
+A32	identifiability T32 yes_amb
+T33	NE_NP 2278 2307	[NP Medicine_NNP School_NNP ]
+A33	identifiability T33 yes_unamb
+T34	NE_NP 2315 2341	[NP Royal_NNP Parade_NNP ]
+A34	identifiability T34 yes_unamb
+T35	NE_NP 2366 2377	entrance_NN
+A35	identifiability T35 yes_amb
+T36	NE_NP 2392 2410	[NP Medicine_NNP ]
+A36	identifiability T36 yes_amb
+T37	NE_NP 2436 2462	[NP Grattan_NNP Street_NNP
+A37	identifiability T37 yes_unamb
+T38	NE_NP 2486 2512	[NP Royal_NNP Parade_NNP ]
+A38	identifiability T38 yes_unamb
+T39	NE_NP 2530 2537	path_NN
+A39	identifiability T39 yes_amb
+T40	NE_NP 2628 2656	Old_NNP Arts_NNP building_NN
+A40	identifiability T40 yes_unamb
+T41	NE_NP 2704 2715	corridor_NN
+A41	identifiability T41 yes_amb
+T42	NE_NP 2777 2786	garden_NN
+A42	identifiability T42 yes_amb
+T43	NE_NP 2849 2868	Union_NNP House_NNP
+A43	identifiability T43 yes_unamb
+T44	NE_NP 2945 2964	Union_NNP House_NNP
+A44	identifiability T44 yes_unamb
+T45	NE_NP 3002 3010	north_RB
+A45	identifiability T45 yes_amb
+T46	NE_NP 3056 3078	sporting_NN complex_JJ
+A46	identifiability T46 yes_amb
+T47	NE_NP 3108 3125	swimming_VBG pool
+A47	identifiability T47 yes_amb
+T48	NE_NP 3133 3139	gym_NN
+A48	identifiability T48 yes_amb
+T49	NE_NP 3147 3166	sport_NN fields_NNS
+A49	identifiability T49 yes_amb
+T50	NE_NP 3301 3310	square_NN
+A50	identifiability T50 yes_amb
+T51	NE_NP 3357 3375	Administration_NNP
+A51	identifiability T51 yes_amb
+T52	NE_NP 3380 3392	Commerce_NNP
+A52	identifiability T52 yes_amb
+T53	NE_NP 3400 3437	Student_NN services_NNS buildings_NNS
+A53	identifiability T53 yes_unamb
+T54	NE_NP 3457 3464	path_NN
+A54	identifiability T54 yes_amb
+T55	NE_NP 3544 3572	engineering_NN buildings_NNS
+A55	identifiability T55 yes_unamb
+T56	NE_NP 3635 3670	Old_NNP Engineering_NNP building_NN
+A56	identifiability T56 yes_unamb
+T57	NE_NP 3788 3800	direction_NN
+A57	identifiability T57 yes_amb
+T58	NE_NP 3846 3864	ERC_NNP library_NN
+A58	identifiability T58 yes_unamb
+T59	NE_NP 3921 3932	entrance_NN
+A59	identifiability T59 yes_amb
+T60	NE_NP 4034 4045	building_NN
+A60	identifiability T60 yes_amb
+T61	NE_NP 4111 4123	direction_NN
+A61	identifiability T61 yes_amb
+T62	NE_NP 4174 4202	[NP Swanston_NNP street_NN ]
+A62	identifiability T62 yes_unamb
+T63	NE_NP 4221 4232	schools_NNS
+A63	identifiability T63 yes_amb
+T64	NE_NP 4246 4270	University_NNP units_NNS
+A64	identifiability T64 yes_amb
+T65	NE_NP 4315 4321	Law_NN
+A65	identifiability T65 yes_unamb
+T66	NE_NP 4391 4416	University_NNP Square_NNP
+A66	identifiability T66 yes_unamb

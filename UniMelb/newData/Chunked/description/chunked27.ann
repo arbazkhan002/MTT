@@ -1,0 +1,16 @@
+T1	NE_NP 12 81	university_NN ] [PP of_IN ] [NP melbourne_JJ parkville_NN campus_NN ]
+A1	identifiability T1 yes_unamb
+T2	NE_NP 381 390	campus_NN
+A2	identifiability T2 yes_amb
+T3	NE_NP 548 556	maps_NNS
+A3	identifiability T3 yes_amb
+T4	NE_NP 582 591	roads_NNS
+A4	identifiability T4 yes_amb
+T5	NE_NP 658 666	place_NN
+A5	identifiability T5 yes_amb
+T6	NE_NP 739 766	[NP IT_PRP ] [NP labs_NNS ]
+A6	identifiability T6 yes_unamb
+T7	NE_NP 791 804	department_NN
+A7	identifiability T7 yes_amb
+T8	NE_NP 1001 1011	places_NNS
+A8	identifiability T8 yes_amb

@@ -1,0 +1,40 @@
+ [NP The_DT Parkville_NNP campus_NN ] [VP is_VBZ located_VBN ] [PP on_IN ] [NP the_DT block_NN ] [PP between_IN ] [NP Royal_NNP Parade_NNP ] and_CC [NP Swanston_NNP Street_NNP ] ,_, [NP Grattan_NNP Street_NNP ] and_CC [NP Tin_NNP Alley_NNP ] ._.
+ [VP Get_VB ] [NP yourself_PRP ] [PP to_TO ] [NP the_DT corner_NN ] [PP of_IN ] [NP Swanston_NNP Street_NNP ] and_CC [NP Grattan_NNP Street_NNP ] ,_, and_CC then_RB [VP walk_VB left_VBN up_RP ] [NP Grattan_NNP Street_NNP ] ._.
+ [NP You_PRP ] [VP will_MD find_VB ] [NP the_DT 1888_CD building_NN ] [PP on_IN ] [NP your_PRP$ right_JJ hand_NN ] [ADVP shortly_RB ] [SBAR after_IN ] ._.
+ [NP It_PRP ] [VP 's_VBZ ] [NP an_DT old-looking_JJ reddish_JJ building_NN ] [PP with_IN ] [NP white_JJ trimmings_NNS ] ._.
+ [VP Walk_VB ] [PP to_TO ] [NP the_DT back_NN ] [PP of_IN ] [NP the_DT 1888_CD building_NN ] and_CC [NP you_PRP ] [VP will_MD find_VB ] [NP two_CD cafés_NNS ] -_: [NP Lot_NN ] [NP 6_CD ] and_CC [NP Tsubu_NNP (_-LRB- good_JJ coffee_NN ] [VP to_TO be_VB had_VBN ] [ADVP here_RB ] !_. )_-RRB- ._.
+ [VP Continuing_VBG ] [ADVP up_IN ] [NP the_DT large_JJ staircase_NN ] [NP that_WDT ] [VP is_VBZ ] [PP in_IN ] [NP front_NN ] [PP of_IN ] [NP Lot_NNP 6_CD ] ,_, [NP you_PRP ] [VP will_MD find_VB ] [NP the_DT ERC_NNP ] [PP on_IN ] [NP your_PRP$ left_JJ hand_NN ] ._.
+ [NP The_DT ERC_NNP ] [VP has_VBZ ] [NP printing_NN facilities_NNS and_CC computers_NNS ] ._.
+ [NP Continue_NNP ] [ADVP straight_RB ] [ADVP ahead_RB ] and_CC [VP pass_VB ] [PP through_IN ] [NP the_DT double_JJ glass_NN doors_NNS ] [PP of_IN ] [NP the_DT Alice_NNP Hoy_NNP building_NN ] (_-LRB- [NP it_PRP ] [VP 's_VBZ ] [NP the_DT one_CD ] [PP that_IN ] [NP smells_VBZ ] [PP like_IN ] [NP basement_NN ] !_. )_-RRB- ._.
+ [VP Having_VBG passed_VBN ] [PP through_IN ] [ADVP here_RB ] [NP you_PRP ] [VP will_MD find_VB ] [NP yourself_PRP ] [PP on_IN ] [NP Monash_NNP Road_NNP ] ,_, [NP which_WDT ] [VP is_VBZ ] [NP the_DT main_JJ thoroughfare_NN ] [PP on_IN ] [NP campus_NN ] ._.
+ [VP Go_VB left_VBN ] [PP on_IN ] [NP Monash_NNP Road_NNP ] and_CC [VP follow_VB ] [NP it_PRP ] [PP to_TO ] [NP the_DT end_NN ] ._.
+ [PP At_IN ] [NP the_DT end_NN ] [PP of_IN ] [NP Monash_NNP Road_NNP ] [VP is_VBZ ] [NP Wilson_NNP Hall_NNP (_-LRB- large_JJ building_NN ] [PP with_IN ] [NP floor-to-ceiling_NN glass_NN panes_NNS ] )_-RRB- [ADVP where_WRB ] [NP exams_NNS ,_, graduations_NNS and_CC various_JJ other_JJ events_NNS ] [VP are_VBP held_VBN ] ._.
+ [NP Continue_NNP ] [PP up_IN ] [NP the_DT little_JJ staircase_NN ] [PP on_IN ] [NP your_PRP$ right_JJ hand_NN and_CC pass_NN ] [PP through_IN ] [NP the_DT little_JJ plaza_NN ] [PP in_IN ] [NP front_NN ] [PP of_IN ] [NP Wilson_NNP Hall_NNP ] ._.
+ [VP Go_VB ] [PP through_IN ] [NP the_DT archway_NN ] [PP on_IN ] [NP your_PRP$ left_JJ hand_NN ] ._.
+ [NP You_PRP ] [VP 're_VBP ] [ADVP now_RB ] [PP in_IN ] [NP the_DT Old_NNP Quad_NNP courtyard_NN ] ._.
+ [NP It_PRP ] [VP 's_VBZ ] [NP a_DT beautiful_JJ space_NN ] ._.
+ [INTJ Continue_NNP ] [PP to_TO ] [NP the_DT end_NN ] [PP of_IN ] [NP the_DT archway_NN ] and_CC [PP through_IN ] [PP to_TO ] [NP the_DT courtyard_NN ] ._.
+ [PP In_IN ] [NP front_NN ] [NP you_PRP ] [VP is_VBZ ] [NP the_DT Old_NNP Arts_NNP building_NN ] ._.
+ [NP It_PRP ] [VP 's_VBZ ] [NP a_DT beautifully_RB restored_VBN building_NN ] [NP that_WDT ] [VP has_VBZ ] [NP some_DT great_JJ study_NN spaces_NNS ] [PP on_IN ] [NP the_DT first_JJ floor_NN ] ._.
+ [NP Pass_NN ] [PP through_IN ] [NP the_DT Old_NNP Arts_NNP building_NN ] and_CC [VP exit_VB ] [NP the_DT door_NN ] [PP on_IN ] [NP the_DT opposite_JJ side_NN ] ._.
+ [ADVP Immediately_RB outside_RB ] ,_, [VP look_VB ] [PP to_TO ] [NP your_PRP$ right_NN ] -_: [NP the_DT tall_JJ building_NN ] [VP is_VBZ ] [NP the_DT Babel_NNP building_NN ] [NP that_IN ] ,_, [ADVP somewhat_RB ironically_RB ] ,_, [NP houses_NNS ] [NP the_DT languages_NNS and_CC linguistics_NNS departments_NNS ] ._.
+ [VP Turn_VB ] [PP to_TO ] [NP your_PRP$ left_NN ] and_CC [VP keep_VB walking_VBG ] [PP down_IN ] [NP the_DT wide_JJ brick_NN road_NN ] ;_: [NP you_PRP ] [VP will_MD find_VB ] [NP the_DT bookshop_NN ] and_CC [NP Bailieu_NNP Library_NNP ] [VP (_-LRB- ] [NP the_DT main_JJ library_NN ] [PP on_IN ] [NP campus_NN )_-RRB- ] [PP on_IN ] [NP your_PRP$ right_JJ hand_NN ] ._.
+ [INTJ Continue_NNP ] [PP to_TO ] [NP the_DT end_NN ] [PP of_IN ] [NP the_DT Bailieu_NNP Library_NNP ] and_CC [VP walk_VB ] [PP around_IN ] [NP the_DT building_NN ] ,_, [VP keeping_VBG ] [PP to_TO ] [NP your_PRP$ right_NN ] ._.
+ [VP Follow_VB ] [NP the_DT "board_JJ walk_NN ] "_'' and_CC [VP continue_VB ] [ADVP up_IN ] [NP the_DT stairs_NNS ] [PP and_CC ] [PP through_IN ] [NP the_DT sliding_VBG glass_NN doors_NNS ] ._.
+ [PP Down_IN ] [NP the_DT stairs_NNS ] [PP on_IN ] [NP your_PRP$ left_JJ hand_NN ] [NP you_PRP ] [VP will_MD find_VB ] [NP Dr._NNP DAX_NNP ] [NP which_WDT ] [VP is_VBZ ] [NP a_DT great_JJ place_NN ] [VP to_TO have_VB ] [NP a_DT nice_JJ lunch_NN ] ._.
+ [NP The_DT large_JJ road_NN ] [NP you_PRP ] [VP see_VBP ] [PP outside_IN ] [NP Dr._NNP DAX_NNP ] [VP is_VBZ ] [NP Royal_NNP Parade_NNP ] ,_, [NP which_WDT ] [VP means_VBZ ] [NP you_PRP ] [VP have_VBP now_RB traversed_VBN ] [NP the_DT campus_NN ] ._.
+ [PP Outside_IN ] [NP Dr._NNP DAX_NNP ] [VP is_VBZ ] [NP a_DT plaza_NN ] [PP with_IN ] [NP funky_JJ white_JJ benches_NNS ] [ADVP where_WRB ] [NP one_PRP ] [VP can_MD enjoy_VB ] [NP a_DT spot_NN ] [PP of_IN ] [NP sunshine_NN ] ,_, [NP weather_NN permitting_VBG ] ._.
+ [NP Continue_NNP ] [PP through_IN ] [NP the_DT plaza_NN ] and_CC [VP keep_VB ] [PP to_TO ] [NP your_PRP$ left_VBN ] ._.
+ [VP Walk_VB ] [PP under_IN ] [NP the_DT overpass_NN ] ,_, [VP keeping_VBG ] [PP to_TO ] [NP your_PRP$ right_NN ] ._.
+ [NP You_PRP ] [VP will_MD now_RB see_VB ] [NP the_DT Babel_NNP building_NN ] [ADVP again_RB ] ,_, [VP coming_VBG ] [PRT up_RP ] [PP on_IN ] [NP your_PRP$ left_JJ hand_NN ] ._.
+ [VP Walk_VB ] [PP past_IN ] [NP it_PRP ] ,_, [NP turn_NN ] [VP left_VBD ] and_CC [ADVP immediately_RB ] [PP after_IN ] [NP turn_NN ] [ADVP right_RB ] and_CC [VP walk_VB ] [PP along_IN ] [NP the_DT Old_NNP Arts_NNP building_NN ] ._.
+ [VP Turning_VBG ] [PP to_TO ] [NP your_PRP$ left_VBN ] ,_, [VP walk_VB ] [PP past_IN ] [NP the_DT NAB_NNP bank_NN ] and_CC [VP continue_VB ] [ADVP straight_RB ] [PP on_IN ] ._.
+ [NP The_DT building_NN ] [PP in_IN ] [NP front_NN ] [SBAR of_IN ] [NP you_PRP ] [VP is_VBZ ] [NP the_DT Union_NNP House_NNP ] ._.
+ [SBAR If_IN ] [NP you_PRP ] [VP walk_VBP ] [PP through_IN ] [PP to_TO ] [NP the_DT other_JJ side_NN ] [PP of_IN ] [NP Union_NNP House_NNP ] and_CC [VP continue_VB ] [PP across_IN ] [NP the_DT plaza_NN ] ,_, [NP you_PRP ] [VP will_MD find_VB ] [NP the_DT gym_NN ] and_CC [VP swimming_VBG ] [NP pool_NN ] [ADVP there_EX ] ._.
+ [VP Turn_VB ] [ADVP right_RB ] and_CC [VP walk_VB ] [PP along_IN ] [NP the_DT gym_NN ] ,_, [VP passing_VBG ] [NP the_DT college_NN ] ._.
+ [VP Walk_VB ] [ADVP straight_RB ] [PP to_TO ] [NP the_DT end_NN ] [PP of_IN ] [NP the_DT street_NN ] ._.
+ [NP You_PRP ] [VP 're_VBP ] [ADVP now_RB ] [PP on_IN ] [NP the_DT corner_NN ] [PP of_IN ] [NP Swanston_NNP Street_NNP ] and_CC [NP Elgin_NNP Street_NNP ] ._.
+ [SBAR If_IN ] [NP you_PRP ] [VP turn_VBP ] [ADVP right_RB ] and_CC [VP walk_VB ] [PP down_IN ] [NP Swanston_NNP Street_NNP ] [PP for_IN ] [NP a_DT bit_NN ] ,_, [NP you_PRP ] [VP will_MD pass_VB ] [NP the_DT big_JJ tram_NN stop_NN ] ._.
+ [NP All_DT trams_NNS ] [NP that_WDT ] [VP run_VBP ] [PP on_IN ] [NP Swanston_NNP Street_NNP stop_NN ] [ADVP here_RB ] ._.
+ [NP Pass_NNP ] [NP the_DT tram_JJ stop_NN ] and_CC [VP walk_VB ] [PP on_IN ] -_: [NP the_DT next_JJ corner_NN ] [NP you_PRP ] [VP get_VBP ] [NP to_TO ] [VP is_VBZ ] [NP Grattan_NNP and_CC Swanston_NNP ] ,_, [NP which_WDT ] [VP is_VBZ ] [ADVP where_WRB ] [NP you_PRP ] [VP started_VBD ] ._.
+ 

@@ -1,0 +1,116 @@
+T1	NE_NP 65 113	University_NNP ] [PP of_IN ] [NP Melbourne_NNP ]
+A1	identifiability T1 yes_unamb
+T2	NE_NP 128 153	[NP Swanston_NNP St_NNP ]
+A2	identifiability T2 yes_unamb
+T3	NE_NP 180 195	tram_JJ stop_NN
+A3	identifiability T3 yes_amb
+T4	NE_NP 213 224	building_NN
+A4	identifiability T4 yes_amb
+T5	NE_NP 287 329	Sydney_NNP Meyer_NNP Asia_NNP Centre_NNP ]
+A5	identifiability T5 yes_unamb
+T6	NE_NP 468 481	university_NN
+A6	identifiability T6 yes_amb
+T7	NE_NP 660 681	security_NN office_NN
+A7	identifiability T7 yes_amb
+T8	NE_NP 843 870	Alice_NNP Hoy_NNP centre_NN
+A8	identifiability T8 yes_unamb
+T9	NE_NP 942 953	building_NN
+A9	identifiability T9 yes_amb
+T10	NE_NP 1052 1059	path_NN
+A10	identifiability T10 yes_amb
+T11	NE_NP 1189 1200	building_NN
+A11	identifiability T11 yes_amb
+T12	NE_NP 1274 1281	site_NN
+A12	identifiability T12 yes_amb
+T13	NE_NP 1313 1340	architecture_NN building_NN
+A13	identifiability T13 yes_amb
+T14	NE_NP 1437 1477	David_NNP Caro_NNP complex/buildings_NNS
+A14	identifiability T14 yes_unamb
+T15	NE_NP 1539 1582	Ian_NNP Potter_NNP cafe_NN and_CC museum_NN
+A15	identifiability T15 yes_unamb
+T16	NE_NP 1658 1688	[NP Tin_NNP Alley_NNP St_NNP ]
+A16	identifiability T16 yes_unamb
+T17	NE_NP 1707 1714	oval_NN
+A17	identifiability T17 yes_amb
+T18	NE_NP 1781 1803	college_NN crescent_JJ
+A18	identifiability T18 yes_amb
+T19	NE_NP 1825 1848	[NP Tin_NNP Alley_NNP ]
+A19	identifiability T19 yes_unamb
+T20	NE_NP 1959 1979	fitness_NN centre_NN
+A20	identifiability T20 yes_amb
+T21	NE_NP 1989 2021	[VP swimming_VBG ] [NP pool_NN ]
+A21	identifiability T21 yes_amb
+T22	NE_NP 2121 2142	tent-like_JJ shape_NN
+A22	identifiability T22 yes_amb
+T23	NE_NP 2200 2209	ground_NN
+A23	identifiability T23 yes_amb
+T24	NE_NP 2270 2281	building_NN
+A24	identifiability T24 yes_amb
+T25	NE_NP 2327 2346	North_NNP Court_NNP
+A25	identifiability T25 yes_unamb
+T26	NE_NP 2361 2386	[NP Union_NNP House_NNP ]
+A26	identifiability T26 yes_unamb
+T27	NE_NP 2452 2459	path_NN
+A27	identifiability T27 yes_amb
+T28	NE_NP 2611 2627	food_NN court_NN
+A28	identifiability T28 yes_amb
+T29	NE_NP 2730 2746	brick_NN path_NN
+A29	identifiability T29 yes_amb
+T30	NE_NP 2775 2799	botanic_NN buildings_NNS
+A30	identifiability T30 yes_amb
+T31	NE_NP 2936 2953	Old_NNP Arts_NNPS
+A31	identifiability T31 yes_unamb
+T32	NE_NP 3003 3014	building_NN
+A32	identifiability T32 yes_amb
+T33	NE_NP 3071 3089	Arts_NNP centre_NN
+A33	identifiability T33 yes_unamb
+T34	NE_NP 3161 3195	Professor_NNP ] [NP 's_POS cafe_NN
+A34	identifiability T34 yes_unamb
+T35	NE_NP 3213 3235	Co-op_NNP Bookshop_NNP
+A35	identifiability T35 yes_unamb
+T36	NE_NP 3256 3279	Baillieu_NNP library_NN
+A36	identifiability T36 yes_unamb
+T37	NE_NP 3412 3423	entrance_NN
+A37	identifiability T37 yes_amb
+T38	NE_NP 3449 3459	carpark_NN
+A38	identifiability T38 yes_amb
+T39	NE_NP 3548 3565	Crepe_NNP shop_NN
+A39	identifiability T39 yes_amb
+T40	NE_NP 3595 3604	corner_NN
+A40	identifiability T40 yes_amb
+T41	NE_NP 3629 3640	building_NN
+A41	identifiability T41 yes_amb
+T42	NE_NP 3749 3782	John_NNP Medley_NNP buildings_NNS
+A42	identifiability T42 yes_unamb
+T43	NE_NP 3939 3950	building_NN
+A43	identifiability T43 yes_amb
+T44	NE_NP 4084 4097	buildings_NNS
+A44	identifiability T44 yes_amb
+T45	NE_NP 4176 4195	main_JJ entrance_NN
+A45	identifiability T45 yes_unamb
+T46	NE_NP 4221 4235	University_NNP
+A46	identifiability T46 yes_amb
+T47	NE_NP 4457 4473	[NP stairs_NNS ]
+A47	identifiability T47 yes_amb
+T48	NE_NP 4575 4599	[NP South_NNP Lawn_NNP ]
+A48	identifiability T48 yes_unamb
+T49	NE_NP 4835 4848	quadrangle_NN
+A49	identifiability T49 yes_amb
+T50	NE_NP 4874 4903	Arts_NNS ] [VP building_VBG ]
+A50	identifiability T50 yes_unamb
+T51	NE_NP 4939 4956	clock_NN tower_NN
+A51	identifiability T51 yes_amb
+T52	NE_NP 5066 5079	quadrangle_NN
+A52	identifiability T52 yes_amb
+T53	NE_NP 5146 5157	building_NN
+A53	identifiability T53 yes_amb
+T54	NE_NP 5254 5287	Redmond_NNP Barry_NNP building_NN
+A54	identifiability T54 yes_unamb
+T55	NE_NP 5600 5629	Engineering_NNP buildings_NNS
+A55	identifiability T55 yes_amb
+T56	NE_NP 5507 5517	stairs_NNS
+A56	identifiability T56 yes_amb
+T57	NE_NP 5839 5871	ohn_NNP Medley_NNP buildings_NNS
+A57	identifiability T57 yes_unamb
+T58	NE_NP 6069 6091	Medical_JJ building_NN
+A58	identifiability T58 yes_amb

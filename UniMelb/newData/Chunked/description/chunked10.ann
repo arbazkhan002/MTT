@@ -1,0 +1,48 @@
+T1	NE_NP 45 58	entrances_NNS
+A1	identifiability T1 yes_amb
+T2	NE_NP 118 127	campus_NN
+A2	identifiability T2 yes_amb
+T3	NE_NP 142 169	[NP Melbourne_NNP Uni_NNP ]
+A3	identifiability T3 yes_unamb
+T4	NE_NP 285 315	[NP Swanstone_NNP Street_NNP ]
+A4	identifiability T4 yes_unamb
+T5	NE_NP 381 403	terminal_NN station_NN
+A5	identifiability T5 yes_amb
+T6	NE_NP 431 440	campus_NN
+A6	identifiability T6 yes_amb
+T7	NE_NP 542 553	building_NN
+A7	identifiability T7 yes_amb
+T8	NE_NP 615 645	Sydney_NNP Myer_NNP Center_NNP
+A8	identifiability T8 yes_unamb
+T9	NE_NP 700 707	road_NN
+A9	identifiability T9 yes_amb
+T10	NE_NP 715 726	entrance_NN
+A10	identifiability T10 yes_amb
+T11	NE_NP 836 843	road_NN
+A11	identifiability T11 yes_amb
+T12	NE_NP 922 941	Wilson_NNP Hall_NNP
+A12	identifiability T12 yes_unamb
+T13	NE_NP 999 1006	road_NN
+A13	identifiability T13 yes_amb
+T14	NE_NP 1118 1128	stairs_NNS
+A14	identifiability T14 yes_amb
+T15	NE_NP 1165 1174	path_NN ]
+A15	identifiability T15 yes_amb
+T16	NE_NP 1240 1265	[NP Union_NNP House_NNP ]
+A16	identifiability T16 yes_unamb
+T17	NE_NP 1319 1340	[NP restaurants_NNS ]
+A17	identifiability T17 yes_amb
+T18	NE_NP 1348 1370	[NP uni_JJ clubs_NNS ]
+A18	identifiability T18 yes_amb
+T19	NE_NP 1492 1502	stairs_NNS
+A19	identifiability T19 yes_amb
+T20	NE_NP 1581 1600	southern_JJ lawn_NN
+A20	identifiability T20 yes_unamb
+T21	NE_NP 1834 1844	stairs_NNS
+A21	identifiability T21 yes_amb
+T22	NE_NP 1931 1943	library_NN ]
+A22	identifiability T22 yes_amb
+T23	NE_NP 2001 2011	library_NN
+A23	identifiability T23 yes_amb
+T24	NE_NP 2038 2059	co-op_NN bookstore_NN
+A24	identifiability T24 yes_unamb

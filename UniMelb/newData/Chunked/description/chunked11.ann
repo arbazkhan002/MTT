@@ -1,0 +1,150 @@
+T1	NE_NP 40 79	Melbourne_NNP University_NNP Campus_NNP
+A1	identifiability T1 yes_unamb
+T2	NE_NP 192 199	CBD_NNP
+A2	identifiability T2 yes_unamb
+T3	NE_NP 276 299	Swanston_NNP Street_NNP
+A3	identifiability T3 yes_unamb
+T4	NE_NP 380 387	city_NN
+A4	identifiability T4 yes_amb
+T5	NE_NP 474 483	campus_NN
+A5	identifiability T5 yes_amb
+T6	NE_NP 571 612	Melbourne_NNP Central_NNP tram_JJ stop_NN
+A6	identifiability T6 yes_unamb
+T7	NE_NP 723 753	University_NNP tram_NN stop_NN
+A7	identifiability T7 yes_unamb
+T8	NE_NP 855 866	entrance_NN
+A8	identifiability T8 yes_amb
+T9	NE_NP 878 903	[NP Monash_NNP Road_NNP ]
+A9	identifiability T9 yes_unamb
+T10	NE_NP 1014 1023	campus_NN
+A10	identifiability T10 yes_amb
+T11	NE_NP 1064 1079	tram_NN stop_NN
+A11	identifiability T11 yes_amb
+T12	NE_NP 1137 1156	Monash_NNP Road_NNP
+A12	identifiability T12 yes_unamb
+T13	NE_NP 1221 1249	he_DT Maths_NN department_NN
+A13	identifiability T13 yes_unamb
+T14	NE_NP 1258 1291	Richard_NNP Barry_NNP building_NN
+A14	identifiability T14 yes_unamb
+T15	NE_NP 1313 1332	Old_NNP Geology_NNP
+A15	identifiability T15 yes_amb
+T16	NE_NP 1387 1411	Education_NNP faculty_NN
+A16	identifiability T16 yes_amb
+T17	NE_NP 1510 1517	road_NN
+A17	identifiability T17 yes_amb
+T18	NE_NP 1566 1585	Wilson_NNP Hall_NNP
+A18	identifiability T18 yes_unamb
+T19	NE_NP 1691 1700	campus_NN
+A19	identifiability T19 yes_amb
+T20	NE_NP 1735 1754	Wilson_NNP Hall_NNP
+A20	identifiability T20 yes_unamb
+T21	NE_NP 1836 1860	[NP South_NNP Lawn_NNP ]
+A21	identifiability T21 yes_unamb
+T22	NE_NP 1937 1946	campus_NN
+A22	identifiability T22 yes_unamb
+T23	NE_NP 2035 2045	library_NN
+A23	identifiability T23 yes_amb
+T24	NE_NP 2052 2081	[NP Ballieu_NNP Library_NNP ]
+A24	identifiability T24 yes_unamb
+T25	NE_NP 2114 2131	South_NNP Lawn_NN
+A25	identifiability T25 yes_unamb
+T26	NE_NP 2225 2238	buildings_NNS
+A26	identifiability T26 yes_amb
+T27	NE_NP 2264 2273	campus_NN
+A27	identifiability T27 yes_amb
+T28	NE_NP 2284 2300	Old_NNP Arts_NNP
+A28	identifiability T28 yes_unamb
+T29	NE_NP 2310 2332	[NP Old_NNP Quad_NNP ]
+A29	identifiability T29 yes_unamb
+T30	NE_NP 2376 2391	[NP North_NNP ]
+A30	identifiability T30 yes_amb
+T31	NE_NP 2404 2429	[NP Wilson_NNP Hall_NNP ]
+A31	identifiability T31 yes_unamb
+T32	NE_NP 2476 2515	student_NN and_CC recreation_NN area_NN
+A32	identifiability T32 yes_amb
+T33	NE_NP 2547 2563	Union_NNP House_
+A33	identifiability T33 yes_unamb
+T34	NE_NP 2574 2595	sports_NNS precincts_
+A34	identifiability T34 yes_amb
+T35	NE_NP 2631 2639	north_NN
+A35	identifiability T35 yes_amb
+T36	NE_NP 2704 2726	sports_NNS precinct_NN
+A36	identifiability T36 yes_amb
+T37	NE_NP 2754 2781	residential_JJ colleges_NNS
+A37	identifiability T37 yes_amb
+T38	NE_NP 2789 2804	[NP South_NNP ]
+A38	identifiability T38 yes_amb
+T39	NE_NP 2817 2842	[NP Wilson_NNP Hall_NNP ]
+A39	identifiability T39 yes_unamb
+T40	NE_NP 2992 3015	Old_NNP Engineering_NNP
+A40	identifiability T40 yes_amb
+T41	NE_NP 3082 3090	south_NN
+A41	identifiability T41 yes_amb
+T42	NE_NP 3150 3159	campus_NN
+A42	identifiability T42 yes_amb
+T43	NE_NP 3102 3116	South-west_NNP
+A43	identifiability T43 yes_amb
+T44	NE_NP 3198 3205	road_NN
+A44	identifiability T44 yes_amb
+T46	NE_NP 3241 3256	Wilson_NNP Hall
+A46	identifiability T46 yes_unamb
+T47	NE_NP 3358 3382	Medicine_NNP precinct_NN
+A47	identifiability T47 yes_unamb
+T48	NE_NP 3413 3451	Brownless_NNP biomedical_JJ library_NN
+A48	identifiability T48 yes_unamb
+T49	NE_NP 3459 3493	[NP Melbourne_NNP University_NNP ]
+A49	identifiability T49 yes_unamb
+T50	NE_NP 3619 3639	[NP South-east_NNP ]
+A50	identifiability T50 yes_amb
+T51	NE_NP 3663 3672	campus_NN
+A51	identifiability T51 yes_amb
+T52	NE_NP 3710 3743	[NP student_NN admin_NN area_NN ]
+A52	identifiability T52 yes_amb
+T53	NE_NP 3762 3797	Eastern_NNP Resource_NNP Centre_NNP
+A53	identifiability T53 yes_unamb
+T54	NE_NP 3806 3813	ERC_NNP
+A54	identifiability T54 yes_unamb
+T55	NE_NP 3822 3832	library_NN
+A55	identifiability T55 yes_amb
+T56	NE_NP 3893 3906	buildings_NNS
+A56	identifiability T56 yes_amb
+T57	NE_NP 3925 3934	campus_NN
+A57	identifiability T57 yes_amb
+T58	NE_NP 3952 3988	1888_CD Postgraduate_NNP building_NN
+A58	identifiability T58 yes_unamb
+T59	NE_NP 4076 4115	commerce_NN and_CC law_NN faculties_NNS
+A59	identifiability T59 yes_amb
+T60	NE_NP 4200 4208	south_RB
+A60	identifiability T60 yes_amb
+T61	NE_NP 4242 4251	campus_NN
+A61	identifiability T61 yes_amb
+T62	NE_NP 4270 4298	[NP Grattan_NNP Street_NNP ]
+A62	identifiability T62 yes_unamb
+T63	NE_NP 4321 4352	[NP University_NNP Square_NNP ]
+A63	identifiability T63 yes_unamb
+T64	NE_NP 4389 4397	south_RB
+A64	identifiability T64 yes_amb
+T65	NE_NP 4412 4443	[NP University_NNP Square_NNP ]
+A65	identifiability T65 yes_unamb
+T66	NE_NP 4468 4490	Law_NNP Building_NNP ]
+A66	identifiability T66 yes_amb
+T67	NE_NP 4502 4515	[NP west_NN ]
+A67	identifiability T67 yes_amb
+T68	NE_NP 4567 4587	IT_NNP building_NN ]
+A68	identifiability T68 yes_amb
+T69	NE_NP 4614 4621	west_NN
+A69	identifiability T69 yes_amb
+T70	NE_NP 4713 4724	building_NN
+A70	identifiability T70 yes_amb
+T71	NE_NP 4742 4750	Spot_NNP
+A71	identifiability T71 yes_unamb
+T72	NE_NP 4801 4823	commerce_NN faculty_NN
+A72	identifiability T72 yes_amb
+T73	NE_NP 4903 4930	university_NN buildings_NNS
+A73	identifiability T73 yes_amb
+T74	NE_NP 4979 4986	area_NN
+A74	identifiability T74 yes_amb
+T75	NE_NP 5064 5075	location_NN
+A75	identifiability T75 yes_amb
+T76	NE_NP 5101 5111	places_NNS
+A76	identifiability T76 yes_amb

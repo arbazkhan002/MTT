@@ -1,0 +1,3 @@
+ [NP The_DT campus_NN ] [VP has_VBZ ] [NP a_DT tram_JJ line_NN ] [VP running_VBG ] [ADVP across_IN ] [PP on_IN ] [NP Swanton_NNP Street_NNP ] and_CC [NP it_PRP ] [VP is_VBZ ] [ADJP close_JJ ] [PP to_TO ] [NP Melbourne_NNP Women_NNP Hospital_NNP ] and_CC [NP a_DT KFC._NNP]
+ [NP The_DT campus_NN ] [ADVP also_RB ] [VP has_VBZ ] [NP a_DT big_JJ University_NNP Square_NNP ] [PP on_IN ] [NP Gattan_NNP Street_NNP ] [NP which_WDT ] [VP is_VBZ ] [ADJP opposite_JJ ] [PP of_IN ] [NP Engineering_NNP Building_NNP Blocks_NNP ] ._.
+ 

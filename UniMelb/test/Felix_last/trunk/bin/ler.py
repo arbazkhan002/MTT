@@ -517,7 +517,7 @@ def main():
 #    print "identifiability_num = " + str(identifiability_num)
     
     
-    sentences = ChunkedDataReader.read_chunked_data("../resources/Description1_chunked.txt")
+    sentences = ChunkedDataReader.read_chunked_data("../resources/tuw_chunked_data.txt")
     #~ print "sentences:",sentences
     char_counter = 1
     word_counter = 0

@@ -1,0 +1,19 @@
+Cathedral NNP None None False False Aaaaaaaaa Aa 9 -1 -1 NP None 2 0 O None None None NNP 0 0 Park NNP NNP 2 Cathedral B-NP False O O O True False 2 cathedral False -1 True True O None O
+Park NNP None None False False Aaaa Aa 4 -1 -1 NP None 2 1 O None None None NNP 1 0 Park NNP NNP 2 Park I-NP False O O O True False 2 park False -1 True True O None O
+is VBZ None None False False aa a 2 -1 -1 VP None 1 0 O None None None VBZ 2 1 None None VBZ 1 is B-VP False None None None False False 1 be False -1 False True O None O
+in IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 3 2 None None IN 1 in B-PP False None None None False False 1 in False -1 False True O None O
+the DT None None False False aaa a 3 -1 -1 NP None 3 0 O None in the DT 4 3 northern JJ DT 1 the B-NP False O O O False False 3 the False -1 False True O None O
+northern JJ None None False False aaaaaaaa a 8 -1 -1 NP None 3 1 O None in the DT 5 3 northern JJ DT 1 northern I-NP False O O O False False 3 northern False -1 False True O None O
+reach NN None None False False aaaaa a 5 -1 -1 NP None 3 2 O None in the DT 6 3 northern JJ DT 1 reach I-NP False O O O False False 3 reach False -1 False True O None O
+of IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 7 4 None None IN 1 of B-PP False None None None False False 1 of False -1 False True O None O
+the DT None None False False aaa a 3 -1 -1 NP None 2 0 O None of the DT 8 5 Cascades NNS DT 1 the B-NP False O O B-WTRF False False 2 the False -1 False True O None O
+Cascades NNS None None False False Aaaaaaaa Aa 8 -1 -1 NP None 2 1 O None of the DT 9 5 Cascades NNS DT 1 Cascades I-NP False B-P B-PPLX I-WTRF False False 2 cascade False -1 True True O False O
+is VBZ None None False False aa a 2 -1 -1 VP None 2 0 O None None None VBZ 10 6 rolling VBG VBZ 1 is B-VP False None None None False False 2 be False -1 False True O None O
+rolling VBG None None False False aaaaaaa a 7 -1 -1 VP None 2 1 O None None None VBZ 11 6 rolling VBG VBZ 1 rolling I-VP False None None None False True 2 roll False -1 False True O None O
+and CC None None False False aaa a 3 -1 -1 None None 1 0 O None None None CC 12 7 None None CC 1 and O False None None None False False 1 and False -1 False True O None O
+dry JJ None None False False aaa a 3 -1 -1 ADJP None 1 0 O None None None JJ 13 8 None None JJ 1 dry B-ADJP False None None None False False 1 dry False -1 False True O None O
+in IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 14 9 None None IN 1 in B-PP False None None None False False 1 in False -1 False True O None O
+the DT None None False False aaa a 3 -1 -1 NP None 2 0 O None in the DT 15 10 alpine NN DT 1 the B-NP False O O O False False 2 the False -1 False True O None O
+alpine NN None None False False aaaaaa a 6 -1 -1 NP None 2 1 O None in the DT 16 10 alpine NN DT 1 alpine I-NP False B-A B-ADM2 O False False 2 alpine False -1 False True O False O
+. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 17 11 None None . 1 . O False None None None False False 1 . False -1 False True O None O
+

@@ -1,0 +1,124 @@
+T1	NE_NP 26 33	tram_NN
+A1	identifiability T1 yes_amb
+T2	NE_NP 65 90	[NP Swanston_NNP St_NNP ]
+A2	identifiability T2 yes_unamb
+T3	NE_NP 148 184	Melbourne_NNP University_NNP stop_NN
+A3	identifiability T3 yes_unamb
+T5	NE_NP 312 319	tram_NN
+A5	identifiability T5 yes_amb
+T8	NE_NP 472 479	road_NN
+A8	identifiability T8 yes_amb
+T9	NE_NP 529 536	road_NN
+A9	identifiability T9 yes_amb
+T10	NE_NP 574 583	campus_NN
+A10	identifiability T10 yes_amb
+T11	NE_NP 646 653	road_NN
+A11	identifiability T11 yes_amb
+T13	NE_NP 753 762	steps_NNS
+A13	identifiability T13 yes_amb
+T15	NE_NP 851 876	[NP Wilson_NNP Hall_NNP ]
+A15	identifiability T15 yes_unamb
+T16	NE_NP 899 910	building_NN
+A16	identifiability T16 yes_amb
+T18	NE_NP 1023 1039	Old_NNP Quad_NNP
+A18	identifiability T18 yes_unamb
+T19	NE_NP 1052 1063	building_NN
+A19	identifiability T19 yes_amb
+T20	NE_NP 1082 1091	campus_NN
+A20	identifiability T20 yes_amb
+T21	NE_NP 1139 1150	building_NN
+A21	identifiability T21 yes_amb
+T22	NE_NP 1204 1220	other_JJ side_NN
+A22	identifiability T22 yes_amb
+T23	NE_NP 1246 1258	courtyard_NN
+A23	identifiability T23 yes_amb
+T24	NE_NP 1331 1341	arches_NNS
+A24	identifiability T24 yes_amb
+T25	NE_NP 1367 1378	building_NN
+A25	identifiability T25 yes_amb
+T26	NE_NP 1455 1480	[NP Union_NNP House_NNP ]
+A26	identifiability T26 yes_unamb
+T27	NE_NP 1558 1567	shops_NNS
+A27	identifiability T27 yes_amb
+T28	NE_NP 1615 1623	north_NN
+A28	identifiability T28 yes_unamb
+T29	NE_NP 1638 1663	[NP Union_NNP House_NNP ]
+A29	identifiability T29 yes_unamb
+T30	NE_NP 1688 1695	oval_NN
+A30	identifiability T30 yes_amb
+T31	NE_NP 1716 1722	arc_NN
+A31	identifiability T31 yes_amb
+T32	NE_NP 1741 1753	Colleges_NNP
+A32	identifiability T32 yes_amb
+T33	NE_NP 1884 1902	grassed_JJ area_NN
+A33	identifiability T33 yes_amb
+T34	NE_NP 1918 1942	[NP South_NNP Lawn_NNP ]
+A34	identifiability T34 yes_unamb
+T35	NE_NP 1995 2011	other_JJ side_NN
+A35	identifiability T35 yes_amb
+T36	NE_NP 2037 2043	row_NN
+A36	identifiability T36 yes_amb
+T37	NE_NP 2062 2075	buildings_NNS
+A37	identifiability T37 yes_amb
+T38	NE_NP 2154 2170	Old_NNP Quad_NNP
+A38	identifiability T38 yes_unamb
+T39	NE_NP 2177 2202	[NP Wilson_NNP Hall_NNP ]
+A39	identifiability T39 yes_unamb
+T40	NE_NP 2367 2391	[NP South_NNP Lawn_NNP ]
+A40	identifiability T40 yes_unamb
+T41	NE_NP 2461 2474	buildings_NNS
+A41	identifiability T41 yes_amb
+T42	NE_NP 2572 2585	buildings_NNS
+A42	identifiability T42 yes_amb
+T43	NE_NP 2604 2629	[NP Wilson_NNP Hall_NNP ]
+A43	identifiability T43 yes_unamb
+T44	NE_NP 2684 2693	lanes_NNS
+A44	identifiability T44 yes_amb
+T45	NE_NP 2736 2749	buildings_NNS
+A45	identifiability T45 yes_amb
+T46	NE_NP 2816 2824	south_RB
+A46	identifiability T46 yes_amb
+T47	NE_NP 2841 2866	[NP Union_NNP House_NNP ]
+A47	identifiability T47 yes_unamb
+T48	NE_NP 2922 2935	buildings_NNS
+A48	identifiability T48 yes_amb
+T49	NE_NP 3015 3039	[NP South_NNP Lawn_NNP ]
+A49	identifiability T49 yes_unamb
+T50	NE_NP 3106 3113	exit_NN
+A50	identifiability T50 yes_amb
+T51	NE_NP 3152 3160	right_NN
+A51	identifiability T51 yes_amb
+T53	NE_NP 3288 3298	library_NN
+A53	identifiability T53 yes_amb
+T54	NE_NP 3316 3328	Baillieu_NNP
+A54	identifiability T54 yes_unamb
+T55	NE_NP 3434 3458	[NP South_NNP Lawn_NNP ]
+A55	identifiability T55 yes_unamb
+T56	NE_NP 3494 3501	exit_NN
+A56	identifiability T56 yes_amb
+T57	NE_NP 3629 3655	Grattan_NNP St_NNP exit_NN
+A57	identifiability T57 yes_unamb
+T58	NE_NP 3738 3762	[NP South_NNP Lawn_NNP ]
+A58	identifiability T58 yes_unamb
+T59	NE_NP 3788 3816	engineering_NN buildings_NNS
+A59	identifiability T59 yes_amb
+T60	NE_NP 3904 3928	[NP Grattan_NNP St_NNP ]
+A60	identifiability T60 yes_unamb
+T61	NE_NP 3942 3973	[NP University_NNP Square_NNP ]
+A61	identifiability T61 yes_unamb
+T62	NE_NP 3999 4019	Law_NN building_NN ]
+A62	identifiability T62 yes_amb
+T63	NE_NP 4075 4082	park_NN
+A63	identifiability T63 yes_amb
+T64	NE_NP 4214 4239	[NP Swanston_NNP St_NNP ]
+A64	identifiability T64 yes_unamb
+T65	NE_NP 4346 4365	1888_CD building_NN
+A65	identifiability T65 yes_unamb
+T66	NE_NP 4398 4413	intersection_NN
+A66	identifiability T66 yes_amb
+T67	NE_NP 4430 4449	[NP Swanston_NNP St
+A67	identifiability T67 yes_unamb
+T68	NE_NP 4556 4571	tram_JJ stop_NN
+A68	identifiability T68 yes_amb
+T69	NE_NP 4598 4605	home_NN
+A69	identifiability T69 yes_amb

@@ -1,0 +1,3 @@
+ [NP The_DT university_NN ] [VP has_VBZ ] [NP several_JJ gates_NNS ] ._.
+ [NP We_PRP ] [VP can_MD meet_VB ] [PP at_IN ] [NP Gate_NNP 10_CD ] [PP along_IN ] [NP Grattan_NNP Street_NNP ] ._.
+ 

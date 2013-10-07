@@ -1,0 +1,54 @@
+T1	NE_NP 12 57	Parkville_NNP Melbourne_NNP Uni_NNP campus_NN
+A1	identifiability T1 yes_unamb
+T3	NE_NP 133 140	city_NN
+A3	identifiability T3 yes_amb
+T4	NE_NP 172 185	buildings_NNS
+A4	identifiability T4 yes_amb
+T5	NE_NP 246 272	[NP Royal_NNP Parade_NNP ]
+A5	identifiability T5 yes_unamb
+T6	NE_NP 280 309	[NP Swanston_NNP Street_NNP ]
+A6	identifiability T6 yes_unamb
+T7	NE_NP 321 345	[NP Grattan_NNP St_NNP ]
+A7	identifiability T7 yes_unamb
+T8	NE_NP 353 376	[NP Tin_NNP Alley_NNP ]
+A8	identifiability T8 yes_unamb
+T9	NE_NP 393 421	engineering_NN buildings_NNS
+A9	identifiability T9 yes_amb
+T10	NE_NP 472 496	[NP Grattan_NNP St_NNP ]
+A10	identifiability T10 yes_unamb
+T11	NE_NP 511 535	[NP South_NNP Lawn_NNP ]
+A11	identifiability T11 yes_unamb
+T12	NE_NP 785 812	old_JJ arts_NNS building_NN
+A12	identifiability T12 yes_amb
+T13	NE_NP 839 847	entry_NN
+A13	identifiability T13 yes_amb
+T14	NE_NP 913 937	tram_NN super_JJ stop_NN
+A14	identifiability T14 yes_amb
+T15	NE_NP 952 977	[NP Swanston_NNP St_NNP ]
+A15	identifiability T15 yes_unamb
+T16	NE_NP 1016 1025	campus_NN
+A16	identifiability T16 yes_amb
+T17	NE_NP 1076 1085	square_NN
+A17	identifiability T17 yes_amb
+T18	NE_NP 1111 1125	semi-circle_NN
+A18	identifiability T18 yes_amb
+T19	NE_NP 1170 1176	top_NN
+A19	identifiability T19 yes_amb
+T20	NE_NP 1200 1221	[NP tin_NN alley_NN ]
+A20	identifiability T20 yes_unamb
+T21	NE_NP 1257 1276	uni_JJ colleges_NNS
+A21	identifiability T21 yes_amb
+T22	NE_NP 1288 1297	South_NNP
+A22	identifiability T22 yes_unamb
+T23	NE_NP 1312 1340	[NP Grattan_NNP Street_NNP ]
+A23	identifiability T23 yes_unamb
+T24	NE_NP 1354 1385	[NP University_NNP Square_NNP ]
+A24	identifiability T24 yes_unamb
+T25	NE_NP 1461 1481	Law_NN Building_NN ]
+A25	identifiability T25 yes_amb
+T26	NE_NP 1544 1552	Spot_NNP
+A26	identifiability T26 yes_unamb
+T27	NE_NP 1605 1614	facade_NN
+A27	identifiability T27 yes_amb
+T28	NE_NP 1687 1696	campus_NN
+A28	identifiability T28 yes_amb

@@ -1,0 +1,13 @@
+ [NP The_DT campus_NN ] [VP is_VBZ largely_RB centered_VBN ] [PP by_IN ] [NP South_NNP Lawn.You_NNP ] [VP can_MD see_VB ] [NP a_DT yellow_JJ colour_NN clock_NN tower_NN ] [PP on_IN ] [NP one_CD corner_NN ] [PP of_IN ] [NP the_DT South_NNP Lawn_NNP ] ._.
+ [NP The_DT clock_NN tower_NN ] [VP is_VBZ connected_VBN ] [PP with_IN ] [NP an_DT ancient_JJ building_NN ] [VP called_VBD ] [NP Old_NNP Quad_NNP ] ._.
+ [PP On_IN ] [NP the_DT opposite_NN ] [PP of_IN ] [NP side_NN Old_NNP Quade_NNP ] ,_, [NP you_PRP ] [VP will_MD see_VB ] [NP a_DT two-connected_JJ buildings_NNS ] [VP called_VBD ] [NP John_NNP Mendeley_NNP Building_NNP ] ._.
+ [NP It_PRP ] [ADVP usually_RB ] [VP hangs_VBZ ] [NP some_DT university_NN posters_NNS ] ._.
+ [SBAR If_IN ] [NP you_PRP ] [VP walk_VBP ] [PP from_IN ] [NP John_NNP Mendeley_NNP ] [VP building_VBG ] [PP to_TO ] [NP Old_NNP Quad_NNP ] [PP along_IN ] [NP the_DT side_NN lane_NN ] [PP of_IN ] [NP South_NNP Lawn_NNP ] ._.
+ [NP You_PRP ] [VP will_MD see_VB ] [NP a_DT fifth-level_JJ Baillieu_NNP library_NN ] [PP with_IN ] [NP lots_NNS ] [PP of_IN ] [NP windows_NNS ] [VP lies_VBZ ] [PP on_IN ] [NP your_PRP$ left_JJ hand_NN side_NN ] ._.
+ [PP On_IN ] [NP your_PRP$ right_JJ hand_NN side_NN ] ,_, [NP there_EX ] [VP are_VBP ] [NP two_CD buildings_NNS ] [VP separated_VBN ] [PP by_IN ] [NP a_DT walking_VBG lane_NN ] ._.
+ [NP The_DT one_CD close_NN ] [PP to_TO ] [NP John_NNP Mendeley_NNP building_NN ] [VP is_VBZ ] [NP call_JJ IEEE_NN building_NN ] [PP with_IN ] [NP modern-style_JJ architecture_NN ] ._.
+ [NP The_DT other_JJ one_CD close_NN ] [PP to_TO ] [NP Old_NNP Quad_NNP ] [VP is_VBZ called_VBN ] [NP Wilson_NNP Hall_NNP ] [PP with_IN ] [NP beautiful_JJ sculptures_NNS insides_NNS ] ._.
+ [SBAR If_IN ] [NP you_PRP ] [VP walk_VBP ] [PP across_IN ] [NP the_DT Old_NNP Quad_NNP ] ,_, [NP you_PRP ] [VP will_MD see_VB ] [NP a_DT four-level_JJ building_NN ] [PP with_IN ] [NP many_JJ food_NN merchants_NNS ] ._.
+ [NP That_DT place_NN ] [VP is_VBZ called_VBN ] [NP Student_NNP Union_NNP ] ,_, [ADVP where_WRB ] [NP many_JJ students_NNS and_CC staffs_NNS ] [VP have_VBP ] [NP formal_JJ lunch_NN and_CC snacks_NNS ] ._.
+ [NP There_EX ] [VP are_VBP ] [ADJP many_JJ ] [PP in_IN ] [NP campus_NN maps_NNS ] [PP in_IN ] [NP the_DT Uni_NNP ] ,_, [ADVP once_RB ] [NP you_PRP ] [VP identified_VBD ] [NP the_DT South_NNP Lawn_NNP ] ,_, [NP it_PRP ] [VP wo_MD n't_RB be_VB ] [ADJP difficult_JJ ] [SBAR for_IN ] [NP you_PRP ] [VP to_TO find_VB ] [PRT out_RP ] [NP other_JJ places_NNS ] ._.
+ 

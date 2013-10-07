@@ -1,0 +1,10 @@
+Suburban JJ None None False False Aaaaaaaa Aa 8 -1 -1 NP None 4 0 O None None None JJ 0 0 Stanthorpe NNP NNS 1 Suburban B-NP False O O O False False 4 suburban False -1 True True O None O
+Stanthorpe NNP None None False False Aaaaaaaaaa Aa 10 -1 -1 NP None 4 1 O None None None JJ 1 0 Stanthorpe NNP NNS 1 Stanthorpe I-NP False B-P B-PPL O False False 4 stanthorpe False -1 True True O False O
+street NN None None False False aaaaaa a 6 -1 -1 NP None 4 2 O None None None JJ 2 0 Stanthorpe NNP NNS 1 street I-NP False O O O True False 4 street False -1 False True O None O
+runs NNS None None False False aaaa a 4 -1 -1 NP None 4 3 O None None None JJ 3 0 Stanthorpe NNP NNS 1 runs I-NP False O O O False False 4 run False -1 False True O None O
+from IN None None False False aaaa a 4 -1 -1 PP None 1 0 O None None None IN 4 1 None None IN 1 from B-PP False None None None False False 1 from False -1 False True O None O
+South NNP None None False False Aaaaa Aa 5 -1 -1 NP None 1 0 O None from None NNP 5 2 None None NNP 1 South B-NP False O O O True False 1 south False -1 True True O None O
+to TO None None False False aa a 2 -1 -1 PP None 1 0 O None None None TO 6 3 None None TO 1 to B-PP False None None None False False 1 to False -1 False True O None O
+North NNP None None False False Aaaaa Aa 5 -1 -1 NP None 1 0 O None to None NNP 7 4 None None NNP 1 North B-NP False O O O True False 1 north False -1 True True O None O
+. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 8 5 None None . 1 . O False None None None False False 1 . False -1 False True O None O
+

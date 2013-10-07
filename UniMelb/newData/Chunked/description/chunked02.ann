@@ -1,0 +1,136 @@
+T1	NE_NP 12 32	Parkville_NNP Campus
+A1	identifiability T1 yes_unamb
+T2	NE_NP 45 56	entrance_NN
+A2	identifiability T2 yes_amb
+T3	NE_NP 87 113	[NP Grattan_NNP Street_NNP
+A3	identifiability T3 yes_unamb
+T4	NE_NP 169 182	entrance_NN ]
+A4	identifiability T4 yes_amb
+T5	NE_NP 239 246	road_NN
+A5	identifiability T5 yes_amb
+T6	NE_NP 270 289	concrete_JJ lawn_NN
+A6	identifiability T6 yes_amb
+T7	NE_NP 345 370	Melbourne_NNP University_
+A7	identifiability T7 yes_unamb
+T8	NE_NP 486 497	entrance_NN
+A8	identifiability T8 yes_amb
+T9	NE_NP 548 559	building_NN
+A9	identifiability T9 yes_amb
+T10	NE_NP 747 757	stairs_NNS
+A10	identifiability T10 yes_amb
+T11	NE_NP 810 831	university_NN lawn_NN
+A11	identifiability T11 yes_unamb
+T12	NE_NP 862 869	lawn_NN
+A12	identifiability T12 yes_amb
+T13	NE_NP 887 903	Old_NNP Quad_NNP
+A13	identifiability T13 yes_unamb
+T14	NE_NP 995 1014	Bailieu_NNP Library
+A14	identifiability T14 yes_unamb
+T15	NE_NP 1026 1047	Co-Op_NNP bookshop_NN
+A15	identifiability T15 yes_unamb
+T16	NE_NP 1142 1149	lawn_NN
+A16	identifiability T16 yes_amb
+T17	NE_NP 1215 1222	path_NN
+A17	identifiability T17 yes_amb
+T18	NE_NP 1366 1382	Old_NNP Quad_NNP
+A18	identifiability T18 yes_unamb
+T19	NE_NP 1435 1457	square_JJ courtyard_NN
+A19	identifiability T19 yes_amb
+T20	NE_NP 1529 1541	courtyard_NN
+A20	identifiability T20 yes_amb
+T21	NE_NP 1638 1671	Arts_NNP Faculty_NNP Building_NNP
+A21	identifiability T21 yes_unamb
+T22	NE_NP 1740 1772	John_NNP Medley_NNP Building_NNP
+A22	identifiability T22 yes_unamb
+T23	NE_NP 1786 1805	Wilson_NNP Hall_NNP
+A23	identifiability T23 yes_unamb
+T24	NE_NP 1813 1855	[NP Raymond_NNP Priestly_RB Building_NNP ]
+A24	identifiability T24 yes_unamb
+T25	NE_NP 1908 1915	area_NN
+A25	identifiability T25 yes_amb
+T26	NE_NP 1986 2011	[NP Wilson_NNP Hall_NNP ]
+A26	identifiability T26 yes_unamb
+T27	NE_NP 2106 2115	North_NNP
+A27	identifiability T27 yes_unamb
+T28	NE_NP 2252 2268	Old_NNP Quad_NNP
+A28	identifiability T28 yes_unamb
+T29	NE_NP 2310 2335	[NP Union_NNP House_NNP ]
+A29	identifiability T29 yes_unamb
+T30	NE_NP 2383 2398	[NP shops_NNS ]
+A30	identifiability T30 yes_amb
+T31	NE_NP 2519 2526	road_NN
+A31	identifiability T31 yes_amb
+T33	NE_NP 2628 2653	[NP Union_NNP House_NNP ]
+A33	identifiability T33 yes_unamb
+T34	NE_NP 2710 2724	Beurepaire_NNP
+A34	identifiability T34 yes_unamb
+T35	NE_NP 2735 2767	VP Swimming_VBG ] [NP Pool_NNP ]
+A35	identifiability T35 yes_unamb
+T36	NE_NP 2825 2844	sport_NN tracks_NNS
+A36	identifiability T36 yes_amb
+T37	NE_NP 2854 2881	[NP university_NN oval_NN ]
+A37	identifiability T37 yes_unamb
+T38	NE_NP 2962 2978	Beurepaires_NNPS
+A38	identifiability T38 yes_unamb
+T39	NE_NP 2988 3021	[VP Swimming_VBG ] [NP Pool_NNP ]
+A39	identifiability T39 yes_unamb
+T40	NE_NP 3103 3116	footpath_NN ]
+A40	identifiability T40 yes_amb
+T41	NE_NP 3142 3178	Baldwin_NNP Spencer_NNP Building_NNP
+A41	identifiability T41 yes_unamb
+T42	NE_NP 3239 3301	Faculty_NN ] [PP of_IN ] [NP Architecture_NNP ,_, Building_NNP
+A42	identifiability T42 yes_unamb
+T43	NE_NP 3411 3429	[VP building_VBG ]
+A43	identifiability T43 yes_amb
+T44	NE_NP 3493 3538	Psychology_NNP and_CC Biology_NNP building_NN
+A44	identifiability T44 yes_unamb
+T45	NE_NP 3581 3615	Redmond_NNP Barry_NNP Building_NNP
+A45	identifiability T45 yes_unamb
+T46	NE_NP 3692 3699	path_NN
+A46	identifiability T46 yes_amb
+T47	NE_NP 3734 3747	buildings_NNS
+A47	identifiability T47 yes_amb
+T48	NE_NP 3801 3824	construction_NN site_NN
+A48	identifiability T48 yes_amb
+T49	NE_NP 3921 3944	Physic_JJ buildings_NNS
+A49	identifiability T49 yes_amb
+T50	NE_NP 4020 4027	cafe_NN
+A50	identifiability T50 yes_amb
+T51	NE_NP 4096 4104	route_NN
+A51	identifiability T51 yes_amb
+T52	NE_NP 4132 4161	[NP Swanston_NNP Street_NNP ]
+A52	identifiability T52 yes_unamb
+T53	NE_NP 4223 4230	cafe_NN
+A53	identifiability T53 yes_amb
+T54	NE_NP 4256 4262	way_NN
+A54	identifiability T54 yes_amb
+T55	NE_NP 4378 4385	cafe_NN
+A55	identifiability T55 yes_amb
+T57	NE_NP 4436 4473	Ian_NNP Potter_NNP Art_NNP Museum_NNP
+A57	identifiability T57 yes_unamb
+T58	NE_NP 4584 4591	wall_NN
+A58	identifiability T58 yes_amb
+T59	NE_NP 4784 4818	tudent_NN information_NN center_NN
+A59	identifiability T59 yes_unamb
+T60	NE_NP 4984 5019	student_NN information_NN center_NN
+A60	identifiability T60 yes_unamb
+T61	NE_NP 5051 5072	traffic_NN lights_NNS
+A61	identifiability T61 yes_amb
+T62	NE_NP 5135 5167	Sidney_NNP Myer_NNP Building_NNP
+A62	identifiability T62 yes_unamb
+T63	NE_NP 5231 5242	building_NN
+A63	identifiability T63 yes_amb
+T64	NE_NP 5285 5292	wall_NN
+A64	identifiability T64 yes_amb
+T65	NE_NP 5327 5345	tram_NN station_NN
+A65	identifiability T65 yes_amb
+T67	NE_NP 5509 5516	city_NN
+A67	identifiability T67 yes_amb
+T68	NE_NP 5587 5593	way_NN
+A68	identifiability T68 yes_amb
+T71	NE_NP 5863 5883	university_NN map_NN
+A71	identifiability T71 yes_amb
+T72	NE_NP 6018 6025	wall_NN
+A72	identifiability T72 yes_amb
+T73	NE_NP 6044 6079	Raymond_NNP Priestly_RB building_NN
+A73	identifiability T73 yes_unamb

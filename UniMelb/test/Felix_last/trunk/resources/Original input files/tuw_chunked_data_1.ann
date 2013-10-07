@@ -1,0 +1,81 @@
+T1	NE_NP 52 69	[NP Baretto_NNP ] [NP 's_POS ]
+A1	identifiability T1 yes_unamb
+A2	gran_level T1 3
+T2	NE_NP 106 139	Alan_NNP Gilbert_NNP Building_NNP
+A3	identifiability T2 yes_unamb
+A4	gran_level T2 3
+T3	NE_NP 162 189	[NP Grattan_NNP street_NN ]
+A5	identifiability T3 yes_amb
+A6	gran_level T3 4
+T5	NP_NP 285 305	[NP the_DT hill_NN ]
+A9	identifiability T5 no
+A10	gran_level T5 4
+T4	NE_NP 239 263	medical_JJ buildings_NNS
+A7	identifiability T4 yes_amb
+A8	gran_level T4 3
+T6	NE_NP 321 348	[NP Grattan_NNP street_NN ]
+A11	identifiability T6 yes_amb
+A12	gran_level T6 4
+T7	NP_NP 360 378	new_JJ building_NN
+A13	identifiability T7 no
+A14	gran_level T7 3
+T8	NE_NP 437 472	Peter_NNP Doherty_NNP Institute_NNP
+A15	identifiability T8 yes_unamb
+A16	gran_level T8 3
+T9	NE_NP 547 567	Royal_NNP Parade_NNP
+A17	identifiability T9 yes_unamb
+A18	gran_level T9 4
+T10	NE_NP 591 623	[NP Melbourne_NNP Hospital_NNP ]
+A19	identifiability T10 yes_amb
+A20	gran_level T10 3
+T11	NE_NP 718 748	[NP University_NNP square_NN ]
+A21	identifiability T11 yes_amb
+A22	gran_level T11 4
+T12	NP_NP 794 804	carpark_NN
+A23	identifiability T12 no
+A24	gran_level T12 3
+T13	NE_NP 887 917	[NP University_NNP square_NN ]
+A25	identifiability T13 yes_amb
+A26	gran_level T13 4
+T14	NE_NP 931 962	[NP the_DT law_NN building_NN ]
+A27	identifiability T14 yes_amb
+A28	gran_level T14 3
+T15	NE_NP 984 1011	[NP Grattan_NNP street_NN ]
+A29	identifiability T15 yes_amb
+A30	gran_level T15 4
+T16	NE_NP 1026 1056	[NP University_NNP square_NN ]
+A31	identifiability T16 yes_amb
+A32	gran_level T16 4
+T17	NP_NP 1121 1143	[NP the_DT campus_NN ]
+A33	identifiability T17 no
+A34	gran_level T17 4
+T18	NP_NP 1085 1108	[NP an_DT entrance_NN ]
+A35	identifiability T18 no
+A36	gran_level T18 3
+T19	NP_NP 1190 1225	[NP an_DT overpass_JJ building_NN ]
+A37	identifiability T19 no
+A38	gran_level T19 3
+T20	NP_NP 1303 1332	Engineering_NNP buildings_NNS
+A39	identifiability T20 no
+A40	gran_level T20 4
+T21	NP_NP 1430 1452	[NP the_DT campus_NN ]
+A41	identifiability T21 no
+A42	gran_level T21 4
+T22	NP_NP 1522 1560	[NP the_DT Medical_NNP buildings_NNS ]
+A43	identifiability T22 no
+A44	gran_level T22 4
+T23	NP_NP 1593 1635	[NP the_DT Engineering_NNP buildings_NNS ]
+A45	identifiability T23 no
+A46	gran_level T23 4
+T24	NP_NP 1722 1749	NP University_NNP square_NN
+A47	identifiability T24 yes_amb
+A48	gran_level T24 4
+T25	NE_NP 1860 1884	[NP South_NNP Lawn_NNP ]
+A49	identifiability T25 yes_unamb
+A50	gran_level T25 4
+T26	NP_NP 1995 2031	[NP the_DT overpass_NN building_NN ]
+A51	identifiability T26 no
+A52	gran_level T26 3
+T27	NP_NP 2152 2174	[NP the_DT campus_NN ]
+A53	identifiability T27 no
+A54	gran_level T27 4

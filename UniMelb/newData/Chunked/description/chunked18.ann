@@ -1,0 +1,58 @@
+T1	NE_NP 94 105	entrence_NN
+A1	identifiability T1 yes_amb
+T2	NE_NP 143 161	tram_NN station_NN
+A2	identifiability T2 yes_amb
+T3	NE_NP 233 279	[NP Sydeny_NNP Myer_NNP Asian_NNP Centre_NNP ]
+A3	identifiability T3 yes_unamb
+T4	NE_NP 419 442	[NP Alice_NNP Hoy_NNP ]
+A4	identifiability T4 yes_unamb
+T5	NE_NP 535 553	ERC_NNP library_NN
+A5	identifiability T5 yes_unamb
+T6	NE_NP 561 613	Frank_NNP tate_NN Learning_VBG resource_NN centre_NN
+A6	identifiability T6 yes_unamb
+T7	NE_NP 774 806	Redmond_NNP Barry_NNP bulding_NN
+A7	identifiability T7 yes_unamb
+T8	NE_NP 827 850	construction_NN site_NN
+A8	identifiability T8 yes_amb
+T9	NE_NP 883 910	Architeture_NNP building_NN
+A9	identifiability T9 yes_amb
+T10	NE_NP 973 991	Monash_NNP road_NN
+A10	identifiability T10 yes_unamb
+T11	NE_NP 1024 1048	[NP Wilson_NNP hall_NN ]
+A11	identifiability T11 yes_unamb
+T12	NE_NP 1165 1182	union_NN house_NN
+A12	identifiability T12 yes_unamb
+T13	NE_NP 1200 1228	Old_NNP Arts_NNP building_NN
+A13	identifiability T13 yes_unamb
+T14	NE_NP 1249 1262	playground_NN
+A14	identifiability T14 yes_amb
+T15	NE_NP 1321 1347	engineering_NN building_NN
+A15	identifiability T15 yes_amb
+T16	NE_NP 1368 1381	gate_NN 10_CD
+A16	identifiability T16 yes_unamb
+T17	NE_NP 1413 1431	law_NN building_NN
+A17	identifiability T17 yes_amb
+T18	NE_NP 1439 1462	commerce_NN building_NN
+A18	identifiability T18 yes_amb
+T19	NE_NP 1532 1545	gate_NN 10_CD
+A19	identifiability T19 yes_unamb
+T20	NE_NP 1623 1641	Wilson_NNP hall_NN
+A20	identifiability T20 yes_unamb
+T21	NE_NP 1667 1684	wilson_NN road_NN
+A21	identifiability T21 yes_unamb
+T22	NE_NP 1806 1823	sourth_JJ lawn_NN
+A22	identifiability T22 yes_unamb
+T23	NE_NP 1920 1937	sourth_JJ lawn_NN
+A23	identifiability T23 yes_unamb
+T24	NE_NP 1986 2009	Baillium_NNP libaray_NN
+A24	identifiability T24 yes_unamb
+T25	NE_NP 2048 2076	Art_NNP West_NNP building_NN
+A25	identifiability T25 yes_unamb
+T26	NE_NP 2208 2217	paths_NNS
+A26	identifiability T26 yes_amb
+T27	NE_NP 2302 2309	path_NN
+A27	identifiability T27 yes_amb
+T28	NE_NP 2335 2348	gate_NN 10_CD
+A28	identifiability T28 yes_unamb
+T29	NE_NP 2420 2442	Medical_NNP builing_NN
+A29	identifiability T29 yes_amb

@@ -1,0 +1,40 @@
+T1	NE_NP 12 25	universuty_NN
+A1	identifiability T1 yes_amb
+T2	NE_NP 97 110	buildings_NNS
+A2	identifiability T2 yes_amb
+T3	NE_NP 224 239	tram_JJ stop_NN
+A3	identifiability T3 yes_amb
+T4	NE_NP 265 293	[NP Swanston_NNP street_NN ]
+A4	identifiability T4 yes_unamb
+T5	NE_NP 351 358	gate_NN
+A5	identifiability T5 yes_amb
+T6	NE_NP 384 397	university_NN
+A6	identifiability T6 yes_amb
+T7	NE_NP 486 493	road_NN
+A7	identifiability T7 yes_amb
+T8	NE_NP 555 566	building_NN
+A8	identifiability T8 yes_amb
+T9	NE_NP 624 631	road_NN
+A9	identifiability T9 yes_amb
+T10	NE_NP 727 750	[NP union_NN house_NN ]
+A10	identifiability T10 yes_unamb
+T11	NE_NP 814 828	restaurants_NN
+A11	identifiability T11 yes_amb
+T12	NE_NP 837 851	facilities_NNS
+A12	identifiability T12 yes_unamb
+T13	NE_NP 933 939	way_NN
+A13	identifiability T13 yes_amb
+T14	NE_NP 999 1018	[NP playground_NN ]
+A14	identifiability T14 yes_amb
+T15	NE_NP 1086 1092	gym_NN
+A15	identifiability T15 yes_amb
+T16	NE_NP 1107 1127	swimming_VBG pool_NN
+A16	identifiability T16 yes_amb
+T17	NE_NP 1193 1199	uni_JJ
+A17	identifiability T17 yes_amb
+T18	NE_NP 1235 1243	grass_NN
+A18	identifiability T18 yes_amb
+T19	NE_NP 1410 1422	library_NN ]
+A19	identifiability T19 yes_amb
+T20	NE_NP 1443 1456	buildings_NNS
+A20	identifiability T20 yes_amb

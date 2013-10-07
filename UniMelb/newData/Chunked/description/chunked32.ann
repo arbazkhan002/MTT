@@ -1,0 +1,54 @@
+T1	NE_NP 12 21	campus_NN
+A1	identifiability T1 yes_amb
+T2	NE_NP 73 91	[NP South_NNP Lawn
+A2	identifiability T2 yes_unamb
+T3	NE_NP 151 168	clock_NN tower_NN
+A3	identifiability T3 yes_amb
+T4	NE_NP 194 203	corner_NN
+A4	identifiability T4 yes_amb
+T5	NE_NP 229 247	South_NNP Lawn_NNP
+A5	identifiability T5 yes_unamb
+T6	NE_NP 266 283	clock_NN tower_NN
+A6	identifiability T6 yes_unamb
+T7	NE_NP 348 359	building_NN
+A7	identifiability T7 yes_amb
+T8	NE_NP 379 401	[NP Old_NNP Quad_NNP ]
+A8	identifiability T8 yes_unamb
+T9	NE_NP 468 485	Old_NNP Quade_NNP
+A9	identifiability T9 yes_unamb
+T10	NE_NP 553 566	buildings_NNS
+A10	identifiability T10 yes_amb
+T11	NE_NP 586 626	[NP John_NNP Mendeley_NNP Building_NNP ]
+A11	identifiability T11 yes_unamb
+T12	NE_NP 782 828	[NP John_NNP Mendeley_NNP ] [VP building_VBG ]
+A12	identifiability T12 yes_unamb
+T13	NE_NP 841 863	[NP Old_NNP Quad_NNP ]
+A13	identifiability T13 yes_unamb
+T14	NE_NP 924 942	South_NNP Lawn_NNP
+A14	identifiability T14 yes_unamb
+T15	NE_NP 1009 1032	Baillieu_NNP library_NN
+A15	identifiability T15 yes_unamb
+T16	NE_NP 1263 1276	buildings_NNS
+A16	identifiability T16 yes_amb
+T17	NE_NP 1332 1339	lane_NN
+A17	identifiability T17 yes_amb
+T18	NE_NP 1388 1427	[NP John_NNP Mendeley_NNP building_NN ]
+A18	identifiability T18 yes_unamb
+T19	NE_NP 1453 1472	IEEE_NN building_NN
+A19	identifiability T19 yes_unamb
+T20	NE_NP 1582 1604	[NP Old_NNP Quad_NNP ]
+A20	identifiability T20 yes_unamb
+T21	NE_NP 1629 1654	[NP Wilson_NNP Hall_NNP ]
+A21	identifiability T21 yes_unamb
+T22	NE_NP 1790 1806	Old_NNP Quad_NNP
+A22	identifiability T22 yes_unamb
+T23	NE_NP 1871 1882	building_NN
+A23	identifiability T23 yes_amb
+T24	NE_NP 1987 2014	[NP Student_NNP Union_NNP ]
+A24	identifiability T24 yes_unamb
+T25	NE_NP 2250 2257	Uni_NNP
+A25	identifiability T25 yes_amb
+T26	NE_NP 2326 2344	South_NNP Lawn_NNP
+A26	identifiability T26 yes_unamb
+T27	NE_NP 2486 2496	places_NNS
+A27	identifiability T27 yes_unamb

@@ -1,0 +1,8 @@
+ [NP The_DT universuty_NN ] [VP is_VBZ ] [ADJP so_RB large_JJ ] and_CC [VP has_VBZ ] [NP many_JJ buildings_NNS ] ._.
+ [ADVP At_IN first_JJ ] ,_, [SBAR if_IN ] [NP you_PRP ] [VP get_VBP ] [PRT off_RP ] [PP at_IN ] [NP the_DT tram_JJ stop_NN ] [NP 1_CD ] [PP on_IN ] [NP Swanston_NNP street_NN ] ,_, [NP you_PRP ] [VP can_MD see_VB ] [NP the_DT main_JJ gate_NN ] [PP of_IN ] [NP the_DT university_NN ] ._.
+ And_CC [ADVP then_RB ] [VP go_VB ] [ADVP straight_RB ] [PP along_IN ] [NP the_DT road_NN ] ._.
+ [ADVP When_WRB ] [NP you_PRP ] [VP see_VBP ] [NP a_DT building_NN ] [PP at_IN ] [NP the_DT end_NN ] [PP of_IN ] [NP the_DT road_NN ] ,_, [NP turn_NN ] [PP to_TO ] [NP the_DT right_NN ] and_CC [NP you_PRP ] [VP can_MD see_VB ] [NP union_NN house_NN ] [ADVP where_WRB ] [NP there_EX ] [VP are_VBP ] [NP a_DT few_JJ restaurants_NNS and_CC facilities_NNS ] ._.
+ [ADVP Also_RB ] [VP go_VB ] [ADVP straight_RB ] [PP along_IN ] [NP the_DT way_NN ] and_CC [ADVP then_RB ] [NP you_PRP ] [VP can_MD see_VB ] [NP playground_NN ] [PP for_IN ] [NP basketball_NN ] ,_, [NP track_NN ] ,_, and_CC [NP gym_NN including_VBG swimming_VBG pool_NN ] ._.
+ [PP In_IN ] [NP the_DT middle_NN ] [PP of_IN ] [NP the_DT uni_JJ there_EX ] [VP is_VBZ ] [NP big_JJ grass_NN ] [ADVP where_WRB ] [NP you_PRP ] [VP can_MD take_VB ] [NP a_DT rest_NN and_CC chat_NN ] [NP with_IN ] ._.
+ [NP It_PRP ] [VP was_VBD surrounded_VBN ] [PP by_IN ] [NP library_NN ] and_CC [NP other_JJ buildings_NNS ] ._.
+ 

@@ -46,6 +46,12 @@ A.~Herskovits.
 \newblock Semantics and pragmatics of locative expressions.
 \newblock {\em Cognitive Science}, 9(3):341--378, 1985.
 
+\bibitem{hornsby:conceptual}
+K.~S. Hornsby and N.~Li.
+\newblock Conceptual framework for modeling dynamic paths from natural language
+  expressions.
+\newblock {\em Transactions in GIS}, 13(s1):27--45, 2009.
+
 \bibitem{kelleher:perceptually}
 J.~D. Kelleher.
 \newblock {\em A perceptually based computational framework for the
@@ -84,10 +90,10 @@ P.~Kordjamshidi, M.~Van~Otterlo, and M.-F. Moens.
 \newblock {\em ACM Transactions on Speech and Language Processing},
   8(3):4:1--4:36, 2011.
 
-\bibitem{landau:and}
-B.~Landau and R.~Jackendoff.
-\newblock ``{W}hat'' and ``where'' in spatial language and spatial cognition.
-\newblock {\em Behavioral and Brain Sciences}, 16:217--217, 1993.
+\bibitem{kracht:semantics}
+M.~Kracht.
+\newblock On the semantics of locatives.
+\newblock {\em Linguistics and Philosophy}, 25(2):157--232, 2002.
 
 \bibitem{Hanjing:route}
 H.~Li, T.~Zhao, S.~Li, and J.~Zhao.

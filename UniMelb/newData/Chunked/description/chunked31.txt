@@ -1,0 +1,6 @@
+ [NP It_PRP ] [VP 's_VBZ ] [ADJP very_RB easy_JJ ] [VP to_TO go_VB ] [PP around_IN ] [NP the_DT campus_NN ] [PP since_IN ] [NP university_NN ] [NP 's_POS map_NN ] [VP is_VBZ ] all_DT [ADVP around_IN ] and_CC [NP you_PRP ] [VP can_MD see_VB ] [NP it_PRP ] [ADVP everywhere_RB ] ._.
+ [NP Just_RB some_DT quick_JJ places_NNS ] [ADJP worth_JJ ] [NP visiting_VBG ] ._.
+ [ADVP First_RB ] ,_, [NP it_PRP ] [VP is_VBZ ] [NP Union_NNP house_NN ] [NP which_WDT ] [VP located_VBD ] [PP at_IN ] [NP the_DT center_NN ] [PP of_IN ] [NP Parkville_NNP campus_NN ] ._.
+ [ADJP Second_JJ ] ,_, [NP 1888_CD building_NN ] [NP which_WDT ] [ADVP close_RB ] [PP to_TO ] [NP Grattan_NNP street_NN ] [PP on_IN ] [NP gate_NN ] [VP 8._VBD ] [NP Trinity_NNP college_NN ] [VP is_VBZ ] [NP a_DT worth_JJ visiting_VBG place_NN ] [ADVP too_RB ] ._.
+ Just_RB [VP pass_VB ] [NP the_DT sport_NN center_NN ] ._.
+ 

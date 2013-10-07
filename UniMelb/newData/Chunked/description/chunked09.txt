@@ -1,0 +1,8 @@
+ [NP dear_JJ friend_NN ] [ADVP here_RB ] [VP is_VBZ ] [ADVP where_WRB ] [NP you_PRP ] [VP will_MD go_VB ] [PP for_IN ] [NP your_PRP$ enrolment_NN ] ._.
+ [ADVP when_WRB ] [NP you_PRP ] [VP are_VBP coming_VBG ] [PP via_IN ] [NP swanston_DT street_NN stop_NN ] [PP at_IN ] [NP melbourne_JJ university_NN tram_NN station_NN ] ._.
+ [NP cross_NN ] [PP to_TO ] [NP the_DT east_JJ side_NN ] ,_, [NP you_PRP ] [VP will_MD see_VB ] [NP sydney_NN myer_NN bldg_NN ] and_CC [NP a_DT small_JJ gatehouse_NN ] ._.
+ [NP walk_NN ] [PP on_IN ] [NP the_DT road(_NN monash_NN rd_NN ] [VP )_-RRB- ] [PP for_IN ] [PP about_IN ] [NP 100m_JJ past_JJ alice_NN hoy_NN bldg_NN ] [PP to_TO ] [NP the_DT left_NN ] [ADVP then_RB ] [PP at_IN ] [NP the_DT end_NN ] [VP go_VB ] [ADJP left_JJ and_CC straight_JJ ] [PP to_TO ] [NP a_DT 4_CD level_NN stair_NN ] [ADVP then_RB ] [VP go_VB ] [ADVP right_RB ] [PP to_TO ] [NP a_DT small_JJ alley_NN way_NN ] ._.
+ [PP at_IN ] [NP your_PRP$ left_NN ] [NP you_PRP ] [VP will_MD see_VB ] [NP the_DT eng_NN ] 'g_, [NP workshop_NN bldg_NN ] ,_, and_CC [PP in_IN ] [NP front_NN ] [VP is_VBZ ] [NP a_DT signpost_NN ] [PP to_TO ] [NP mechanical_JJ eng_NN 'g_'' ] ._.
+ [VP go_VB ] [PP in_IN ] [NP that_DT alley_NN ] and_CC [SBAR about_IN ] [NP 10m_PRP ] [VP to_TO ] [NP your_PRP$ right_NN ] [VP is_VBZ ] [NP a_DT path_NN ] [PP for_IN ] [NP disabled_JJ persons_NNS ] ,_, [VP walk_VBP ] [PP that_IN ] [NP way_NN ] and_CC [NP you_PRP ] [VP will_MD be_VB ] [PP at_IN ] [NP the_DT back_JJ door_NN ] [PP of_IN ] [NP the_DT eng_NN 'g_JJ student_NN center_NN ] ._.
+ [NP there_EX ] [VP is_VBZ ] [ADVP where_WRB ] [NP you_PRP ] [VP can_MD inquire_VB ] [PP about_IN ] [NP anything_NN ] [PP including_VBG ] [VP obtaining_VBG ] [NP a_DT campus_NN map_NN ] ._.
+ 

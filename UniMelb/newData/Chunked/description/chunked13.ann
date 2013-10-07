@@ -1,0 +1,52 @@
+T1	NE_NP 45 58	entrances_NNS
+A1	identifiability T1 yes_amb
+T2	NE_NP 84 93	campus_NN
+A2	identifiability T2 yes_amb
+T3	NE_NP 115 126	entrance_NN
+A3	identifiability T3 yes_amb
+T4	NE_NP 232 241	campus_NN
+A4	identifiability T4 yes_amb
+T5	NE_NP 323 330	area_NN
+A5	identifiability T5 yes_amb
+T6	NE_NP 379 387	north_RB
+A6	identifiability T6 yes_amb
+T7	NE_NP 433 450	union_NN house_NN
+A7	identifiability T7 yes_unamb
+T8	NE_NP 531 572	colleges_NNS and_CC sports_NNS tracks_NNS
+A8	identifiability T8 yes_amb
+T9	NE_NP 632 641	campus_NN
+A9	identifiability T9 yes_amb
+T10	NE_NP 671 681	library_NN
+A10	identifiability T10 yes_amb
+T11	NE_NP 689 705	arts_NNS west_NN
+A11	identifiability T11 yes_unamb
+T12	NE_NP 740 753	buildings_NNS
+A12	identifiability T12 yes_amb
+T13	NE_NP 791 798	lawn_NN
+A13	identifiability T13 yes_amb
+T14	NE_NP 888 897	campus_NN
+A14	identifiability T14 yes_amb
+T15	NE_NP 932 955	[NP Alice_NNP Hoy_NNP ]
+A15	identifiability T15 yes_unamb
+T16	NE_NP 963 1008	[NP Sidney_NNP Myer_NNP Asia_NNP Centre_NNP ]
+A16	identifiability T16 yes_unamb
+T17	NE_NP 1062 1087	[NP Swanston_NNP St_NNP ]
+A17	identifiability T17 yes_unamb
+T18	NE_NP 1115 1123	route_NN
+A18	identifiability T18 yes_amb
+T19	NE_NP 1149 1158	campus_NN
+A19	identifiability T19 yes_amb
+T20	NE_NP 1170 1183	Buildings_NNS
+A20	identifiability T20 yes_amb
+T21	NE_NP 1235 1244	campus_NN
+A21	identifiability T21 yes_amb
+T22	NE_NP 1488 1508	[NP structures_NNS ]
+A22	identifiability T22 yes_amb
+T23	NE_NP 1616 1625	campus_NN
+A23	identifiability T23 yes_amb
+T24	NE_NP 1672 1686	structures_NNS
+A24	identifiability T24 yes_amb
+T25	NE_NP 1706 1730	[NP Grattan_NNP St_NNP ]
+A25	identifiability T25 yes_unamb
+T27	NE_NP 1775 1784	campus_NN
+A27	identifiability T27 yes_unamb

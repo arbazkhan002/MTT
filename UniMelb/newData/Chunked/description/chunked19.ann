@@ -1,0 +1,70 @@
+T1	NE_NP 31 54	Parkville_NNP campus_NN
+A1	identifiability T1 yes_unamb
+T2	NE_NP 158 182	[NP Grattan_NNP St_NNP ]
+A2	identifiability T2 yes_unamb
+T3	NE_NP 206 224	sports_NNS oval_NN
+A3	identifiability T3 yes_amb
+T4	NE_NP 235 254	sports_NNS track_NN
+A4	identifiability T4 yes_amb
+T5	NE_NP 259 265	gym_NN
+A5	identifiability T5 yes_amb
+T6	NE_NP 273 293	swimming_VBG pool_NN
+A6	identifiability T6 yes_amb
+T7	NE_NP 321 341	sports_NNS centre_NN
+A7	identifiability T7 yes_amb
+T8	NE_NP 386 394	north_NN
+A8	identifiability T8 yes_amb
+T9	NE_NP 489 497	north_NN
+A9	identifiability T9 yes_amb
+T10	NE_NP 577 585	south_RB
+A10	identifiability T10 yes_amb
+T11	NE_NP 600 626	[NP sports_NNS center_NN ]
+A11	identifiability T11 yes_amb
+T12	NE_NP 684 701	union_NN house_NN
+A12	identifiability T12 yes_unamb
+T13	NE_NP 752 766	food_NN court_
+A13	identifiability T13 yes_amb
+T14	NE_NP 776 802	activities_NNS building_NN
+A14	identifiability T14 yes_amb
+T15	NE_NP 904 937	Redmond_NNP Barry_NNP building_NN
+A15	identifiability T15 yes_unamb
+T16	NE_NP 968 976	north_NN
+A16	identifiability T16 yes_amb
+T17	NE_NP 1027 1044	[NP physics_NNS ]
+A17	identifiability T17 yes_amb
+T18	NE_NP 1049 1064	[NP Maths_NNP ]
+A18	identifiability T18 yes_amb
+T19	NE_NP 1098 1121	engineering_NN block_NN
+A19	identifiability T19 yes_amb
+T20	NE_NP 1162 1175	[NP South_NNP
+A20	identifiability T20 yes_amb
+T21	NE_NP 1201 1219	Grattan_NNP St_NNP
+A21	identifiability T21 yes_unamb
+T22	NE_NP 1269 1281	Colleges_NNS
+A22	identifiability T22 yes_amb
+T23	NE_NP 1288 1317	[NP security_NN offices_NNS ]
+A23	identifiability T23 yes_amb
+T24	NE_NP 1391 1399	south_NN
+A24	identifiability T24 yes_amb
+T25	NE_NP 1441 1459	law_NN building_NN
+A25	identifiability T25 yes_amb
+T26	NE_NP 1480 1503	university_NN square_NN
+A26	identifiability T26 yes_unamb
+T27	NE_NP 1548 1559	business_NN
+A27	identifiability T27 yes_amb
+T28	NE_NP 1573 1594	IT_PRP ] [NP block_NN
+A28	identifiability T28 yes_amb
+T29	NE_NP 1755 1779	[NP Grattan_NNP St_NNP ]
+A29	identifiability T29 yes_unamb
+T30	NE_NP 1864 1898	bio_NN and_CC medicine_NN block_NN
+A30	identifiability T30 yes_amb
+T31	NE_NP 1970 1980	library_NN
+A31	identifiability T31 yes_amb
+T32	NE_NP 2023 2046	Bailleau_NNP library_NN
+A32	identifiability T32 yes_unamb
+T33	NE_NP 2109 2136	botany_NN and_CC zoology_NN
+A33	identifiability T33 yes_amb
+T34	NE_NP 2345 2362	administration_NN
+A34	identifiability T34 yes_amb
+T35	NE_NP 2388 2397	center_NN
+A35	identifiability T35 yes_amb

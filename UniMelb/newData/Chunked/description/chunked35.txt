@@ -1,0 +1,9 @@
+ [NP The_DT campus_NN ] [VP is_VBZ located_VBN ] [PP in_IN ] [NP the_DT area_NN ] [ADVP north_RB ] [PP of_IN ] [NP Grattan_NNP St_NNP ] [PP and_CC ] [PP between_IN ] [NP Swanston_NNP St_NNP and_CC Royal_NNP parade_NN ] [VP (_-LRB- ] [NP the_DT extension_NN ] [PP of_IN ] [NP Elizabeth_NNP st_NN )_-RRB- ] ._.
+ [NP The_DT campus_NN ] [VP is_VBZ ] [NP a_DT collection_NN ] [PP of_IN ] [NP many_JJ buildings_NNS ] [PP of_IN ] [NP differing_VBG styles_NNS ] [VP constructed_VBN ] [PP over_IN ] [NP the_DT last_JJ 150_CD years_NNS ] ._.
+ [NP Only_RB a_DT few_JJ ] [VP are_VBP ] [NP more_RBR than_IN 8_CD stories_NNS ] [ADJP high_JJ ] ._.
+ [NP There_EX ] [VP are_VBP ] [NP few_JJ open_JJ spaces_NNS ] [PP on_IN ] [NP the_DT campus_NN (_-LRB- ] [PP except_IN ] [PP on_IN and_CC around_IN ] [NP the_DT sports_NNS ovals_NNS ] [PP at_IN ] [NP the_DT north_JJ end_NN ] [PP of_IN ] [NP the_DT campus_NN )_-RRB- ] ._.
+ [ADVP However_RB ] ,_, [NP there_EX ] [VP is_VBZ ] [NP one_CD large_JJ lawn_NN area_NN ] [PP about_IN ] [NP two_CD hundred_CD meters_NNS ] [ADVP north_RB ] [PP of_IN ] [NP the_DT main_JJ Grattan_NNP st_NN entrance_NN ] ._.
+ [NP This_DT ] [VP serves_VBZ ] [SBAR as_IN ] [NP useful_JJ central_JJ focus_NN point_NN ] [PP for_IN ] [NP the_DT campus_NN ] ._.
+ [NP [_NN ] [NP I_PRP ] [VP would_MD draw_VB ] [NP a_DT map_NN ] ]_.
+ 
+ 

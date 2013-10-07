@@ -1,0 +1,120 @@
+T1	NE_NP 12 21	campus_NN
+A1	identifiability T1 yes_amb
+T2	NE_NP 61 87	[NP Royal_NNP Parade_NNP ]
+A2	identifiability T2 yes_unamb
+T3	NE_NP 95 124	[NP Swanston_NNP Street_NNP ]
+A3	identifiability T3 yes_unamb
+T5	NE_NP 246 266	Royal_NNP Parade_NNP
+A5	identifiability T5 yes_unamb
+T6	NE_NP 365 396	Kenneth_NNP Myer_NNP Centre_NNP
+A6	identifiability T6 yes_unamb
+T7	NE_NP 486 493	café_NN
+A7	identifiability T7 yes_amb
+T8	NE_NP 553 564	building_NN
+A8	identifiability T8 yes_amb
+T9	NE_NP 609 616	path_NN
+A9	identifiability T9 yes_amb
+T10	NE_NP 705 716	building_NN
+A10	identifiability T10 yes_amb
+T11	NE_NP 776 791	intersection_NN
+A11	identifiability T11 yes_amb
+T12	NE_NP 914 921	door_NN
+A12	identifiability T12 yes_amb
+T13	NE_NP 1002 1036	Arts_NNS ] [NP West_JJ building_NN
+A13	identifiability T13 yes_unamb
+T14	NE_NP 1108 1115	door_NN
+A14	identifiability T14 yes_amb
+T15	NE_NP 1177 1188	toilets_NNS
+A15	identifiability T15 yes_amb
+T16	NE_NP 1149 1162	downstairs_NN
+A16	identifiability T16 yes_amb
+T17	NE_NP 1272 1281	doors_NNS
+A17	identifiability T17 yes_amb
+T18	NE_NP 1335 1342	café_NN
+A18	identifiability T18 yes_amb
+T19	NE_NP 1455 1462	path_NN
+A19	identifiability T19 yes_amb
+T20	NE_NP 1489 1517	Old_NNP Arts_NNP building_NN
+A20	identifiability T20 yes_unamb
+T21	NE_NP 1567 1655	Graduate_NNP School_NNP ] [PP of_IN ] [NP Humanities_NNP and_CC Social_NNP Sciences_NNPS
+A21	identifiability T21 yes_amb
+T22	NE_NP 1690 1713	lecture_NN theatres_NNS
+A22	identifiability T22 yes_amb
+T23	NE_NP 1723 1751	[NP teaching_NN spaces_NNS ]
+A23	identifiability T23 yes_amb
+T24	NE_NP 1797 1827	administration_NN counters_NNS
+A24	identifiability T24 yes_amb
+T25	NE_NP 2049 2060	building_NN
+A25	identifiability T25 yes_amb
+T26	NE_NP 2206 2216	arches_NNS
+A26	identifiability T26 yes_amb
+T27	NE_NP 2242 2258	Old_NNP Quad_NNP
+A27	identifiability T27 yes_unamb
+T28	NE_NP 2486 2495	steps_NNS
+A28	identifiability T28 yes_amb
+T29	NE_NP 2569 2576	road_NN
+A29	identifiability T29 yes_amb
+T30	NE_NP 2596 2619	[NP Monash_NNP Road_NNP
+A30	identifiability T30 yes_unamb
+T31	NE_NP 2692 2705	buildings_NNS
+A31	identifiability T31 yes_amb
+T32	NE_NP 2847 2876	[NP Swanston_NNP Street_NNP ]
+A32	identifiability T32 yes_unamb
+T33	NE_NP 2714 2723	Maths_NNS
+A33	identifiability T33 yes_amb
+T34	NE_NP 2765 2781	[NP Optometry_NN
+A34	identifiability T34 yes_amb
+T35	NE_NP 2948 2965	Arts_NNP West_NNP
+A35	identifiability T35 yes_unamb
+T36	NE_NP 3006 3013	path_NN
+A36	identifiability T36 yes_amb
+T37	NE_NP 3117 3141	Baillieu_NNP Library_NNP
+A37	identifiability T37 yes_unamb
+T38	NE_NP 3218 3243	university_NN bookshop_NN
+A38	identifiability T38 yes_amb
+T39	NE_NP 3305 3314	steps_NNS
+A39	identifiability T39 yes_amb
+T40	NE_NP 3421 3431	library_NN
+A40	identifiability T40 yes_amb
+T41	NE_NP 3544 3551	lawn_NN
+A41	identifiability T41 yes_amb
+T42	NE_NP 3588 3603	[NP seats_NNS ]
+A42	identifiability T42 yes_amb
+T43	NE_NP 3746 3753	path_NN
+A43	identifiability T43 yes_amb
+T44	NE_NP 3846 3853	path_NN
+A44	identifiability T44 yes_amb
+T45	NE_NP 3938 3951	buildings_NNS
+A45	identifiability T45 yes_amb
+T46	NE_NP 3976 4024	sciences_NNS and_CC engineering_NN buildings_NNS
+A46	identifiability T46 yes_amb
+T47	NE_NP 4078 4106	[NP Gratton_NNP Street_NNP ]
+A47	identifiability T47 yes_unamb
+T48	NE_NP 4227 4243	Old_NNP Arts_NNP
+A48	identifiability T48 yes_unamb
+T49	NE_NP 4291 4307	Old_NNP Quad_NNP
+A49	identifiability T49 yes_unamb
+T50	NE_NP 4339 4355	Old_NNP Arts_NNP
+A50	identifiability T50 yes_unamb
+T51	NE_NP 4601 4637	Student_NNP Services_NNP building_NN
+A51	identifiability T51 yes_amb
+T52	NE_NP 4699 4708	shops_NNS
+A52	identifiability T52 yes_amb
+T53	NE_NP 4857 4888	student_NN advice_NN counter_NN
+A53	identifiability T53 yes_amb
+T54	NE_NP 4993 5010	Arts_NNP West_NNP
+A54	identifiability T54 yes_amb
+T55	NE_NP 5095 5106	building_NN
+A55	identifiability T55 yes_amb
+T56	NE_NP 5158 5206	Linguistics_NNP and_CC Languages_NNP building_NN
+A56	identifiability T56 yes_amb
+T57	NE_NP 5452 5459	path_NN
+A57	identifiability T57 yes_amb
+T58	NE_NP 5511 5534	[NP Tin_NNP Alley_NNP ]
+A58	identifiability T58 yes_unamb
+T59	NE_NP 5674 5701	Student_NN ] [NP Centre_NNP
+A59	identifiability T59 yes_amb
+T60	NE_NP 5709 5732	[NP Tin_NNP Alley_NNP ]
+A60	identifiability T60 yes_unamb
+T61	NE_NP 5773 5802	[NP Swanston_NNP Street_NNP ]
+A61	identifiability T61 yes_unamb

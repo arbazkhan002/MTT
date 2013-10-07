@@ -1,0 +1,10 @@
+The DT None None False False Aaa Aa 3 -1 -1 NP None 3 0 O None None The DT 0 0 Lewiss NNP DT 1 The B-NP False O O O False False 3 the False -1 True True O None O
+Lewiss NNP None None False False Aaaaaa Aa 6 -1 -1 NP None 3 1 O None None The DT 1 0 Lewiss NNP DT 1 Lewiss I-NP False O O O False False 3 lewis False -1 True True O None O
+house NN None None False False aaaaa a 5 -1 -1 NP None 3 2 O None None The DT 2 0 Lewiss NNP DT 1 house I-NP False O O O True False 3 house False -1 False True O None O
+at IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 3 1 None None IN 1 at B-PP False None None None False False 1 at False -1 False True O None O
+11 CD None None False False 00 0 2 -1 -1 NP None 4 0 O None at None CD 4 2 Prospect NNP NNP 2 11 B-NP False O O O False False 4 11 True 0 False True O None O
+Prospect NNP None None False False Aaaaaaaa Aa 8 -1 -1 NP None 4 1 O None at None CD 5 2 Prospect NNP NNP 2 Prospect I-NP False B-S B-HMSD O False False 4 prospect True 0 True True O False O
+hill NN None None False False aaaa a 4 -1 -1 NP None 4 2 O None at None CD 6 2 Prospect NNP NNP 2 hill I-NP False B-S B-FRM O False False 4 hill True 0 False True O False O
+Road NNP None None False False Aaaa Aa 4 -1 -1 NP None 4 3 O None at None CD 7 2 Prospect NNP NNP 2 Road I-NP False O O O True False 4 road True 0 True True O None O
+. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 8 3 None None . 1 . O False None None None False False 1 . False -1 False True O None O
+

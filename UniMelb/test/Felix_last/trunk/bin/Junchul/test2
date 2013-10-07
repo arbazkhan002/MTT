@@ -1,0 +1,18 @@
+I PRP None None False False A A 1 -1 -1 NP None 1 0 O None None None PRP 0 0 None None PRP 1 I B-NP True O O O False False 1 i False -1 True True O None O
+am VBP None None False False aa a 2 -1 -1 VP None 2 0 O None None None VBP 1 1 Waiting VBG VBP 1 am B-VP False None None None False False 2 be False -1 False True O None O
+Waiting VBG None None False False Aaaaaaa Aa 7 -1 -1 VP None 2 1 O None None None VBP 2 1 Waiting VBG VBP 1 Waiting I-VP False None None None False False 2 wait False -1 True True O None O
+for IN None None False False aaa a 3 -1 -1 PP None 1 0 O None None None IN 3 2 None None IN 1 for B-PP False None None None False False 1 for False -1 False True O None O
+the DT None None False False aaa a 3 -1 -1 NP None 2 0 O None for the DT 4 3 pub NN DT 1 the B-NP False O O O False False 2 the False -1 False True O None O
+pub NN None None False False aaa a 3 -1 -1 NP None 2 1 O None for the DT 5 3 pub NN DT 1 pub I-NP False O O O False False 2 pub False -1 False True O None O
+to TO None None False False aa a 2 -1 -1 VP None 2 0 O None None None TO 6 4 open VB TO 1 to B-VP False None None None False False 2 to False -1 False True O None O
+open VB None None False False aaaa a 4 -1 -1 VP None 2 1 O None None None TO 7 4 open VB TO 1 open I-VP False None None None True False 2 open False -1 False True O None O
+at IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 8 5 None None IN 1 at B-PP False None None None False False 1 at False -1 False True O None O
+the DT None None False False aaa a 3 -1 -1 NP None 4 0 O None at the DT 9 6 Wobbly NNP NNP 3 the B-NP False O O O False False 4 the False -1 False True O None O
+Wobbly NNP None None False False Aaaaaa Aa 6 -1 -1 NP None 4 1 O None at the DT 10 6 Wobbly NNP NNP 3 Wobbly I-NP False O O O False False 4 wobbly False -1 True True O None O
+Boot NNP None None False False Aaaa Aa 4 -1 -1 NP None 4 2 O None at the DT 11 6 Wobbly NNP NNP 3 Boot I-NP False O O O True False 4 boot False -1 True True O None O
+Hotel NNP None None False False Aaaaa Aa 5 -1 -1 NP None 4 3 O None at the DT 12 6 Wobbly NNP NNP 3 Hotel I-NP False B-S B-SCH O True False 4 hotel False -1 True True O False O
+at IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 13 7 None None IN 1 at B-PP False None None None False False 1 at False -1 False True O None O
+Boggabilla NNP None None False False Aaaaaaaaaa Aa 10 -1 -1 NP None 1 0 O None at None NNP 14 8 None None NNP 1 Boggabilla B-NP False B-P B-PPL O False False 1 boggabilla False -1 True True O False O
+, , None None False False _ _ 1 -1 -1 None None 1 0 O None None None , 15 9 None None , 1 , O False None None None False False 1 , False -1 False True O None O
+NSW. . None None False False AAA_ A_ 4 -1 -1 None None 1 0 O None None None . 16 10 None None . 1 NSW. O True None None None False False 1 nsw. False -1 True True O None O
+

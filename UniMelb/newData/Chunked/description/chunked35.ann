@@ -1,0 +1,28 @@
+T1	NE_NP 12 21	campus_NN
+A1	identifiability T1 yes_amb
+T2	NE_NP 72 79	area_NN
+A2	identifiability T2 yes_amb
+T3	NE_NP 111 135	[NP Grattan_NNP St_NNP ]
+A3	identifiability T3 yes_unamb
+T4	NE_NP 166 186	[NP Swanston_NNP St_
+A4	identifiability T4 yes_unamb
+T5	NE_NP 197 216	Royal_NNP parade_NN
+A5	identifiability T5 yes_unamb
+T6	NE_NP 275 294	Elizabeth_NNP st_NN
+A6	identifiability T6 yes_unamb
+T7	NE_NP 321 330	campus_NN
+A7	identifiability T7 yes_amb
+T8	NE_NP 395 408	buildings_NNS
+A8	identifiability T8 yes_amb
+T10	NE_NP 718 727	campus_NN
+A10	identifiability T10 yes_amb
+T9	NE_NP 794 814	sports_NNS ovals_NNS
+A9	identifiability T9 yes_amb
+T11	NE_NP 881 890	campus_NN
+A11	identifiability T11 yes_amb
+T12	NE_NP 977 984	lawn_NN
+A12	identifiability T12 yes_amb
+T13	NE_NP 1093 1122	Grattan_NNP st_NN entrance_NN
+A13	identifiability T13 yes_unamb
+T14	NE_NP 1244 1253	campus_NN
+A14	identifiability T14 yes_amb

@@ -1,0 +1,46 @@
+T1	NE_NP 58 81	[NP Monash_NNP Rd_NNP ]
+A1	identifiability T1 yes_unamb
+T2	NE_NP 100 128	[NP Swanston_NNP street_NN ]
+A2	identifiability T2 yes_unamb
+T3	NE_NP 169 208	Sydney_NNP Myer_NNP Asia_NNP Centre_NNP
+A3	identifiability T3 yes_unamb
+T4	NE_NP 265 312	Future_JJ Students_NNS Information_NN Centre_NN
+A4	identifiability T4 yes_unamb
+T5	NE_NP 401 424	[NP Monash_NNP Rd_NNP ]
+A5	identifiability T5 yes_unamb
+T6	NE_NP 562 580	coffee_NN place_NN
+A6	identifiability T6 yes_amb
+T7	NE_NP 659 679	Union_JJ Building_NN
+A7	identifiability T7 yes_unamb
+T8	NE_NP 721 731	stairs_NNS
+A8	identifiability T8 yes_amb
+T9	NE_NP 805 823	South_NNP Lawn_NNP
+A9	identifiability T9 yes_unamb
+T10	NE_NP 886 904	South_NNP Lawn_NNP
+A10	identifiability T10 yes_unamb
+T11	NE_NP 978 1002	Baillieu_NNP Library_NNP
+A11	identifiability T11 yes_unamb
+T12	NE_NP 1023 1045	Coop_NNP Bookstore_NNP
+A12	identifiability T12 yes_unamb
+T13	NE_NP 1172 1208	Professor_NNP ] [NP 's_POS Court_NNP
+A13	identifiability T13 yes_unamb
+T14	NE_NP 1226 1248	Babel_NNP Building_NNP
+A14	identifiability T14 yes_unamb
+T15	NE_NP 1262 1272	Botany_NNP
+A15	identifiability T15 yes_amb
+T16	NE_NP 1351 1373	university_NN house_NN
+A16	identifiability T16 yes_unamb
+T17	NE_NP 1453 1462	Babel_NNP
+A17	identifiability T17 yes_unamb
+T18	NE_NP 1499 1506	road_NN
+A18	identifiability T18 yes_amb
+T19	NE_NP 1565 1574	cafes_NNS
+A19	identifiability T19 yes_amb
+T20	NE_NP 1662 1671	Babel_NNP
+A20	identifiability T20 yes_unamb
+T21	NE_NP 1720 1750	Old_NNP Arts_NNPS Building_NNP
+A21	identifiability T21 yes_unamb
+T22	NE_NP 1794 1816	Old_NNP Quadrangle_NNP
+A22	identifiability T22 yes_unamb
+T23	NE_NP 1979 2001	Union_NNP Building_NNP
+A23	identifiability T23 yes_unamb

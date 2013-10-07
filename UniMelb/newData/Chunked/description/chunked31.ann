@@ -1,0 +1,20 @@
+T1	NE_NP 96 105	campus_NN
+A1	identifiability T1 yes_amb
+T2	NE_NP 127 140	university_NN
+A2	identifiability T2 yes_amb
+T3	NE_NP 311 321	places_NNS
+A3	identifiability T3 yes_amb
+T4	NE_NP 412 434	[NP Union_NNP house_NN
+A4	identifiability T4 yes_unamb
+T5	NE_NP 518 547	[NP Parkville_NNP campus_NN ]
+A5	identifiability T5 yes_unamb
+T6	NE_NP 575 600	[NP 1888_CD building_NN ]
+A6	identifiability T6 yes_unamb
+T7	NE_NP 646 671	[NP Grattan_NNP street_NN
+A7	identifiability T7 yes_unamb
+T8	NE_NP 686 712	[NP gate_NN ] [VP 8._VBD ]
+A8	identifiability T8 yes_unamb
+T9	NE_NP 714 741	NP Trinity_NNP college_NN ]
+A9	identifiability T9 yes_unamb
+T10	NE_NP 850 868	sport_NN center_NN
+A10	identifiability T10 yes_amb

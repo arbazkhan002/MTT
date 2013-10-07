@@ -1,0 +1,36 @@
+T1	NE_NP 5 33	Melbourne_NNP University_NNP
+A1	identifiability T1 yes_unamb
+T2	NE_NP 72 85	university_NN
+A2	identifiability T2 yes_amb
+T3	NE_NP 177 184	gate_NN
+A3	identifiability T3 yes_amb
+T4	NE_NP 216 253	[NP John_NNP Medley_NNP building_NN ]
+A4	identifiability T4 yes_unamb
+T5	NE_NP 337 346	bridge_NN
+A5	identifiability T5 yes_amb
+T6	NE_NP 378 388	horizon_NN
+A6	identifiability T6 yes_amb
+T7	NE_NP 416 423	gate_NN
+A7	identifiability T7 yes_amb
+T8	NE_NP 461 488	[NP Southern_NNP Lawn_NNP ]
+A8	identifiability T8 yes_unamb
+T9	NE_NP 518 532	[NP place_NN ]
+A9	identifiability T9 yes_amb
+T10	NE_NP 806 819	buildings_NNS
+A10	identifiability T10 yes_amb
+T11	NE_NP 1043 1052	campus_NN
+A11	identifiability T11 yes_amb
+T12	NE_NP 1059 1082	[NP union_NN house_NN ]
+A12	identifiability T12 yes_unamb
+T13	NE_NP 1373 1399	[NP Royal_NNP Parade_NNP ]
+A13	identifiability T13 yes_unamb
+T14	NE_NP 1413 1434	[NP Tin_NNP Aly_NNP ]
+A14	identifiability T14 yes_unamb
+T15	NE_NP 1517 1529	colleges_NNS
+A15	identifiability T15 yes_amb
+T16	NE_NP 1550 1562	colleges_NNS
+A16	identifiability T16 yes_amb
+T17	NE_NP 1765 1783	tram_NN station_NN
+A17	identifiability T17 yes_amb
+T18	NE_NP 1798 1816	[NP Swanston_NNP ]
+A18	identifiability T18 yes_unamb

@@ -1,0 +1,142 @@
+T1	NE_NP 53 136	University_NNP ] [PP of_IN ] [NP Melbourne_NNP ] [NP 's_POS Parkville_NNP campus_NN
+A1	identifiability T1 yes_unamb
+T2	NE_NP 181 210	[NP Swanston_NNP Street_NNP ]
+A2	identifiability T2 yes_unamb
+T3	NE_NP 234 239	east_
+A3	identifiability T3 yes_amb
+T4	NE_NP 249 266	Royal_NNP Pde_NNP
+A4	identifiability T4 yes_unamb
+T5	NE_NP 292 299	west_NN
+A5	identifiability T5 yes_amb
+T6	NE_NP 357 381	[NP Grattan_NNP St_NNP ]
+A6	identifiability T6 yes_unamb
+T7	NE_NP 406 426	south_JJ boundary_NN
+A7	identifiability T7 yes_unamb
+T8	NE_NP 460 467	part_NN
+A8	identifiability T8 yes_amb
+T9	NE_NP 514 527	faculties_NNS
+A9	identifiability T9 yes_amb
+T10	NE_NP 555 568	buildings_NNS
+A10	identifiability T10 yes_amb
+T11	NE_NP 608 632	[NP Grattan_NNP St_NNP ]
+A11	identifiability T11 yes_unamb
+T12	NE_NP 651 658	city_NN
+A12	identifiability T12 yes_amb
+T13	NE_NP 689 697	north_NN
+A13	identifiability T13 yes_amb
+T14	NE_NP 712 727	[NP campus_NN ]
+A14	identifiability T14 yes_amb
+T15	NE_NP 741 766	[NP Tinpan_NNP alley_NN ]
+A15	identifiability T15 yes_unamb
+T16	NE_NP 850 865	[NP campus_NN ]
+A16	identifiability T16 yes_amb
+T17	NE_NP 891 918	residential_JJ colleges_NNS
+A17	identifiability T17 yes_amb
+T18	NE_NP 1056 1065	campus_NN
+A18	identifiability T18 yes_amb
+T19	NE_NP 1152 1177	[NP Union_NNP House_NNP ]
+A19	identifiability T19 yes_unamb
+T20	NE_NP 1372 1403	Swanston_NNP St_NNP tramstop_NN
+A20	identifiability T20 yes_unamb
+T21	NE_NP 1505 1512	city_NN
+A21	identifiability T21 yes_amb
+T22	NE_NP 1588 1627	Sidney_NNP Myer_NNP Asia_NNP Centre_NNP
+A22	identifiability T22 yes_unamb
+T23	NE_NP 1758 1767	street_NN
+A23	identifiability T23 yes_amb
+T24	NE_NP 1896 1907	tramstop_NN
+A24	identifiability T24 yes_amb
+T25	NE_NP 2064 2089	[NP Wilson_NNP Hall_NNP ]
+A25	identifiability T25 yes_unamb
+T26	NE_NP 2258 2281	[NP Wilson_NNP Hall_NNP
+A26	identifiability T26 yes_unamb
+T27	NE_NP 2373 2384	building_NN
+A27	identifiability T27 yes_amb
+T28	NE_NP 2596 2621	[NP Union_NNP House_NNP ]
+A28	identifiability T28 yes_unamb
+T29	NE_NP 2835 2856	Student_NNP Union_NNP
+A29	identifiability T29 yes_unamb
+T30	NE_NP 2872 2898	non-academic_JJ library_NN
+A30	identifiability T30 yes_amb
+T31	NE_NP 2921 2935	facilities_NNS
+A31	identifiability T31 yes_amb
+T32	NE_NP 2989 3014	[NP Union_NNP House_NNP ]
+A32	identifiability T32 yes_unamb
+T33	NE_NP 2966 2974	north_NN
+A33	identifiability T33 yes_amb
+T34	NE_NP 3064 3077	uni_JJ gym_NN
+A34	identifiability T34 yes_amb
+T35	NE_NP 3128 3155	residential_JJ colleges_NNS
+A35	identifiability T35 yes_amb
+T36	NE_NP 3210 3223	buildings_NNS
+A36	identifiability T36 yes_amb
+T37	NE_NP 3238 3253	[NP campus_NN ]
+A37	identifiability T37 yes_amb
+T38	NE_NP 3278 3294	Law_NNP Quad_NNP
+A38	identifiability T38 yes_unamb
+T39	NE_NP 3352 3377	[NP Union_NNP House_NNP ]
+A39	identifiability T39 yes_unamb
+T40	NE_NP 3433 3440	door_NN
+A40	identifiability T40 yes_amb
+T41	NE_NP 3468 3503	University_NNP ] [NP 's_POS shop_NN
+A41	identifiability T41 yes_amb
+T42	NE_NP 3568 3580	courtyard_NN
+A42	identifiability T42 yes_amb
+T43	NE_NP 3622 3632	passage_NN
+A43	identifiability T43 yes_amb
+T44	NE_NP 3663 3676	buildings_NNS
+A44	identifiability T44 yes_amb
+T45	NE_NP 3866 3877	building_NN
+A45	identifiability T45 yes_amb
+T46	NE_NP 3996 4014	law_NN building_NN
+A46	identifiability T46 yes_amb
+T47	NE_NP 4137 4144	city_NN
+A47	identifiability T47 yes_amb
+T48	NE_NP 4244 4252	space_NN
+A48	identifiability T48 yes_amb
+T49	NE_NP 4551 4558	path_NN
+A49	identifiability T49 yes_amb
+T50	NE_NP 4757 4780	Baillieu_NNP library_NN
+A50	identifiability T50 yes_unamb
+T51	NE_NP 4866 4876	library_NN
+A51	identifiability T51 yes_amb
+T52	NE_NP 4931 4959	Old_NNP Arts_NNP building_NN
+A52	identifiability T52 yes_unamb
+T53	NE_NP 5220 5230	library_NN
+A53	identifiability T53 yes_amb
+T54	NE_NP 5356 5367	building_NN
+A54	identifiability T54 yes_amb
+T55	NE_NP 5398 5419	Babel_NNP building_NN
+A55	identifiability T55 yes_unamb
+T56	NE_NP 5592 5614	zoology_NN building_NN
+A56	identifiability T56 yes_amb
+T57	NE_NP 5647 5656	garden_NN
+A57	identifiability T57 yes_amb
+T58	NE_NP 5770 5781	building_NN
+A58	identifiability T58 yes_amb
+T59	NE_NP 6155 6171	[NP zoology_NN ]
+A59	identifiability T59 yes_amb
+T60	NE_NP 6220 6231	building_NN
+A60	identifiability T60 yes_amb
+T61	NE_NP 6326 6352	music_NN conservatorium_NN
+A61	identifiability T61 yes_amb
+T62	NE_NP 6368 6379	building_NN
+A62	identifiability T62 yes_amb
+T63	NE_NP 6484 6501	[NP university_NN
+A63	identifiability T63 yes_amb
+T64	NE_NP 6670 6688	Dax_NNP Centre_NNP
+A64	identifiability T64 yes_unamb
+T65	NE_NP 6750 6757	cafe_NN
+A65	identifiability T65 yes_amb
+T66	NE_NP 6949 6973	[NP Seven_CD Seeds_NNS ]
+A66	identifiability T66 yes_unamb
+T67	NE_NP 6998 7018	Readings_NNS shop_NN
+A67	identifiability T67 yes_unamb
+T68	NE_NP 7094 7105	corner_NN ]
+A68	identifiability T68 yes_amb
+T69	NE_NP 7118 7141	[NP Royal_NNP Pde_NNP ]
+A69	identifiability T69 yes_unamb
+T70	NE_NP 7149 7173	[NP Grattan_NNP St_NNP ]
+A70	identifiability T70 yes_unamb
+T71	NE_NP 7302 7309	city_NN
+A71	identifiability T71 yes_amb

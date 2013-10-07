@@ -1,0 +1,64 @@
+T1	NE_NP 12 21	campus_NN
+A1	identifiability T1 yes_amb
+T2	NE_NP 81 90	roads_NNS
+A2	identifiability T2 yes_amb
+T3	NE_NP 97 124	[NP swanston_JJ street_NN ]
+A3	identifiability T3 yes_unamb
+T4	NE_NP 148 155	East_NN
+A4	identifiability T4 yes_amb
+T5	NE_NP 161 182	Grattan_NNP street_NN
+A5	identifiability T5 yes_unamb
+T6	NE_NP 183 191	South_NN
+A6	identifiability T6 yes_amb
+T7	NE_NP 200 221	Royal_NNP parade_NN ]
+A7	identifiability T7 yes_unamb
+T8	NE_NP 245 253	West_NNP
+A8	identifiability T8 yes_amb
+T9	NE_NP 272 281	campus_NN
+A9	identifiability T9 yes_amb
+T11	NE_NP 405 418	buildings_NNS
+A11	identifiability T11 yes_amb
+T10	NE_NP 479 491	walkways_NNS
+A10	identifiability T10 yes_amb
+T12	NE_NP 535 544	campus_NN
+A12	identifiability T12 yes_amb
+T13	NE_NP 580 591	entrance_NN
+A13	identifiability T13 yes_amb
+T14	NE_NP 606 633	[NP Grattan_NNP street_NN ]
+A14	identifiability T14 yes_unamb
+T15	NE_NP 687 698	entrance_NN
+A15	identifiability T15 yes_amb
+T16	NE_NP 752 765	buildings_NNS
+A16	identifiability T16 yes_amb
+T17	NE_NP 780 807	[NP Melbourne_NNP Uni_NNP ]
+A17	identifiability T17 yes_unamb
+T18	NE_NP 827 870	Business_NN ] and_CC [NP Law_NNP School_NNP
+A18	identifiability T18 yes_unamb
+T19	NE_NP 917 957	faculty_NN ] [PP of_IN ] [NP commerce_NN
+A19	identifiability T19 yes_amb
+T20	NE_NP 1044 1060	[NP stairs_NNS ]
+A20	identifiability T20 yes_amb
+T21	NE_NP 1094 1116	[NP south_JJ lawn_NN ]
+A21	identifiability T21 yes_unamb
+T22	NE_NP 1178 1188	carpark_NN
+A22	identifiability T22 yes_amb
+T23	NE_NP 1257 1286	old_JJ Arts_NNS buildings_NNS
+A23	identifiability T23 yes_amb
+T24	NE_NP 1304 1324	medical_JJ school_NN
+A24	identifiability T24 yes_amb
+T25	NE_NP 1334 1361	[NP Baileu_NNP library_NN ]
+A25	identifiability T25 yes_unamb
+T26	NE_NP 1423 1472	geography_NN and_CC architecture_NN buildings_NNS
+A26	identifiability T26 yes_unamb
+T27	NE_NP 1543 1559	Old_NNP Quad_NNP
+A27	identifiability T27 yes_unamb
+T28	NE_NP 1680 1689	campus_NN
+A28	identifiability T28 yes_amb
+T29	NE_NP 1850 1879	[NP University_NNP house_NN ]
+A29	identifiability T29 yes_unamb
+T30	NE_NP 1967 1980	buildings_NNS
+A30	identifiability T30 yes_amb
+T31	NE_NP 2037 2062	sports_NNS facilities_NNS
+A31	identifiability T31 yes_amb
+T32	NE_NP 2077 2097	[NP University_NNP ]
+A32	identifiability T32 yes_amb

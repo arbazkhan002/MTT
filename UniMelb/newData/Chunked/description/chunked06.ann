@@ -1,0 +1,18 @@
+T1	NE_NP 12 21	campus_NN
+A1	identifiability T1 yes_amb
+T2	NE_NP 47 62	tram_JJ line_NN
+A2	identifiability T2 yes_amb
+T3	NE_NP 113 141	[NP Swanton_NNP Street_NNP ]
+A3	identifiability T3 yes_unamb
+T4	NE_NP 204 246	[NP Melbourne_NNP Women_NNP Hospital_NNP ]
+A4	identifiability T4 yes_unamb
+T5	NE_NP 263 271	KFC._NNP
+A5	identifiability T5 yes_unamb
+T6	NE_NP 285 294	campus_NN
+A6	identifiability T6 yes_amb
+T7	NE_NP 343 368	University_NNP Square_NNP
+A7	identifiability T7 yes_unamb
+T8	NE_NP 383 410	[NP Gattan_NNP Street_NNP ]
+A8	identifiability T8 yes_unamb
+T9	NE_NP 476 504	Engineering_NNP Building_NNP
+A9	identifiability T9 yes_amb

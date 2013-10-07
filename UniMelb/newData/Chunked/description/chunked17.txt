@@ -1,0 +1,5 @@
+ [NP The_DT campus_NN ] [VP is_VBZ ] [NP an_DT open_JJ space_NN ] ,_, [ADVP slightly_RB north_RB ] [PP of_IN ] [NP the_DT CBD_NNP ] [PP with_IN ] [NP a_DT varying_VBG type_NN ] [PP of_IN ] [NP buildings_NNS ] [VP ranging_VBG ] [PP from_IN ] [NP old_JJ sandstone_NN ] [PP to_TO ] [NP modern_JJ state_NN ] [PP of_IN ] [NP the_DT art_NN buildings_NNS ] ._.
+ [NP There_EX ] [VP are_VBP ] [NP a_DT range_NN ] [PP of_IN ] [NP lawns_NNS and_CC gardens_NNS ] [VP spread_VBD ] [PP through_IN ] [NP the_DT campus_NN ] [PP with_IN ] [NP a_DT varying_VBG demographic_JJ ] [PP of_IN ] [NP student_NN ] ._.
+ [NP There_EX ] [VP are_VBP building_VBG ] [NP sites_NNS ] [VP clustered_VBN ] [PP throughout_IN ] [NP the_DT campus_NN ] ._.
+ [NP The_DT campus_NN ] [VP differs_VBZ ] [PP from_IN ] [NP its_PRP$ surrounds_NNS ] [PP as_IN ] [NP a_DT low_JJ density_NN pocket_NN ] [PP within_IN ] [NP an_DT extremely_RB high_JJ density_NN area_NN ] ._.
+ 

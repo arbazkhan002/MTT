@@ -1,0 +1,28 @@
+T1	NE_NP 12 51	Melbourne_NNP University_NNP Campus_NNP
+A1	identifiability T1 yes_unamb
+T2	NE_NP 198 224	academic_JJ facilities_NNS
+A2	identifiability T2 yes_amb
+T3	NE_NP 338 357	[NP buildings_NNS ]
+A3	identifiability T3 yes_amb
+T4	NE_NP 645 654	campus_NN
+A4	identifiability T4 yes_amb
+T5	NE_NP 726 733	area_NN
+A5	identifiability T5 yes_amb
+T6	NE_NP 767 776	parts_NNS
+A6	identifiability T6 yes_amb
+T7	NE_NP 804 816	premises_NNS
+A7	identifiability T7 yes_amb
+T8	NE_NP 923 933	spaces_NNS
+A8	identifiability T8 yes_amb
+T9	NE_NP 961 976	passageways_NNS
+A9	identifiability T9 yes_amb
+T10	NE_NP 1064 1087	Baillieu_NNP Library_NN
+A10	identifiability T10 yes_unamb
+T11	NE_NP 1124 1137	buildings_NNS
+A11	identifiability T11 yes_amb
+T12	NE_NP 1181 1204	Physics_NNP precinct_NN
+A12	identifiability T12 yes_amb
+T13	NE_NP 1259 1268	campus_NN
+A13	identifiability T13 yes_amb
+T14	NE_NP 1298 1317	coffee_NN shops_NNS
+A14	identifiability T14 yes_amb

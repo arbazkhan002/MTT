@@ -1,0 +1,30 @@
+T1	NE_NP 52 75	Parkville_NNP campus_NN
+A1	identifiability T1 yes_unamb
+T2	NE_NP 206 221	Univiserity_NNP
+A2	identifiability T2 yes_amb
+T3	NE_NP 237 264	[NP swanston_DT street_NN ]
+A3	identifiability T3 yes_unamb
+T4	NE_NP 347 376	monash_NN road_NN entrance_NN
+A4	identifiability T4 yes_unamb
+T5	NE_NP 487 500	buildings_NNS
+A5	identifiability T5 yes_amb
+T6	NE_NP 703 715	pathways_NNS
+A6	identifiability T6 yes_amb
+T7	NE_NP 748 761	buildings_NNS
+A7	identifiability T7 yes_amb
+T8	NE_NP 917 928	gardens_NNS
+A8	identifiability T8 yes_unamb
+T9	NE_NP 1014 1025	gardens_NNS
+A9	identifiability T9 yes_amb
+T10	NE_NP 1191 1215	[NP royal_JJ parade_NN ]
+A10	identifiability T10 yes_unamb
+T11	NE_NP 1304 1320	south_JJ lawn_NN
+A11	identifiability T11 yes_unamb
+T12	NE_NP 1527 1544	union_NN house_NN
+A12	identifiability T12 yes_unamb
+T13	NE_NP 1789 1816	old_JJ arts_NNS building_NN
+A13	identifiability T13 yes_unamb
+T14	NE_NP 2284 2297	buildings_NNS
+A14	identifiability T14 yes_amb
+T15	NE_NP 2311 2322	gardens_NNS
+A15	identifiability T15 yes_amb

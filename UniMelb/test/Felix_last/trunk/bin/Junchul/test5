@@ -1,0 +1,12 @@
+Our PRP$ None None False False Aaa Aa 3 -1 -1 NP None 2 0 O None None None PRP$ 0 0 campsite NN PRP$ 1 Our B-NP False O O O False False 2 our False -1 True True O None O
+campsite NN None None False False aaaaaaaa a 8 -1 -1 NP None 2 1 O None None None PRP$ 1 0 campsite NN PRP$ 1 campsite I-NP False O O O True False 2 campsite False -1 False True O None O
+at IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 2 1 None None IN 1 at B-PP False None None None False False 1 at False -1 False True O None O
+Lake NNP None None False False Aaaa Aa 4 -1 -1 NP None 1 0 O None at None NNP 3 2 None None NNP 1 Lake B-NP False B-S B-FRM O False False 1 lake False -1 True True O False O
+of IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 4 3 None None IN 1 of B-PP False None None None False False 1 of False -1 False True O None O
+the DT None None False False aaa a 3 -1 -1 NP None 2 0 O None of the DT 5 4 Woods NNP DT 1 the B-NP False O O O False False 2 the False -1 False True O None O
+Woods NNP None None False False Aaaaa Aa 5 -1 -1 NP None 2 1 O None of the DT 6 4 Woods NNP DT 1 Woods I-NP False B-P B-PPL O True False 2 wood False -1 True True O False O
+in IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 7 5 None None IN 1 in B-PP False None None None False False 1 in False -1 False True O None O
+Cathedral NNP None None False False Aaaaaaaaa Aa 9 -1 -1 NP None 2 0 O None in None NNP 8 6 Park NNP NNP 2 Cathedral B-NP False O O O True False 2 cathedral False -1 True True O None O
+Park NNP None None False False Aaaa Aa 4 -1 -1 NP None 2 1 O None in None NNP 9 6 Park NNP NNP 2 Park I-NP False O O O True False 2 park False -1 True True O None O
+. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 10 7 None None . 1 . O False None None None False False 1 . False -1 False True O None O
+

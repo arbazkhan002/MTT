@@ -1,0 +1,34 @@
+T1	NE_NP 93 100	tram_NN
+A1	identifiability T1 yes_amb
+T2	NE_NP 126 172	University_NNP ] [PP of_IN ] [NP Melbourne_NNP
+A2	identifiability T2 yes_unamb
+T3	NE_NP 254 269	tram_JJ stop_NN
+A3	identifiability T3 yes_amb
+T4	NE_NP 284 324	[NP Finders_NNP Street_NNP Station_NNP ]
+A4	identifiability T4 yes_unamb
+T5	NE_NP 331 374	[NP Melbourne_NNP Central_NNP Station_NNP ]
+A5	identifiability T5 yes_unamb
+T6	NE_NP 387 416	[NP Swanston_NNP Street_NNP ]
+A6	identifiability T6 yes_unamb
+T7	NE_NP 447 454	tram_NN
+A7	identifiability T7 yes_amb
+T8	NE_NP 483 506	Swanston_NNP Street_NNP
+A8	identifiability T8 yes_unamb
+T9	NE_NP 532 540	north_NN
+A9	identifiability T9 yes_amb
+T10	NE_NP 627 636	campus_NN
+A10	identifiability T10 yes_amb
+T11	NE_NP 662 675	buildings_NNS
+A11	identifiability T11 yes_amb
+T12	NE_NP 731 777	University_NNP ] [PP of_IN ] [NP Melbourne_NNP
+A12	identifiability T12 yes_unamb
+T13	NE_NP 990 1017	historical_JJ buildings_NNS
+A13	identifiability T13 yes_amb
+T14	NE_NP 1043 1052	campus_NN
+A14	identifiability T14 yes_amb
+T15	NE_NP 1105 1129	[NP South_NNP Lawn_NNP ]
+A15	identifiability T15 yes_unamb
+T16	NE_NP 1192 1216	[NP Union_NNP house_NN ]
+A16	identifiability T16 yes_unamb
+T17	NE_NP 1223 1249	[NP Lygon_NNP Street_NNP ]
+A17	identifiability T17 yes_unamb

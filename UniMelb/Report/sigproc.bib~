@@ -1,311 +1,389 @@
-@article{herskovits:pragmatics,
-  title={Semantics and pragmatics of locative expressions},
-  author={Herskovits, Annette},
-  journal={Cognitive Science},
-  volume={9},
-  number={3},
-  pages={341--378},
-  year={1985},
-  publisher={Elsevier}
+% This file was created with JabRef 2.8.1.
+% Encoding: Cp1252
+@INPROCEEDINGS{bastianelli:unitor,
+  author = {Bastianelli, Emanuele and Croce, Danilo and Basili, Roberto and Nardi,
+	Daniele},
+  title = {UNITOR-HMM-TK: Structured Kernel-based learning for Spatial Role
+	Labeling},
+  booktitle = {Proceedings of the Seventh International Workshop on Semantic Evaluation
+	(SemEval 2013). Association for Computational Linguistics},
+  year = {2013}
 }
 
-@article{Kordjamshidi:labelling,
- author = {Kordjamshidi, Parisa and Van Otterlo, Martijn and Moens, Marie-Francine},
- title = {Spatial role labeling: Towards extraction of spatial relations from natural language},
- journal = {ACM Trans. Speech Lang. Process.},
- issue_date = {December 2011},
- volume = {8},
- number = {3},
- month = dec,
- year = {2011},
- issn = {1550-4875},
- pages = {4:1--4:36},
- articleno = {4},
- numpages = {36},
- url = {http://doi.acm.org/10.1145/2050104.2050105},
- doi = {10.1145/2050104.2050105},
- acmid = {2050105},
- publisher = {ACM},
- address = {New York, NY, USA},
- keywords = {Semantic labeling, spatial information extraction, spatial relations},
-} 
-
-@inproceedings{olivier:semantics,
-  title={A computational view of the cognitive semantics of spatial prepositions},
-  author={Olivier, Patrick and Tsujii, Jun-ichi},
-  booktitle={Proceedings of the 32nd annual meeting on Association for Computational Linguistics},
-  pages={303--309},
-  year={1994},
-  organization={Association for Computational Linguistics}
-}
-@article{zlatev:semantics,
-  title={Spatial semantics},
-  author={Zlatev, Jordan},
-  journal={Handbook of Cognitive Linguistics},
-  pages={318--350},
-  year={2007}
+@ARTICLE{Bateman:language,
+  author = {Bateman, John A.},
+  title = {Language and Space: A two-level semantic approach based on principles
+	of ontological engineering},
+  journal = {International Journal of Speech Technology},
+  year = {2010},
+  volume = {13},
+  pages = {29--48},
+  number = {1},
+  doi = {10.1007/s10772-010-9069-x},
+  issn = {1381-2416},
+  keywords = {Spatial language; Spatial assistance; Spatial dialogue systems; Ontology;
+	Knowledge representation; Natural language processing},
+  language = {English},
+  publisher = {Springer US},
+  url = {http://dx.doi.org/10.1007/s10772-010-9069-x}
 }
 
-@article{levit:interpretation,
-  title={Interpretation of spatial language in a map navigation task},
-  author={Levit, Michael and Roy, Deb},
-  journal={Systems, Man, and Cybernetics, Part B: Cybernetics, IEEE Transactions on},
-  volume={37},
-  number={3},
-  pages={667--679},
-  year={2007},
-  publisher={IEEE}
+@ARTICLE{Bateman:ontology,
+  author = {Bateman, John A. and Hois, Joana and Ross, Robert and Tenbrink, Thora},
+  title = {A linguistic ontology of space for natural language processing},
+  journal = {Artificial Intelligence},
+  year = {2010},
+  volume = {174},
+  pages = {1027--1071},
+  number = {14},
+  acmid = {1837598},
+  address = {Essex, UK},
+  doi = {10.1016/j.artint.2010.05.008},
+  issn = {0004-3702},
+  issue_date = {September, 2010},
+  keywords = {Linguistic ontology, Natural language semantics, Space, Spatial knowledge,
+	Spatial language},
+  numpages = {45},
+  publisher = {Elsevier Science Publishers Ltd.},
+  url = {http://dx.doi.org/10.1016/j.artint.2010.05.008}
 }
-@article{marneffe:stanford,
-  title={Stanford typed dependencies manual},
-  author={De Marneffe, Marie-Catherine and Manning, Christopher D},
-  journal={URL http://nlp. stanford. edu/software/dependencies\_manual. pdf},
-  year={2008}
+
+@ARTICLE{Bateman:data,
+  author = {Bateman, John and Tenbrink, Thora and Farrar, Scott},
+  title = {The role of conceptual and linguistic ontologies in interpreting
+	spatial discourse},
+  journal = {Discourse Processes},
+  year = {2007},
+  volume = {44},
+  pages = {175--212},
+  number = {3},
+  publisher = {Taylor \& Francis}
 }
-@article{linde:spatial,
-  title={Spatial networks as a site for the study of language and thought},
-  author={Linde, Charlotte and Labov, William},
-  journal={Language},
-  pages={924--939},
-  year={1975},
-  publisher={JSTOR}
+
+@INCOLLECTION{daniel:modes,
+  author = {Daniel, Marie-Paule and Carite, Luc and Denis, Michel},
+  title = {Modes of Linearization in the Description of Spatial Configurations},
+  booktitle = {The Construction of Cognitive Maps},
+  publisher = {Kluwer Academic},
+  year = {1996},
+  editor = {Portugali, Juval},
+  volume = {32},
+  series = {GeoJournal Library},
+  pages = {297--318},
+  address = {Dordrecht},
+  timestamp = {2013.08.29}
 }
-@article{kuipers:modeling,
-  title={Modeling spatial knowledge},
-  author={Kuipers, Benjamin},
-  journal={Cognitive science},
-  volume={2},
-  number={2},
-  pages={129--153},
-  year={1978},
-  publisher={Elsevier}
+
+@INPROCEEDINGS{CLEF:data,
+  author = {Grubinger, Michael and Clough, Paul and M{\"u}ller, Henning and Deselaers,
+	Thomas},
+  title = {The {IAPR TC}-12 benchmark: A new evaluation resource for visual
+	information systems},
+  booktitle = {Proceedings of the International Workshop OntoImage 2006 -- Language
+	Resources for Content Based Image Retrieval},
+  year = {2006},
+  pages = {13--23}
 }
-@inproceedings{maria:descriptions,
-  title={From descriptions to depictions: a conceptual framework},
-  author = "Vasardani, Maria and Timpf, Sabine and Winter, Stephan and Tomko, Martin",
-  journal={Conference on Spatial Information Theory (COSIT)},
-  publisher = {COSIT},
-  address = {Scarborough, North Yorkshire, UK},
-  year={2013}
+
+@ARTICLE{herskovits:pragmatics,
+  author = {Herskovits, Annette},
+  title = {Semantics and pragmatics of locative expressions},
+  journal = {Cognitive Science},
+  year = {1985},
+  volume = {9},
+  pages = {341--378},
+  number = {3},
+  publisher = {Elsevier}
 }
-@phdthesis{kollar:robotic,
- author = {Kollar, Thomas},
- advisor = {Roy, Nicholas},
- title = {Learning to understand spatial language for robotic navigation and mobile manipulation},
- year = {2011},
- note = {AAI0823797},
- publisher = {Massachusetts Institute of Technology},
- address = {Cambridge, MA, USA},
-} 
+
+@PHDTHESIS{kelleher:perceptually,
+  author = {Kelleher, John D.},
+  title = {A perceptually based computational framework for the interpretation
+	of spatial language},
+  school = {Dublin City University},
+  year = {2003}
+}
+
+@INPROCEEDINGS{klein:accurate,
+  author = {Klein, Dan and Manning, Christopher D},
+  title = {Accurate unlexicalized parsing},
+  booktitle = {Proceedings of the 41st Annual Meeting on Association for Computational
+	Linguistics-Volume 1},
+  year = {2003},
+  pages = {423--430},
+  organization = {Association for Computational Linguistics}
+}
+
+@PHDTHESIS{kollar:robotic,
+  author = {Kollar, Thomas},
+  title = {Learning to understand spatial language for robotic navigation and
+	mobile manipulation},
+  year = {2011},
+  address = {Cambridge, MA, USA},
+  note = {AAI0823797},
+  advisor = {Roy, Nicholas},
+  publisher = {Massachusetts Institute of Technology}
+}
+
+@INPROCEEDINGS{tellex:language,
+  author = {Kollar, T. and Tellex, S. and Roy, D. and Roy, N.},
+  title = {Toward understanding natural language directions},
+  booktitle = {5th ACM/IEEE International Conference on Human-Robot Interaction},
+  year = {2010},
+  pages = {259--266},
+  doi = {10.1109/HRI.2010.5453186},
+  keywords = {computational linguistics;human-robot interaction;natural languages;probability;Flickr;cooccurrence
+	statistics;human-robot interaction;linguistics;natural language;probabilistic
+	graphical model;Computational geometry;Data mining;Graphical models;Human
+	robot interaction;Image databases;Information geometry;Natural languages;Object
+	detection;Object oriented databases;Statistics;direction understanding;route
+	instructions;spatial language}
+}
+
+@INPROCEEDINGS{kolomiyets:semeval,
+  author = {Kolomiyets, Oleksandr and Kordjamshidi, Parisa and Bethard, Steven
+	and Moens, Marie-Francine},
+  title = {SemEval-2013 Task 3: Spatial Role Labeling},
+  booktitle = {Proceedings of the 7th International Workshop on Semantic Evaluation},
+  year = {2013},
+  volume = {2},
+  pages = {255--262},
+  address = {Atlanta, Georgia, USA},
+  organization = {Association for Computational Linguistics}
+}
+
+@INPROCEEDINGS{parisa:semeval,
+  author = {Kordjamshidi, Parisa and Bethard, Steven and Moens, Marie-Francine},
+  title = {Sem{E}val-2012 {T}ask 3: Spatial Role Labeling},
+  booktitle = {Proceedings of the {S}em{E}val-2012 Evaluation Exercises},
+  year = {2012},
+  organization = {Association for Computational Linguistics}
+}
+
+@ARTICLE{Kordjamshidi:labelling,
+  author = {Kordjamshidi, Parisa and Van Otterlo, Martijn and Moens, Marie-Francine},
+  title = {Spatial role labeling: Towards extraction of spatial relations from
+	natural language},
+  journal = {ACM Transactions on Speech and Language Processing},
+  year = {2011},
+  volume = {8},
+  pages = {4:1--4:36},
+  number = {3},
+  acmid = {2050105},
+  address = {New York, NY, USA},
+  publisher = {ACM},
+  url = {http://doi.acm.org/10.1145/2050104.2050105}
+}
+
+@INPROCEEDINGS{kordjamshidi:language,
+  author = {Kordjamshidi, Parisa and Van Otterlo, Martijn and Moens, Marie-Francine},
+  title = {From language towards formal spatial calculi},
+  booktitle = {Workshop on Computational Models of Spatial Language Interpretation
+	(CoSLI 2010)},
+  year = {2010}
+}
+
+@ARTICLE{kuipers:modeling,
+  author = {Kuipers, Benjamin},
+  title = {Modeling spatial knowledge},
+  journal = {Cognitive Science},
+  year = {1978},
+  volume = {2},
+  pages = {129--153},
+  number = {2},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{landau:and,
+  author = {Landau, Barbara and Jackendoff, Ray},
+  title = {``{W}hat'' and ``where'' in spatial language and spatial cognition},
+  journal = {Behavioral and Brain Sciences},
+  year = {1993},
+  volume = {16},
+  pages = {217--217},
+  publisher = {Cambridge University Press}
+}
+
+@ARTICLE{levit:interpretation,
+  author = {Levit, Michael and Roy, Deb},
+  title = {Interpretation of spatial language in a map navigation task},
+  journal = {Systems, Man, and Cybernetics, Part B: Cybernetics, IEEE Transactions
+	on},
+  year = {2007},
+  volume = {37},
+  pages = {667--679},
+  number = {3},
+  publisher = {IEEE}
+}
+
+@INPROCEEDINGS{Hanjing:route,
+  author = {Li, Hanjingand and Zhao, Tiejunand and Li, Shengand and Zhao, Jiyuan},
+  title = {The Extraction of Trajectories from Real Texts Based on Linear Classification},
+  booktitle = {Proceedings of the 16th Nordic Conference of Computational Linguistics
+	NODALIDA-2007},
+  year = {2007},
+  editor = {Nivre, Joakim and Kaalep, Heiki-Jaan and Muischnek, Kadri and Koit,
+	Mare},
+  pages = {121--127},
+  address = {University of Tartu, Finland},
+  url = {http://hdl.handle.net/10062/2562}
+}
+
+@ARTICLE{linde:spatial,
+  author = {Linde, Charlotte and Labov, William},
+  title = {Spatial networks as a site for the study of language and thought},
+  journal = {Language},
+  year = {1975},
+  volume = {51},
+  pages = {924--939},
+  number = {4},
+  publisher = {JSTOR}
+}
+
+@INPROCEEDINGS{litkowski:semeval,
+  author = {Litkowski, Ken and Hargraves, Orin},
+  title = {Sem{E}val-2007 {T}ask 06: Word-sense disambiguation of prepositions},
+  booktitle = {Proceedings of the 4th International Workshop on Semantic Evaluations},
+  year = {2007},
+  pages = {24--29},
+  organization = {Association for Computational Linguistics}
+}
+
+@MASTERSTHESIS{fei:locative,
+  author = {Liu, Fei},
+  title = {Automatic Identification of Locative Expressions from Informal Text},
+  school = {University of Melbourne},
+  year = {2013},
+  address = {Australia},
+  advisor = {Baldwin, Timothy and Vasardani, Maria},
+  publisher = {University of Melbourne}
+}
+
 @INPROCEEDINGS{macmahon:walk,
-    author = {Matt Macmahon},
-    title = {Walk the talk: Connecting language, knowledge, and action in route instructions},
-    booktitle = {In Proc. of the Nat. Conf. on Artificial Intelligence (AAAI},
-    year = {2006},
-    pages = {1475--1482}
+  author = {Matt Macmahon},
+  title = {Walk the talk: Connecting language, knowledge, and action in route
+	instructions},
+  booktitle = {In Proc. of the Nat. Conf. on Artificial Intelligence (AAAI},
+  year = {2006},
+  pages = {1475--1482}
 }
-@inproceedings{matuszek:following,
-  title={Following directions using statistical machine translation},
-  author={Matuszek, Cynthia and Fox, Dieter and Koscher, Karl},
-  booktitle={Proceedings of the 5th ACM/IEEE international conference on Human-robot interaction},
-  pages={251--258},
-  year={2010},
-  organization={IEEE Press}
+
+@BOOK{mani:motion,
+  title = {Interpreting Motion: Grounded Representations for Spatial Language},
+  publisher = {Oxford University Press},
+  year = {2012},
+  author = {Mani, Inderjeet and Pustejovsky, James},
+  volume = {5}
 }
-@INPROCEEDINGS{tellex:language, 
-author={Kollar, T. and Tellex, S. and Roy, D. and Roy, N.}, 
-booktitle={Human-Robot Interaction (HRI), 2010 5th ACM/IEEE International Conference on}, 
-title={Toward understanding natural language directions}, 
-year={2010}, 
-pages={259-266}, 
-keywords={computational linguistics;human-robot interaction;natural languages;probability;Flickr;cooccurrence statistics;human-robot interaction;linguistics;natural language;probabilistic graphical model;Computational geometry;Data mining;Graphical models;Human robot interaction;Image databases;Information geometry;Natural languages;Object detection;Object oriented databases;Statistics;direction understanding;route instructions;spatial language}, 
-doi={10.1109/HRI.2010.5453186},}
-@mastersthesis{fei:locative,
- author = {Liu, Fei},
- advisor = {Baldwin, Timothy and Vasardani, Maria},
- title = {Automatic Identification of Locative Expressions from Informal Text},
- year = {2013},
- publisher = {University of Melbourne},
- address = {Melbourne, Victoria, Australia},
-} 
-@misc{tuw,
+
+@MISC{marneffe:stanford,
+  author = {de Marneffe, Marie-Catherine and Manning, Christopher D.},
+  title = {Stanford typed dependencies manual},
+  howpublished = {http://nlp.stanford.edu/software/dependencies\_manual.pdf},
+  year = {2008}
+}
+
+@INPROCEEDINGS{matuszek:following,
+  author = {Matuszek, Cynthia and Fox, Dieter and Koscher, Karl},
+  title = {Following directions using statistical machine translation},
+  booktitle = {Proceedings of the 5th ACM/IEEE International Conference on Human-Robot
+	Interaction},
+  year = {2010},
+  pages = {251--258},
+  organization = {IEEE Press}
+}
+
+@INPROCEEDINGS{olivier:semantics,
+  author = {Olivier, Patrick and Tsujii, Jun-ichi},
+  title = {A computational view of the cognitive semantics of spatial prepositions},
+  booktitle = {Proceedings of the 32nd Annual Meeting of the Association for Computational
+	Linguistics},
+  year = {1994},
+  pages = {303--309},
+  organization = {Association for Computational Linguistics}
+}
+
+@INCOLLECTION{Richter:Prepositions,
+  author = {Richter, Kai-Florian and Klippel, Alexander},
+  title = {Before or After: Prepositions in Spatially Constrained Systems},
+  booktitle = {Spatial Cognition V Reasoning, Action, Interaction},
+  publisher = {Springer Berlin Heidelberg},
+  year = {2007},
+  editor = {Barkowsky, Thomas and Knauff, Markus and Ligozat, GÃ©rard and Montello,
+	DanielR.},
+  volume = {4387},
+  series = {Lecture Notes in Computer Science},
+  pages = {453-469},
+  doi = {10.1007/978-3-540-75666-8_26},
+  isbn = {978-3-540-75665-1},
+  url = {http://dx.doi.org/10.1007/978-3-540-75666-8_26}
+}
+
+@PHDTHESIS{tappan:knowledge,
+  author = {Tappan, Daniel Allen},
+  title = {Knowledge-based spatial reasoning for automated scene generation
+	from text descriptions},
+  school = {New Mexico State University},
+  year = {2004},
+  address = {Las Cruces, NM, USA}
+}
+
+@INPROCEEDINGS{igor:annotations,
+  author = {Tytyk, Igor and Baldwin, Tim},
+  title = {Component-wise Annotation and Analysis of Informal Place Descriptions},
+  booktitle = {International Workshop on Place-Related Knowledge Acquisition Research},
+  year = {2012},
+  editor = {Vasardani, Maria and Winter, Stephan and Richter, Kai-Florian and
+	Janowicz, Krzysztof and Mackaness, William},
+  volume = {881},
+  series = {CEUR},
+  pages = {7--12}
+}
+
+@INPROCEEDINGS{maria:descriptions,
+  author = {Vasardani, Maria and Timpf, Sabine and Winter, Stephan and Tomko,
+	Martin},
+  title = {From descriptions to depictions: a conceptual framework},
+  booktitle = {Spatial Information Theory},
+  year = {2013},
+  series = {Lecture Notes in Computer Science},
+  address = {Berlin},
+  publisher = {Springer}
+}
+
+@ARTICLE{xu:case,
+  author = {Xu, Li D.},
+  title = {Case based reasoning},
+  journal = {IEEE Potentials},
+  year = {1994},
+  volume = {13},
+  pages = {10--13},
+  number = {5},
+  publisher = {IEEE}
+}
+
+@ARTICLE{zlatev:semantics,
+  author = {Zlatev, Jordan},
+  title = {Spatial semantics},
+  journal = {Handbook of Cognitive Linguistics},
+  year = {2007},
+  pages = {318--350}
+}
+
+@ARTICLE{zwarts:vector,
+  author = {Zwarts, Joost and Winter, Yoad},
+  title = {Vector space semantics: A model-theoretic analysis of locative prepositions},
+  journal = {Journal of logic, language and information},
+  year = {2000},
+  volume = {9},
+  pages = {169--211},
+  number = {2},
+  publisher = {Springer}
+}
+
+@MISC{tuw,
   title = {\textit{Tell Us Where}},
-  note = {Location based mobile game},
-  howpublished = {http://telluswhere.net}
-}  
-@inproceedings{klein:accurate,
-  title={Accurate unlexicalized parsing},
-  author={Klein, Dan and Manning, Christopher D},
-  booktitle={Proceedings of the 41st Annual Meeting on Association for Computational Linguistics-Volume 1},
-  pages={423--430},
-  year={2003},
-  organization={Association for Computational Linguistics}
-}
-@inproceedings{igor:annotations,
-  title={Component-wise Annotation and Analysis of Informal Place Descriptions},
-  author={Tytyk, Igor and Baldwin, Tim},
-  booktitle={International Workshop on Place-Related Knowledge Acquisition Research},
-  year={2012}
-}
-@article{Bateman:data,
-  title={The role of conceptual and linguistic ontologies in interpreting spatial discourse},
-  author={Bateman, John and Tenbrink, Thora and Farrar, Scott},
-  journal={Discourse Processes},
-  volume={44},
-  number={3},
-  pages={175--212},
-  year={2007},
-  publisher={Taylor \& Francis}
-}  
-@article{Bateman:ontology,
- author = {Bateman, John A. and Hois, Joana and Ross, Robert and Tenbrink, Thora},
- title = {A linguistic ontology of space for natural language processing},
- journal = {Artif. Intell.},
- issue_date = {September, 2010},
- volume = {174},
- number = {14},
- month = sep,
- year = {2010},
- issn = {0004-3702},
- pages = {1027--1071},
- numpages = {45},
- url = {http://dx.doi.org/10.1016/j.artint.2010.05.008},
- doi = {10.1016/j.artint.2010.05.008},
- acmid = {1837598},
- publisher = {Elsevier Science Publishers Ltd.},
- address = {Essex, UK},
- keywords = {Linguistic ontology, Natural language semantics, Space, Spatial knowledge, Spatial language},
-} 
-@inproceedings{CLEF:data,
-  title={The iapr tc-12 benchmark: A new evaluation resource for visual information systems},
-  author={Grubinger, Michael and Clough, Paul and M{\"u}ller, Henning and Deselaers, Thomas},
-  booktitle={International Workshop OntoImage},
-  pages={13--23},
-  year={2006}
-
-}
-@inproceedings{parisa:semeval,
-  title={SemEval-2012 Task 3: Spatial Role Labeling},
-  author={Kordjamshidi, Parisa and Bethard, Steven & Moens and Marie-Francine},
-  booktitle={Proceedings of the SemEval-2012 Evaluation Exercises. Association for Computational Linguistics},
-  year={2012}
+  howpublished = {http://telluswhere.net},
+  note = {Location based mobile game}
 }
 
-
-@inproceedings{kolomiyets:semeval,
-  title={SemEval-2013 Task 3: Spatial Role Labeling},
-  author={Kolomiyets, Oleksandr and Kordjamshidi, Parisa and Bethard, Steven and Moens, Marie-Francine},
-  booktitle={Proceedings of the 7th International Workshop on Semantic Evaluation},
-  pages={255--262},
-  volume={2},
-  organization={Association for Computational Linguistics},
-  year={2013},
-  address = {Atlanta, Georgia, USA}
-}
-@book{mani:motion,
-  title={Interpreting Motion: Grounded Representations for Spatial Language},
-  author={Mani, Inderjeet and Pustejovsky, James},
-  volume={5},
-  year={2012},
-  publisher={Oxford University Press}
-}
-@inproceedings{bastianelli:unitor,
-  title={UNITOR-HMM-TK: Structured Kernel-based learning for Spatial Role Labeling},
-  author={Bastianelli, Emanuele and Croce, Danilo and Basili, Roberto and Nardi, Daniele},
-  booktitle={Proceedings of the Seventh International Workshop on Semantic Evaluation (SemEval 2013). Association for Computational Linguistics},
-  year={2013}
-}
-@phdthesis{kelleher:perceptually,
-  title={A perceptually based computational framework for the interpretation of spatial language},
-  author={Kelleher, John D},
-  year={2003},
-  school={Dublin City University}
-}
-@inproceedings{Hanjing:route,
-author={Li, Hanjing	and 
-Zhao, Tiejun	and 
-Li, Sheng	and 
-Zhao, Jiyuan},
-title={The Extraction of Trajectories from Real Texts Based on Linear Classification},
-url={http://hdl.handle.net/10062/2562},	
-booktitle={Proceedings of the 16th Nordic Conference  of Computational Linguistics NODALIDA-2007.},
-editor={Joakim Nivre, Heiki-Jaan Kaalep, Kadri Muischnek and Mare Koit.},address={University of Tartu, Tartu, 2007.},pages={121-127}
-}
-@inproceedings{kordjamshidi:language,
-  title={From language towards formal spatial calculi},
-  author={Kordjamshidi, Parisa and Van Otterlo, Martijn and Moens, Marie-Francine},
-  booktitle={Workshop on Computational Models of Spatial Language Interpretation (CoSLI 2010, at Spatial Cognition 2010)},
-  year={2010}
-}
-@article{tappan:knowledge,
-  title={Knowledge-based spatial reasoning for automated scene generation from text descriptions},
-  author={Tappan, Daniel Allen},
-  year={2004},
-  publisher={Citeseer}
-}
-@article{Bateman:language,
-year={2010},
-issn={1381-2416},
-journal={International Journal of Speech Technology},
-volume={13},
-number={1},
-doi={10.1007/s10772-010-9069-x},
-title={Language and Space: a two-level semantic approach based on principles of ontological engineering},
-url={http://dx.doi.org/10.1007/s10772-010-9069-x},
-publisher={Springer US},
-keywords={Spatial language; Spatial assistance; Spatial dialogue systems; Ontology; Knowledge representation; Natural language processing},
-author={Bateman, JohnA.},
-pages={29-48},
-language={English}
-}
-@inproceedings{litkowski:semeval,
-  title={SemEval-2007 Task 06: Word-sense disambiguation of prepositions},
-  author={Litkowski, Ken and Hargraves, Orin},
-  booktitle={Proceedings of the 4th International Workshop on Semantic Evaluations},
-  pages={24--29},
-  year={2007},
-  organization={Association for Computational Linguistics}
-}
-@incollection{Richter:Prepositions,
-year={2007},
-isbn={978-3-540-75665-1},
-booktitle={Spatial Cognition V Reasoning, Action, Interaction},
-volume={4387},
-series={Lecture Notes in Computer Science},
-editor={Barkowsky, Thomas and Knauff, Markus and Ligozat, Gérard and Montello, DanielR.},
-doi={10.1007/978-3-540-75666-8_26},
-title={Before or After: Prepositions in Spatially Constrained Systems},
-url={http://dx.doi.org/10.1007/978-3-540-75666-8_26},
-publisher={Springer Berlin Heidelberg},
-author={Richter, Kai-Florian and Klippel, Alexander},
-pages={453-469}
-}
-@article{landau:and,
-  title={" What" and" where" in spatial language and spatial cognition},
-  author={Landau, Barbara and Jackendoff, Ray},
-  journal={Behavioral and brain sciences},
-  volume={16},
-  pages={217--217},
-  year={1993},
-  publisher={Cambridge Univ Press}
-}
-@article{zwarts:vector,
-  title={Vector space semantics: A model-theoretic analysis of locative prepositions},
-  author={Zwarts, Joost and Winter, Yoad},
-  journal={Journal of logic, language and information},
-  volume={9},
-  number={2},
-  pages={169--211},
-  year={2000},
-  publisher={Springer}
-}
-@article{xu:case,
-  title={Case based reasoning},
-  author={Xu, Li D},
-  journal={Potentials, IEEE},
-  volume={13},
-  number={5},
-  pages={10--13},
-  year={1994},
-  publisher={IEEE}
-}

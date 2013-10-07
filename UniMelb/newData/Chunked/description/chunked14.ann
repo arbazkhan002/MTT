@@ -1,0 +1,33 @@
+T1	NE_NP 12 21	campus_NN
+A1	identifiability T1 yes_amb
+T2	NE_NP 214 236	[NP south_JJ lawn_NN ]
+A2	identifiability T2 yes_unamb
+T3	NE_NP 353 362	campus_NN
+A3	identifiability T3 yes_amb
+T4	NE_NP 393 400	west_NN
+A4	identifiability T4 yes_amb
+T5	NE_NP 469 493	Baillieu_NNP Library_NNP
+A5	identifiability T5 yes_unamb
+T6	NE_NP 523 531	north_NN
+A6	identifiability T6 yes_amb
+T7	NE_NP 545 559	old_JJ quad_NN
+A7	identifiability T7 yes_unamb
+T8	NE_NP 611 622	building_NN
+A8	identifiability T8 yes_amb
+T9	NE_NP 680 687	hall_NN
+A9	identifiability T9 yes_amb
+T10	NE_NP 940 955	tram_NN stop_NN
+A10	identifiability T10 yes_amb
+T11	NE_NP 1087 1111	[NP South_NNP Lawn_NNP ]
+A11	identifiability T11 yes_unamb
+T12	NE_NP 1145 1159	old_JJ quad_NN
+A12	identifiability T12 yes_unamb
+T13	NE_NP 1185 1193	north_NN
+T15	NE_NP 1320 1337	union_NN house_NN
+A14	identifiability T15 yes_unamb
+T16	NE_NP 1356 1378	medical_JJ building_NN
+A15	identifiability T16 yes_amb
+T17	NE_NP 1451 1465	engineering_NN
+A16	identifiability T17 yes_amb
+T18	NE_NP 1434 1443	corner_NN
+A17	identifiability T18 yes_amb

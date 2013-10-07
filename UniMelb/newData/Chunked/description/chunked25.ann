@@ -1,0 +1,144 @@
+T1	NE_NP 49 97	University_NNP ] [PP of_IN ] [NP Melbourne_NNP ]
+A1	identifiability T1 yes_unamb
+T2	NE_NP 102 131	[NP Parkville_NNP campus_NN ]
+A2	identifiability T2 yes_unamb
+T3	NE_NP 157 179	[NP Royal_NNP Pd_NNP ]
+A3	identifiability T3 yes_unamb
+T4	NE_NP 224 252	[NP Queensberry_NNP St_NNP ]
+A4	identifiability T4 yes_unamb
+T5	NE_NP 203 217	NW_NNP side_NN
+A5	identifiability T5 yes_unamb
+T6	NE_NP 269 278	South_NNP
+A6	identifiability T6 yes_amb
+T7	NE_NP 286 305	Swanston_NNP St_NNP
+A7	identifiability T7 yes_unamb
+T8	NE_NP 324 338	NE_NNP side_NN
+A8	identifiability T8 yes_amb
+T9	NE_NP 357 366	campus_NN
+A9	identifiability T9 yes_amb
+T10	NE_NP 418 442	[NP Grattan_NNP St_NNP ]
+A10	identifiability T10 yes_unamb
+T11	NE_NP 457 479	[NP Royal_NNP Pd_NNP ]
+A11	identifiability T11 yes_unamb
+T12	NE_NP 492 517	[NP Swanston_NNP St_NNP ]
+A12	identifiability T12 yes_unamb
+T13	NE_NP 563 576	landmarks_NNS
+A13	identifiability T13 yes_amb
+T14	NE_NP 619 628	campus_NN
+A14	identifiability T14 yes_amb
+T15	NE_NP 833 855	Grattan_NNP Street_NNP
+A15	identifiability T15 yes_unamb
+T16	NE_NP 880 898	[NP Swanston_NNP ]
+A16	identifiability T16 yes_unamb
+T17	NE_NP 916 936	[NP Royal_NNP Pd_NNP
+A17	identifiability T17 yes_unamb
+T18	NE_NP 968 979	Beretto_NNP
+A18	identifiability T18 yes_unamb
+T19	NE_NP 1066 1090	University_NNP square_NN
+A19	identifiability T19 yes_unamb
+T20	NE_NP 1154 1168	Infrastructure
+A20	identifiability T20 yes_amb
+T21	NE_NP 1200 1237	Mechanical_NNP Engg_NNP department_NN
+A21	identifiability T21 yes_amb
+T22	NE_NP 1357 1378	(_-LRB- landmark_NN ]
+A22	identifiability T22 yes_amb
+T23	NE_NP 1396 1419	pedestrian_JJ signal_NN
+A23	identifiability T23 yes_amb
+T24	NE_NP 1463 1476	university_NN
+A24	identifiability T24 yes_amb
+T25	NE_NP 1588 1607	L-shaped_JJ road_NN
+A25	identifiability T25 yes_amb
+T26	NE_NP 1632 1651	IE_NN department_NN
+A26	identifiability T26 yes_unamb
+T27	NE_NP 1706 1747	[NP Old_NNP Engineering_NNP building_NN ]
+A27	identifiability T27 yes_unamb
+T28	NE_NP 1840 1859	Union_NNP House_NNP
+A28	identifiability T28 yes_unamb
+T29	NE_NP 1912 1935	Electrical_NNP Engg_NNP
+A29	identifiability T29 yes_amb
+T30	NE_NP 2011 2047	Old_NNP Engineering_NNP Building_NNP
+A30	identifiability T30 yes_unamb
+T31	NE_NP 2247 2258	greenary_JJ
+A31	identifiability T31 yes_amb
+T32	NE_NP 2279 2296	clock_NN tower_NN
+A32	identifiability T32 yes_amb
+T33	NE_NP 2353 2370	union_NN house_NN
+A33	identifiability T33 yes_unamb
+T34	NE_NP 2394 2421	old_JJ Arts_NNS building_NN
+A34	identifiability T34 yes_unamb
+T35	NE_NP 2431 2446	[VP Banks_NNS ]
+A35	identifiability T35 yes_amb
+T36	NE_NP 2547 2560	buildings_NNS
+A36	identifiability T36 yes_amb
+T37	NE_NP 2583 2619	Baldwin_NNP Spencer_NNP Building_NNP
+A37	identifiability T37 yes_unamb
+T38	NE_NP 2715 2740	Natural_NNP philosophy_NN
+A38	identifiability T38 yes_amb
+T39	NE_NP 2747 2787	[NP Old_NNP Physics_NNP ] [VP dept_VBD ]
+A39	identifiability T39 yes_amb
+T40	NE_NP 2792 2822	[NP Raymond_NNP Prestley_NNP ]
+A40	identifiability T40 yes_unamb
+T41	NE_NP 2827 2852	[NP University_NNP House_
+A41	identifiability T41 yes_unamb
+T42	NE_NP 3002 3021	Union_NNP House_NNP
+A42	identifiability T42 yes_unamb
+T43	NE_NP 3161 3186	[NP Union_NNP House_NNP ]
+A43	identifiability T43 yes_unamb
+T44	NE_NP 3308 3325	[NP Swanton_NNP ]
+A44	identifiability T44 yes_unamb
+T45	NE_NP 3375 3408	Royal_NNP Dental_NNP Hospital_NNP
+A45	identifiability T45 yes_unamb
+T46	NE_NP 3449 3488	Sydney_NNP Myer_NNP Asia_NNP Center_NNP
+A46	identifiability T46 yes_unamb
+T47	NE_NP 3590 3597	road_NN
+A47	identifiability T47 yes_amb
+T48	NE_NP 3637 3656	Asia_NNP Center_NNP
+A48	identifiability T48 yes_unamb
+T49	NE_NP 3675 3690	Monash_JJ Rd_NN
+A49	identifiability T49 yes_unamb
+T50	NE_NP 3735 3749	[NP AMSI_NNP ]
+A50	identifiability T50 yes_unamb
+T51	NE_NP 3792 3831	[NP Richard_NNP Berry_NNP building_NN ]
+A51	identifiability T51 yes_unamb
+T52	NE_NP 3836 3859	[NP old_JJ geology_NN ]
+A52	identifiability T52 yes_unamb
+T53	NE_NP 3864 3882	[NP chemistry_NN ]
+A53	identifiability T53 yes_amb
+T54	NE_NP 3935 3958	Electrical_NNP Dept_NNP
+A54	identifiability T54 yes_amb
+T55	NE_NP 4020 4034	car_NN park_NN
+A55	identifiability T55 yes_unamb
+T56	NE_NP 4055 4076	auditorium_NN hall_NN
+A56	identifiability T56 yes_amb
+T57	NE_NP 4137 4154	coffee_NN shop_NN
+A57	identifiability T57 yes_amb
+T58	NE_NP 4197 4217	chemistry_NN dept_NN
+A58	identifiability T58 yes_unamb
+T59	NE_NP 4238 4261	old_JJ engg_NN house_NN
+A59	identifiability T59 yes_unamb
+T60	NE_NP 4276 4286	library_NN
+A60	identifiability T60 yes_amb
+T61	NE_NP 4340 4352	Swanston_NNP
+A61	identifiability T61 yes_unamb
+T62	NE_NP 4360 4378	Grattan_NNP St_NNP
+A62	identifiability T62 yes_unamb
+T63	NE_NP 4436 4449	buildings_NNS
+A63	identifiability T63 yes_amb
+T64	NE_NP 4504 4529	University_NNP Square_NNP
+A64	identifiability T64 yes_unamb
+T65	NE_NP 4633 4656	[NP Pehlam_NNP St_NNP ]
+A65	identifiability T65 yes_unamb
+T66	NE_NP 4680 4704	Commerce_NNP building_NN
+A66	identifiability T66 yes_amb
+T67	NE_NP 4742 4758	[PP Baretto_IN ]
+A67	identifiability T67 yes_unamb
+T68	NE_NP 4780 4797	coffee_NN shop_NN
+A68	identifiability T68 yes_amb
+T69	NE_NP 4825 4843	ground_NN floor_NN
+A69	identifiability T69 yes_amb
+T70	NE_NP 4865 4872	Law_NNP
+A70	identifiability T70 yes_amb
+T71	NE_NP 4886 4908	Business_NNP Admin_NNP
+A71	identifiability T71 yes_amb
+T72	NE_NP 4976 4983	road_NN
+A72	identifiability T72 yes_amb
