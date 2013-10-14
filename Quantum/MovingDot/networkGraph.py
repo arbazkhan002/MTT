@@ -87,6 +87,8 @@ class networkGraph(graph):
 		else:
 			return []	
 	
+	# Calculate linear distance from s to t along a path
+	# Return None if either of s,t is not on the path
 	def linearDistance(self,s,t,path):
 		dist=None
 		#~ print s,t,"#####"
@@ -104,6 +106,7 @@ class networkGraph(graph):
 			dist=None					
 		return dist		
 	
+	#inverse of linear distance wrt dist and t 
 	def findPoint(self,s,dist,path):
 		span=None
 		for edgeuv in path:
@@ -113,10 +116,37 @@ class networkGraph(graph):
 			if span is not None:
 				if (span+edgeuv.length) >=dist:
 					return edgeuv.v
+				else:
+					span=span+edgeuv.length	
 			
 		return float("inf")	
-							
-
+	
+	#find all paths that are of length less than dist originating at s
+	#Returns a list of paths
+	#Note : visited nodes not counted again, but what if loops in paths?
+	#		some paths would end in a visited node. Take care!
+	def findallPaths(self,s,dist):
+		def pathfinder(s,dist,visited):
+			if dist<=0:
+				return [[s]]
+			flag=False	
+			paths=[]
+			for edgeuv in self.adj(s):
+				v=edgeuv.v
+				if v not in visited:
+					flag=True		#atleast one non visited nbr		
+					visited[v]=True
+					rest=pathfinder(v,dist-edgeuv.length,visited) 	#'rest' is a list of paths
+					rest=map(lambda x : x+[s], rest)
+					paths+=rest
+			if flag==False:
+				return [[s]]	
+			else:
+				return paths
+		
+		
+		visited={}
+		return pathfinder(s,dist,visited)					
 ''' 
 USAGE
 if __name__=="__main__":
