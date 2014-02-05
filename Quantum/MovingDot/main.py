@@ -171,7 +171,8 @@ if __name__=="__main__":
 	#~ for i in range(10):
 		#~ print g.geomNodes[(g.geomNodes.keys()[i])].geom
 	#*******************************************
-
+	
+	
 	#------------- Finding all paths in distance 150 ----------------
 	#~ for spath in g.findallPaths((g.edges[eg])[0],eg,150):
 		#~ for i in spath:
