@@ -1,0 +1,10 @@
+It PRP None None False False Aa Aa 2 -1 -1 NP None 1 0 O None None None PRP 0 0 None None PRP 1 It B-NP False O O O False False 1 it False -1 True True O None O
+was VBD None None False False aaa a 3 -1 -1 VP None 2 0 O None None None VBD 1 1 surrounded VBN VBN 1 was B-VP False None None None False False 2 be False -1 False True O None O
+surrounded VBN None None False False aaaaaaaaaa a 10 -1 -1 VP None 2 1 O None None None VBD 2 1 surrounded VBN VBN 1 surrounded I-VP False None None None False False 2 surround False -1 False True O None O
+by IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 3 2 None None IN 1 by B-PP False None None None False False 1 by False -1 False True O None B-NP
+library NN B-yes_amb B-None B-False B-False aaaaaaa a 7 -1 -1 NP by 1 0 O None by None NN 4 3 None None NN 1 library B-NP False O O O True False 1 library False -1 False True O None I-NP
+and CC None None False False aaa a 3 -1 -1 None None 1 0 O None None None CC 5 4 None None CC 1 and O False None None None False False 1 and False -1 False True O None O
+other JJ None None False False aaaaa a 5 -1 -1 NP None 2 0 O None None None JJ 6 5 buildings NNS NNS 1 other B-NP False O O O False False 2 other False -1 False True O None O
+buildings NNS B-yes_amb B-None B-False B-False aaaaaaaaa a 9 -1 -1 NP None 2 1 O None None None JJ 7 5 buildings NNS NNS 1 buildings I-NP False O O O True False 2 building False -1 False True O None B-NP
+. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 8 6 None None . 1 . O False None None None False False 1 . False -1 False True O None O
+

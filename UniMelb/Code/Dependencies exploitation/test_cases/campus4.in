@@ -1,0 +1,278 @@
+The/DT
+Parkville/NNP
+Melbourne/NNP
+Uni/NNP
+campus/NN
+is/VBZ
+located/VBN
+just/RB
+north/RB
+of/IN
+the/DT
+city/NN
+,/,
+with/IN
+the/DT
+buildings/NNS
+mainly/RB
+concentrated/VBN
+between/IN
+Royal/NNP
+Parade/NNP
+and/CC
+Swanston/NNP
+Street/NNP
+,/,
+and/CC
+Grattan/NNP
+St/NNP
+and/CC
+Tin/NNP
+Alley/NNP
+./.
+***
+det(campus-5, The-1)
+nn(campus-5, Parkville-2)
+nn(campus-5, Melbourne-3)
+nn(campus-5, Uni-4)
+nsubjpass(located-7, campus-5)
+auxpass(located-7, is-6)
+root(ROOT-0, located-7)
+advmod(north-9, just-8)
+advmod(located-7, north-9)
+det(city-12, the-11)
+prep_of(located-7, city-12)
+det(buildings-16, the-15)
+prep_with(located-7, buildings-16)
+advmod(concentrated-18, mainly-17)
+partmod(buildings-16, concentrated-18)
+nn(Parade-21, Royal-20)
+prep_between(concentrated-18, Parade-21)
+nn(Street-24, Swanston-23)
+prep_between(concentrated-18, Street-24)
+conj_and(Parade-21, Street-24)
+nn(St-28, Grattan-27)
+prep_between(concentrated-18, St-28)
+conj_and(Parade-21, St-28)
+nn(Alley-31, Tin-30)
+conj_and(Parade-21, Alley-31)
+conj_and(St-28, Alley-31)
+
+The/DT
+engineering/NN
+buildings/NNS
+are/VBP
+largely/RB
+along/IN
+Grattan/NNP
+St/NNP
+near/IN
+South/NNP
+Lawn/NNP
+./.
+***
+det(buildings-3, The-1)
+nn(buildings-3, engineering-2)
+nsubj(are-4, buildings-3)
+root(ROOT-0, are-4)
+advmod(are-4, largely-5)
+nn(St-8, Grattan-7)
+prep_along(are-4, St-8)
+nn(Lawn-11, South-10)
+prep_near(St-8, Lawn-11)
+
+Union/NNP
+house/NN
+-LRB-/-LRB-
+full/JJ
+of/IN
+food/NN
+outlets/NNS
+-RRB-/-RRB-
+is/VBZ
+located/VBN
+towards/IN
+the/DT
+center/NN
+of/IN
+the/DT
+campus/NN
+,/,
+next/JJ
+to/TO
+the/DT
+old/JJ
+arts/NNS
+building/NN
+./.
+***
+nn(house-2, Union-1)
+nsubjpass(located-10, house-2)
+dep(house-2, full-4)
+nn(outlets-7, food-6)
+prep_of(full-4, outlets-7)
+auxpass(located-10, is-9)
+root(ROOT-0, located-10)
+det(center-13, the-12)
+prep_towards(located-10, center-13)
+det(campus-16, the-15)
+prep_of(center-13, campus-16)
+det(building-23, the-20)
+amod(building-23, old-21)
+nn(building-23, arts-22)
+prep_next_to(located-10, building-23)
+
+The/DT
+main/JJ
+entry/NN
+is/VBZ
+in/IN
+front/NN
+of/IN
+the/DT
+tram/JJ
+super/JJ
+stop/NN
+on/IN
+Swanston/NNP
+St./NNP
+Essentially/RB
+the/DT
+main/JJ
+campus/NN
+shape/NN
+looks/VBZ
+like/IN
+a/DT
+square/NN
+with/IN
+a/DT
+semi-circle/NN
+attached/VBN
+to/TO
+the/DT
+top/NN
+./.
+***
+det(entry-3, The-1)
+amod(entry-3, main-2)
+nsubj(is-4, entry-3)
+dep(looks-20, is-4)
+det(stop-11, the-8)
+amod(stop-11, tram-9)
+amod(stop-11, super-10)
+prep_in_front_of(is-4, stop-11)
+nn(St.-14, Swanston-13)
+prep_on(stop-11, St.-14)
+advmod(is-4, Essentially-15)
+det(shape-19, the-16)
+amod(shape-19, main-17)
+nn(shape-19, campus-18)
+nsubj(looks-20, shape-19)
+root(ROOT-0, looks-20)
+det(square-23, a-22)
+prep_like(looks-20, square-23)
+det(semi-circle-26, a-25)
+prep_with(square-23, semi-circle-26)
+partmod(semi-circle-26, attached-27)
+det(top-30, the-29)
+prep_to(attached-27, top-30)
+
+Beyond/IN
+tin/NN
+alley/NN
+is/VBZ
+mainly/RB
+uni/NN
+colleges/NNS
+./.
+***
+prep_beyond(colleges-7, tin-2)
+nsubj(colleges-7, alley-3)
+cop(colleges-7, is-4)
+advmod(colleges-7, mainly-5)
+nn(colleges-7, uni-6)
+root(ROOT-0, colleges-7)
+
+South/NNP
+of/IN
+Grattan/NNP
+Street/NNP
+is/VBZ
+University/NNP
+Square/NNP
+,/,
+which/WDT
+leads/VBZ
+down/RP
+to/TO
+the/DT
+Law/NNP
+Building/NNP
+-LRB-/-LRB-
+very/RB
+tall/JJ
+-RRB-/-RRB-
+and/CC
+the/DT
+Spot/NN
+-LRB-/-LRB-
+named/VBN
+for/IN
+its/PRP$
+facade/NN
+-RRB-/-RRB-
+./.
+***
+nsubj(Square-7, South-1)
+nn(Street-4, Grattan-3)
+prep_of(South-1, Street-4)
+cop(Square-7, is-5)
+nn(Square-7, University-6)
+root(ROOT-0, Square-7)
+nsubj(leads-10, Square-7)
+rcmod(Square-7, leads-10)
+prt(leads-10, down-11)
+det(Building-15, the-13)
+nn(Building-15, Law-14)
+prep_to(leads-10, Building-15)
+advmod(tall-18, very-17)
+dep(Square-7, tall-18)
+det(Spot-22, the-21)
+conj_and(Square-7, Spot-22)
+nsubj(leads-10, Spot-22)
+dep(Spot-22, named-24)
+poss(facade-27, its-26)
+prep_for(named-24, facade-27)
+
+It/PRP
+is/VBZ
+a/DT
+large/JJ
+sprawling/JJ
+campus/NN
+that/IN
+many/JJ
+people/NNS
+get/VBP
+lost/VBN
+in/IN
+at/IN
+first/JJ
+!/.
+***
+nsubj(campus-6, It-1)
+cop(campus-6, is-2)
+det(campus-6, a-3)
+amod(campus-6, large-4)
+amod(campus-6, sprawling-5)
+root(ROOT-0, campus-6)
+mark(lost-11, that-7)
+amod(people-9, many-8)
+nsubjpass(lost-11, people-9)
+auxpass(lost-11, get-10)
+ccomp(campus-6, lost-11)
+prep(lost-11, in-12)
+pcomp(in-12, at-13)
+pobj(at-13, first-14)
+

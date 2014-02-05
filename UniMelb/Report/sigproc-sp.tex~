@@ -26,14 +26,19 @@
 %
 % For tracking purposes - this is V3.1SP - APRIL 2009
 
-\documentclass{sig-alternate}
+\documentclass[letter]{sig-alternate}
 %\usepackage{algorithm2e}
 %\usepackage{algpseudocode}
-
+%\usepackage[pass,paperwidth=8.5in,paperheight=11in]{geometry}
+%\usepackage[paperwidth=8.5in, paperheight=11in]{geometry}
 %\newcommand{\commentSW}[1]{\textbf{SW --} \emph{#1} \textbf{-- SW}}
-
-
+\special{papersize=8.5in,11in}
 \begin{document}
+%\pdfpagewidth=8.5in
+%\pdfpageheight=11in
+
+
+
 
 \title{Extracting Spatial Information From Place Descriptions}
 %\titlenote{(Does NOT produce the permission block, copyright information nor page numbering). For use with ACM\_PROC\_ARTICLE-SP.CLS. Supported by ACM.}}
@@ -157,7 +162,7 @@ Zlatev \cite{zlatev:semantics} worked on the cognitive linguistic research in sp
 The methodology suggested in this paper makes use of no external resources (such as maps, vision), but employs a machine learning tool \cite{fei:locative} to identify place names and the associated prepositional phrases. Hereafter, we work with the concept and reasoning approach to form rules for extracting useful spatial information from the text.
 \section{Theory}
 \subsection{Definitions}
-%In this section, comprehensive definitions of the major terms that appear in this paper, viz spatial triplets (or simply triplets) and degenerate locative expressions (DLE), are provided.
+In this section, comprehensive definitions of the major terms that appear in this paper, viz spatial triplets (or simply triplets) and degenerate locative expressions (DLE), are provided.
 \subsubsection{Spatial Triplets}
 A spatial triplet is a triple of a locatum (\textit{LOC}), reference object (\textit{RO}) and a spatial relation (\textit{r}). Here, RO is the object by which the location of the LOC is defined, using the prepositional relation \textit{r}. For example, \texttt{< Melbourne Hospital $diagonally$ $across$ Peter Doherty Institute >} references \textit{Melbourne Hospital} as the LOC in terms of \textit{Peter Doherty Institute} as RO by the relation \textit{diagonally across} as \textit{r}. Vasardani et al. \cite{maria:descriptions} provide more information on the theory and the structure of triplets. This method of defining spatial relation is derived from the technique of Spatial Role Labelling (SpRL), which first appeared in \cite{Kordjamshidi:labelling}, and which was also conceptually verified in Kracht et al. \cite{kracht:semantics} for many languages, as the \textit{configuration} and \textit{mode} layers of locative expressions. In SpRL, one assigns spatial role labels to the words or phrases in sentences from the set \{\textit{trajector} (tr), \textit{spatial Indicator} (si), \textit{landmark} (l)\}. For example, such a labelled sentence looks like:
 ``[\textit{We}]$_{tr}$ are sitting [\textit{in}]$_{si}$ [\textit{the Baretto's}]$_l$ [\textit{in}]$_{si}$ [\textit{the Alan Gilbert Building}]$_{l}$''. However, spatial triplets that could be extracted out of such a sentence look like : \\<\texttt{We ${in}$ the Baretto's}> \\<\texttt{We ${in}$ the Alan Gilbert Building}>\\
@@ -202,7 +207,7 @@ In descriptions where a person describes a location using references to pronouns
 \begin{table*}
 \centering
 \caption{Extending the prepositional relations of direction using Stanford dependencies (DEP)}
-\begin{tabular}{|c|c|p{4cm}|p{5cm}|} \hline
+\begin{tabular}{|c|c|p{3.8cm}|p{4.7cm}|} \hline
 \textbf{Governor}&\textbf{Action on relation}&\multicolumn{2}{|c|}{\textbf{Example}} \\ \cline{3-4}
 &&\textbf{Sentence}&\textbf{Actions}\\ \hline
 noun & extend with the noun and its modifiers&Its the 3rd house from the station.&DEP : \textbf{prep\_from}(house, station)
@@ -268,11 +273,11 @@ For our experimental study, we used the \textit{Tell Us Where} dataset \cite{tuw
 The task of extracting `spatially informative' triplets from NL descriptions is challenging and cannot be directly dealt with a standard language parser. The DLE parser aids in separating the place names, and manual annotations to enhance the DLE parser are employed.
 %\footnote{The results do not differ considerably with the set-up of not using the manual annotations (see Table-\ref{table:stats}) except for the errors described in \ref{subsub:DLE}}. 
 Table-\ref{table:stats} provides the extent of success in triplet extraction in terms of accuracy and recall on the corpus of campus descriptions. As indicated, usage of manual annotations has a positive effect on the success metrics but the magnitude of the differences is small enough to keep intact the aim of an eventual complete automation of triplets extraction. We now focus on the triplets extraction study pertaining to static place descriptions. The parser's output in such cases has a fair similarity with the expected triplets. 
-Below are some of the example cases representative of the results. \vspace{-0.1in}
+Below are some of the example cases representative of the results. \vspace{-0.05in}
 \newtheorem{example}{Example}
 \begin{example}
 \label{tuwex1}
-I am $[$at a 3 stories town house$]$, number 7 $[$Chetwynd Place$]$. $[$The house$]$ is located $[$in a small alley$]$ $[$behind a row of town house$]$ $[$along Chetwynd Street$]$, $[$near the corner$]$ $[$between Chetwynd Street and Queensberry Street$]$. There is $[$a construction site$]$ $[$in the alley$]$. Its the 3rd house from the head $[$of the alley$]$ \vspace{-0.2in}.
+I am $[$at a 3 stories town house$]$, number 7 $[$Chetwynd Place$]$. $[$The house$]$ is located $[$in a small alley$]$ $[$behind a row of town house$]$ $[$along Chetwynd Street$]$, $[$near the corner$]$ $[$between Chetwynd Street and Queensberry Street$]$. There is $[$a construction site$]$ $[$in the alley$]$. Its the 3rd house from the head $[$of the alley$]$ \vspace{-0.05in}.
 \end{example}
 This example is taken from the \textit{Tell Us Where} corpus. The bracketed texts correspond to the DLEs identified by the parser. The triplets output by the program are presented in Table~\ref{table:ex1}. This is a characteristic example of a static place description without any indirect reference, except in the last sentence where `it' is used in place of ``the house'' and thus no triplet was extracted. If the sentence is rephrased as ``\textit{I am in the 3rd house from the head of the alley}'', the triplet extracted is, \texttt{<I $in$ $3rd$ $house$ $from$ the head of the alley>}\footnote{See how the preposition `from' gets extended to `3rd house from', and the clause related to the preposition `of' gets attached into the reference object as `head of the alley'}. Not all triplets inherent in the description were extracted. 
 %owing to the inability to resolve indirect references and interpret spatial motion. 
@@ -291,12 +296,12 @@ This inhibits the computational interpretation of triplets. Vasardani \textit{et
 %the output comes out as suggested in \cite{maria:descriptions}.
 \begin{example}
 \label{ex:between}
-Between this building and $[$the campus$]$, $[$on Swanston St$]$, is the major public transport hub for $[$the University $]$. \vspace{-0.2in}
+Between this building and $[$the campus$]$, $[$on Swanston St$]$, is the major public transport hub for $[$the University $]$. 
 \end{example}
 Triplets extracted:\\
 \texttt{<the major public transport hub $between$  building>} \\
 \texttt{<the major public transport hub $between$  the campus>} \\
-\texttt{<the major public transport hub $on$ Swanston St>}\vspace{-0.1in}
+\texttt{<the major public transport hub $on$ Swanston St>}
 \begin{table}
 \begin{tabular}{|l|}
 \hline
@@ -317,7 +322,7 @@ Triplets extracted:\\
 \end{table}
 \begin{example}
 \label{ex:c1}
-We're sitting $[$in Baretto$]$'s $[$ in the Alan Gilbert Building $]$, $[$across Grattan street$]$ is one of the $[$ medical buildings $]$. $[$Down the hill$]$ $[$along Grattan street$]$ the $[$new building$]$ being constructed is the $[$Peter Doherty Institute$]$ and diagonally across the road ($[$Royal Parade$]$) is $[$Melbourne Hospital$]$. In the other direction the open area is $[$University square$]$ (there is a $[$carpark$]$ underneath). At the city end $[$of University square$]$ is $[$the law building$]$. $[$Across Grattan street$]$ $[$from University square$]$ there is $[$an entrance$]$ $[$to the campus$]$, straight ahead is $[$an overpass building$]$ and to the right are the various $[$Engineering buildings$]$. The road goes in a big loop around $[$the campus$]$ you can either go left $[$towards the Medical buildings$]$ or right passed $[$the Engineering buildings$]$ then head North (away from University square). One other area you may want to explore is $[$South Lawn$]$ which you can get to by going $[$underneath the overpass building$]$ directly in front of you when you enter $[$the campus$]$ \vspace{-0.2in}.
+We're sitting $[$in Baretto$]$'s $[$ in the Alan Gilbert Building $]$, $[$across Grattan street$]$ is one of the $[$ medical buildings $]$. $[$Down the hill$]$ $[$along Grattan street$]$ the $[$new building$]$ being constructed is the $[$Peter Doherty Institute$]$ and diagonally across the road ($[$Royal Parade$]$) is $[$Melbourne Hospital$]$. In the other direction the open area is $[$University square$]$ (there is a $[$carpark$]$ underneath). At the city end $[$of University square$]$ is $[$the law building$]$. $[$Across Grattan street$]$ $[$from University square$]$ there is $[$an entrance$]$ $[$to the campus$]$, straight ahead is $[$an overpass building$]$ and to the right are the various $[$Engineering buildings$]$. The road goes in a big loop around $[$the campus$]$ you can either go left $[$towards the Medical buildings$]$ or right passed $[$the Engineering buildings$]$ then head North (away from University square). One other area you may want to explore is $[$South Lawn$]$ which you can get to by going $[$underneath the overpass building$]$ directly in front of you when you enter $[$the campus$]$ 
 \end{example}
 This is an example taken from the set of campus descriptions. The triplets output by the program are shown in Table~\ref{table:ex2}\footnote{The first and the third sentence were split at clause boundaries to eliminate Stanford parser errors; see Section~\ref{subsub:stanford}}. We observe that the triplets come up as desired. For instance, the program infers the complex triplet:
 \texttt{< an entrance \textit{across} Grattan Street} \texttt{\textit{from} University Square >}
@@ -350,46 +355,45 @@ No&40.4&19.7&60.5&38.3\\\hline
 \label{table:stats}
 \end{table}
 \subsection{Investigating Errors}
-From the results obtained by the test corpora, there was a clear indication that the validity of the produced triplets relies on the correctness of the Stanford typed dependencies, as well as the accuracy of the DLE parser. Some invalid cases are also the product of the subject finding methodology for the DLEs, mainly due to its inability to resolve indirect references and disambiguate the spatial sense in the subject. In other cases, it is the informal or incorrect usage of grammar that led to the failure of triplet extraction.
-%Each of these cases are discussed in detail below. 
+From the results obtained by the test corpora, there was a clear indication that the validity of the produced triplets relies on the correctness of the Stanford typed dependencies, as well as the accuracy of the DLE parser. Some invalid cases are also the product of the subject finding methodology for the DLEs, mainly due to its inability to resolve indirect references and disambiguate the spatial sense in the subject. In other cases, it is the informal or incorrect usage of grammar that led to the failure of triplet extraction. Each of these cases are discussed in detail below. 
 \subsubsection{Invalid Subjects}
 The errors corresponding to invalid subjects found can be prominently classified into two types: \textit{invalid place name} and \textit{subjects with unwanted information}. Since there is no spatial sense disambiguation done for the noun phrases, some of the subjects reported turn out to be invalid. For instance, in example \ref{ex:halfway}, the subject of the DLE \textit{along the street} is \textit{approximately halfway} (a noun phrase) and is deemed correct by the program, producing an incorrect triplet. Similarly in example \ref{ex:roses}, subject of \textit{at the gate and the house} is identified as \textit{roses} (instead of \textit{an arch}), which is not a place reference and thus is invalid. Such errors can be corrected by choosing subjects, which are identified as place references by the DLE parser. However, this leads to the side-effect of making the production of triplets heavily dependent on the accuracy of DLE parser.
 
-Additionally, this approach of finding the subject of a DLE in the most informative way leads sometimes to extensions with undesired information. In the example \ref{ex:wilson}, \textit{Wilson Hall} gets undesirably extended to \textit{Wilson Hall a multi-function hall}, due to having DLEs separated by a comma identified as a single expression. While in most cases this rule provides useful spatial information (e.g., the University of Melbourne, in Carlton), in the example provided here the expression after the comma does not add to the spatial sense of the DLE.\vspace{-0.1in}
+Additionally, this approach of finding the subject of a DLE in the most informative way leads sometimes to extensions with undesired information. In the example \ref{ex:wilson}, \textit{Wilson Hall} gets undesirably extended to \textit{Wilson Hall a multi-function hall}, due to having DLEs separated by a comma identified as a single expression. While in most cases this rule provides useful spatial information (e.g., the University of Melbourne, in Carlton), in the example provided here the expression after the comma does not add to the spatial sense of the DLE.\vspace{-0.05in}
 \begin{example}
 \label{ex:wilson}
-Next $[$to the sandstone core$]$ is $[$Wilson Hall$]$, a multi-function hall \dots \vspace{-0.2in}
+Next $[$to the sandstone core$]$ is $[$Wilson Hall$]$, a multi-function hall \dots \vspace{-0.05in}
 \end{example}
 Triplet extracted:\\
 \texttt{<Wilson Hall a multi-function hall $next$ $to$ the sandstone core>} 
 \subsubsection{Limitations Of The Stanford Parser}
 \label{subsub:stanford}
-The errors corresponding to limitations of the Stanford parser include incorrect POS tagging and hence, incorrect typed dependencies. Since, the backbone of the subject finding task are the typed dependencies, the major errors that occur in the extraction process are when the dependencies are incorrect. For instance, in example \ref{ex:halfway}, the parser failed to realise the dependency between \textit{private residence} and \textit{along the street}. Some of the errors originate from the incorrect POS tags such as that in Example~\ref{ex:c1}, where \textit{diagonally} is identified as a noun (instead of an adverb), and thus an invalid triplet is produced. \vspace{-0.1in}
+The errors corresponding to limitations of the Stanford parser include incorrect POS tagging and hence, incorrect typed dependencies. Since, the backbone of the subject finding task are the typed dependencies, the major errors that occur in the extraction process are when the dependencies are incorrect. For instance, in example \ref{ex:halfway}, the parser failed to realise the dependency between \textit{private residence} and \textit{along the street}. Some of the errors originate from the incorrect POS tags such as that in Example~\ref{ex:c1}, where \textit{diagonally} is identified as a noun (instead of an adverb), and thus an invalid triplet is produced. \vspace{-0.05in}
 \begin{example}
 \label{ex:halfway}
-I am $[$at a private residence$]$ located on the western side $[$of Barrington Avenue$]$ $[$in Kew$]$, approximately halfway $[$along the street$]$. \vspace{-0.2in}
+I am $[$at a private residence$]$ located on the western side $[$of Barrington Avenue$]$ $[$in Kew$]$, approximately halfway $[$along the street$]$. \vspace{-0.05in}
 \end{example}
 Triplets extracted:\\
 \texttt{<I $at$ a private residence>}\\
 \texttt{<a private residence  $on$  $the$ $western$ $side$ $of$ Barrington Avenue>}\\
 \texttt{<Barrington Avenue $in$ Kew>}\\
-\texttt{<approximately halfway $along$ the street>}
+\texttt{<approximately halfway $along$ the street>} \vspace{0.05in}
 
 The study of the error of these types led to an interesting observation. The major cases where the Stanford parser fails to identify the dependencies are those with long sentences containing multiple clauses. This can be fairly justified considering the inexhaustive training behind the Stanford parser. However, it can be seen that such long sentences have visible clause boundaries (usually separated by `,') and if the clause boundaries are detected and the sentence is split into its clauses, the dependencies turn out correct. Clause separation was used whenever possible in the triplet extraction to eliminate dependency errors. Correcting the Stanford parser is clearly out of scope for this paper. However, for future uses, it is suggested to either retrain the parser to handle multi-clausal sentences, or alternatively, to preprocess the data by splitting the sentences at their clause boundaries, before feeding them to the parser.
 \subsubsection{Inaccuracy Of The DLE Parser}
-Since the task of DLE parser is to identify prepositions and the following place references, errors are related to the reported span of the DLE and the preposition's spatial sense. Example~\ref{ex:construction} is a case where the lack of disambiguation of the preposition's sense is exposed. The DLE parser identifies \textit{at night} as a DLE although $at$ here has no spatial sense, thus resulting in an invalid triplet. \vspace{-0.1in}
+Since the task of DLE parser is to identify prepositions and the following place references, errors are related to the reported span of the DLE and the preposition's spatial sense. Example~\ref{ex:construction} is a case where the lack of disambiguation of the preposition's sense is exposed. The DLE parser identifies \textit{at night} as a DLE although $at$ here has no spatial sense, thus resulting in an invalid triplet. 
 \label{subsub:DLE}
 \begin{example}
 \label{ex:construction}
-There is $[$constant construction$]$ which keeps all residents up $[$at night$]$. \vspace{-0.2in}
+There is $[$constant construction$]$ which keeps all residents up $[$at night$]$. 
 \end{example}
 Triplet extracted:\\
 \texttt{<constant construction $at$ night>}
 
-Next example (Example~\ref{ex:roses}) highlights the case where an incorrect span of a DLE is reported. The triplet extracted is \texttt{<roses $at$ the gate and the house>} instead of \texttt{<roses $at$ the gate>}, because of the effect of the connector `and' mentioned previously (Section \ref{extraction}). \vspace{-0.1in}
+Next example (Example~\ref{ex:roses}) highlights the case where an incorrect span of a DLE is reported. The triplet extracted is \texttt{<roses $at$ the gate and the house>} instead of \texttt{<roses $at$ the gate>}, because of the effect of the connector `and' mentioned previously (Section \ref{extraction}). 
 \begin{example}
 \label{ex:roses}
-There is an $[$arch$]$ with roses growing on it $[$at the gate and the house$]$ is a double - $[$fronted Victorian house$]$.\vspace{-0.2in}
+There is an $[$arch$]$ with roses growing on it $[$at the gate and the house$]$ is a double - $[$fronted Victorian house$]$.
 \end{example}
 As compared to the F-score of the DLE parser without the manual annotations (0.76), the F-score of the parser with annotations is very high (0.99) \footnote{Results indicated are related to identification of DLEs and not for extraction of triplets} \cite{fei:locative}.
 Though using manual annotations increases the overall F-score of the DLE identification, it is observed in some instances the recall increases when not using the manual annotations, at the expense of accuracy. With the manual annotations, the parser becomes strictly restricted to the annotated place references and a DLE gets identified only if the associated place reference is present in the annotations. 
@@ -438,15 +442,16 @@ of the tree or to add a new branch to the existing depth.
 \label{sec:conclusion}
 This paper addresses the task of extracting spatial information from NL place descriptions by using triplet representations. We have come up with a simple, yet effective reasoning approach for understanding static place descriptions, without making use of any external resources such as maps, or path geometry. The attempt to find informative and computationally convenient triplets sets up a good potential medium for translating textual place descriptions to graph representations, such as automatically produced sketch maps, as suggested elsewhere \cite{maria:descriptions}. We have implemented the approach to two different corpuses, which were not mere set of spatial expressions, but situated place descriptions. Our experiments investigated the applicability of the approach and indicate a good recall for extracting static triplets for the production of triplets of a locatum, spatial relations and reference objects. It suggests that when the place descriptions contain a static structure in the spatial relationships and there are no indirect references, we can be confident of the reasoning approach to yield the triplets, given that the DLE parser has identified the DLEs correctly. We have made an extensive study into the shortcomings of the approach exposing the impact of absence of indirect reference resolution and spatial motion interpretation in understanding situated place descriptions. 
 
+The work reported in this paper presents an effort to enhance the Stanford parser, so as to accommodate the extraction of spatial information from natural language place descriptions.
 This research also forms the first attempt to use DLEs as an intermediate step to extract triplets from spatial language. Our experiments tested the DLE parser on a corpus different from the one it was orginally trained for. And, our analysis on the results of DLE parser suggests that use of the DLE parser is well suited for understanding static place descriptions without any indirect place references. We also pose the need for learning the prepositional sense to improve the precision of such a parser meant to identify DLEs. Furthermore, we reveal that the Stanford dependency parser when used with place descriptions, errs in fundamental tasks of \textit{POS}-tagging and extracting \textit{typed dependencies}, and that the parser could achieve more reliable results if it is re-trained to work on sentences with multiple clauses. And it remains as a critical tool to explore spatial language further by aiming at descriptions involving motion.
 
 Our attempt to understand place descriptions exposes several gaps in this research area. One obvious direction of extending the reasoning approach in this research and making it more robust is to migrate to a case based reasoning (CBR) approach \cite{xu:case}. CBR is a learning approach that works by forming generalizations of training examples, leading to a more natural mechanism for triplets extraction. 
 %As highlighted earlier, resolving indirect references in a place description is a challenging task. References may point to place names and are crucial to resolve for extracting the spatial triplets. 
 %Additionally, resolving indirect references which point to place names is a 
 A critical issue in triplet extraction is resolving indirect references which point to place names.
-%Such references can occur using indicators such as `here', `this', `there',`that' or `it'. 
+Such references can occur using indicators such as `here', `this', `there',`that' or `it'. 
 In some non trivial cases, there may be no explicit indication of the reference, but an implicit one in the context of the description. For instance, in ``\textit{In the center are the original `old' buildings.}'', there is no way one can resolve the reference without storing the context from the corresponding situated description. 
-%Hence, there rises a need of an approach which keeps track of the context and enables grounding of such non-trivial references. 
+Hence, there rises a need of an approach which keeps track of the context and enables grounding of such non-trivial references. 
 Additionally, extracting spatial triplets from a description becomes more challenging with an egocentric frame of reference, e.g., ``\textit{Facing the activity center, you would find a tower on your left}''. One needs to figure out the relationship between \textit{activity center} and the \textit{tower} using the orientation set in the description and develop a generalized approach to deal with an egocentric frame of reference.
 
 

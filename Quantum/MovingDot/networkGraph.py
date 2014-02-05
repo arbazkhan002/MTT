@@ -42,20 +42,63 @@ class networkGraph(graph):
 			cur1.execute("SELECT (s.points).geom as point FROM ( SELECT ST_DumpPoints('%s') as points) as s " % row.geom)
 			prevpt=dbfields.reg(cur1,cur1.fetchone()).point
 			prevnode=self.makeNode(prevpt,row.split_id)
+			temp=conn.cursor()
 			for row1 in cur1:	
 				row1=dbfields.reg(cur1,row1)
 				nextnode=self.makeNode(row1.point,row.split_id)
-				temp=conn.cursor()
 				temp.execute("SELECT st_distance('%s','%s') as l" % (prevnode.geom,nextnode.geom))
 				length=dbfields.reg(temp,temp.fetchone()).l
-				self.insertEdge(prevnode,nextnode,length)
+				#temp.execute("INSERT INTO network_dumppoints (geomline, angle, split_id, gid, geom) VALUES \
+				#	(st_makeline('%s','%s'), degrees( ST_Azimuth('%s'::geometry,'%s'::geometry) ),'%s', '%s', '%s') " 
+				#	% (prevnode.geom,nextnode.geom,prevnode.geom,nextnode.geom, row.split_id , row.gid, row.geom ))
+				edgesInserted=self.insertEdge(prevnode,nextnode,length)
+				map(lambda x: x.setId(row.split_id),edgesInserted)		#Store corresponding splitIDs 
+				for e in edgesInserted:			
+					temp.execute("SELECT degrees( ST_Azimuth('%s'::geometry,'%s'::geometry) ) as angle" % (e.u.geom,e.v.geom))
+					angle=dbfields.reg(temp,temp.fetchone()).angle
+					e.setangle(angle)
 				prevnode=nextnode
+			temp.close()
+			cur1.close()
+		cur.close()		
+				
+	def build_sectgraph(self,conn):
+		cur	= conn.cursor()		
+		cur.execute("SELECT * from network_dumppoints")
+
+		for row in cur:
+			row=dbfields.reg(cur,row)
+			cur1=conn.cursor()
+			cur1.execute("SELECT (s.points).geom as point FROM ( SELECT ST_DumpPoints('%s') as points) as s " % row.geomline)
+			prevpt=dbfields.reg(cur1,cur1.fetchone()).point
+			prevnode=self.makeNode(prevpt,row.dump_id)
+			temp=conn.cursor()
+			for row1 in cur1:	
+				row1=dbfields.reg(cur1,row1)
+				nextnode=self.makeNode(row1.point,row.dump_id)
+				#~ temp.execute("SELECT st_distance('%s','%s') as l" % (prevnode.geom,nextnode.geom))
+				length=row.length
+				#temp.execute("INSERT INTO network_dumppoints (geomline, angle, split_id, gid, geom) VALUES \
+				#	(st_makeline('%s','%s'), degrees( ST_Azimuth('%s'::geometry,'%s'::geometry) ),'%s', '%s', '%s') " 
+				#	% (prevnode.geom,nextnode.geom,prevnode.geom,nextnode.geom, row.split_id , row.gid, row.geom ))
+				edgesInserted=self.insertEdge(prevnode,nextnode,length)
+				map(lambda x: x.setId(row.dump_id),edgesInserted)		#Store corresponding splitIDs 
+				for e in edgesInserted:			
+					temp.execute("SELECT degrees( ST_Azimuth('%s'::geometry,'%s'::geometry) ) as angle" % (e.u.geom,e.v.geom))
+					angle=dbfields.reg(temp,temp.fetchone()).angle
+					e.setangle(angle)
+				prevnode=nextnode
+			temp.close()
+			cur1.close()
+		cur.close()		
+								
 				
 	def dfs(self, s, t):
 		finished=False
 		visited={}
-		parent={}
+		parent={}			#parent[childvertex]=(parentvertex,connectingEdgeNode)
 
+		#Trace path using parent pointers
 		def getpath(s,t,parent,path):
 			path.append(parent[t][1])
 			return (getpath(s,parent[t][0],parent,path) if s!=parent[t][0] else path)
@@ -122,7 +165,7 @@ class networkGraph(graph):
 		return float("inf")	
 	
 	#find all paths that are of length less than dist originating at s
-	#Returns a list of paths
+	#Returns a list of paths (set of node ids)
 	#Note : visited nodes not counted again, but what if loops in paths?
 	#		some paths would end in a visited node. Take care!
 	def findallPaths(self,s,dist):
@@ -147,6 +190,31 @@ class networkGraph(graph):
 		
 		visited={}
 		return pathfinder(s,dist,visited)					
+	
+	#find all paths that are of length less than dist originating at a section in the direction from endpoint s on it
+	#Returns a list of paths (set of edges)
+	#Note : visited sections are counted again
+	def findallPaths(self,sect,s,dist):
+		def pathfinder(sect,s,dist,visited):
+			if dist<=0:
+				return [[]]
+			flag=False	
+			paths=[]
+			for edgeuv in self.adj(s):
+				v=edgeuv.v
+				if edgeuv.splitId not in visited:
+					flag=True		#atleast one non visited nbr		
+					visited[edgeuv.splitId]=True							
+					rest=pathfinder(edgeuv,v,dist-edgeuv.length,visited) 	#'rest' is a list of paths
+					del visited[edgeuv.splitId]						
+					rest=map(lambda x : x+[edgeuv], rest)
+					paths+=rest
+			 		
+			return paths
+		
+		
+		visited={}
+		return pathfinder(sect,s,dist,visited)					
 ''' 
 USAGE
 if __name__=="__main__":

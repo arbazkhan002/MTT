@@ -1,0 +1,670 @@
+% THIS IS SIGPROC-SP.TEX - VERSION 3.1
+% WORKS WITH V3.2SP OF ACM_PROC_ARTICLE-SP.CLS
+% APRIL 2009
+%
+% It is an example file showing how to use the 'acm_proc_article-sp.cls' V3.2SP
+% LaTeX2e document class file for Conference Proceedings submissions.
+% ----------------------------------------------------------------------------------------------------------------
+% This .tex file (and associated .cls V3.2SP) *DOES NOT* produce:
+%       1) The Permission Statement
+%       2) The Conference (location) Info information
+%       3) The Copyright Line with ACM data
+%       4) Page numbering
+% ---------------------------------------------------------------------------------------------------------------
+% It is an example which *does* use the .bib file (from which the .bbl file
+% is produced).
+% REMEMBER HOWEVER: After having produced the .bbl file,
+% and prior to final submission,
+% you need to 'insert'  your .bbl file into your source .tex file so as to provide
+% ONE 'self-contained' source file.
+%
+% Questions regarding SIGS should be sent to
+% Adrienne Griscti ---> griscti@acm.org
+%
+% Questions/suggestions regarding the guidelines, .tex and .cls files, etc. to
+% Gerald Murray ---> murray@hq.acm.org
+%
+% For tracking purposes - this is V3.1SP - APRIL 2009
+
+\documentclass{acm_proc_article-sp}
+%\usepackage{algorithm2e}
+%\usepackage{algpseudocode}
+\begin{document}
+
+\title{Extracting Spatial Relations From Place Descriptions}%\titlenote{(Does NOT produce the permission block, copyright information nor page numbering). For use with ACM\_PROC\_ARTICLE-SP.CLS. Supported by ACM.}}
+%\subtitle{[Extended Abstract]
+%\titlenote{A full version of this paper is available as
+%\textit{Author's Guide to Preparing ACM SIG Proceedings Using
+%\LaTeX$2_\epsilon$\ and BibTeX} at
+%\texttt{www.acm.org/eaddress.htm}}}
+%
+% You need the command \numberofauthors to handle the 'placement
+% and alignment' of the authors beneath the title.
+%
+% For aesthetic reasons, we recommend 'three authors at a time'
+% i.e. three 'name/affiliation blocks' be placed beneath the title.
+%
+% NOTE: You are NOT restricted in how many 'rows' of
+% "name/affiliations" may appear. We just ask that you restrict
+% the number of 'columns' to three.
+%
+% Because of the available 'opening page real-estate'
+% we ask you to refrain from putting more than six authors
+% (two rows with three columns) beneath the article title.
+% More than six makes the first-page appear very cluttered indeed.
+%
+% Use the \alignauthor commands to handle the names
+% and affiliations for an 'aesthetic maximum' of six authors.
+% Add names, affiliations, addresses for
+% the seventh etc. author(s) as the argument for the
+% \additionalauthors command.
+% These 'additional authors' will be output/set for you
+% without further effort on your part as the last section in
+% the body of your article BEFORE References or any Appendices.
+
+\numberofauthors{3} %  in this sample file, there are a *total*
+% of EIGHT authors. SIX appear on the 'first-page' (for formatting
+% reasons) and the remaining two appear in the \additionalauthors section.
+%
+\author{
+% You can go ahead and credit any number of authors here,
+% e.g. one 'row of three' or two rows (consisting of one row of three
+% and a second row of one, two or three).
+%
+% The command \alignauthor (no curly braces needed) should
+% precede each author name, affiliation/snail-mail address and
+% e-mail address. Additionally, tag each line of
+% affiliation/address with \affaddr, and tag the
+% e-mail address with \email.
+%
+% 1st. author
+\alignauthor
+Arbaz Khan\\
+       \affaddr{Department of Computer Science and Engineering}
+       \affaddr{Indian Institute of Technology Kanpur}\\       
+       \affaddr{Uttar Pradesh, India}\\
+       \email{arbazk@iitk.ac.in}
+% 2nd. author
+\alignauthor
+Maria Vasardani\\
+       \affaddr{Department of Infrastructure Engineering}\\
+       \affaddr{University of Melbourne}\\
+       \affaddr{Victoria, 3010}\\
+       \email{mvasardani\\@unimelb.edu.au}
+% 3rd. author
+\alignauthor Stephan Winter\\
+       \affaddr{Department of Infrastructure Engineering}\\
+       \affaddr{University of Melbourne}\\
+       \affaddr{Victoria, 3010}\\
+       \email{winter@unimelb.edu.au}
+}
+% There's nothing stopping you putting the seventh, eighth, etc.
+% author on the opening page (as the 'third row') but we ask,
+% for aesthetic reasons that you place these 'additional authors'
+% in the \additional authors block, viz.
+% \additionalauthors{Additional authors: John Smith (The Th{\o}rv{\"a}ld Group,
+% email: {\texttt{jsmith@affiliation.org}}) and Julius P.~Kumquat
+%(The Kumquat Consortium, email: {\texttt{jpkumquat@consortium.net}}).}
+\date{\today}
+% Just remember to make sure that the TOTAL number of authors
+% is the number that will appear on the first page PLUS the
+% number that will appear in the \additionalauthors section.
+
+\maketitle
+\begin{abstract}
+Computational model of understanding place descriptions is a cardinal issue in multiple disciplines and provides critical applications esp. in dialog-driven geolocation services. This research targets the automated extraction of spatial triplets to represent qualitative spatial relations between recognized places from 
+natural language place descriptions via a degenerate form of locative expressions. This work compares the use of case-based reasoning
+approach in spatial role labelling with previous machine learning approaches. 
+\end{abstract}
+
+% A category with the (minimum) three required fields
+\category{H.3.1}{Information Storage and Retrieval}Computational Linguistics
+%A category including the fourth, optional field follows...
+\category{I.2.7}{Artificial Intelligence}Natural Language Processing
+
+\terms{Algorithms, verification, performance}
+
+\keywords{Spatial relations, place descriptions, spatial role labelling, spatial language understanding} % NOT required for Proceedings
+
+\section{Introduction}
+A place description provides spatial information in terms of spatial relations between objects in the environment. Place descriptions are used in everyday activities in spatial-learning and problem-solving in the absence of maps or compass in large-scale environments. Most descriptions possess a dynamic nature where the human provider uses a tour route for communicating spatial information \cite{linde:spatial}. So place descriptions can also be thought of to encompass path descriptions and to understand a place description would mean to infer the relative/absolute location of the objects and the static or dynamic spatial relations between them by following any route within. To add to the complexity, the objects in the descriptions can be simply objects (wall, picture, house) or place names (vernacular or from the gazetteers). Its required to resolve the vernacular names and potential places from the objects. Nonetheless, this challenging task of understanding the natural language place descriptions provides critical applications in numerous domains including instruction following robots, description based localization in query/dialog based navigation services and automated geo-tagging of text. Also, having inferred the spatial relations from such a description eases the translation of abstract verbal descriptions to the more iconic medium of conveying information i.e pictures and sketch maps. 
+
+This research targets the automated extraction of spatial triplets to represent spatial relations between recognized objects from natural language place descriptions via a degenerate form of locative expressions. \textit{Locative expression} as described in \cite{herskovits:pragmatics}, is an expression containing a preposition, its object and whatever the prepositional phrase modifies. However, a \textit{degenerate locative expression} can be described as an expression containing a preposition and its object, or simply a noun place (no prepositions). This research starts with a trained learning model (\cite{fei:locative}) which predicts the beginning and the span of a degenerate locative expression in a sentence using CRFs along-with the place names indicators (gazetteers and manual annotations). It gives a good indication on the spatial relations in NL text and can be used to extract spatial relationships in the form of triplets which comprise of an object of interest, a reference object and a prepositional relation that connects the two . This representation is derived from the technique of spatial role labelling (SpRL) \cite{Kordjamshidi:labelling}, where the preposition serves as a spatial indicator connecting a trajector (object of interest) with a landmark (reference object). For the purpose of this paper, we would be focussing only on the static descriptions and point out the challenges for dealing with the descriptions involving motion.
+
+The introduction of the problem leads to the fundamental question - Given a degenerate locative expression, is it possible to extract the spatial relations without introducing any additional ambiguities? If yes, how effective it is to use degenerate locative expressions(\textit{dle}s) to identify the underlying spatial relationships between the places. In this paper we present a technique to identify the spatial relationships between recognized objects and place names with the help of \textit{dle}s. We claim our identified spatial relations to be qualitative and informative enough to assist in sketch-map generation and graphical depictions. 
+%The proposed technique aims to handle the static nature of place descriptions. 
+We also discuss the results of our technique and its quality as compared to the previous machine-learning approaches to the problem. Finally, we end by providing concluding remarks on our work and the future research implied by it.
+\section{Relevant Works}
+\cite{zlatev:semantics} worked on the cognitive linguistic research in spatial semantics and provided basic theoretical concepts for understanding it. Ever since then, there has been growing trend to understand natural language (NL) descriptions. The research has moved towards understanding unrestricted NL in current works (\cite{Kordjamshidi:labelling, matuszek:following, tellex:language}). However, most of these works make use of map-assisted learning and/or vision based understanding (\cite{kollar:robotic,levit:interpretation,macmahon:walk}), our methodology makes use of no external resources but the machine learning tools \cite{fei:locative} to identify place names and the associated prepositional phrases (\textit{dle}). The spatial triplets are then identified by a case-based reasoning method, in whole which takes away the need of an annotated training dataset (which are usually noisy or biased) and/or a detailed map. 
+\section{Theory}
+\subsection{Definitions}
+We start by comprehensively defining the major terms that appear in this paper viz spatial triplets (or simply triplets) and degenerate locative expressions (dle).
+\subsubsection{Spatial Triplets}
+A spatial triplet is a triple of a locatum (\textit{LOC}), reference object (\textit{RO}) and a spatial relation (\textit{r}). Here, RO is the object that defines the reference to the location of LOC using the prepositional relation \textit{r}. For example, \texttt{<Melbourne Hospital \textit{diagonally across} Peter Doherty Institute>} references \textit{Melbourne Hospital} as the LOC in terms of \textit{Peter Doherty Institute} as RO by the relation \textit{diagonally across} as \textit{r}. \cite{vasardani:descriptions} provides more information on the theory and the structure of triplets. This method of defining spatial relation is derived from the technique of spatial role labelling(SpRL) which first appeared in \cite{Kordjamshidi:labelling}. In SpRL, one assigns spatial role labels to the words or phrases in sentences from the set \{\textit{trajector} (tr), \textit{spatial Indicator}(si), \textit{landmark}(l), \textit{none}\}. For example, such a labelled sentence looks like:
+``[\textit{We}]$_{tr}$ are sitting [\textit{in}]$_{si}$ [\textit{the Baretto's}]$_l$ [\textit{in}]$_{si}$ [\textit{the Alan Gilbert Building}]$_{l}$". However, spatial triplets that could be extracted out of such a sentence look like : \\<\texttt{We \textit{in} the Baretto's}> \\<\texttt{We \textit{in} the Alan Gilbert Building}>\\ 
+Observably, a spatial triplet relation provides a better representation of spatial information than the role labels, and provides a suitable medium to translate the verbal description to a pictorial representation. 
+\subsubsection{Degenerate Locative Expressions}
+A locative expression is a spatial referring expression which is defined as an expression containing a preposition, its object and whatever the prepositional phrase modifies \cite{herskovits:pragmatics}. These expressions have been adopted as a standard for spatial semantics and cognition and widely referred (\cite{olivier:semantics},\cite{zlatev:semantics}). However, in informal communication or a situated dialog, people tend to disregard the subject and describe the location in terms of just the preposition and its object (e.g. [I am] at the Deakins university, ). We term such locative expressions as degenerate locative expresssions (\textit{dle}). While crowdsourcing for place descriptions, people described their location mostly in terms of \textit{dle}s\footnote{from the dataset taken from \textit{tell us where} mobile game - \texttt{http://telluswhere.net/}}. Hence, an attempt was made to identify the \textit{dle}s and train a model on the available dataset to provide predictions on any test corpus.
+\subsubsection*{Classification of Degenerate Locative Expressions}
+From the definition of a degenerate locative expression (\textit{dle}), one can think of constructions like ``of the train-station", ``from the University" and ``to the Bourke Street". Such examples do follow from the definition but convey no spatial information independently. Such \textit{dle}s require special treatment before the corresponding triplet relation could be extracted. We term such \textit{dle}s as \textit{directional dle}s. These locative expressions start with a prepositions of direction and are from the set \{from, of, to, by, towards, past, after, before\}.
+The rest of the \textit{dle}s, which with their subjects give a sense of spatial relation are termed as \textit{locative dle}s. The procedures for triplet extraction described in the subsequent sections are described first for locative \textit{dle}s and then for directive \textit{dle}s. Some directive \textit{dle}s can be converted to locative \textit{dle}s by completing the prepositional clause to form a locative phrase (e.g. ``from the University" can complete to ``at the 3rd house from the University" and ``of the train-staion" to ``in the north of train-station"). Such \textit{dle}s are converted to and handled like locative \textit{dle}s. 
+\begin{table*}
+\centering
+\caption{Extending the prepositional relations of direction using dependencies}
+\begin{tabular}{|c|c|p{7cm}|} \hline
+Governor&Action on relation&Result example\\ \hline
+noun & extend with the noun and its modifiers&\textbf{prep\_from}(house, station) \\&&extends \textit{from} as "3rd house from" \\ \hline
+adjective & extend with the adjective&{\textbf{prep\_to}}(next, station) \\&& extends \textit{to} as "next to"\\ \hline
+verb & extend with the verb's modifiers&\textbf{prep\_from}(living, station)\\&& adds modifiers from \textbf{npadvmod}(living, minutes)\\&& extends \textit{from} as "2 minutes from"\\ 
+\hline\end{tabular}
+\label{table:directional}
+\end{table*}
+%Example for verb: I am living 2 blocks away from the station
+%Example for adjective: my house is next to the station.
+\subsection{Approach}
+To deal with the task of spatial information extraction, we set ourselves the aim of identiying `informative' spatial triplet relations. The problem can be defined similar to a spatial role labelling task(SpRL), the difference being that we attempt not to miss any information from the place names and the spatial relation. For example, in ``two women in the front row with their heads turned around", SpRL marks the reference object as `row' to eventually give the triplet ``women in row". However, we are interested in including any informative meaning inherent in the description and thus output ``women in front row". This also becomes essential in the long term goal of translating verbal descriptions to graphical depictions, where the graph/sketch drawing algorithm could be vitally benefitted by localizing the object to `front row' rather than just any `row' (from the above example). There exist datasets for identifying spatial expressions (\cite{Bateman:data,CLEF:data, parisa:semeval})  but none are characteristic enough of a place description. For instance, place descriptions in practical are more descriptive than mere spatial expressions and the spatial relations can be fairly complex but formalizable (e.g `between',`across from').  Due to the goals set thereafter and the fact that there is no available dataset for training on such special and essential requirements, we chose a case based reasoning approach rather than a machine-learning approach to extract triplet relations. This approach would help identify the structure of a spatial language understanding problem and thus eventually aid the machine learners in identifying the better features and deciding the distribution of weights to these features. 
+
+Extracting triplet relations poses varying challenges owing to the complex nature of place descriptions. The spatial relations can be defined either simply using position descriptors (e.g on, at, in) or using concepts of motion and frame of reference (\cite{zlatev:semantics}). For example, in "From here, you can go left towads X and then head north to reach Y". The phrase "From here" carries context and the current context is shown spatially related to X and Y via motion indicators. For the purpose of this paper we limit ourselves from the detection of spatial motion and recognition of frame of reference and instead focus on the structure of static place-descriptions. We deal with place descriptions by classifying the expressions in place descriptions on the basis of whether they carry any context or motion. The process of identification goes through the two types of \textit{dle}s to extract triplets assuming all descriptions are static i.e without any context or motion. We start by describing the process of triplet extraction for locative \textit{dle}s.
+\subsubsection*{Locative \textit{dle}}
+Given the \textit{dle}s, to identify the triplet relation, one needs to find the subject of \textit{dle}. For example, in ``There is a construction site in the alley.", the \textit{dle} is `in the alley' and the triplet relation extracted should be \texttt{<construction site in the alley>}. To  identify the subject, the dependency between the preposition \textit{in} and the two noun places `construction site' and `the alley' needs to be identified. Luckily, from the stanford typed dependencies parser \cite{marneffe:stanford}, one can extract the dependencies between the words of a sentence. Using the collapsed dependencies representation, \textit{prep} relation reports a prepositional phrase and the verb/noun/adjective modified by the prepositional phrase. The former is called the dependent and the latter is called as governor. As for this case, the dependency reported is \textit{prep\_in}(site,alley) where `site' is the governor and `alley' is dependent. When the relation is between two nouns, the triplet relation is direct. 
+%\footnote{A noun place can also be a nominal subject to a noun. For e.g, in "AGB is the first building on the Grattan Street", the dependency is prep\_\textit{on}(building, Street) and nominal subject of "building" is AGB. Hence AGB is reported as the subject.}
+However, in the case of verb/adjective, we further explore the typed dependencies to find the nominal subject or the noun modified. The subject finding task (for verb/adjective/noun) then recursively checks for the modifiers of the subject (if any) by searching through the set of modifier relations provided by typed dependencies. The final triplet relation is reported thereafter. The steps can be explained by an example in Figure-\ref{fig:phase1}.
+\subsubsection*{Directional \textit{dle}}
+The directional \textit{dle}s convey no spatial information independently but they form an important medium for infering spatial relationships in the place description with an underlying tour-route structure. As mentioned earlier, directional \textit{dle}s can be converted to locative \textit{dle}s in some sentences and can be directly used to output triplets. In other cases, a directional \textit{dle} can be made informative and meaningful by just extending its prepositional clause. For example, consider the sentence ``I am 300 meters far from the auburn train-station" with the directional \textit{dle} as ``from the auburn train-station". Clearly, by including ``300 meters far", we get a more informative triplet \texttt{<I \textit{300 meters far from} the train station>}. Thus, the aim is to capture this information from the typed dependencies. Table-\ref{table:directional} provides the exhaustive rules to extract this information from the typed dependencies. By doing this, we exploit the locative purpose served by a directional \textit{dle}. Thereafter, we proceed similar to a locative \textit{dle} to find subject of the preposition.
+
+
+%However, it should be noted that a directional \textit{dle} may not have a locative purpose at all. Instead, it may be specifically used to dynamically describe the spatial relations. For example, in "If you walk south from the engineering departments, you reach to the main south entrance", we see the implied spatial relationship of 'main south entrance' to be at the \textit{south} of 'engineering departments'. So, we keep such \textit{dle}s in the Phase-1 triplets even though no spatial information is conveyed. In Phase-II, such triplets are further processed to derive the implied spatial relationships.
+%\subsubsection{Phase-II}
+%After producing the triplets in Phase-I, we move to Phase-II where we process triplets carrying dynamic spatial relationships. Kuipers \cite{kuipers:modeling} argues the cognitive map of humans and the spatial knowledge as a catalog of routes and thus, supports the evidence for human place descriptions to possess a dynamic nature and contain an underlying tour route to the subject environment.
+\begin{figure}
+\centering
+%\includegraphics[width=0.5\textwidth]{phase1.png}
+\epsfig{file=phase1.eps, height=2in, width=2in}
+\caption{Sample run of the identification process for locative \textit{dle} in the sentence  ``I am on the Docklands Esplanade"}
+\label{fig:phase1}
+\end{figure}
+%\centerline{$\downarrow$ {\small (include modifiers)} \\}
+%\newtheorem{algorithm}{Algorithm}
+%\begin{algorithm}
+%\While{$current\_position$ is inside circle,}{}
+%Extract triplet relations from stanford collapsed dependencies \\
+%\end{algorithm}
+
+%But the preposition dependency is reported only in terms of phrase heads. As for this case, the dependency reported is \textit{prep\_in}(site,alley). Henceforth, to complete %the triplet relation with the help of dependencies, we include all the modifiers for the arguments of the dependency.   
+\section{Implementation}
+The methodology mentioned in the previous section works on the natural language via the results of a parser which is trained to identify degenerate locative expressions in informal text\cite{fei:locative}. 
+The parser builds a \textit{conditional random field} (CRF) machine learning model on the manually annotated corpus of place descriptions\cite{tuw} and attempts to identify both informal and formal place references. To enhance its prediction scores, it exploits the external resources like gazetteers and dictionaries. The output provided by the parser is in the form of IOB encoding as marked in Figure-\ref{fig:IOB}. A B-NP tag denotes the beginning of \textit{dle}, I-NP tags indicate the span of a \textit{dle}. All words with O tags are outside of any \textit{dle}. Hence in the example shown in Figure-\ref{fig:IOB} identifies ``in Baretto" and ``in Alan Gilbert Building" as \textit{dle}s in the sentence. The \textit{dle}s output by the parser are either simply place names (e.g. Chetwynd Place) or place names with prepositional attachments (e.g. of the train station).
+
+The parser is written in \textit{Python} and our program works at the top of it. The input requirements to the parser are met by \textit{chunking} the POS-tagged sentences. The parser can also take the manual annotations of place names as input, in the format provided by \cite{igor:annotations}. The manual annotations are optional for the working of parser, but enhance the \textit{dle} prediction scores. For each \textit{dle} extracted from the parser, our program identifies its subject (after extending prepositional clauses for directional \textit{dle}s) using the output of \textit{Stanford parser}\cite{klein:accurate} for POS tags and dependencies on the original sentences. 
+
+\begin{figure}
+\centering
+%\includegraphics[width=0.5\textwidth]{phase1.png}
+\epsfig{file=IOB.eps, height=0.33in, width=3in}
+\caption{IOB-encoded identification of degenerate locative expressions}
+\label{fig:IOB}
+\end{figure}
+%\[\textit{We're sitting} \underbrace{\textit{in Baretto's}} \underbrace{\textit{in the Alan Gilbert Building}}\]
+\section{Experimental study}
+In this section, we present the experimental analysis of our methodology. We start by describing the dataset used for testing out methodology. Next, we give an insight into the performance of our approach in extraction of triplets from the corpora.  We then discuss its positives and limitations as compared to similar research works on spatial information extraction.  
+\subsection{Dataset Description}
+For our experimental study, we used the \textit{Tell Us Where} data\cite{tuw} as one of the test corpora. The dataset comes from a location based mobile game which locates its users and asks to answer the question, ``tell us where you are?". Originally the corpus consists of 1,858 place descriptions but for the purpose of our research, we filtered out the descriptions containing less than 20 words. This gives descriptions which contain more than one place names and hence the relation between them. We also use a set of 4 NL descriptions of the campus of University of Melbourne for our studies. These were submitted by graduate students with varying extents of familiarities to the campus. Also, there were no instructions given to the students while submitting the descriptions which yields a set of unrestricted NL place descriptions.
+With such dataset, our testing model is set up to be descriptive enough and more natural in relation to and characteristic of place descriptions. 
+\subsection{Extraction of triplets}
+The task of extraction of `spatially informative' triplet relations from NL descriptions is challenging enough to directly deal with using simply a language parser. The \textit{dle} parser helps us here to seperate out the place names. We employ the setting of using the manual annotations with the \textit{dle} parser. Below are some of the example cases representative of our results. 
+\newtheorem{example}{Example}
+\begin{example}
+I am $[$at a 3 stories town house$]$, number 7 $[$Chetwynd Place$]$. $[$The house$]$ is located $[$in a small alley$]$ $[$behind a row of town house$]$ $[$along Chetwynd Street$]$, $[$near the corner$]$ $[$between Chetwynd Street and Queensberry Street$]$. There is $[$a construction site$]$ $[$in the alley$]$. Its the 3rd house from the head $[$of the alley$]$.
+\end{example}
+This example is taken from \textit{Tell Us Where} corpus. The bracketed texts correspond to the \textit{dle}s identified by the parser. The triplet relations output by the program are presented in Table-\ref{table:ex1}. This is a characteristic example of a static place description without a frame of reference, except in the last sentence where `it' is used to symbolise the house of the subject and thus no triplet relation was extracted. If the sentence is rephrased as \textit{I am in the 3rd house from the head of the alley}, the triplet extracted is, \texttt{<I in 3rd house from the head of the alley>}\footnote{See how the preposition `from' gets extended to `3rd house from', and the clause related to the preposition `of' gets attached into the reference object as `head of the alley'}.  Nonetheless, from the output of the program, the triplets produced seem promising and interpretable for an algorithm for graphical depiction. The `between' relation output here is more informative but not syntactically a triplet as it has 3 objects connected to the relation. This makes interpretation of `between' difficult computationally. \cite{maria:descriptions} puts up the semantics of triplet relation and proposes `between' relation to be broken into two halves which can be done here by identifying the conjuncts of the dependent (`Chetwynd Street' and `Queensberry street').
+\begin{table}
+\begin{tabular}{|l|}
+\hline
+\texttt{<I \textit{at} a 3 stories town house>}  \\ \hline
+%Chetwynd Place \\ \hline
+\texttt{<The house \textit{in} a small alley>} \\ \hline
+\texttt{<a small alley \textit{behind} a row of town house>}\\ \hline
+\texttt{<The house \textit{along} Chetwynd Street>}\\ \hline
+\texttt{<The house \textit{near} the corner>}\\ \hline
+\texttt{<the corner \textit{between} Chetwynd Street} \\
+\texttt{and Queensberry Street>}\\ \hline
+%\texttt{a construction site}\\ \hline
+\texttt{<a construction site \textit{in} the alley}\\ \hline
+%\texttt{<the head of the alley>}\\ \hline
+\end{tabular}
+\caption{Program output for spatial triplet relations in Example 1}
+\label{table:ex1}
+\end{table}
+
+\begin{example}
+We're sitting $[$in Baretto$]$'s $[$ in the Alan Gilbert Building$]$, $[$across Grattan street$]$ is one of the $[$ medical buildings $]$. $[$Down the hill$]$ $[$along Grattan street$]$ the $[$new building$]$ being constructed is the $[$Peter Doherty Institute$]$ and diagonally across the road ($[$Royal Parade$]$) is $[$Melbourne Hospital$]$. In the other direction the open area is $[$University square$]$ (there is a $[$carpark$]$ underneath) at the city end $[$of University square$]$ is $[$the law building$]$. $[$Across Grattan street$]$ $[$from University square$]$ there is $[$an entrance$]$ $[$to the campus$]$, straight ahead is $[$an overpass building$]$ and to the right are the various $[$Engineering buildings$]$. The road goes in a big loop around $[$the campus$]$ you can either go left $[$towards the Medical buildings$]$ or right passed $[$the Engineering buildings$]$ then head North (away from University square). One other area you may want to explore is $[$South Lawn$]$ which you can get to by going $[$underneath the overpass building$]$ directly in front of you when you enter $[$the campus$]$.
+\end{example}
+This is an example taken from the campus descriptions. The triplets output by the program are shown in Table-\ref{table:ex2}. We observe that the static spatial relations come up as desired. For instance, the program infers the complex triplet relation:
+
+\texttt{<an entrance to the campus \textit{across} Grattan Street}\\ \texttt{\textit{from} University Square>} 
+
+with its complete inherent information using all the 4 \textit{dle}s related to it viz. $[$Across Grattan street$]$, $[$from University square$]$, $[$an entrance$]$ and $[$to the campus$]$. Again for formalizing triplets, the `across from' relation can be broken analogously to that for `between' relation in the previous example. However, it can be seen that not all triplet relations were extracted by the program. There is a frame of reference in the phrases ``\textit{straight ahead .. Engineering buildings}" and ``\textit{In the other direction} .. ", and spatial motion in the sentence, ``\textit{The road goes .. }".
+\begin{table}
+\begin{tabular}{|l|}
+\hline
+\texttt{<We \textit{in} Baretto>}\\ \hline
+\texttt{<We \textit{in}  Alan Gilbert Building>}\\ \hline
+\texttt{<one of medical buildings \textit{across} Grattan street>}\\ \hline
+\texttt{<the Peter Doherty Institute \textit{Down} the hill>}\\ \hline
+\texttt{<the hill \textit{along} Grattan street>}\\ \hline
+\texttt{<the law building \textit{at  the city end of} }\\
+\texttt{University square>}\\ \hline
+\texttt{<an entrance to the campus \textit{across}  Grattan street} \\
+\texttt{from University square>}\\ \hline
+\end{tabular}
+\caption{Program output for spatial triplet relations in Example 2}
+\label{table:ex2}
+\end{table}
+%\begin{comment}
+%ACM seeks to give these conference by-products a uniform,
+%high-quality appearance.  To do this, ACM has some rigid
+%requirements for the format of the proceedings documents: there
+%is a specified format (balanced  double columns), a specified
+%set of fonts (Arial or Helvetica and Times Roman) in
+%certain specified sizes (for instance, 9 point for body copy),
+%a specified live area (18 $\times$ 23.5 cm [7" $\times$ 9.25"]) centered on
+%5the page, specified size of margins (1.9 cm [0.75"]) top, (2.54 cm [1"]) bottom
+%and (1.9 cm [.75"]) left and right; specified column width
+%(8.45 cm [3.33"]) and gutter size (.83 cm [.33"]).
+%
+%The good news is, with only a handful of manual
+%settings\footnote{Two of these, the {\texttt{\char'134 numberofauthors}}
+%and {\texttt{\char'134 alignauthor}} commands, you have
+%already used; another, {\texttt{\char'134 balancecolumns}}, will
+%be used in your very last run of \LaTeX\ to ensure
+%balanced column heights on the last page.}, the \LaTeX\ document
+%class file handles all of this for you.
+%
+%The remainder of this document is concerned with showing, in
+%the context of an ``actual'' document, the \LaTeX\ commands
+%specifically available for denoting the structure of a
+%proceedings paper, rather than with giving rigorous descriptions
+%or explanations of such commands.
+%\end{comment}
+
+%~ \section{The {\secit Body} of The Paper}
+%~ Typically, the body of a paper is organized
+%~ into a hierarchical structure, with numbered or unnumbered
+%~ headings for sections, subsections, sub-subsections, and even
+%~ smaller sections.  The command \texttt{{\char'134}section} that
+%~ precedes this paragraph is part of such a
+%~ hierarchy.\footnote{This is the second footnote.  It
+%~ starts a series of three footnotes that add nothing
+%~ informational, but just give an idea of how footnotes work
+%~ and look. It is a wordy one, just so you see
+%~ how a longish one plays out.} \LaTeX\ handles the numbering
+%~ and placement of these headings for you, when you use
+%~ the appropriate heading commands around the titles
+%~ of the headings.  If you want a sub-subsection or
+%~ smaller part to be unnumbered in your output, simply append an
+%~ asterisk to the command name.  Examples of both
+%~ numbered and unnumbered headings will appear throughout the
+%~ balance of this sample document.
+%~ 
+%~ Because the entire article is contained in
+%~ the \textbf{document} environment, you can indicate the
+%~ start of a new paragraph with a blank line in your
+%~ input file; that is why this sentence forms a separate paragraph.
+%~ 
+%~ \subsection{Type Changes and {\subsecit Special} Characters}
+%~ We have already seen several typeface changes in this sample.  You
+%~ can indicate italicized words or phrases in your text with
+%~ the command \texttt{{\char'134}textit}; emboldening with the
+%~ command \texttt{{\char'134}textbf}
+%~ and typewriter-style (for instance, for computer code) with
+%~ \texttt{{\char'134}texttt}.  But remember, you do not
+%~ have to indicate typestyle changes when such changes are
+%~ part of the \textit{structural} elements of your
+%~ article; for instance, the heading of this subsection will
+%~ be in a sans serif\footnote{A third footnote, here.
+%~ Let's make this a rather short one to
+%~ see how it looks.} typeface, but that is handled by the
+%~ document class file. Take care with the use
+%~ of\footnote{A fourth, and last, footnote.}
+%~ the curly braces in typeface changes; they mark
+%~ the beginning and end of
+%~ the text that is to be in the different typeface.
+%~ 
+%~ You can use whatever symbols, accented characters, or
+%~ non-English characters you need anywhere in your document;
+%~ you can find a complete list of what is
+%~ available in the \textit{\LaTeX\
+%~ User's Guide}\cite{Lamport:LaTeX}.
+
+%~ \subsection{Math Equations}
+%~ You may want to display math equations in three distinct styles:
+%~ inline, numbered or non-numbered display.  Each of
+%~ the three are discussed in the next sections.
+%~ 
+%~ \subsubsection{Inline (In-text) Equations}
+%~ A formula that appears in the running text is called an
+%~ inline or in-text formula.  It is produced by the
+%~ \textbf{math} environment, which can be
+%~ invoked with the usual \texttt{{\char'134}begin. . .{\char'134}end}
+%~ construction or with the short form \texttt{\$. . .\$}. You
+%~ can use any of the symbols and structures,
+%~ from $\alpha$ to $\omega$, available in
+%~ \LaTeX\cite{Lamport:LaTeX}; this section will simply show a
+%~ few examples of in-text equations in context. Notice how
+%~ this equation: \begin{math}\lim_{n\rightarrow \infty}x=0\end{math},
+%~ set here in in-line math style, looks slightly different when
+%~ set in display style.  (See next section).
+%~ 
+%~ \subsubsection{Display Equations}
+%~ A numbered display equation -- one set off by vertical space
+%~ from the text and centered horizontally -- is produced
+%~ by the \textbf{equation} environment. An unnumbered display
+%~ equation is produced by the \textbf{displaymath} environment.
+%~ 
+%~ Again, in either environment, you can use any of the symbols
+%~ and structures available in \LaTeX; this section will just
+%~ give a couple of examples of display equations in context.
+%~ First, consider the equation, shown as an inline equation above:
+%~ \begin{equation}\lim_{n\rightarrow \infty}x=0\end{equation}
+%~ Notice how it is formatted somewhat differently in
+%~ the \textbf{displaymath}
+%~ environment.  Now, we'll enter an unnumbered equation:
+%~ \begin{displaymath}\sum_{i=0}^{\infty} x + 1\end{displaymath}
+%~ and follow it with another numbered equation:
+%~ \begin{equation}\sum_{i=0}^{\infty}x_i=\int_{0}^{\pi+2} f\end{equation}
+%~ just to demonstrate \LaTeX's able handling of numbering.
+%~ 
+%~ \subsection{Citations}
+%~ Citations to articles \cite{bowman:reasoning, clark:pct, braams:babel, herlihy:methodology},
+%~ conference
+%~ proceedings \cite{clark:pct} or books \cite{salas:calculus, Lamport:LaTeX} listed
+%~ in the Bibliography section of your
+%~ article will occur throughout the text of your article.
+%~ You should use BibTeX to automatically produce this bibliography;
+%~ you simply need to insert one of several citation commands with
+%~ a key of the item cited in the proper location in
+%~ the \texttt{.tex} file \cite{Lamport:LaTeX}.
+%~ The key is a short reference you invent to uniquely
+%~ identify each work; in this sample document, the key is
+%~ the first author's surname and a
+%~ word from the title.  This identifying key is included
+%~ with each item in the \texttt{.bib} file for your article.
+%~ 
+%~ The details of the construction of the \texttt{.bib} file
+%~ are beyond the scope of this sample document, but more
+%~ information can be found in the \textit{Author's Guide},
+%~ and exhaustive details in the \textit{\LaTeX\ User's
+%~ Guide}\cite{Lamport:LaTeX}.
+%~ 
+%~ This article shows only the plainest form
+%~ of the citation command, using \texttt{{\char'134}cite}.
+%~ This is what is stipulated in the SIGS style specifications.
+%~ No other citation format is endorsed.
+%~ 
+%~ \subsection{Tables}
+%~ Because tables cannot be split across pages, the best
+%~ placement for them is typically the top of the page
+%~ nearest their initial cite.  To
+%~ ensure this proper ``floating'' placement of tables, use the
+%~ environment \textbf{table} to enclose the table's contents and
+%~ the table caption.  The contents of the table itself must go
+%~ in the \textbf{tabular} environment, to
+%~ be aligned properly in rows and columns, with the desired
+%~ horizontal and vertical rules.  Again, detailed instructions
+%~ on \textbf{tabular} material
+%~ is found in the \textit{\LaTeX\ User's Guide}.
+%~ 
+%~ Immediately following this sentence is the point at which
+%~ Table 1 is included in the input file; compare the
+%~ placement of the table here with the table in the printed
+%~ dvi output of this document.
+%~ 
+%~ \begin{table}
+%~ \centering
+%~ \caption{Frequency of Special Characters}
+%~ \begin{tabular}{|c|c|l|} \hline
+%~ Non-English or Math&Frequency&Comments\\ \hline
+%~ \O & 1 in 1,000& For Swedish names\\ \hline
+%~ $\pi$ & 1 in 5& Common in math\\ \hline
+%~ \$ & 4 in 5 & Used in business\\ \hline
+%~ $\Psi^2_1$ & 1 in 40,000& Unexplained usage\\
+%~ \hline\end{tabular}
+%~ \end{table}
+%~ 
+%~ To set a wider table, which takes up the whole width of
+%~ the page's live area, use the environment
+%~ \textbf{table*} to enclose the table's contents and
+%~ the table caption.  As with a single-column table, this wide
+%~ table will ``float" to a location deemed more desirable.
+%~ Immediately following this sentence is the point at which
+%~ Table 2 is included in the input file; again, it is
+%~ instructive to compare the placement of the
+%~ table here with the table in the printed dvi
+%~ output of this document.
+%~ 
+%~ 
+%~ \begin{table*}
+%~ \centering
+%~ \caption{Some Typical Commands}
+%~ \begin{tabular}{|c|c|l|} \hline
+%~ Command&A Number&Comments\\ \hline
+%~ \texttt{{\char'134}alignauthor} & 100& Author alignment\\ \hline
+%~ \texttt{{\char'134}numberofauthors}& 200& Author enumeration\\ \hline
+%~ \texttt{{\char'134}table}& 300 & For tables\\ \hline
+%~ \texttt{{\char'134}table*}& 400& For wider tables\\ \hline\end{tabular}
+%~ \end{table*}
+%~ % end the environment with {table*}, NOTE not {table}!
+%~ 
+%~ \subsection{Figures}
+%~ Like tables, figures cannot be split across pages; the
+%~ best placement for them
+%~ is typically the top or the bottom of the page nearest
+%~ their initial cite.  To ensure this proper ``floating'' placement
+%~ of figures, use the environment
+%~ \textbf{figure} to enclose the figure and its caption.
+%~ 
+%~ This sample document contains examples of \textbf{.eps}
+%~ and \textbf{.ps} files to be displayable with \LaTeX.  More
+%~ details on each of these is found in the \textit{Author's Guide}.
+%~ 
+%~ \begin{figure}
+%~ \centering
+%~ \epsfig{file=fly.eps}
+%~ \caption{A sample black and white graphic (.eps format).}
+%~ \end{figure}
+%~ 
+%~ \begin{figure}
+%~ \centering
+%~ \epsfig{file=fly.eps, height=1in, width=1in}
+%~ \caption{A sample black and white graphic (.eps format)
+%~ that has been resized with the \texttt{epsfig} command.}
+%~ \end{figure}
+%~ 
+%~ 
+%~ As was the case with tables, you may want a figure
+%~ that spans two columns.  To do this, and still to
+%~ ensure proper ``floating'' placement of tables, use the environment
+%~ \textbf{figure*} to enclose the figure and its caption.
+%~ 
+%~ Note that either {\textbf{.ps}} or {\textbf{.eps}} formats are
+%~ used; use
+%~ the \texttt{{\char'134}epsfig} or \texttt{{\char'134}psfig}
+%~ commands as appropriate for the different file types.
+%~ 
+%~ \subsection{Theorem-like Constructs}
+%~ Other common constructs that may occur in your article are
+%~ the forms for logical constructs like theorems, axioms,
+%~ corollaries and proofs.  There are
+%~ two forms, one produced by the
+%~ command \texttt{{\char'134}newtheorem} and the
+%~ other by the command \texttt{{\char'134}newdef}; perhaps
+%~ the clearest and easiest way to distinguish them is
+%~ to compare the two in the output of this sample document:
+%~ 
+%~ This uses the \textbf{theorem} environment, created by
+%~ the\linebreak\texttt{{\char'134}newtheorem} command:
+%~ \newtheorem{theorem}{Theorem}
+%~ \begin{theorem}
+%~ Let $f$ be continuous on $[a,b]$.  If $G$ is
+%~ an antiderivative for $f$ on $[a,b]$, then
+%~ \begin{displaymath}\int^b_af(t)dt = G(b) - G(a).\end{displaymath}
+%~ \end{theorem}
+%~ 
+%~ The other uses the \textbf{definition} environment, created
+%~ by the \texttt{{\char'134}newdef} command:
+%~ \newdef{definition}{Definition}
+%~ \begin{definition}
+%~ If $z$ is irrational, then by $e^z$ we mean the
+%~ unique number which has
+%~ logarithm $z$: \begin{displaymath}{\log e^z = z}\end{displaymath}
+%~ \end{definition}
+%~ 
+%~ \begin{figure}
+%~ \centering
+%~ \psfig{file=rosette.ps, height=1in, width=1in,}
+%~ \caption{A sample black and white graphic (.ps format) that has
+%~ been resized with the \texttt{psfig} command.}
+%~ \end{figure}
+%~ 
+%~ Two lists of constructs that use one of these
+%~ forms is given in the
+%~ \textit{Author's  Guidelines}.
+%~ 
+%~ \begin{figure*}
+%~ \centering
+%~ \epsfig{file=flies.eps}
+%~ \caption{A sample black and white graphic (.eps format)
+%~ that needs to span two columns of text.}
+%~ \end{figure*}
+%~ and don't forget to end the environment with
+%~ {figure*}, not {figure}!
+ %~ 
+%~ There is one other similar construct environment, which is
+%~ already set up
+%~ for you; i.e. you must \textit{not} use
+%~ a \texttt{{\char'134}newdef} command to
+%~ create it: the \textbf{proof} environment.  Here
+%~ is a example of its use:
+%~ \begin{proof}
+%~ Suppose on the contrary there exists a real number $L$ such that
+%~ \begin{displaymath}
+%~ \lim_{x\rightarrow\infty} \frac{f(x)}{g(x)} = L.
+%~ \end{displaymath}
+%~ Then
+%~ \begin{displaymath}
+%~ l=\lim_{x\rightarrow c} f(x)
+%~ = \lim_{x\rightarrow c}
+%~ \left[ g{x} \cdot \frac{f(x)}{g(x)} \right ]
+%~ = \lim_{x\rightarrow c} g(x) \cdot \lim_{x\rightarrow c}
+%~ \frac{f(x)}{g(x)} = 0\cdot L = 0,
+%~ \end{displaymath}
+%~ which contradicts our assumption that $l\neq 0$.
+%~ \end{proof}
+%~ 
+%~ Complete rules about using these environments and using the
+%~ two different creation commands are in the
+%~ \textit{Author's Guide}; please consult it for more
+%~ detailed instructions.  If you need to use another construct,
+%~ not listed therein, which you want to have the same
+%~ formatting as the Theorem
+%~ or the Definition\cite{salas:calculus} shown above,
+%~ use the \texttt{{\char'134}newtheorem} or the
+%~ \texttt{{\char'134}newdef} command,
+%~ respectively, to create it.
+%~ 
+%~ \subsection*{A {\secit Caveat} for the \TeX\ Expert}
+%~ Because you have just been given permission to
+%~ use the \texttt{{\char'134}newdef} command to create a
+%~ new form, you might think you can
+%~ use \TeX's \texttt{{\char'134}def} to create a
+%~ new command: \textit{Please refrain from doing this!}
+%~ Remember that your \LaTeX\ source code is primarily intended
+%~ to create camera-ready copy, but may be converted
+%~ to other forms -- e.g. HTML. If you inadvertently omit
+%~ some or all of the \texttt{{\char'134}def}s recompilation will
+%~ be, to say the least, problematic.
+
+\section{Conclusions}
+%~ This paragraph will end the body of this sample document.
+%~ Remember that you might still have Acknowledgments or
+%~ Appendices; brief samples of these
+%~ follow.  There is still the Bibliography to deal with; and
+%~ we will make a disclaimer about that here: with the exception
+%~ of the reference to the \LaTeX\ book, the citations in
+%~ this paper are to articles which have nothing to
+%~ do with the present subject and are used as
+%~ examples only.
+%\end{document}  % This is where a 'short' article might terminate
+
+%ACKNOWLEDGMENTS are optional
+%~ \section{Acknowledgments}
+%~ This section is optional; it is a location for you
+%~ to acknowledge grants, funding, editing assistance and
+%~ what have you.  In the present case, for example, the
+%~ authors would like to thank Gerald Murray of ACM for
+%~ his help in codifying this \textit{Author's Guide}
+%~ and the \textbf{.cls} and \textbf{.tex} files that it describes.
+
+%
+% The following two commands are all you need in the
+% initial runs of your .tex file to
+% produce the bibliography for the citations in your paper.
+\bibliographystyle{abbrv}
+\bibliography{sigproc}  % sigproc.bib is the name of the Bibliography in this case
+% You must have a proper ".bib" file
+%  and remember to run:
+% latex bibtex latex latex
+% to resolve all references
+%
+% ACM needs 'a single self-contained file'!
+%
+%APPENDICES are optional
+%\balancecolumns
+%\appendix
+%Appendix A
+%~ \section{Headings in Appendices}
+%~ The rules about hierarchical headings discussed above for
+%~ the body of the article are different in the appendices.
+%~ In the \textbf{appendix} environment, the command
+%~ \textbf{section} is used to
+%~ indicate the start of each Appendix, with alphabetic order
+%~ designation (i.e. the first is A, the second B, etc.) and
+%~ a title (if you include one).  So, if you need
+%~ hierarchical structure
+%~ \textit{within} an Appendix, start with \textbf{subsection} as the
+%~ highest level. Here is an outline of the body of this
+%~ document in Appendix-appropriate form:
+%~ \subsection{Introduction}
+%~ \subsection{The Body of the Paper}
+%~ \subsubsection{Type Changes and  Special Characters}
+%~ \subsubsection{Math Equations}
+%~ \paragraph{Inline (In-text) Equations}
+%~ \paragraph{Display Equations}
+%~ \subsubsection{Citations}
+%~ \subsubsection{Tables}
+%~ \subsubsection{Figures}
+%~ \subsubsection{Theorem-like Constructs}
+%~ \subsubsection*{A Caveat for the \TeX\ Expert}
+%~ \subsection{Conclusions}
+%~ \subsection{Acknowledgments}
+%~ \subsection{Additional Authors}
+%~ This section is inserted by \LaTeX; you do not insert it.
+%~ You just add the names and information in the
+%~ \texttt{{\char'134}additionalauthors} command at the start
+%~ of the document.
+%~\subsection{References}
+%~Generated by bibtex from your ~.bib file.  Run latex,
+%~then bibtex, then latex twice (to resolve references)
+%~to create the ~.bbl file.  Insert that ~.bbl file into
+%~the .tex source file and comment out
+%~the command \texttt{{\char'134}thebibliography}.
+% This next section command marks the start of
+% Appendix B, and does not continue the present hierarchy
+%\section{More Help for the Hardy}
+%The acm\_proc\_article-sp document class file itself is chock-full of succinct
+%and helpful comments.  If you consider yourself a moderately
+%experienced to expert user of \LaTeX, you may find reading
+%it useful but please remember not to change it.
+\balancecolumns
+% That's all folks!
+\end{document}

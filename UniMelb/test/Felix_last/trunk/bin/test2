@@ -1,26 +1,9 @@
-A DT None None False False A A 1 -1 -1 NP None 2 0 O None None A DT 0 0 bit NN DT 1 A B-NP True O O O False False 2 a False -1 True True O None O
-bit NN None None False False aaa a 3 -1 -1 NP None 2 1 O None None A DT 1 0 bit NN DT 1 bit I-NP False O O O True False 2 bit False -1 False True O None O
-above IN None None False False aaaaa a 5 -1 -1 PP None 1 0 O None None None IN 2 1 None None IN 1 above B-PP False None None None False False 1 above False -1 False True O None O
-the DT None None False False aaa a 3 -1 -1 NP None 2 0 O None above the DT 3 2 center NN DT 1 the B-NP False O O O False False 2 the False -1 False True O None O
-center NN None None False False aaaaaa a 6 -1 -1 NP None 2 1 O None above the DT 4 2 center NN DT 1 center I-NP False O O O True False 2 center False -1 False True O None O
-, , None None False False _ _ 1 -1 -1 None None 1 0 O None None None , 5 3 None None , 1 , O False None None None False False 1 , False -1 False True O None O
-you PRP None None False False aaa a 3 -1 -1 NP None 1 0 O None None None PRP 6 4 None None PRP 1 you B-NP False O O O False False 1 you False -1 False True O None O
-would MD None None False False aaaaa a 5 -1 -1 VP None 2 0 O None None None MD 7 5 find VB MD 1 would B-VP False None None None False False 2 would False -1 False True O None O
-find VB None None False False aaaa a 4 -1 -1 VP None 2 1 O None None None MD 8 5 find VB MD 1 find I-VP False None None None False False 2 find False -1 False True O None O
-Arts NNS B-yes_unamb B-None B-False B-False Aaaa Aa 4 -1 -1 NP None 1 0 O None None None NNS 9 6 None None NNS 1 Arts B-NP False O O O False False 1 art False -1 True True O None B-NP
-and CC None None False False aaa a 3 -1 -1 None None 1 0 O None None None CC 10 7 None None CC 1 and O False None None None False False 1 and False -1 False True O None I-NP
-student NN B-yes_unamb B-None B-False B-False aaaaaaa a 7 -1 -1 NP and 2 0 O None None None NN 11 8 union NN NN 2 student B-NP False O O O True False 2 student False -1 False True O None I-NP
-union NN I-yes_unamb I-None I-False I-False aaaaa a 5 -1 -1 NP and 2 1 O None None None NN 12 8 union NN NN 2 union I-NP False B-S B-MN B-MINE True False 2 union False -1 False True O False I-NP
-. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 13 9 None None . 1 . O False None None None False False 1 . False -1 False True O None O
-
-Add VB None None False False Aaa Aa 3 -1 -1 VP None 1 0 O None None None VB 0 0 None None VB 1 Add B-VP False None None None False True 1 add False -1 True True O None O
-a DT None None False False a a 1 -1 -1 NP None 3 0 O None None a DT 1 1 semi NN NN 2 a B-NP False O O O False False 3 a False -1 False True O None O
-semi NN B-yes_amb B-None B-False B-False aaaa a 4 -1 -1 NP None 3 1 O None None a DT 2 1 semi NN NN 2 semi I-NP False O O O False False 3 semi False -1 False True O None B-NP
-circle NN I-yes_amb I-None I-False I-False aaaaaa a 6 -1 -1 NP None 3 2 O None None a DT 3 1 semi NN NN 2 circle I-NP False O O O True False 3 circle False -1 False True O None I-NP
-on IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 4 2 None None IN 1 on B-PP False None None None False False 1 on False -1 False True O None O
-top NN None None False False aaa a 3 -1 -1 NP None 1 0 O None on None NN 5 3 None None NN 1 top B-NP False O O O True False 1 top False -1 False True O None O
-of IN None None False False aa a 2 -1 -1 PP None 1 0 O None None None IN 6 4 None None IN 1 of B-PP False None None None False False 1 of False -1 False True O None O
-the DT None None False False aaa a 3 -1 -1 NP None 2 0 O None of the DT 7 5 rectangle NN DT 1 the B-NP False O O O False False 2 the False -1 False True O None O
-rectangle NN B-yes_amb B-None B-False B-False aaaaaaaaa a 9 -1 -1 NP None 2 1 O ADMD of the DT 8 5 rectangle NN DT 1 rectangle I-NP False O O O False False 2 rectangle False -1 False True O None B-NP
-. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 9 6 None None . 1 . O False None None None False False 1 . False -1 False True O None O
+And CC None None False False Aaa Aa 3 -1 -1 None None 1 0 O None None None CC 0 0 None None CC 1 And O False None None None False False 1 and False -1 True True O None O
+then RB None None False False aaaa a 4 -1 -1 ADVP None 1 0 O None None None RB 1 1 None None RB 1 then B-ADVP False None None None False False 1 then False -1 False True O None O
+go VB None None False False aa a 2 -1 -1 VP None 1 0 O None None None VB 2 2 None None VB 1 go B-VP False None None None False False 1 go False -1 False True O None O
+straight RB None None False False aaaaaaaa a 8 -1 -1 ADVP None 1 0 O None None None RB 3 3 None None RB 1 straight B-ADVP False None None None False False 1 straight False -1 False True O None O
+along IN None None False False aaaaa a 5 -1 -1 PP None 1 0 O None None None IN 4 4 None None IN 1 along B-PP False None None None False False 1 along False -1 False True O None O
+the DT None None False False aaa a 3 -1 -1 NP None 2 0 O None along the DT 5 5 road NN DT 1 the B-NP False O O O False False 2 the False -1 False True O None O
+road NN B-yes_amb B-None B-False B-False aaaa a 4 -1 -1 NP None 2 1 O HTL along the DT 6 5 road NN DT 1 road I-NP False O O O True False 2 road False -1 False True O None B-NP
+. . None None False False _ _ 1 -1 -1 None None 1 0 O None None None . 7 6 None None . 1 . O False None None None False False 1 . False -1 False True O None O
 

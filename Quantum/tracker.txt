@@ -337,3 +337,63 @@ now run salience_helper.sql
 update fence set geom=st_setSRID(geom,32644);  (fences_qgis created with srid 0 as only then qgis GUI works for fences layer, strange!!)
 
 NOTE : GOOGLE RADAR SEARCH discarded, picking only the first 60 results of nearby search ranked by prominence in a circle of radius 2 km centered at PK library.
+
+
+Created a table salience using SQL queries in (salience_helper.sql)
+
+Removed the edgetx tables from the project (Dont need it anymore, salience is enough)
+Instead, created a table edgelandmark which stores pair of edge and corresponding salient landmark
+
+NEXT TARGET : Since the decoder is appropriately following the encoder i.e the language using SLSR.. type symbols is totally non-ambiguous and perfectly decoded.
+We need to move to higher quality of route descriptions involving landmarks being abstract as much as possible 
+
+Challenge: Each Edge has a number of landmarks based on the distance metric. We need to know what landmarks would be encountered first and what sequence would be followed.
+
+Idea : Store the closest point on the edge with a particular landmark it has been marked with. (Not feasible)
+Advantages: It helps to track early whether the user disoriented.
+
+Progress: Created a table network_dumppoints with all edges split into sections. Now replace network_extended in annotatedmap.sql with network_dumppoints. 
+
+
+(Deferred)
+
+Usage:
+At each step, give out the code word (like S)
+For asking questions on where he is on this edge, use the salient sections on this edge as references.
+So compute for each edge, a series of landmarks appearing en-route and the distances of this section from the starting point.
+The dump_ids are arranged in order of their linkage.
+Use edgelandmark of dumppoints to find lanmark for each of these sections
+
+CHALLENGE: How about landmarks on a U-turn road? First section may be equidistant with last section on a landmark!!!! 
+
+
+Suppose SxSL is the discourse where x is a landmark corresponding to the edge of second S, then instruction should be take second left from x. 
+This is enough for the communication protocol.
+
+Now focus on the estimation
+
+
+(NOTE: Some landmarks might not be visible to the client so after building edgelandmarks table,
+ one needs to invalidate those landmarks which are not in the line of sight)
+
+
+Discourse TIPS:
+Give a hint of what would be seen in the next edge
+Example: Take a left at the park, in the way ahead you would see a red building on the right. Say yes when you see it.
+(After the estimated time to reach there passes out, pose the question - Did you see a red building on right?)
+When the user says yes, record the time of saying yes against this landmark and using the time recorded at the previous landmark, compute the average speed.
+Q. Calculating the estimated time to reach there?
+A. Get the centroid of the landmark geometry
+-- Find the point x on the line closest to it using (st_line_interpolate(g1, st_line_locate_point(g1,g2)))
+-- Calculate the distance of x from u and store it.
+
+SPeed distribution
+Speed (S) - (random.lognormvariate(math.log(20),0.5)) 
+Why this parameters? 30 is speed limit on the roads, speed limits are set to 85th percentile of operating speeds. 
+(Use p-quantile calculator - http://www.solvemymath.com/online_math_calculator/statistics/continuous_distributions/lognormal/quantile_lognormal.php)
+Deviance (D)- Gaussian distribution random.gauss(0,(S/10))
+
+Steps:
+1. Pick up a speed using the lognorm distribution.
+2. Find the percentile value (p-quantile) of this speed.
+3. At each road segment find the speed corresponding to p and assign it to the driver.
