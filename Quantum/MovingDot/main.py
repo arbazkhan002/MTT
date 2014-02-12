@@ -9,6 +9,8 @@ import Queue
 SRC='0101000020847F0000704DF34E47D0194118485024FD5F4641'
 DEST='0101000020847F0000B0627FD91ED019411851DABB05604641'
 LOG=logger.logger("logfile.txt")
+rfile=open("rfile.txt","w")
+sfile=open("sfile.txt","w")
 conn = connect("dbname=demo user=postgres host=localhost password=indian")
 class user:
 	time=0
@@ -16,7 +18,7 @@ class user:
 	prevpt=None
 	path=None
 	speed=5.0
-	Pd=0.0
+	Pd=0.5
 	visited=[]
 	path=[]
 	pathind=0
@@ -34,16 +36,17 @@ class user:
 			try:
 				sect = queue.get(False)
 				#check if sect is in visited
-				ans.put(self.gettime())
+				ans.put(1)
 				queue.task_done()
 			except Queue.Empty:
 				pass
 			return	
 		try:
 			sect = queue.get(False)
-			#~ print sect, self.visited
+			#~ print "#######################################",self.visited,sect
 			#check if sect is in visited
 			if sect not in self.visited:
+				rfile.write(repr((sect, self.visited)))
 				while sect not in self.visited:
 					ans.put(0)
 					queue.task_done()
@@ -76,14 +79,20 @@ class user:
 		#If the path is set, break explore mode			
 		if self.path is not None:										
 			return
+		if start==self.g.getNode(DEST):
+			return	
 		print "Runner(e): '%s' @'%s after %s time units'" %(self.position().nodeid,self.position().split_id,self.time)		 
 		for edgeuv in random.sample(self.g.adj(start),len(self.g.adj(start))):
-			v=edgeuv.v
+			v=edgeuv.v			
+
 			if v!=self.prevpt:
+				self.visited.append(edgeuv.edgeId)
 				self.makemove(v,edgeuv.length)
+
 				if self.path is None:
 					return self.explore(v)
 				else:
+					print "Runner: reoriented @ ",edgeuv.edgeId
 					break
 		if self.path is not None:
 			self.run()		
@@ -96,7 +105,7 @@ class user:
 		# To tackle disorientation
 		newpath=None
 		
-		self.makemove(path[0].u,path[0].length)
+		self.makemove(path[0].v,path[0].length)
 		try:
 			sect = queue.get(False)
 			#check if sect is in visited
@@ -112,7 +121,7 @@ class user:
 				  #gets 1% probability of every record2 of type <edgeprev,_,(!inpath)> (except record1)
 				  # for all record2, probab=0.99probab, sum+=0.01probab
 				  # for record1, probab+=sum   (so that the net probab is 1 always)
-		print len(path)  #-- 196
+		#~ print len(path)  #-- 196
 		self.pathind=1
 		i=self.pathind
 		self.visited.append(path[0].edgeId)
@@ -137,7 +146,6 @@ class user:
 
 		LOG.write(update)				
 		
-
 		self.explore(self.currpt)	
 	pass
 
@@ -163,23 +171,26 @@ class server:
 		prev=None
 		prevtime=0
 		tracktime=0
+		nextpath=[]
+		print "Tracker: Tracking runner....."
 		while True:
 			for i in range(len(path)):
 				queue.put(path[i].edgeId)
 				reply=ans.get(True)
-
-				nextpath=self.g.findPathEdges(path[i].v,path[i].length)
-				# next path possesses a a list of paths (i.e. list of list of edgeIds)
-				# Each path is stored in reverse order of travel (last edgeId is visited first)
-				
-				print map(lambda x: map(lambda y:y.edgeId, x), nextpath), path[i].edgeId
-
+				#~ print reply
+				if i>=1:
+					nextpath=self.g.findPathEdges(path[i-1].v,path[i-1].length)
+					# next path possesses a a list of paths (i.e. list of list of edgeIds)
+					# Each path is stored in reverse order of travel (last edgeId is visited first)
+					#~ print "*********",map(lambda x: map(lambda y:y.edgeId, x), nextpath), path[i].edgeId
+				#~ sfile.write(repr((map(lambda x: map(lambda y:y.edgeId, x), nextpath), path[i].edgeId)))
+				#~ sfile.close()
 				# Get the landmarks on each path
 				# filter zeroes from self.g.getLandmarks(conn, nextpath[i])
 				
 				if reply==0:
 					j=0
-					print reply
+					print "Tracker: Runner off track!"
 					while reply==0 and j<len(nextpath):
 						queue.put(nextpath[j][-1].edgeId)
 						ans.task_done()
@@ -187,19 +198,23 @@ class server:
 						j+=1
 						
 					if reply==1:	
-						path=self.g.dfs(nextpath[j-1][-1].v,g.getNode(DEST))	
-						ans.task_done()
+						path=self.g.dfs(nextpath[j-1][-1].v,g.getNode(DEST))					
 						queue.put(path)
 						break
+					
+					if j<len(nextpath):
+						ans.task_done()
+						raise Exception
 				
 				if reply==1:
 					tracktime=runner.gettime()
 					speed=path[i].length/(tracktime-prevtime)
-					print speed
+					print "Tracker:Runner on track! with speed @", speed
 					prevtime=tracktime
 						
 				ans.task_done()
-			break				
+			if i==len(path)-1:
+				return				
 	
 	def qtrack(self,runner,path):
 		prev=None
