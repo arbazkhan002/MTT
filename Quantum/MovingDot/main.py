@@ -5,6 +5,7 @@ import probabTable
 import pickle
 import random
 import logger
+import Queue
 SRC='0101000020847F0000704DF34E47D0194118485024FD5F4641'
 DEST='0101000020847F0000B0627FD91ED019411851DABB05604641'
 LOG=logger.logger("logfile.txt")
@@ -16,6 +17,9 @@ class user:
 	path=None
 	speed=5.0
 	Pd=0.0
+	visited=[]
+	path=[]
+	pathind=0
 	def __init__(self,graph):
 		self.g=graph
 		self.time=0
@@ -25,7 +29,41 @@ class user:
 		sleep(0.2)
 		self.time+=edgewt/self.speed
 		self.prevpt=self.currpt	
-		self.currpt=nextpt	
+		self.currpt=nextpt
+		if self.pathind==0:
+			try:
+				sect = queue.get(False)
+				#check if sect is in visited
+				ans.put(self.gettime())
+				queue.task_done()
+			except Queue.Empty:
+				pass
+			return	
+		try:
+			sect = queue.get(False)
+			#~ print sect, self.visited
+			#check if sect is in visited
+			if sect not in self.visited:
+				while sect not in self.visited:
+					ans.put(0)
+					queue.task_done()
+					sect=queue.get(True)
+				
+				ans.put(1)
+				queue.task_done()
+				self.path=queue.get(True)
+				self.pathind=-1 #(to null the increment after self.makemove)
+				queue.task_done()
+				return	
+			
+			if sect in self.visited:
+				ans.put(1)
+			
+			queue.task_done()
+				
+		except Queue.Empty:
+			pass					
+			
 	
 	def position(self):
 		return self.currpt	
@@ -43,15 +81,31 @@ class user:
 			v=edgeuv.v
 			if v!=self.prevpt:
 				self.makemove(v,edgeuv.length)
-				return self.explore(v)
-		return self.currpt		
+				if self.path is None:
+					return self.explore(v)
+				else:
+					break
+		if self.path is not None:
+			self.run()		
 	
 	
 	# To follow a path
-	def run(self,path):
-		self.path=path
+	def run(self):
+		path=self.path
+		
+		# To tackle disorientation
+		newpath=None
+		
 		self.makemove(path[0].u,path[0].length)
+		try:
+			sect = queue.get(False)
+			#check if sect is in visited
+			ans.put(self.gettime())
+			queue.task_done()
+		except Queue.Empty:
+			pass		
 		temp=self.currpt
+		
 		update=[] #Stores all traversed paths 
 				  #A traversed path is of the form [Edgeprev, Edgenext,Inpath] to update probability tables
 				  #Idea is to update probability table for each edge edgeprev such that the record1 <edgeprev,edgenext,inpath>
@@ -59,21 +113,31 @@ class user:
 				  # for all record2, probab=0.99probab, sum+=0.01probab
 				  # for record1, probab+=sum   (so that the net probab is 1 always)
 		print len(path)  #-- 196
-		for i in range(len(path)):
+		self.pathind=1
+		i=self.pathind
+		self.visited.append(path[0].edgeId)
+		while i<len(path):
+			i=self.pathind
 			if random.random()>self.Pd:	
 				update.append([path[i-1].edgeId,path[i].edgeId,int(True)])
+				self.visited.append(path[i].edgeId)
 				self.makemove(path[i].v,path[i].length)
+				#~ print self.visited
 				#print path[i].u
 				print "Runner: '%s' @'%s after %s time units'" %(self.position().nodeid,self.position().split_id,self.time)		 
+
 			else:
 				#dist = self.g.linearDistance(temp,self.currpt,path)
 				#print dist,temp==self.currpt	
 				update.append([path[i-1].edgeId,path[i].edgeId,int(False)])
 				self.path=None
 				break
+			self.pathind+=1
+			i=self.pathind	
+
+		LOG.write(update)				
 		
-		LOG.write(update)
-		
+
 		self.explore(self.currpt)	
 	pass
 
@@ -98,6 +162,48 @@ class server:
 	def track(self,runner,path):
 		prev=None
 		prevtime=0
+		tracktime=0
+		while True:
+			for i in range(len(path)):
+				queue.put(path[i].edgeId)
+				reply=ans.get(True)
+
+				nextpath=self.g.findPathEdges(path[i].v,path[i].length)
+				# next path possesses a a list of paths (i.e. list of list of edgeIds)
+				# Each path is stored in reverse order of travel (last edgeId is visited first)
+				
+				print map(lambda x: map(lambda y:y.edgeId, x), nextpath), path[i].edgeId
+
+				# Get the landmarks on each path
+				# filter zeroes from self.g.getLandmarks(conn, nextpath[i])
+				
+				if reply==0:
+					j=0
+					print reply
+					while reply==0 and j<len(nextpath):
+						queue.put(nextpath[j][-1].edgeId)
+						ans.task_done()
+						reply=ans.get(True)
+						j+=1
+						
+					if reply==1:	
+						path=self.g.dfs(nextpath[j-1][-1].v,g.getNode(DEST))	
+						ans.task_done()
+						queue.put(path)
+						break
+				
+				if reply==1:
+					tracktime=runner.gettime()
+					speed=path[i].length/(tracktime-prevtime)
+					print speed
+					prevtime=tracktime
+						
+				ans.task_done()
+			break				
+	
+	def qtrack(self,runner,path):
+		prev=None
+		prevtime=0
 		pos=runner.position()
 		while (prev is None):
 			response0=self.time
@@ -108,11 +214,9 @@ class server:
 		
 		response1=self.time
 		dist = self.g.linearDistance(prev,pos,path)
-		#~ print dist#"response time", response1-response0	
 		speed = dist / (response1-response0) if dist is not None else None
-		#~ print "prev:",prev.nodeid,"\npos:", pos.nodeid
-		#~ print "Speed track:", speed
 		sections={}
+
 		for ind,i in enumerate(path):
 			sections[i]=ind
 		landmarks=[0 for i in range(len(path))]	 # ref_ids of landmark at each section
@@ -120,7 +224,6 @@ class server:
 												 # 0 indicates no landmark nearby to that section
 												 
 		seen = [] #list of landmarks already seen
-		#~ print map(lambda x: x.splitId, path)
 		cur=conn.cursor()
 		cur.execute(cur.mogrify("select dump_id,ref_id from sectlandmark where dump_id = ANY(%s)", (map(lambda x: x.splitId, path),)))
 		
@@ -181,18 +284,22 @@ if __name__=="__main__":
 		#~ print "############################"	
 	#~ -----------------------------------------------------------------	
 	path = g.dfs(g.getNode(SRC), g.getNode(DEST))
-		
+	queue= Queue.Queue()	
+	ans = Queue.Queue()	
 	#~ for i in path:
 		#~ print i.u
 	runner = user(g)
 	tracker = server(g)
 	try:
 		pass
-		r=Thread(target=runner.run, args=([path])).start()
+		runner.path=path
+		r=Thread(target=runner.run, args=()).start()
 		# r.daemon=True
 		t=Thread(target=tracker.track, args=([runner,path])).start()
 		# t.daemon=True
 	finally:
 		# t.join()
 		# r.join()
+		queue.join()
+		ans.join()
 		pass

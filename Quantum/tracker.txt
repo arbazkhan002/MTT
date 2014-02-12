@@ -397,3 +397,13 @@ Steps:
 1. Pick up a speed using the lognorm distribution.
 2. Find the percentile value (p-quantile) of this speed.
 3. At each road segment find the speed corresponding to p and assign it to the driver.
+
+
+For wayfinding algorithm
+
+Predicting user familiarity:
+- Based on predicting user preferences. Idea : Use a recommender system
+- Factorization machines work well with sparse data (What do you know? Grockit test data)
+
+Cluster landmarks:
+To identify the behaviour of a particular user towards understanding landmark information.

@@ -168,7 +168,7 @@ class networkGraph(graph):
 	#Returns a list of paths (set of node ids)
 	#Note : visited nodes not counted again, but what if loops in paths?
 	#		some paths would end in a visited node. Take care!
-	def findallPaths(self,s,dist):
+	def findPaths(self,s,dist):
 		def pathfinder(s,dist,visited):
 			if dist<=0:
 				return [[s]]
@@ -184,6 +184,30 @@ class networkGraph(graph):
 					paths+=rest
 			if flag==False:
 				return [[s]]	
+			else:
+				return paths
+		
+		
+		visited={}
+		return pathfinder(s,dist,visited)
+		
+	# Same as findPaths but returns edges instead						
+	def findPathEdges(self,s,dist):
+		def pathfinder(s,dist,visited):
+			if dist<=0:
+				return [[]]
+			flag=False	
+			paths=[]
+			for edgeuv in self.adj(s):
+				v=edgeuv.v
+				if v not in visited:
+					flag=True		#atleast one non visited nbr		
+					visited[v]=True
+					rest=pathfinder(v,dist-edgeuv.length,visited) 	#'rest' is a list of paths
+					rest=map(lambda x : x+[edgeuv], rest)
+					paths+=rest
+			if flag==False:
+				return [[]]	
 			else:
 				return paths
 		
@@ -215,6 +239,25 @@ class networkGraph(graph):
 		
 		visited={}
 		return pathfinder(sect,s,dist,visited)					
+		
+	def getLandmarks(self, conn, path):
+		sections={}
+
+		for ind,i in enumerate(path):
+			sections[i]=ind
+		landmarks=[0 for i in range(len(path))]	 # ref_ids of landmark at each section
+												 # landmark corresponding to section path[i] is landmarks[i]
+												 # 0 indicates no landmark nearby to that section
+												 
+		cur=conn.cursor()
+		cur.execute(cur.mogrify("select dump_id,ref_id from sectlandmark where dump_id = ANY(%s)", (map(lambda x: x.splitId, path),)))
+		
+		for row in cur:
+			row=dbfields.reg(cur,row)
+			landmarks[sections[row.dump_id]-1]=row.ref_id
+		
+		return landmarks
+				
 ''' 
 USAGE
 if __name__=="__main__":
