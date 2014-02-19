@@ -6,19 +6,22 @@ import pickle
 import random
 import logger
 import Queue
+#~ SRC='0101000020847F0000704DF34E47D0194118485024FD5F4641'
+#~ DEST='0101000020847F0000B0627FD91ED019411851DABB05604641'
 SRC='0101000020847F0000704DF34E47D0194118485024FD5F4641'
-DEST='0101000020847F0000B0627FD91ED019411851DABB05604641'
+DEST='0101000020847F00008CDD071EC5DF1941C8D53D59AA5F4641'
 LOG=logger.logger("logfile.txt")
 rfile=open("rfile.txt","w")
 sfile=open("sfile.txt","w")
 conn = connect("dbname=demo user=postgres host=localhost password=indian")
+sys_debug=0
 class user:
 	time=0
 	currpt=None
 	prevpt=None
 	path=None
 	speed=5.0
-	Pd=0.5
+	Pd=1.0
 	visited=[]
 	path=[]
 	pathind=0
@@ -28,14 +31,16 @@ class user:
 	
 	def makemove(self,nextpt,edgewt):
 		global POS
-		sleep(0.2)
+		sleep(0.05)
 		self.time+=edgewt/self.speed
 		self.prevpt=self.currpt	
 		self.currpt=nextpt
+		#~ print "Expecting a question"
 		if self.pathind==0:
 			try:
 				sect = queue.get(False)
 				#check if sect is in visited
+				print "Runner: Yes!"
 				ans.put(1)
 				queue.task_done()
 			except Queue.Empty:
@@ -43,15 +48,18 @@ class user:
 			return	
 		try:
 			sect = queue.get(False)
+			#~ self.visited.sort()
 			#~ print "#######################################",self.visited,sect
 			#check if sect is in visited
 			if sect not in self.visited:
 				rfile.write(repr((sect, self.visited)))
 				while sect not in self.visited:
+					print "Runner: "," No!"
 					ans.put(0)
 					queue.task_done()
 					sect=queue.get(True)
 				
+				print "Runner: ","Yes!"
 				ans.put(1)
 				queue.task_done()
 				self.path=queue.get(True)
@@ -60,11 +68,14 @@ class user:
 				return	
 			
 			if sect in self.visited:
+				print "Runner: Yes!"
 				ans.put(1)
 			
 			queue.task_done()
 				
 		except Queue.Empty:
+			if sys_debug==1:
+				print "No questions incoming"
 			pass					
 			
 	
@@ -81,22 +92,25 @@ class user:
 			return
 		if start==self.g.getNode(DEST):
 			return	
-		print "Runner(e): '%s' @'%s after %s time units'" %(self.position().nodeid,self.position().split_id,self.time)		 
+		#~ print "Runner(e): '%s' @'%s after %s time units'" %(self.position().nodeid,self.position().split_id,self.time)		 
 		for edgeuv in random.sample(self.g.adj(start),len(self.g.adj(start))):
 			v=edgeuv.v			
 
-			if v!=self.prevpt:
+			if v!=self.prevpt or len(self.g.adj(start))<=1:
 				self.visited.append(edgeuv.edgeId)
 				self.makemove(v,edgeuv.length)
 
 				if self.path is None:
 					return self.explore(v)
 				else:
-					print "Runner: reoriented @ ",edgeuv.edgeId
+					if sys_debug==1:
+						print "<--- runner reoriented @ ",edgeuv.edgeId,"--->"
 					break
+
 		if self.path is not None:
-			self.run()		
-	
+			return self.run()		
+		else:
+			print "Assertion ERROR ",len(self.g.adj(start)),self.g.adj(start)[0].splitId
 	
 	# To follow a path
 	def run(self):
@@ -133,7 +147,7 @@ class user:
 				self.makemove(path[i].v,path[i].length)
 				#~ print self.visited
 				#print path[i].u
-				print "Runner: '%s' @'%s after %s time units'" %(self.position().nodeid,self.position().split_id,self.time)		 
+				#~ print "Runner: '%s' @'%s after %s time units'" %(self.position().nodeid,self.position().split_id,self.time)		 
 
 			else:
 				#dist = self.g.linearDistance(temp,self.currpt,path)
@@ -146,7 +160,7 @@ class user:
 
 		LOG.write(update)				
 		
-		self.explore(self.currpt)	
+		return self.explore(self.currpt)	
 	pass
 
 lock=1
@@ -172,47 +186,58 @@ class server:
 		prevtime=0
 		tracktime=0
 		nextpath=[]
-		print "Tracker: Tracking runner....."
+		if sys_debug==1:
+			print "<--- Tracking runner..... --->"
 		while True:
 			for i in range(len(path)):
+				print i+1, " of ",len(path) ," completed"
+				print "Tracker: Did you see section ",path[i].edgeId,"?"
 				queue.put(path[i].edgeId)
 				reply=ans.get(True)
 				#~ print reply
 				if i>=1:
-					nextpath=self.g.findPathEdges(path[i-1].v,path[i-1].length)
+					nextpath=self.g.findPathEdges(self.g.edgeint(path[i-1],path[i]),path[i-1].length)
 					# next path possesses a a list of paths (i.e. list of list of edgeIds)
 					# Each path is stored in reverse order of travel (last edgeId is visited first)
 					#~ print "*********",map(lambda x: map(lambda y:y.edgeId, x), nextpath), path[i].edgeId
 				#~ sfile.write(repr((map(lambda x: map(lambda y:y.edgeId, x), nextpath), path[i].edgeId)))
+				#~ print map(lambda x: map(lambda y:y.edgeId, x), nextpath), path[i].edgeId
 				#~ sfile.close()
 				# Get the landmarks on each path
 				# filter zeroes from self.g.getLandmarks(conn, nextpath[i])
 				
 				if reply==0:
 					j=0
-					print "Tracker: Runner off track!"
+					if sys_debug==1:
+						print "<--- runner off track! --->" 
 					while reply==0 and j<len(nextpath):
+						print "Tracker: Did you see section ",nextpath[j][-1].edgeId,"?"
 						queue.put(nextpath[j][-1].edgeId)
 						ans.task_done()
 						reply=ans.get(True)
 						j+=1
 						
 					if reply==1:	
-						path=self.g.dfs(nextpath[j-1][-1].v,g.getNode(DEST))					
+						path=self.g.djikstra(nextpath[j-1][-1].v,g.getNode(DEST))					
+						#~ print path,'\n',self.g.djikstra(nextpath[j-1][-1].v,g.getNode(DEST))					
 						queue.put(path)
+						if sys_debug==1:
+							print "<--- tracker conveyed new path to the runner --->"
 						break
 					
-					if j<len(nextpath):
+					if j>=len(nextpath):
 						ans.task_done()
-						raise Exception
+						assert(False)
 				
 				if reply==1:
 					tracktime=runner.gettime()
 					speed=path[i].length/(tracktime-prevtime)
-					print "Tracker:Runner on track! with speed @", speed
+					if sys_debug==1:
+						print "<--- runner on track! with speed @", speed, "--->"
 					prevtime=tracktime
 						
 				ans.task_done()
+			#~ print "at the end: ",i+1	
 			if i==len(path)-1:
 				return				
 	
@@ -298,7 +323,8 @@ if __name__=="__main__":
 		#~ print probabTable.computeProbab(conn,[spath])	
 		#~ print "############################"	
 	#~ -----------------------------------------------------------------	
-	path = g.dfs(g.getNode(SRC), g.getNode(DEST))
+	path = g.djikstra(g.getNode(SRC), g.getNode(DEST))
+	#~ print map(lambda x: x.edgeId, g.djikstra(g.getNode(SRC), g.getNode(DEST)))
 	queue= Queue.Queue()	
 	ans = Queue.Queue()	
 	#~ for i in path:

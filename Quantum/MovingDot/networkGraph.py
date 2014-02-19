@@ -1,5 +1,6 @@
 from psycopg2 import *
-from graph import * 
+from graph import *
+from priodict import priorityDictionary 
 import dbfields 
 
 
@@ -31,6 +32,13 @@ class networkGraph(graph):
 
 	def adj(self, v):
 		return self.edges[v]
+		
+	def edgeint(self, edge1, edge2):
+		if edge1.u in [edge2.u,edge2.v]:
+			return edge1.u
+		if edge1.v in [edge2.u,edge2.v]:				
+			return edge1.v
+		return None				
 
 	def build_graph(self,conn):	
 		cur	= conn.cursor()		
@@ -166,7 +174,7 @@ class networkGraph(graph):
 	
 	#find all paths that are of length less than dist originating at s
 	#Returns a list of paths (set of node ids)
-	#Note : visited nodes not counted again, but what if loops in paths?
+	#Note : visited nodes not counted again, but what if several intersecting paths? (paths with atleast one vertex in common)
 	#		some paths would end in a visited node. Take care!
 	def findPaths(self,s,dist):
 		def pathfinder(s,dist,visited):
@@ -193,27 +201,34 @@ class networkGraph(graph):
 		
 	# Same as findPaths but returns edges instead						
 	def findPathEdges(self,s,dist):
+		sfile=open("sfile.txt","a")
 		def pathfinder(s,dist,visited):
 			if dist<=0:
 				return [[]]
 			flag=False	
 			paths=[]
+			visited[s]=True
 			for edgeuv in self.adj(s):
 				v=edgeuv.v
+				sfile.write(repr(edgeuv.splitId))
 				if v not in visited:
 					flag=True		#atleast one non visited nbr		
-					visited[v]=True
 					rest=pathfinder(v,dist-edgeuv.length,visited) 	#'rest' is a list of paths
 					rest=map(lambda x : x+[edgeuv], rest)
 					paths+=rest
+				sfile.write("\n")
+			del visited[s]		
 			if flag==False:
 				return [[]]	
 			else:
 				return paths
 		
-		
+		sfile.write("new path\n")
 		visited={}
-		return pathfinder(s,dist,visited)					
+		
+		ans=pathfinder(s,dist,visited)					
+		sfile.close()
+		return ans
 	
 	#find all paths that are of length less than dist originating at a section in the direction from endpoint s on it
 	#Returns a list of paths (set of edges)
@@ -257,6 +272,38 @@ class networkGraph(graph):
 			landmarks[sections[row.dump_id]-1]=row.ref_id
 		
 		return landmarks
+
+	#~ http://code.activestate.com/recipes/119466-dijkstras-algorithm-for-shortest-paths/		
+	def djikstra(self,s,t):
+		D = {}	# dictionary of final distances
+		P = {}	# dictionary of predecessors
+		Q = priorityDictionary()   # est.dist. of non-final vert.
+		Q[s] = 0
+		Path = []
+		
+		for v in Q:
+			D[v] = Q[v]
+			if v == t:
+				while 1:
+					if t == s: break
+					Path.append(P[t][1])
+					t = P[t][0]
+				Path.reverse()
+				return Path
+				
+			
+			for edgew in self.adj(v):
+				w=edgew.v
+				vwLength = D[v] + edgew.length
+				if w in D:
+					if vwLength < D[w]:
+						raise ValueError, \
+	  "Dijkstra: found better path to already-final vertex"
+				elif w not in Q or vwLength < Q[w]:
+					Q[w] = vwLength
+					P[w] = [v, edgew]
+		return Path			
+		
 				
 ''' 
 USAGE

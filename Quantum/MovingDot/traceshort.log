@@ -1,0 +1,39 @@
+Tracker: Tracking runner.....
+1  of  10  completed
+Runner(e): '401' @'3205 after 0.153660876468 time units'
+Tracker:Runner on track! with speed @ 5.0
+2  of  10  completed
+Tracker: Runner off track!  0
+conveyed path
+ Runner: reoriented @  at the end:  1661
+
+1  of  10  completed
+Runner(e): '401' @'3205 after 0.460982629405 time units'
+Tracker:Runner on track! with speed @ 2.5
+2  of  10  completed
+Runner(e): '400' @'3204 after 0.965705458352 time units'
+ Tracker:Runner on track! with speed @ 5.0
+3  of  10  completed
+Runner(e): '399' @'3203 after 1.4704282873 time units'
+ Tracker:Runner on track! with speed @ 5.0
+4  of  10  completed
+Runner(e): '398' @'3202 after 1.9751511162 time units'
+Tracker:Runner on track! with speed @ 5.0
+5  of  10  completed
+Runner(e): '395' @'3201 after 2.47987394509 time units'
+Tracker:Runner on track! with speed @ 5.0
+6  of  10  completed
+Runner(e): '394' @'3200 after 2.87363549483 time units'
+ Tracker:Runner on track! with speed @ 5.0
+7  of  10  completed
+Runner(e): '393' @'3199 after 3.06264470357 time units'
+ Tracker:Runner on track! with speed @ 5.0
+8  of  10  completed
+Runner(e): '392' @'3198 after 3.76067804411 time units'
+ Tracker:Runner on track! with speed @ 5.0
+9  of  10  completed
+Runner(e): '391' @'3197 after 4.45871138461 time units'
+Tracker:Runner on track! with speed @ 5.0
+10  of  10  completed
+Tracker:Runner on track! with speed @ 5.0
+
