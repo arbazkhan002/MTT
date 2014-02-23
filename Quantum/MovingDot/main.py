@@ -191,12 +191,16 @@ class server:
 		while True:
 			for i in range(len(path)):
 				print i+1, " of ",len(path) ," completed"
-				print "Tracker: Did you see section ",path[i].edgeId,"?"
+				print "Tracker: Did you see section ",path[i].splitId,"?"
 				queue.put(path[i].edgeId)
-				reply=ans.get(True)
-				#~ print reply
 				if i>=1:
 					nextpath=self.g.findPathEdges(self.g.edgeint(path[i-1],path[i]),path[i-1].length)
+				
+				#~ if len(g.edges[path[i].v])<=2:
+					#~ continue
+				
+				reply=ans.get(True)
+				#~ print reply
 					# next path possesses a a list of paths (i.e. list of list of edgeIds)
 					# Each path is stored in reverse order of travel (last edgeId is visited first)
 					#~ print "*********",map(lambda x: map(lambda y:y.edgeId, x), nextpath), path[i].edgeId
@@ -211,7 +215,7 @@ class server:
 					if sys_debug==1:
 						print "<--- runner off track! --->" 
 					while reply==0 and j<len(nextpath):
-						print "Tracker: Did you see section ",nextpath[j][-1].edgeId,"?"
+						print "Tracker: Did you see section ",nextpath[j][-1].splitId,"?"
 						queue.put(nextpath[j][-1].edgeId)
 						ans.task_done()
 						reply=ans.get(True)
