@@ -40,6 +40,14 @@ class networkGraph(graph):
 			return edge1.v
 		return None				
 
+	def coedgeint(self,edge1,edge2):
+		u=self.edgeint(edge1,edge2)
+		if u==edge2.u:
+			u=edge2.v
+		else:
+			u=edge2.u
+		return u	
+
 	def build_graph(self,conn):	
 		cur	= conn.cursor()		
 		cur.execute("SELECT * from network_extended")

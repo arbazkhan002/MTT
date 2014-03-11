@@ -407,3 +407,22 @@ Predicting user familiarity:
 
 Cluster landmarks:
 To identify the behaviour of a particular user towards understanding landmark information.
+
+
+//----------------------------------------------------------------------------------------
+CODE FAMILIARITY
+
+Case#1
+Did you see 3230?
+No 
+(Even though 3230 in visited)
+
+Because the question was probably on the different direction (different dumpId)
+
+Case#2
+Speed less than 5 in some occassions
+Do u see X?
+No
+Tracker waits for some time to let runner see X.. that time causes decrease in speed
+
+
