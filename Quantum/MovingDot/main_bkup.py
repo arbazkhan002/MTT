@@ -10,14 +10,14 @@ import Queue
 #~ DEST='0101000020847F0000B0627FD91ED019411851DABB05604641'
 SRC='0101000020847F0000704DF34E47D0194118485024FD5F4641'
 DEST='0101000020847F00008CDD071EC5DF1941C8D53D59AA5F4641'
-CLIENT_WAIT_TIME=0.05
-SERVER_WAIT_TIME=0.005
+CLIENT_WAIT_TIME=5
+SERVER_WAIT_TIME=1
 
 LOG=logger.logger("logfile.txt")
 rfile=open("rfile.txt","w")
 sfile=open("sfile.txt","w")
 conn = connect("dbname=demo user=postgres host=localhost password=indian")
-sys_debug=0
+sys_debug=1
 
 class user:
 	time=0
@@ -29,7 +29,7 @@ class user:
 	visited=[]
 	path=[]
 	pathind=0
-	alive=1
+	
 	# just extra.. redundant information.. needed for debugging
 	visitedE=[]
 
@@ -40,7 +40,7 @@ class user:
 	def makemove(self,nextpt,edgewt):
 		global POS
 		#~ print "edgewt:",edgewt,
-		#~ print "time:",self.gettime()
+		print "time:",self.gettime()
 		for i in range(int(edgewt/float(self.speed))):
 			sleep(CLIENT_WAIT_TIME)
 			self.time+=1
@@ -70,52 +70,39 @@ class user:
 		try:
 			sect = queue.get(True,SERVER_WAIT_TIME)
 			#~ self.visited.sort()
-
+			print "#######################################",map(lambda x:x.splitId, self.visitedE)
+			print "#######################################",self.visited,sect
 			#check if sect is in visited
 			if sect not in self.visited:
 				#~ rfile.write(repr((sect, self.visited)))
-				while sect not in self.visited and sect!=None and sect!="proceed":
+				while sect not in self.visited and sect!=None:
+					print "Runner: "," No!" ,"(",sect,")"
 					ans.put(0)
 					queue.task_done()
-					sectp=sect
-					sect=queue.get(True)		
-					if sect!="proceed":	
-						print "Runner: "," No!" ,"(",sectp,")"
-
-				if sect=="proceed":
-					#~ print sect, "Proceeded"		
-					queue.task_done()	
-					return
-
-				else:
-					if sect!=None:
-						if sys_debug==1:
-							print "#######################################",map(lambda x:x.splitId, self.visitedE)
-							print "#######################################",self.visited,sect					
-						
-						print "Runner: ","Yes!","(",sect,")"
-					ans.put(1)
-					queue.task_done()
-					path=queue.get(True)
-					if path is not None:
-						self.path=path 
-						self.pathind=-1 #(to null the increment after self.makemove)
-						self.visited=[]	# Old visited edgeIds are no longer required. They pose problems in answers to queries for reorientation.
-					queue.task_done()
-					return
+					print "before"
+					sect=queue.get(False)
+					print "afer"
+				
+				if sect!=None:
+					print "Runner: ","Yes!","(",sect,")"
+				ans.put(1)
+				queue.task_done()
+				path=queue.get(True)
+				if path is not None:
+					self.path=path 
+					self.pathind=-1 #(to null the increment after self.makemove)
+				queue.task_done()
+				return
 			
 			if sect in self.visited:
-				if sys_debug==1:
-					print "#######################################",map(lambda x:x.splitId, self.visitedE)
-					print "#######################################",self.visited,sect
 				print "Runner: Yes!"
 				ans.put(1)
 			
 			queue.task_done()
 				
 		except Queue.Empty:
-			if sys_debug==1:
-				print "No questions incoming"
+			#~ if sys_debug==1:
+				#~ print "No questions incoming"
 			pass				
 
 	
@@ -127,15 +114,13 @@ class user:
 	
 	#To walk in a random fashion (pick random edges at each decision point)
 	def explore(self, start, edge):
-		print "<--- runner(e) '%s' @'%s after %s time units' --->" %(self.position().nodeid,edge.splitId,self.time)		 		
+		print "Runner(e): '%s' @'%s after %s time units'" %(self.position().nodeid,edge.splitId,self.time)		 		
 		#If the path is set, break explore mode			
 		if self.path is not None:											
-			print "Runner: Reached Destination"
-			self.alive=0
+			print "Reached Destination"
 			return
 		if start==self.g.getNode(DEST):
-			print "Runner: Reached Destination"
-			self.alive=0
+			print "Reached Destination"
 			return	
 
 		for edgeuv in random.sample(self.g.adj(start),len(self.g.adj(start))):
@@ -143,7 +128,7 @@ class user:
 
 			# when dead ends (deg<=1) or start points (prevpt is None) 
 			if v!=self.prevpt or len(self.g.adj(start))<=1 or self.prevpt==None:
-				#~ print v==self.prevpt, edge==edgeuv, edgeuv.splitId
+				print v==self.prevpt, edge==edgeuv, edgeuv.splitId
 				self.makemove(v,edgeuv.length)
 				self.visited.append(edgeuv.edgeId)
 				self.visitedE.append(edgeuv)
@@ -202,7 +187,7 @@ class user:
 				self.visitedE.append(path[i])
 				#~ print self.visited
 				#print path[i].u
-				print "<--- runner '%s' @'%s after %s time units' --->" %(self.position().nodeid,path[i].splitId,self.time)		 
+				print "Runner: '%s' @'%s after %s time units'" %(self.position().nodeid,path[i].splitId,self.time)		 
 
 			else:
 				#dist = self.g.linearDistance(temp,self.currpt,path)
@@ -226,16 +211,15 @@ class server:
 	def __init__(self,graph):
 		self.g=graph
 		self.time=0
-
-
-	# Make sure to call ans.task_done after calling wait()		
+		
 	def wait(self,t):
 		try:
 			sleep(t)
 			reply=ans.get(False)
+			ans.task_done()
 			return reply
 		except Queue.Empty:	
-			return -1
+			return 0
 	
 	def checkcorrect(self,runner,ttime):
 		return runner.gettime()-ttime
@@ -252,8 +236,7 @@ class server:
 		while True:
 			dist=0
 			speed=self.initSpeed()
-			if sys_debug==1:
-				print "Reinitializing everythin"
+			print "Reinitializing everythin"
 			i=0
 			factor=1.0
 			while i<len(path):
@@ -273,44 +256,24 @@ class server:
 				tracktime=runner.gettime()			
 				
 				reply=0
-				while speed!=0 and tracktime<prevtime+float(dist)*factor/speed and reply!=1:
-					if runner.alive==0:
-						print "Client dead"
-						return
-					
-					# If below condition is not put then queue floods up due to unreplied queries
-					if reply==0:
-						queue.put(path[i].edgeId)
-					reply=self.wait(SERVER_WAIT_TIME)
-					#~ print "Received ",reply, queue.qsize()									
+				while speed!=0 and tracktime<prevtime+float(dist)*factor/speed and reply==0:
+					queue.put(path[i].edgeId)
+					reply=self.wait(SERVER_WAIT_TIME)					
 					tracktime=runner.gettime()
-					
-					# If the reply is negative, instruct to proceed and not wait for any questions
-					if reply==0:
-						ans.task_done()				# this is for calling self.wait()
-						queue.put("proceed")
 					#~ print tracktime
-					#~ with queue.mutex:
-						#~ queue.queue.clear()
+					if queue.full():
+						queue.get(False)
 					continue
 
-				#~ print "qsize:",queue.qsize()
-				# Suppose self.wait times out (reply=-1) and in the next iteration condition (tracktime<prevtime+..) fails
-				# then queue top is an edgeId
-				# If self.wait doesn't time out and reply is 0 and in the next iteration (tracktime<prevtime) fails
-				# then queue top is "proceed"	
-				if reply==-1:
-					queue.queue.clear()
-			
-				#Below case should not be else if. As reply==-1 case need to be done the same as the case of reply==0
-				if reply!=1:
+
+				if reply==0:
 					print "Tracker: Did you see section ",path[i].splitId,"?" "(",dist,speed,tracktime,")"
 
 					tracktime=runner.gettime()			
 					queue.put(path[i].edgeId)
 					try:
 						reply=ans.get(True, 1)
-						
+					
 					except Queue.Empty:
 						print "Client dead"
 						return
@@ -335,7 +298,6 @@ class server:
 							print "Tracker: Did you see section ",nextpath[j][-1].splitId,"?"
 							queue.put(nextpath[j][-1].edgeId)
 						else:
-							# Put none in the queue to signal that no path change is required as its the case, user's position is behind the tracker
 							queue.put(None)
 						ans.task_done()
 						try:
@@ -345,18 +307,18 @@ class server:
 							return
 						j+=1
 						
-					if reply==1 and j<=len(nextpath):	
+					if reply==1 and j<len(nextpath):	
 						path=self.g.djikstra(nextpath[j-1][-1].v,g.getNode(DEST))					
 						#~ print path,'\n',self.g.djikstra(nextpath[j-1][-1].v,g.getNode(DEST))					
 						#~ sfile.write(repr(path[i-1].splitId)+repr(map(lambda x:x.splitId, path)))
 						queue.put(path)
 						if sys_debug==1:
 							print "<--- tracker conveyed new path to the runner --->"
-						prevtime=tracktime
+						prevtime=tracktime	
 						break
 					
 					#all possible paths rejected.. fall back
-					if j>len(nextpath):
+					if j>=len(nextpath):
 						queue.put(None)
 						#~ ans.task_done()
 						#we would come back to same track segment but assume 1-factor fraction is covered												
@@ -489,8 +451,6 @@ if __name__=="__main__":
 		# r.daemon=True
 		t=Thread(target=tracker.track, args=([runner,path])).start()
 		# t.daemon=True
-		queue.join()
-		ans.join()
 	finally:
 		# t.join()
 		# r.join()
