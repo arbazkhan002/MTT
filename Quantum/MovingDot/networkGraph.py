@@ -210,6 +210,14 @@ class networkGraph(graph):
 	# Same as findPaths but returns edges instead						
 	def findPathEdges(self,s,dist):
 		sfile=open("sfile.txt","a")
+		def makeset(ans):
+			toret=[]
+			for path in ans:
+				for edge in path:
+					if [edge] not in toret:
+						toret.append([edge])
+			return toret			
+		
 		def pathfinder(s,dist,visited):
 			if dist<=0:
 				return [[]]
@@ -236,7 +244,13 @@ class networkGraph(graph):
 		
 		ans=pathfinder(s,dist,visited)					
 		sfile.close()
+		#~ print ans
+		ans=makeset(ans)
+		#~ print ans
 		return ans
+	
+
+	
 	
 	#find all paths that are of length less than dist originating at a section in the direction from endpoint s on it
 	#Returns a list of paths (set of edges)

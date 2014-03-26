@@ -426,3 +426,27 @@ No
 Tracker waits for some time to let runner see X.. that time causes decrease in speed
 
 
+--------------------------------------------------------------------------------------------------------
+Adding intrinsic landmarks:
+
+Create a table nodeLandmarks (See nodeLandmarks.sql)
+add all intersections to salience with id=-1
+reset all ids of the table salience with the code given in nodeLandmarks.sql  (starts with "with" command)
+now recreate sectlandmarks (as ids have changed)
+add all intrinsic landmarks in sectlandmarks (0.01 is the required distance)
+
+---------------------------------------------------------------------------------------------------------
+On the pattern on prompts:
+
+1. First ask for a reply whenever you reach the next checkpoint and set a timer for the reply according to the expected time
+2. If the timer fires and no reply is made, ask it explicitly (did you see section x)
+3 a) If the answer is yes, move to prompt for next checkpoint
+3 b) Else, ask questions on all possible checkpoints reachable from the last visited checkpoint by considering the time passed
+	since the last reply was recorded.
+4. If the user says yes to any of the question, mark it as the now source and convey new path to the destination.	
+5. If all questions are negatively answered, client hasnt yet crossed the expected checkpoint. Wait for the client and go to step 1
+	but reduce the timer firing time by some factor.
+	
+
+
+

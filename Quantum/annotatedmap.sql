@@ -41,20 +41,20 @@
 --Originally USED
 -- create table edgelandmark as select foo.split_id as split_id,foo.lid as ref_id,foo.dist as dist from (select N.split_id as split_id ,L.id as lid,st_distance(N.geom,L.geom) as dist from network_extended as N JOIN salience as L ON st_dwithin(N.geom,L.geom,10)) foo;
 	
-create table edgelandmark as select row_number() OVER (ORDER BY foo.split_id)::integer as sno, foo.split_id as split_id,foo.lid as ref_id,foo.dist as dist 
-from 
-(select N.split_id as split_id ,L.id as lid,st_distance(N.geom,L.geom) as dist 
-	from network_extended as N JOIN salience as L ON st_dwithin(N.geom,L.geom,10)) foo;	
-
-alter table edgelandmark add column sno BIGSERIAL PRIMARY KEY;
-
-insert into edgelandmark select foo.split_id as split_id,foo.lid as ref_id,foo.dist as dist from (select N.split_id as split_id ,L.id as lid,st_distance(N.geom,L.geom) as dist from network_extended as N JOIN salience as L ON st_dwithin(N.geom,L.geom,30) and not st_dwithin(N.geom,L.geom,10) and L.category='playground')  foo;	
-
-insert into edgelandmark select foo.split_id as split_id,foo.lid as ref_id,foo.dist as dist from (select N.split_id as split_id ,L.id as lid,st_distance(N.geom,L.geom) as dist from network_extended as N JOIN salience as L ON st_dwithin(N.geom,L.geom,50) and not st_dwithin(N.geom,L.geom,10) and L.category='facility')  foo;	
-
-alter table edgelandmark add column salience_geom geometry;
-
-update edgelandmark set salience_geom=salience.geom from salience where salience.id=edgelandmark.ref_id;
+--~ create table edgelandmark as select row_number() OVER (ORDER BY foo.split_id)::integer as sno, foo.split_id as split_id,foo.lid as ref_id,foo.dist as dist 
+--~ from 
+--~ (select N.split_id as split_id ,L.id as lid,st_distance(N.geom,L.geom) as dist 
+	--~ from network_extended as N JOIN salience as L ON st_dwithin(N.geom,L.geom,10)) foo;	
+--~ 
+--~ alter table edgelandmark add column sno BIGSERIAL PRIMARY KEY;
+--~ 
+--~ insert into edgelandmark select foo.split_id as split_id,foo.lid as ref_id,foo.dist as dist from (select N.split_id as split_id ,L.id as lid,st_distance(N.geom,L.geom) as dist from network_extended as N JOIN salience as L ON st_dwithin(N.geom,L.geom,30) and not st_dwithin(N.geom,L.geom,10) and L.category='playground')  foo;	
+--~ 
+--~ insert into edgelandmark select foo.split_id as split_id,foo.lid as ref_id,foo.dist as dist from (select N.split_id as split_id ,L.id as lid,st_distance(N.geom,L.geom) as dist from network_extended as N JOIN salience as L ON st_dwithin(N.geom,L.geom,50) and not st_dwithin(N.geom,L.geom,10) and L.category='facility')  foo;	
+--~ 
+--~ alter table edgelandmark add column salience_geom geometry;
+--~ 
+--~ update edgelandmark set salience_geom=salience.geom from salience where salience.id=edgelandmark.ref_id;
 
 
 -- for section wise landmarks
@@ -62,7 +62,7 @@ update edgelandmark set salience_geom=salience.geom from salience where salience
 create table sectlandmark as select row_number() OVER (ORDER BY foo.dump_id)::integer as sno, foo.dump_id as dump_id,foo.lid as ref_id,foo.dist as dist 
 from 
 (select N.dump_id as dump_id ,L.id as lid,st_distance(N.geomline,L.geom) as dist 
-	from network_dumppoints as N JOIN salience as L ON st_dwithin(N.geomline,L.geom,10)) foo;	
+	from network_dumppoints as N JOIN salience as L ON st_dwithin(N.geomline,L.geom,10) and not L.category='intrinsic') foo;	
 
 alter table sectlandmark add column sno BIGSERIAL PRIMARY KEY;
 

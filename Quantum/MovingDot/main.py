@@ -17,7 +17,7 @@ LOG=logger.logger("logfile.txt")
 rfile=open("rfile.txt","w")
 sfile=open("sfile.txt","w")
 conn = connect("dbname=demo user=postgres host=localhost password=indian")
-sys_debug=0
+sys_debug=1
 
 class user:
 	time=0
@@ -357,6 +357,7 @@ class server:
 					
 					#all possible paths rejected.. fall back
 					if j>len(nextpath):
+						print "reply was ",reply
 						queue.put(None)
 						#~ ans.task_done()
 						#we would come back to same track segment but assume 1-factor fraction is covered												

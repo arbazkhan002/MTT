@@ -1,419 +1,442 @@
-1  of  63  completed
-Tracker: Did you see section  3207 ?
+0  of  63  completed
+
+Tracker: Prompt me 'Yes' when you see section  3207 .( 69.5937325689 5.0 0 )
 Runner: Yes!
-2  of  63  completed
-Tracker: Did you see section  3208 ?
-Runner: Yes!
-3  of  63  completed
-Tracker: Did you see section  3209 ?
-Runner: Yes!
-4  of  63  completed
-Tracker: Did you see section  3210 ?
-Runner: Yes!
-5  of  63  completed
-Tracker: Did you see section  3211 ?
-Runner: Yes!
-6  of  63  completed
-Tracker: Did you see section  3212 ?
-Runner: Yes!
-7  of  63  completed
-Tracker: Did you see section  3213 ?
-Runner: Yes!
-8  of  63  completed
-Tracker: Did you see section  3214 ?
-Runner: Yes!
-9  of  63  completed
-Tracker: Did you see section  3215 ?
-Runner: Yes!
-10  of  63  completed
-Tracker: Did you see section  3216 ?
-Runner: Yes!
-11  of  63  completed
-Tracker: Did you see section  3217 ?
-Runner: Yes!
-12  of  63  completed
-Tracker: Did you see section  3218 ?
-Runner: Yes!
-13  of  63  completed
-Tracker: Did you see section  3219 ?
-Runner: Yes!
-14  of  63  completed
-Tracker: Did you see section  3220 ?
-Runner: Yes!
-15  of  63  completed
-Tracker: Did you see section  3221 ?
-Runner: Yes!
-16  of  63  completed
-Tracker: Did you see section  3222 ?
-Runner: Yes!
-17  of  63  completed
-Tracker: Did you see section  3223 ?
-Runner: Yes!
-18  of  63  completed
-Tracker: Did you see section  3224 ?
-Runner: Yes!
-19  of  63  completed
-Tracker: Did you see section  3225 ?
-Runner: Yes!
-20  of  63  completed
-Tracker: Did you see section  3226 ?
-Runner: Yes!
-21  of  63  completed
-Tracker: Did you see section  3227 ?
-Runner: Yes!
-22  of  63  completed
-Tracker: Did you see section  3228 ?
-Runner: Yes!
-23  of  63  completed
-Tracker: Did you see section  3229 ?
-Runner: Yes!
+<--- runner '404' @'3208 after 13.96679759 time units' --->
+<--- runner '405' @'3209 after 14.1246542434 time units' --->
 24  of  63  completed
+Tracker: Prompt me 'Yes' when you see section  3809 .( 307.776864997 5.0 13.96679759 )
+<--- runner '406' @'3210 after 14.2825108968 time units' --->
+<--- runner '407' @'3211 after 14.4403675503 time units' --->
+<--- runner '411' @'3212 after 14.5982242037 time units' --->
+<--- runner '412' @'3213 after 14.7560808571 time units' --->
+<--- runner '413' @'3214 after 14.9139375106 time units' --->
+<--- runner '414' @'3215 after 15.071794164 time units' --->
+<--- runner '415' @'3216 after 15.2296508175 time units' --->
+<--- runner '416' @'3217 after 15.3875074709 time units' --->
+<--- runner '417' @'3218 after 15.5453577449 time units' --->
+<--- runner '418' @'3219 after 24.1887177448 time units' --->
+<--- runner '419' @'3220 after 24.3489818921 time units' --->
+<--- runner '420' @'3221 after 24.9884183946 time units' --->
+<--- runner '422' @'3222 after 25.6278548971 time units' --->
+<--- runner '423' @'3223 after 25.6559582701 time units' --->
+<--- runner '424' @'3224 after 26.1117533117 time units' --->
+<--- runner '425' @'3225 after 26.2683748436 time units' --->
+<--- runner '426' @'3226 after 26.907815537 time units' --->
+<--- runner '427' @'3227 after 27.5472562306 time units' --->
+<--- runner '428' @'3228 after 28.1866563883 time units' --->
+<--- runner '429' @'3229 after 28.2051366591 time units' --->
+<--- runner '211' @'3230 after 37.2054126789 time units' --->
+Diverting:  3809
+<--- runner(e) '211' @'3230 after 37.2054126789 time units' --->
+<--- runner(e) '134' @'3237 after 73.80355317 time units' --->
+Tracker: Did you see section  3809 ?( 307.776864997 5.0 75.80355317 )
+Tracker: Did you see section  3237 ?
+Runner:   No! ( 1861 )
+Runner:  Yes! ( 310 )
+0  of  40  completed
+Tracker: Prompt me 'Yes' when you see section  3237 .( 182.990702455 5.0 75.80355317 )
+Tracker: Did you see section  3237 ?( 182.990702455 5.0 112.827229657 )
+Tracker: Did you see section  3237 ?
+Runner:   No! ( 309 )
 Tracker: Did you see section  3230 ?
-Runner: Yes!
-25  of  63  completed
+Runner:   No! ( 310 )
 Tracker: Did you see section  3809 ?
-Runner:   No!
-Tracker: Did you see section  3237 ?
-Runner:  Yes!
-1  of  40  completed
-Tracker: Did you see section  3237 ?
-Runner:   No!
-Tracker: Did you see section  3237 ?
-Runner:  Yes!
-1  of  40  completed
-Tracker: Did you see section  3237 ?
+Runner:   No! ( 716 )
+Runner:   No! ( 1861 )
+0  of  40  completed
+Tracker: Prompt me 'Yes' when you see section  3237 .( 182.990702455 5.0 112.827229657 )
+Diverting:  3809
+<--- runner(e) '211' @'3237 after 121.425370148 time units' --->
 Runner: Yes!
+1  of  40  completed
+Tracker: Prompt me 'Yes' when you see section  3809 .( 191.343534171 5.0 122.425370148 )
+<--- runner(e) '336' @'3809 after 159.694076982 time units' --->
+Runner: Yes!
+<--- runner(e) '408' @'3239 after 159.694086646 time units' --->
+<--- runner(e) '336' @'3239 after 159.69409631 time units' --->
 2  of  40  completed
-Tracker: Did you see section  3809 ?
+Tracker: Prompt me 'Yes' when you see section  3143 .( 179.280896946 5.0 159.694086646 )
+<--- runner(e) '260' @'3143 after 195.550275699 time units' --->
 Runner: Yes!
+<--- runner(e) '290' @'3123 after 195.55028043 time units' --->
+<--- runner(e) '260' @'3123 after 195.55028516 time units' --->
 3  of  40  completed
-Tracker: Did you see section  3143 ?
-Runner:   No!
-Tracker: Did you see section  3143 ?
-Runner:   No!
-Tracker: Did you see section  3143 ?
-Runner:   No!
-Tracker: Did you see section  3143 ?
-Runner:   No!
-Tracker: Did you see section  3239 ?
-Runner:   No!
-Tracker: Did you see section  3765 ?
-Runner:  Yes!
-1  of  39  completed
-Tracker: Did you see section  3765 ?
-Runner:   No!
-Tracker: Did you see section  3143 ?
-Runner:   No!
-Tracker: Did you see section  3143 ?
-Runner:   No!
-Tracker: Did you see section  3143 ?
-Runner:   No!
-Tracker: Did you see section  3239 ?
-Runner:   No!
-Tracker: Did you see section  3765 ?
-Runner:  Yes!
-1  of  39  completed
-Tracker: Did you see section  3765 ?
+Tracker: Prompt me 'Yes' when you see section  3122 .( 82.1455244086 5.0 195.55028043 )
+<--- runner(e) '259' @'3122 after 211.979390042 time units' --->
+Tracker: Did you see section  3122 ?( 82.1455244086 5.0 211.979390042 )
 Runner: Yes!
-2  of  39  completed
-Tracker: Did you see section  3143 ?
-Runner:   No!
-Tracker: Did you see section  3143 ?
-Runner:   No!
-Tracker: Did you see section  3239 ?
-Runner:  Yes!
-1  of  39  completed
-Tracker: Did you see section  3239 ?
-Runner: Yes!
-2  of  39  completed
-Tracker: Did you see section  3143 ?
-Runner:   No!
-Tracker: Did you see section  3143 ?
-Runner:   No!
-Tracker: Did you see section  3239 ?
-Runner:  Yes!
-1  of  39  completed
-Tracker: Did you see section  3239 ?
-Runner: Yes!
-2  of  39  completed
-Tracker: Did you see section  3143 ?
-Runner:   No!
-Tracker: Did you see section  3143 ?
-Runner:   No!
-Tracker: Did you see section  3239 ?
-Runner:  Yes!
-1  of  39  completed
-Tracker: Did you see section  3239 ?
-Runner: Yes!
-2  of  39  completed
-Tracker: Did you see section  3143 ?
-Runner:   No!
-Tracker: Did you see section  3143 ?
-Runner:   No!
-Tracker: Did you see section  3239 ?
-Runner:  Yes!
-1  of  39  completed
-Tracker: Did you see section  3239 ?
-Runner: Yes!
-2  of  39  completed
-Tracker: Did you see section  3143 ?
-Runner: Yes!
-3  of  39  completed
-Tracker: Did you see section  3122 ?
-Runner:   No!
-Tracker: Did you see section  3122 ?
-Runner:   No!
-Tracker: Did you see section  3122 ?
-Runner:   No!
-Tracker: Did you see section  3123 ?
-Runner:  Yes!
-1  of  38  completed
-Tracker: Did you see section  3123 ?
-Runner:   No!
-Tracker: Did you see section  3122 ?
-Runner:   No!
-Tracker: Did you see section  3122 ?
-Runner:   No!
-Tracker: Did you see section  3123 ?
-Runner:  Yes!
-1  of  38  completed
-Tracker: Did you see section  3123 ?
-Runner: Yes!
-2  of  38  completed
-Tracker: Did you see section  3122 ?
-Runner:   No!
-Tracker: Did you see section  3122 ?
-Runner:   No!
-Tracker: Did you see section  3123 ?
-Runner:  Yes!
-1  of  38  completed
-Tracker: Did you see section  3123 ?
-Runner: Yes!
-2  of  38  completed
-Tracker: Did you see section  3122 ?
-Runner:   No!
-Tracker: Did you see section  3122 ?
-Runner:   No!
-Tracker: Did you see section  3123 ?
-Runner:  Yes!
-1  of  38  completed
-Tracker: Did you see section  3123 ?
-Runner: Yes!
-2  of  38  completed
-Tracker: Did you see section  3122 ?
-Runner:   No!
-Tracker: Did you see section  3122 ?
-Runner:   No!
-Tracker: Did you see section  3123 ?
-Runner:  Yes!
-1  of  38  completed
-Tracker: Did you see section  3123 ?
-Runner: Yes!
-2  of  38  completed
-Tracker: Did you see section  3122 ?
-Runner: Yes!
-3  of  38  completed
+5  of  40  completed
+Tracker: Prompt me 'Yes' when you see section  3345 .( 71.7183401083 5.0 211.979390042 )
+<--- runner(e) '311' @'3121 after 226.075039705 time units' --->
+Tracker: Did you see section  3345 ?( 71.7183401083 5.0 227.075039705 )
 Tracker: Did you see section  3121 ?
-Runner: Yes!
-4  of  38  completed
+Runner:   No! ( 942 )
 Tracker: Did you see section  3345 ?
+Runner:   No! ( 493 )
+Tracker: Did you see section  3814 ?
+Runner:   No! ( 942 )
+Tracker: Did you see section  3814 ?
+Runner:   No! ( 1871 )
+Runner:   No! ( 1871 )
+5  of  40  completed
+Tracker: Prompt me 'Yes' when you see section  3345 .( 71.7183401083 5.0 227.075039705 )
+Tracker: Did you see section  3345 ?( 71.7183401083 5.0 235.075039705 )
+Tracker: Did you see section  3121 ?
+Runner:   No! ( 942 )
+Tracker: Did you see section  3345 ?
+Runner:   No! ( 493 )
+Tracker: Did you see section  3814 ?
+Runner:   No! ( 942 )
+Tracker: Did you see section  3814 ?
+Runner:   No! ( 1871 )
+Runner:   No! ( 1871 )
+5  of  40  completed
+Tracker: Prompt me 'Yes' when you see section  3345 .( 71.7183401083 5.0 235.075039705 )
+<--- runner(e) '164' @'3814 after 237.644636477 time units' --->
+Tracker: Did you see section  3345 ?( 71.7183401083 5.0 242.644636477 )
+Tracker: Did you see section  3121 ?
+Runner:   No! ( 942 )
+Tracker: Did you see section  3345 ?
+Runner:   No! ( 493 )
+Tracker: Did you see section  3814 ?
+Runner:   No! ( 942 )
+Runner:  Yes! ( 1871 )
+0  of  36  completed
+Tracker: Prompt me 'Yes' when you see section  3814 .( 57.8479838594 5.0 242.644636477 )
+Tracker: Did you see section  3814 ?( 57.8479838594 5.0 254.795098445 )
+Tracker: Did you see section  3121 ?
+Runner:   No! ( 1872 )
+Tracker: Did you see section  3345 ?
+Runner:   No! ( 493 )
+Tracker: Did you see section  3814 ?
+Runner:   No! ( 942 )
+Tracker: Did you see section  3814 ?
+Runner:   No! ( 1871 )
+Runner:   No! ( 1871 )
+0  of  36  completed
+Tracker: Prompt me 'Yes' when you see section  3814 .( 57.8479838594 5.0 254.795098445 )
+Tracker: Did you see section  3814 ?( 57.8479838594 5.0 260.795098445 )
+Tracker: Did you see section  3121 ?
+Runner:   No! ( 1872 )
+Tracker: Did you see section  3345 ?
+Runner:   No! ( 493 )
+Tracker: Did you see section  3814 ?
+Runner:   No! ( 942 )
+Tracker: Did you see section  3814 ?
+Runner:   No! ( 1871 )
+Runner:   No! ( 1871 )
+0  of  36  completed
+Tracker: Prompt me 'Yes' when you see section  3814 .( 57.8479838594 5.0 260.795098445 )
 Runner: Yes!
-5  of  38  completed
-Tracker: Did you see section  3344 ?
+<--- runner '540' @'3345 after 264.612713575 time units' --->
+1  of  36  completed
+Tracker: Prompt me 'Yes' when you see section  3345 .( 1.2400917915 5.0 264.612713575 )
 Runner: Yes!
-6  of  38  completed
-Tracker: Did you see section  3293 ?
+4  of  36  completed
+Tracker: Prompt me 'Yes' when you see section  3936 .( 120.905878402 5.0 265.612713575 )
+<--- runner '489' @'3344 after 276.522422834 time units' --->
+<--- runner '356' @'3293 after 288.597600484 time units' --->
+Diverting:  3936
+<--- runner(e) '356' @'3293 after 288.597600484 time units' --->
+<--- runner(e) '357' @'3165 after 288.599255614 time units' --->
+<--- runner(e) '356' @'3165 after 288.600910744 time units' --->
+<--- runner(e) '53' @'3936 after 288.797199515 time units' --->
 Runner: Yes!
-7  of  38  completed
-Tracker: Did you see section  3936 ?
-Runner:   No!
-Tracker: Did you see section  3165 ?
-Runner:  Yes!
-1  of  33  completed
-Tracker: Did you see section  3165 ?
-Runner:   No!
-Tracker: Did you see section  3165 ?
-Runner:  Yes!
-1  of  33  completed
-Tracker: Did you see section  3165 ?
-Runner: Yes!
-2  of  33  completed
-Tracker: Did you see section  3936 ?
-Runner: Yes!
-3  of  33  completed
-Tracker: Did you see section  2891 ?
-Runner: Yes!
-4  of  33  completed
-Tracker: Did you see section  3709 ?
-Runner: Yes!
-5  of  33  completed
-Tracker: Did you see section  3710 ?
-Runner: Yes!
-6  of  33  completed
-Tracker: Did you see section  3900 ?
-Runner: Yes!
-7  of  33  completed
-Tracker: Did you see section  3901 ?
-Runner: Yes!
-8  of  33  completed
+<--- runner(e) '52' @'2891 after 288.958173893 time units' --->
+11  of  36  completed
+ <--- runner(e) '887' @'3709 after 289.030233893 time units' --->
+Tracker: Prompt me 'Yes' when you see section  3868 .( 85.0787718868 5.0 288.958173893 )
+<--- runner(e) '888' @'3710 after 301.097753893 time units' --->
+<--- runner(e) '1069' @'3900 after 301.667281593 time units' --->
+<--- runner(e) '871' @'3901 after 301.686633893 time units' --->
+<--- runner(e) '870' @'3691 after 303.633073893 time units' --->
+Tracker: Did you see section  3868 ?( 85.0787718868 5.0 306.633073893 )
 Tracker: Did you see section  3691 ?
-Runner: Yes!
-9  of  33  completed
+Runner:   No! ( 1984 )
+Tracker: Did you see section  3741 ?
+Runner:   No! ( 1629 )
 Tracker: Did you see section  3868 ?
-Runner:   No!
+Runner:   No! ( 1727 )
+Runner:   No! ( 1984 )
+11  of  36  completed
+Tracker: Prompt me 'Yes' when you see section  3868 .( 85.0787718868 5.0 306.633073893 )
+Tracker: Did you see section  3868 ?( 85.0787718868 5.0 315.633073893 )
 Tracker: Did you see section  3691 ?
-Runner:   No!
+Runner:   No! ( 1984 )
 Tracker: Did you see section  3741 ?
-Runner:  Yes!
-1  of  26  completed
-Tracker: Did you see section  3741 ?
-Runner:   No!
-Tracker: Did you see section  3691 ?
-Runner:   No!
-Tracker: Did you see section  3741 ?
-Runner:  Yes!
-1  of  26  completed
-Tracker: Did you see section  3741 ?
-Runner: Yes!
-2  of  26  completed
+Runner:   No! ( 1629 )
 Tracker: Did you see section  3868 ?
+Runner:   No! ( 1727 )
+Runner:   No! ( 1984 )
+11  of  36  completed
+Tracker: Prompt me 'Yes' when you see section  3868 .( 85.0787718868 5.0 315.633073893 )
+Tracker: Did you see section  3868 ?( 85.0787718868 5.0 324.633073893 )
+Tracker: Did you see section  3691 ?
+Runner:   No! ( 1984 )
+Tracker: Did you see section  3741 ?
+Runner:   No! ( 1629 )
+Tracker: Did you see section  3868 ?
+Runner:   No! ( 1727 )
+Runner:   No! ( 1984 )
+11  of  36  completed
+Tracker: Prompt me 'Yes' when you see section  3868 .( 85.0787718868 5.0 324.633073893 )
+<--- runner(e) '139' @'3741 after 332.720812025 time units' --->
+Tracker: Did you see section  3868 ?( 85.0787718868 5.0 333.720812025 )
+Tracker: Did you see section  3691 ?
+Runner:   No! ( 1984 )
+Tracker: Did you see section  3741 ?
+Runner:   No! ( 1629 )
+Runner:  Yes! ( 1727 )
+0  of  26  completed
+Tracker: Prompt me 'Yes' when you see section  3741 .( 145.43869066 5.0 333.720812025 )
+Tracker: Did you see section  3741 ?( 145.43869066 5.0 363.409373416 )
+Tracker: Did you see section  3691 ?
+Runner:   No! ( 1728 )
+Tracker: Did you see section  3741 ?
+Runner:   No! ( 1629 )
+Tracker: Did you see section  3868 ?
+Runner:   No! ( 1727 )
+Runner:   No! ( 1984 )
+0  of  26  completed
+Tracker: Prompt me 'Yes' when you see section  3741 .( 145.43869066 5.0 363.409373416 )
+Tracker: Did you see section  3741 ?( 145.43869066 5.0 378.409373416 )
+Tracker: Did you see section  3691 ?
+Runner:   No! ( 1728 )
+Tracker: Did you see section  3741 ?
+Runner:   No! ( 1629 )
+Tracker: Did you see section  3868 ?
+Runner:   No! ( 1727 )
+Runner:   No! ( 1984 )
+0  of  26  completed
+Tracker: Prompt me 'Yes' when you see section  3741 .( 145.43869066 5.0 378.409373416 )
 Runner: Yes!
-3  of  26  completed
-Tracker: Did you see section  3976 ?
-Runner: Yes!
-4  of  26  completed
-Tracker: Did you see section  3981 ?
-Runner: Yes!
-5  of  26  completed
-Tracker: Did you see section  3982 ?
-Runner: Yes!
-6  of  26  completed
-Tracker: Did you see section  2901 ?
+1  of  26  completed
+Tracker: Prompt me 'Yes' when you see section  3868 .( 10.8993999995 5.0 387.497111547 )
+<--- runner '1037' @'3868 after 388.676991547 time units' --->
 Runner: Yes!
 7  of  26  completed
-Tracker: Did you see section  3400 ?
+Tracker: Prompt me 'Yes' when you see section  2924 .( 251.193512993 5.0 389.676991547 )
+<--- runner '1142' @'3976 after 393.226671171 time units' --->
+<--- runner '1145' @'3981 after 393.231371513 time units' --->
+<--- runner '66' @'3982 after 399.676496741 time units' --->
+<--- runner '65' @'2901 after 412.368874186 time units' --->
+<--- runner '29' @'3400 after 421.477491547 time units' --->
+Diverting:  2924
+<--- runner(e) '29' @'3400 after 421.477491547 time units' --->
+<--- runner(e) '582' @'3392 after 434.949826223 time units' --->
+<--- runner(e) '581' @'3391 after 436.076572594 time units' --->
+<--- runner(e) '582' @'3391 after 437.203318966 time units' --->
+Tracker: Did you see section  2924 ?( 251.193512993 5.0 440.203318966 )
+Tracker: Did you see section  2924 ?
+Runner:   No! ( 34 )
+Tracker: Did you see section  3392 ?
+Runner:   No! ( 34 )
+Runner:  Yes! ( 1034 )
+0  of  20  completed
+Tracker: Prompt me 'Yes' when you see section  3392 .( 67.3616733764 5.0 440.203318966 )
 Runner: Yes!
-8  of  26  completed
-Tracker: Did you see section  2924 ?
-Runner:   No!
-Tracker: Did you see section  2924 ?
-Runner:   No!
-Tracker: Did you see section  3392 ?
-Runner:  Yes!
 1  of  20  completed
-Tracker: Did you see section  3392 ?
-Runner:   No!
+Tracker: Prompt me 'Yes' when you see section  2924 .( 87.1910129927 5.0 451.675653641 )
+Tracker: Did you see section  2924 ?( 87.1910129927 5.0 469.147988316 )
 Tracker: Did you see section  2924 ?
-Runner:   No!
+Runner:   No! ( 34 )
 Tracker: Did you see section  3392 ?
-Runner:  Yes!
+Runner:   No! ( 34 )
+Tracker: Did you see section  3400 ?
+Runner:   No! ( 1034 )
+Runner:   No! ( 1043 )
 1  of  20  completed
+Tracker: Prompt me 'Yes' when you see section  2924 .( 87.1910129927 5.0 469.147988316 )
+Tracker: Did you see section  2924 ?( 87.1910129927 5.0 478.147988316 )
+Tracker: Did you see section  2924 ?
+Runner:   No! ( 34 )
 Tracker: Did you see section  3392 ?
+Runner:   No! ( 34 )
+Tracker: Did you see section  3400 ?
+Runner:   No! ( 1034 )
+Runner:   No! ( 1043 )
+1  of  20  completed
+Tracker: Prompt me 'Yes' when you see section  2924 .( 87.1910129927 5.0 478.147988316 )
+<--- runner '28' @'2924 after 481.586190915 time units' --->
+Diverting:  3350
+<--- runner(e) '28' @'2924 after 481.586190915 time units' --->
 Runner: Yes!
 2  of  20  completed
-Tracker: Did you see section  2924 ?
+Tracker: Prompt me 'Yes' when you see section  3350 .( 149.574180176 5.0 482.586190915 )
+<--- runner(e) '234' @'3350 after 511.50102695 time units' --->
 Runner: Yes!
 3  of  20  completed
-Tracker: Did you see section  3350 ?
-Runner:   No!
-Tracker: Did you see section  2924 ?
-Runner:   No!
-Tracker: Did you see section  3058 ?
-Runner:  Yes!
-1  of  19  completed
-Tracker: Did you see section  3058 ?
-Runner:   No!
-Tracker: Did you see section  2924 ?
-Runner:   No!
-Tracker: Did you see section  3058 ?
-Runner:  Yes!
-1  of  19  completed
-Tracker: Did you see section  3058 ?
+Tracker: Prompt me 'Yes' when you see section  3816 .( 107.896130374 5.0 512.50102695 )
+<--- runner(e) '985' @'3816 after 533.080253025 time units' --->
 Runner: Yes!
-2  of  19  completed
-Tracker: Did you see section  3350 ?
-Runner: Yes!
-3  of  19  completed
+4  of  20  completed
+Tracker: Prompt me 'Yes' when you see section  3984 .( 0.663342400408 5.0 534.080253025 )
+Tracker: Did you see section  3984 ?( 0.663342400408 5.0 535.080253025 )
 Tracker: Did you see section  3816 ?
-Runner: Yes!
-4  of  19  completed
-Tracker: Did you see section  3984 ?
-Runner:   No!
-Tracker: Did you see section  3816 ?
-Runner:   No!
+Runner:   No! ( 2217 )
 Tracker: Did you see section  3817 ?
-Runner:  Yes!
-1  of  17  completed
+Runner:   No! ( 1876 )
 Tracker: Did you see section  3817 ?
-Runner:   No!
+Runner:   No! ( 1877 )
+Tracker: Did you see section  3984 ?
+Runner:   No! ( 1877 )
+Runner:   No! ( 2217 )
+4  of  20  completed
+Tracker: Prompt me 'Yes' when you see section  3984 .( 0.663342400408 5.0 535.080253025 )
+Tracker: Did you see section  3984 ?( 0.663342400408 5.0 536.080253025 )
 Tracker: Did you see section  3816 ?
-Runner:   No!
+Runner:   No! ( 2217 )
 Tracker: Did you see section  3817 ?
-Runner:  Yes!
-1  of  17  completed
+Runner:   No! ( 1876 )
 Tracker: Did you see section  3817 ?
-Runner: Yes!
-2  of  17  completed
+Runner:   No! ( 1877 )
 Tracker: Did you see section  3984 ?
-Runner:   No!
+Runner:   No! ( 1877 )
+Runner:   No! ( 2217 )
+4  of  20  completed
+Tracker: Prompt me 'Yes' when you see section  3984 .( 0.663342400408 5.0 536.080253025 )
+Tracker: Did you see section  3984 ?( 0.663342400408 5.0 537.080253025 )
 Tracker: Did you see section  3816 ?
-Runner:  Yes!
+Runner:   No! ( 2217 )
+Tracker: Did you see section  3817 ?
+Runner:   No! ( 1876 )
+Tracker: Did you see section  3817 ?
+Runner:   No! ( 1877 )
+Tracker: Did you see section  3984 ?
+Runner:   No! ( 1877 )
+Runner:   No! ( 2217 )
+4  of  20  completed
+Tracker: Prompt me 'Yes' when you see section  3984 .( 0.663342400408 5.0 537.080253025 )
+Tracker: Did you see section  3984 ?( 0.663342400408 5.0 538.080253025 )
+Tracker: Did you see section  3816 ?
+Runner:   No! ( 2217 )
+Tracker: Did you see section  3817 ?
+Runner:   No! ( 1876 )
+Tracker: Did you see section  3817 ?
+Runner:   No! ( 1877 )
+Tracker: Did you see section  3984 ?
+Runner:   No! ( 1877 )
+Runner:   No! ( 2217 )
+4  of  20  completed
+Tracker: Prompt me 'Yes' when you see section  3984 .( 0.663342400408 5.0 538.080253025 )
+Tracker: Did you see section  3984 ?( 0.663342400408 5.0 539.080253025 )
+Tracker: Did you see section  3816 ?
+Runner:   No! ( 2217 )
+Tracker: Did you see section  3817 ?
+Runner:   No! ( 1876 )
+Tracker: Did you see section  3817 ?
+Runner:   No! ( 1877 )
+Tracker: Did you see section  3984 ?
+Runner:   No! ( 1877 )
+Runner:   No! ( 2217 )
+4  of  20  completed
+Tracker: Prompt me 'Yes' when you see section  3984 .( 0.663342400408 5.0 539.080253025 )
+Tracker: Did you see section  3984 ?( 0.663342400408 5.0 540.080253025 )
+Tracker: Did you see section  3816 ?
+Runner:   No! ( 2217 )
+Tracker: Did you see section  3817 ?
+Runner:   No! ( 1876 )
+Tracker: Did you see section  3817 ?
+Runner:   No! ( 1877 )
+Tracker: Did you see section  3984 ?
+Runner:   No! ( 1877 )
+Runner:   No! ( 2217 )
+4  of  20  completed
+Tracker: Prompt me 'Yes' when you see section  3984 .( 0.663342400408 5.0 540.080253025 )
+Tracker: Did you see section  3984 ?( 0.663342400408 5.0 541.080253025 )
+Tracker: Did you see section  3816 ?
+Runner:   No! ( 2217 )
+Tracker: Did you see section  3817 ?
+Runner:   No! ( 1876 )
+Tracker: Did you see section  3817 ?
+Runner:   No! ( 1877 )
+Tracker: Did you see section  3984 ?
+Runner:   No! ( 1877 )
+Runner:   No! ( 2217 )
+<--- runner(e) '986' @'3817 after 542.730275239 time units' --->
+4  of  20  completed
+Tracker: Prompt me 'Yes' when you see section  3984 .( 0.663342400408 5.0 541.080253025 )
+Tracker: Did you see section  3984 ?( 0.663342400408 5.0 542.730275239 )
+Tracker: Did you see section  3816 ?
+Runner:   No! ( 2217 )
+Tracker: Did you see section  3817 ?
+Runner:   No! ( 1876 )
+Runner:  Yes! ( 1877 )
+0  of  17  completed
+Tracker: Prompt me 'Yes' when you see section  3817 .( 48.2501110701 5.0 542.730275239 )
+Tracker: Did you see section  3817 ?( 48.2501110701 5.0 553.221515239 )
+Tracker: Did you see section  3816 ?
+Runner:   No! ( 1878 )
+Tracker: Did you see section  3817 ?
+Runner:   No! ( 1876 )
+Tracker: Did you see section  3817 ?
+Runner:   No! ( 1877 )
+Tracker: Did you see section  3984 ?
+Runner:   No! ( 1877 )
+Runner:   No! ( 2217 )
+0  of  17  completed
+Tracker: Prompt me 'Yes' when you see section  3817 .( 48.2501110701 5.0 553.221515239 )
+Runner: Yes!
+<--- runner '1147' @'3984 after 555.004205933 time units' --->
+<--- runner '1148' @'3985 after 555.021845869 time units' --->
+ 1  of  17  completed
+Tracker: Prompt me 'Yes' when you see section  3984 .( 0.663342400408 5.0 555.004205933 )
+Runner: Yes!
+<--- runner '1149' @'3986 after 555.294556745 time units' --->
+0  of  17  completed
+Tracker: Prompt me 'Yes' when you see section  3817 .( 48.2501110701 5.0 555.294556745 )
+Runner: Yes!
+<--- runner '1150' @'3987 after 555.567267621 time units' --->
+<--- runner '1151' @'3988 after 555.839978497 time units' --->
 1  of  17  completed
-Tracker: Did you see section  3816 ?
+Tracker: Prompt me 'Yes' when you see section  3984 .( 0.663342400408 5.0 555.567267621 )
+Tracker: Did you see section  3984 ?( 0.663342400408 5.0 555.839978497 )
 Runner: Yes!
-2  of  17  completed
-Tracker: Did you see section  3984 ?
-Runner:   No!
-Tracker: Did you see section  3816 ?
-Runner:  Yes!
+<--- runner '1152' @'3989 after 556.112689373 time units' --->
+0  of  17  completed
+Tracker: Prompt me 'Yes' when you see section  3817 .( 48.2501110701 5.0 555.839978497 )
+Runner: Yes!
+<--- runner '1153' @'3990 after 556.38540025 time units' --->
+<--- runner '1154' @'3991 after 556.658111126 time units' --->
 1  of  17  completed
-Tracker: Did you see section  3816 ?
+Tracker: Prompt me 'Yes' when you see section  3984 .( 0.663342400408 5.0 556.38540025 )
+Tracker: Did you see section  3984 ?( 0.663342400408 5.0 556.658111126 )
 Runner: Yes!
-2  of  17  completed
-Tracker: Did you see section  3984 ?
+<--- runner '1156' @'3992 after 556.930822002 time units' --->
+0  of  17  completed
+Tracker: Prompt me 'Yes' when you see section  3817 .( 48.2501110701 5.0 556.658111126 )
 Runner: Yes!
-3  of  17  completed
-Tracker: Did you see section  3985 ?
+<--- runner '1157' @'3993 after 557.203532878 time units' --->
+1<--- runner '1158' @'3994 after 557.406960026 time units' --->
+  of  17  completed
+Tracker: Prompt me 'Yes' when you see section  3984 .( 0.663342400408 5.0 557.203532878 )
+Tracker: Did you see section  3984 ?( 0.663342400408 5.0 557.406960026 )
 Runner: Yes!
-4  of  17  completed
-Tracker: Did you see section  3986 ?
+0  of  17  completed
+Tracker: Prompt me 'Yes' when you see section  3817 .( 48.2501110701 5.0 557.406960026 )
 Runner: Yes!
-5  of  17  completed
-Tracker: Did you see section  3987 ?
+1  of  17  completed
+Tracker: Prompt me 'Yes' when you see section  3984 .( 0.663342400408 5.0 559.406960026 )
 Runner: Yes!
-6  of  17  completed
-Tracker: Did you see section  3988 ?
+0  of  17  completed
+Tracker: Prompt me 'Yes' when you see section  3817 .( 48.2501110701 5.0 560.406960026 )
 Runner: Yes!
-7  of  17  completed
-Tracker: Did you see section  3989 ?
+<--- runner '1159' @'3995 after 561.979769898 time units' --->
+1  of  17  completed
+Tracker: Prompt me 'Yes' when you see section  3984 .( 0.663342400408 5.0 561.979769898 )<--- runner '1160' @'3996 after 562.166147731 time units' --->
+
+Tracker: Did you see section  3984 ?( 0.663342400408 5.0 562.166147731 )
 Runner: Yes!
-8  of  17  completed
-Tracker: Did you see section  3990 ?
+<--- runner '1161' @'3997 after 562.415995955 time units' --->
+ 0  of  17  completed
+Tracker: Prompt me 'Yes' when you see section  3817 .( 48.2501110701 5.0 562.166147731 )
 Runner: Yes!
-9  of  17  completed
-Tracker: Did you see section  3991 ?
-Runner: Yes!
-10  of  17  completed
-Tracker: Did you see section  3992 ?
-Runner: Yes!
-11  of  17  completed
-Tracker: Did you see section  3993 ?
-Runner: Yes!
-12  of  17  completed
-Tracker: Did you see section  3994 ?
-Runner: Yes!
-13  of  17  completed
-Tracker: Did you see section  3995 ?
-Runner: Yes!
-14  of  17  completed
-Tracker: Did you see section  3996 ?
-Runner: Yes!
-15  of  17  completed
-Tracker: Did you see section  3997 ?
-Runner: Yes!
-16  of  17  completed
-Tracker: Did you see section  3998 ?
-Runner: Yes!
-17  of  17  completed
-Tracker: Did you see section  3999 ?
-Runner: Yes!
+<--- runner '1162' @'3998 after 562.66584418 time units' --->
+<--- runner '1163' @'3999 after 562.915692404 time units' --->
+ 1  of  17  completed
+Tracker: Prompt me 'Yes' when you see section  3984 .( 0.663342400408 5.0 562.66584418 )
+Tracker: Did you see section  3984 ?( 0.663342400408 5.0 562.915692404 )
+<--- runner(e) '1163' @'3999 after 562.915692404 time units' --->
+Runner: Reached Destination
+Client dead
