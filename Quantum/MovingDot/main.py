@@ -25,11 +25,12 @@ class user:
 	prevpt=None
 	path=None
 	speed=5.0
-	Pd=0.5
+	Pd=0.33
 	visited=[]
 	path=[]
 	pathind=0
 	alive=1
+
 	# just extra.. redundant information.. needed for debugging
 	visitedE=[]
 
@@ -163,7 +164,7 @@ class user:
 	# To follow a path
 	def run(self):
 		path=self.path
-		
+		print "<--- path ahead (glimpse)-- ", map(lambda x:x.splitId, self.path[:5 if 5<len(path) else len(path)-1])
 		# To tackle disorientation
 		newpath=None
 		#Take complement of u
@@ -223,10 +224,12 @@ lock=1
 
 class server:
 	time=0
+	mistakes=0
+	prompts=0
+	prfactor=0
+		
 	def __init__(self,graph):
 		self.g=graph
-		self.time=0
-
 
 	# Make sure to call ans.task_done after calling wait()		
 	def wait(self,t):
@@ -236,17 +239,22 @@ class server:
 			return reply
 		except Queue.Empty:	
 			return -1
-	
-	def checkcorrect(self,runner,ttime):
-		return runner.gettime()-ttime
-		
+			
+	def reorder(self,path,dist):
+		#~ return path
+		return sorted(path,key=lambda x:abs((x[0]-dist)/dist-self.prfactor))
+
+	def getprfact(self,x,dist):
+		return (x-dist)/dist
 
 	def track(self,runner,path):
 		prev=None
 		prevtime=0
-		tracktime=0
-		nextpath=[]
+		self.time=0
 		speed=5
+		bigIndex=0			#takes care of bombarding the prompts for errors at short lengthed sections
+		self.etime=reduce(lambda x,y:x+y,map(lambda x:x.length,path),0)/speed 
+		nextpath=[]
 		if sys_debug==1:
 			print "<--- Tracking runner..... --->"
 		while True:
@@ -257,7 +265,8 @@ class server:
 			i=0
 			factor=1.0
 			while i<len(path):
-				dist+=path[i].length
+				if bigIndex==0:			#non zero only when the edges in question differ greatly in size (ie. there is a short lengthed section)
+					dist+=path[i].length
 								
 				if len(g.edges[path[i].u])<=2 and i!=0:
 					i+=1
@@ -265,16 +274,18 @@ class server:
 
 				if i>=1:
 					nextpath=self.g.findPathEdges(self.g.edgeint(path[i-1],path[i]),path[i-1].length)
-				
+					self.reorder(nextpath,path[i-1].length)
+					
 				speed=self.estimateSpeed()
 				print i, " of ",len(path) ," completed"					
-				print "Tracker: Prompt me 'Yes' when you see section ",path[i].splitId,"." "(",dist,speed,tracktime,")"
-
-				tracktime=runner.gettime()			
+				self.prompt(" ".join(map(str,["Tracker: Prompt me 'Yes' when you see section ",path[i].splitId,"." "(",dist,speed,self.time,")"])))
+				
+				self.time=runner.gettime()			
 				
 				reply=0
-				while speed!=0 and tracktime<prevtime+float(dist)*factor/speed and reply!=1:
+				while speed!=0 and self.time<prevtime+(float(dist)*factor)/speed and reply!=1:
 					if runner.alive==0:
+						self.printStats()
 						print "Client dead"
 						return
 					
@@ -283,35 +294,36 @@ class server:
 						queue.put(path[i].edgeId)
 					reply=self.wait(SERVER_WAIT_TIME)
 					#~ print "Received ",reply, queue.qsize()									
-					tracktime=runner.gettime()
+					self.time=runner.gettime()
 					
 					# If the reply is negative, instruct to proceed and not wait for any questions
 					if reply==0:
 						ans.task_done()				# this is for calling self.wait()
 						queue.put("proceed")
-					#~ print tracktime
+					#~ print self.time
 					#~ with queue.mutex:
 						#~ queue.queue.clear()
 					continue
 
 				#~ print "qsize:",queue.qsize()
-				# Suppose self.wait times out (reply=-1) and in the next iteration condition (tracktime<prevtime+..) fails
+				# Suppose self.wait times out (reply=-1) and in the next iteration condition (self.time<prevtime+..) fails
 				# then queue top is an edgeId
-				# If self.wait doesn't time out and reply is 0 and in the next iteration (tracktime<prevtime) fails
+				# If self.wait doesn't time out and reply is 0 and in the next iteration (self.time<prevtime) fails
 				# then queue top is "proceed"	
 				if reply==-1:
 					queue.queue.clear()
 			
 				#Below case should not be else if. As reply==-1 case need to be done the same as the case of reply==0
 				if reply!=1:
-					print "Tracker: Did you see section ",path[i].splitId,"?" "(",dist,speed,tracktime,")"
+					self.prompt(" ".join(map(str,["Tracker: Did you see section ",path[i].splitId,"?" "(",dist,speed,self.time,")"])))
 
-					tracktime=runner.gettime()			
+					self.time=runner.gettime()			
 					queue.put(path[i].edgeId)
 					try:
 						reply=ans.get(True, 1)
 						
 					except Queue.Empty:
+						self.printStats()
 						print "Client dead"
 						return
 					
@@ -332,7 +344,8 @@ class server:
 						print "<--- runner off track! --->" 
 					while reply==0:
 						if j<len(nextpath):
-							print "Tracker: Did you see section ",nextpath[j][-1].splitId,"?"
+							self.prompt(" ".join(map(str,["Tracker: Did you see section ",nextpath[j][-1].splitId,"?" "(", \
+								dist,speed,self.time,"$",self.prfactor,self.getprfact(nextpath[j][0],dist)," )"])))
 							queue.put(nextpath[j][-1].edgeId)
 						else:
 							# Put none in the queue to signal that no path change is required as its the case, user's position is behind the tracker
@@ -341,57 +354,96 @@ class server:
 						try:
 							reply=ans.get(True, 1)
 						except Queue.Empty:
+							self.printStats()
 							print "Client dead"	
 							return
 						j+=1
 						
-					if reply==1 and j<=len(nextpath):	
+					if reply==1 and j<=len(nextpath):
+						self.mistakes+=1
+						bigIndex=0
+						self.recordPattern(" ".join(map(str,[nextpath[j-1][0],nextpath[j-1][1].splitId]))+" "+ " ".join(map(str, [speed, dist])))
 						path=self.g.djikstra(nextpath[j-1][-1].v,g.getNode(DEST))					
 						#~ print path,'\n',self.g.djikstra(nextpath[j-1][-1].v,g.getNode(DEST))					
 						#~ sfile.write(repr(path[i-1].splitId)+repr(map(lambda x:x.splitId, path)))
 						queue.put(path)
 						if sys_debug==1:
 							print "<--- tracker conveyed new path to the runner --->"
-						prevtime=tracktime
+						prevtime=self.time
 						break
 					
 					#all possible paths rejected.. fall back
 					if j>len(nextpath):
-						print "reply was ",reply
+						print "reply,factor: ",reply, factor
 						queue.put(None)
 						#~ ans.task_done()
 						#we would come back to same track segment but assume 1-factor fraction is covered												
 						dist-=path[i].length
-						factor=0.5
-						prevtime=tracktime
+						factor=factor*0.5
+						
+						if factor<0.3:
+							bigIndex=bigIndex+1 if bigIndex+1<len(nextpath) else bigIndex
+							newWaitDist=(sorted(nextpath,key=lambda x:x[0])[bigIndex])[0]
+							print "wait factor increases: ",path[i].length, " to ",newWaitDist
+							dist+=newWaitDist
+							factor=1.0
+						
+						prevtime=self.time
 						continue
 						#~ assert(False)
 				
 				if reply==1:
 					factor=1.0
-					speed=dist/(tracktime-prevtime)
+					bigIndex=0
+					speed=dist/(self.time-prevtime)
 					if sys_debug==1:
-						print "<--- runner on track! with speed @", speed, "--->", "(",dist, tracktime,prevtime,")"
-					prevtime=tracktime
+						print "<--- runner on track! with speed @", speed, "--->", "(",dist, self.time,prevtime,")"
+					prevtime=self.time
 				
 				ans.task_done()
 				dist=0
 				i+=1
 
 			#~ print "at the end: ",i+1	
-			if i==len(path)-1:
+			if i==len(path):
+				self.printStats()
 				print "End tracking"
 				return				
-	
+				
+						
 	def updatespeed(self,t1,t2,d):
 		return d/(t1-t2)		
 	
 	def initSpeed(self):
 		return 5.0
+	
+	def prompt(self,string):
+		print string
+		self.prompts+=1
 
 	def estimateSpeed(self):
 		return 5.0
-		
+
+	def checkcorrect(self,runner,ttime):
+		return runner.gettime()-ttime
+				
+	def printStats(self):
+		f=open("results.txt","a")
+		f.write("//----------------------------------------/\n")
+		f.write("Tracking Status\n")
+		f.write("Actual Time: "+str(self.time)+"\n")
+		f.write("Expected Time: "+str(self.etime)+"\n")
+		f.write("Mistakes: "+str(self.mistakes)+"\n")
+		f.write("Prompts: "+str(self.prompts)+"\n")
+		f.write("//----------------------------------------/\n\n")
+		f.close()		
+
+	def recordPattern(self,string):
+		f=open("patterns.txt","a")
+		f.write(string+"\n")
+		f.close()	
+		# prompt factor = (travelled dist - original dist) / original dist
+		self.prfactor=abs(float(string.split()[0])-float(string.split()[-1]))/float(string.split()[-1])
 
 	def qtrack(self,runner,path):
 		prev=None
@@ -402,7 +454,7 @@ class server:
 			self.wait()
 			prev=pos
 			pos=runner.position()
-			tracktime=prevtime=runner.gettime()	
+			self.time=prevtime=runner.gettime()	
 		
 		response1=self.time
 		dist = self.g.linearDistance(prev,pos,path)
@@ -424,11 +476,11 @@ class server:
 			landmarks[sections[row.dump_id]-1]=row.ref_id
 		
 		#~ for i in range(len(path)):
-			#~ tracktime+=path[i].length/speed
-			#~ while self.checkcorrect(runner,tracktime)<0:
+			#~ self.time+=path[i].length/speed
+			#~ while self.checkcorrect(runner,self.time)<0:
 				#~ self.wait()
-			#~ tracktime=runner.gettime()
-			#~ self.updatespeed(tracktime,prevtime,path[i].length)		
+			#~ self.time=runner.gettime()
+			#~ self.updatespeed(self.time,prevtime,path[i].length)		
 			#~ prevtime=runner.gettime()
 			#~ 
 

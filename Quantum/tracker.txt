@@ -446,7 +446,10 @@ On the pattern on prompts:
 4. If the user says yes to any of the question, mark it as the now source and convey new path to the destination.	
 5. If all questions are negatively answered, client hasnt yet crossed the expected checkpoint. Wait for the client and go to step 1
 	but reduce the timer firing time by some factor.
-	
+
+---------------------------------------------------------------------------------------------------------
+Collecting results (avoiding large programs)	
+	for i in {1..10}; do timeout 500 python main.py; done
 
 
 

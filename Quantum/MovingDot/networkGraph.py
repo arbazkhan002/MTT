@@ -208,15 +208,25 @@ class networkGraph(graph):
 		return pathfinder(s,dist,visited)
 		
 	# Same as findPaths but returns edges instead						
-	def findPathEdges(self,s,dist):
+	def findPathEdges(self,s,distance):
 		sfile=open("sfile.txt","a")
+		ddict={}   #stores reverse distances wrt distance i.e if ddict[x]=y then, the end of x is (distance-y) units from s
+		
+		
+		# returns a set of all the singleton list each containing edgeIds encountered on the path
+		# e.g. ans= [[232],[132],[111]]
 		def makeset(ans):
 			toret=[]
 			for path in ans:
 				for edge in path:
 					if [edge] not in toret:
 						toret.append([edge])
-			return toret			
+			return toret
+			
+		# makes a pair of true_dist,edge for each edge 	
+		def addDist(ans,dist):
+			for i in range(len(ans)):
+				ans[i].insert(0,distance-ddict[ans[i][-1]])				
 		
 		def pathfinder(s,dist,visited):
 			if dist<=0:
@@ -231,6 +241,11 @@ class networkGraph(graph):
 					flag=True		#atleast one non visited nbr		
 					rest=pathfinder(v,dist-edgeuv.length,visited) 	#'rest' is a list of paths
 					rest=map(lambda x : x+[edgeuv], rest)
+					if edgeuv not in ddict:
+						ddict[edgeuv]=dist-edgeuv.length
+					else:
+						if ddict[edgeuv]<dist-edgeuv.length:
+							ddict[edgeuv]=dist-edgeuv.length	
 					paths+=rest
 				sfile.write("\n")
 			del visited[s]		
@@ -242,11 +257,12 @@ class networkGraph(graph):
 		sfile.write("new path\n")
 		visited={}
 		
-		ans=pathfinder(s,dist,visited)					
+		ans=pathfinder(s,distance,visited)					
 		sfile.close()
-		#~ print ans
+		print distance, map(lambda x:x[-1].splitId,ans)
 		ans=makeset(ans)
-		#~ print ans
+		addDist(ans,distance)
+		print map(lambda x:[x[0],x[1].splitId],ans)
 		return ans
 	
 
@@ -319,12 +335,42 @@ class networkGraph(graph):
 				vwLength = D[v] + edgew.length
 				if w in D:
 					if vwLength < D[w]:
-						raise ValueError, \
-	  "Dijkstra: found better path to already-final vertex"
+						raise ValueError, "Dijkstra: found better path to already-final vertex"
 				elif w not in Q or vwLength < Q[w]:
 					Q[w] = vwLength
 					P[w] = [v, edgew]
 		return Path			
+		
+				
+	#~ Returns the shortest distances from source to all other vertices 
+	def djikstraExtended(self,s,t):
+		D = {}	# dictionary of final distances
+		P = {}	# dictionary of predecessors
+		Q = priorityDictionary()   # est.dist. of non-final vert.
+		Q[s] = 0
+		Path = []
+		
+		for v in Q:
+			D[v] = Q[v]
+			if v == t:
+				while 1:
+					if t == s: break
+					Path.append(P[t][1])
+					t = P[t][0]
+				Path.reverse()
+				return Path,Q
+				
+			
+			for edgew in self.adj(v):
+				w=edgew.v
+				vwLength = D[v] + edgew.length
+				if w in D:
+					if vwLength < D[w]:
+						raise ValueError, "Dijkstra: found better path to already-final vertex"
+				elif w not in Q or vwLength < Q[w]:
+					Q[w] = vwLength
+					P[w] = [v, edgew]
+		return Path,Q			
 		
 				
 ''' 
