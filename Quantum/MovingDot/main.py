@@ -6,6 +6,7 @@ import pickle
 import random
 import logger
 import Queue
+import pdb
 #~ SRC='0101000020847F0000704DF34E47D0194118485024FD5F4641'
 #~ DEST='0101000020847F0000B0627FD91ED019411851DABB05604641'
 SRC='0101000020847F0000704DF34E47D0194118485024FD5F4641'
@@ -18,6 +19,8 @@ rfile=open("rfile.txt","w")
 sfile=open("sfile.txt","w")
 conn = connect("dbname=demo user=postgres host=localhost password=indian")
 sys_debug=1
+debugger=0
+
 
 class user:
 	time=0
@@ -56,7 +59,8 @@ class user:
 					#~ pass
 				#~ continue	
 
-			self.listen()	
+			if self.listen()==1:
+				return	
 
 		if int(edgewt/float(self.speed))==0:
 			self.listen()
@@ -86,15 +90,15 @@ class user:
 				if sect=="proceed":
 					#~ print sect, "Proceeded"		
 					queue.task_done()	
-					return
+					return 0
 
 				else:
-					if sect!=None:
+					if sect!=None:			# print "Yes" for the case when sect in self.visited
+						print "Runner: ","Yes!","(",sect,")"
 						if sys_debug==1:
 							print "#######################################",map(lambda x:x.splitId, self.visitedE)
 							print "#######################################",self.visited,sect					
-						
-						print "Runner: ","Yes!","(",sect,")"
+												
 					ans.put(1)
 					queue.task_done()
 					path=queue.get(True)
@@ -102,22 +106,27 @@ class user:
 						self.path=path 
 						self.pathind=-1 #(to null the increment after self.makemove)
 						self.visited=[]	# Old visited edgeIds are no longer required. They pose problems in answers to queries for reorientation.
+						queue.task_done()
+						return 1
 					queue.task_done()
-					return
+					return 0
+						
 			
 			if sect in self.visited:
 				if sys_debug==1:
 					print "#######################################",map(lambda x:x.splitId, self.visitedE)
 					print "#######################################",self.visited,sect
-				print "Runner: Yes!"
+				print "Runner: Yes!","(",sect,")"
 				ans.put(1)
 			
 			queue.task_done()
+			return 0
 				
 		except Queue.Empty:
 			if sys_debug==1:
 				print "No questions incoming"
-			pass				
+			return 0
+							
 
 	
 	def position(self):
@@ -164,7 +173,9 @@ class user:
 	# To follow a path
 	def run(self):
 		path=self.path
-		print "<--- path ahead (glimpse)-- ", map(lambda x:x.splitId, self.path[:5 if 5<len(path) else len(path)-1])
+		if debugger==1:	
+			pdb.set_trace()
+		print "<--- path ahead (glimpse)-- ", map(lambda x:x.splitId, self.path[:10 if 10<len(path) else len(path)-1])
 		# To tackle disorientation
 		newpath=None
 		#Take complement of u
@@ -250,26 +261,36 @@ class server:
 	def track(self,runner,path):
 		prev=None
 		prevtime=0
+		checkpttime=0		#time of visit of last checkpoint
 		self.time=0
 		speed=5
-		bigIndex=0			#takes care of bombarding the prompts for errors at short lengthed sections
 		self.etime=reduce(lambda x,y:x+y,map(lambda x:x.length,path),0)/speed 
-		nextpath=[]
 		if sys_debug==1:
 			print "<--- Tracking runner..... --->"
 		while True:
-			dist=0
-			speed=self.initSpeed()
+			if debugger==1:
+				pdb.set_trace()
 			if sys_debug==1:
 				print "Reinitializing everythin"
+			dist=0
+			speed=self.initSpeed()
 			i=0
 			factor=1.0
+			filteredSect=[]			#takes care of bombarding the prompts for errors at short lengthed sections
+			nextpath=[]			
+			newWaitDist=0			#for disorientation			
+			crossedIntersection=0			#reset the variable			
+			askedIntersection=0			#do not ask the intersection crossed(?) question again			
+			flagIntersection=0			#do not set crossedIntersection more than once
 			while i<len(path):
-				if bigIndex==0:			#non zero only when the edges in question differ greatly in size (ie. there is a short lengthed section)
+				if not filteredSect:			#non zero only when the edges in question differ greatly in size (ie. there is a short lengthed section)
 					dist+=path[i].length
+					filteredSect.append(path[i].sectId)
+					newWaitDist=0			#initialized newWaitDist
 								
 				if len(g.edges[path[i].u])<=2 and i!=0:
 					i+=1
+					filteredSect=[]
 					continue	
 
 				if i>=1:
@@ -277,8 +298,8 @@ class server:
 					self.reorder(nextpath,path[i-1].length)
 					
 				speed=self.estimateSpeed()
-				print i, " of ",len(path) ," completed"					
-				self.prompt(" ".join(map(str,["Tracker: Prompt me 'Yes' when you see section ",path[i].splitId,"." "(",dist,speed,self.time,")"])))
+				print i, " of ",len(path) ," completed",filteredSect,path[i].length					
+				self.prompt(" ".join(map(str,["Tracker: Prompt me 'Yes' when you see section ",path[i].splitId,"." "(",dist,speed,self.time,prevtime,")"])))
 				
 				self.time=runner.gettime()			
 				
@@ -315,7 +336,7 @@ class server:
 			
 				#Below case should not be else if. As reply==-1 case need to be done the same as the case of reply==0
 				if reply!=1:
-					self.prompt(" ".join(map(str,["Tracker: Did you see section ",path[i].splitId,"?" "(",dist,speed,self.time,")"])))
+					self.prompt(" ".join(map(str,["Tracker: Did you see section ",path[i].splitId,"?" "(",dist,speed,self.time,prevtime,")"])))
 
 					self.time=runner.gettime()			
 					queue.put(path[i].edgeId)
@@ -347,12 +368,29 @@ class server:
 							self.prompt(" ".join(map(str,["Tracker: Did you see section ",nextpath[j][-1].splitId,"?" "(", \
 								dist,speed,self.time,"$",self.prfactor,self.getprfact(nextpath[j][0],dist)," )"])))
 							queue.put(nextpath[j][-1].edgeId)
-						else:
-							# Put none in the queue to signal that no path change is required as its the case, user's position is behind the tracker
-							queue.put(None)
+						
+						else: 	# all possible positions in the forward motion have been rejected
+							
+							if (i>0) and askedIntersection==0:
+								self.prompt(" ".join(map(str,["Tracker: Did you see section ",path[i-1].splitId,"?" "(",dist,speed,self.time,")"])))					
+								queue.put(path[i-1].edgeId)
+								askedIntersection=1
+								flagIntersection=0
+
+								
+							else:		#when intersection is already asked for
+								# Put none in the queue to signal that no path change is required as its the case, user's position is behind the tracker
+								# the client replies 1 to a None signal
+								queue.put(None)
+								
 						ans.task_done()
 						try:
 							reply=ans.get(True, 1)
+											
+							if askedIntersection==1 and flagIntersection==0:
+								crossedIntersection=reply
+								flagIntersection=1
+																
 						except Queue.Empty:
 							self.printStats()
 							print "Client dead"	
@@ -361,7 +399,7 @@ class server:
 						
 					if reply==1 and j<=len(nextpath):
 						self.mistakes+=1
-						bigIndex=0
+						filteredSect=[]
 						self.recordPattern(" ".join(map(str,[nextpath[j-1][0],nextpath[j-1][1].splitId]))+" "+ " ".join(map(str, [speed, dist])))
 						path=self.g.djikstra(nextpath[j-1][-1].v,g.getNode(DEST))					
 						#~ print path,'\n',self.g.djikstra(nextpath[j-1][-1].v,g.getNode(DEST))					
@@ -370,23 +408,42 @@ class server:
 						if sys_debug==1:
 							print "<--- tracker conveyed new path to the runner --->"
 						prevtime=self.time
+						checkpttime=self.time
+						i=0		#so that control doesn't reach to tracking end after breaking
 						break
 					
-					#all possible paths rejected.. fall back
+					#all possible paths rejected.. intersection may have been crossed
+					
 					if j>len(nextpath):
 						print "reply,factor: ",reply, factor
+						# Put a None to indicate no change in path
 						queue.put(None)
 						#~ ans.task_done()
 						#we would come back to same track segment but assume 1-factor fraction is covered												
-						dist-=path[i].length
+						if not filteredSect:
+							dist-=path[i].length
 						factor=factor*0.5
+
+						#if intersection is crossed, wait on the new distance						
+						if len(nextpath)>0 and crossedIntersection==1:
+							#~ currentsectEdges=filter(lambda x:x.sectId in filteredSect,nextpath)
+							restEdges=filter(lambda x:x[1].sectId not in filteredSect,nextpath)
+							# on the restEdges sorted by distance from the last checkpoint, pick up the distance of first index i.e. closest edge distance
+							if not restEdges:	#all edges emanating from the cross section have been searched for	
+								pass
+							else:	
+								closestTuple=(sorted(restEdges,key=lambda x:x[0])[0])
+								lastWaitDist=newWaitDist
+								newWaitDist=closestTuple[0]
+								filteredSect.append(closestTuple[1].sectId)						
+								print "wait factor increases: ",path[i].length, " to ",newWaitDist
+								dist-=lastWaitDist								
+								dist+=newWaitDist
+								factor=1.0													
 						
-						if factor<0.3:
-							bigIndex=bigIndex+1 if bigIndex+1<len(nextpath) else bigIndex
-							newWaitDist=(sorted(nextpath,key=lambda x:x[0])[bigIndex])[0]
-							print "wait factor increases: ",path[i].length, " to ",newWaitDist
-							dist+=newWaitDist
-							factor=1.0
+						#if intersection is not crossed, wait on the old distance but with a reduced factor	
+						elif crossedIntersection==0:
+							askedIntersection=0		#need to ask again next time
 						
 						prevtime=self.time
 						continue
@@ -394,11 +451,15 @@ class server:
 				
 				if reply==1:
 					factor=1.0
-					bigIndex=0
-					speed=dist/(self.time-prevtime)
+					filteredSect=[]
+					crossedIntersection=0			#reset the variable
+					askedIntersection=0			#reset the variable
+					flagIntersection=0			#reset the variable
+					speed=dist/(self.time-checkpttime)
 					if sys_debug==1:
 						print "<--- runner on track! with speed @", speed, "--->", "(",dist, self.time,prevtime,")"
 					prevtime=self.time
+					checkpttime=self.time
 				
 				ans.task_done()
 				dist=0

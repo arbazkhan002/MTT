@@ -8,7 +8,8 @@ class edge:
 	v=None
 	length=None
 	edgeId=None				#EdgeIDs enumerated on decomposition of an atomic edge
-	splitId=None			#Actual SplitID (atomic edgeID - no decision points inside it)
+	splitId=None			#dumpID (atomic edgeID - no decision points inside it)
+	sectId=None				#Actual SplitID (atomic edgeID - no decision points inside it)
 	angle=None 				#absolute angle
 
 	def __init__(self,u_=None, v_=None, length_=None, edgeId_=None):
@@ -19,6 +20,9 @@ class edge:
 
 	def	setId(self,splitId_):
 		self.splitId=splitId_
+		
+	def	setsectId(self,sId_):
+		self.sectId=sId_
 	
 	def setangle(self,angle_):
 		self.angle=angle_
