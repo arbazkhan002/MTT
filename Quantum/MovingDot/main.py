@@ -14,6 +14,9 @@ DEST='0101000020847F00008CDD071EC5DF1941C8D53D59AA5F4641'
 CLIENT_WAIT_TIME=0.05
 SERVER_WAIT_TIME=0.005
 TOPRINT=1		#whether to log(print the results to result file)
+THRESHHOLD=1.0	#This is the factor threshhold, which indicates how many iterations do we make before, we instead of probing 
+				# ask for interrupts on whether the intersection is crossed or not 
+				#For example, if threshhold is 1, only once we ask the question did you cross the intersection? thereafter we wait for him endlessly
 LOG=logger.logger("logfile.txt")
 rfile=open("rfile.txt","w")
 sfile=open("sfile.txt","w")
@@ -40,6 +43,9 @@ class user:
 	def __init__(self,graph):
 		self.g=graph
 		self.time=0
+
+	def react(self):
+		pass
 
 	def makemove(self,nextpt,edgewt):
 		global POS
@@ -75,50 +81,53 @@ class user:
 		try:
 			sect = queue.get(True,SERVER_WAIT_TIME)
 			#~ self.visited.sort()
-
+			if sect=="reactive":
+				self.react()
+			
 			#check if sect is in visited
-			if sect not in self.visited:
-				#~ rfile.write(repr((sect, self.visited)))
-				while sect not in self.visited and sect!=None and sect!="proceed":
-					ans.put(0)
-					queue.task_done()
-					sectp=sect
-					sect=queue.get(True)		
-					if sect!="proceed":	
-						print "Runner: "," No!" ,"(",sectp,")"
-
-				if sect=="proceed":
-					#~ print sect, "Proceeded"		
-					queue.task_done()	
-					return 0
-
-				else:
-					if sect!=None:			# print "Yes" for the case when sect in self.visited
-						print "Runner: ","Yes!","(",sect,")"
-						if sys_debug==1:
-							print "#######################################",map(lambda x:x.splitId, self.visitedE)
-							print "#######################################",self.visited,sect					
-												
-					ans.put(1)
-					queue.task_done()
-					path=queue.get(True)
-					if path is not None:
-						self.path=path 
-						self.pathind=-1 #(to null the increment after self.makemove)
-						self.visited=[]	# Old visited edgeIds are no longer required. They pose problems in answers to queries for reorientation.
+			else:
+				if sect not in self.visited:
+					#~ rfile.write(repr((sect, self.visited)))
+					while sect not in self.visited and sect!=None and sect!="proceed":
+						ans.put(0)
 						queue.task_done()
-						return 1
-					queue.task_done()
-					return 0
-						
-			
-			if sect in self.visited:
-				if sys_debug==1:
-					print "#######################################",map(lambda x:x.splitId, self.visitedE)
-					print "#######################################",self.visited,sect
-				print "Runner: Yes!","(",sect,")"
-				ans.put(1)
-			
+						sectp=sect
+						sect=queue.get(True)		
+						if sect!="proceed":	
+							print "Runner: "," No!" ,"(",sectp,")"
+
+					if sect=="proceed":
+						#~ print sect, "Proceeded"		
+						queue.task_done()	
+						return 0
+
+					else:
+						if sect!=None:			# print "Yes" for the case when sect in self.visited
+							print "Runner: ","Yes!","(",sect,")"
+							if sys_debug==1:
+								print "#######################################",map(lambda x:x.splitId, self.visitedE)
+								print "#######################################",self.visited,sect					
+													
+						ans.put(1)
+						queue.task_done()
+						path=queue.get(True)
+						if path is not None:
+							self.path=path 
+							self.pathind=-1 #(to null the increment after self.makemove)
+							self.visited=[]	# Old visited edgeIds are no longer required. They pose problems in answers to queries for reorientation.
+							queue.task_done()
+							return 1
+						queue.task_done()
+						return 0
+							
+				
+				if sect in self.visited:
+					if sys_debug==1:
+						print "#######################################",map(lambda x:x.splitId, self.visitedE)
+						print "#######################################",self.visited,sect
+					print "Runner: Yes!","(",sect,")"
+					ans.put(1)
+				
 			queue.task_done()
 			return 0
 				
@@ -304,7 +313,7 @@ class server:
 				self.time=runner.gettime()			
 				
 				reply=0
-				while speed!=0 and self.time<prevtime+(float(dist)*factor)/speed and reply!=1:
+				while speed!=0 and (self.time<prevtime+(float(dist)*factor)/speed or factor<THRESHHOLD) and reply!=1:
 					if runner.alive==0:
 						self.printStats()
 						print "Client dead"
@@ -364,13 +373,12 @@ class server:
 					if sys_debug==1:
 						print "<--- runner off track! --->" 
 					while reply==0:
-						if j<len(nextpath):
+						if crossedIntersection==1 and j<len(nextpath):
 							self.prompt(" ".join(map(str,["Tracker: Did you see section ",nextpath[j][-1].splitId,"?" "(", \
 								dist,speed,self.time,"$",self.prfactor,self.getprfact(nextpath[j][0],dist)," )"])))
 							queue.put(nextpath[j][-1].edgeId)
 						
 						else: 	# all possible positions in the forward motion have been rejected
-							
 							if (i>0) and askedIntersection==0:
 								self.prompt(" ".join(map(str,["Tracker: Did you see section ",path[i-1].splitId,"?" "(",dist,speed,self.time,")"])))					
 								queue.put(path[i-1].edgeId)
@@ -387,19 +395,23 @@ class server:
 						try:
 							reply=ans.get(True, 1)
 							
-							
 							#if you have asked about the intersection and expecting a reply				
 							if askedIntersection==1 and flagIntersection==0:
 								crossedIntersection=reply
 								flagIntersection=1
+								continue
 																
 						except Queue.Empty:
 							self.printStats()
 							print "Client dead"	
 							return
+													
 						j+=1
+						if reply==1:
+							break
 						
-					if reply==1 and j<=len(nextpath):
+					#if intersection was crossed. In deterministic case, reply would always be 1	
+					if j<=len(nextpath) and crossedIntersection==1:
 						self.mistakes+=1
 						filteredSect=[]
 						self.recordPattern(" ".join(map(str,[nextpath[j-1][0],nextpath[j-1][1].splitId]))+" "+ " ".join(map(str, [speed, dist])))
@@ -415,8 +427,8 @@ class server:
 						break
 					
 					#all possible paths rejected.. intersection may have been crossed
-					# reply is 1 here due to a None signal on the queue or intersection has been crossed
-					if j>len(nextpath):
+					# reply can be 1 here due to a None signal on the queue 
+					else:
 						print "reply,factor: ",reply, factor
 						
 						#in the case wherer intersection was crossed, None needs to be put
@@ -435,7 +447,10 @@ class server:
 							restEdges=filter(lambda x:x[1].sectId not in filteredSect,nextpath)
 							# on the restEdges sorted by distance from the last checkpoint, pick up the distance of first index i.e. closest edge distance
 							if not restEdges:	#all edges emanating from the cross section have been searched for	
+								#-------------------------------------------------------------------------------#
+								#Here, u enter the REACTIVE PHASE								
 								pass
+								#-------------------------------------------------------------------------------#
 							else:	
 								closestTuple=(sorted(restEdges,key=lambda x:x[0])[0])
 								lastWaitDist=newWaitDist

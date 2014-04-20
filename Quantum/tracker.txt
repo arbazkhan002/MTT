@@ -452,4 +452,6 @@ Collecting results (avoiding large programs)
 	for i in {1..10}; do timeout 500 python main.py; done
 
 
-
+---------------------------------------------------------------------------------------------------------
+Improvements:
+On a negative reply, first ask if you crossed the intersection, and then put on all the questions.

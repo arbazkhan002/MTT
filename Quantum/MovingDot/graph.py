@@ -8,7 +8,7 @@ class edge:
 	v=None
 	length=None
 	edgeId=None				#EdgeIDs enumerated on decomposition of an atomic edge
-	splitId=None			#dumpID (atomic edgeID - no decision points inside it)
+	splitId=None			#dumpID (line between every two points on the map - no decision points inside it)
 	sectId=None				#Actual SplitID (atomic edgeID - no decision points inside it)
 	angle=None 				#absolute angle
 
