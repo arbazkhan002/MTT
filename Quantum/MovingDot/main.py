@@ -13,7 +13,7 @@ SRC='0101000020847F0000704DF34E47D0194118485024FD5F4641'
 DEST='0101000020847F00008CDD071EC5DF1941C8D53D59AA5F4641'
 CLIENT_WAIT_TIME=0.05
 SERVER_WAIT_TIME=0.005
-
+TOPRINT=1		#whether to log(print the results to result file)
 LOG=logger.logger("logfile.txt")
 rfile=open("rfile.txt","w")
 sfile=open("sfile.txt","w")
@@ -386,7 +386,9 @@ class server:
 						ans.task_done()
 						try:
 							reply=ans.get(True, 1)
-											
+							
+							
+							#if you have asked about the intersection and expecting a reply				
 							if askedIntersection==1 and flagIntersection==0:
 								crossedIntersection=reply
 								flagIntersection=1
@@ -413,18 +415,21 @@ class server:
 						break
 					
 					#all possible paths rejected.. intersection may have been crossed
-					
+					# reply is 1 here due to a None signal on the queue or intersection has been crossed
 					if j>len(nextpath):
 						print "reply,factor: ",reply, factor
-						# Put a None to indicate no change in path
+						
+						#in the case wherer intersection was crossed, None needs to be put
+						#Put a None to indicate no change in path						
 						queue.put(None)
+						
 						#~ ans.task_done()
 						#we would come back to same track segment but assume 1-factor fraction is covered												
 						if not filteredSect:
 							dist-=path[i].length
 						factor=factor*0.5
 
-						#if intersection is crossed, wait on the new distance						
+						#if intersection is crossed, wait on the new distance(longer)						
 						if len(nextpath)>0 and crossedIntersection==1:
 							#~ currentsectEdges=filter(lambda x:x.sectId in filteredSect,nextpath)
 							restEdges=filter(lambda x:x[1].sectId not in filteredSect,nextpath)
@@ -489,15 +494,16 @@ class server:
 		return runner.gettime()-ttime
 				
 	def printStats(self):
-		f=open("results.txt","a")
-		f.write("//----------------------------------------/\n")
-		f.write("Tracking Status\n")
-		f.write("Actual Time: "+str(self.time)+"\n")
-		f.write("Expected Time: "+str(self.etime)+"\n")
-		f.write("Mistakes: "+str(self.mistakes)+"\n")
-		f.write("Prompts: "+str(self.prompts)+"\n")
-		f.write("//----------------------------------------/\n\n")
-		f.close()		
+		if TOPRINT==1:
+			f=open("results.txt","a")
+			f.write("//----------------------------------------/\n")
+			f.write("Tracking Status\n")
+			f.write("Actual Time: "+str(self.time)+"\n")
+			f.write("Expected Time: "+str(self.etime)+"\n")
+			f.write("Mistakes: "+str(self.mistakes)+"\n")
+			f.write("Prompts: "+str(self.prompts)+"\n")
+			f.write("//----------------------------------------/\n\n")
+			f.close()		
 
 	def recordPattern(self,string):
 		f=open("patterns.txt","a")
