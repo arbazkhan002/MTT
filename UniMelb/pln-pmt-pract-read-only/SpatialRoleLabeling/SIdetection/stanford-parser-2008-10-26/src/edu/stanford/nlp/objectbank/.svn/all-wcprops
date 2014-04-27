@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/objectbank
+END
+IteratorFromReaderFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/objectbank/IteratorFromReaderFactory.java
+END
+IdentityFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/objectbank/IdentityFunction.java
+END
+LineIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/objectbank/LineIterator.java
+END
+TokenizerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/objectbank/TokenizerFactory.java
+END
+ObjectBank.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/objectbank/ObjectBank.java
+END
+ReaderIteratorFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/objectbank/ReaderIteratorFactory.java
+END
+XMLBeginEndIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/objectbank/XMLBeginEndIterator.java
+END

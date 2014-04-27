@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}, ]
+\PY{p}{(}\PY{n+nf}{smt:define-fun} \PY{n+nv}{foo} \PY{p}{((}\PY{n+nf}{x} \PY{n+nv}{Int}\PY{p}{)} \PY{p}{(}\PY{n+nf}{y} \PY{n+nv}{Bool}\PY{p}{))} \PY{n+nv}{Int}
+                    \PY{p}{(}\PY{n+nf}{+/s} \PY{n+nv}{x} \PY{p}{(}\PY{n+nf}{ite/s} \PY{n+nv}{y} \PY{l+m+mi}{20} \PY{l+m+mi}{0}\PY{p}{)))}
+\end{Verbatim}

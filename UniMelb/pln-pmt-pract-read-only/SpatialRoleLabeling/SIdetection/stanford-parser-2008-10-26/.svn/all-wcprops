@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26
+END
+ParserDemo.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/ParserDemo.java
+END
+wsjFactored.ser.gz
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/wsjFactored.ser.gz
+END
+cedict_readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/cedict_readme.txt
+END
+testsent.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/testsent.txt
+END
+germanFactored.ser.gz
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/germanFactored.ser.gz
+END
+chinese-onesent-utf8.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/chinese-onesent-utf8.txt
+END
+arabic-onesent-buck.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/arabic-onesent-buck.txt
+END
+lexparser-gui.bat
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/lexparser-gui.bat
+END
+lexparser-ar-rosetta.sh
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/lexparser-ar-rosetta.sh
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/build.xml
+END
+arabicFactored.ser.gz
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/arabicFactored.ser.gz
+END
+arabic-onesent-ibm-utf8.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/arabic-onesent-ibm-utf8.txt
+END
+wsjPCFG-noTagSplit.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/wsjPCFG-noTagSplit.txt
+END
+lexparser-gui.csh
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/lexparser-gui.csh
+END
+lexparser-gui.command
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/lexparser-gui.command
+END
+pos-sentences.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/pos-sentences.txt
+END
+ParserDemo.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/ParserDemo.class
+END
+englishFactored.ser.gz
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/englishFactored.ser.gz
+END
+lexparser.bat
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/lexparser.bat
+END
+wsjPCFG.ser.gz
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/wsjPCFG.ser.gz
+END
+xinhuaFactored.ser.gz
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/xinhuaFactored.ser.gz
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/Makefile
+END
+lexparser.csh
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/lexparser.csh
+END
+README_dependencies.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/README_dependencies.txt
+END
+wsjPCFG.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/wsjPCFG.txt
+END
+lexparser-zh-gb18030.csh
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/lexparser-zh-gb18030.csh
+END
+lexparser-zh-utf8.csh
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/lexparser-zh-utf8.csh
+END
+stanford-parser.jar
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/stanford-parser.jar
+END
+chinese-onesent-gb18030.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/chinese-onesent-gb18030.txt
+END
+dependencies_manual.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/dependencies_manual.pdf
+END
+xinhuaFactoredSegmenting.ser.gz
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/xinhuaFactoredSegmenting.ser.gz
+END
+arabic-onesent-utf8.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/arabic-onesent-utf8.txt
+END
+cedict_ts.u8
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/cedict_ts.u8
+END
+chineseFactored.ser.gz
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/chineseFactored.ser.gz
+END
+german-onesent.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/german-onesent.txt
+END
+englishPCFG.ser.gz
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/englishPCFG.ser.gz
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/LICENSE.txt
+END
+xinhuaPCFG.ser.gz
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/xinhuaPCFG.ser.gz
+END
+makeSerialized.csh
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/makeSerialized.csh
+END
+chinese-onesent-unseg-gb18030.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/chinese-onesent-unseg-gb18030.txt
+END
+chinese-onesent-unseg-utf8.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/chinese-onesent-unseg-utf8.txt
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/README.txt
+END
+atbP3FactoredBuckwalter.ser.gz
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/atbP3FactoredBuckwalter.ser.gz
+END
+stanford-parser-2008-10-26.jar
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/stanford-parser-2008-10-26.jar
+END
+english-onesent.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/english-onesent.txt
+END

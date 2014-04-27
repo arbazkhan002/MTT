@@ -1,0 +1,10 @@
+ [NP There_EX ] [VP are_VBP ] [NP several_JJ entrances_NNS ] [NP that_WDT ] [VP can_MD access_VB ] [NP the_DT main_JJ campus_NN ] [PP of_IN ] [NP Melbourne_NNP Uni_NNP ] ._.
+ [NP The_DT easiest_JJS way_NN ] [VP is_VBZ ] [VP to_TO jump_VB ] [PP on_IN ] [NP the_DT tram_NN ] [PP on_IN ] [NP Swanstone_NNP Street_NNP ] and_CC then_RB [VP get_VB ] [PRT off_RP ] [PP at_IN ] [NP the_DT terminal_NN station_NN ] ._.
+ [NP The_DT Main_NNP campus_NN ] [VP lies_VBZ ] [PP on_IN ] [NP the_DT left_JJ hand_NN side_NN ] ._.
+ [NP The_DT first_JJ modern_JJ building_NN ] [NP you_PRP ] [VP will_MD see_VB ] [VP is_VBZ ] [NP the_DT Sydney_NNP Myer_NNP Center_NNP ] and_CC [NP there_EX ] [VP is_VBZ ] [NP a_DT main_JJ road_NN and_CC entrance_NN ] [ADVP just_RB ] [PP beside_IN ] [NP the_DT Center_NNP ] ._.
+ [VP Go_VB ] [PP along_IN ] [NP the_DT main_JJ road_NN ] ,_, [NP it_PRP ] [VP will_MD lead_VB ] [NP you_PRP ] [PP to_TO ] [NP the_DT Wilson_NNP Hall_NNP ] [PP at_IN ] [NP the_DT end_NN ] [PP of_IN ] [NP the_DT road_NN ] ._.
+ [SBAR If_IN ] [NP you_PRP ] [VP turn_VBP ] [ADVP right_RB ] ,_, [VP climb_VB ] [SBAR up_IN ] [NP the_DT stairs_NNS ] and_CC [VP follow_VB ] [NP the_DT path_NN ] ,_, [NP it_PRP ] [VP will_MD lead_VB ] [NP you_PRP ] [PP to_TO ] [NP Union_NNP House_NNP ] [ADVP where_WRB ] [NP you_PRP ] [VP can_MD find_VB ] [NP restaurants_NNS ] and_CC [NP uni_JJ clubs_NNS ] ._.
+ [SBAR If_IN ] [NP you_PRP ] [VP turn_VBP left_VBN ] and_CC then_RB [VP climb_VB ] [PRT up_IN ] [NP those_DT tiny_JJ stairs_NNS ] ,_, [NP it_PRP ] [VP will_MD lead_VB ] [NP you_PRP ] [PP to_TO ] [NP the_DT southern_JJ lawn_NN ] [ADVP where_WRB ] [NP some_DT uni_JJ activities_NNS ] [VP may_MD take_VB ] [NP place_NN ] [ADVP there_RB ] ._.
+ [SBAR If_IN ] [NP you_PRP ] [VP keep_VBP going_VBG ] [ADVP straight_RB ] and_CC [VP walk_VB ] [PP down_IN ] [NP the_DT stairs_NNS ] ,_, [NP it_PRP ] [VP will_MD lead_VB ] [NP you_PRP ] [PP to_TO ] [NP the_DT main_JJ library_NN ] [PP of_IN ] [NP uni_JJ ] ._.
+ [PP Beside_IN ] [NP the_DT library_NN ] [VP is_VBZ ] [NP the_DT co-op_NN bookstore_NN ] [ADVP where_WRB ] [NP you_PRP ] [VP can_MD buy_VB ] [NP your_PRP$ textbook_NN ] ._.
+ 

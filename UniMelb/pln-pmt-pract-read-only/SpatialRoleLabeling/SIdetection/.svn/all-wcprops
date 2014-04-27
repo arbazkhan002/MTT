@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/48/trunk/SpatialRoleLabeling/SIdetection
+END
+parser.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27/trunk/SpatialRoleLabeling/SIdetection/parser.py
+END
+stats.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stats.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/__init__.py
+END
+script.py~
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/script.py~
+END
+sprl_semeval3_trial0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/sprl_semeval3_trial0.xml
+END
+tokenized.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/tokenized.xml
+END
+script.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/script.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/46/trunk/SpatialRoleLabeling/SIdetection/README
+END
+output.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/output.xml
+END
+prepositionfeatures.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/prepositionfeatures.py
+END
+tpp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/tpp.xml
+END
+spatialindicators.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/48/trunk/SpatialRoleLabeling/SIdetection/spatialindicators.py
+END
+SImarker.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/SImarker.py
+END
+features.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/features.py
+END
+TLdetection.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/43/trunk/SpatialRoleLabeling/SIdetection/TLdetection.py
+END
+test.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/test.py
+END
+hmm.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/38/trunk/SpatialRoleLabeling/SIdetection/hmm.py
+END
+SItrain.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/SItrain.xml
+END
+postagged.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/postagged.xml
+END
+parsed.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/parsed.xml
+END
+tokenize.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/tokenize.py
+END
+svn-prop.tmp~
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/svn-prop.tmp~
+END
+postagger.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/postagger.py
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/6/trunk/SpatialRoleLabeling/scripts
+END
+tokenizer.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/6/trunk/SpatialRoleLabeling/scripts/tokenizer.py
+END
+parser.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/6/trunk/SpatialRoleLabeling/scripts/parser.py
+END
+test.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/6/trunk/SpatialRoleLabeling/scripts/test.py
+END
+test.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/6/trunk/SpatialRoleLabeling/scripts/test.txt
+END
+test.log
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/6/trunk/SpatialRoleLabeling/scripts/test.log
+END

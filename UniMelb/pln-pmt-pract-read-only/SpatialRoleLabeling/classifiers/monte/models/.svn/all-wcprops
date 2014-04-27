@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte/models
+END
+lasso.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte/models/lasso.py
+END
+knn.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte/models/knn.py
+END
+crf.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte/models/crf.py
+END
+localregression.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte/models/localregression.py
+END
+neuralnet.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte/models/neuralnet.py
+END
+old.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte/models/old.py
+END
+kmeans.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte/models/kmeans.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte/models/__init__.py
+END
+logreg.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte/models/logreg.py
+END

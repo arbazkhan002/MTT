@@ -1,0 +1,12 @@
+<schemata>
+  <schema name="acts">
+    <schematerm>act(X,Y)</schematerm>
+    <substitutions variable="X">
+      <numberconstant from="1" to="8"/>
+    </substitutions>
+    <substitutions variable="Y">
+      <entry>normal</entry>
+      <entry>slow</entry>
+    </substitutions>
+  </schema>
+</schemata>

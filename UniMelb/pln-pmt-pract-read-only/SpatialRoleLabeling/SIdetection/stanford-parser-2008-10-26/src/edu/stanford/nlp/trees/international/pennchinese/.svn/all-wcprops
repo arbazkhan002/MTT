@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/pennchinese
+END
+ChineseGrammaticalRelations.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/pennchinese/ChineseGrammaticalRelations.java
+END
+ChineseGrammaticalStructure.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/pennchinese/ChineseGrammaticalStructure.java
+END
+CTBTreeReaderFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/pennchinese/CTBTreeReaderFactory.java
+END
+ChineseCollinizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/pennchinese/ChineseCollinizer.java
+END
+CHTBTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/pennchinese/CHTBTokenizer.java
+END
+ChineseSemanticHeadFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/pennchinese/ChineseSemanticHeadFinder.java
+END
+CharacterLevelTagExtender.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/pennchinese/CharacterLevelTagExtender.java
+END
+CHTBLexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/pennchinese/CHTBLexer.java
+END
+ChineseEscaper.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/pennchinese/ChineseEscaper.java
+END
+ChineseEnglishWordMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/pennchinese/ChineseEnglishWordMap.java
+END
+CTBErrorCorrectingTreeNormalizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/pennchinese/CTBErrorCorrectingTreeNormalizer.java
+END
+ChineseHeadFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/pennchinese/ChineseHeadFinder.java
+END
+FragDiscardingPennTreeReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/pennchinese/FragDiscardingPennTreeReader.java
+END
+SunJurafskyChineseHeadFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/pennchinese/SunJurafskyChineseHeadFinder.java
+END
+RadicalMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/pennchinese/RadicalMap.java
+END
+ChineseTreebankLanguagePack.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/pennchinese/ChineseTreebankLanguagePack.java
+END
+BikelChineseHeadFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/pennchinese/BikelChineseHeadFinder.java
+END

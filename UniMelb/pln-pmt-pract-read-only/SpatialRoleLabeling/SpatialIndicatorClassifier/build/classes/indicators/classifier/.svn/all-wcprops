@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/29/trunk/SpatialRoleLabeling/SpatialIndicatorClassifier/build/classes/indicators/classifier
+END
+Classifier.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/29/trunk/SpatialRoleLabeling/SpatialIndicatorClassifier/build/classes/indicators/classifier/Classifier.class
+END
+NaiveBayes.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/29/trunk/SpatialRoleLabeling/SpatialIndicatorClassifier/build/classes/indicators/classifier/NaiveBayes.class
+END

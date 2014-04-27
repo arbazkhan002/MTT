@@ -1,0 +1,11 @@
+ [VP Imagine_VB ] [NP a_DT rectangle_JJ (vertical_JJ length_NN ] ,_, [NP horizontal_JJ width_NN )_-RRB- ] ._.
+ [PP On_IN ] [NP the_DT lower_JJR ] [VP left_VBD ] [NP coner_NN ] [PP of_IN ] [NP the_DT rectangle_NN ] [VP would_MD mainly_RB be_VB populated_VBN ] [PP with_IN ] [NP life_NN sciences_NNS departments_NNS ] ._.
+ [PP On_IN ] [NP the_DT lower_JJR right_JJ coner_NN ] [PP of_IN ] [NP the_DT rectangle_NN ] ,_, [NP you_PRP ] [VP would_MD find_VB ] [NP most_RBS engineering_NN ] and_CC [NP IT_PRP departments_NNS ] ._.
+ [NP The_DT center_NN ] [PP of_IN ] [NP the_DT rectangle_NN ] [VP would_MD be_VB ] [NP the_DT south_JJ lawn_NN ] [PP (_-LRB- ] [NP a_DT huge_JJ lawn_NN )_-RRB- ] ._.
+ [NP A_DT bit_NN ] [PP above_IN ] [NP the_DT center_NN ] ,_, [NP you_PRP ] [VP would_MD find_VB ] [NP Arts_NNS ] and_CC [NP student_NN union_NN ] ._.
+ [VP Add_VB ] [NP a_DT semi_NN circle_NN ] [PP on_IN ] [NP top_NN ] [PP of_IN ] [NP the_DT rectangle_NN ] ._.
+ [NP That_DT ] [VP would_MD be_VB ] [NP all_PDT the_DT athletic_JJ tracks_NNS and_CC sports_NNS field_NN ] ._.
+ [VP Add_VB ] [NP a_DT small_JJ rectangle_NN ] [PP below_IN ] [NP the_DT initial_JJ rectangle_NN ] ._.
+ [NP The_DT shared_VBN edge_NN ] [VP is_VBZ ] [NP a_DT section_NN ] [PP of_IN ] [NP Grattan_NNP St_NNP ] [NP that_WDT ] [VP ran_VBD ] [PP across_IN ] [NP the_DT campus_NN ] ._.
+ [NP That_DT small_JJ rectangle_NN ] [VP is_VBZ ] [ADVP where_WRB ] [NP you_PRP ] [VP would_MD find_VB ] [NP law_NN ] ,_, and_CC [NP commerce_NN departments_NNS ] ._.
+ 

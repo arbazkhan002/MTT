@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/fsm
+END
+ExactGrammarCompactor.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/fsm/ExactGrammarCompactor.java
+END
+QuasiDeterminizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/fsm/QuasiDeterminizer.java
+END
+Block.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/fsm/Block.java
+END
+AutomatonMinimizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/fsm/AutomatonMinimizer.java
+END
+TransducerGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/fsm/TransducerGraph.java
+END
+FastExactAutomatonMinimizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/fsm/FastExactAutomatonMinimizer.java
+END

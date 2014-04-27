@@ -1,0 +1,29 @@
+/CRF.java/1.74/Sat Aug 19 19:36:19 2006//
+/CRFInterpretation.java/1.6/Fri Mar 10 17:51:25 2006//
+/CRFInterpretationTest.java/1.2/Fri Mar 10 17:51:25 2006//
+/CRFTest.java/1.43/Tue Feb 28 13:17:23 2006//
+/ClassificationExampleContainer.java/1.23/Thu Mar  2 16:26:55 2006//
+/ClassificationExampleContainerTest.java/1.13/Thu Mar  2 16:26:55 2006//
+/ExampleContainer.java/1.11/Fri Nov 18 16:29:01 2005//
+/InterpretationExampleContainer.java/1.1/Mon Mar  6 16:59:49 2006//
+/InterpretationExampleContainerTest.java/1.2/Tue Mar  7 17:09:38 2006//
+/KristiansSplitter.java/1.1/Wed Apr 26 13:33:30 2006//
+/Master.java/1.12/Tue Aug 29 17:07:03 2006//
+/MasterInterpretation.java/1.3/Fri Mar 10 17:51:25 2006//
+/ModeClassification.java/1.3/Thu Mar  2 16:26:55 2006//
+/ModeClassificationOAA.java/1.3/Thu Mar  2 16:26:55 2006//
+/ModeClassificationRR.java/1.5/Fri Mar 10 17:18:16 2006//
+/ModeTagging.java/1.5/Tue Feb 28 10:39:12 2006//
+/ModeTaggingInterpretation.java/1.5/Fri Mar 10 17:51:25 2006//
+/SimpleExampleContainer.java/1.21/Thu Mar  2 16:26:55 2006//
+/UsedFieldMarker.java/1.5/Fri Jun 10 12:23:28 2005//
+/WindowMaker.java/1.26/Thu Dec 15 16:39:34 2005//
+/WindowMakerTest.java/1.12/Thu Dec 15 16:39:34 2005//
+/XMLInput.java/1.9/Tue Mar  7 17:09:38 2006//
+/XMLInputTest.java/1.4/Thu Dec 15 11:11:45 2005//
+D/adTree////
+D/counting////
+D/logic////
+D/regression////
+D/stuff////
+D/xprolog////

@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process
+END
+JFlexDummyLexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/JFlexDummyLexer.java
+END
+PTBLexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/PTBLexer.java
+END
+DocumentPreprocessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/DocumentPreprocessor.java
+END
+WordToTaggedWordProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/WordToTaggedWordProcessor.java
+END
+Morpha.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/Morpha.java
+END
+WhitespaceTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/WhitespaceTokenizer.java
+END
+WordSegmentingTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/WordSegmentingTokenizer.java
+END
+Americanize.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/Americanize.java
+END
+LexedTokenFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/LexedTokenFactory.java
+END
+WhitespaceLexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/WhitespaceLexer.java
+END
+AbstractTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/AbstractTokenizer.java
+END
+Morphology.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/Morphology.java
+END
+AbstractListProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/AbstractListProcessor.java
+END
+PTBEscapingProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/PTBEscapingProcessor.java
+END
+PTBLexer.flex
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/PTBLexer.flex
+END
+WordToSentenceProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/WordToSentenceProcessor.java
+END
+WordTokenFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/WordTokenFactory.java
+END
+LexerTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/LexerTokenizer.java
+END
+Tokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/Tokenizer.java
+END
+ListProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/ListProcessor.java
+END
+TokenizerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/TokenizerAdapter.java
+END
+SerializableFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/SerializableFunction.java
+END
+PTB2TextLexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/PTB2TextLexer.java
+END
+DocumentProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/DocumentProcessor.java
+END
+StripTagsProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/StripTagsProcessor.java
+END
+PTBTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/PTBTokenizer.java
+END
+CoreLabelTokenFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/process/CoreLabelTokenFactory.java
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/matlab
+END
+svmtrain.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/matlab/svmtrain.c
+END
+svm_model_matlab.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/matlab/svm_model_matlab.c
+END
+libsvmwrite.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/matlab/libsvmwrite.c
+END
+make.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/matlab/make.m
+END
+libsvmread.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/matlab/libsvmread.c
+END
+svm_model_matlab.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/matlab/svm_model_matlab.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/matlab/README
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/matlab/Makefile
+END
+svmpredict.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/matlab/svmpredict.c
+END

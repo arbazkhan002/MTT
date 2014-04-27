@@ -1,0 +1,10 @@
+<backgroundknowledge>
+  <prolog>
+    sameAsNext(N) :- sequence(N,X), N2 is N+1, sequence(N2,X).
+    sameAsLast(N) :- N2 is N-1, sameAsNext(N2).
+    inBlock(N)    :- sameAsNext(N), sameAsLast(N).    
+  </prolog>
+  <feature name="sameAsNext"/>
+  <feature name="sameAsLast"/>
+  <feature name="inBlock"/>
+</backgroundknowledge>

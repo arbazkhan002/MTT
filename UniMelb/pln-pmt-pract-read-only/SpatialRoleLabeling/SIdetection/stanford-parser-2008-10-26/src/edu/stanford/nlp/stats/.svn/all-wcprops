@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/stats
+END
+EquivalenceClasser.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/stats/EquivalenceClasser.java
+END
+Counter.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/stats/Counter.java
+END
+EquivalenceClassEval.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/stats/EquivalenceClassEval.java
+END
+Distribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/stats/Distribution.java
+END
+ProbabilityDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/stats/ProbabilityDistribution.java
+END
+ClassicCounter.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/stats/ClassicCounter.java
+END
+Counters.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/stats/Counters.java
+END
+Sampler.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/stats/Sampler.java
+END
+AbstractCounter.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/stats/AbstractCounter.java
+END
+GeneralizedCounter.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/stats/GeneralizedCounter.java
+END
+IntCounter.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/stats/IntCounter.java
+END
+TwoDimensionalCounter.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/stats/TwoDimensionalCounter.java
+END

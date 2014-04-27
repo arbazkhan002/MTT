@@ -1,0 +1,43 @@
+<schemata>
+  <schema name="strands">
+    <schematerm>strand(X,Y,Z)</schematerm>
+    <substitutions variable="X">
+      <entry>__BOUNDEDVAR</entry>
+      <entry>__UNBOUNDEDVAR</entry>
+    </substitutions>
+    <substitutions variable="Y">
+      <entry>minus</entry>
+      <entry>null</entry>
+      <entry>plus</entry>
+      <entry>__BOUNDEDVAR</entry>
+      <entry>__UNBOUNDEDVAR</entry>
+    </substitutions>
+    <substitutions variable="Z">
+      <entry>long</entry>
+      <entry>medium</entry>
+      <entry>short</entry>
+      <entry>__BOUNDEDVAR</entry>
+      <entry>__UNBOUNDEDVAR</entry>
+    </substitutions>
+  </schema>
+  <schema name="helix">
+    <schematerm>helix(h(D,Z),N2)</schematerm>
+    <substitutions variable="N2">
+      <entry>long</entry>
+      <entry>medium</entry>
+      <entry>short</entry>
+      <entry>__BOUNDEDVAR</entry>
+      <entry>__UNBOUNDEDVAR</entry>
+    </substitutions>
+    <substitutions variable="D">
+        <entry>left</entry>
+	<entry>right</entry>
+        <entry>__BOUNDEDVAR</entry>
+        <entry>__UNBOUNDEDVAR</entry>
+    </substitutions>
+    <substitutions variable="Z">
+        <entry>__BOUNDEDVAR</entry>
+        <entry>__UNBOUNDEDVAR</entry>
+    </substitutions>
+  </schema>
+</schemata>

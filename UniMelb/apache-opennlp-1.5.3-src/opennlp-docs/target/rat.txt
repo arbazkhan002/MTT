@@ -1,0 +1,53 @@
+
+*****************************************************
+Summary
+-------
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 17
+
+Apache Licensed: 17
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-docs/src/main/resources/xsl/html.xsl
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-docs/src/docbkx/chunker.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-docs/src/docbkx/corpora.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-docs/src/docbkx/uima-integration.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-docs/src/docbkx/extension.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-docs/src/docbkx/parser.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-docs/src/docbkx/opennlp.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-docs/src/docbkx/tokenizer.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-docs/src/docbkx/namefinder.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-docs/src/docbkx/coref.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-docs/src/docbkx/sentdetect.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-docs/src/docbkx/css/opennlp-docs.css
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-docs/src/docbkx/introduction.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-docs/src/docbkx/doccat.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-docs/src/docbkx/machine-learning.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-docs/src/docbkx/postagger.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-docs/pom.xml
+ 
+ *****************************************************
+ Printing headers for files without AL header...
+ 
+ 

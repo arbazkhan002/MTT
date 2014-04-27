@@ -1,0 +1,12 @@
+
+- Two types of parsing (PCFG and the other one). Both give us the same output for the sentences that we've tried.
+
+- The end of sentence is represented by a . or ! or ?, while : and , are taken as part of the sentence. 
+
+- Some subordinated sentences are put on the same layer as the 'main' sentence (i.e. with the conjunction 'but' or the adverb 'so').
+
+- Spatial indicators are identified, instead of the landmarks or the trajectors which are not tagged such as 'landmark' or 'trajector'.
+
+- Negation of verbs such as can't and didn't are identified as RB, and the verb as MD and VBD respectively.
+
+- In addition of the sentences of the trial dataset, we have tested some sentences of the attached file test_nosotros_1.txt.

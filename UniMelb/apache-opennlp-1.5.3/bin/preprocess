@@ -1,0 +1,7 @@
+#!/bin/bash
+for i in `seq 1 39`
+do
+	text="campus$i"
+	chunk="chunked$i"
+	./opennlp SentenceDetector en-sent.bin < ../../../MTT/UniMelb/newData/$text.txt | ./opennlp TokenizerME en-token.bin | ./opennlp POSTagger en-pos-maxent.bin | ./opennlp ChunkerME en-chunker.bin > chunking\ newresults/$chunk.txt
+done

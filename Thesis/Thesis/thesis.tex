@@ -1,0 +1,132 @@
+% THIS IS SIGPROC-SP.TEX - VERSION 3.1
+% WORKS WITH V3.2SP OF ACM_PROC_ARTICLE-SP.CLS
+% APRIL 2009
+%
+% It is an example file showing how to use the 'acm_proc_article-sp.cls' V3.2SP
+% LaTeX2e document class file for Conference Proceedings submissions.
+% ----------------------------------------------------------------------------------------------------------------
+% This .tex file (and associated .cls V3.2SP) *DOES NOT* produce:
+%       1) The Permission Statement
+%       2) The Conference (location) Info information
+%       3) The Copyright Line with ACM data
+%       4) Page numbering
+% ---------------------------------------------------------------------------------------------------------------
+% It is an example which *does* use the .bib file (from which the .bbl file
+% is produced).
+% REMEMBER HOWEVER: After having produced the .bbl file,
+% and prior to final submission,
+% you need to 'insert'  your .bbl file into your source .tex file so as to provide
+% ONE 'self-contained' source file.
+%
+% Questions regarding SIGS should be sent to
+% Adrienne Griscti ---> griscti@acm.org
+%
+% Questions/suggestions regarding the guidelines, .tex and .cls files, etc. to
+% Gerald Murray ---> murray@hq.acm.org
+%
+% For tracking purposes - this is V3.1SP - APRIL 2009
+
+\documentclass{iitkthesis}
+%\usepackage{algorithm2e}
+%\usepackage{algpseudocode}
+%\usepackage[pass,paperwidth=8.5in,paperheight=11in]{geometry}
+%\usepackage[paperwidth=8.5in, paperheight=11in]{geometry}
+%\newcommand{\commentSW}[1]{\textbf{SW --} \emph{#1} \textbf{-- SW}}
+
+\begin{document}
+%\pdfpagewidth=8.5in
+%\pdfpageheight=11in
+
+\title{Location Unaware Wayfinding}
+%\titlenote{(Does NOT produce the permission block, copyright information nor page numbering). For use with ACM\_PROC\_ARTICLE-SP.CLS. Supported by ACM.}}
+%\subtitle{[Extended Abstract]
+%\titlenote{A full version of this paper is available as
+%\textit{Author's Guide to Preparing ACM SIG Proceedings Using
+%\LaTeX$2_\epsilon$\ and BibTeX} at
+%\texttt{www.acm.org/eaddress.htm}}}
+%
+% You need the command \numberofauthors to handle the 'placement
+% and alignment' of the authors beneath the title.
+%
+% For aesthetic reasons, we recommend 'three authors at a time'
+% i.e. three 'name/affiliation blocks' be placed beneath the title.
+%
+% NOTE: You are NOT restricted in how many 'rows' of
+% "name/affiliations" may appear. We just ask that you restrict
+% the number of 'columns' to three.
+%
+% Because of the available 'opening page real-estate'
+% we ask you to refrain from putting more than six authors
+% (two rows with three columns) beneath the article title.
+% More than six makes the first-page appear very cluttered indeed.
+%
+% Use the \alignauthor commands to handle the names
+% and affiliations for an 'aesthetic maximum' of six authors.
+% Add names, affiliations, addresses for
+% the seventh etc. author(s) as the argument for the
+% \additionalauthors command.
+% These 'additional authors' will be output/set for you
+% without further effort on your part as the last section in
+% the body of your article BEFORE References or any Appendices.
+% \setcoguide{Prof. Bharat Lohani}
+% setexguide{Prof. Stephan Winter}
+% setcoguidedept{Department of Geoinformatics}
+% setexguidedept{Department of Geomatics}
+
+\author{Arbaz Khan}
+\iitbdegree{Btech-Mtech Integrated}
+\department{Computer Science and Engineering}
+\rollnum{Y9227128}
+\setguide{Prof Harish Karnick}
+\setguidedept{Computer Science and Engineering}
+\setcoguide{Prof Bharat Lohani}
+\setexguide{Prof. Stephan Winter}
+\setcoguidedept{Department of Geoinformatics}
+\setexguidedept{Department of Geomatics}
+\setexguideaff{University of Melbourne}
+\dissertation
+\maketitle
+\makecertificate
+\begin{abstract}
+  A computational model of understanding place descriptions is a cardinal issue in multiple disciplines and provides critical applications especially in dialog-driven geolocation services. This research targets the automated extraction of spatial triplets to represent qualitative spatial relations between recognized places from natural language place descriptions via a simple class of locative expressions. We attempt to produce triplets, informative and \textit{convenient} enough as a medium to convert verbal descriptions to graph representations of places and their relationships. We present a reasoning approach devoid of any external resources (such as maps, path geometries or robotic vision) for understanding place descriptions. We then apply our methodologies to situated place descriptions and study the results, its errors and implied future research.
+%We also provide an insight into the complexity of the untackled problem of resolving the frame of reference.
+\end{abstract}
+\tableofcontents
+\chapter{Introduction}
+\section{Wayfinding}
+Human wayfinding is the process of purposeful and directed movement from an origin to a specific destination. The problem of wayfinding is the identification of the ordered sequence of actions to be performed in a spatial environment to reach at a desired location. In our everyday interaction with the spatial environment, we are involved with different instances of wayfinding tasks. In some, the exact sequence of actions is well familiar but in others we need either an external assistance or a personal strategy to find our ways. The modern advancements in technology have diminished the efforts involved in discovering and implementing wayfinding strategies. With the advent of smartphones, it has been made possible to build powerful applications which can show maps, compute routes and determine current location via GPS positioning. It has removed the complexities of carrying a map and understanding its symbols and notations. Significant efforts have been put into the research and development of the systems for navigational assistance using smartphones. 
+%\section*{Digital}
+%\addcontentsline{toc}{section}{Digital}
+Despite the powerful services offered as digital navigational aids, there come several issues along with it. Apart from the installation and usage costs associated with these services, the accuracy behind the positioning systems is a vital concern. The inaccuracies extend from measurement errors in positioning algorithms from the satellites to the map matching algorithms 
+\iffalse 
+[D.K. Yang, B.G. Cai and Y.F. Yuan,An Improved Map-Matching Algorithm Used in Vehicle Navigation System]
+\fi
+ at the application end. The situation becomes worse when the navigation route goes through narrow streets under tall buildings. Since the services rely upon the details in the map and the crowdsourced information available, the success in utility is highly variable. 
+  
+In addition to the above shortcomings in modern digital navigation aids, research works have identified user preference for auditory presentation for route information as well as a memory advantage for auditory over visual information. Experiments have indicated that the reaction times are fastest with pure auditory route instructions as compared to electronic route maps or turn-by-turn displays. 
+\iffalse
+[Driving with navigational instructions:
+Investigating user behaviour and
+performance
+%Dalton, P.a, Agarwal, P.b, Fraenkel, N.a, Baichoo, J.a, & Masry, A.a,  
+
+Individual differences in navigational strategy:
+             implications for display design
+                      Carryl L. Baldwin*
+Psychology Department, George Mason University, Fairfax, VA, USA
+]
+
+For fast reaction:
+R. Srinivasan, P.P. Jovanis
+Effect of selected in-vehicle route guidance systems on driver reaction times
+Human Factors, 39 (2) (1997), pp. 200–215
+R. Srinivasan, P.P. Jovanis
+Effect of in-vehicle route guidance systems on driver workload and choice of vehicle speed: Findings from a driving simulator experiment
+\fi
+
+These findings motivated us to work on a system which exploits the auditory mode of route guidance, eliminates the use of global positioning systems and works on minimum map information.
+  
+
+ There have been several measures executed and advancements accomplished to decrease the accuracies.
+
+\end{document}

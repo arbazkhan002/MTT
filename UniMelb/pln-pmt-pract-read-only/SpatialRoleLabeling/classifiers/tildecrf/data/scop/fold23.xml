@@ -1,0 +1,4156 @@
+<sequences>
+ <sequence>
+  <atom>strand(' S1',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' S1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' S1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand('S1A',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('S1A',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1A',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1A',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1A',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand('S1B',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('S1B',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1B',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1B',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1B',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' S1',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' S1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' S1',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand('S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('S1',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand('S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('S1',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' S1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',null,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' S1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' S1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' AA',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' AA',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' AA',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' AA',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' AA',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' BA',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' BA',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' BA',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' BA',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' BA',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' CA',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' CA',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' CA',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' CA',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' CA',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' DA',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' DA',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' DA',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' DA',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' DA',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',minus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',minus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' S1',plus,medium)</atom>
+  <atom>strand(' S2',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',null,medium)</atom>
+  <atom>strand(' S2',null,medium)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' S1',plus,medium)</atom>
+  <atom>strand(' S2',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',plus,medium)</atom>
+  <atom>strand(' S2',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',plus,short)</atom>
+  <atom>strand(' S3',null,short)</atom>
+  <atom>strand(' S3',minus,short)</atom>
+  <atom>strand(' S3',minus,short)</atom>
+  <atom>strand(' S2',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' S1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',null,medium)</atom>
+  <atom>strand(' S1',plus,long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',plus,long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',plus,long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand('S1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('S1',null,medium)</atom>
+  <atom>strand('S1',plus,long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('S1',plus,long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('S1',plus,long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand('S1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('S1',null,medium)</atom>
+  <atom>strand('S1',plus,long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('S1',plus,long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('S1',plus,long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand('S1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('S1',null,medium)</atom>
+  <atom>strand('S1',plus,long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('S1',plus,long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('S1',plus,long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand('S1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('S1',null,medium)</atom>
+  <atom>strand('S1',plus,long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('S1',plus,long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('S1',plus,long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' AA',plus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' AA',null,short)</atom>
+  <atom>strand(' A1',null,short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' AA',plus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' AA',plus,medium)</atom>
+  <atom>strand(' A1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' AA',plus,short)</atom>
+  <atom>strand(' AB',null,short)</atom>
+  <atom>strand(' AB',minus,short)</atom>
+  <atom>strand(' AB',minus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' BA',plus,short)</atom>
+  <atom>strand(' B1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' BA',null,short)</atom>
+  <atom>strand(' B1',null,short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' BA',plus,short)</atom>
+  <atom>strand(' B1',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' BA',plus,medium)</atom>
+  <atom>strand(' B1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' BA',plus,short)</atom>
+  <atom>strand(' BC',null,short)</atom>
+  <atom>strand(' BC',minus,short)</atom>
+  <atom>strand(' BC',minus,short)</atom>
+  <atom>strand(' B1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' CA',plus,short)</atom>
+  <atom>strand(' C1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' CA',null,short)</atom>
+  <atom>strand(' C1',null,short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' CA',plus,short)</atom>
+  <atom>strand(' C1',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' CA',plus,medium)</atom>
+  <atom>strand(' C1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' CA',plus,short)</atom>
+  <atom>strand(' CC',null,short)</atom>
+  <atom>strand(' CC',minus,short)</atom>
+  <atom>strand(' C1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' DA',plus,short)</atom>
+  <atom>strand(' D1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' DA',null,short)</atom>
+  <atom>strand(' D1',null,short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' DA',plus,short)</atom>
+  <atom>strand(' D1',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' DA',plus,medium)</atom>
+  <atom>strand(' D1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' DA',plus,short)</atom>
+  <atom>strand(' DC',null,short)</atom>
+  <atom>strand(' DC',minus,short)</atom>
+  <atom>strand(' DC',minus,short)</atom>
+  <atom>strand(' D1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand('S1',plus,medium)</atom>
+  <atom>strand('S2',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('S1',null,medium)</atom>
+  <atom>strand('S2',null,medium)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand('S1',plus,medium)</atom>
+  <atom>strand('S2',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand('S1',plus,medium)</atom>
+  <atom>strand('S2',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('S1',plus,short)</atom>
+  <atom>strand('S2',plus,short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' A1',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' A1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' A1',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' A1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' A1',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' A1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' B1',plus,short)</atom>
+  <atom>strand(' B2',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' B1',null,short)</atom>
+  <atom>strand(' B2',null,short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' B1',plus,short)</atom>
+  <atom>strand(' B2',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' B1',plus,medium)</atom>
+  <atom>strand(' B2',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' B1',plus,short)</atom>
+  <atom>strand(' B2',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' A1',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' A1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' A1',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' A1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' A1',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' A1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' A1',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' A1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' A1',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' A1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' A1',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' A1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,long)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,long)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,long)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' B1',null,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' B2',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' B3',null,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' B4',null,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('B5A',null,short)</atom>
+  <atom>strand('B5B',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand('B1A',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('B1A',null,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('B1A',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('B1A',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand('B1A',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand('B1B',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('B1B',null,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('B1B',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand('B1B',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand('B1B',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' S1',plus,short)</atom>
+  <atom>strand(' S1',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>strand(' A1',null,short)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' A1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' A1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' S1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',plus,medium)</atom>
+  <atom>strand(' S2',null,medium)</atom>
+  <atom>strand(' S2',minus,short)</atom>
+  <atom>strand(' S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' S1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',plus,medium)</atom>
+  <atom>strand(' S2',null,medium)</atom>
+  <atom>strand(' S2',minus,short)</atom>
+  <atom>strand(' S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' S1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',plus,medium)</atom>
+  <atom>strand(' S2',null,medium)</atom>
+  <atom>strand(' S2',minus,short)</atom>
+  <atom>strand(' S1',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' S1',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand('S1A',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1A',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1A',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1A',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1A',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand('S1A',minus,short)</atom>
+  <atom>strand('S1A',minus,short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand('S1B',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1B',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1B',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1B',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1B',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand('S1B',minus,short)</atom>
+  <atom>strand('S1B',minus,short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand('S1A',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1A',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1A',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1A',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1A',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand('S1A',minus,short)</atom>
+  <atom>strand('S1A',minus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand('S1B',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1B',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1B',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1B',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1B',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand('S1B',minus,short)</atom>
+  <atom>strand('S1B',minus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' AA',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' AA',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' AA',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' AA',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' AA',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' BA',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' BA',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' BA',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' BA',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' BA',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand('S1A',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1A',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1A',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1A',plus,short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>strand('S1A',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand('S1B',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1B',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1B',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand('S1B',plus,short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>strand('S1B',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' AA',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' AA',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' AA',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' AB',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>strand(' AB',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' AB',plus,short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>strand(' AB',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' BA',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' BA',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' BA',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' BB',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>strand(' BB',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' BB',plus,short)</atom>
+  <atom>helix(h(right,alpha),short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+  <atom>strand(' BB',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),medium)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,medium)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',minus,long)</atom>
+  <atom>strand(' ',minus,long)</atom>
+  <atom>strand(' ',minus,medium)</atom>
+  <atom>strand(' ',minus,medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),medium)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',minus,short)</atom>
+  <atom>strand(' ',minus,medium)</atom>
+ </sequence>
+ <sequence>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+ <sequence>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',null,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>helix(h(right,f3to10),short)</atom>
+  <atom>strand(' ',plus,medium)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+  <atom>strand(' ',plus,short)</atom>
+  <atom>helix(h(right,alpha),long)</atom>
+ </sequence>
+</sequences>

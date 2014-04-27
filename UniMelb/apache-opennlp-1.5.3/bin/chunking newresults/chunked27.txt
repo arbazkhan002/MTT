@@ -1,0 +1,6 @@
+ [NP The_DT university_NN ] [PP of_IN ] [NP melbourne_JJ parkville_NN campus_NN ] [VP is_VBZ ] [NP the_DT best_JJS experiece_NN ] [PP for_IN ] [NP anyone_NN ] ._.
+ [SBAR If_IN ] [NP my_PRP$ friend_NN ] [VP visits_VBZ ] [NP it_PRP ] [PP on_IN ] [NP weekend_NN ] [ADVP then_RB ] [VP there_EX ] [NP absolutely_RB brilliant_JJ security_NN ] [ADJP available_JJ ] [PP in_IN ] [NP the_DT campus_NN ] [SBAR as_IN ] [NP it_PRP ] [VP will_MD provide_VB ] [NP all_DT the_DT help_NN ] [VP to_TO get_VB ] [NP his_PRP$ tasks_NNS ] [VP done_VBN ] ._.
+ [NP The_DT maps_NNS ] [PP on_IN ] [NP the_DT roads_NNS ] [VP will_MD lead_VB ] [NP him_PRP ] [PP to_TO ] [NP required_JJ place_NN ] ._.
+ [NP Internet_NNP ] [VP is_VBZ ] [ADJP available_JJ ] [PP in_IN ] [NP IT_PRP ] [NP labs_NNS ] [PP in_IN ] [NP each_DT department_NN ] ._.
+ [NP 24_CD hours_NNS ] [NP security_NN people_NNS ] [VP are_VBP ] [ADJP available_JJ ] [VP to_TO let_VB ] [NP the_DT student_NN ] [VP have_VBP ] [NP access_NN ] [PP to_TO ] [NP required_VBN places_NNS ] ._.
+ 

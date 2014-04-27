@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/50/trunk/SpatialRoleLabeling
+END
+stanford-parser.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/11/trunk/SpatialRoleLabeling/stanford-parser.jar
+END
+manifest.mf
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/manifest.mf
+END
+lingpipe-3.8.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/23/trunk/SpatialRoleLabeling/lingpipe-3.8.2.jar
+END
+left3words-wsj-0-18.tagger
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/left3words-wsj-0-18.tagger
+END
+SItrain.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/30/trunk/SpatialRoleLabeling/SItrain.xml
+END
+sprl_semeval3_trial0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/sprl_semeval3_trial0.xml
+END
+spatial_indicators.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/spatial_indicators.txt
+END
+left3words-wsj-0-18.tagger.props
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/left3words-wsj-0-18.tagger.props
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/build.xml
+END
+lingpipe-4.1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/31/trunk/SpatialRoleLabeling/lingpipe-4.1.0.jar
+END
+xerces.readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/xerces.readme.txt
+END
+xerces.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/xerces.jar
+END

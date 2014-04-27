@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/tuebadz
+END
+TueBaDZLanguagePack.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/tuebadz/TueBaDZLanguagePack.java
+END
+TueBaDZPennTreeNormalizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/tuebadz/TueBaDZPennTreeNormalizer.java
+END
+TueBaDZHeadFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/tuebadz/TueBaDZHeadFinder.java
+END
+TueBaDZTreeReaderFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/tuebadz/TueBaDZTreeReaderFactory.java
+END

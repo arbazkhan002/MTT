@@ -1,0 +1,223 @@
+\begin{thebibliography}{10}
+
+\bibitem{adams}
+C.~S. Adams, M.~Sigel, and J.~Mlynek.
+\newblock {\em Phys. Rep.}, {\bf 240}:143, 1994.
+
+\bibitem{been}
+C.~W.~J. Beenakker and H.~van Houten.
+\newblock Quantum transport in semiconductor nanostructures.
+\newblock {\em Solid State Physics}, {\bf 44}:1--228, 1991.
+
+\bibitem{berrykkr}
+M.~V. Berry.
+\newblock Quantizing a classically ergodic system: {Sinai} billiard and the
+  {KKR} method.
+\newblock {\em Ann. Phys.}, {\bf 131}:163--216, 1981.
+
+\bibitem{berryleshouches}
+M.~V. Berry.
+\newblock Some quantum-to-classical asymptotics.
+\newblock In M.~J. Giannoni, A.~Voros, and J.~Zinn-Justin, editors, {\em
+  Proceedings of the 1989 Les Houches Summer School on ``Chaos and Quantum
+  Physics''}, pages 251--303, North-Holland, 1991. Elsevier Science Publishers
+  B.V.
+
+\bibitem{berrywilk}
+M.~V. Berry and M.~Wilkinson.
+\newblock Diabolical points in the spectra of triangles.
+\newblock {\em Proc. Roy. Soc. London A}, {\bf 392}:15, 1984.
+
+\bibitem{wall}
+J.~Blocki, Y.~Boneh, J.~R. Nix, J.~Randrup, M.~Robei, A.J. Sierk, and W.~J.
+  Swiatecki.
+\newblock One-body dissipation and the super-viscidity of nuclei.
+\newblock {\em Ann. Phys.}, 113:330--386, 1977.
+
+\bibitem{bogomolny}
+E.~B. Bogomolny.
+\newblock {\em Nonlinearity}, {\bf 5}:805--866, 1992.
+
+\bibitem{bim1}
+C.~A. Brebbia, editor.
+\newblock {\em Progress in Boundary Element Methods}, volume~1. Halstead Press,
+  1981.
+
+\bibitem{bunimovich}
+L.~A. Bunimovich.
+\newblock {\em Sov. Phys. JETP}, {\bf 62}:842, 1985.
+
+\bibitem{LB3}
+M.~{B\"{u}ttiker}.
+\newblock {\em Phys. Rev. Lett.}, {\bf 57}:1761, 1986.
+
+\bibitem{highspeed}
+{by the staff of Engineering Research Associates, Inc.}
+\newblock {\em High-speed computing devices}.
+\newblock McGraw-Hill, 1950.
+
+\bibitem{1Deffects}
+T.~Cheon and T.~Shigehara.
+\newblock {\em Phys. Rev. Lett.}, {\bf 82}:2536, 1999.
+
+\bibitem{churev}
+S.~Chu.
+\newblock {\em Rev. Mod. Phys.}, {\bf 70}:685, 1998.
+
+\bibitem{doronfrc}
+D.~Cohen.
+\newblock Chaos and energy spreading for time-dependent hamiltonians, and the
+  various regimes in the theory of quantum dissipation.
+\newblock {\em Ann. Phys.}, 1999.
+
+\bibitem{pnm}
+D.~Cohen, A.~H. Barnett, W.~Bies, and E.~J. Heller.
+\newblock Parametric evolution for a deformed cavity.
+\newblock {\em {submitted to Phys. Rev. E}}, August 2000.
+\newblock preprint {\tt nlin.CD/0008040}.
+
+\bibitem{cctrev}
+C.~Cohen-Tannoudji.
+\newblock {\em Rev. Mod. Phys.}, {\bf 70}:707, 1998.
+
+\bibitem{datta}
+S.~Datta.
+\newblock {\em Electronic Transport in Mesoscopic Systems}.
+\newblock Cambridge University Press, NY, 1995.
+
+\bibitem{FEreview}
+J.~B. Davies.
+\newblock Finite element analysis of waveguides and cavities -- a review.
+\newblock {\em IEEE Transactions on Magnetics}, {\bf 29}(2):1578, 1993.
+
+\bibitem{dittrich}
+T.~Dittrich, P.~{H\"{a}nggi}, G.-L. Ingold, B.~Kramer, G.~{Sch\"{o}n}, and
+  W.~Zwerger.
+\newblock {\em Quantum Transport and Dissipation}.
+\newblock Wiley-VCH, Weinheim, 1998.
+
+\bibitem{qkr}
+S.~Fishman.
+\newblock In G.~Casati, I.~Guarneri, and U.~Smilansky, editors, {\em
+  Proceedings of the International School of Physics ``Enrico Fermi'', Course
+  CXIX}. North-Holland, 1993.
+
+\bibitem{golub+vanloan}
+G.~H. Golub and C.~F.~Van Loan.
+\newblock {\em Matrix computations}.
+\newblock Academic Press, 2nd edition, 1989.
+
+\bibitem{Heller84}
+E.~J. Heller.
+\newblock Bound state eigenfunctions of classically chaotic hamiltonian
+  systems: Scars of periodic orbits.
+\newblock {\em Phys. Rev. Lett.}, {\bf 53}:1515, 1984.
+
+\bibitem{hellerleshouches}
+E.~J. Heller.
+\newblock Semiclassical wave packet dynamics and chaos in quantum mechanics.
+\newblock In M.~J. Giannoni, A.~Voros, and J.~Zinn-Justin, editors, {\em
+  Proceedings of the 1989 Les Houches Summer School on ``Chaos and Quantum
+  Physics''}, pages 547--663, North-Holland, 1991. Elsevier Science Publishers
+  B.V.
+
+\bibitem{jarz92}
+C.~Jarzynski.
+\newblock Diffusion equation for energy in ergodic adiabatic ensembles.
+\newblock {\em Phys. Rev. A}, {\bf 46}:7498--7509, 1992.
+
+\bibitem{jarz93}
+C.~Jarzynski.
+\newblock Energy diffusion in a chaotic adiabatic billiard gas.
+\newblock {\em Phys. Rev. E}, {\bf 48}:4340--50, 1993.
+
+\bibitem{kati97}
+J.~A. Katine, M.~A. Eriksson, A.~S. Adourian, R.~M. Westervelt, J.~D. Edwards,
+  A.~Lupu-Sax, E.~J. Heller, K.~L. Campman, and A.~C. Gossard.
+\newblock {\em Phys. Rev. Lett.}, {\bf 79}:4806, 1997.
+
+\bibitem{1Dbec}
+W.~Ketterle and N.J. van Druten.
+\newblock {\em Phys. Rev. A}, {\bf 54}:656, 1996.
+
+\bibitem{kooninqm}
+S.~E. Koonin, R.~L. Hatch, and J.~Randrup.
+\newblock One-body dissipation in a linear response approach.
+\newblock {\em Nucl. Phys. A}, {\bf 283}:87--107, 1977.
+
+\bibitem{koonincl}
+S.~E. Koonin and J.~Randrup.
+\newblock Classical theory for one-body nuclear dynamics.
+\newblock {\em Nucl. Phys. A}, {\bf 289}:475--510, 1977.
+
+\bibitem{bim2}
+I.~Kosztin and K.~Schulten.
+\newblock {\em Intl. J. Mod. Phys.}, {\bf 8}:293--325, 1997.
+\newblock preprint {\tt physics/9702022}.
+
+\bibitem{lanczos}
+C.~Lanczos.
+\newblock {\em J. Res. Nat. Bur. Standards}, {\bf 45}:255--281, 1950.
+
+\bibitem{LB1}
+R.~Landauer.
+\newblock {\em IBM J. Res. Dev.}, {\bf 1}:233, 1957.
+
+\bibitem{LB2}
+R.~Landauer.
+\newblock {\em Z. Phys. B}, {\bf 68}:217, 1987.
+
+\bibitem{macdonald}
+S.~W. McDonald and A.~N. Kaufman.
+\newblock {\em Phys. Rev. Lett.}, {\bf 42}:1189, 1979.
+
+\bibitem{interf}
+M.~A. Olshanii.
+\newblock {\em Laser Physics}, {\bf 4}:995, 1994.
+
+\bibitem{Maxim}
+M.~A. Olshanii.
+\newblock {\em Phys. Rev. Lett.}, {\bf 81}:938, 1998.
+
+\bibitem{ottbook}
+E.~Ott.
+\newblock {\em Chaos in dynamical systems}.
+\newblock Cambridge University Press, NY, 1993.
+
+\bibitem{billrev}
+W.~D. Phillips.
+\newblock {\em Rev. Mod. Phys.}, {\bf 70}:721, 1998.
+
+\bibitem{numrec}
+W.~H. Press, S.~A. Teukolsky, W.~T. Vetterling, and B.~P. Flannery.
+\newblock {\em Numerical Recipes in C}.
+\newblock Cambridge University Press, second edition, 1992.
+\newblock Note that I recommend this only as a textbook as an introduction to
+  concepts in numerical methods; I do not endorse the code examples.
+
+\bibitem{joseph}
+J.~H. Thywissen, M.~Olshanii, G.~Zabow, M.~{Drndi\'{c}}, K.~S. Johnson, R.~M.
+  Westervelt, and M.~Prentiss.
+\newblock {\em Euro. Phys. J. D}, {\bf 7}:261, 1999.
+
+\bibitem{josephqpc}
+J.~H. Thywissen, R.~M. Westervelt, and M.~Prentiss.
+\newblock {\em Phys. Rev. Lett.}, {\bf 83}:3762, 1999.
+
+\bibitem{topinka}
+M.~A. Topinka, B.~J. LeRoy, R.~M. Westervelt, S.~E.~J. Shaw, E.~J. Heller,
+  K.~M. Maranowski, and A.~C. Gossard.
+\newblock {\em Science (to be published)}, September 2000.
+
+\bibitem{verginithesis}
+E.~Vergini.
+\newblock {\em Estudio Cu\'{a}ntico y Semicl\'{a}sico de Billares
+  Cl\'{a}sicamente Ca\'{o}ticos}.
+\newblock PhD thesis, Universidad de Buenos Aires, 1995.
+
+\bibitem{v+s}
+E.~Vergini and M.~Saraceno.
+\newblock Calculation by scaling of highly excited states of billiards.
+\newblock {\em Phys. Rev. E}, {\bf 52}:2204--2207, 1995.
+
+\end{thebibliography}

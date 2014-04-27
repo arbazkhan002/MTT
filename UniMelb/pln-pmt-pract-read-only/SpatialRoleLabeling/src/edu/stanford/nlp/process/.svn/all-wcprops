@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process
+END
+PTB2TextLexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process/PTB2TextLexer.java
+END
+PTBTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process/PTBTokenizer.java
+END
+CoreTokenFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process/CoreTokenFactory.java
+END
+CoreLabelTokenFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process/CoreLabelTokenFactory.java
+END
+PTBLexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process/PTBLexer.java
+END
+DocumentPreprocessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process/DocumentPreprocessor.java
+END
+Morpha.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process/Morpha.java
+END
+WhitespaceTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process/WhitespaceTokenizer.java
+END
+Americanize.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process/Americanize.java
+END
+LexedTokenFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process/LexedTokenFactory.java
+END
+TransformXML.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process/TransformXML.java
+END
+WhitespaceLexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process/WhitespaceLexer.java
+END
+AbstractTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process/AbstractTokenizer.java
+END
+Morphology.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process/Morphology.java
+END
+WordShapeClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process/WordShapeClassifier.java
+END
+PTBLexer.flex
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process/PTBLexer.flex
+END
+WordToSentenceProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process/WordToSentenceProcessor.java
+END
+WordTokenFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process/WordTokenFactory.java
+END
+Tokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process/Tokenizer.java
+END
+ListProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process/ListProcessor.java
+END
+TokenizerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/process/TokenizerAdapter.java
+END

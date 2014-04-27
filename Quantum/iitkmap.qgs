@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>423001.394825</xmin>
-            <ymin>2931789.173031</ymin>
-            <xmax>424377.567449</xmax>
-            <ymax>2932640.306822</ymax>
+            <xmin>422891.146764</xmin>
+            <ymin>2931726.117518</ymin>
+            <xmax>424725.799633</xmax>
+            <ymax>2932860.811687</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -64,9 +64,9 @@
                 <legendlayerfile isInOverview="0" layerid="hostel20140111181046736" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="salience" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="salience" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="salience20131219225804463" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="salience20131219225804463" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Hostel" showFeatureCount="0">
@@ -1839,7 +1839,7 @@
                     </symbol>
                 </symbols>
                 <rotation field=""/>
-                <sizescale field="" scalemethod=""/>
+                <sizescale field="" scalemethod="area"/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -1956,9 +1956,9 @@
             <edittypes>
                 <edittype type="0" name="id"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>

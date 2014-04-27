@@ -1,0 +1,9047 @@
+About IN
+20 CD
+kids NNS
+in IN
+traditional JJ
+clothing NN
+and CC
+hats NNS
+waiting VBG
+on IN
+stairs NNS
+. VBP
+a DT
+house NN
+and CC
+a DT
+green JJ
+wall NN
+with IN
+gate NN
+in IN
+the DT
+background NN
+. CD
+a DT
+sign NN
+saying VBG
+that IN
+plants NNS
+can't VBP
+be VB
+picked VBN
+up RP
+on IN
+the DT
+right JJ
+. NN
+a DT
+rock NN
+hole NN
+in IN
+the DT
+ground NN
+surrounded VBN
+by IN
+sand NN
+. CD
+one CD
+man NN
+in IN
+a DT
+white JJ
+tee-shirt NN
+, ,
+grey JJ
+pants NNS
+and CC
+a DT
+white JJ
+cap NN
+is VBZ
+holding VBG
+a DT
+shovel NN
+, ,
+the DT
+other JJ
+one CD
+is VBZ
+wearing VBG
+black JJ
+pants NNS
+, ,
+a DT
+white JJ
+jumper NN
+and CC
+a DT
+traditional JJ
+hat NN
+, ,
+is VBZ
+walking VBG
+towards IN
+him PRP
+. VBP
+a DT
+yellow JJ
+building NN
+with IN
+white JJ
+columns NNS
+in IN
+the DT
+background NN
+. CD
+two CD
+palm NN
+trees NNS
+in IN
+front NN
+of IN
+the DT
+house NN
+. NN
+cars NNS
+parked VBN
+in IN
+front NN
+of IN
+the DT
+house NN
+. CD
+a DT
+woman NN
+and CC
+a DT
+child NN
+are VBP
+walking VBG
+over IN
+the DT
+square NN
+. CD
+a DT
+large JJ
+building NN
+on IN
+the DT
+left VBN
+, ,
+a DT
+palm NN
+tree NN
+in IN
+centre NN
+of IN
+picture NN
+, ,
+( (
+mostly RB
+) )
+white JJ
+cars NNS
+in IN
+the DT
+street NN
+at IN
+a DT
+junction NN
+, ,
+some DT
+of IN
+them PRP
+turning VBG
+left VBD
+, ,
+others NNS
+going VBG
+straight RB
+. CD
+there EX
+are VBP
+red JJ
+umbrellas NNS
+in IN
+a DT
+park NN
+on IN
+the DT
+right JJ
+. NN
+people NNS
+are VBP
+walking VBG
+through IN
+the DT
+park NN
+, ,
+others NNS
+are VBP
+crossing VBG
+the DT
+road NN
+in IN
+the DT
+foreground NN
+. CD
+a DT
+white JJ
+, ,
+large JJ
+statue NN
+with IN
+spread NN
+arms NNS
+on IN
+a DT
+hill NN
+. CD
+picture NN
+taken VBN
+from IN
+behind IN
+. JJ
+bushes NNS
+and CC
+small JJ
+trees NNS
+on IN
+the DT
+hill NN
+. NN
+street NN
+leading VBG
+up RP
+the DT
+hill NN
+. NN
+there EX
+are VBP
+white JJ
+clouds NNS
+in IN
+the DT
+blue JJ
+sky NN
+. CD
+View NNP
+of IN
+a DT
+city NN
+with IN
+many JJ
+dark JJ
+green JJ
+trees NNS
+and CC
+white JJ
+houses NNS
+with IN
+red JJ
+roofs NNS
+. VBP
+there EX
+are VBP
+a DT
+few JJ
+high-rise JJ
+buildings NNS
+and CC
+a DT
+stadium NN
+in IN
+the DT
+centre NN
+. VBD
+a DT
+cascading VBG
+waterfall NN
+in IN
+the DT
+middle NN
+of IN
+the DT
+jungle NN
+. NN
+front JJ
+view NN
+with IN
+pool NN
+of IN
+dirty JJ
+water NN
+in IN
+the DT
+foreground NN
+. CD
+a DT
+man NN
+in IN
+a DT
+red JJ
+tee-shirt NN
+and CC
+a DT
+woman NN
+carrying VBG
+a DT
+red JJ
+bag NN
+are VBP
+watching VBG
+some DT
+waterfalls NNS
+on IN
+a DT
+lookout NN
+in IN
+the DT
+foreground NN
+. CD
+green JJ
+trees NNS
+, ,
+black JJ
+rocks NNS
+and CC
+a DT
+grey NN
+sky NN
+in IN
+the DT
+background NN
+. CD
+View NNP
+of IN
+giant JJ
+, ,
+thunderous JJ
+waterfalls NNS
+over IN
+a DT
+u-shaped JJ
+cliff NN
+. CD
+white JJ
+clouds NNS
+in IN
+a DT
+blue JJ
+sky NN
+in IN
+the DT
+background NN
+. CD
+a DT
+long JJ
+dam NN
+with IN
+high JJ
+voltage NN
+pylons NNS
+. VBP
+a DT
+blue JJ
+sky NN
+with IN
+white JJ
+fleecy NN
+clouds NNS
+in IN
+the DT
+background NN
+. VBZ
+A DT
+narrow JJ
+, ,
+rising VBG
+street NN
+with IN
+colourful JJ
+houses NNS
+on IN
+both DT
+sides NNS
+, ,
+among IN
+them PRP
+a DT
+green JJ
+house NN
+with IN
+balconies NNS
+and CC
+a DT
+white JJ
+car NN
+parked VBN
+in IN
+front NN
+of IN
+it PRP
+, ,
+and CC
+a DT
+blue-and-white JJ
+church NN
+on IN
+the DT
+right JJ
+. CD
+one CD
+car NN
+is VBZ
+going VBG
+up RP
+the DT
+street NN
+. NN
+there EX
+are VBP
+a DT
+few JJ
+people NNS
+in IN
+the DT
+street NN
+and CC
+a DT
+large JJ
+thundercloud NN
+in IN
+the DT
+background NN
+. CD
+two CD
+light JJ
+brown JJ
+church NN
+towers NNS
+with IN
+pinnacles NNS
+on IN
+all DT
+four CD
+sides NNS
+. VBP
+the DT
+left VBN
+tower NN
+with IN
+windows NNS
+, ,
+the DT
+right JJ
+tower NN
+also RB
+with IN
+a DT
+clock NN
+. CD
+the DT
+artful JJ
+central JJ
+nave NN
+is VBZ
+a DT
+bit NN
+darker JJR
+and CC
+has VBZ
+a DT
+cross NN
+on IN
+top JJ
+. CD
+View NNP
+of IN
+an DT
+old JJ
+town NN
+of IN
+a DT
+city NN
+with IN
+its PRP$
+colourful JJ
+buidings NNS
+and CC
+two CD
+churches NNS
+from IN
+one CD
+of IN
+its PRP$
+alleys NNS
+in IN
+the DT
+shade NN
+. VBZ
+the DT
+towers NNS
+of IN
+the DT
+churches NNS
+are VBP
+still RB
+in IN
+the DT
+sun NN
+, ,
+the DT
+rest NN
+in IN
+already RB
+in IN
+the DT
+shade NN
+. CD
+a DT
+white JJ
+and CC
+blue JJ
+church NN
+, ,
+with IN
+only RB
+the DT
+two CD
+towers NNS
+in IN
+the DT
+sun NN
+, ,
+the DT
+rest NN
+in IN
+the DT
+shade NN
+. CD
+view NN
+from IN
+the DT
+side NN
+, ,
+with IN
+the DT
+old JJ
+town NN
+of IN
+a DT
+city NN
+in IN
+the DT
+background NN
+. NN
+against-the-light JJ
+photograph NN
+of IN
+a DT
+beach NN
+at IN
+sunset NN
+. CD
+some DT
+clouds NNS
+in IN
+the DT
+sky NN
+. NN
+there EX
+are VBP
+people NNS
+at IN
+the DT
+beach NN
+and CC
+palm NN
+trees NNS
+in IN
+the DT
+background NN
+. NN
+against-the-light JJ
+photograph NN
+of IN
+a DT
+large JJ
+, ,
+grey JJ
+building NN
+with IN
+many JJ
+arches NNS
+and CC
+columns NNS
+and CC
+a DT
+small JJ
+tower NN
+with IN
+pinnacles NNS
+. VBP
+the DT
+Paraguayan JJ
+flag NN
+is VBZ
+waving VBG
+on IN
+top NN
+of IN
+the DT
+building NN
+. NN
+there EX
+are VBP
+dark JJ
+palms NNS
+in IN
+the DT
+foreground NN
+and CC
+a DT
+blue JJ
+sky NN
+in IN
+the DT
+background NN
+. CD
+steam NN
+ship NN
+in IN
+a DT
+lake NN
+, ,
+docked VBD
+. CD
+the DT
+flag NN
+of IN
+Paraguay NNP
+at IN
+the DT
+bow NN
+of IN
+the DT
+ship NN
+. VBD
+a DT
+blue JJ
+sky NN
+in IN
+the DT
+background NN
+. CD
+a DT
+grey NN
+building NN
+with IN
+many JJ
+columns NNS
+and CC
+arches NNS
+and CC
+the DT
+modern JJ
+high-rise JJ
+buildings NNS
+of IN
+a DT
+city NN
+with IN
+a DT
+blue JJ
+sky NN
+in IN
+the DT
+background NN
+. CD
+a DT
+black JJ
+steam NN
+engine NN
+with IN
+one CD
+wagon NN
+. NN
+trees NNS
+in IN
+the DT
+background NN
+. CD
+Four CD
+locals NNS
+are VBP
+sitting VBG
+on IN
+a DT
+bench NN
+in IN
+a DT
+canteen JJ
+kitchen NN
+, ,
+leaning VBG
+on IN
+a DT
+red JJ
+brick NN
+wall NN
+. CD
+the DT
+three CD
+women NNS
+are VBP
+wearing VBG
+skirts VBZ
+, ,
+wests NNS
+and CC
+hats NNS
+, ,
+one CD
+of IN
+them PRP
+is VBZ
+holding VBG
+a DT
+yellow JJ
+plastic NN
+bag NN
+. CD
+the DT
+man NN
+is VBZ
+wearing VBG
+trousers NNS
+, ,
+a DT
+shirt NN
+and CC
+a DT
+cap NN
+. NN
+Against-the-light JJ
+photograph NN
+of IN
+a DT
+gate NN
+in IN
+the DT
+shade NN
+, ,
+with IN
+towers NNS
+to TO
+its PRP$
+left JJ
+and CC
+right JJ
+. NN
+there EX
+are VBP
+dark JJ
+trees NNS
+in IN
+the DT
+foreground NN
+and CC
+a DT
+blue JJ
+sky NN
+in IN
+the DT
+background NN
+. NN
+well RB
+exposed VBN
+front JJ
+view NN
+of IN
+the DT
+cathedral NN
+in IN
+Asuncion NNP
+. CD
+two CD
+towers NNS
+with IN
+flags NNS
+, ,
+three CD
+arched JJ
+entry NN
+gates NNS
+, ,
+large JJ
+central JJ
+ave NN
+with IN
+several JJ
+pinnacles NNS
+and CC
+a DT
+cross NN
+on IN
+top JJ
+. NN
+there EX
+is VBZ
+a DT
+clock NN
+on IN
+the DT
+right JJ
+tower NN
+. NN
+streetlamps NNS
+at IN
+the DT
+middle JJ
+gate NN
+and CC
+at IN
+the DT
+corners NNS
+. JJ
+bells NNS
+visible JJ
+in IN
+both DT
+towers NNS
+. VBP
+a DT
+fountain NN
+and CC
+cobbled VBD
+walkway NN
+in IN
+the DT
+foreground NN
+, ,
+a DT
+pink JJ
+and CC
+white JJ
+buidling NN
+with IN
+many JJ
+arches NNS
+in IN
+the DT
+background NN
+. NN
+trees NNS
+on IN
+the DT
+right JJ
+. CD
+a DT
+white JJ
+building NN
+with IN
+lots NNS
+of IN
+columns NNS
+and CC
+arches NNS
+, ,
+a DT
+neat JJ
+lawn NN
+and CC
+neatly RB
+cut VB
+trees NNS
+and CC
+bushes NNS
+in IN
+the DT
+foreground NN
+. VBZ
+the DT
+flag NN
+of IN
+Paraguay NNP
+is VBZ
+waving VBG
+at IN
+the DT
+top NN
+of IN
+the DT
+building NN
+. NN
+there EX
+is VBZ
+a DT
+flower NN
+bed NN
+on IN
+the DT
+left VBN
+. CD
+a DT
+very RB
+modern JJ
+building NN
+. NN
+stairs NNS
+are VBP
+leading VBG
+up IN
+to TO
+the DT
+entrance NN
+. VBZ
+the DT
+walls NNS
+are VBP
+entirely RB
+made VBN
+of IN
+glass NN
+. CD
+one CD
+red JJ
+huge JJ
+column NN
+is VBZ
+supporting VBG
+the DT
+big JJ
+roof NN
+. NN
+rails NNS
+in IN
+the DT
+foreground NN
+. CD
+a DT
+green JJ
+tree NN
+on IN
+the DT
+left VBN
+. NN
+two CD
+lane NN
+street NN
+with IN
+large JJ
+shops NNS
+on IN
+the DT
+right NN
+and CC
+smaller JJR
+shops NNS
+on IN
+the DT
+left JJ
+. NN
+people NNS
+are VBP
+walking VBG
+on IN
+the DT
+sidewalk NN
+, ,
+some DT
+are VBP
+crossing VBG
+the DT
+street NN
+. NN
+cars NNS
+are VBP
+parked VBN
+along IN
+the DT
+left JJ
+side NN
+of IN
+the DT
+street NN
+as RB
+well RB
+. CD
+an DT
+avenue NN
+with IN
+seven CD
+yellow JJ
+taxis NNS
+lined VBD
+up RP
+on IN
+the DT
+right JJ
+side NN
+. CD
+some DT
+drivers NNS
+are VBP
+waiting VBG
+for IN
+customers NNS
+outside IN
+of IN
+their PRP$
+taxis NNS
+. JJ
+green JJ
+trees NNS
+behind IN
+them PRP
+. VBP
+a DT
+swimming VBG
+pool NN
+with IN
+sun NN
+chairs NNS
+on IN
+a DT
+terrace NN
+in IN
+the DT
+foreground NN
+. CD
+a DT
+flat JJ
+landscape NN
+with IN
+green JJ
+trees NNS
+and CC
+houses NNS
+in IN
+the DT
+background NN
+. NN
+Several JJ
+flagpoles NNS
+with IN
+waving VBG
+flags NNS
+on IN
+a DT
+green JJ
+lawn NN
+in IN
+the DT
+foreground NN
+. CD
+a DT
+large JJ
+grey NN
+and CC
+black JJ
+building NN
+behind IN
+it PRP
+. CD
+a DT
+huge JJ
+column NN
+with IN
+a DT
+football NN
+on IN
+top NN
+on IN
+the DT
+left VBN
+. CD
+a DT
+blue JJ
+sky NN
+with IN
+white JJ
+clouds NNS
+in IN
+the DT
+background NN
+. NN
+Front NNP
+view NN
+of IN
+a DT
+huge JJ
+dam NN
+. NN
+water NN
+is VBZ
+flowing VBG
+through IN
+one CD
+tiny JJ
+spot NN
+. NN
+backwater NN
+is VBZ
+flowing VBG
+off RP
+on IN
+the DT
+left VBN
+. NN
+green JJ
+reed NN
+in IN
+the DT
+foreground NN
+. CD
+Rock NNP
+singer NN
+wearing VBG
+yellow JJ
+pants NNS
+and CC
+a DT
+red JJ
+T-shirt NNS
+on IN
+a DT
+stage NN
+. JJ
+view NN
+from IN
+behind IN
+. JJ
+crowd NN
+is VBZ
+cheering VBG
+in IN
+the DT
+background NN
+. CD
+Group NNP
+of IN
+tourists NNS
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+buildilng NN
+. CD
+each DT
+of IN
+them PRP
+is VBZ
+holding VBG
+a DT
+leaflet NN
+und NN
+some DT
+pens NNS
+. CD
+three CD
+locals NNS
+are VBP
+standing VBG
+in IN
+the DT
+middle NN
+of IN
+all PDT
+the DT
+people NNS
+, ,
+one CD
+of IN
+them PRP
+is VBZ
+holding VBG
+a DT
+box NN
+. CD
+traditional JJ
+country NN
+house NN
+on IN
+the DT
+left VBN
+. CD
+some DT
+rocks NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+gravel JJ
+road NN
+in IN
+the DT
+foreground NN
+. CD
+Two CD
+adults NNS
+and CC
+four CD
+local JJ
+boys NNS
+are VBP
+standing VBG
+in IN
+front NN
+of IN
+a DT
+white JJ
+house NN
+with IN
+two CD
+trellised JJ
+windows NNS
+. CD
+three CD
+boys NNS
+are VBP
+standing VBG
+, ,
+one CD
+is VBZ
+kneeing VBG
+down RP
+. CD
+adults NNS
+are VBP
+holding VBG
+shoulders NNS
+of IN
+boys NNS
+. CD
+one CD
+boy NN
+is VBZ
+holding VBG
+a DT
+sweeper NN
+. CD
+Nine CD
+children NNS
+, ,
+some DT
+of IN
+them PRP
+waving VBG
+at IN
+the DT
+camera NN
+, ,
+others NNS
+are VBP
+a DT
+bit NN
+shy JJ
+and CC
+are VBP
+looking VBG
+away RB
+. CD
+one CD
+person NN
+is VBZ
+pointing VBG
+to TO
+the DT
+camera NN
+. CD
+Construction NNP
+site NN
+, ,
+bare JJ
+brickwork NN
+. CD
+one CD
+worker NN
+is VBZ
+standing VBG
+on IN
+rails NNS
+, ,
+the DT
+other JJ
+one CD
+is VBZ
+leaning VBG
+against IN
+an DT
+unfinished JJ
+brick NN
+wall NN
+. CD
+Close RB
+up RP
+picture NN
+of IN
+the DT
+Itaipu NNP
+Dam NNP
+. NN
+backwater NN
+is VBZ
+flowing VBG
+off RP
+in IN
+the DT
+foreground NN
+. CD
+two CD
+men NNS
+are VBP
+standing VBG
+on IN
+a DT
+lawn NN
+in IN
+front NN
+of IN
+a DT
+light JJ
+brown JJ
+house NN
+with IN
+blue JJ
+corners NNS
+. VBP
+School NNP
+kids NNS
+on IN
+a DT
+grey JJ
+square NN
+, ,
+some DT
+are VBP
+dressed VBN
+in IN
+dark JJ
+blue NN
+, ,
+others NNS
+in IN
+orange JJ
+. CD
+one CD
+person NN
+dressed VBN
+in IN
+orange NN
+is VBZ
+standing VBG
+opposite IN
+the DT
+line NN
+up RP
+, ,
+leading VBG
+the DT
+group NN
+. CD
+two CD
+light JJ
+blue JJ
+houses NNS
+behind IN
+them PRP
+with IN
+a DT
+steep JJ
+hill NN
+in IN
+the DT
+background NN
+. CD
+a DT
+woman NN
+is VBZ
+sitting VBG
+at IN
+table NN
+in IN
+the DT
+middle NN
+of IN
+a DT
+schoolyard JJ
+. NN
+there EX
+are VBP
+many JJ
+books NNS
+on IN
+the DT
+table NN
+. CD
+two CD
+people NNS
+are VBP
+sitting VBG
+next JJ
+to TO
+her PRP
+, ,
+six CD
+others NNS
+are VBP
+standing VBG
+about IN
+ten JJ
+metres NNS
+away RB
+from IN
+the DT
+table NN
+. CD
+four CD
+boys NNS
+, ,
+one CD
+drinking NN
+from IN
+a DT
+cup NN
+, ,
+one CD
+wearing VBG
+an DT
+army NN
+cap NN
+and CC
+waving VBG
+, ,
+the DT
+one CD
+in IN
+the DT
+focus NN
+wearing VBG
+a DT
+beanie NN
+, ,
+a DT
+jumper NN
+and CC
+smiling VBG
+into IN
+the DT
+camera NN
+, ,
+and CC
+the DT
+fourth JJ
+wearing VBG
+a DT
+cap NN
+and CC
+carrying VBG
+a DT
+wooden JJ
+crate NN
+. CD
+four CD
+school NN
+kids NNS
+are VBP
+smiling VBG
+into IN
+the DT
+camera NN
+in IN
+the DT
+foreground NN
+. CD
+more JJR
+kids NNS
+in IN
+the DT
+background NN
+, ,
+some DT
+are VBP
+leaning VBG
+on IN
+the DT
+school NN
+wall NN
+, ,
+others NNS
+are VBP
+running VBG
+around IN
+. JJ
+Young JJ
+girl NN
+wearing VBG
+a DT
+red JJ
+trainer NN
+with IN
+blue JJ
+and CC
+white JJ
+sleeves NNS
+is VBZ
+bending VBG
+down RP
+to TO
+two CD
+old JJ
+ladies NNS
+. CD
+one CD
+of IN
+them PRP
+is VBZ
+stroking VBG
+the DT
+girl's NNS
+face VBP
+with IN
+her PRP$
+right JJ
+hand NN
+. CD
+five CD
+women NNS
+in IN
+a DT
+kitchen NN
+, ,
+two CD
+of IN
+them PRP
+are VBP
+preparing VBG
+some DT
+food NN
+using VBG
+four CD
+bowls VBZ
+, ,
+two CD
+are VBP
+standing VBG
+behind IN
+them PRP
+( (
+and CC
+one CD
+next JJ
+to TO
+them PRP
+) )
+and CC
+are VBP
+watching VBG
+. NN
+Santa NNP
+Claus NNP
+in IN
+middle NN
+of IN
+excited JJ
+kids NNS
+. VBP
+a DT
+woman NN
+with IN
+a DT
+present NN
+in IN
+the DT
+background NN
+. CD
+Three CD
+social JJ
+workers NNS
+and CC
+about IN
+ten JJ
+local JJ
+kids NNS
+in IN
+a DT
+room NN
+with IN
+dark JJ
+and CC
+light JJ
+blue JJ
+walls NNS
+. CD
+one CD
+of IN
+the DT
+workers NNS
+is VBZ
+sitting VBG
+and CC
+talking VBG
+to TO
+the DT
+kids NNS
+. VBP
+the DT
+other JJ
+two CD
+are VBP
+just RB
+arriving VBG
+or CC
+listening VBG
+. CD
+one CD
+kid NN
+is VBZ
+a DT
+bit NN
+left VBD
+out RP
+, ,
+sitting VBG
+alone RB
+on IN
+a DT
+desk NN
+and CC
+looking VBG
+the DT
+other JJ
+way NN
+. CD
+two CD
+tourists NNS
+, ,
+both DT
+of IN
+them PRP
+wearing VBG
+backpacks NNS
+, ,
+are VBP
+visiting VBG
+a DT
+school NN
+with IN
+ten JJ
+pupils NNS
+. VBP
+the DT
+woman NN
+is VBZ
+wearing VBG
+brown JJ
+shorts NNS
+and CC
+a DT
+yellow JJ
+sleveless NN
+top NN
+. CD
+the DT
+man NN
+is VBZ
+wearing VBG
+long JJ
+black JJ
+pants NNS
+and CC
+a DT
+blue JJ
+shirt NN
+. CD
+A DT
+school NN
+kid NN
+is VBZ
+sitting VBG
+at IN
+a DT
+desk NN
+, ,
+smiling VBG
+into IN
+the DT
+camera NN
+and CC
+being VBG
+offered VBN
+a DT
+red JJ
+apple NN
+. CD
+three CD
+other JJ
+kids NNS
+in IN
+the DT
+background NN
+. CD
+Four CD
+tourists NNS
+are VBP
+sitting VBG
+on IN
+a DT
+bus NN
+. CD
+two CD
+women NNS
+in IN
+the DT
+front JJ
+row NN
+with IN
+their PRP$
+heads NNS
+turned VBD
+around RP
+. CD
+another DT
+one CD
+in IN
+the DT
+second JJ
+row NN
+looking VBG
+out RP
+the DT
+window NN
+. NN
+and CC
+one CD
+man NN
+with IN
+sunglasses NNS
+in IN
+the DT
+very RB
+last JJ
+row NN
+, ,
+looking VBG
+out RP
+the DT
+window NN
+too RB
+. VBZ
+A DT
+tourist NN
+group NN
+is VBZ
+visiting VBG
+a DT
+school NN
+. CD
+the DT
+school NN
+kids NNS
+are VBP
+sitting VBG
+at IN
+their PRP$
+desks NNS
+, ,
+singing VBG
+a DT
+song NN
+and CC
+clapping VBG
+their PRP$
+hands NNS
+, ,
+with IN
+their PRP$
+teacher NN
+clapping VBG
+as RB
+well RB
+. CD
+six CD
+of IN
+the DT
+tourists NNS
+are VBP
+standing VBG
+behind IN
+them PRP
+and CC
+are VBP
+watching VBG
+them PRP
+, ,
+one CD
+tourist NN
+is VBZ
+taking VBG
+a DT
+photo JJ
+. NN
+Three CD
+women NNS
+are VBP
+sitting VBG
+on IN
+a DT
+wooden JJ
+bench NN
+in IN
+front NN
+of IN
+an DT
+about IN
+one CD
+metre NN
+high JJ
+, ,
+red JJ
+brick NN
+wall NN
+. CD
+they PRP
+are VBP
+all DT
+wearing VBG
+skirts VBZ
+and CC
+jumpers NNS
+with IN
+gilets NNS
+. CD
+two CD
+of IN
+them PRP
+are VBP
+wearing VBG
+a DT
+hat NN
+too RB
+. CD
+one CD
+man NN
+is VBZ
+standing VBG
+behind IN
+the DT
+wall NN
+. CD
+a DT
+wooden JJ
+door NN
+on IN
+the DT
+left NN
+is VBZ
+being VBG
+held VBN
+open JJ
+by IN
+a DT
+red JJ
+brick NN
+. CD
+photo NN
+of IN
+a DT
+classroom NN
+with IN
+some DT
+kids NNS
+sitting VBG
+at IN
+their PRP$
+desks NNS
+, ,
+others NNS
+standing VBG
+at IN
+their PRP$
+desks NNS
+, ,
+waving VBG
+into IN
+the DT
+camera NN
+, ,
+laughing VBG
+. CD
+two CD
+kids NNS
+are VBP
+eating VBG
+their PRP$
+lunch NN
+in IN
+the DT
+foreground NN
+. NN
+there EX
+is VBZ
+a DT
+wooden JJ
+wall NN
+with IN
+pictures NNS
+of IN
+two CD
+comic JJ
+figures NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+large JJ
+, ,
+black JJ
+plastic NN
+bag NN
+with IN
+four CD
+packs NNS
+of IN
+pasta NN
+, ,
+a DT
+folder NN
+, ,
+a DT
+leaflet NN
+, ,
+a DT
+small JJ
+book NN
+and CC
+cacao NN
+powder NN
+on IN
+a DT
+table NN
+. NN
+there EX
+is VBZ
+a DT
+second JJ
+, ,
+empty JJ
+table NN
+in IN
+the DT
+background NN
+. CD
+six CD
+kids NNS
+are VBP
+sitting VBG
+around IN
+a DT
+table NN
+and CC
+playing VBG
+with IN
+toy NN
+cars NNS
+. CD
+one CD
+kid NN
+is VBZ
+standing VBG
+next JJ
+to TO
+the DT
+table NN
+. CD
+a DT
+woman NN
+is VBZ
+holding VBG
+a DT
+black JJ
+plastic NN
+bag NN
+on IN
+the DT
+left VBN
+. NN
+three CD
+tourists NNS
+in IN
+the DT
+background NN
+are VBP
+talking VBG
+to TO
+each DT
+other JJ
+. NN
+panorama NN
+view NN
+of IN
+houses NNS
+in IN
+La NNP
+Paz NNP
+. CD
+red JJ
+roofed JJ
+houses NNS
+in IN
+the DT
+foreground NN
+, ,
+with IN
+a DT
+hill NN
+and CC
+rugged JJ
+rocks NNS
+in IN
+the DT
+background NN
+. CD
+photo NN
+of IN
+eleven JJ
+school NN
+kids NNS
+and CC
+three CD
+tourists NNS
+behind IN
+them PRP
+. CD
+a DT
+basketball NN
+court NN
+in IN
+the DT
+background NN
+, ,
+with IN
+one CD
+kid NN
+standing VBG
+below IN
+the DT
+basket NN
+. CD
+a DT
+large JJ
+mountain NN
+in IN
+the DT
+distant JJ
+background NN
+. CD
+Lots NNS
+of IN
+locals NNS
+( (
+both DT
+kids NNS
+and CC
+adults NNS
+) )
+in IN
+front NN
+of IN
+a DT
+blue JJ
+building NN
+. CD
+one CD
+kid NN
+is VBZ
+about IN
+to TO
+slide VB
+down RP
+the DT
+slide NN
+, ,
+with IN
+one CD
+grown VBN
+up RP
+waiting VBG
+to TO
+catch VB
+it PRP
+. VB
+another DT
+woman NN
+is VBZ
+carrying VBG
+a DT
+basket NN
+in IN
+her PRP$
+left JJ
+hand NN
+, ,
+with IN
+a DT
+kid NN
+holding VBG
+her PRP$
+other JJ
+hand NN
+. NN
+others NNS
+are VBP
+just RB
+sitting VBG
+around IN
+or CC
+are VBP
+standing VBG
+in IN
+the DT
+background NN
+. NN
+there EX
+are VBP
+snow NN
+covered VBN
+mountains NNS
+in IN
+the DT
+distant JJ
+background NN
+. NN
+there EX
+are VBP
+two CD
+social JJ
+workers NNS
+in IN
+the DT
+foreground NN
+. CD
+one CD
+wearing VBG
+a DT
+red JJ
+pullover NN
+and CC
+brown JJ
+pants NNS
+is VBZ
+bending VBG
+over RP
+to TO
+access VB
+the DT
+blue JJ
+paint NN
+. CD
+the DT
+other JJ
+one CD
+in IN
+a DT
+red JJ
+tee-shirt NN
+and CC
+black JJ
+jeans NNS
+is VBZ
+watching VBG
+her PRP$
+. NN
+at IN
+the DT
+back NN
+of IN
+the DT
+room NN
+there EX
+is VBZ
+another DT
+worker NN
+wearing VBG
+a DT
+white JJ
+tee-shirt NN
+and CC
+blue JJ
+jeans NNS
+, ,
+acutally RB
+painting VBG
+. NN
+there EX
+are VBP
+many JJ
+newspapers NNS
+on IN
+the DT
+ground NN
+to TO
+protect VB
+the DT
+kindergarten NN
+floor NN
+. CD
+all DT
+three CD
+workers NNS
+are VBP
+wearing VBG
+a DT
+mask NN
+. CD
+portrait NN
+of IN
+two CD
+dark-haired JJ
+girls NNS
+with IN
+a DT
+mountain NN
+in IN
+the DT
+background NN
+. CD
+a DT
+man NN
+is VBZ
+carrying VBG
+a DT
+heavy JJ
+rice NN
+bag NN
+. CD
+a DT
+car NN
+on IN
+the DT
+left NN
+, ,
+another DT
+man NN
+on IN
+the DT
+right JJ
+. NN
+a DT
+street NN
+behind IN
+them PRP
+, ,
+with IN
+some DT
+houses NNS
+on IN
+a DT
+hill NN
+in IN
+the DT
+background NN
+. CD
+Six CD
+tourists NNS
+are VBP
+standing VBG
+in IN
+front NN
+of IN
+blackboard NN
+of IN
+a DT
+primary JJ
+school NN
+. CD
+one CD
+tourist NN
+is VBZ
+taking VBG
+a DT
+photo JJ
+. NN
+local JJ
+kids NNS
+are VBP
+sitting VBG
+at IN
+their PRP$
+desks NNS
+, ,
+singing VBG
+and CC
+clapping VBG
+. CD
+one CD
+kid NN
+has VBZ
+just RB
+opened VBN
+one CD
+book NN
+. NN
+there EX
+are VBP
+posters NNS
+and CC
+pictures NNS
+on IN
+the DT
+wall NN
+in IN
+the DT
+background NN
+. CD
+a DT
+little JJ
+red JJ
+wooden JJ
+desk NN
+and CC
+two CD
+red JJ
+and CC
+two CD
+blue JJ
+chairs NNS
+in IN
+front NN
+of IN
+a DT
+green JJ
+wall NN
+full JJ
+with IN
+children's NNS
+paintings NNS
+. VBP
+an DT
+improvised VBD
+cupboard NN
+with IN
+lots NNS
+of IN
+drawers NNS
+in IN
+a DT
+corner NN
+at IN
+the DT
+back NN
+of IN
+the DT
+room NN
+. CD
+volunteer NN
+workers NNS
+help VBP
+with IN
+the DT
+construction NN
+in IN
+a DT
+kindergarten NN
+. CD
+four CD
+volunteers NNS
+are VBP
+squatting VBG
+down RP
+and CC
+are VBP
+trying VBG
+to TO
+prise VB
+the DT
+ground NN
+with IN
+hammer NN
+and CC
+chisel VB
+. JJ
+movable JJ
+wooden JJ
+walls NNS
+are VBP
+leaning VBG
+on IN
+the DT
+wall NN
+in IN
+the DT
+background NN
+. NN
+tourists NNS
+are VBP
+posing VBG
+in IN
+a DT
+room NN
+, ,
+ten NN
+of IN
+them PRP
+are VBP
+standing VBG
+, ,
+one CD
+is VBZ
+squatting VBG
+. CD
+one CD
+kid NN
+is VBZ
+posing VBG
+with IN
+them PRP
+, ,
+five CD
+other JJ
+kids NNS
+are VBP
+sitting VBG
+at IN
+a DT
+table NN
+and CC
+eating VBG
+out IN
+of IN
+three CD
+bowls VBZ
+. NN
+there EX
+are VBP
+posters NNS
+and CC
+pictures NNS
+at IN
+the DT
+wall NN
+behind IN
+the DT
+tourists NNS
+. VBP
+Pupils NNS
+are VBP
+sitting VBG
+at IN
+their PRP$
+wooden JJ
+desks NNS
+in IN
+an DT
+open JJ
+air NN
+classroom NN
+. CD
+two CD
+of IN
+them PRP
+raising VBG
+their PRP$
+hands NNS
+, ,
+others NNS
+smiling VBG
+. CD
+three CD
+are VBP
+wearing VBG
+a DT
+green JJ
+hat NN
+. CD
+red JJ
+brick NN
+wall NN
+and CC
+windows NNS
+in IN
+the DT
+background NN
+. CD
+Seven CD
+tourists NNS
+are VBP
+visiting VBG
+a DT
+classroom NN
+. NN
+children NNS
+are VBP
+sitting VBG
+at IN
+round JJ
+tables NNS
+, ,
+nearly RB
+all DT
+of IN
+them PRP
+wearing VBG
+a DT
+green JJ
+hat NN
+( (
+except IN
+for IN
+two CD
+kids NNS
+) )
+. CD
+tourists NNS
+are VBP
+smiling VBG
+at IN
+the DT
+kids NNS
+. VBP
+there EX
+are VBP
+posters NNS
+and CC
+maps NNS
+on IN
+the DT
+wall NN
+in IN
+the DT
+background NN
+. NN
+Tourists NNS
+are VBP
+visiting VBG
+an DT
+old JJ
+people's NNS
+home NN
+. CD
+each DT
+tourist NN
+is VBZ
+leading VBG
+one CD
+old JJ
+lady NN
+, ,
+arm NN
+in IN
+arm NN
+. CD
+the DT
+old JJ
+ladies NNS
+are VBP
+wearing VBG
+traditional JJ
+dresses NNS
+and CC
+a DT
+hat NN
+. CD
+the DT
+room NN
+is VBZ
+decorated VBN
+with IN
+balloons NNS
+. VBP
+there EX
+is VBZ
+a DT
+picture NN
+on IN
+the DT
+wall NN
+in IN
+the DT
+background NN
+, ,
+and CC
+also RB
+an DT
+old JJ
+lady NN
+carrying VBG
+a DT
+green JJ
+balloon NN
+. CD
+a DT
+destroyed VBN
+house NN
+with IN
+the DT
+wreckage NN
+lying VBG
+around IN
+in IN
+front NN
+it PRP
+. CD
+three CD
+ordinary JJ
+a DT
+bit NN
+elevated JJ
+houses NNS
+in IN
+the DT
+background NN
+. CD
+Six CD
+pupils NNS
+are VBP
+sitting VBG
+around IN
+a DT
+round JJ
+table NN
+on IN
+wooden JJ
+chairs NNS
+, ,
+each DT
+of IN
+them PRP
+is VBZ
+holding VBG
+a DT
+fruit NN
+( (
+tangerine?) NN
+and CC
+is VBZ
+wearing VBG
+a DT
+hat NN
+( (
+except IN
+for IN
+one CD
+kid NN
+) )
+. CD
+pictures NNS
+and CC
+comics NNS
+on IN
+the DT
+wall NN
+behind IN
+them PRP
+. CD
+car NN
+tyres NNS
+in IN
+the DT
+background NN
+on IN
+the DT
+right JJ
+. NN
+a DT
+teacher NN
+and CC
+around IN
+50 CD
+pupils NNS
+on IN
+the DT
+slope NN
+of IN
+a DT
+hill NN
+. CD
+half NN
+of IN
+the DT
+kids NNS
+are VBP
+dressed VBN
+in IN
+orange JJ
+, ,
+many JJ
+of IN
+them PRP
+wearing VBG
+a DT
+hat NN
+, ,
+a DT
+beanie NN
+or CC
+a DT
+cap NN
+. CD
+small JJ
+bushes NNS
+and CC
+two CD
+trees NNS
+at IN
+the DT
+top NN
+of IN
+the DT
+hill NN
+. CD
+a DT
+lake NN
+in IN
+the DT
+background NN
+. CD
+School NNP
+kids NNS
+are VBP
+posing VBG
+for IN
+the DT
+camera NN
+in IN
+a DT
+football-like JJ
+setup NN
+- :
+nine CD
+are VBP
+standing VBG
+at IN
+the DT
+back NN
+, ,
+ten NNS
+are VBP
+squatting VBG
+at IN
+the DT
+front JJ
+. CD
+each DT
+of IN
+them PRP
+are VBP
+having VBG
+a DT
+fruit NN
+in IN
+their PRP$
+hands NNS
+, ,
+most JJS
+of IN
+them PRP
+are VBP
+smiling VBG
+, ,
+one CD
+is VBZ
+even RB
+waving VBG
+at IN
+the DT
+camera NN
+. CD
+a DT
+blackboard NN
+in IN
+the DT
+background NN
+. CD
+one CD
+kid NN
+in IN
+the DT
+centre NN
+of IN
+the DT
+front JJ
+row NN
+is VBZ
+holding VBG
+a DT
+teddy NN
+. NN
+classroom NN
+with IN
+most JJS
+of IN
+the DT
+pupil NN
+sitting VBG
+at IN
+theirs JJ
+desk NN
+and CC
+wearing VBG
+green JJ
+hats NNS
+. CD
+one CD
+girl NN
+is VBZ
+standing VBG
+at IN
+her PRP$
+desk NN
+, ,
+another DT
+one CD
+is VBZ
+walking VBG
+to TO
+her PRP$
+desk NN
+, ,
+three CD
+other JJ
+boys NNS
+are VBP
+standing VBG
+and CC
+looking VBG
+at IN
+a DT
+picture NN
+of IN
+Minnie NNP
+Mouse NNP
+on IN
+the DT
+wall NN
+. NN
+shelves NNS
+and CC
+posters NNS
+in IN
+the DT
+background NN
+. NN
+children NNS
+are VBP
+sitting VBG
+at IN
+their PRP$
+desks NNS
+, ,
+together RB
+with IN
+a DT
+tourist NN
+sitting VBG
+in IN
+the DT
+last JJ
+row NN
+. NN
+three CD
+children NNS
+are VBP
+standing VBG
+on IN
+the DT
+left NN
+, ,
+looking VBG
+at IN
+a DT
+map NN
+of IN
+Peru NNP
+. NN
+there EX
+are VBP
+two CD
+posters NNS
+on IN
+the DT
+wall NN
+at IN
+the DT
+back NN
+, ,
+and CC
+there EX
+is VBZ
+a DT
+bookshelf NN
+with IN
+a DT
+lot NN
+of IN
+boxes NNS
+and CC
+folders NNS
+on IN
+the DT
+left VBN
+. CD
+One CD
+boy NN
+holding VBG
+a DT
+white JJ
+box NN
+, ,
+most RBS
+likely RB
+a DT
+present NN
+from IN
+the DT
+volunteer NN
+kneeing VBG
+in IN
+front NN
+of IN
+him PRP
+. VBP
+several JJ
+kids NNS
+are VBP
+around IN
+him PRP
+, ,
+looking VBG
+at IN
+the DT
+box NN
+while IN
+the DT
+boy NN
+himself PRP
+is VBZ
+looking VBG
+somewhere RB
+else RB
+. CD
+one CD
+kid NN
+in IN
+the DT
+foreground NN
+is VBZ
+wearing VBG
+a DT
+green JJ
+hat NN
+. NN
+there EX
+are VBP
+both DT
+round JJ
+tables NNS
+and CC
+wooden JJ
+desks NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+volunteer NN
+, ,
+squatting VBG
+down RB
+and CC
+browsing VBG
+through IN
+a DT
+school NN
+book NN
+. JJ
+school NN
+children NNS
+around IN
+her PRP
+, ,
+looking VBG
+at IN
+the DT
+book NN
+too RB
+. CD
+in IN
+the DT
+background NN
+there EX
+is VBZ
+a DT
+table NN
+with IN
+school NN
+equipment NN
+on IN
+it PRP
+. CD
+the DT
+kid NN
+in IN
+the DT
+foreground NN
+is VBZ
+holding VBG
+a DT
+pencil NN
+. NN
+tourists NNS
+are VBP
+standing VBG
+in IN
+front NN
+of IN
+the DT
+blackboard NN
+in IN
+a DT
+classroom NN
+, ,
+all PDT
+the DT
+kids NNS
+are VBP
+sitting VBG
+at IN
+their PRP$
+desks NNS
+. CD
+there EX
+is VBZ
+a DT
+clock NN
+above IN
+the DT
+blackboard NN
+, ,
+and CC
+also RB
+the DT
+letters NNS
+Dios NNPS
+es NNS
+amor NN
+between IN
+the DT
+clock NN
+and CC
+the DT
+blackboard NN
+, ,
+and CC
+higiene NN
+es NNS
+salud NN
+on IN
+the DT
+side NN
+wall NN
+below IN
+the DT
+windows NNS
+. VBP
+a DT
+boy NN
+wearing VBG
+a DT
+green JJ
+jacket NN
+and CC
+a DT
+red JJ
+cap NN
+is VBZ
+carrying VBG
+a DT
+little JJ
+girl NN
+on IN
+his PRP$
+back JJ
+. NN
+Children NNS
+are VBP
+sitting VBG
+at IN
+their PRP$
+desks NNS
+and CC
+are VBP
+singing VBG
+a DT
+song NN
+with IN
+their PRP$
+teacher NN
+. NN
+there EX
+is VBZ
+a DT
+large JJ
+window NN
+, ,
+a DT
+blackboard NN
+and CC
+a DT
+shelf NN
+at IN
+the DT
+back NN
+of IN
+the DT
+classroom NN
+. NN
+there EX
+is VBZ
+a DT
+wall NN
+on IN
+the DT
+left VBN
+with IN
+a DT
+map NN
+of IN
+Peru NNP
+, ,
+a DT
+poster NN
+and CC
+Minnie NNP
+Mouse NNP
+on IN
+it PRP
+. CD
+Close-up JJ
+photo NN
+of IN
+a DT
+building NN
+with IN
+a DT
+blue JJ
+front NN
+, ,
+red JJ
+doors NNS
+, ,
+brown JJ
+bricks NNS
+below IN
+the DT
+windows NNS
+and CC
+the DT
+wires NNS
+that WDT
+stick VBP
+out RP
+from IN
+the DT
+roof NN
+. CD
+a DT
+few JJ
+pupils NNS
+are VBP
+in IN
+front NN
+of IN
+the DT
+building NN
+. CD
+View NNP
+of IN
+a DT
+city NN
+in IN
+a DT
+valley NN
+. NN
+bushes NNS
+, ,
+houses NNS
+and CC
+roofs NNS
+in IN
+the DT
+foreground NN
+. VBZ
+an DT
+overcast JJ
+sky NN
+in IN
+the DT
+background NN
+. NN
+tourists NNS
+are VBP
+standing VBG
+at IN
+the DT
+entrance NN
+of IN
+classroom NN
+. CD
+all DT
+of IN
+them PRP
+are VBP
+carrying VBG
+backpacks NNS
+. CD
+one CD
+female JJ
+tourist NN
+is VBZ
+carrying VBG
+a DT
+huge JJ
+bunch NN
+of IN
+balloons NNS
+. JJ
+tourists NNS
+are VBP
+standing VBG
+in IN
+front NN
+of IN
+the DT
+blackboard NN
+in IN
+a DT
+classroom NN
+. NN
+all PDT
+the DT
+kids NNS
+are VBP
+sitting VBG
+at IN
+their PRP$
+desks NNS
+, ,
+some DT
+of IN
+them PRP
+turned VBD
+around RP
+to TO
+look VB
+at IN
+the DT
+camera NN
+. NN
+there EX
+is VBZ
+a DT
+clock NN
+above IN
+the DT
+blackboard NN
+, ,
+and CC
+also RB
+the DT
+letters NNS
+Dios NNPS
+es NNS
+amor NN
+between IN
+the DT
+clock NN
+and CC
+the DT
+blackboard NN
+, ,
+and CC
+higiene NN
+es NNS
+salud NN
+on IN
+the DT
+side NN
+wall NN
+below IN
+the DT
+windows NNS
+. VBP
+many JJ
+people NNS
+are VBP
+working VBG
+on IN
+the DT
+bare JJ
+brickwork NN
+of IN
+a DT
+house NN
+or CC
+are VBP
+watching VBG
+the DT
+workers NNS
+from IN
+below IN
+. JJ
+many JJ
+wires NNS
+are VBP
+sticking VBG
+out IN
+of IN
+the DT
+bare JJ
+brickwork NN
+. CD
+one CD
+person NN
+is VBZ
+climbing VBG
+up RP
+a DT
+ladder NN
+. NN
+many JJ
+pallets NNS
+are VBP
+lying VBG
+piled VBN
+up RP
+in IN
+front NN
+of IN
+the DT
+house NN
+. NN
+Excited NNP
+kids NNS
+are VBP
+standing VBG
+at IN
+their PRP$
+desks NNS
+in IN
+a DT
+classroom NN
+. CD
+some DT
+of IN
+them PRP
+seem VBP
+to TO
+be VB
+very RB
+happy JJ
+and CC
+are VBP
+laughing VBG
+. NN
+there EX
+are VBP
+pictures NNS
+of IN
+trees NNS
+on IN
+the DT
+wall NN
+at IN
+the DT
+back JJ
+. NN
+two CD
+girls NNS
+have VBP
+an DT
+open JJ
+book NN
+on IN
+their PRP$
+desk NN
+. CD
+a DT
+house NN
+with IN
+a DT
+pink JJ
+roof NN
+and CC
+a DT
+green JJ
+and CC
+white JJ
+tower NN
+with IN
+three CD
+levels NNS
+, ,
+each DT
+of IN
+them PRP
+having VBG
+a DT
+window NN
+on IN
+each DT
+side NN
+. NN
+one CD
+block NN
+in IN
+the DT
+front NN
+with IN
+three CD
+windows NNS
+and CC
+the DT
+writing VBG
+Casa NNP
+Parroquial NNP
+- :
+Amor NNP
+de FW
+Dios NNP
+. CD
+another DT
+house NN
+with IN
+a DT
+green JJ
+and CC
+yellow JJ
+and CC
+red JJ
+roof NN
+in IN
+the DT
+background. JJ
+tourists NNS
+are VBP
+standing VBG
+in IN
+the DT
+classroom NN
+of IN
+a DT
+school NN
+in IN
+front NN
+of IN
+the DT
+blackboard NN
+. NN
+there EX
+is VBZ
+a DT
+clock NN
+and CC
+the DT
+writing NN
+Dios NNPS
+es NNS
+Amor NNP
+above IN
+the DT
+blackboard NN
+. NN
+Tourists NNS
+are VBP
+standing VBG
+on IN
+a DT
+wet JJ
+sidewalk NN
+and CC
+are VBP
+carrying VBG
+bags NNS
+of IN
+food NN
+. NN
+people NNS
+are VBP
+wearing VBG
+rain NN
+coats NNS
+and CC
+jackets NNS
+. VBP
+a DT
+house NN
+with IN
+brick NN
+walls NNS
+and CC
+two CD
+garage NN
+doors NNS
+behind IN
+them PRP
+. CD
+a DT
+group NN
+picture NN
+of IN
+happy JJ
+people NNS
+wearing VBG
+orange JJ
+hats NNS
+and CC
+white JJ
+and CC
+orange JJ
+sleeveless JJ
+shirts NNS
+. VBP
+school NN
+kids NNS
+are VBP
+posing VBG
+for IN
+a DT
+picture NN
+on IN
+a DT
+grey JJ
+square NN
+. CD
+one CD
+tourist NN
+is VBZ
+holding VBG
+one CD
+kid NN
+in IN
+the DT
+background NN
+. CD
+some DT
+kids NNS
+standing VBG
+in IN
+front NN
+of IN
+the DT
+kids NNS
+posing VBG
+. JJ
+portrait NN
+of IN
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+white JJ
+and CC
+blue JJ
+jumper NN
+with IN
+a DT
+red JJ
+collar NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+blue JJ
+tee-shirt NN
+( (
+one CD
+sleeve NN
+green JJ
+, ,
+the DT
+other JJ
+one CD
+pink JJ
+) )
+is VBZ
+standing VBG
+in IN
+a DT
+classroom NN
+. CD
+a DT
+teacher NN
+and CC
+other JJ
+kids NNS
+in IN
+the DT
+background NN
+, ,
+and CC
+also RB
+a DT
+large JJ
+window NN
+( (
+thus RB
+the DT
+picture NN
+is VBZ
+not RB
+very RB
+well RB
+exposed VBN
+) )
+. CD
+portrait NN
+of IN
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+light JJ
+blue JJ
+tee-shirt NN
+with IN
+three CD
+pictures NNS
+of IN
+people NNS
+and CC
+a DT
+USA NNP
+flag NN
+in IN
+the DT
+shape NN
+of IN
+a DT
+heart NN
+on IN
+it PRP
+. CD
+portrait NN
+of IN
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+yellow JJ
+blouse NN
+with IN
+a DT
+blue JJ
+collar NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+blue JJ
+jumper NN
+and CC
+red JJ
+pants NNS
+is VBZ
+sitting VBG
+on IN
+the DT
+floor NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+white JJ
+tee-shirt NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+white JJ
+tee-shirt NN
+with IN
+pink JJ
+edges NNS
+and CC
+blue JJ
+pants NNS
+is VBZ
+kneeing VBG
+on IN
+the DT
+ground NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+white JJ
+jumper NN
+with IN
+paintings NNS
+of IN
+dogs NNS
+, ,
+bones NNS
+and CC
+dogprints NNS
+and CC
+pink-and-white JJ
+chequered JJ
+shorts NNS
+. VBP
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+in IN
+a DT
+red JJ
+tee-shirt NN
+with IN
+blue JJ
+sleeves NNS
+is VBZ
+standing VBG
+next JJ
+to TO
+a DT
+school NN
+desk NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+blue JJ
+pullover NN
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+brown JJ
+door NN
+. CD
+a DT
+dark-haired JJ
+, ,
+dark-skinned JJ
+girl NN
+is VBZ
+sitting VBG
+on IN
+a DT
+red JJ
+couch NN
+, ,
+wearing VBG
+a DT
+pink JJ
+pullover NN
+with IN
+a DT
+little JJ
+bear NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+sitting VBG
+at IN
+his PRP$
+school NN
+desk NN
+wearing VBG
+a DT
+light JJ
+blue JJ
+shirt NN
+below IN
+a DT
+dark JJ
+blue JJ
+pullover NN
+. CD
+a DT
+dark-skinned JJ
+girl NN
+wearing VBG
+a DT
+brown JJ
+hat NN
+, ,
+a DT
+light JJ
+shirt NN
+below IN
+a DT
+pink JJ
+shirt NN
+and CC
+a DT
+dark JJ
+green JJ
+vest NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+yellow JJ
+blouse NN
+with IN
+a DT
+blue JJ
+collar NN
+. NN
+handprints NNS
+on IN
+the DT
+wall NN
+behind IN
+her PRP$
+. CD
+a DT
+dark-haired JJ
+baby NN
+pointing VBG
+at IN
+the DT
+camera NN
+. CD
+a DT
+dark-haired JJ
+baby NN
+in IN
+the DT
+arms NNS
+of IN
+a DT
+woman NN
+. CD
+baby NN
+wearing VBG
+a DT
+red-and-white JJ
+striped JJ
+pyjama NN
+. CD
+handprints NNS
+on IN
+the DT
+wall NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+in IN
+a DT
+white JJ
+shirt NN
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+red JJ
+brick NN
+wall NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+red JJ
+tee-shirt NN
+is VBZ
+holding VBG
+a DT
+green JJ
+pencil NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+, ,
+wearing VBG
+a DT
+skirt NN
+and CC
+a DT
+dark JJ
+vest NN
+, ,
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+house NN
+. NN
+there EX
+is VBZ
+a DT
+white JJ
+bucket NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+light JJ
+brown JJ
+jumper NN
+with IN
+orange JJ
+edges NNS
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+desk NN
+. CD
+pictures NNS
+on IN
+a DT
+wooden JJ
+wall NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+white JJ
+tee-shirt NN
+with IN
+red JJ
+edges NNS
+. VBP
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+yellow JJ
+blouse NN
+with IN
+a DT
+blue JJ
+collar NN
+. NN
+handprints NNS
+on IN
+the DT
+wall NN
+behind IN
+her PRP$
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+in IN
+a DT
+white JJ
+shirt NN
+and CC
+a DT
+green JJ
+tee-shirt NN
+, ,
+putting VBG
+his PRP$
+index NN
+finger NN
+of IN
+his PRP$
+left JJ
+hand NN
+in IN
+his PRP$
+mouth NN
+. CD
+other JJ
+school NN
+kids NNS
+are VBP
+sitting VBG
+on IN
+their PRP$
+tables NNS
+in IN
+front NN
+of IN
+a DT
+blackboard NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+coloured JJ
+shirt NN
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+blue JJ
+wall NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+blue JJ
+pullover NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+dark JJ
+blue JJ
+jumper NN
+and CC
+a DT
+light JJ
+blue JJ
+skirt NN
+is VBZ
+sitting VBG
+at IN
+a DT
+desk NN
+in IN
+front NN
+of IN
+a DT
+building NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+yellow JJ
+blouse NN
+with IN
+a DT
+blue JJ
+collar NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+blue JJ
+jumper NN
+with IN
+a DT
+yellow JJ
+collar NN
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+brown JJ
+door NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+pink JJ
+pullover NN
+is VBZ
+sitting VBG
+on IN
+green JJ
+bench NN
+. NN
+colourful JJ
+handprints NNS
+on IN
+the DT
+wall NN
+behind IN
+her PRP$
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+in IN
+a DT
+blue JJ
+pullover NN
+is VBZ
+sitting VBG
+on IN
+a DT
+green JJ
+bench NN
+. NN
+colourful JJ
+handprints NNS
+on IN
+the DT
+wall NN
+behind IN
+him PRP
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+is VBZ
+sitting VBG
+at IN
+a DT
+desk NN
+and CC
+wearing VBG
+a DT
+white JJ
+pullover NN
+with IN
+an DT
+emblem NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+grey NN
+T-Shirt NNP
+is VBZ
+standing VBG
+in IN
+a DT
+classroom NN
+. CD
+a DT
+wall NN
+made VBN
+of IN
+red JJ
+bricks NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+in IN
+dark JJ
+vest NN
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+wall NN
+made VBN
+of IN
+rocks NNS
+. VBP
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+grey NN
+tee-shirt JJ
+and CC
+red JJ
+pants NNS
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+grey NN
+brick NN
+wall NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+blue-and-yellow JJ
+jumper NN
+is VBZ
+sitting VBG
+outside IN
+. NN
+boulders NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+red JJ
+vest NN
+is VBZ
+sitting VBG
+outside IN
+. NN
+boulders NNS
+in IN
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+USA NNP
+pullover NN
+and CC
+red JJ
+pants NNS
+is VBZ
+standing VBG
+outside IN
+. CD
+a DT
+wall NN
+made VBN
+of IN
+boulders NNS
+in IN
+the DT
+near JJ
+background NN
+. NN
+USA NNP
+jumper NN
+says VBZ
+Future NNP
+USA NNP
+at IN
+the DT
+front NN
+, ,
+with IN
+the DT
+Olympic NNP
+rings VBZ
+below IN
+the DT
+letters NNS
+, ,
+one CD
+sleeve NN
+shows VBZ
+the DT
+stars NNS
+, ,
+the DT
+other JJ
+one CD
+the DT
+stripes NNS
+. VBP
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+wearing VBG
+dark JJ
+blue JJ
+dungarees NNS
+and CC
+a DT
+light JJ
+blue JJ
+and CC
+pink JJ
+pullover NN
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+brick-wall NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+in IN
+a DT
+blue JJ
+and CC
+white JJ
+chequered JJ
+shirt NN
+is VBZ
+sitting VBG
+at IN
+a DT
+desk NN
+outside IN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+is VBZ
+wearing VBG
+a DT
+red JJ
+vest NN
+and CC
+a DT
+red JJ
+hair NN
+band NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+colourful JJ
+shirt NN
+and CC
+a DT
+sleeveless JJ
+pullover NN
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+blue JJ
+wall NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+with IN
+a DT
+grey NN
+shirt NN
+is VBZ
+standing VBG
+in IN
+a DT
+room NN
+in IN
+front NN
+of IN
+a DT
+wall NN
+made VBN
+of IN
+red JJ
+bricks NNS
+. VBP
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+red JJ
+coat NN
+is VBZ
+sitting VBG
+at IN
+a DT
+desk NN
+in IN
+front NN
+of IN
+a DT
+building NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+black JJ
+blouse NN
+is VBZ
+standing VBG
+in IN
+a DT
+classroom NN
+in IN
+front NN
+of IN
+a DT
+wooden JJ
+wall NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+grey NN
+pullover NN
+is VBZ
+sitting VBG
+at IN
+his PRP$
+desk NN
+in IN
+his PRP$
+classroom NN
+. NN
+there EX
+are VBP
+some DT
+of IN
+his PRP$
+classmates NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+grey NN
+tee-shirt NN
+is VBZ
+standing VBG
+next JJ
+to TO
+her PRP$
+desk NN
+in IN
+a DT
+classroom NN
+. NN
+there EX
+are VBP
+two CD
+more JJR
+kids NNS
+and CC
+comic JJ
+figures NNS
+on IN
+the DT
+wall NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+is VBZ
+wearing VBG
+a DT
+white JJ
+blouse NN
+and CC
+a DT
+sleeveless JJ
+red JJ
+pullover NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+green JJ
+vest NN
+is VBZ
+standing VBG
+at IN
+her PRP$
+desk NN
+in IN
+a DT
+classroom NN
+in IN
+front NN
+of IN
+a DT
+wall NN
+made VBN
+of IN
+red JJ
+bricks NNS
+. VBP
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+pinkish NN
+greyish NN
+pullover NN
+is VBZ
+sitting VBG
+at IN
+a DT
+desk NN
+in IN
+front NN
+of IN
+a DT
+building NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+in IN
+black JJ
+pullover NN
+and CC
+blue JJ
+pants NNS
+is VBZ
+standing VBG
+next JJ
+to TO
+a DT
+desk NN
+. NN
+grey JJ
+brick NN
+walls NNS
+and CC
+blue JJ
+sky NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+black JJ
+vest NN
+is VBZ
+sitting VBG
+at IN
+a DT
+desk NN
+outside IN
+the DT
+classroom NN
+. NN
+grey JJ
+brick NN
+walls NNS
+at IN
+the DT
+back JJ
+. NN
+a DT
+cardboard NN
+box NN
+is VBZ
+standing VBG
+on IN
+the DT
+sandy JJ
+floor NN
+on IN
+the DT
+left VBN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+grey NN
+tee-shirt NN
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+blue JJ
+wall NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+in IN
+a DT
+black JJ
+pullover NN
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+blue JJ
+wall NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+in IN
+a DT
+blue-and-white JJ
+striped NN
+jumper NN
+with IN
+a DT
+sleeveless JJ
+pullover NN
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+red JJ
+brick NN
+wall NN
+and CC
+a DT
+blue JJ
+wall NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+in IN
+grey NN
+tee-shirt NN
+is VBZ
+standing VBG
+in IN
+classroom NN
+. CD
+a DT
+man NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+in IN
+a DT
+white JJ
+tee-shirt NN
+is VBZ
+sitting VBG
+at IN
+his PRP$
+desk NN
+in IN
+a DT
+classroom NN
+. CD
+more JJR
+kids NNS
+in IN
+the DT
+background NN
+are VBP
+looking VBG
+at IN
+the DT
+camera NN
+too RB
+. VBZ
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+in IN
+a DT
+dark JJ
+blue JJ
+tee-shirt NN
+is VBZ
+sitting VBG
+at IN
+a DT
+desk NN
+in IN
+a DT
+classroom NN
+. CD
+a DT
+girl NN
+is VBZ
+eating VBG
+in IN
+the DT
+background NN
+, ,
+another DT
+one CD
+wearing VBG
+an DT
+orange JJ
+pullover NN
+is VBZ
+walking VBG
+along IN
+the DT
+corridor NN
+between IN
+the DT
+desks NNS
+. VBP
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+pink JJ
+pullover NN
+( (
+with IN
+a DT
+surfing JJ
+Bart NNP
+Simpson NNP
+on IN
+it PRP
+) )
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+red JJ
+brick-wall NN
+in IN
+a DT
+classroom NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+in IN
+a DT
+black JJ
+pullover NN
+and CC
+light JJ
+brown JJ
+shirt NN
+in IN
+a DT
+classroom NN
+. CD
+two CD
+more JJR
+boys NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+white JJ
+shirt NN
+and CC
+black JJ
+pants NNS
+with IN
+black JJ
+suspenders NNS
+is VBZ
+sitting VBG
+at IN
+her PRP$
+desk NN
+in IN
+a DT
+classroom NN
+. CD
+some DT
+kids NNS
+in IN
+the DT
+background NN
+are VBP
+sitting VBG
+at IN
+their PRP$
+desks NNS
+. VBP
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+white JJ
+tee-shirt NN
+is VBZ
+sitting VBG
+at IN
+a DT
+desk NN
+in IN
+a DT
+classroom NN
+. CD
+some DT
+sheets NNS
+of IN
+paper NN
+are VBP
+lying VBG
+on IN
+the DT
+desk NN
+in IN
+front NN
+of IN
+her PRP$
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+in IN
+a DT
+chequered JJ
+shirt NN
+standing NN
+in IN
+a DT
+classroom NN
+. NN
+kids NNS
+sitting VBG
+at IN
+their PRP$
+desk NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+in IN
+a DT
+blue JJ
+, ,
+white JJ
+and CC
+orange JJ
+striped NN
+jumper NN
+is VBZ
+standing VBG
+in IN
+a DT
+classroom NN
+. CD
+a DT
+girl NN
+is VBZ
+sitting VBG
+at IN
+a DT
+desk NN
+behind IN
+him PRP
+. CD
+two CD
+comic JJ
+figures NNS
+on IN
+the DT
+wall NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+white JJ
+vest NN
+and CC
+black JJ
+pants NNS
+is VBZ
+standing VBG
+next JJ
+to TO
+a DT
+desk NN
+. CD
+the DT
+lower JJR
+half NN
+of IN
+a DT
+bottle NN
+of IN
+Kola NNP
+Real NNP
+is VBZ
+standing VBG
+on IN
+a DT
+desk NN
+next JJ
+to TO
+her PRP$
+. CD
+a DT
+red JJ
+brick NN
+wall NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+white JJ
+a DT
+shirt NN
+and CC
+black JJ
+pants NNS
+with IN
+black JJ
+suspenders NNS
+is VBZ
+standing VBG
+between IN
+a DT
+desk NN
+and CC
+a DT
+red JJ
+brick NN
+wall NN
+in IN
+a DT
+classroom NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+white JJ
+shirt NN
+underneath IN
+a DT
+black JJ
+pullover NN
+is VBZ
+standing VBG
+in IN
+a DT
+classroom NN
+. CD
+other JJ
+kids NNS
+are VBP
+working VBG
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+black JJ
+pullover NN
+is VBZ
+sitting VBG
+at IN
+her PRP$
+desk NN
+in IN
+the DT
+classroom NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+in IN
+a DT
+very RB
+colourful NN
+pullover NN
+is VBZ
+standing VBG
+in IN
+between IN
+two CD
+desks NNS
+in IN
+a DT
+classroom NN
+. NN
+there EX
+is VBZ
+a DT
+poster NN
+on IN
+the DT
+red JJ
+brick NN
+wall NN
+in IN
+the DT
+background NN
+. VBZ
+the DT
+boy NN
+is VBZ
+laughing VBG
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+is VBZ
+wearing VBG
+a DT
+blue JJ
+pullover NN
+with IN
+a DT
+white JJ
+elephant NN
+having VBG
+a DT
+yellow JJ
+hat NN
+on IN
+its PRP$
+head NN
+at IN
+the DT
+front JJ
+. NN
+the DT
+boy NN
+is VBZ
+sitting VBG
+at IN
+his PRP$
+desk NN
+in IN
+a DT
+classroom NN
+. CD
+two CD
+kids NNS
+are VBP
+sitting VBG
+behind IN
+him PRP
+. CD
+writing VBG
+bienvenidos NNS
+on IN
+the DT
+wall NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+in IN
+a DT
+grey NN
+and CC
+blue JJ
+jumper NN
+is VBZ
+standing VBG
+next JJ
+to TO
+a DT
+desk NN
+in IN
+a DT
+classroom NN
+. CD
+a DT
+poster NN
+on IN
+a DT
+red JJ
+brick NN
+wall NN
+behind IN
+him PRP
+. VBP
+a DT
+picture NN
+of IN
+a DT
+sunflower NN
+on IN
+the DT
+wall NN
+next JJ
+to TO
+him PRP
+. VB
+a DT
+dark-skinned JJ
+boy NN
+is VBZ
+wearing VBG
+a DT
+black JJ
+cap NN
+with IN
+an DT
+A DT
+on IN
+it PRP
+, ,
+a DT
+grey NN
+and CC
+purple JJ
+pullover NN
+and CC
+a DT
+black JJ
+jacket NN
+which WDT
+is VBZ
+red JJ
+on IN
+the DT
+inside JJ
+. NN
+outside NN
+shot NN
+. CD
+grass NN
+, ,
+stones NNS
+and CC
+some DT
+garbage NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+white JJ
+shirt NN
+underneath IN
+a DT
+dark JJ
+grey NN
+pullover NN
+is VBZ
+standing VBG
+in IN
+a DT
+classroom NN
+. NN
+there EX
+are VBP
+other JJ
+kids NNS
+in IN
+the DT
+background NN
+too RB
+, ,
+either CC
+standing VBG
+or CC
+sitting VBG
+at IN
+their PRP$
+desk NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+white JJ
+shirt NN
+underneath IN
+a DT
+dark JJ
+grey NN
+pullover NN
+with IN
+a DT
+pink JJ
+nametag NN
+is VBZ
+standing VBG
+in IN
+a DT
+classroom NN
+. CD
+more JJR
+kids NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+grey NN
+jacket NN
+is VBZ
+standing VBG
+in IN
+a DT
+classroom NN
+. CD
+a DT
+girl NN
+is VBZ
+sitting VBG
+at IN
+her PRP$
+desk NN
+in IN
+the DT
+background NN
+. CD
+comic JJ
+characters NNS
+on IN
+the DT
+wall NN
+at IN
+the DT
+back NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+blue JJ
+sweater NN
+with IN
+a DT
+pink JJ
+nametag NN
+is VBZ
+standing VBG
+in IN
+a DT
+classroom NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+in IN
+a DT
+grey NN
+tee-shirt NN
+is VBZ
+standing VBG
+at IN
+his PRP$
+desk NN
+in IN
+a DT
+classroom NN
+. CD
+another DT
+kid NN
+in IN
+a DT
+grey NN
+jacket NN
+is VBZ
+standing VBG
+right RB
+behind IN
+him PRP
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+grey NN
+tee-shirt NN
+is VBZ
+sitting VBG
+at IN
+her PRP$
+desk NN
+in IN
+a DT
+classroom NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+green JJ
+and CC
+white JJ
+pullover NN
+and CC
+carrying VBG
+a DT
+backpack NN
+with IN
+pink JJ
+straps NNS
+is VBZ
+standing VBG
+in IN
+a DT
+classroom NN
+. CD
+one CD
+more JJR
+girl NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+grey NN
+tee-shirt NN
+is VBZ
+standing VBG
+at IN
+her PRP$
+desk NN
+in IN
+a DT
+classroom NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+black JJ
+adidas NNS
+cap NN
+, ,
+a DT
+white JJ
+tee-shirt NN
+with IN
+long JJ
+sleeves NNS
+and CC
+a DT
+sleeveless JJ
+dark JJ
+grey NN
+pullover NN
+is VBZ
+sitting VBG
+at IN
+his PRP$
+desk NN
+in IN
+a DT
+classroom NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+grey NN
+tee-shirt NN
+is VBZ
+sitting VBG
+at IN
+a DT
+desk NN
+in IN
+a DT
+classroom NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+purple JJ
+pullover NN
+and CC
+black JJ
+pants NNS
+standing VBG
+in IN
+her PRP$
+classroom NN
+in IN
+front NN
+of IN
+all PDT
+the DT
+desks NNS
+where WRB
+the DT
+other JJ
+pupils NNS
+are VBP
+sitting VBG
+( (
+in IN
+the DT
+background NN
+) )
+. NN
+there EX
+is VBZ
+a DT
+blackboard NN
+in IN
+the DT
+background NN
+too RB
+. VBZ
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+in IN
+a DT
+blue JJ
+jumper NN
+with IN
+a DT
+yellow JJ
+zip NN
+and CC
+a DT
+light JJ
+blue JJ
+nametag NN
+is VBZ
+standing VBG
+in IN
+a DT
+classroom NN
+. CD
+some DT
+kids NNS
+are VBP
+standing VBG
+behind IN
+him PRP
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+purple JJ
+tee-shirt NN
+and CC
+an DT
+open JJ
+white JJ
+and CC
+blue JJ
+jacket NN
+is VBZ
+standing VBG
+in IN
+a DT
+classroom NN
+. CD
+a DT
+dark-skinned JJ
+girl NN
+with IN
+black JJ
+, ,
+ear-long JJ
+hair NN
+in IN
+a DT
+green JJ
+pullover NN
+and CC
+sleeveless JJ
+brownish JJ
+jumper NN
+is VBZ
+standing VBG
+in IN
+a DT
+classroom NN
+. NN
+behind IN
+her PRP
+a DT
+boy NN
+with IN
+a DT
+blue JJ
+cap NN
+, ,
+white JJ
+tee-shirt JJ
+and CC
+red JJ
+pants NNS
+. VBP
+a DT
+blackboard NN
+and CC
+more JJR
+kids NNS
+sitting VBG
+at IN
+their PRP$
+desk NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-haired JJ
+, ,
+dark-skinned JJ
+boy NN
+in IN
+a DT
+brown JJ
+pullover NN
+sitting VBG
+at IN
+his PRP$
+desk NN
+in IN
+a DT
+classroom NN
+. CD
+some DT
+sheets NNS
+of IN
+paper NN
+on IN
+the DT
+desk NN
+. CD
+more JJR
+kids NNS
+are VBP
+standing VBG
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+with IN
+two CD
+short JJ
+pigtails NNS
+wearing VBG
+a DT
+red JJ
+tee-shirt NN
+, ,
+a DT
+white JJ
+shirt NN
+and CC
+a DT
+greyish-blue JJ
+pullover NN
+standing NN
+in IN
+a DT
+classroom NN
+. CD
+one CD
+girl NN
+wearing VBG
+the DT
+same JJ
+outfit NN
+plus IN
+a DT
+pink JJ
+nametag NN
+standing VBG
+right RB
+behind IN
+her PRP
+. CD
+other JJ
+kids NNS
+are VBP
+sitting VBG
+at IN
+their PRP$
+desk NN
+in IN
+the DT
+background NN
+. NN
+red JJ
+brick NN
+wall NN
+on IN
+the DT
+right JJ
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+coloured JJ
+polo NN
+shirt NN
+sitting VBG
+in IN
+a DT
+classroom NN
+. CD
+more JJR
+kids NNS
+and CC
+comic JJ
+figures NNS
+on IN
+a DT
+wall NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+yellow JJ
+Umbro NNP
+sweater NN
+with IN
+black JJ
+sleeves NNS
+, ,
+black JJ
+collar NN
+and CC
+a DT
+black JJ
+zip NN
+is VBZ
+standing VBG
+in IN
+a DT
+classroom NN
+. CD
+more JJR
+kids NNS
+at IN
+their PRP$
+desks NNS
+in IN
+the DT
+classroom NN
+. NN
+also RB
+a DT
+blackboard NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+girl NN
+with IN
+long JJ
+black JJ
+hair NN
+wearing VBG
+a DT
+red JJ
+blouse NN
+and CC
+blue JJ
+dungarees NNS
+is VBZ
+standing VBG
+in IN
+a DT
+classroom NN
+. CD
+four CD
+kids NNS
+are VBP
+sitting VBG
+at IN
+their PRP$
+desks NNS
+and CC
+are VBP
+watching VBG
+her PRP
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+light JJ
+brown JJ
+cap NN
+, ,
+a DT
+white JJ
+shirt NN
+and CC
+a DT
+blue JJ
+pullover NN
+with IN
+a DT
+light JJ
+blue JJ
+nametag NN
+is VBZ
+standing VBG
+in IN
+a DT
+classroom NN
+. CD
+some DT
+kids NNS
+in IN
+the DT
+background NN
+are VBP
+watching VBG
+him PRP
+, ,
+others NNS
+are VBP
+at IN
+their PRP$
+desk NN
+. NN
+there EX
+is VBZ
+also RB
+a DT
+blackboard NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+dark-haired JJ
+boy NN
+in IN
+grey NN
+tee-shirt JJ
+with IN
+blue JJ
+collar NN
+, ,
+SA NNP
+print NN
+and CC
+a DT
+wet JJ
+spot NN
+at IN
+the DT
+front JJ
+standing NN
+in IN
+a DT
+classroom NN
+. CD
+several JJ
+desks NNS
+, ,
+two CD
+more JJR
+kids NNS
+and CC
+a DT
+blackboard NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+girl NN
+with IN
+long JJ
+black JJ
+hair NN
+wearing VBG
+a DT
+purple JJ
+dress NN
+with IN
+green JJ
+edges NNS
+standing VBG
+in IN
+a DT
+classroom NN
+. CD
+boy NN
+dressed VBN
+in IN
+green JJ
+behind IN
+her PRP$
+eating VBG
+something NN
+. CD
+more JJR
+kids NNS
+at IN
+their PRP$
+desks NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+girl NN
+with IN
+dark JJ
+long JJ
+hair NN
+wearing VBG
+a DT
+white JJ
+vest NN
+is VBZ
+standing VBG
+in IN
+a DT
+classroom NN
+in IN
+front NN
+of IN
+all PDT
+the DT
+desks NNS
+. VBP
+a DT
+blackboard NN
+and CC
+more JJR
+kids NNS
+sitting VBG
+at IN
+their PRP$
+desks NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-haired JJ
+, ,
+dark-skinned JJ
+girl NN
+in IN
+grey NN
+tee-shirt JJ
+with IN
+Pokemon NNP
+print NN
+and CC
+pink JJ
+edge NN
+standing NN
+in IN
+a DT
+classroom NN
+in IN
+front NN
+of IN
+the DT
+desks NNS
+. CD
+more JJR
+kids NNS
+and CC
+a DT
+blackboard NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-haired JJ
+, ,
+dark-skinned JJ
+boy NN
+wearing VBG
+a DT
+white JJ
+shirt NN
+and CC
+a DT
+red JJ
+vest NN
+. NN
+outside JJ
+shot NN
+. JJ
+sand NN
+, ,
+stones NNS
+and CC
+rocks NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-haired JJ
+, ,
+dark-skinned JJ
+boy NN
+wearing VBG
+a DT
+blue JJ
+jumper NN
+with IN
+yellow JJ
+shoulders NNS
+and CC
+a DT
+yellow JJ
+zip NN
+. NN
+outside RB
+shot NN
+. JJ
+sand NN
+, ,
+stones NNS
+and CC
+rocks NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+boy NN
+wearing VBG
+a DT
+turquoise NN
+shirt NN
+and CC
+white JJ
+hat NN
+is VBZ
+sitting VBG
+on IN
+the DT
+ground NN
+and CC
+eating VBG
+an DT
+orange JJ
+. NN
+sand NN
+and CC
+rocks NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+girl NN
+in IN
+a DT
+purple JJ
+tee-shirt NN
+. NN
+stones NNS
+and CC
+rocks NNS
+in IN
+the DT
+background NN
+. NN
+hills NNS
+in IN
+the DT
+distant JJ
+background NN
+. CD
+a DT
+boy NN
+wearing VBG
+a DT
+blue JJ
+pullover NN
+and CC
+a DT
+grey NN
+jumper NN
+. NN
+outside JJ
+shot NN
+. NN
+boulders NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+girl NN
+with IN
+two CD
+long JJ
+and CC
+dark JJ
+pigtails NNS
+wearing VBG
+a DT
+beige JJ
+hat NN
+and CC
+a DT
+black JJ
+and CC
+white JJ
+jumper NN
+sitting VBG
+outside JJ
+. CD
+background NN
+scenery NN
+with IN
+stones NNS
+and CC
+rocks NNS
+. VBP
+a DT
+dark-haired JJ
+, ,
+dark-skinned JJ
+boy NN
+in IN
+blue JJ
+sleeveless JJ
+jumper NN
+. NN
+outside JJ
+shot VBD
+. NN
+rocks NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-haired JJ
+, ,
+dark-skinned JJ
+boy NN
+wearing VBG
+white JJ
+shirt NN
+and CC
+yellow NN
+and CC
+grey NN
+sweater NN
+is VBZ
+standing VBG
+in IN
+a DT
+classroom NN
+. CD
+other JJ
+kids NNS
+sitting VBG
+at IN
+their PRP$
+desk NN
+and CC
+a DT
+blackboard NN
+in IN
+the DT
+background NN
+. CD
+a DT
+boy NN
+with IN
+a DT
+green JJ
+cap NN
+with IN
+the DT
+script NN
+CA NNP
+wearing VBG
+a DT
+turquoise NN
+and CC
+green JJ
+pullover NN
+with IN
+white JJ
+and CC
+yellow JJ
+stripes NNS
+is VBZ
+sitting VBG
+in IN
+the DT
+sand NN
+outside IN
+. CD
+sand NN
+, ,
+stones NNS
+and CC
+boulders NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+dark-haired JJ
+girl NN
+with IN
+two CD
+pigtails NNS
+wearing VBG
+a DT
+pink JJ
+and CC
+white JJ
+striped NN
+pullover NN
+is VBZ
+standing VBG
+in IN
+a DT
+classroom NN
+. NN
+blackboard NN
+and CC
+teacher NN
+( (
+?) NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+and CC
+dark-haired JJ
+girl NN
+with IN
+two CD
+pigtails NNS
+wearing VBG
+a DT
+grey NN
+pullover NN
+with IN
+a DT
+pink JJ
+nametag NN
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+all PDT
+the DT
+desks NNS
+in IN
+a DT
+classroom NN
+. CD
+a DT
+grown-up's JJ
+hand NN
+is VBZ
+holding VBG
+the DT
+girl NN
+at IN
+her PRP$
+waist NN
+. CD
+more JJR
+kids NNS
+at IN
+their PRP$
+desk NN
+and CC
+a DT
+blackboard NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-haired JJ
+dark-skinned JJ
+boy NN
+wearing VBG
+a DT
+chequered JJ
+shirt NN
+with IN
+a DT
+light JJ
+blue JJ
+nametag NN
+standing NN
+in IN
+a DT
+classroom NN
+. CD
+more JJR
+kids NNS
+and CC
+a DT
+blackboard NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+red JJ
+jumper NN
+with IN
+red JJ
+and CC
+white JJ
+striped JJ
+sleeves NNS
+, ,
+a DT
+sleeveless JJ
+blue JJ
+vest NN
+and CC
+a DT
+large JJ
+hat NN
+is VBZ
+standing VBG
+outside RB
+and CC
+waving VBG
+to TO
+the DT
+camera NN
+. NN
+sand NN
+, ,
+stones NNS
+and CC
+rocks NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-haired JJ
+, ,
+dark-skinned JJ
+boy NN
+wearing VBG
+a DT
+light JJ
+blue JJ
+cap NN
+, ,
+a DT
+grey NN
+tee-shirt NN
+and CC
+a DT
+red JJ
+jumper NN
+( (
+that DT
+is VBZ
+blue JJ
+on IN
+the DT
+inside NN
+) )
+is VBZ
+standing VBG
+in IN
+a DT
+classroom NN
+. NN
+blackboard NN
+and CC
+kids NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+light JJ
+blue JJ
+tee-shirt NN
+is VBZ
+standing VBG
+in IN
+a DT
+classroom NN
+. CD
+more JJR
+kids NNS
+sitting VBG
+at IN
+their PRP$
+desks NNS
+and CC
+a DT
+blackboard NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-haired JJ
+, ,
+dark-skinned JJ
+boy NN
+in IN
+a DT
+black JJ
+tee-shirt NN
+and CC
+a DT
+light JJ
+blue JJ
+name NN
+tag NN
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+all PDT
+the DT
+desks NNS
+in IN
+a DT
+classroom NN
+. CD
+one CD
+girl NN
+sitting VBG
+at IN
+her PRP$
+desk NN
+and CC
+eating VBG
+bread NN
+. CD
+another DT
+kid NN
+in IN
+a DT
+red JJ
+jumper NN
+standing VBG
+right RB
+behind IN
+him PRP
+. CD
+more JJR
+kids NNS
+in IN
+the DT
+background NN
+. NN
+dark-haired JJ
+, ,
+dark-skinned JJ
+boy NN
+in IN
+a DT
+white JJ
+pullover NN
+standing VBG
+outside JJ
+. NN
+there EX
+is VBZ
+a DT
+smiling VBG
+green JJ
+and CC
+yellow JJ
+plane NN
+on IN
+the DT
+pullover NN
+. NN
+sandy JJ
+landscape NN
+with IN
+stones NNS
+and CC
+rocks NNS
+in IN
+the DT
+background NN
+. NN
+dark-haired JJ
+dark-skinned JJ
+boy NN
+wearing VBG
+a DT
+dark JJ
+blue JJ
+jacket NN
+with IN
+a DT
+red JJ
+and CC
+white JJ
+collar NN
+is VBZ
+standing VBG
+outside IN
+. CD
+sand NN
+and CC
+rocks NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+boy NN
+wearing VBG
+a DT
+grey NN
+cap NN
+and CC
+a DT
+grey NN
+and CC
+green JJ
+jumper NN
+standing VBG
+outside IN
+. CD
+sandy JJ
+landscape NN
+with IN
+stones NNS
+and CC
+rocks NNS
+in IN
+the DT
+background NN
+. NN
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+with IN
+a DT
+pigtail NN
+wearing VBG
+a DT
+black JJ
+jacket NN
+with IN
+colourful JJ
+flowers NNS
+. VBP
+rocky JJ
+desert NN
+in IN
+the DT
+background NN
+. CD
+a DT
+girl NN
+with IN
+medium-long NN
+, ,
+brunette NN
+hair NN
+and CC
+a DT
+white JJ
+and CC
+light JJ
+brown JJ
+pullover NN
+standing NN
+in IN
+a DT
+rocky JJ
+desert NN
+. NN
+rocks NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+girl NN
+wearing VBG
+a DT
+black JJ
+hat NN
+, ,
+a DT
+grey NN
+pullover NN
+and CC
+a DT
+large JJ
+pink JJ
+cloth NN
+. NN
+sand NN
+and CC
+some DT
+stones NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+girl NN
+wearing VBG
+a DT
+brown JJ
+and CC
+black JJ
+hat NN
+, ,
+a DT
+light JJ
+blue JJ
+pullover NN
+and CC
+a DT
+red JJ
+vest NN
+. CD
+sandy JJ
+background NN
+with IN
+very RB
+low JJ
+grass NN
+. CD
+a DT
+dark-skinned JJ
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+green JJ
+hat NN
+, ,
+long JJ
+earrings NNS
+, ,
+a DT
+long JJ
+necklace NN
+, ,
+a DT
+light JJ
+grey NN
+tee-shirt NN
+with IN
+black JJ
+and CC
+dark JJ
+grey NN
+stripes NNS
+and CC
+a DT
+purple JJ
+vest NN
+. CD
+a DT
+couple NN
+of IN
+bushes NNS
+and CC
+houses NNS
+in IN
+the DT
+background NN
+, ,
+one CD
+with IN
+a DT
+yellow JJ
+roof NN
+, ,
+one CD
+with IN
+a DT
+red JJ
+roof NN
+, ,
+the DT
+rest NN
+with IN
+grey NN
+roofs NNS
+. VBP
+a DT
+girl NN
+with IN
+long JJ
+black JJ
+hair NN
+wearing VBG
+a DT
+headband NN
+, ,
+a DT
+grey NN
+vest NN
+and CC
+a DT
+long JJ
+necklace NN
+. NN
+exterior NN
+shot VBD
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+grey NN
+cap NN
+( (
+backwards RB
+) )
+, ,
+a DT
+yellow JJ
+tee-shirt NN
+and CC
+a DT
+white JJ
+and CC
+green JJ
+tracksuit NN
+. NN
+exterior NN
+shot VBD
+. CD
+a DT
+dark-skinned JJ
+boy NN
+wearing VBG
+a DT
+purple JJ
+cap NN
+, ,
+a DT
+white JJ
+and CC
+grey JJ
+chequered JJ
+shirt NN
+and CC
+a DT
+dark JJ
+grey NN
+jacket NN
+. CD
+a DT
+dark-skinned JJ
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+white JJ
+cap NN
+( (
+with IN
+a DT
+green JJ
+woodpecker NN
+on IN
+it PRP
+) )
+and CC
+a DT
+white JJ
+and CC
+pink JJ
+jumper NN
+. CD
+a DT
+dark-haired JJ
+, ,
+dark-skinned JJ
+boy NN
+wearing VBG
+a DT
+grey NN
+Nike NNP
+cap NN
+and CC
+a DT
+grey NN
+pullover NN
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+grey JJ
+wall NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+black JJ
+and CC
+grey JJ
+NY NNP
+cap NN
+, ,
+a DT
+black JJ
+and CC
+grey JJ
+chequered JJ
+shirt NN
+and CC
+a DT
+red JJ
+and CC
+green JJ
+jacket NN
+that WDT
+is VBZ
+black JJ
+on IN
+the DT
+inside JJ
+. NN
+grey JJ
+wall NN
+of IN
+a DT
+house NN
+on IN
+the DT
+right NN
+, ,
+reddish JJ
+house NN
+with IN
+some DT
+wood NN
+on IN
+the DT
+left NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+black JJ
+cap NN
+, ,
+a DT
+yellow JJ
+tee-shirt NN
+, ,
+a DT
+white JJ
+polo NN
+shirt NN
+and CC
+an DT
+open JJ
+red JJ
+jacket NN
+, ,
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+white JJ
+wall NN
+. CD
+portrait NN
+of IN
+a DT
+dark-haired JJ
+, ,
+dark-skinned JJ
+boy NN
+wearing VBG
+a DT
+black JJ
+cap NN
+with IN
+a DT
+red JJ
+shield NN
+and CC
+a DT
+light JJ
+blue JJ
+jacket NN
+. CD
+portrait NN
+of IN
+a DT
+boy NN
+wearing VBG
+a DT
+yellow JJ
+and CC
+blue JJ
+Puma NNP
+cap NN
+, ,
+a DT
+blue JJ
+tee-shirt NN
+and CC
+a DT
+red JJ
+jacket NN
+( (
+open JJ
+) )
+. NN
+exterior NN
+shot VBD
+. CD
+houses NNS
+and CC
+trees NNS
+in IN
+distance NN
+. CD
+a DT
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+dark JJ
+brown JJ
+traditional JJ
+hat NN
+and CC
+a DT
+dark JJ
+red JJ
+jacket NN
+standing NN
+in IN
+front NN
+of IN
+a DT
+thatched JJ
+roof NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+red JJ
+cap NN
+and CC
+a DT
+blue JJ
+jumper NN
+with IN
+a DT
+grey JJ
+zip NN
+standing NN
+in IN
+the DT
+backyard NN
+. NN
+there EX
+is VBZ
+a DT
+grey JJ
+house NN
+with IN
+a DT
+light JJ
+blue JJ
+roof NN
+in IN
+the DT
+background NN
+. CD
+some DT
+garbage NN
+is VBZ
+lying VBG
+around RB
+too RB
+. CD
+a DT
+teenager NN
+wearing VBG
+a DT
+traditional JJ
+green JJ
+hat NN
+, ,
+a DT
+purple JJ
+tee-shirt NN
+, ,
+a DT
+red JJ
+jumper NN
+, ,
+a DT
+long JJ
+light JJ
+brown JJ
+necklace NN
+and CC
+earrings NNS
+. CD
+three CD
+houses NNS
+in IN
+the DT
+background NN
+, ,
+one CD
+with IN
+a DT
+yellow JJ
+roof NN
+. CD
+a DT
+couple NN
+of IN
+rocks NNS
+are VBP
+lying VBG
+around RB
+in IN
+the DT
+meadow NN
+just RB
+behind IN
+the DT
+girl NN
+. CD
+a DT
+dark-skinned JJ
+boy NN
+wearing VBG
+a DT
+black JJ
+Nike NNP
+cap NN
+, ,
+a DT
+chequered JJ
+shirt NN
+and CC
+a DT
+red JJ
+jacket NN
+( (
+that WDT
+is VBZ
+black JJ
+inside IN
+) )
+is VBZ
+standing VBG
+in IN
+the DT
+meadow NN
+behind IN
+a DT
+house NN
+. CD
+some DT
+rocks NNS
+and CC
+stones NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+traditional JJ
+green JJ
+hat NN
+and CC
+a DT
+white JJ
+cardigan NN
+in IN
+a DT
+meadow NN
+behind IN
+a DT
+grey JJ
+house NN
+. CD
+a DT
+dark-haired JJ
+, ,
+dark-skinned JJ
+girl NN
+wearing VBG
+a DT
+red JJ
+vest NN
+and CC
+a DT
+long JJ
+necklace NN
+standing NN
+in IN
+the DT
+backyard NN
+of IN
+two CD
+grey NN
+houses NNS
+. VBP
+some DT
+dowels NNS
+are VBP
+lying VBG
+around RB
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-haired JJ
+, ,
+dark-skinned JJ
+boy NN
+in IN
+a DT
+dark JJ
+green JJ
+pullover NN
+( (
+with IN
+a DT
+white JJ
+bear NN
+on IN
+it PRP
+) )
+in IN
+a DT
+backyard NN
+. CD
+some DT
+garbage NN
+lying VBG
+around RB
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+black JJ
+hat NN
+, ,
+a DT
+white JJ
+cardigan NN
+and CC
+a DT
+red JJ
+poncho NN
+. NN
+exterior NN
+shot VBD
+. CD
+short JJ
+grass NN
+and CC
+some DT
+garbage NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+black JJ
+hat NN
+, ,
+a DT
+yellow JJ
+tee-shirt NN
+and CC
+a DT
+white JJ
+vest NN
+underneath IN
+a DT
+green JJ
+vest NN
+, ,
+and CC
+a DT
+necklace NN
+with IN
+white JJ
+and CC
+green JJ
+glass NN
+beads NNS
+. VBP
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+black JJ
+hat NN
+, ,
+a DT
+red JJ
+vest NN
+and CC
+a DT
+brown JJ
+necklace NN
+, ,
+in IN
+the DT
+backyard NN
+of IN
+a DT
+house NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+with IN
+a DT
+black JJ
+hat NN
+and CC
+a DT
+white JJ
+pullover NN
+and CC
+a DT
+pink JJ
+vest NN
+underneath IN
+a DT
+large JJ
+purple JJ
+cloth NN
+, ,
+in IN
+the DT
+backyard NN
+of IN
+a DT
+house NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+black JJ
+hat NN
+, ,
+a DT
+white JJ
+pullover NN
+underneath IN
+a DT
+large JJ
+, ,
+red JJ
+poncho NN
+and CC
+a DT
+brown JJ
+necklace NN
+. CD
+a DT
+grey JJ
+brick NN
+wall NN
+and CC
+short JJ
+grass NN
+in IN
+background NN
+. CD
+a DT
+dark-haired JJ
+, ,
+dark-skinned JJ
+girl NN
+wearing VBG
+a DT
+dark JJ
+green JJ
+hat NN
+, ,
+a DT
+grey NN
+pullover NN
+with IN
+blue JJ
+sleeves NNS
+and CC
+a DT
+light JJ
+blue NN
+and CC
+yellow JJ
+necklace NN
+. CD
+a DT
+grey JJ
+brick NN
+wall NN
+and CC
+short JJ
+grass NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+traditional JJ
+green JJ
+hat NN
+, ,
+a DT
+red JJ
+pullover NN
+, ,
+a DT
+blue JJ
+vest NN
+( (
+open JJ
+) )
+and CC
+earrings NNS
+. VBP
+a DT
+grey NN
+house NN
+and CC
+short JJ
+grass NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+black JJ
+hat NN
+, ,
+a DT
+white JJ
+cardigan NN
+, ,
+a DT
+green JJ
+vest NN
+and CC
+a DT
+golden JJ
+necklace NN
+. CD
+two CD
+houses NNS
+in IN
+the DT
+background NN
+, ,
+one CD
+with IN
+a DT
+grey NN
+roof NN
+, ,
+the DT
+other JJ
+one CD
+with IN
+a DT
+light JJ
+brown JJ
+roof NN
+. NN
+short JJ
+grass NN
+and CC
+some DT
+large JJ
+stones NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+traditional JJ
+brown JJ
+hat NN
+and CC
+a DT
+large JJ
+colourful NN
+( (
+mainly RB
+red JJ
+) )
+poncho NN
+. NN
+exterior NN
+shot NN
+, ,
+with IN
+some DT
+short JJ
+grass NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+grey NN
+cap NN
+and CC
+a DT
+dark JJ
+and CC
+light JJ
+grey NN
+jumper NN
+with IN
+a DT
+black JJ
+zip NN
+, ,
+in IN
+front NN
+of IN
+a DT
+white JJ
+wall NN
+. CD
+a DT
+dark-skinned JJ
+boy NN
+wearing VBG
+a DT
+white JJ
+cap NN
+, ,
+a DT
+green JJ
+pullover NN
+and CC
+a DT
+red JJ
+vest NN
+. CD
+a DT
+dark-haired JJ
+, ,
+dark-skinned JJ
+girl NN
+wearing VBG
+a DT
+traditional JJ
+green JJ
+hat NN
+, ,
+blue JJ
+pullover NN
+, ,
+light JJ
+green JJ
+necklace NN
+and CC
+earrings NNS
+. VBP
+blue JJ
+sky NN
+in IN
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+black JJ
+hat NN
+, ,
+a DT
+grey NN
+tee-shirt NN
+, ,
+a DT
+dark JJ
+green JJ
+vest NN
+and CC
+a DT
+light JJ
+green JJ
+poncho NN
+, ,
+is VBZ
+standing VBG
+in IN
+the DT
+backyard NN
+of IN
+a DT
+house NN
+. CD
+a DT
+white JJ
+painted VBN
+house NN
+with IN
+a DT
+thatched VBN
+roof NN
+and CC
+a DT
+wooden JJ
+fence NN
+in IN
+the DT
+background NN
+. NN
+there EX
+is VBZ
+also RB
+a DT
+plastic JJ
+bag NN
+in IN
+front NN
+of IN
+the DT
+fence NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+with IN
+a DT
+blue NN
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+dark JJ
+green JJ
+hat NN
+, ,
+a DT
+white JJ
+tee-shirt NN
+beneath IN
+a DT
+blue JJ
+tee-shirt NN
+and CC
+a DT
+claret NN
+jacket NN
+( (
+open JJ
+) )
+. CD
+a DT
+hilly RB
+landscape NN
+with IN
+a DT
+few JJ
+trees NNS
+in IN
+near JJ
+background NN
+, ,
+distant JJ
+background NN
+almost RB
+treeless JJ
+. NN
+slightly RB
+overcast JJ
+sky NN
+. CD
+portrait NN
+of IN
+a DT
+coloured JJ
+, ,
+dark-haired JJ
+boy NN
+with IN
+a DT
+bit NN
+washed-out JJ
+green JJ
+hat NN
+, ,
+white JJ
+tee-shirt NN
+and CC
+a DT
+claret NN
+vest NN
+pullover NN
+, ,
+in IN
+front NN
+of IN
+a DT
+branch NN
+of IN
+a DT
+conifer NN
+. CD
+a DT
+dark-haired JJ
+, ,
+dark-skinned JJ
+boy NN
+wearing VBG
+a DT
+red JJ
+pullover NN
+and CC
+a DT
+red JJ
+cap NN
+( (
+backwards RB
+) )
+. VB
+short JJ
+grass NN
+and CC
+some DT
+garbage NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+with IN
+a DT
+big JJ
+smile NN
+wearing VBG
+a DT
+red JJ
+cap NN
+and CC
+a DT
+dark JJ
+blue JJ
+anorak NN
+. CD
+short JJ
+grass NN
+in IN
+background NN
+. CD
+a DT
+dark-haired JJ
+, ,
+dark-skinned JJ
+boy NN
+wearing VBG
+a DT
+black JJ
+cap NN
+( (
+backwards RB
+) )
+and CC
+a DT
+red JJ
+and CC
+green JJ
+tee-shirt NN
+underneath IN
+a DT
+light JJ
+blue JJ
+anorak NN
+. CD
+short JJ
+grass NN
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+black JJ
+pullover NN
+and CC
+a DT
+light JJ
+blue JJ
+jeans NNS
+jacket NN
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+painted VBN
+wall NN
+. CD
+the DT
+painting NN
+shows VBZ
+a DT
+sunset NN
+behind IN
+hills NNS
+and CC
+a DT
+tree NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+in IN
+a DT
+white JJ
+shirt NN
+in IN
+front NN
+of IN
+a DT
+painted VBN
+wall NN
+. CD
+the DT
+painting NN
+shows VBZ
+a DT
+sunset NN
+behind IN
+a DT
+hill NN
+and CC
+a DT
+tree NN
+. CD
+a DT
+dark-skinned JJ
+boy NN
+with IN
+a DT
+sceptic JJ
+look NN
+, ,
+white JJ
+cap NN
+and CC
+purple JJ
+pullover NN
+standing NN
+in IN
+front NN
+of IN
+a DT
+red JJ
+door NN
+with IN
+a DT
+glasswindow NN
+and CC
+children's NNS
+paintings NNS
+attached VBD
+. CD
+a DT
+dark-haired JJ
+, ,
+dark-skinned JJ
+boy NN
+in IN
+a DT
+red JJ
+, ,
+white JJ
+and CC
+brown JJ
+anorak NN
+and CC
+a DT
+blue JJ
+cap NN
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+pile NN
+of IN
+wood NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+black JJ
+hat NN
+, ,
+a DT
+grey NN
+pullover NN
+and CC
+a DT
+dark JJ
+turquoise NN
+vest NN
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+pile NN
+of IN
+wood NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+with IN
+a DT
+traditional JJ
+green JJ
+hat NN
+, ,
+black JJ
+chequered JJ
+pants NNS
+and CC
+a DT
+pink JJ
+violet NN
+poncho NN
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+white JJ
+wall NN
+with IN
+a DT
+light JJ
+blue JJ
+fillet NN
+. CD
+a DT
+dark-skinned JJ
+boy NN
+wearing VBG
+a DT
+black JJ
+and CC
+yellow JJ
+beanie NN
+, ,
+a DT
+white JJ
+shirt NN
+beneath IN
+a DT
+light JJ
+blue JJ
+anorak NN
+and CC
+black JJ
+pants NNS
+leaning VBG
+against IN
+a DT
+grey NN
+wall NN
+. CD
+a DT
+dark-skinned JJ
+boy NN
+wearing VBG
+an DT
+orange JJ
+cap NN
+, ,
+a DT
+light JJ
+and CC
+dark JJ
+blue JJ
+anorak NN
+and CC
+grey NN
+trousers NNS
+, ,
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+grey JJ
+wall NN
+. CD
+a DT
+dark-skinned JJ
+boy NN
+wearing VBG
+a DT
+grey NN
+cap NN
+, ,
+a DT
+red JJ
+and CC
+white JJ
+striped JJ
+shirt NN
+under IN
+a DT
+sleeveless JJ
+grey NN
+vest NN
+with IN
+a DT
+black JJ
+zip NN
+, ,
+black JJ
+pants NNS
+and CC
+runners NNS
+is VBZ
+standing VBG
+at IN
+a DT
+lookout NN
+and CC
+carrying VBG
+a DT
+black JJ
+bag NN
+in IN
+his PRP$
+right JJ
+hand NN
+. CD
+a DT
+dark-skinned JJ
+boy NN
+wearing VBG
+a DT
+knitted VBN
+woolly JJ
+hat NN
+and CC
+a DT
+light JJ
+and CC
+dark JJ
+grey NN
+striped VBD
+jumper NN
+with IN
+a DT
+grey NN
+zip NN
+, ,
+leaning VBG
+on IN
+a DT
+grey JJ
+wall NN
+. CD
+a DT
+dark-skinned JJ
+boy NN
+wearing VBG
+a DT
+black JJ
+cap NN
+and CC
+a DT
+dark JJ
+blue JJ
+and CC
+yellow JJ
+anorak NN
+with IN
+a DT
+black JJ
+zip NN
+in IN
+front NN
+of IN
+a DT
+light JJ
+grey NN
+wall NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+traditional JJ
+brown JJ
+hat NN
+and CC
+a DT
+green JJ
+vest NN
+. CD
+very RB
+rocky JJ
+landscape NN
+with IN
+little JJ
+grass NN
+in IN
+the DT
+background NN
+. NN
+there EX
+is VBZ
+also RB
+one CD
+roof NN
+of IN
+a DT
+house NN
+and CC
+a DT
+mountain NN
+range NN
+in IN
+the DT
+distance NN
+. CD
+a DT
+dark-skinned JJ
+boy NN
+wearing VBG
+a DT
+blue JJ
+cap NN
+and CC
+a DT
+yellow JJ
+jumper NN
+is VBZ
+standing VBG
+outside IN
+a DT
+house NN
+, ,
+having VBG
+his PRP$
+hands NNS
+in IN
+his PRP$
+pockets NNS
+. VBP
+a DT
+boy NN
+with IN
+a DT
+light JJ
+blue JJ
+cap NN
+, ,
+a DT
+red JJ
+pullover NN
+, ,
+blue JJ
+jeans NNS
+and CC
+black JJ
+shoes NNS
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+pile NN
+of IN
+red JJ
+bricks NNS
+, ,
+with IN
+his PRP$
+hands NNS
+in IN
+his PRP$
+pockets NNS
+. CD
+thatched VBN
+roofs NNS
+in IN
+the DT
+background NN
+. CD
+a DT
+dark-skinned JJ
+girl NN
+wearing VBG
+a DT
+traditional JJ
+green JJ
+hat NN
+and CC
+a DT
+purple JJ
+cloak NN
+( (
+cloth NN
+) )
+standing NN
+in IN
+front NN
+of IN
+a DT
+very RB
+colourful JJ
+wall NN
+. CD
+a DT
+dark-skinned JJ
+girl NN
+wearing VBG
+a DT
+black JJ
+hat NN
+and CC
+a DT
+black JJ
+jacket NN
+with IN
+red JJ
+sleeves NNS
+and CC
+a DT
+red JJ
+zip NN
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+very RB
+colourful JJ
+wall NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+black JJ
+hat NN
+and CC
+a DT
+blue JJ
+poncho NN
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+colourful JJ
+wall NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+boy NN
+wearing VBG
+a DT
+dark JJ
+blue JJ
+anorak NN
+and CC
+grey NN
+pants NNS
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+grey JJ
+wall NN
+. CD
+a DT
+dark-skinned JJ
+boy NN
+wearing VBG
+a DT
+black JJ
+cap NN
+with IN
+a DT
+red JJ
+shield NN
+, ,
+a DT
+purple JJ
+jacket NN
+with IN
+dark JJ
+green JJ
+sleeves NNS
+and CC
+red JJ
+pants NNS
+is VBZ
+standing VBG
+in IN
+front NN
+of IN
+a DT
+grey JJ
+wall NN
+. CD
+a DT
+dark-skinned JJ
+, ,
+dark-haired JJ
+girl NN
+wearing VBG
+a DT
+light JJ
+and CC
+dark JJ
+blue JJ
+and CC
+white JJ
+shirt NN
+made VBN
+of IN
+silk NN
+. CD
+a DT
+large JJ
+black JJ
+and CC
+red JJ
+saurian NN
+next JJ
+to TO
+a DT
+small JJ
+black JJ
+saurian NN
+on IN
+some DT
+sandy JJ
+rocks NNS
+. VBP
+interior JJ
+view NN
+of IN
+a DT
+room NN
+with IN
+a DT
+large JJ
+wooden JJ
+bed NN
+in IN
+the DT
+centre JJ
+. NN
+there EX
+is VBZ
+a DT
+wooden JJ
+commode NN
+and CC
+a DT
+mirror NN
+on IN
+the DT
+left VBN
+, ,
+a DT
+wooden JJ
+bedside NN
+table NN
+with IN
+a DT
+table NN
+lamp NN
+next JJ
+to TO
+the DT
+bed NN
+and CC
+a DT
+huge JJ
+fan NN
+on IN
+the DT
+wall NN
+above IN
+the DT
+bed NN
+. CD
+a DT
+man NN
+in IN
+white JJ
+shirt NN
+, ,
+black JJ
+jacket NN
+, ,
+grey JJ
+pants NNS
+and CC
+black JJ
+shoes NNS
+is VBZ
+sitting VBG
+on IN
+a DT
+wooden JJ
+chair NN
+and CC
+talking VBG
+on IN
+the DT
+phone NN
+. NN
+on IN
+the DT
+right NN
+a DT
+wooden JJ
+bed NN
+with IN
+white JJ
+bedcovers NNS
+. VBP
+on IN
+the DT
+left NN
+( (
+before IN
+the DT
+man NN
+) )
+a DT
+wooden JJ
+desk NN
+and CC
+a DT
+vase NN
+with IN
+flowers NNS
+. VBP
+there EX
+is VBZ
+a DT
+black JJ
+brief-case NN
+in IN
+front NN
+of IN
+the DT
+chair NN
+, ,
+and CC
+there EX
+is VBZ
+also RB
+a DT
+picture NN
+hanging NN
+on IN
+the DT
+wall NN
+above IN
+the DT
+bed NN
+. CD
+a DT
+blue JJ
+bus NN
+is VBZ
+parking NN
+in IN
+front NN
+of IN
+the DT
+entrance NN
+of IN
+the DT
+Hotel NNP
+Galeria NNP
+. NN
+there EX
+are VBP
+stairs NNS
+at IN
+the DT
+entrance NN
+. NN
+there EX
+are VBP
+flags NNS
+and CC
+a DT
+lamp NN
+at IN
+each DT
+side NN
+of IN
+the DT
+entrance NN
+. CD
+an DT
+inner JJ
+courtyard NN
+with IN
+a DT
+fountain NN
+and CC
+flower NN
+pots NNS
+in IN
+the DT
+centre JJ
+. NN
+several JJ
+arches NNS
+surround VBP
+the DT
+courtyard NN
+on IN
+two CD
+levels NNS
+in IN
+front NN
+of IN
+the DT
+red JJ
+building NN
+with IN
+a DT
+blue JJ
+entrance NN
+. CD
+more JJR
+flower NN
+pots NNS
+below IN
+the DT
+arches NNS
+. VBP
+interior JJ
+view NN
+of IN
+a DT
+room NN
+with IN
+two CD
+single JJ
+beds NNS
+with IN
+a DT
+yellow JJ
+and CC
+red JJ
+chequered JJ
+bedcover NN
+and CC
+a DT
+night NN
+table NN
+in IN
+between IN
+the DT
+two CD
+beds NNS
+. VBP
+on IN
+the DT
+right NN
+a DT
+wooden JJ
+commode NN
+and CC
+a DT
+red JJ
+chair NN
+. CD
+a DT
+window NN
+at IN
+the DT
+back NN
+, ,
+with IN
+the DT
+curtains NNS
+closed VBD
+. CD
+inside IN
+photograph NN
+of IN
+a DT
+room NN
+with IN
+a DT
+red JJ
+carpet NN
+. NN
+there EX
+is VBZ
+a DT
+wooden JJ
+table NN
+and CC
+a DT
+wooden JJ
+commode NN
+to TO
+the DT
+left VBN
+. CD
+a DT
+bed NN
+to TO
+the DT
+right JJ
+. NN
+two CD
+red JJ
+armchairs NNS
+with IN
+a DT
+round JJ
+table NN
+on IN
+the DT
+left NN
+at IN
+the DT
+back JJ
+. CD
+further JJ
+curtains NNS
+and CC
+a DT
+standard JJ
+lamp NN
+. NN
+arched JJ
+entrance NN
+to TO
+a DT
+hotel NN
+with IN
+a DT
+revolving VBG
+glass NN
+door NN
+and CC
+a DT
+well RB
+exposed VBN
+flower NN
+pot NN
+on IN
+each DT
+side NN
+of IN
+the DT
+entrance NN
+. CD
+a DT
+large JJ
+, ,
+brown JJ
+, ,
+18 CD
+story NN
+building NN
+with IN
+two CD
+palm NN
+trees NNS
+, ,
+lamps NNS
+and CC
+flags NNS
+in IN
+front JJ
+. CD
+blue JJ
+sky NN
+in IN
+the DT
+background NN
+. NN
+exterior JJ
+view NN
+of IN
+a DT
+light JJ
+brown JJ
+house NN
+, ,
+with IN
+stairs NNS
+rising VBG
+to TO
+the DT
+entrance NN
+of IN
+the DT
+second JJ
+floor NN
+on IN
+the DT
+left VBN
+, ,
+a DT
+tower NN
+with IN
+two CD
+small JJ
+windows NNS
+in IN
+the DT
+centre JJ
+. NN
+there EX
+is VBZ
+an DT
+arch NN
+below IN
+the DT
+stairs NNS
+leading VBG
+to TO
+the DT
+entrance NN
+of IN
+the DT
+first JJ
+floor NN
+. NN
+attached VBD
+houses NNS
+on IN
+the DT
+right JJ
+. NN
+blue JJ
+sky NN
+in IN
+the DT
+background NN
+. NN
+interior JJ
+view NN
+of IN
+a DT
+room NN
+with IN
+white JJ
+walls NNS
+, ,
+a DT
+wooden JJ
+double JJ
+bed NN
+, ,
+white JJ
+pillows NNS
+, ,
+a DT
+brown JJ
+, ,
+green JJ
+and CC
+red JJ
+striped VBD
+blanked VBD
+and CC
+a DT
+night NN
+table NN
+with IN
+a DT
+bedside NN
+lamp NN
+on IN
+it PRP
+. CD
+Front NNP
+view NN
+of IN
+the DT
+first JJ
+three CD
+levels NNS
+of IN
+the DT
+Hotel NNP
+and CC
+Casino NNP
+Boulevard NNP
+. CD
+Five CD
+flags NNS
+and CC
+a DT
+cobbled JJ
+street NN
+in IN
+front NN
+of IN
+the DT
+entrance NN
+. NN
+walls NNS
+are VBP
+made VBN
+of IN
+glass NN
+to TO
+a DT
+large JJ
+extent NN
+. CD
+a DT
+swimming VBG
+pool NN
+in IN
+the DT
+foreground NN
+. NN

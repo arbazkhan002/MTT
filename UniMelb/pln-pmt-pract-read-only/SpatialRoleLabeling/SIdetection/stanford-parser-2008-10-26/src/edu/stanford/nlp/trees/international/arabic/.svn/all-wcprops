@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/arabic
+END
+ArabicTreebankTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/arabic/ArabicTreebankTokenizer.java
+END
+ArabicHeadFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/arabic/ArabicHeadFinder.java
+END
+IBMArabicEscaper.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/arabic/IBMArabicEscaper.java
+END
+ArabicTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/arabic/ArabicTokenizer.java
+END
+ArabicTreeReaderFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/arabic/ArabicTreeReaderFactory.java
+END
+ArabicTreebankLanguagePack.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/arabic/ArabicTreebankLanguagePack.java
+END
+ArabicLexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/arabic/ArabicLexer.java
+END
+Buckwalter.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/arabic/Buckwalter.java
+END
+ArabicTreeNormalizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/trees/international/arabic/ArabicTreeNormalizer.java
+END

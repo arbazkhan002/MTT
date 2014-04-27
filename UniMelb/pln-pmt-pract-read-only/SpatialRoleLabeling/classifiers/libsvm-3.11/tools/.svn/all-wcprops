@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/tools
+END
+subset.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/tools/subset.py
+END
+grid.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/tools/grid.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/tools/README
+END
+checkdata.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/tools/checkdata.py
+END
+easy.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/tools/easy.py
+END

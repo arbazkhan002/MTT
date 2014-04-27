@@ -7,14 +7,15 @@ import random
 import logger
 import Queue
 import pdb
+import attmodifier
 #~ SRC='0101000020847F0000704DF34E47D0194118485024FD5F4641'
 #~ DEST='0101000020847F0000B0627FD91ED019411851DABB05604641'
 SRC='0101000020847F0000704DF34E47D0194118485024FD5F4641'
 DEST='0101000020847F00008CDD071EC5DF1941C8D53D59AA5F4641'
 CLIENT_WAIT_TIME=0.05
 SERVER_WAIT_TIME=0.005
-TOPRINT=1		#whether to log(print the results to result file)
-THRESHHOLD=1.0	#This is the factor threshhold, which indicates how many iterations do we make before, we instead of probing 
+TOPRINT=0		#whether to log(print the results to result file)
+THRESHHOLD=0.25	#This is the factor threshhold, which indicates how many iterations do we make before, we instead of probing 
 				# ask for interrupts on whether the intersection is crossed or not 
 				#For example, if threshhold is 1, only once we ask the question did you cross the intersection? thereafter we wait for him endlessly
 LOG=logger.logger("logfile.txt")
@@ -247,6 +248,7 @@ class server:
 	mistakes=0
 	prompts=0
 	prfactor=0
+	modifier=None	
 		
 	def __init__(self,graph):
 		self.g=graph
@@ -313,11 +315,15 @@ class server:
 				self.time=runner.gettime()			
 				
 				reply=0
+
 				while speed!=0 and (self.time<prevtime+(float(dist)*factor)/speed or factor<THRESHHOLD) and reply!=1:
 					if runner.alive==0:
 						self.printStats()
 						print "Client dead"
 						return
+					
+					if factor<THRESHHOLD and i>0:
+						i-=1	#ask for intersection
 					
 					# If below condition is not put then queue floods up due to unreplied queries
 					if reply==0:
@@ -448,15 +454,29 @@ class server:
 							# on the restEdges sorted by distance from the last checkpoint, pick up the distance of first index i.e. closest edge distance
 							if not restEdges:	#all edges emanating from the cross section have been searched for	
 								#-------------------------------------------------------------------------------#
-								#Here, u enter the REACTIVE PHASE								
+								#Here, u enter the REACTIVE PHASE
+
+								allLandmarks={}
+								for pathi in nextpath:
+									newLandmarks=self.g.getLandmarks(conn,[pathi])
+									for i in newLandmarks:
+										if not newLandmarks[i] and i not in allLandmarks:
+											allLandmarks[i]=newLandmarks[i] 
+								#~ 
+								#~ self.reactive(allLandmarks)		
+								print						
+								print "\t--------------------------- GOT HERE ------------------------------------------------------"
+								print 
 								pass
 								#-------------------------------------------------------------------------------#
 							else:	
 								closestTuple=(sorted(restEdges,key=lambda x:x[0])[0])
 								lastWaitDist=newWaitDist
-								newWaitDist=closestTuple[0]
+								newWaitDist=closestTuple[0]-lastWaitDist
 								filteredSect.append(closestTuple[1].sectId)						
-								print "wait factor increases: ",path[i].length, " to ",newWaitDist
+								print
+								print "\twait factor increases: ",path[i].length, " to ",newWaitDist
+								print
 								dist-=lastWaitDist								
 								dist+=newWaitDist
 								factor=1.0													
@@ -491,6 +511,13 @@ class server:
 				print "End tracking"
 				return				
 				
+
+	def reactive(self,allLandmarks):
+		larray=list(set(allLandmarks.values()))
+		self.modifier=attmodifier.modifier(conn)
+		mat=self.modifier.getAttr(larray)			
+		#~ queue.put("reactive")
+		pass
 						
 	def updatespeed(self,t1,t2,d):
 		return d/(t1-t2)		

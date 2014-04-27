@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/regression
+END
+RegressionModelSummer.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/regression/RegressionModelSummer.java
+END
+LogicalRegressionTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/regression/LogicalRegressionTree.java
+END
+LogicalRegressionTreeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/regression/LogicalRegressionTreeTest.java
+END
+RegressionExample.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/regression/RegressionExample.java
+END
+RegressionModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/regression/RegressionModel.java
+END
+InterpretationRegressionTreeTrainerBestFirst.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/regression/InterpretationRegressionTreeTrainerBestFirst.java
+END
+TrainerWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/regression/TrainerWrapper.java
+END
+PrologRegressionTreeTrainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/regression/PrologRegressionTreeTrainer.java
+END
+ExploreJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/regression/ExploreJob.java
+END
+RegressionModelStuff.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/regression/RegressionModelStuff.java
+END
+InterpretationRegressionTreeTrainerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/regression/InterpretationRegressionTreeTrainerTest.java
+END
+InterpretationRegressionTreeTrainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/regression/InterpretationRegressionTreeTrainer.java
+END
+LogicalRegressionTreeTrainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/regression/LogicalRegressionTreeTrainer.java
+END
+PrologRegressionTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/regression/PrologRegressionTree.java
+END
+PrologRegressionTreeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/regression/PrologRegressionTreeTest.java
+END
+RegressionModelTrainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/regression/RegressionModelTrainer.java
+END
+InterpretationRegressionTreeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/regression/InterpretationRegressionTreeTest.java
+END
+InterpretationRegressionTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/regression/InterpretationRegressionTree.java
+END

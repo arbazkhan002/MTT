@@ -1,0 +1,377 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees
+END
+GrammaticalStructure.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/GrammaticalStructure.java
+END
+WordNetConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/WordNetConnection.java
+END
+CompositeTreeTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/CompositeTreeTransformer.java
+END
+CoordinationTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/CoordinationTransformer.java
+END
+TreePrint.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/TreePrint.java
+END
+ModCollinsHeadFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/ModCollinsHeadFinder.java
+END
+LabeledScoredTreeNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/LabeledScoredTreeNode.java
+END
+BobChrisTreeNormalizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/BobChrisTreeNormalizer.java
+END
+CompositeTreebank.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/CompositeTreebank.java
+END
+Constituent.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/Constituent.java
+END
+SimpleConstituentFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/SimpleConstituentFactory.java
+END
+TreeGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/TreeGraph.java
+END
+AbstractTreebankLanguagePack.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/AbstractTreebankLanguagePack.java
+END
+NPTmpRetainingTreeNormalizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/NPTmpRetainingTreeNormalizer.java
+END
+NamedDependency.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/NamedDependency.java
+END
+LabeledScoredTreeReaderFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/LabeledScoredTreeReaderFactory.java
+END
+TypedDependency.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/TypedDependency.java
+END
+SimpleTreeReaderFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/SimpleTreeReaderFactory.java
+END
+TransformingTreebank.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/TransformingTreebank.java
+END
+UnnamedDependency.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/UnnamedDependency.java
+END
+Dependencies.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/Dependencies.java
+END
+TreeGraphNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/TreeGraphNode.java
+END
+TreeFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/TreeFactory.java
+END
+TreeFunctions.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/TreeFunctions.java
+END
+Labeled.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/Labeled.java
+END
+HeadFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/HeadFinder.java
+END
+Treebank.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/Treebank.java
+END
+CollocationFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/CollocationFinder.java
+END
+TreeNormalizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/TreeNormalizer.java
+END
+PennTreeReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/PennTreeReader.java
+END
+DiskTreebank.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/DiskTreebank.java
+END
+DependencyFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/DependencyFactory.java
+END
+PennTreebankTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/PennTreebankTokenizer.java
+END
+ConstituentFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/ConstituentFactory.java
+END
+WordStemmer.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/WordStemmer.java
+END
+SimpleTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/SimpleTree.java
+END
+TreeReaderFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/TreeReaderFactory.java
+END
+EnglishGrammaticalRelations.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/EnglishGrammaticalRelations.java
+END
+SemanticHeadFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/SemanticHeadFinder.java
+END
+CollinsHeadFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/CollinsHeadFinder.java
+END
+Dependency.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/Dependency.java
+END
+TreeGraphNodeFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/TreeGraphNodeFactory.java
+END
+TreeVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/TreeVisitor.java
+END
+GrammaticalRelation.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/GrammaticalRelation.java
+END
+PennTreebankLanguagePack.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/PennTreebankLanguagePack.java
+END
+DependencyTreeTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/DependencyTreeTransformer.java
+END
+TreeReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/TreeReader.java
+END
+Trees.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/Trees.java
+END
+TreeTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/TreeTransformer.java
+END
+TreeTokenizerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/TreeTokenizerFactory.java
+END
+QPTreeTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/QPTreeTransformer.java
+END
+MemoryTreebank.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/MemoryTreebank.java
+END
+TreeCoreAnnotations.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/TreeCoreAnnotations.java
+END
+LabeledConstituent.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/LabeledConstituent.java
+END
+SimpleConstituent.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/SimpleConstituent.java
+END
+GrammaticalStructureFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/GrammaticalStructureFactory.java
+END
+PennTreeReaderFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/PennTreeReaderFactory.java
+END
+TreebankLanguagePack.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/TreebankLanguagePack.java
+END
+Tree.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/Tree.java
+END
+LabeledScoredTreeFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/LabeledScoredTreeFactory.java
+END
+AbstractCollinsHeadFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/AbstractCollinsHeadFinder.java
+END
+SimpleTreeFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/trees/SimpleTreeFactory.java
+END

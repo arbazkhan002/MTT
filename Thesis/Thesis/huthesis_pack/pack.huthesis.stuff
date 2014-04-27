@@ -1,0 +1,2 @@
+tar cvf huthesis_pack.tar ap1.tex b.tex bibs.bib ch1.tex fig1.eps frontmatter.tex hut10.clo hut11.clo hut12.clo huthesis.cls mathdefs.tex thesis.tex ucthesis.readme pack.huthesis.stuff
+gzip huthesis_pack.tar

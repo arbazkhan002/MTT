@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/windows
+END
+libsvm.dll
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/windows/libsvm.dll
+END
+svmtrain.mexw32
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/windows/svmtrain.mexw32
+END
+svmpredict.mexw64
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/windows/svmpredict.mexw64
+END
+svm-scale.exe
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/windows/svm-scale.exe
+END
+libsvmwrite.mexw32
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/windows/libsvmwrite.mexw32
+END
+libsvmread.mexw32
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/windows/libsvmread.mexw32
+END
+svmtrain.mexw64
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/windows/svmtrain.mexw64
+END
+svm-predict.exe
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/windows/svm-predict.exe
+END
+svm-toy.exe
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/windows/svm-toy.exe
+END
+libsvmwrite.mexw64
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/windows/libsvmwrite.mexw64
+END
+svm-train.exe
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/windows/svm-train.exe
+END
+libsvmread.mexw64
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/windows/libsvmread.mexw64
+END
+svmpredict.mexw32
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/windows/svmpredict.mexw32
+END

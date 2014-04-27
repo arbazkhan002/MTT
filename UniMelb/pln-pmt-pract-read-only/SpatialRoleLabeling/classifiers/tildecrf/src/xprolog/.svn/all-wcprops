@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog
+END
+SimpleCharStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/SimpleCharStream.java
+END
+TermList.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/TermList.java
+END
+ChoicePoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/ChoicePoint.java
+END
+Play.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/Play.java
+END
+Engine.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/Engine.java
+END
+Go.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/Go.java
+END
+Term.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/Term.java
+END
+IO.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/IO.java
+END
+Primitive.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/Primitive.java
+END
+KnowledgeBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/KnowledgeBase.java
+END
+Step.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/Step.java
+END
+Clause.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/Clause.java
+END
+Token.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/Token.java
+END
+ParserTokenManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/ParserTokenManager.java
+END
+Number.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/Number.java
+END
+ParseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/ParseException.java
+END
+ParserConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/ParserConstants.java
+END
+XProlog.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/XProlog.java
+END
+Cut.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/Cut.java
+END
+Parser.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/Parser.java
+END
+MyXprologTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/MyXprologTest.java
+END
+TokenMgrError.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/TokenMgrError.java
+END
+PostOffice.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/xprolog/PostOffice.java
+END

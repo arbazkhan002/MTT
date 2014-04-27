@@ -1,0 +1,69 @@
+<project name="lcrf" default="build">
+	
+    <property name="sourcedir" value="${basedir}/src"/>
+    <property name="bindir" value="${basedir}/bin"/>
+	<property name="librarydir" value="${basedir}/lib"/>
+	<property name="tempdir" value="${basedir}/temp_onlyfor_jarWithLibs"/>
+	
+	
+	
+	<target name="init">
+		<!-- Create the time stamp -->
+		<tstamp/>
+		<!-- Create the build directory structure used by compile -->
+	    <mkdir dir="${bindir}"/>
+	</target>
+	
+	
+	<target name="build" depends="init"
+		description="compile everything">
+		<javac srcdir="${sourcedir}"
+			destdir="${bindir}"
+			source="1.5">
+			<classpath>
+				<fileset dir="${librarydir}">
+					<include name="*.jar"/>
+				</fileset>
+			</classpath>
+		</javac>
+	</target>
+
+	
+	<target name="jar" depends="init,build"
+		description="make a jar-archiv">
+		<jar destfile="tildecrf.jar" basedir="${bindir}" excludes="*Test*">
+			<manifest>
+				<attribute name="Main-Class" value="lcrf.Master"/>
+			</manifest>
+		</jar>
+	</target>
+	
+	<target name="jarWithLibs" depends="init,build"
+	    description="make a jar-archive that also contains all the files from all libraries">
+		<mkdir dir="${tempdir}"/>
+		<unjar dest="${tempdir}" src="${librarydir}/commons-cli-1.0.jar"/>
+		<unjar dest="${tempdir}" src="${librarydir}/log4j-1.2.9.jar"/>
+		<delete dir="${tempdir}/META-INF"/>
+		<copy toDir="${tempdir}">
+			<fileset dir="${bindir}"/>
+		</copy>
+		<jar destfile="tildecrf.jar" basedir="${tempdir}" excludes="*Test*">
+				<manifest>
+					<attribute name="Main-Class" value="lcrf.Master"/>
+				</manifest>
+		</jar>
+		<delete dir="${tempdir}"/>
+	</target>	
+		
+		
+
+	
+	<target name="javadoc" depends="init"
+		description="generate javadoc">
+		<javadoc destdir="doc">
+			<fileset dir="${sourcedir}" includes="**/*.java"/>
+		</javadoc>
+	</target>
+	
+	
+</project>

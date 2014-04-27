@@ -1,0 +1,311 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util
+END
+MutableInteger.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/MutableInteger.java
+END
+Index.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/Index.java
+END
+Filters.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/Filters.java
+END
+FilteredIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/FilteredIterator.java
+END
+IntTriple.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/IntTriple.java
+END
+ArrayHeap.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/ArrayHeap.java
+END
+ArrayMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/ArrayMap.java
+END
+Heap.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/Heap.java
+END
+AbstractIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/AbstractIterator.java
+END
+TypesafeMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/TypesafeMap.java
+END
+Sets.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/Sets.java
+END
+Numberer.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/Numberer.java
+END
+FileProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/FileProcessor.java
+END
+DisabledPreferencesFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/DisabledPreferencesFactory.java
+END
+CollectionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/CollectionFactory.java
+END
+MutableDouble.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/MutableDouble.java
+END
+Function.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/Function.java
+END
+PriorityQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/PriorityQueue.java
+END
+CoreMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/CoreMap.java
+END
+Interner.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/Interner.java
+END
+DisabledPreferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/DisabledPreferences.java
+END
+BinaryHeapPriorityQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/BinaryHeapPriorityQueue.java
+END
+CollectionValuedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/CollectionValuedMap.java
+END
+Pair.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/Pair.java
+END
+FilePathProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/FilePathProcessor.java
+END
+ConcatenationIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/ConcatenationIterator.java
+END
+Generics.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/Generics.java
+END
+Beam.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/Beam.java
+END
+DeltaCollectionValuedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/DeltaCollectionValuedMap.java
+END
+MapFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/MapFactory.java
+END
+IntPair.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/IntPair.java
+END
+ScoredObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/ScoredObject.java
+END
+ScoredComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/ScoredComparator.java
+END
+Factory.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/Factory.java
+END
+IdentityHashSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/IdentityHashSet.java
+END
+IntQuadruple.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/IntQuadruple.java
+END
+HashableCoreMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/HashableCoreMap.java
+END
+Scored.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/Scored.java
+END
+FixedPrioritiesPriorityQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/FixedPrioritiesPriorityQueue.java
+END
+XMLUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/XMLUtils.java
+END
+Filter.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/Filter.java
+END
+ArrayCoreMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/ArrayCoreMap.java
+END
+DeltaMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/DeltaMap.java
+END
+StringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/StringUtils.java
+END
+Timing.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/Timing.java
+END
+IndexInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/IndexInterface.java
+END
+ArrayUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/ArrayUtils.java
+END
+Triple.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/Triple.java
+END
+Maps.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/Maps.java
+END
+IntTuple.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/IntTuple.java
+END
+IntUni.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/util/IntUni.java
+END

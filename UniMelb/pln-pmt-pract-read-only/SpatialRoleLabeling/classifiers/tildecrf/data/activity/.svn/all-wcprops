@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/data/activity
+END
+activity_generator.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/data/activity/activity_generator.py
+END
+schemata.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/data/activity/schemata.xml
+END
+data.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/data/activity/data.xml
+END

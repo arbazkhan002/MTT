@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/javadoc/edu/stanford/nlp/trees/tregex
+END
+TregexParserConstants.html
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/javadoc/edu/stanford/nlp/trees/tregex/TregexParserConstants.html
+END
+Token.html
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/javadoc/edu/stanford/nlp/trees/tregex/Token.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/javadoc/edu/stanford/nlp/trees/tregex/package-frame.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/javadoc/edu/stanford/nlp/trees/tregex/package-summary.html
+END
+TregexPatternCompiler.html
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/javadoc/edu/stanford/nlp/trees/tregex/TregexPatternCompiler.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/javadoc/edu/stanford/nlp/trees/tregex/package-tree.html
+END
+ParseException.html
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/javadoc/edu/stanford/nlp/trees/tregex/ParseException.html
+END
+TreeMatcher.TRegexTreeReaderFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/javadoc/edu/stanford/nlp/trees/tregex/TreeMatcher.TRegexTreeReaderFactory.html
+END
+TregexPattern.html
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/javadoc/edu/stanford/nlp/trees/tregex/TregexPattern.html
+END
+TreePattern.html
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/javadoc/edu/stanford/nlp/trees/tregex/TreePattern.html
+END
+TokenMgrError.html
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/javadoc/edu/stanford/nlp/trees/tregex/TokenMgrError.html
+END
+TregexMatcher.html
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/javadoc/edu/stanford/nlp/trees/tregex/TregexMatcher.html
+END
+SimpleCharStream.html
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/javadoc/edu/stanford/nlp/trees/tregex/SimpleCharStream.html
+END
+TreeMatcher.html
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/javadoc/edu/stanford/nlp/trees/tregex/TreeMatcher.html
+END
+TregexParserTokenManager.html
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/javadoc/edu/stanford/nlp/trees/tregex/TregexParserTokenManager.html
+END

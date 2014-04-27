@@ -1,0 +1,129 @@
+
+*****************************************************
+Summary
+-------
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 93
+
+Apache Licensed: 93
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/createPear.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/metadata/install.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/test/resources/test-descriptors/PercentageNameFinder.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/test/resources/test-descriptors/TypeSystem.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/test/resources/test-descriptors/LocationNameFinder.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/test/resources/test-descriptors/SentenceDetector.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/test/resources/test-descriptors/OrganizationNameFinder.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/test/resources/test-descriptors/DateNameFinder.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/test/resources/test-descriptors/PersonNameFinder.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/test/resources/test-descriptors/Tokenizer.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/test/resources/test-descriptors/PosTagger.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/test/resources/test-descriptors/Chunker.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/test/resources/test-descriptors/TimeNameFinder.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/test/resources/test-descriptors/MoneyNameFinder.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/test/java/opennlp/uima/AnnotatorsInitializationTest.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/resources/opennlp/uima/util/ExceptionMessages_en.properties
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/postag/package.html
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/postag/POSTaggerTrainer.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/postag/POSModelResource.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/postag/POSModelResourceImpl.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/postag/POSTagger.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/sentdetect/SentenceDetector.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/sentdetect/package.html
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/sentdetect/SentenceModelResource.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/sentdetect/SentenceDetectorTrainer.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/sentdetect/SentenceModelResourceImpl.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/sentdetect/AbstractSentenceDetector.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/parser/ParserModelResource.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/parser/ParserModelResourceImpl.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/parser/Parser.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/namefind/package.html
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/namefind/NameFinderTrainer.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/namefind/TokenNameFinderModelResourceImpl.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/namefind/AbstractNameFinder.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/namefind/DictionaryNameFinder.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/namefind/NameFinder.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/namefind/TokenNameFinderModelResource.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/doccat/DoccatModelResourceImpl.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/doccat/DocumentCategorizerTrainer.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/doccat/AbstractDocumentCategorizer.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/doccat/DoccatModelResource.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/doccat/LanguageDetector.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/doccat/DocumentCategorizer.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/chunker/package.html
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/chunker/ChunkerTrainer.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/chunker/Chunker.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/chunker/ChunkerModelResource.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/chunker/ChunkerModelResourceImpl.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/tokenize/package.html
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/tokenize/WhitespaceTokenizer.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/tokenize/AbstractTokenizer.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/tokenize/Tokenizer.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/tokenize/SimpleTokenizer.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/tokenize/TokenizerTrainer.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/tokenize/TokenizerModelResourceImpl.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/tokenize/TokenizerModelResource.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/util/OpennlpUtil.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/util/AbstractModelResource.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/util/SampleTraceStream.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/util/ContainingConstraint.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/util/ExceptionMessages.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/util/AnnotationComboIterator.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/util/OpenNlpAnnotatorProcessException.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/util/CasConsumerUtil.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/util/AnnotationComparator.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/util/AnnotationIteratorPair.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/util/AnnotatorUtil.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/util/UimaUtil.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/normalizer/Normalizer.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/normalizer/StringDictionary.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/src/main/java/opennlp/uima/normalizer/NumberUtil.java
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/pom.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/descriptors/PercentageNameFinder.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/descriptors/ChunkerTrainer.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/descriptors/SimpleTokenizer.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/descriptors/TypeSystem.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/descriptors/LocationNameFinder.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/descriptors/PersonNameFinderTrainer.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/descriptors/SentenceDetector.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/descriptors/Parser.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/descriptors/PosTaggerTrainer.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/descriptors/SentenceDetectorTrainer.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/descriptors/OrganizationNameFinder.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/descriptors/DateNameFinder.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/descriptors/PersonNameFinder.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/descriptors/Tokenizer.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/descriptors/PosTagger.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/descriptors/Chunker.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/descriptors/TokenizerTrainer.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/descriptors/TimeNameFinder.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/descriptors/MoneyNameFinder.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/descriptors/LanguageDetector.xml
+  AL    /home/arbazk/Downloads/apache-opennlp-1.5.3-src/opennlp-uima/descriptors/OpenNlpTextAnalyzer.xml
+ 
+ *****************************************************
+ Printing headers for files without AL header...
+ 
+ 

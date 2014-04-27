@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/java
+END
+svm_scale.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/java/svm_scale.java
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/java/Makefile
+END
+svm_predict.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/java/svm_predict.java
+END
+svm_toy.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/java/svm_toy.java
+END
+svm_train.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/java/svm_train.java
+END
+test_applet.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/java/test_applet.html
+END
+libsvm.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/java/libsvm.jar
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/data/dietterich
+END
+protein_train.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/data/dietterich/protein_train.xml
+END
+protein_test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/data/dietterich/protein_test.xml
+END
+schemata1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/data/dietterich/schemata1.xml
+END
+bgknowledge1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/data/dietterich/bgknowledge1.xml
+END

@@ -1,0 +1,58 @@
+options {
+
+  STATIC = false;
+
+}
+
+PARSER_BEGIN(AtomParser)
+
+package lcrf.logic.parser;
+
+import lcrf.logic.*;
+import java.util.Vector;
+
+public class AtomParser {
+
+}
+
+PARSER_END(AtomParser)
+
+SKIP:
+{
+ " "
+}
+
+TOKEN: 
+{
+  < VARIABLE : (["A"-"Z","_"])+ (["A"-"Z","a"-"z","0"-"9","_"])* >
+| < CONSTANT : (["a"-"z"])+ (["A"-"Z","a"-"z","0"-"9","_"])* >
+| < STRING   : ["'"] (~["'"])* ["'"] >
+| < NUMBER   : (["0"-"9"])+ >
+| < COMMA    : "," >
+| < LPAREN   : "(" >
+| < RPAREN   : ")" >  
+}
+
+
+Term Term() :
+{
+  Token t;
+  Term subterm;
+  Vector subterms = new Vector();
+}
+{
+
+     t=<STRING>  { return new StringConstant(t.image.substring(1,t.image.length()-1)); }
+   | t=<NUMBER> { return new NumberConstant(new Integer(t.image).intValue()); }
+   | t=<VARIABLE> { return new Variable(t.image); }       
+   | LOOKAHEAD(2)
+     t=<CONSTANT>
+      <LPAREN>
+        subterm=Term() { subterms.add(subterm); }
+        (
+         <COMMA> subterm=Term() { subterms.add(subterm);}
+         )*
+      <RPAREN>  {return new Constant(t.image,subterms);}  
+   | t=<CONSTANT> { return new Constant(t.image); }      
+}
+  

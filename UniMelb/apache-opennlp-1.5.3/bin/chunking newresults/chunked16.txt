@@ -1,0 +1,10 @@
+ [NP Melbourne_NNP University_NNP ] [VP is_VBZ ] not_RB [NP a_DT big_JJ university_NN ] ._.
+ [NP You_PRP ] [VP can_MD start_VB ] [NP your_PRP$ visit_NN ] [PP at_IN ] [NP the_DT gate_NN ] [NP which_WDT ] [VP is_VBZ ] [NP John_NNP Medley_NNP building_NN ] and_CC [NP you_PRP ] [VP will_MD see_VB ] [NP WELCOME_NNP ] [PP at_IN ] [NP the_DT bridge_NN ] [PP above_IN ] [NP your_PRP$ horizon_NN ] ._.
+ [NP Pass_NNP the_DT gate_NN ] [NP you_PRP ] [VP will_MD see_VB ] [NP Southern_NNP Lawn_NNP ] [NP which_WDT ] [VP is_VBZ ] [NP place_NN ] [PP that_IN ] [NP students_NNS ] [ADVP always_RB ] [VP hang_VB ] [NP out_RP ] and_CC [NP I_PRP ] [VP think_VBP ] [NP it_PRP ] [NP it_PRP ] [ADVP also_RB ] [NP a_DT awarded_VBN design_NN ] ._.
+ [VP Keep_VB walking_VBG ] [NP you_PRP ] [VP will_MD see_VB ] [NP some_DT old_JJ buildings_NNS ] ,_, [NP you_PRP ] [VP should_MD spend_VB ] [NP some_DT time_NN ] [NP there_EX ] [VP taking_VBG ] [NP some_DT pictures_NNS ] ._.
+ Then_RB [NP you_PRP ] [VP will_MD reach_VB ] [NP the_DT central_JJ ] [PP of_IN ] [NP the_DT campus_NN ] ,_, [NP union_NN house_NN ] ._.
+ [NP You_PRP ] [VP may_MD wander_VB ] [ADVP around_RB ] but_CC [NP I_PRP ] [VP think_VBP ] [NP there_EX ] [VP 's_VBZ ] [NP nothing_NN ] [ADJP interesting_JJ ] [PP at_IN ] [NP all_DT ] ._.
+ [ADVP However_RB ] ,_, [NP I_PRP ] [VP suggest_VBP ] [NP you_PRP ] [VP to_TO go_VB ] [PP to_TO ] [NP Royal_NNP Parade_NNP ] [PP via_IN ] [NP Tin_NNP Aly_NNP ] and_CC [VP start_VB to_TO have_VB ] [NP a_DT tutor_NN ] [PP along_IN ] [NP the_DT colleges_NNS ] ._.
+ [NP These_DT colleges_NNS ] [VP are_VBP ] [ADJP old_JJ ] and_CC [VP have_VBP ] [NP their_PRP$ own_JJ features_NNS ] ._.
+ [ADVP When_WRB ] [NP you_PRP ] [VP finish_VBP walking_VBG ] [NP you_PRP ] [VP will_MD find_VB ] [NP the_DT tram_NN station_NN ] [PP on_IN ] [NP Swanston_NNP ] [ADVP where_WRB ] [NP you_PRP ] [VP can_MD catch_VB ] [NP a_DT tram_NN ] and_CC [VP go_VB ] [ADVP back_RB ] ._.
+ 

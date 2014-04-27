@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/python
+END
+svmutil.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/python/svmutil.py
+END
+svm.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/python/svm.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/python/README
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/SpatialRoleLabeling/classifiers/libsvm-3.11/python/Makefile
+END

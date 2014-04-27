@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/tagger/io
+END
+TextTaggedFileReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/tagger/io/TextTaggedFileReader.java
+END
+TaggerFileRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/tagger/io/TaggerFileRecord.java
+END
+TreeTaggedFileReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/tagger/io/TreeTaggedFileReader.java
+END
+TaggedFileReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/tagger/io/TaggedFileReader.java
+END

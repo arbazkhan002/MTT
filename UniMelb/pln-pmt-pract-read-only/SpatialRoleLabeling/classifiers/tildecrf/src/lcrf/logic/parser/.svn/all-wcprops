@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/logic/parser
+END
+AtomParserTokenManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/logic/parser/AtomParserTokenManager.java
+END
+ParseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/logic/parser/ParseException.java
+END
+AtomParserConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/logic/parser/AtomParserConstants.java
+END
+AtomParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/logic/parser/AtomParser.java
+END
+AtomParser.jj
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/logic/parser/AtomParser.jj
+END
+Token.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/logic/parser/Token.java
+END
+TokenMgrError.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/logic/parser/TokenMgrError.java
+END
+SimpleCharStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/8/trunk/SpatialRoleLabeling/classifiers/tildecrf/src/lcrf/logic/parser/SimpleCharStream.java
+END

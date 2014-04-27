@@ -1,0 +1,10 @@
+<schemata>
+  <schema name="input">
+    <schematerm>a(X)</schematerm>
+    <substitutions variable="X">
+      <entry>__BOUNDEDVAR</entry>
+      <entry>__UNBOUNDEDVAR</entry>
+      <numberconstant from="0" to="20"/>
+    </substitutions>
+  </schema>
+</schemata>

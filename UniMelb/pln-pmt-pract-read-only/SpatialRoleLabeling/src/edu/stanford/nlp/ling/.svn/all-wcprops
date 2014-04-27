@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling
+END
+Labeled.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/Labeled.java
+END
+CategoryWordTagFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/CategoryWordTagFactory.java
+END
+WordTagFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/WordTagFactory.java
+END
+WordFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/WordFactory.java
+END
+Sentence.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/Sentence.java
+END
+AnnotationLookup.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/AnnotationLookup.java
+END
+CategoryWordTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/CategoryWordTag.java
+END
+StringLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/StringLabel.java
+END
+HasWord.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/HasWord.java
+END
+WordTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/WordTag.java
+END
+HasTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/HasTag.java
+END
+HasCategory.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/HasCategory.java
+END
+Word.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/Word.java
+END
+TaggedWordFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/TaggedWordFactory.java
+END
+CyclicCoreLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/CyclicCoreLabel.java
+END
+HasOffset.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/HasOffset.java
+END
+CoreAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/CoreAnnotation.java
+END
+TaggedWord.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/TaggedWord.java
+END
+CoreLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/CoreLabel.java
+END
+StringLabelFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/StringLabelFactory.java
+END
+HasIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/HasIndex.java
+END
+CoreAnnotations.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/CoreAnnotations.java
+END
+LabelFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/LabelFactory.java
+END
+Datum.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/Datum.java
+END
+WordLemmaTagFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/WordLemmaTagFactory.java
+END
+ValueLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/ValueLabel.java
+END
+Featurizable.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/Featurizable.java
+END
+Document.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/Document.java
+END
+Label.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/Label.java
+END
+HasContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/HasContext.java
+END
+WordLemmaTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/WordLemmaTag.java
+END
+LabeledWord.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/ling/LabeledWord.java
+END

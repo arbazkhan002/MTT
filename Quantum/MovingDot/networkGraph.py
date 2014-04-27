@@ -295,11 +295,11 @@ class networkGraph(graph):
 		return pathfinder(sect,s,dist,visited)					
 		
 	def getLandmarks(self, conn, path):
-		sections={}
 
 		for ind,i in enumerate(path):
-			sections[i]=ind
-		landmarks=[0 for i in range(len(path))]	 # ref_ids of landmark at each section
+			landmarks[i]=[]
+
+		#~ landmarks=[0 for i in range(len(path))]	 # ref_ids of landmark at each section
 												 # landmark corresponding to section path[i] is landmarks[i]
 												 # 0 indicates no landmark nearby to that section
 												 
@@ -308,7 +308,7 @@ class networkGraph(graph):
 		
 		for row in cur:
 			row=dbfields.reg(cur,row)
-			landmarks[sections[row.dump_id]-1]=row.ref_id
+			landmarks[row.dump_id].append(row.ref_id)
 		
 		return landmarks
 

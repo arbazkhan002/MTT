@@ -1,0 +1,473 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser
+END
+NegraPennTreebankParserParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/NegraPennTreebankParserParams.java
+END
+OutsideRuleFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/OutsideRuleFilter.java
+END
+TreebankLangParserParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/TreebankLangParserParams.java
+END
+ArabicUnknownWordModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/ArabicUnknownWordModel.java
+END
+Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/Test.java
+END
+TueBaDZParserParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/TueBaDZParserParams.java
+END
+HookChart.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/HookChart.java
+END
+MLEDependencyGrammar.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/MLEDependencyGrammar.java
+END
+DependencyGrammar.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/DependencyGrammar.java
+END
+GrammarCompactor.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/GrammarCompactor.java
+END
+Debinarizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/Debinarizer.java
+END
+Hook.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/Hook.java
+END
+AbstractTreebankParserParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/AbstractTreebankParserParams.java
+END
+ChineseLexicon.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/ChineseLexicon.java
+END
+ChineseMarkovWordSegmenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/ChineseMarkovWordSegmenter.java
+END
+Edge.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/Edge.java
+END
+LatticeReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/LatticeReader.java
+END
+LexicalizedParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/LexicalizedParser.java
+END
+ConstituentEvalByCat.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/ConstituentEvalByCat.java
+END
+AbstractEval.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/AbstractEval.java
+END
+CNFTransformers.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/CNFTransformers.java
+END
+BinaryRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/BinaryRule.java
+END
+CollinsPuncTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/CollinsPuncTransformer.java
+END
+UnknownWordModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/UnknownWordModel.java
+END
+ChineseCharacterBasedLexicon.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/ChineseCharacterBasedLexicon.java
+END
+TreeAnnotatorAndBinarizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/TreeAnnotatorAndBinarizer.java
+END
+ArabicTreebankParserParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/ArabicTreebankParserParams.java
+END
+MLEDependencyGrammarExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/MLEDependencyGrammarExtractor.java
+END
+FastFactoredParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/FastFactoredParser.java
+END
+WordSegmenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/WordSegmenter.java
+END
+UnaryRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/UnaryRule.java
+END
+ParserData.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/ParserData.java
+END
+EnglishUnknownWordModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/EnglishUnknownWordModel.java
+END
+ChineseLexiconAndWordSegmenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/ChineseLexiconAndWordSegmenter.java
+END
+TreeCollinizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/TreeCollinizer.java
+END
+BinaryGrammar.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/BinaryGrammar.java
+END
+Options.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/Options.java
+END
+BaseLexicon.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/BaseLexicon.java
+END
+Item.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/Item.java
+END
+RandomWalk.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/RandomWalk.java
+END
+LabeledConstituentEval.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/LabeledConstituentEval.java
+END
+IntTaggedWord.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/IntTaggedWord.java
+END
+NegraPennCollinizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/NegraPennCollinizer.java
+END
+TagProjection.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/TagProjection.java
+END
+ChineseUnknownWordModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/ChineseUnknownWordModel.java
+END
+PostSplitter.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/PostSplitter.java
+END
+Train.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/Train.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/package.html
+END
+BiLexPCFGParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/BiLexPCFGParser.java
+END
+NodePruner.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/NodePruner.java
+END
+TreebankAnnotator.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/TreebankAnnotator.java
+END
+BoundaryRemover.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/BoundaryRemover.java
+END
+SisterAnnotationStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/SisterAnnotationStats.java
+END
+EnglishTreebankParserParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/EnglishTreebankParserParams.java
+END
+BinaryGrammarExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/BinaryGrammarExtractor.java
+END
+IntDependency.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/IntDependency.java
+END
+Scorer.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/Scorer.java
+END
+Lexicon.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/Lexicon.java
+END
+ParentAnnotationStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/ParentAnnotationStats.java
+END
+Rule.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/Rule.java
+END
+BaseUnknownWordModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/BaseUnknownWordModel.java
+END
+AbstractDependencyGrammar.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/AbstractDependencyGrammar.java
+END
+ChineseTreebankParserParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/ChineseTreebankParserParams.java
+END
+Extractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/Extractor.java
+END
+AbstractTreeExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/AbstractTreeExtractor.java
+END
+IterativeCKYPCFGParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/IterativeCKYPCFGParser.java
+END
+ChineseSimWordAvgDepGrammar.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/ChineseSimWordAvgDepGrammar.java
+END
+TreeAnnotator.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/TreeAnnotator.java
+END
+EvalB.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/EvalB.java
+END
+ExhaustiveDependencyParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/ExhaustiveDependencyParser.java
+END
+PetrovLexicon.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/PetrovLexicon.java
+END
+ArabicUnknownWordSignatures.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/ArabicUnknownWordSignatures.java
+END
+ExhaustivePCFGParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/ExhaustivePCFGParser.java
+END
+FactoredParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/FactoredParser.java
+END
+UnaryGrammar.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/UnaryGrammar.java
+END
+TreeBinarizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/TreeBinarizer.java
+END
+GermanUnknownWordModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/GermanUnknownWordModel.java
+END
+lexparser-manifest.txt
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/26/trunk/SpatialRoleLabeling/SIdetection/stanford-parser-2008-10-26/src/edu/stanford/nlp/parser/lexparser/lexparser-manifest.txt
+END

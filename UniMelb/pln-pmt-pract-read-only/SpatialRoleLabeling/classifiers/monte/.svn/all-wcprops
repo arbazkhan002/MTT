@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte/LICENSE
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte/util.py
+END
+train.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte/train.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte/__init__.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte/README
+END

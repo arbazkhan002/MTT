@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/29/trunk/SpatialRoleLabeling/SpatialIndicatorClassifier
+END
+xerces.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/29/trunk/SpatialRoleLabeling/SpatialIndicatorClassifier/xerces.jar
+END
+manifest.mf
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/29/trunk/SpatialRoleLabeling/SpatialIndicatorClassifier/manifest.mf
+END
+SItrain.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/29/trunk/SpatialRoleLabeling/SpatialIndicatorClassifier/SItrain.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/29/trunk/SpatialRoleLabeling/SpatialIndicatorClassifier/build.xml
+END
+rich_features.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/29/trunk/SpatialRoleLabeling/SpatialIndicatorClassifier/rich_features.xml
+END

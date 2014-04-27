@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/optimization
+END
+FloatFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/optimization/FloatFunction.java
+END
+CGMinimizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/optimization/CGMinimizer.java
+END
+DiffFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/optimization/DiffFunction.java
+END
+HasEvaluators.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/optimization/HasEvaluators.java
+END
+Evaluator.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/optimization/Evaluator.java
+END
+QNMinimizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/optimization/QNMinimizer.java
+END
+Minimizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/optimization/Minimizer.java
+END
+DiffFloatFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/optimization/DiffFloatFunction.java
+END
+Function.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/optimization/Function.java
+END
+StochasticCalculateMethods.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/edu/stanford/nlp/optimization/StochasticCalculateMethods.java
+END

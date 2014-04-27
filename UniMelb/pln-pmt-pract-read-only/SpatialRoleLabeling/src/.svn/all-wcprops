@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/47/trunk/SpatialRoleLabeling/src
+END
+SPRLFeatures.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/16/trunk/SpatialRoleLabeling/src/SPRLFeatures.java
+END
+AveragedPerceptron.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/47/trunk/SpatialRoleLabeling/src/AveragedPerceptron.java
+END
+SPRLFeatures2.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/21/trunk/SpatialRoleLabeling/src/SPRLFeatures2.java
+END
+SPRLUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/14/trunk/SpatialRoleLabeling/src/SPRLUtils.java
+END
+OldMain.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/21/trunk/SpatialRoleLabeling/src/OldMain.java
+END
+PerceptronMain.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/47/trunk/SpatialRoleLabeling/src/PerceptronMain.java
+END
+NaiveBayes.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/NaiveBayes.java
+END
+Stemmer.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/SpatialRoleLabeling/src/Stemmer.java
+END

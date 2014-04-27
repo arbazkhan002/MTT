@@ -1,0 +1,17 @@
+ [NP It_PRP ] [VP 's_VBZ ] [ADJP pretty_RB big_JJ ] ,_, and_CC [NP the_DT buildings_NNS ] [VP are_VBP ] [NP a_DT bit_NN haphazard_NN ] [PP in_IN ] [NP their_PRP$ placement_NN ] ._.
+ [SBAR As_IN ] [NP you_PRP ] [VP come_VBP ] [PRT up_RP ] [NP Swanston_NNP St_NNP ] ,_, [NP the_DT ugly_JJ block_NN ] [PP on_IN ] [NP the_DT corner_NN ] [VP is_VBZ ] [NP the_DT Arts_NNP Centre_NNP ] ._.
+ [SBAR If_IN ] [NP you_PRP ] [VP walk_VBP ] [ADVP down_RB ] [PP past_IN ] [NP it_PRP ] -_: [PP along_IN ] [NP grattan_NN st_NN ] [SBAR if_IN ] [NP you_PRP ] [VP do_VBP n't_RB want_VB to_TO get_VB lost_VBN ] ,_, [PP in_IN ] [PP between_IN ] [NP the_DT buildings_NNS ] [PP for_IN ] [NP the_DT scenic_NN route_NN ] ,_, [PP with_IN ] [NP a_DT good_JJ coffee_NN stop_NN ] [PP along_IN ] [NP the_DT way-_NNS ] [ADVP there_RB ] [VP is_VBZ ] [NP the_DT 1888_CD building_NN ] ,_, [NP which_WDT ] [VP is_VBZ ] [ADJP pretty_RB ] ._.
+ Then_RB [NP various_JJ engineering_NN buildings_NNS ] ,_, [ADVP then_RB ] [NP the_DT two_CD towers_NNS ] [PP of_IN ] [NP the_DT John_NNP Medley_NNP building_NN ] ._.
+ [NP It_PRP ] [VP 's_VBZ ] [ADVP always_RB ] [ADJP windy_JJ ] [ADVP there_RB ] ,_, but_CC [PP up_IN ] [NP the_DT stairs_NNS ] [VP is_VBZ ] [NP South_NNP Lawn_NNP ] ,_, [NP which_WDT ] [VP is_VBZ ] [ADJP nice_JJ ] ,_, and_CC [PP from_IN ] [ADVP there_RB ] [NP you_PRP ] [VP 'll_MD see_VB ] [NP the_DT Old_NNP Quad_NNP ] ._.
+ [NP Classics_NNS ] [VP is_VBZ ] [PP in_IN ] [NP there_EX ] ._.
+ [NP It_PRP ] [VP 's_VBZ ] [ADJP beautiful_JJ ] [ADVP when_WRB ] [NP the_DT flowers_NNS ] [VP are_VBP ] [PRT out_RB ] ._.
+ [NP A_DT mecca_NN ] [PP for_IN ] [NP wedding_NN photos_NNS ] ._.
+ [SBAR Behind_IN ] [NP that_DT ] [VP is_VBZ ] [NP union_NN house_NN ] ,_, [PP with_IN ] [NP all_DT ] [PP of_IN ] [NP its_PRP$ amenities_NNS ] and_CC [NP uninspiring_JJ food_NN ] ._.
+ [NP The_DT architecture_NN building_NN ] [VP was_VBD ] [ADVP where_WRB ] [NP there_EX ] [VP 's_VBZ ] [ADVP now_RB ] [PP that_IN ] [NP big_JJ construction_NN site_NN ] ._.
+ [NP That_DT path_NN ] [PP from_IN ] [NP Swanston_NNP street_NN ] [VP used_VBD to_TO be_VB ] [ADJP really_RB nice_JJ ] ,_, [ADVP actually_RB ] ._.
+ [NP There_EX ] [VP are_VBP ] [NP various_JJ other_JJ buildings_NNS ] [ADVP around_IN there_RB ] -_: [NP the_DT old_JJ towering_JJ one_NN ] [SBAR that_IN ] [NP i_PRP ] [VP think_VBP ] [VP is_VBZ ] [NP the_DT psychology_NN building_NN ] ?_.
+ [PP On_IN ] [NP the_DT other_JJ side_NN ] [PP of_IN ] [NP union_NN house_NN ] [VP is_VBZ ] [NP the_DT athletics_NNS area_NN ] -_: [VP running_VBG ] [NP track_NN ] ,_, [NP gym_NN ] -_: and_CC [PP beyond_IN ] [NP that_DT ] ,_, [NP the_DT colleges_NNS ] ._.
+ [VP Walking_VBG ] [PRT down_RP ] [NP alongside_IN all_DT ] [PP of_IN ] [NP that_DT ] ,_, [NP there_EX ] [VP 's_VBZ ] [NP the_DT university_NN club_NN ] ,_, [ADVP then_RB ] [PP along_IN ] [NP Professor_NNP ] [NP 's_POS Walk_NNP ] ,_, [NP botany_NN ] ,_, [NP linguistics_NNS ] ,_, [NP Old_NNP Arts_NNP ] ,_, [NP economics_NNS ] ,_, and_CC [NP the_DT less-than_FW beautiful_JJ building_NN ] [PP at_IN ] [NP the_DT end_NN ] [ADVP there_RB ] [VP is_VBZ ] [NP the_DT main_JJ library_NN ] ,_, [NP the_DT Baillieu_NNP ] ._.
+ [VP Check_VB ] [PP out_IN ] [NP the_DT carpark_NN entrance_NN ] [PP near_IN ] [NP there_RB though_IN ] -_: [NP awesome_JJ faux_JJ classical_JJ statues_NNS ] ._.
+ [PP Behind_IN ] [NP that_DT row_NN ] [PP of_IN ] [NP buildings_NNS ] [VP are_VBP ] [NP places_NNS ] [PP like_IN ] [NP the_DT music_NN faculty_NN ] ,_, and_CC [NP the_DT brain_NN institute_NN ] ._.
+ 

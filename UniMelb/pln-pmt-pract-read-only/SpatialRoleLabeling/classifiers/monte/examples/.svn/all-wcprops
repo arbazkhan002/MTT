@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte/examples
+END
+lasso_example.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte/examples/lasso_example.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte/examples/__init__.py
+END
+autoencoder_example.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte/examples/autoencoder_example.py
+END
+crf_example.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte/examples/crf_example.py
+END
+nn_example.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/7/trunk/SpatialRoleLabeling/classifiers/monte/examples/nn_example.py
+END
