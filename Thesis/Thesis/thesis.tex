@@ -37,7 +37,7 @@
 %\pdfpagewidth=8.5in
 %\pdfpageheight=11in
 
-\title{Location Unaware Wayfinding}
+\title{Dialog-Based Location Unaware Wayfinding}
 %\titlenote{(Does NOT produce the permission block, copyright information nor page numbering). For use with ACM\_PROC\_ARTICLE-SP.CLS. Supported by ACM.}}
 %\subtitle{[Extended Abstract]
 %\titlenote{A full version of this paper is available as
@@ -88,22 +88,45 @@
 \maketitle
 \makecertificate
 \begin{abstract}
+\iffalse
   A computational model of understanding place descriptions is a cardinal issue in multiple disciplines and provides critical applications especially in dialog-driven geolocation services. This research targets the automated extraction of spatial triplets to represent qualitative spatial relations between recognized places from natural language place descriptions via a simple class of locative expressions. We attempt to produce triplets, informative and \textit{convenient} enough as a medium to convert verbal descriptions to graph representations of places and their relationships. We present a reasoning approach devoid of any external resources (such as maps, path geometries or robotic vision) for understanding place descriptions. We then apply our methodologies to situated place descriptions and study the results, its errors and implied future research.
+\fi
 %We also provide an insight into the complexity of the untackled problem of resolving the frame of reference.
 \end{abstract}
 \tableofcontents
 \chapter{Introduction}
 \section{Wayfinding}
-Human wayfinding is the process of purposeful and directed movement from an origin to a specific destination. The problem of wayfinding is the identification of the ordered sequence of actions to be performed in a spatial environment to reach at a desired location. In our everyday interaction with the spatial environment, we are involved with different instances of wayfinding tasks. In some, the exact sequence of actions is well familiar but in others we need either an external assistance or a personal strategy to find our ways. The modern advancements in technology have diminished the efforts involved in discovering and implementing wayfinding strategies. With the advent of smartphones, it has been made possible to build powerful applications which can show maps, compute routes and determine current location via GPS positioning. It has removed the complexities of carrying a map and understanding its symbols and notations. Significant efforts have been put into the research and development of the systems for navigational assistance using smartphones. 
-%\section*{Digital}
-%\addcontentsline{toc}{section}{Digital}
-Despite the powerful services offered as digital navigational aids, there come several issues along with it. Apart from the installation and usage costs associated with these services, the accuracy behind the positioning systems is a vital concern. The inaccuracies extend from measurement errors in positioning algorithms from the satellites to the map matching algorithms 
-\iffalse 
-[D.K. Yang, B.G. Cai and Y.F. Yuan,An Improved Map-Matching Algorithm Used in Vehicle Navigation System]
-\fi
- at the application end. The situation becomes worse when the navigation route goes through narrow streets under tall buildings. Since the services rely upon the details in the map and the crowdsourced information available, the success in utility is highly variable. 
-  
-In addition to the above shortcomings in modern digital navigation aids, research works have identified user preference for auditory presentation for route information as well as a memory advantage for auditory over visual information. Experiments have indicated that the reaction times are fastest with pure auditory route instructions as compared to electronic route maps or turn-by-turn displays. 
+Human wayfinding is the process of purposeful and directed movement from an origin to a specific destination. It is different from spatial exploration or \textit{locomotion}, the other form of navigation where the goal is not to reach a specific destination, but to contribute to cognitive map formation of an environment. So the daily trips that a person makes to his work-place from his home is a wayfinding task, while exploring an unfamiliar neighborhood in the town is locomotion. The problem of wayfinding is identification of the ordered sequence of actions to be performed in a spatial environment to reach at a desired location. For a car driver in a street network, these set of actions are related to determining the turning behaviour at every intersection that he encounters. For a person in a museum looking for a specific art form, these set of actions would be a sequence of hallways he needs to walk through, to get to the intended location. 
+
+Further, its easy to realize that in our everyday interaction with the spatial environment, we are involved with several instances of wayfinding tasks. In some, the exact sequence of actions is well familiar but in others we need either an external assistance or a personal strategy to find our ways. The former case requires acquisition of spatial knowledge of the environment either through prior experiences or through static information learned through maps and other media-based resources and so is prone to errors. Similarly, personal strategies used in wayfinding do not guarantee a successful endeavour to the destination. Traditionally, people have used maps and compasses as external tools as an assistance to wayfinding. These guidance instruments have evolved over the years to mobile navigation systems as the need was to provide incremental delivery of instructions with regards to the movement of the person. This has provably been more effective as the information on what needs to be known is provided only when it needs to be known. This concept shapes the modern form of assistance, \textit{location-aware} wayfinding. 
+\section{Location Awareness}
+A service is said to be \textit{location aware} if it allows user to discover and communicate their positions in real world using some or the other form of external hardware support. Location awareness has become the key component in any mobile computing application \cite{parctab}. Talking about navigation, we can say that if the end-device knows its geographical location, the service is location-aware. The definition comes from the realm of location-aware computing where location-awareness means ability to provide services based on the geographical location of a mobile device. Primarily, there are three different techniques of location sensing - Triangulation, Scene Analysis and Proximity Sensing \cite{hightower}. In the modern day location-aware services, GPS is the most widely used because of its better relative accuracy. The Invisible Ideas Project \cite{perry} was the first of its kind to use flash and GPS technology to provide location-aware services.
+
+Having talked about being location aware, its easy to realize the notion of location-aware wayfinding. By the help of techniques of location-awareness, the mobile devices are able to determine the geographical location using a sensing technology (such as GPS) and then using internet, relay the location information (along with any identity-based data like user ID, device ID, etc.) to the service provider. Thus, it helps in realizing an effective wayfinding assistance system which can provide an incremental delivery of instructions to the user based on the location of the user. 
+
+\section{Background}
+The modern advancements in technology have diminished the efforts involved in discovering and implementing wayfinding strategies. With the advent of smartphones, it has been made possible to build powerful applications which can show maps and compute routes based on preferences. It has removed the complexities of carrying a map and understanding its symbols and notations. The navigation services are dynamic, that is the representation of graphical information keeps changing with regards to the current perception of the user. This is where location-awareness comes into picture and applications have utilized the power of this facility to customize their functionality to maximally benefit the users. The quality of user experience has evolved over a series of developments with offerings like 3-D representation of the environment showing up places nearby for better orientation. Significant efforts have been put into the research and development of the systems for navigational assistance. With the techniques of augmented reality, it has been now made possible to attach digital information (such as images, voice notes) to the environment. Furthermore, local information on weather and traffic have been incorporated into these applications to further facilitate an interactive wayfinding environment.
+
+%{For ineffectiveness of GPS, refer to PLace Lab}
+Despite the powerful services offered as digital navigational aids, there come several issues along with it. When the service is location aware, the end-device needs to have typically high processing speeds to process communicated information. Though the cost and availability of such devices is moving towards the inexpensive side but so are the requirements of these increasingly sophisticated applications. Apart from the installation and usage costs associated with these services, the limited accuracy behind the positioning systems is a vital concern. The inaccuracies extend from measurement errors in positioning systems from satellites to those in the map-matching algorithms \cite{white2000} that attempt to associate recorded GPS data points\footnote{These associations are unreliable to an extent and usually mismatch in dense street networks with diverging roadways, overpasses and underpasses} with the correct roadway. The GPS sensors suffer from poor service coverage and need clear vision to the sky to allow locking location. Thus, GPS limitations extend to subways, underpasses, indoor environments and dense street networks with tall buildings. Furthermore, deploying a location sensor like GPS has overheads of cost and power consumption.
+
+The other limitation associated with modern day wayfinding services is their utter dependence on the extrinsic information for providing route assistance. The quality of route instructions are based upon the details in the map and the available landmark information through crowdsourced databases. This availability is fairly non-uniform and the success in providing utility is highly variable. Its easy to find regions where the route instructions in these commercial applications have no incorporation of existing landmarks (due to their unrecorded entry in the spatial databases), and are merely turn-based. Also, despite the availability of the landmark information doesn't guarantee good quality route instructions unless the representational names used are consistent and recognised universally or locally. For example, since not all streets in India have names, various popular mapping services and applications which rely upon street names to convey route instructions, had to invent their own street naming conventions and thus are observably ineffective in the context of navigation assistance.
+
+Beyond these limitations, most of the services rely on the internet connection available between the server and the client particularly for delivering map data or route based information. Streaming such an information requires good internet connectivity. Storing offline maps is an alternative option but it may not be always feasible as and when the space requirements grow beyond accepted limits.   
+
+\section{Motivation}
+\subsection{Why design a dialog-based system?}
+In addition to the above shortcomings in modern digital navigation services, research works \cite{jensen2010,dalton,reagan2006} have identified user preference for auditory assistance as well as a memory advantage for auditory over visual information. It has been observed \cite{baldwin2009,furukawa2004} that auditory guidance facilitates the task of wayfinding whereas visual guidance facilitates cognitive map formation. Ego-centeric auditory instructions (i.e., based on the driver's perception) reduce the workload in navigation for drivers who are involved more in the task of route learning rather than cognitive map formation. Besides this, graphical interface has its limitations to applications where interaction with the real world is more important than interactions with the computer (or here, the mobile device). Wayfinding can be treated as one of those tasks that demand high level of attention to avoid any road-side risks. Auditory route instructions have been observed to be processed and followed without interference to the driving task \cite{jensen2010,dalton}.
+
+Experiments \cite{srinivasaneffect} have also indicated an additional benefit associated with auditory guidance that the reaction times are fastest with pure auditory route instructions as compared to electronic route maps or turn-by-turn displays. 
+
+Furthermore,  one of the major advantage of a dialog system in wayfinding is that context-identification can be implemented by studying the response of the user to the questions prompted. This helps in personalising the service with regards to individual navigational strategies preferred by the users. Majority of navigation assistance technologies are still visually dominated and the use of audio is an unexplored area of research. In our knowledge no comparable research has been performed exploiting the usefulness of pure auditory medium for navigation purposes.
+\subsection{Why choose to be location-unaware?}
+On one hand as we speak of benefits behind a dialog-based system for wayfinding devoid of any graphical interface, it may well be said that such a system can be more effectively realized with location positioning systems. Apart from the overheads and limitations of GPS mentioned above, the motivating factor behind the choice of being location unaware is targeting compatibility towards low-end devices. Even though there have been significant advancements in mobile technology and subsequent reductions in the costs of a high-end device, a major portion of third-world countries (such as India) rely upon vanilla feature phones as mobile devices. 
+
+Also,  we think that a location unaware methodology could be of great use in wireless sensor networks where its infeasible and cost-ineffective to install GPS sensors on every wireless node to determine its location. The idea is that if one can design an effective wayfinding service devoid of GPS support, then it can be applied in developing a messaging protocol for WSNs eliminating the need of location sensors. 
+%Also, it has been suggested in research \cite{itsbarry} that in a joint activity where there is a coordination to achieve a private/personal goal, spoken dialog interactions are more effective than typed conversations and has been put to use in designing intelligent tutoring systems. This indication serves a clue that reading out the route instructions should be more effective as compared to text-based communication. 
+
 \iffalse
 [Driving with navigational instructions:
 Investigating user behaviour and
@@ -124,9 +147,34 @@ R. Srinivasan, P.P. Jovanis
 Effect of in-vehicle route guidance systems on driver workload and choice of vehicle speed: Findings from a driving simulator experiment
 \fi
 
-These findings motivated us to work on a system which exploits the auditory mode of route guidance, eliminates the use of global positioning systems and works on minimum map information.
-  
+ \section{Objectives of the work}
+We target the design of a \textit{Dialog-based Location Unaware Wayfinding} model which exploits the auditory mode of route guidance and eliminates the use of global positioning systems. A service is location-unaware if the end-device can't determine its physical location. To further define a \textit{location-unaware} service, we describe it as a service under a pseudo location-aware model which though can determine the location of the end-user within a certain estimate but doesn't employ any hardware support from the end-device for location sensing. We hypothesize that a dialog-based conversation, inquiring for inferring the physical location of the end-user can achieve pseudo location-awareness. 
 
- There have been several measures executed and advancements accomplished to decrease the accuracies.
+Here, we lay down the concrete objectives that we wish to fulfill as a part of this research work.
 
+Firstly, to communicate the route instructions, we aim to design a cross-lingual wayfinding platform which is generic in terms of application to any intended natural language structure. Such a system facilitates customizing the route instructions as per user convenience.
+
+Secondly, we target to build a location-unaware system and attempt to match the effectiveness of positioning systems for localizing a user in wayfinding tasks. 
+
+Thirdly, we aim to minimize the dependence of the system on any extrinsic information. By extrinsic information, we mean any information that is not readily and uniformly available due to the needs of large-scale manual processing e.g., crowdsourcing, or database built from a place directory/gazeteer (gazeteers are not available for all places). The intention is to maximize the use of inherent characteristics of an environment like the height and color of buildings, the existence of an open space and hence its shape, surrounding vegetations, etc. Such characteristics can be automically extracted from standard detection systems like LIDAR.
+
+Fourthly, we plan to provide a pure auditory-based service which demands nothing more than auditory medium for communication with the mobile end-user. Thus the implication is the service functions independent of support for any wireless technology (such as bluetooth) or web access.
+  \section{Roadmap}
+  In this thesis, we discuss upon the design of the wayfinding model which uses dialog-based conversations to localize a user and guide him to his destination. To make the model generic, we design a communication protocol based upon notational representation of route instructions to convey the path to destination. Since there is no device-based support for location awareness, to bring it into effect, an algorithm to generate a structured dialog interaction is architected for tracking the user's location in terms of en-route landmarks encountered. Chapter 3 introduces the semantics of the communication protocol as well as the the guidance algorithm to generate dynamic prompts for location tracking. It also discusses on the strategy adopted to reorient a user disoriented from his path due to possible misinterpretation of route instructions or because of an erroneous behaviour. Chapter 4 discusses the implementation of the model which was used to study the effectiveness of the algorithm. To evaluate goodness of the algorithm, a simulation platform was set up to model a user with homogenous and non-homogenous speed patterns and erroneous behaviour in following the route instructions. Chapter 5 elaborates upon the employed user-modelling and introduces the goodness metrics used for evaluating the results of performance of the route guidance model. We end in Chapter 6 by providing a brief summary of the contributions made by the work and an outlook on possible improvements of the model.
+ \chapter{Related Work}
+ \chapter{Route Guidance}
+ \section{Communication Protocol}
+ \section{Route Guidance Algorithm}
+ \chapter{Implementation}
+ \section{Data}
+ \section{Preprocessing}
+ \section{Knowledge Base}
+ \chapter{Evaluation}
+ \section{Simulation Design}
+ \section{Goodness Metrics}
+ \section{Results}
+ \chapter{Conclusion and Future Work}
+\bibliographystyle{plain}
+\bibliography{references}
+%\addcontents{toc}{bibliography}
 \end{document}

@@ -1,2 +1,23 @@
-\contentsline {chapter}{\numberline {1}Introduction}{4}
-\contentsline {section}{\numberline {1.1}Wayfinding}{4}
+\contentsline {chapter}{\numberline {1}Introduction}{5}
+\contentsline {section}{\numberline {1.1}Wayfinding}{5}
+\contentsline {section}{\numberline {1.2}Location Awareness}{6}
+\contentsline {section}{\numberline {1.3}Background}{7}
+\contentsline {section}{\numberline {1.4}Motivation}{9}
+\contentsline {subsection}{\numberline {1.4.1}Why design a dialog-based system?}{9}
+\contentsline {subsection}{\numberline {1.4.2}Why choose to be location-unaware?}{10}
+\contentsline {section}{\numberline {1.5}Objectives of the work}{10}
+\contentsline {section}{\numberline {1.6}Roadmap}{11}
+\contentsline {chapter}{\numberline {2}Related Work}{13}
+\contentsline {chapter}{\numberline {3}Route Guidance}{14}
+\contentsline {section}{\numberline {3.1}Communication Protocol}{14}
+\contentsline {section}{\numberline {3.2}Route Guidance Algorithm}{14}
+\contentsline {chapter}{\numberline {4}Implementation}{15}
+\contentsline {section}{\numberline {4.1}Data}{15}
+\contentsline {section}{\numberline {4.2}Preprocessing}{15}
+\contentsline {section}{\numberline {4.3}Knowledge Base}{15}
+\contentsline {chapter}{\numberline {5}Evaluation}{16}
+\contentsline {section}{\numberline {5.1}Simulation Design}{16}
+\contentsline {section}{\numberline {5.2}Goodness Metrics}{16}
+\contentsline {section}{\numberline {5.3}Results}{16}
+\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{17}
+\contentsline {chapter}{Bibliography}{18}

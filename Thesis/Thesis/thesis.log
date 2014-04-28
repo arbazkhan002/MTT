@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.6)  27 APR 2014 02:22
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.6)  28 APR 2014 22:59
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -63,6 +63,13 @@ Package ifvtex Info: VTeX not detected.
 \f@ncyO@olf=\skip50
 \f@ncyO@orf=\skip51
 )
+(/usr/share/texmf-texlive/tex/latex/fancyref/fancyref.sty
+Package: fancyref 1999/02/03 v0.9c Fancy cross-referencing
+
+(/usr/share/texmf-texlive/tex/latex/tools/varioref.sty
+Package: varioref 2009/09/13 v1.4w package for extended references (FMi)
+\c@vrcnt=\count91
+))
 (/usr/share/texmf-texlive/tex/latex/setspace/setspace.sty
 Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
 
@@ -82,7 +89,17 @@ Package: titlesec 2007/08/12 v2.8 Sectioning titles
 (/usr/share/texmf-texlive/tex/latex/emptypage/emptypage.sty
 Package: emptypage 2009/07/09 v1.1 Suppress page numbers and headings on empty 
 pages
-)) (./thesis.aux)
+))
+(/usr/share/texmf-texlive/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2009/09/04 v1.5i extra ToC listings
+
+
+Package tocbibind Note: The document has chapter divisions.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (./thesis.aux)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -154,7 +171,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1
 
-] [2
+]
+Underfull \hbox (badness 10000) in paragraph at lines 90--95
+
+ []
+
+[2
 
 ] (./thesis.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -163,24 +185,55 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
-)
+ [3
+
+])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [3
+ [4]
+Chapter 1.
+[5
+
+] [6]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 111.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 111.
+ [7] [8] [9] [10] [11] [12]
+Chapter 2.
+[13
 
 ]
-Chapter 1.
-[4
+Chapter 3.
+[14
 
-] [5] (./thesis.aux) ) 
+]
+Chapter 4.
+[15
+
+]
+Chapter 5.
+[16
+
+]
+Chapter 6.
+(./thesis.bbl [17
+
+]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ [18
+
+]) [19] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 1155 strings out of 495062
- 15111 string characters out of 1182644
- 70361 words of memory out of 3000000
- 4367 multiletter control sequences out of 15000+50000
+ 1559 strings out of 495062
+ 20693 string characters out of 1182644
+ 77631 words of memory out of 3000000
+ 4756 multiletter control sequences out of 15000+50000
  9194 words of font info for 32 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 30i,10n,45p,1080b,218s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,10n,45p,1518b,220s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (6 pages, 7484 bytes).
+Output written on thesis.dvi (20 pages, 32936 bytes).

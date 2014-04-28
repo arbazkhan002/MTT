@@ -359,6 +359,7 @@
 
 % Header/spacing options
 \usepackage{fancyhdr}
+\usepackage{fancyref}
 \usepackage{setspace}
 \doublespacing
 
@@ -373,7 +374,7 @@
 \assignpagestyle{\chapter}{empty}
 
 \usepackage{emptypage}
-
+\usepackage[nottoc]{tocbibind}
 %=============================================================================
 % END FILE
 %=============================================================================

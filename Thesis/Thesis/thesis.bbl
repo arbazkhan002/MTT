@@ -1,0 +1,65 @@
+\begin{thebibliography}{10}
+
+\bibitem{baldwin2009}
+Carryl~L Baldwin.
+\newblock Individual differences in navigational strategy: implications for
+  display design.
+\newblock {\em Theoretical Issues in Ergonomics Science}, 10(5):443--458, 2009.
+
+\bibitem{furukawa2004}
+Hiroshi Furukawa, Carryl~L Baldwin, and Ellen~M Carpenter.
+\newblock Supporting drivers’ cognitive map construction with visual
+  geo-centered and auditory ego-centered guidance: Interference or improved
+  performance.
+\newblock {\em A. Vincenzi, M. Mouloua, PA Hancock: Human Performance,
+  Situation Awareness and Automation: Current Research and Trends. HPSAA II. D.
+  Mahawa, NJ: Lawrence Erlbaum}, pages 124--129, 2004.
+
+\bibitem{hightower}
+Jeffrey Hightower and Gaetano Borriello.
+\newblock Location sensing techniques.
+\newblock {\em IEEE Computer}, 34(8):57--66, 2001.
+
+\bibitem{jensen2010}
+Brit~Susan Jensen, Mikael~B Skov, and Nissanthen Thiruravichandran.
+\newblock Studying driver attention and behaviour for three configurations of
+  gps navigation in real traffic driving.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 1271--1280. ACM, 2010.
+
+\bibitem{dalton}
+Dalton P, Agarwal P, Fraenkel N, Baichoo J, and Masry A.
+\newblock Driving with navigational instructions: Investigating user behaviour
+  and performance.
+\newblock {\em Accid Anal Prev.}, pages 298--303, 2013.
+
+\bibitem{perry}
+B.~Perry.
+\newblock {The Invisible Ideas Project: Using Mobile Devices, Macromedia Flash,
+  and Global Positioning Systems}, 2002.
+
+\bibitem{reagan2006}
+Ian Reagan and Carryl~L Baldwin.
+\newblock Facilitating route memory with auditory route guidance systems.
+\newblock {\em Journal of Environmental Psychology}, 26(2):146--155, 2006.
+
+\bibitem{parctab}
+Bill~N Schilit, Norman Adams, Rich Gold, Michael~M Tso, and Roy Want.
+\newblock The parctab mobile computing system.
+\newblock In {\em Workstation Operating Systems, 1993. Proceedings., Fourth
+  Workshop on}, pages 34--39. IEEE, 1993.
+
+\bibitem{srinivasaneffect}
+Raghavan Srinivasan and Paul~P Jovanis.
+\newblock Effect of selected in-vehicle route guidance systems on driver
+  reaction times.
+\newblock {\em Human Factors: The Journal of the Human Factors and Ergonomics
+  Society}, 39(2):200--215, 1997.
+
+\bibitem{white2000}
+Christopher~E White, David Bernstein, and Alain~L Kornhauser.
+\newblock Some map matching algorithms for personal navigation assistants.
+\newblock {\em Transportation Research Part C: Emerging Technologies},
+  8(1):91--108, 2000.
+
+\end{thebibliography}
