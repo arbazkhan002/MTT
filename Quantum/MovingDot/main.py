@@ -18,6 +18,7 @@ TOPRINT=0		#whether to log(print the results to result file)
 THRESHHOLD=0.25	#This is the factor threshhold, which indicates how many iterations do we make before, we instead of probing 
 				# ask for interrupts on whether the intersection is crossed or not 
 				#For example, if threshhold is 1, only once we ask the question did you cross the intersection? thereafter we wait for him endlessly
+FORGETDIST=100	# if the distance gap between any element is farther than FORGETDIST from current position, forget it			
 LOG=logger.logger("logfile.txt")
 rfile=open("rfile.txt","w")
 sfile=open("sfile.txt","w")
@@ -37,16 +38,29 @@ class user:
 	path=[]
 	pathind=0
 	alive=1
-
+	modifier=None
+	remembers=[] #a 2d array of distance stamps of each visited section, e.g, [[123,0],[124,4.5123],[125,10.34432],...]
 	# just extra.. redundant information.. needed for debugging
 	visitedE=[]
 
 	def __init__(self,graph):
 		self.g=graph
 		self.time=0
+		self.modifier=attmodifier.modifier(conn)
 
-	def react(self):
-		pass
+	# simulates forgetting. If state is True, everything is cleared from memory
+	def forget(self, state=True):
+		if state==False:
+			del self.remembers[:]
+			return
+			
+		if not self.remembers:
+			return
+		else:	
+			print "\tBEFORE: ",self.remembers
+			# if the distance gap between any element is farther than FORGETDIST from current position, forget it
+			self.remembers=filter(lambda x:self.remembers[-1][1]-x[1]<FORGETDIST, self.remembers)	
+			print "\tAFTER: ",self.remembers
 
 	def makemove(self,nextpt,edgewt):
 		global POS
@@ -67,6 +81,7 @@ class user:
 				#~ continue	
 
 			if self.listen()==1:
+				self.forget(False)
 				return	
 
 		if int(edgewt/float(self.speed))==0:
@@ -76,6 +91,7 @@ class user:
 		self.time+=edgewt/float(self.speed)-int(edgewt/float(self.speed))
 		self.prevpt=self.currpt	
 		self.currpt=nextpt
+		self.forget()
 		#~ print "Expecting a question"
 		
 	def listen(self):
@@ -106,8 +122,9 @@ class user:
 						if sect!=None:			# print "Yes" for the case when sect in self.visited
 							print "Runner: ","Yes!","(",sect,")"
 							if sys_debug==1:
-								print "#######################################",map(lambda x:x.splitId, self.visitedE)
-								print "#######################################",self.visited,sect					
+								#~ print "#######################################",map(lambda x:x.splitId, self.visitedE)
+								#~ print "#######################################",self.visited,sect					
+								pass
 													
 						ans.put(1)
 						queue.task_done()
@@ -167,7 +184,11 @@ class user:
 				self.makemove(v,edgeuv.length)
 				self.visited.append(edgeuv.edgeId)
 				self.visitedE.append(edgeuv)
-
+				if not self.remembers:
+					totaldist=0
+				else:
+					totaldist=self.remembers[-1][1]
+				self.remembers.append([edgeuv.edgeId,edgeuv.length+totaldist])
 				if self.path is None:
 					return self.explore(v, edgeuv)
 				else:
@@ -213,15 +234,21 @@ class user:
 		i=self.pathind
 		self.visited.append(path[0].edgeId)
 		self.visitedE.append(path[0])
+		self.remembers.append([path[0].edgeId,path[0].length])
 		while i<len(path):
 			#~ print i,"th part"
-			i=self.pathind
+			i=self.pathind				
 			if random.random()>self.Pd or len(self.g.adj(path[i].u))<=2:	
 				update.append([path[i-1].edgeId,path[i].edgeId,int(True)])
 				self.makemove(self.g.coedgeint(path[i-1],path[i]),path[i].length)
 				#only after move is made, mark visited.. else for long edges, you would give a "yes" before even completing it.
 				self.visited.append(path[i].edgeId)
 				self.visitedE.append(path[i])
+				if not self.remembers:
+					totaldist=0
+				else:	
+					totaldist=self.remembers[-1][1]
+				self.remembers.append([path[i].edgeId, path[i].length+totaldist])
 				#~ print self.visited
 				#print path[i].u
 				print "<--- runner '%s' @'%s after %s time units' --->" %(self.position().nodeid,path[i].splitId,self.time)		 
@@ -240,6 +267,11 @@ class user:
 		
 		return self.explore(self.currpt, path[i-1])	
 	pass
+	
+	def react(self):
+		pass
+
+
 
 lock=1
 
@@ -252,6 +284,7 @@ class server:
 		
 	def __init__(self,graph):
 		self.g=graph
+		self.modifier=attmodifier.modifier(conn)
 
 	# Make sure to call ans.task_done after calling wait()		
 	def wait(self,t):
@@ -268,6 +301,12 @@ class server:
 
 	def getprfact(self,x,dist):
 		return (x-dist)/dist
+
+	def reactive(self,allLandmarks):
+		larray=list(set(allLandmarks.values()))
+		mat=self.modifier.getAttr(larray)			
+		#~ queue.put("reactive")
+		pass
 
 	def track(self,runner,path):
 		prev=None
@@ -450,6 +489,9 @@ class server:
 						#if intersection is crossed, wait on the new distance(longer)						
 						if len(nextpath)>0 and crossedIntersection==1:
 							#~ currentsectEdges=filter(lambda x:x.sectId in filteredSect,nextpath)
+							print						
+							print "\t--------------------------- GOT HERE ------------------------------------------------------"
+							print 
 							restEdges=filter(lambda x:x[1].sectId not in filteredSect,nextpath)
 							# on the restEdges sorted by distance from the last checkpoint, pick up the distance of first index i.e. closest edge distance
 							if not restEdges:	#all edges emanating from the cross section have been searched for	
@@ -463,10 +505,7 @@ class server:
 										if not newLandmarks[i] and i not in allLandmarks:
 											allLandmarks[i]=newLandmarks[i] 
 								#~ 
-								#~ self.reactive(allLandmarks)		
-								print						
-								print "\t--------------------------- GOT HERE ------------------------------------------------------"
-								print 
+								#~ self.reactive(allLandmarks)
 								pass
 								#-------------------------------------------------------------------------------#
 							else:	
@@ -510,15 +549,7 @@ class server:
 				self.printStats()
 				print "End tracking"
 				return				
-				
-
-	def reactive(self,allLandmarks):
-		larray=list(set(allLandmarks.values()))
-		self.modifier=attmodifier.modifier(conn)
-		mat=self.modifier.getAttr(larray)			
-		#~ queue.put("reactive")
-		pass
-						
+										
 	def updatespeed(self,t1,t2,d):
 		return d/(t1-t2)		
 	

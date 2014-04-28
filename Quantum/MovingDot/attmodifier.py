@@ -41,7 +41,7 @@ class modifier:
 		conn.commit()	
 		cur.close()
 
-	#returns a dict of keys=landmarkids and values=[a1,a2,a3,...]
+	#returns a dict of keys=landmarkIds and values=[a1,a2,a3,...]
 	def getAttr(self,arr):
 		cur=conn.cursor()
 		#~ i=1
