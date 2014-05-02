@@ -6,6 +6,31 @@ Carryl~L Baldwin.
   display design.
 \newblock {\em Theoretical Issues in Ergonomics Science}, 10(5):443--458, 2009.
 
+\bibitem{baus}
+J{\"o}rg Baus, Antonio Kr{\"u}ger, and Wolfgang Wahlster.
+\newblock A resource-adaptive mobile navigation system.
+\newblock In {\em Proceedings of the 7th international conference on
+  Intelligent user interfaces}, pages 15--22. ACM, 2002.
+
+\bibitem{heriberto}
+Heriberto Cuay{\'a}huitl, Nina Dethlefs, Kai-Florian Richter, Thora Tenbrink,
+  and John Bateman.
+\newblock A dialogue system for indoor wayfinding using text-based natural
+  language.
+\newblock {\em International Journal of Computational Linguistics and
+  Applications, ISSN 0976}, 962, 2010.
+
+\bibitem{Dale}
+Robert Dale and Sabine Geldof.
+\newblock Using natural language generation in automatic route description.
+\newblock In {\em Journal of Research and Practice in Information Technology},
+  pages 89--105, 2005.
+
+\bibitem{fongsurvey}
+Terrence Fong, Illah Nourbakhsh, and Kerstin Dautenhahn.
+\newblock A survey of socially interactive robots.
+\newblock {\em Robotics and autonomous systems}, 42(3):143--166, 2003.
+
 \bibitem{furukawa2004}
 Hiroshi Furukawa, Carryl~L Baldwin, and Ellen~M Carpenter.
 \newblock Supporting drivers’ cognitive map construction with visual
@@ -15,10 +40,41 @@ Hiroshi Furukawa, Carryl~L Baldwin, and Ellen~M Carpenter.
   Situation Awareness and Automation: Current Research and Trends. HPSAA II. D.
   Mahawa, NJ: Lawrence Erlbaum}, pages 124--129, 2004.
 
+\bibitem{give}
+Andrew Gargett, Konstantina Garoufi, Alexander Koller, and Kristina Striegnitz.
+\newblock The give-2 corpus of giving instructions in virtual environments.
+\newblock In {\em LREC}, 2010.
+
+\bibitem{Habel}
+Christopher Habel.
+\newblock Incremental generation of multimodal route instructions.
+\newblock In {\em Working Papers of the 2003 AAAI Spring Symposium on Natural
+  Language Generation in Spoken and Written Dialogue}, pages 44--51, 2003.
+
 \bibitem{hightower}
 Jeffrey Hightower and Gaetano Borriello.
 \newblock Location sensing techniques.
 \newblock {\em IEEE Computer}, 34(8):57--66, 2001.
+
+\bibitem{hurtig}
+Topi Hurtig and Kristiina Jokinen.
+\newblock Modality fusion in a route navigation system.
+\newblock In {\em Procs of the Workshop on Effective Multimodal Dialogue
+  Interfaces EMMDI-2006. Sydney, Australia}, 2006.
+
+\bibitem{GRUVE}
+Srini Janarthanam and Oliver Lemon.
+\newblock The gruve challenge: generating routes under uncertainty in virtual
+  environments.
+\newblock In {\em Proceedings of the 13th European Workshop on Natural Language
+  Generation}, pages 208--211. Association for Computational Linguistics, 2011.
+
+\bibitem{janarthanam}
+Srinivasan Janarthanam, Oliver Lemon, Phil Bartie, Tiphaine Dalmas, Anna
+  Dickinson, Xingkun Liu, William Mackaness, and Bonnie Webber.
+\newblock Evaluating a city exploration dialogue system combining
+  question-answering and pedestrian navigation.
+\newblock In {\em Proc. ACL}, 2013.
 
 \bibitem{jensen2010}
 Brit~Susan Jensen, Mikael~B Skov, and Nissanthen Thiruravichandran.
@@ -27,11 +83,46 @@ Brit~Susan Jensen, Mikael~B Skov, and Nissanthen Thiruravichandran.
 \newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
   Computing Systems}, pages 1271--1280. ACM, 2010.
 
+\bibitem{jokinen}
+Kristiina Jokinen, Antti Kerminen, Mauri Kaipainen, Tommi Jauhiainen, Graham
+  Wilcock, Markku Turunen, Jaakko Hakulinen, Jukka Kuusisto, and Krista Lagus.
+\newblock Adaptive dialogue systems-interaction with interact.
+\newblock In {\em Proceedings of the 3rd SIGdial workshop on Discourse and
+  dialogue-Volume 2}, pages 64--73. Association for Computational Linguistics,
+  2002.
+
+\bibitem{klippel}
+Alexander Klippel.
+\newblock Wayfinding choremes.
+\newblock In {\em Spatial Information Theory. Foundations of Geographic
+  Information Science}, pages 301--315. Springer, 2003.
+
+\bibitem{lovelace}
+Kristin~L. Lovelace, Mary Hegarty, and Daniel~R. Montello.
+\newblock Elements of good route directions in familiar and unfamiliar
+  environments.
+\newblock In {\em Proceedings of the International Conference on Spatial
+  Information Theory: Cognitive and Computational Foundations of Geographic
+  Information Science}, COSIT '99, pages 65--82, London, UK, UK, 1999.
+  Springer-Verlag.
+
+\bibitem{Maab}
+Wolfgang Maa{\ss}, J{\"o}rg Baus, and Joachim Paul.
+\newblock {\em Visual grounding of route descriptions in dynamic environments}.
+\newblock Univ. des Saarlandes, SFB 314, 1995.
+
 \bibitem{dalton}
 Dalton P, Agarwal P, Fraenkel N, Baichoo J, and Masry A.
 \newblock Driving with navigational instructions: Investigating user behaviour
   and performance.
 \newblock {\em Accid Anal Prev.}, pages 298--303, 2013.
+
+\bibitem{pattabhiraman}
+Thiyagarajasarma Pattabhiraman and Nick Cercone.
+\newblock Selection: Salience, relevance and the coupling between domain-level
+  tasks and text planning.
+\newblock In {\em Proceedings of the Fifth International Workshop on Natural
+  Language Generation, Dawson, PA}, pages 79--86, 1990.
 
 \bibitem{perry}
 B.~Perry.
@@ -43,11 +134,22 @@ Ian Reagan and Carryl~L Baldwin.
 \newblock Facilitating route memory with auditory route guidance systems.
 \newblock {\em Journal of Environmental Psychology}, 26(2):146--155, 2006.
 
+\bibitem{richter}
+Kai-Florian Richter, Martin Tomko, and Stephan Winter.
+\newblock A dialog-driven process of generating route directions.
+\newblock {\em Computers, Environment and Urban Systems}, 32(3):233--245, 2008.
+
 \bibitem{parctab}
 Bill~N Schilit, Norman Adams, Rich Gold, Michael~M Tso, and Roy Want.
 \newblock The parctab mobile computing system.
 \newblock In {\em Workstation Operating Systems, 1993. Proceedings., Fourth
   Workshop on}, pages 34--39. IEEE, 1993.
+
+\bibitem{spanger}
+Philipp Spanger, Ryu Iida, Takenobu Tokunaga, Asuka Terai, and Naoko Kuriyama.
+\newblock A task-performance evaluation of referring expressions in situated
+  collaborative task dialogues.
+\newblock {\em Language Resources and Evaluation}, 47(4):1285--1304, 2013.
 
 \bibitem{srinivasaneffect}
 Raghavan Srinivasan and Paul~P Jovanis.
@@ -61,5 +163,11 @@ Christopher~E White, David Bernstein, and Alain~L Kornhauser.
 \newblock Some map matching algorithms for personal navigation assistants.
 \newblock {\em Transportation Research Part C: Emerging Technologies},
   8(1):91--108, 2000.
+
+\bibitem{young}
+R.~Michael Young.
+\newblock Using grice's maxim of quantity to select the content of plan
+  descriptions.
+\newblock {\em Artificial Intelligence}, 115:215--256, 1999.
 
 \end{thebibliography}

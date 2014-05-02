@@ -1,23 +1,30 @@
 \contentsline {chapter}{\numberline {1}Introduction}{5}
-\contentsline {section}{\numberline {1.1}Wayfinding}{5}
-\contentsline {section}{\numberline {1.2}Location Awareness}{6}
-\contentsline {section}{\numberline {1.3}Background}{7}
-\contentsline {section}{\numberline {1.4}Motivation}{9}
-\contentsline {subsection}{\numberline {1.4.1}Why design a dialog-based system?}{9}
-\contentsline {subsection}{\numberline {1.4.2}Why choose to be location-unaware?}{10}
-\contentsline {section}{\numberline {1.5}Objectives of the work}{10}
-\contentsline {section}{\numberline {1.6}Roadmap}{11}
-\contentsline {chapter}{\numberline {2}Related Work}{13}
-\contentsline {chapter}{\numberline {3}Route Guidance}{14}
-\contentsline {section}{\numberline {3.1}Communication Protocol}{14}
-\contentsline {section}{\numberline {3.2}Route Guidance Algorithm}{14}
-\contentsline {chapter}{\numberline {4}Implementation}{15}
-\contentsline {section}{\numberline {4.1}Data}{15}
-\contentsline {section}{\numberline {4.2}Preprocessing}{15}
-\contentsline {section}{\numberline {4.3}Knowledge Base}{15}
-\contentsline {chapter}{\numberline {5}Evaluation}{16}
-\contentsline {section}{\numberline {5.1}Simulation Design}{16}
-\contentsline {section}{\numberline {5.2}Goodness Metrics}{16}
-\contentsline {section}{\numberline {5.3}Results}{16}
-\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{17}
-\contentsline {chapter}{Bibliography}{18}
+\contentsline {section}{\numberline {1.1}Notions and Terminology}{5}
+\contentsline {subsection}{\numberline {1.1.1}Wayfinding}{5}
+\contentsline {subsection}{\numberline {1.1.2}Location Awareness}{6}
+\contentsline {section}{\numberline {1.2}Background}{7}
+\contentsline {section}{\numberline {1.3}Motivation}{9}
+\contentsline {subsection}{\numberline {1.3.1}Why design a dialog-based system?}{9}
+\contentsline {subsection}{\numberline {1.3.2}Why choose to be location-unaware?}{10}
+\contentsline {section}{\numberline {1.4}Objectives of the work}{10}
+\contentsline {section}{\numberline {1.5}Roadmap}{11}
+\contentsline {chapter}{\numberline {2}Problem Definition and Related Work}{13}
+\contentsline {section}{\numberline {2.1}Dialog Based Wayfinding Systems}{13}
+\contentsline {section}{\numberline {2.2}Evaluation Techniques}{15}
+\contentsline {chapter}{\numberline {3}Conceptual Model For Wayfinding}{17}
+\contentsline {section}{\numberline {3.1}Architecture}{17}
+\contentsline {section}{\numberline {3.2}Communication Protocol}{19}
+\contentsline {subsection}{\numberline {3.2.1}Landmarks}{21}
+\contentsline {subsection}{\numberline {3.2.2}Simple Intersections}{21}
+\contentsline {subsection}{\numberline {3.2.3}Complex Intersections}{22}
+\contentsline {chapter}{\numberline {4}Route Guidance Algorithm}{25}
+\contentsline {chapter}{\numberline {5}Implementation}{26}
+\contentsline {section}{\numberline {5.1}Data}{26}
+\contentsline {section}{\numberline {5.2}Preprocessing}{26}
+\contentsline {section}{\numberline {5.3}Knowledge Base}{26}
+\contentsline {chapter}{\numberline {6}Evaluation}{27}
+\contentsline {section}{\numberline {6.1}Simulation Design}{27}
+\contentsline {section}{\numberline {6.2}Goodness Metrics}{27}
+\contentsline {section}{\numberline {6.3}Results}{27}
+\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{28}
+\contentsline {chapter}{Bibliography}{29}

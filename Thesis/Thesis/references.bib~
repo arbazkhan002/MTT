@@ -1,0 +1,203 @@
+@inproceedings{yang2003improved,
+  title={An improved map-matching algorithm used in vehicle navigation system},
+  author={Yang, Dakai and Cai, Baigen and Yuan, Yifang},
+  booktitle={Intelligent Transportation Systems, 2003. Proceedings. 2003 IEEE},
+  volume={2},
+  pages={1246--1250},
+  year={2003},
+  organization={IEEE}
+}
+@article{baldwin2009,
+  title={Individual differences in navigational strategy: implications for display design},
+  author={Baldwin, Carryl L},
+  journal={Theoretical Issues in Ergonomics Science},
+  volume={10},
+  number={5},
+  pages={443--458},
+  year={2009},
+  publisher={Taylor \& Francis}
+}
+@article{furukawa2004,
+  title={Supporting Drivers’ Cognitive Map Construction with Visual Geo-Centered and Auditory Ego-Centered Guidance: Interference or Improved Performance},
+  author={Furukawa, Hiroshi and Baldwin, Carryl L and Carpenter, Ellen M},
+  journal={A. Vincenzi, M. Mouloua, PA Hancock: Human Performance, Situation Awareness and Automation: Current Research and Trends. HPSAA II. D. Mahawa, NJ: Lawrence Erlbaum},
+  pages={124--129},
+  year={2004},
+  publisher={DTIC Document}
+}
+@article{reagan2006,
+  title={Facilitating route memory with auditory route guidance systems},
+  author={Reagan, Ian and Baldwin, Carryl L},
+  journal={Journal of Environmental Psychology},
+  volume={26},
+  number={2},
+  pages={146--155},
+  year={2006},
+  publisher={Elsevier}
+}
+@article{dalton,
+  title={Driving with navigational instructions: Investigating user behaviour and performance},
+  author={Dalton P and Agarwal P and Fraenkel N and Baichoo J and Masry A},
+  journal={Accid Anal Prev.},
+  year={2013},
+  doi={10.1016/j.aap.2012.05.002},
+  pages={298-303}
+}   
+@inproceedings{lovelace,
+ author = {Lovelace, Kristin L. and Hegarty, Mary and Montello, Daniel R.},
+ title = {Elements of Good Route Directions in Familiar and Unfamiliar Environments},
+ booktitle = {Proceedings of the International Conference on Spatial Information Theory: Cognitive and Computational Foundations of Geographic Information Science},
+ series = {COSIT '99},
+ year = {1999},
+ isbn = {3-540-66365-7},
+ pages = {65--82},
+ numpages = {18},
+ url = {http://dl.acm.org/citation.cfm?id=646127.681068},
+ acmid = {681068},
+ publisher = {Springer-Verlag},
+ address = {London, UK, UK},
+} 
+@incollection{itsbarry,
+year={2004},
+isbn={978-3-540-22948-3},
+booktitle={Intelligent Tutoring Systems},
+volume={3220},
+series={Lecture Notes in Computer Science},
+editor={Lester, JamesC. and Vicari, RosaMaria and Paraguaçu, Fábio},
+doi={10.1007/978-3-540-30139-4_37},
+title={Advantages of Spoken Language Interaction in Dialogue-Based Intelligent Tutoring Systems},
+url={http://dx.doi.org/10.1007/978-3-540-30139-4_37},
+publisher={Springer Berlin Heidelberg},
+author={Pon-Barry, Heather and Clark, Brady and Schultz, Karl and Bratt, ElizabethOwen and Peters, Stanley},
+pages={390-400}
+}
+@inproceedings{jensen2010,
+  title={Studying driver attention and behaviour for three configurations of GPS navigation in real traffic driving},
+  author={Jensen, Brit Susan and Skov, Mikael B and Thiruravichandran, Nissanthen},
+  booktitle={Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+  pages={1271--1280},
+  year={2010},
+  organization={ACM}
+}
+@incollection{srinivasan1997,
+ author = {Srinivasan, Raghavan and Jovanis, Paul P.},
+ chapter = {Effect of In-vehicle Route Guidance Systems on Driver Workload and Choice of Vehicle Speed: Findings from a Driving Simulator Experiment},
+ title = {Ergonomics and Safety of Intelligent Driver Interfaces},
+ editor = {Noy, Y. Ian},
+ year = {1997},
+ isbn = {0-8058-1956-8},
+ pages = {97--114},
+ numpages = {18},
+ url = {http://dl.acm.org/citation.cfm?id=265295.265305},
+ acmid = {265305},
+ publisher = {L. Erlbaum Associates Inc.},
+ address = {Hillsdale, NJ, USA},
+} 
+@article{srinivasaneffect,
+  title={Effect of selected in-vehicle route guidance systems on driver reaction times},
+  author={Srinivasan, Raghavan and Jovanis, Paul P},
+  journal={Human Factors: The Journal of the Human Factors and Ergonomics Society},
+  volume={39},
+  number={2},
+  pages={200--215},
+  year={1997},
+  publisher={Sage Publications}
+}
+@article{white2000,
+  title={Some map matching algorithms for personal navigation assistants},
+  author={White, Christopher E and Bernstein, David and Kornhauser, Alain L},
+  journal={Transportation Research Part C: Emerging Technologies},
+  volume={8},
+  number={1},
+  pages={91--108},
+  year={2000},
+  publisher={Elsevier}
+}
+@inproceedings{parctab,
+  title={The PARCTAB mobile computing system},
+  author={Schilit, Bill N and Adams, Norman and Gold, Rich and Tso, Michael M and Want, Roy},
+  booktitle={Workstation Operating Systems, 1993. Proceedings., Fourth Workshop on},
+  pages={34--39},
+  year={1993},
+  organization={IEEE}
+}
+@inproceedings{hurtig,
+  title={Modality fusion in a route navigation system},
+  author={Hurtig, Topi and Jokinen, Kristiina},
+  booktitle={Procs of the Workshop on Effective Multimodal Dialogue Interfaces EMMDI-2006. Sydney, Australia},
+  year={2006}
+}
+@inproceedings{jokinen,
+  title={Adaptive dialogue systems-interaction with interact},
+  author={Jokinen, Kristiina and Kerminen, Antti and Kaipainen, Mauri and Jauhiainen, Tommi and Wilcock, Graham and Turunen, Markku and Hakulinen, Jaakko and Kuusisto, Jukka and Lagus, Krista},
+  booktitle={Proceedings of the 3rd SIGdial workshop on Discourse and dialogue-Volume 2},
+  pages={64--73},
+  year={2002},
+  organization={Association for Computational Linguistics}
+}
+@book{maab,
+  title={Visual grounding of route descriptions in dynamic environments},
+  author={Maa{\ss}, Wolfgang and Baus, J{\"o}rg and Paul, Joachim},
+  year={1995},
+  publisher={Univ. des Saarlandes, SFB 314}
+}
+@inproceedings{pattabhiraman,
+  title={Selection: Salience, relevance and the coupling between domain-level tasks and text planning},
+  author={Pattabhiraman, Thiyagarajasarma and Cercone, Nick},
+  booktitle={Proceedings of the Fifth International Workshop on Natural Language Generation, Dawson, PA},
+  pages={79--86},
+  year={1990}
+}
+@article{richter,
+  title={A dialog-driven process of generating route directions},
+  author={Richter, Kai-Florian and Tomko, Martin and Winter, Stephan},
+  journal={Computers, Environment and Urban Systems},
+  volume={32},
+  number={3},
+  pages={233--245},
+  year={2008},
+  publisher={Elsevier}
+}
+@inproceedings{habel,
+  title={Incremental generation of multimodal route instructions},
+  author={Habel, Christopher},
+  booktitle={Working Papers of the 2003 AAAI Spring Symposium on Natural Language Generation in Spoken and Written Dialogue},
+  pages={44--51},
+  year={2003}
+}
+@article{hightower,
+  title={Location sensing techniques},
+  author={Hightower, Jeffrey and Borriello, Gaetano},
+  journal={IEEE Computer},
+  volume={34},
+  number={8},
+  pages={57--66},
+  year={2001}
+}
+@incollection{placelab,
+  title={Place lab: Device positioning using radio beacons in the wild},
+  author={LaMarca, Anthony and Chawathe, Yatin and Consolvo, Sunny and Hightower, Jeffrey and Smith, Ian and Scott, James and Sohn, Timothy and Howard, James and Hughes, Jeff and Potter, Fred and others},
+  booktitle={Pervasive computing},
+  pages={116--133},
+  year={2005},
+  publisher={Springer}
+}
+@misc{perry,
+    author = {Perry, B.},
+    citeulike-article-id = {4209088},
+    citeulike-linkout-0 = {http://www.macromedia.com/devnet/devices/articles/invisible\_ideas.html},
+    keywords = {gps-art, initial-uberbib-import, locative},
+    posted-at = {2009-03-23 11:42:19},
+    priority = {2},
+    title = {{The Invisible Ideas Project: Using Mobile Devices, Macromedia Flash, and Global Positioning Systems}},
+    url = {http://www.macromedia.com/devnet/devices/articles/invisible\_ideas.html},
+    year = {2002}
+}
+
+@INPROCEEDINGS{Dale,
+    author = {Robert Dale and Sabine Geldof},
+    title = {Using natural language generation in automatic route description},
+    booktitle = {Journal of Research and Practice in Information Technology},
+    year = {2005},
+    pages = {89--105}
+}

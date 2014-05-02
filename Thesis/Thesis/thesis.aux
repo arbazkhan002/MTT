@@ -2,13 +2,14 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{5}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {1.1}Wayfinding}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}Notions and Terminology}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.1}Wayfinding}{5}}
 \citation{parctab}
 \citation{hightower}
 \citation{perry}
-\@writefile{toc}{\contentsline {section}{\numberline {1.2}Location Awareness}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.2}Location Awareness}{6}}
 \citation{white2000}
-\@writefile{toc}{\contentsline {section}{\numberline {1.3}Background}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}Background}{7}}
 \citation{jensen2010}
 \citation{dalton}
 \citation{reagan2006}
@@ -17,44 +18,105 @@
 \citation{jensen2010}
 \citation{dalton}
 \citation{srinivasaneffect}
-\@writefile{toc}{\contentsline {section}{\numberline {1.4}Motivation}{9}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.1}Why design a dialog-based system?}{9}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.2}Why choose to be location-unaware?}{10}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.5}Objectives of the work}{10}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.6}Roadmap}{11}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {2}Related Work}{13}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}Motivation}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.1}Why design a dialog-based system?}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.2}Why choose to be location-unaware?}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}Objectives of the work}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.5}Roadmap}{11}}
+\citation{lovelace}
+\citation{Dale}
+\citation{Habel}
+\citation{Maab}
+\citation{pattabhiraman}
+\citation{hurtig}
+\citation{jokinen}
+\citation{richter}
+\citation{richter}
+\citation{hurtig}
+\citation{jokinen}
+\citation{srinivasaneffect}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}Problem Definition and Related Work}{13}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}Route Guidance}{14}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}Dialog Based Wayfinding Systems}{13}}
+\citation{fongsurvey}
+\citation{janarthanam}
+\citation{richter}
+\citation{heriberto}
+\citation{spanger}
+\citation{young}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}Evaluation Techniques}{15}}
+\citation{give}
+\citation{GRUVE}
+\citation{baus}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Conceptual Model For Wayfinding}{17}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Communication Protocol}{14}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Route Guidance Algorithm}{14}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Implementation}{15}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Architecture}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture for a generic wayfinding model}}{18}}
+\newlabel{fig:arc}{{3.1}{18}}
+\citation{klippel}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Communication Protocol}{19}}
+\citation{klippel}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Ambiguity arises to determine the intended action when the route instructions are based on standard direction models as \textit  {take a left}.}}{20}}
+\newlabel{fig:turnA}{{3.2}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Real world example of a complex intersection in Mumbai, India.}}{21}}
+\newlabel{fig:complex_real}{{3.3}{21}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Landmarks}{21}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Simple Intersections}{21}}
+\citation{klippel}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces A decision point is simple intersection, if in each zone of the navigator's field view, there is atmost one road segment emerging from the decision point.}}{22}}
+\newlabel{fig:turnA}{{3.4}{22}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Complex Intersections}{22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Clock based convention to non-ambigously represent directions at complex intersections}}{23}}
+\newlabel{fig:complex}{{3.5}{23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces An Example to showcase an application of the proposed communication protocol. The intended route is represented symbolically in text at the top of the image. One possible translation of the encoding in english language can be as: 1. \textit  {Go Straight} 2. \textit  {You would find X on your left} 3. \textit  {At the intersection, take the 4th link in anti-clockwise direction from the most adjacent turn at your right side} 4. \textit  {You would find Y on your right} 5. \textit  {Take the third left after Y} }}{24}}
+\newlabel{fig:complexex}{{3.6}{24}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Route Guidance Algorithm}{25}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Data}{15}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Preprocessing}{15}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Knowledge Base}{15}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Evaluation}{16}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Implementation}{26}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Simulation Design}{16}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Goodness Metrics}{16}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Results}{16}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Data}{26}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Preprocessing}{26}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Knowledge Base}{26}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Evaluation}{27}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Simulation Design}{27}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Goodness Metrics}{27}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Results}{27}}
 \bibstyle{plain}
 \bibdata{references}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{17}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{28}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \bibcite{baldwin2009}{1}
-\bibcite{furukawa2004}{2}
-\bibcite{hightower}{3}
-\bibcite{jensen2010}{4}
-\bibcite{dalton}{5}
-\bibcite{perry}{6}
-\bibcite{reagan2006}{7}
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{18}}
-\bibcite{parctab}{8}
-\bibcite{srinivasaneffect}{9}
-\bibcite{white2000}{10}
+\bibcite{baus}{2}
+\bibcite{heriberto}{3}
+\bibcite{Dale}{4}
+\bibcite{fongsurvey}{5}
+\bibcite{furukawa2004}{6}
+\bibcite{give}{7}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{29}}
+\bibcite{Habel}{8}
+\bibcite{hightower}{9}
+\bibcite{hurtig}{10}
+\bibcite{GRUVE}{11}
+\bibcite{janarthanam}{12}
+\bibcite{jensen2010}{13}
+\bibcite{jokinen}{14}
+\bibcite{klippel}{15}
+\bibcite{lovelace}{16}
+\bibcite{Maab}{17}
+\bibcite{dalton}{18}
+\bibcite{pattabhiraman}{19}
+\bibcite{perry}{20}
+\bibcite{reagan2006}{21}
+\bibcite{richter}{22}
+\bibcite{parctab}{23}
+\bibcite{spanger}{24}
+\bibcite{srinivasaneffect}{25}
+\bibcite{white2000}{26}
+\bibcite{young}{27}

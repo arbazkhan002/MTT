@@ -374,6 +374,8 @@
 \assignpagestyle{\chapter}{empty}
 
 \usepackage{emptypage}
+\usepackage{graphicx}
+\usepackage{epsfig}
 \usepackage[nottoc]{tocbibind}
 %=============================================================================
 % END FILE

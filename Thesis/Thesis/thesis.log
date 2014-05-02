@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.6)  28 APR 2014 22:59
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.6)  2 MAY 2014 03:01
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -89,6 +89,31 @@ Package: titlesec 2007/08/12 v2.8 Sectioning titles
 (/usr/share/texmf-texlive/tex/latex/emptypage/emptypage.sty
 Package: emptypage 2009/07/09 v1.1 Suppress page numbers and headings on empty 
 pages
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen114
+\epsfysize=\dimen115
 ))
 (/usr/share/texmf-texlive/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2009/09/04 v1.5i extra ToC listings
@@ -99,7 +124,11 @@ Package tocbibind Note: The document has chapter divisions.
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-) (./thesis.aux)
+) (./thesis.aux
+
+LaTeX Warning: Label `fig:turnA' multiply defined.
+
+)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -171,12 +200,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 90--95
-
- []
-
-[2
+] [2
 
 ] (./thesis.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -197,43 +221,74 @@ Chapter 1.
 
 ] [6]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 111.
+(Font)              <7> on input line 114.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 111.
- [7] [8] [9] [10] [11] [12]
+(Font)              <5> on input line 114.
+ [7] [8]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ [9] [10] [11] [12]
 Chapter 2.
 [13
 
-]
+] [14] [15] [16]
 Chapter 3.
-[14
+File: architecture.eps Graphic file (type eps)
+<architecture.eps> [17
 
-]
+] [18] [19]
+File: turnA.eps Graphic file (type eps)
+ <turnA.eps>
+File: complex_real.eps Graphic file (type eps)
+ <complex_real.eps> [20]
+
+LaTeX Warning: Reference `fig:simpleturns' on page 21 undefined on input line 2
+22.
+
+[21]
+File: simpleturns.eps Graphic file (type eps)
+ <simpleturns.eps> [22]
+File: complex.eps Graphic file (type eps)
+ <complex.eps>
+File: complexex.eps Graphic file (type eps)
+ <complexex.eps> [23] [24]
 Chapter 4.
-[15
+[25
 
 ]
 Chapter 5.
-[16
+[26
 
 ]
 Chapter 6.
-(./thesis.bbl [17
+[27
+
+]
+Chapter 7.
+(./thesis.bbl [28
 
 ]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [18
+ [29
 
-]) [19] (./thesis.aux) ) 
+] [30] [31]) [32] (./thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1559 strings out of 495062
- 20693 string characters out of 1182644
- 77631 words of memory out of 3000000
- 4756 multiletter control sequences out of 15000+50000
+ 1909 strings out of 495062
+ 24999 string characters out of 1182644
+ 82766 words of memory out of 3000000
+ 5081 multiletter control sequences out of 15000+50000
  9194 words of font info for 32 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 30i,10n,45p,1518b,220s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,11n,45p,2077b,294s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (20 pages, 32936 bytes).
+Output written on thesis.dvi (33 pages, 66944 bytes).
