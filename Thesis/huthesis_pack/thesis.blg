@@ -1,0 +1,72 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: thesis.aux
+The style file: plain.bst
+A level-1 auxiliary file: frontmatter.aux
+A level-1 auxiliary file: ch1.aux
+A level-1 auxiliary file: b.aux
+A level-1 auxiliary file: ap1.aux
+Database file #1: bibs.bib
+Warning--empty title in adams
+Warning--empty title in bogomolny
+Warning--empty title in bunimovich
+Warning--empty title in LB3
+Warning--can't use both author and editor fields in highspeed
+Warning--empty title in 1Deffects
+Warning--empty title in churev
+Warning--empty title in cctrev
+Warning--empty title in qkr
+Warning--empty title in kati97
+Warning--empty title in 1Dbec
+Warning--empty title in bim2
+Warning--empty title in lanczos
+Warning--empty title in LB1
+Warning--empty title in LB2
+Warning--empty title in macdonald
+Warning--empty title in interf
+Warning--empty title in Maxim
+Warning--empty title in billrev
+Warning--empty title in joseph
+Warning--empty title in josephqpc
+Warning--empty title in topinka
+You've used 44 entries,
+            2118 wiz_defined-function locations,
+            777 strings with 8704 characters,
+and the built_in function-call counts, 13184 in all, are:
+= -- 1254
+> -- 621
+< -- 3
++ -- 245
+- -- 201
+* -- 954
+:= -- 2296
+add.period$ -- 117
+call.type$ -- 44
+change.case$ -- 201
+chr.to.int$ -- 0
+cite$ -- 66
+duplicate$ -- 512
+empty$ -- 1042
+format.name$ -- 201
+if$ -- 2672
+int.to.chr$ -- 0
+int.to.str$ -- 44
+missing$ -- 48
+newline$ -- 204
+num.names$ -- 95
+pop$ -- 232
+preamble$ -- 1
+purify$ -- 184
+quote$ -- 0
+skip$ -- 309
+stack$ -- 0
+substring$ -- 751
+swap$ -- 66
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 163
+warning$ -- 22
+while$ -- 138
+width$ -- 46
+write$ -- 449
+(There were 22 warnings)

@@ -3,46 +3,46 @@ The top-level auxiliary file: thesis.aux
 The style file: plain.bst
 Database file #1: references.bib
 Warning--entry type for "gmaps" isn't style-file defined
---line 303 of file references.bib
-You've used 28 entries,
+--line 379 of file references.bib
+You've used 31 entries,
             2118 wiz_defined-function locations,
-            672 strings with 9721 characters,
-and the built_in function-call counts, 10900 in all, are:
-= -- 1090
-> -- 503
-< -- 12
-+ -- 206
-- -- 170
-* -- 732
-:= -- 1718
-add.period$ -- 89
-call.type$ -- 28
-change.case$ -- 168
+            690 strings with 10408 characters,
+and the built_in function-call counts, 12282 in all, are:
+= -- 1233
+> -- 562
+< -- 14
++ -- 229
+- -- 190
+* -- 827
+:= -- 1923
+add.period$ -- 99
+call.type$ -- 31
+change.case$ -- 187
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 436
-empty$ -- 864
-format.name$ -- 170
-if$ -- 2353
+cite$ -- 31
+duplicate$ -- 493
+empty$ -- 974
+format.name$ -- 190
+if$ -- 2660
 int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 27
-newline$ -- 141
-num.names$ -- 56
-pop$ -- 202
+int.to.str$ -- 31
+missing$ -- 30
+newline$ -- 156
+num.names$ -- 62
+pop$ -- 225
 preamble$ -- 1
-purify$ -- 141
+purify$ -- 157
 quote$ -- 0
-skip$ -- 327
+skip$ -- 372
 stack$ -- 0
-substring$ -- 705
-swap$ -- 135
-text.length$ -- 12
+substring$ -- 812
+swap$ -- 158
+text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 110
+type$ -- 122
 warning$ -- 0
-while$ -- 109
-width$ -- 30
-write$ -- 309
+while$ -- 123
+width$ -- 33
+write$ -- 343
 (There was 1 warning)

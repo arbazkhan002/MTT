@@ -97,6 +97,19 @@ Alexander Klippel.
 \newblock In {\em Spatial Information Theory. Foundations of Geographic
   Information Science}, pages 301--315. Springer, 2003.
 
+\bibitem{tellex:language}
+T.~Kollar, S.~Tellex, D.~Roy, and N.~Roy.
+\newblock Toward understanding natural language directions.
+\newblock In {\em 5th ACM/IEEE International Conference on Human-Robot
+  Interaction}, pages 259--266, 2010.
+
+\bibitem{Kordjamshidi:labelling}
+Parisa Kordjamshidi, Martijn Van~Otterlo, and Marie-Francine Moens.
+\newblock Spatial role labeling: Towards extraction of spatial relations from
+  natural language.
+\newblock {\em ACM Transactions on Speech and Language Processing},
+  8(3):4:1--4:36, 2011.
+
 \bibitem{lovelace}
 Kristin~L. Lovelace, Mary Hegarty, and Daniel~R. Montello.
 \newblock Elements of good route directions in familiar and unfamiliar
@@ -110,6 +123,12 @@ Kristin~L. Lovelace, Mary Hegarty, and Daniel~R. Montello.
 Wolfgang Maa{\ss}, J{\"o}rg Baus, and Joachim Paul.
 \newblock {\em Visual grounding of route descriptions in dynamic environments}.
 \newblock Univ. des Saarlandes, SFB 314, 1995.
+
+\bibitem{matuszek:following}
+Cynthia Matuszek, Dieter Fox, and Karl Koscher.
+\newblock Following directions using statistical machine translation.
+\newblock In {\em Proceedings of the 5th ACM/IEEE International Conference on
+  Human-Robot Interaction}, pages 251--258. IEEE Press, 2010.
 
 \bibitem{gmaps}
 Map of~Mumbai.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.6)  2 MAY 2014 16:49
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.6)  3 MAY 2014 03:06
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -128,6 +128,64 @@ File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \epsfxsize=\dimen120
 \epsfysize=\dimen121
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen122
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen123
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen124
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip10
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks18
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks19
+\eqnshift@=\dimen125
+\alignsep@=\dimen126
+\tagshift@=\dimen127
+\tagwidth@=\dimen128
+\totwidth@=\dimen129
+\lineht@=\dimen130
+\@envbody=\toks20
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
 ))
 (/usr/share/texmf-texlive/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2009/09/04 v1.5i extra ToC listings
@@ -214,14 +272,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 ] [2
 
-] (./thesis.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 2.
- [3
+] (./thesis.toc [3
 
 ])
 \tf@toc=\write3
@@ -231,12 +282,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Chapter 1.
 [5
 
-] [6]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 114.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 114.
- [7] [8]
+] [6] [7] [8]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -264,32 +310,41 @@ File: complexex.eps Graphic file (type eps)
 Chapter 4.
 [25
 
-]
+] [26] [27]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 283.
+
+ (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 283.
+ [28]
+[29]
 Chapter 5.
-[26
+[30
 
 ]
 Chapter 6.
-[27
+[31
 
 ]
 Chapter 7.
-(./thesis.bbl [28
+(./thesis.bbl [32
 
 ]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [29
+ [33
 
-] [30] [31]) [32] (./thesis.aux) ) 
+] [34] [35]) [36] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 2838 strings out of 495062
- 41639 string characters out of 1182644
- 104310 words of memory out of 3000000
- 6003 multiletter control sequences out of 15000+50000
- 9840 words of font info for 34 fonts, out of 3000000 for 9000
+ 3454 strings out of 495062
+ 48623 string characters out of 1182644
+ 114735 words of memory out of 3000000
+ 6596 multiletter control sequences out of 15000+50000
+ 11669 words of font info for 41 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 43i,10n,45p,2077b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,11n,45p,2077b,336s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (33 pages, 68484 bytes).
+Output written on thesis.dvi (37 pages, 82004 bytes).

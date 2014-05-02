@@ -17,14 +17,19 @@
 \contentsline {subsection}{\numberline {3.2.1}Landmarks}{21}
 \contentsline {subsection}{\numberline {3.2.2}Simple Intersections}{21}
 \contentsline {subsection}{\numberline {3.2.3}Complex Intersections}{22}
-\contentsline {chapter}{\numberline {4}Route Guidance Algorithm}{25}
-\contentsline {chapter}{\numberline {5}Implementation}{26}
-\contentsline {section}{\numberline {5.1}Data}{26}
-\contentsline {section}{\numberline {5.2}Preprocessing}{26}
-\contentsline {section}{\numberline {5.3}Knowledge Base}{26}
-\contentsline {chapter}{\numberline {6}Evaluation}{27}
-\contentsline {section}{\numberline {6.1}Simulation Design}{27}
-\contentsline {section}{\numberline {6.2}Goodness Metrics}{27}
-\contentsline {section}{\numberline {6.3}Results}{27}
-\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{28}
-\contentsline {chapter}{Bibliography}{29}
+\contentsline {chapter}{\numberline {4}Dialog-Based Localization}{25}
+\contentsline {section}{\numberline {4.1}Introduction}{25}
+\contentsline {section}{\numberline {4.2}Alternative Reference to Routemarks}{26}
+\contentsline {section}{\numberline {4.3}Extrapolating User Movements}{27}
+\contentsline {subsection}{\numberline {4.3.1}Estimating User Speed}{27}
+\contentsline {subsection}{\numberline {4.3.2}Predicting User Speed}{28}
+\contentsline {chapter}{\numberline {5}Implementation}{30}
+\contentsline {section}{\numberline {5.1}Data}{30}
+\contentsline {section}{\numberline {5.2}Preprocessing}{30}
+\contentsline {section}{\numberline {5.3}Knowledge Base}{30}
+\contentsline {chapter}{\numberline {6}Evaluation}{31}
+\contentsline {section}{\numberline {6.1}Simulation Design}{31}
+\contentsline {section}{\numberline {6.2}Goodness Metrics}{31}
+\contentsline {section}{\numberline {6.3}Results}{31}
+\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{32}
+\contentsline {chapter}{Bibliography}{33}

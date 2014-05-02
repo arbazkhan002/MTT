@@ -377,6 +377,7 @@
 \usepackage{emptypage}
 \usepackage{graphicx}
 \usepackage{epsfig}
+\usepackage{amsmath}
 \usepackage[nottoc]{tocbibind}
 %=============================================================================
 % END FILE
