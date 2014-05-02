@@ -204,11 +204,11 @@ Alongwith completeness and non-ambiguity, its equally important to consider the 
 \label{fig:turnA}
  \end{figure}
 
- \begin{figure}
+ \begin{figure}[htb]
 \centering
 %\includegraphics[width=0.5\textwidth]{phase1.png}
-\epsfig{file=complex_real.eps, height=3in, width=4in}
-\caption{Real world example of a complex intersection in Mumbai, India.}
+\epsfig{file=complex_real.eps, height=3in, width=3in}
+\caption{Real world example of a complex intersection in Mumbai, India taken from Google Maps \cite{gmaps}.}
 \label{fig:complex_real}
  \end{figure}
 
@@ -219,7 +219,7 @@ The communication protocol proposed is an adaptive approach to formal representa
 The landmarks are represented by notational IDs and by the direction (left or right) in which user encounters this landmark while moving on a path segment. So, if $X$ is the notational ID of a landmark and if moving on the directed path segment, the user would encounter $X$ on his right, then the corresponding representation is $X^R$. Similarly, $X^L$ indicates that moving on the path segment, user can see $X$ on his left. These representations along with that of turn behaviour at intersections (simple and complex) form the communication protocol. 
 
 \subsection{Simple Intersections}
-Most of the intersections in the real-world fall under this category and are fairly trivial to communicate. To formally define a \textit{simple intersection}, we divide field-view of the navigator in four triangular zones (see Figure \ref{fig:simpleturns}). Choosing reference axis as the left direction perpendicular to the incoming road segment $p$, the left zone spans 45 degrees on either side of the reference point. Its mirror image in the field-view is the right zone. Similarly, one can conceptualize the other two zones. We define a decision point as \textit{simple intersection}, if in each zone of the navigator's field view, there is atmost one road segment emerging from the decision point. 
+Most of the intersections in the real-world fall under this category and are fairly trivial to communicate. To formally define a \textit{simple intersection}, we divide field-view of the navigator in four triangular zones (see Figure \ref{fig:simpleturns}). Choosing reference axis as the left direction perpendicular to the incoming road segment $p$, the left zone spans 45 degrees on either side of the reference point. Its mirror image in the field-view w.r.t. the decision point is the right zone. Similarly, one can conceptualize the other two zones. We define a decision point as \textit{simple intersection}, if in each zone of the navigator's field view, there is atmost one road segment emerging from the decision point. 
 
 The instructions that are associated with change in direction are represented by symbols \textbf{R} and \textbf{L}. The non-turning instruction indicating to go straight is represented by \textbf{S}. 
 
@@ -228,15 +228,9 @@ The instructions that are associated with change in direction are represented by
 %\includegraphics[width=0.5\textwidth]{phase1.png}
 \epsfig{file=simpleturns.eps, height=3in, width=4in}
 \caption{A decision point is simple intersection, if in each zone of the navigator's field view, there is atmost one road segment emerging from the decision point.}
-\label{fig:turnA}
+\label{fig:simpleturns}
  \end{figure}
 \subsection{Complex Intersections}
-For representing complex intersections, we use a clock-based notation for a non-ambiguous conceptualization. Klippel \cite{klippel} handles non-standard turns by using 8-sector model which opens up alternate notations such as \textbf{hl} (half left), \textbf{vr} (veer right), etc. These work well for 4-way intersections and 3-way intersections but as the number of emerging road segments increase beyond 4, the 8-sector model fails as there can be more than one road segment in the same sector.
-
-A clock-based notation doesn't work on the basis of sector model and can handle extended multi-way intersections. The roads are represented in an anti-clockwise numbering starting from the first turn right-adjacent to incoming road segment as shown in Figure \ref{fig:complex}. Notationally, we represent complex turns in the form $R_i$, which represents the $i^{th}$ numbered turn in anti-clockwise direction starting from the most adjacent turn on your right.
-
-Figure \ref{fig:complexex} elaborates a full-fledged example combining the representations of landmarks and intersections and attempts to present an english translation of the same.
-
 \begin{figure}
 \centering
 %\includegraphics[width=0.5\textwidth]{complex.png}
@@ -257,6 +251,12 @@ Figure \ref{fig:complexex} elaborates a full-fledged example combining the repre
 }
 \label{fig:complexex}
  \end{figure} 
+Any decision point which is not a simple intersection is a \textit{complex intersection}\footnote{See Figure \ref{fig:complex_real} and Figure \ref{fig:complex}}. For representing complex intersections, we use a clock-based notation for a non-ambiguous conceptualization. Klippel \cite{klippel} handles non-standard turns by using 8-sector model which opens up alternate notations such as \textbf{hl} (half left), \textbf{vr} (veer right), etc. These work well for 4-way intersections and 3-way intersections but as the number of emerging road segments increase beyond 4, the 8-sector model fails as there can be more than one road segment in the same sector.
+
+A clock-based notation doesn't work on the basis of sector model and can handle extended multi-way intersections. The roads are represented in an anti-clockwise numbering starting from the first turn right-adjacent to incoming road segment as shown in Figure \ref{fig:complex}. Notationally, we represent complex turns in the form $R_i$, which represents the $i^{th}$ numbered turn in anti-clockwise direction starting from the most adjacent turn on your right.
+
+Figure \ref{fig:complexex} elaborates a full-fledged example combining the representations of landmarks and intersections and attempts to present an english translation of the same. Before we conclude, we claim that the qualitative calculi used by Klippel \cite{klippel} on formal representations can be applied likewise to the proposed communication protocol as it is as a direct extension to the theory by including complex intersections. So if a route has no complex intersections, our communication protocol is semantically similar to that of Klippel. Continuing on the example from Figure \ref{fig:complexex}, the route segment corresponding to the representation $SSL$ is translated as \textit{the third left} which is similar to the chunking rule of Klippel's \textit{wayfinding choremes} \cite{klippel}, where by the help of term rewriting, an intermediate representation is deduced from simple representations, prior to natural-language translation.
+
 %We implemented this protocol and incorporated in our testbed to demonstrate the validity and non-ambiguity of its semantics.
  \chapter{Route Guidance Algorithm}
  \chapter{Implementation}

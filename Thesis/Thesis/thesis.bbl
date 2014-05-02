@@ -111,6 +111,10 @@ Wolfgang Maa{\ss}, J{\"o}rg Baus, and Joachim Paul.
 \newblock {\em Visual grounding of route descriptions in dynamic environments}.
 \newblock Univ. des Saarlandes, SFB 314, 1995.
 
+\bibitem{gmaps}
+Map of~Mumbai.
+\newblock Google maps, https://maps.google.com/, May 2014.
+
 \bibitem{dalton}
 Dalton P, Agarwal P, Fraenkel N, Baichoo J, and Masry A.
 \newblock Driving with navigational instructions: Investigating user behaviour

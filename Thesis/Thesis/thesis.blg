@@ -2,44 +2,47 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: thesis.aux
 The style file: plain.bst
 Database file #1: references.bib
-You've used 27 entries,
+Warning--entry type for "gmaps" isn't style-file defined
+--line 303 of file references.bib
+You've used 28 entries,
             2118 wiz_defined-function locations,
-            668 strings with 9662 characters,
-and the built_in function-call counts, 10701 in all, are:
-= -- 1073
-> -- 496
+            672 strings with 9721 characters,
+and the built_in function-call counts, 10900 in all, are:
+= -- 1090
+> -- 503
 < -- 12
-+ -- 203
-- -- 168
-* -- 724
-:= -- 1686
-add.period$ -- 87
-call.type$ -- 27
-change.case$ -- 164
++ -- 206
+- -- 170
+* -- 732
+:= -- 1718
+add.period$ -- 89
+call.type$ -- 28
+change.case$ -- 168
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 429
-empty$ -- 842
-format.name$ -- 168
-if$ -- 2310
+cite$ -- 28
+duplicate$ -- 436
+empty$ -- 864
+format.name$ -- 170
+if$ -- 2353
 int.to.chr$ -- 0
-int.to.str$ -- 27
+int.to.str$ -- 28
 missing$ -- 27
-newline$ -- 137
-num.names$ -- 54
-pop$ -- 193
+newline$ -- 141
+num.names$ -- 56
+pop$ -- 202
 preamble$ -- 1
-purify$ -- 138
+purify$ -- 141
 quote$ -- 0
-skip$ -- 319
+skip$ -- 327
 stack$ -- 0
-substring$ -- 700
-swap$ -- 134
+substring$ -- 705
+swap$ -- 135
 text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 106
+type$ -- 110
 warning$ -- 0
-while$ -- 107
-width$ -- 29
-write$ -- 301
+while$ -- 109
+width$ -- 30
+write$ -- 309
+(There was 1 warning)

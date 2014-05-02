@@ -361,6 +361,7 @@
 \usepackage{fancyhdr}
 \usepackage{fancyref}
 \usepackage{setspace}
+\usepackage[font=small,skip=0pt]{caption}
 \doublespacing
 
 \fancyhf{}

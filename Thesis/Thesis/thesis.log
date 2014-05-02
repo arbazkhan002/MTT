@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.6)  2 MAY 2014 03:01
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.6)  2 MAY 2014 16:49
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -74,17 +74,31 @@ Package: varioref 2009/09/13 v1.4w package for extended references (FMi)
 Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
 
 Package: `setspace' 6.7 <2000/12/01>
-) (/usr/share/texmf-texlive/tex/latex/titlesec/titlesec.sty
+) (/usr/share/texmf-texlive/tex/latex/caption/caption.sty
+Package: caption 2009/10/09 v3.1k Customizing captions (AR)
+
+(/usr/share/texmf-texlive/tex/latex/caption/caption3.sty
+Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
+\captionmargin=\dimen107
+\captionmargin@=\dimen108
+\captionwidth=\dimen109
+\caption@indent=\dimen110
+\caption@parindent=\dimen111
+\caption@hangindent=\dimen112
+)
+\c@ContinuedFloat=\count92
+)
+(/usr/share/texmf-texlive/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2007/08/12 v2.8 Sectioning titles
 \ttl@box=\box26
 \beforetitleunit=\skip52
 \aftertitleunit=\skip53
-\ttl@plus=\dimen107
-\ttl@minus=\dimen108
+\ttl@plus=\dimen113
+\ttl@minus=\dimen114
 \ttl@toksa=\toks16
-\titlewidth=\dimen109
-\titlewidthlast=\dimen110
-\titlewidthfirst=\dimen111
+\titlewidth=\dimen115
+\titlewidthlast=\dimen116
+\titlewidthfirst=\dimen117
 )
 (/usr/share/texmf-texlive/tex/latex/emptypage/emptypage.sty
 Package: emptypage 2009/07/09 v1.1 Suppress page numbers and headings on empty 
@@ -107,13 +121,13 @@ Package graphics Info: Driver file: dvips.def on input line 91.
 (/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
 File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
-\Gin@req@height=\dimen112
-\Gin@req@width=\dimen113
+\Gin@req@height=\dimen118
+\Gin@req@width=\dimen119
 )
 (/usr/share/texmf-texlive/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
-\epsfxsize=\dimen114
-\epsfysize=\dimen115
+\epsfxsize=\dimen120
+\epsfysize=\dimen121
 ))
 (/usr/share/texmf-texlive/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2009/09/04 v1.5i extra ToC listings
@@ -124,11 +138,7 @@ Package tocbibind Note: The document has chapter divisions.
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-) (./thesis.aux
-
-LaTeX Warning: Label `fig:turnA' multiply defined.
-
-)
+) (./thesis.aux)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -185,6 +195,8 @@ driver: dvips
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 [1
 
 ]
@@ -241,18 +253,14 @@ File: architecture.eps Graphic file (type eps)
 File: turnA.eps Graphic file (type eps)
  <turnA.eps>
 File: complex_real.eps Graphic file (type eps)
- <complex_real.eps> [20]
-
-LaTeX Warning: Reference `fig:simpleturns' on page 21 undefined on input line 2
-22.
-
-[21]
+ <complex_real.eps> [20] [21]
 File: simpleturns.eps Graphic file (type eps)
- <simpleturns.eps> [22]
+
+<simpleturns.eps>
 File: complex.eps Graphic file (type eps)
  <complex.eps>
 File: complexex.eps Graphic file (type eps)
- <complexex.eps> [23] [24]
+ <complexex.eps> [22] [23] [24]
 Chapter 4.
 [25
 
@@ -274,21 +282,14 @@ Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
  [29
 
-] [30] [31]) [32] (./thesis.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+] [30] [31]) [32] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 1909 strings out of 495062
- 24999 string characters out of 1182644
- 82766 words of memory out of 3000000
- 5081 multiletter control sequences out of 15000+50000
- 9194 words of font info for 32 fonts, out of 3000000 for 9000
+ 2838 strings out of 495062
+ 41639 string characters out of 1182644
+ 104310 words of memory out of 3000000
+ 6003 multiletter control sequences out of 15000+50000
+ 9840 words of font info for 34 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 32i,11n,45p,2077b,294s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,10n,45p,2077b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (33 pages, 66944 bytes).
+Output written on thesis.dvi (33 pages, 68484 bytes).
