@@ -378,6 +378,7 @@
 \usepackage{graphicx}
 \usepackage{epsfig}
 \usepackage{amsmath}
+\usepackage[algoruled]{algorithm2e}
 \usepackage[nottoc]{tocbibind}
 %=============================================================================
 % END FILE

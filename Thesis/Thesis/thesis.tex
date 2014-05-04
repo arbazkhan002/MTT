@@ -147,11 +147,11 @@ Firstly, to communicate the route instructions, we aim to design a cross-lingual
 
 Secondly, we target to build a location-unaware system and attempt to match the effectiveness of positioning systems for localizing a user in wayfinding tasks. 
 
-Thirdly, we aim to minimize the dependence of the system on any extrinsic information. By extrinsic information, we mean any information that is not readily and uniformly available due to the needs of large-scale manual processing e.g., crowdsourcing, or database built from a place directory/gazeteer (gazeteers are not available for all places). The intention is to maximize the use of inherent characteristics of an environment like the height and color of buildings, the existence of an open space and hence its shape, surrounding vegetations, etc. Such characteristics can be automically extracted from standard detection systems like LIDAR.
+Thirdly, we aim to minimize the dependence of the system on any extrinsic information. By extrinsic information, we mean any information that is not readily and uniformly available due to the needs of large-scale manual processing e.g., crowdsourcing, or database built from a place directory or gazeteer (gazeteers are not available for all places). The intention is to maximize the use of inherent characteristics of an environment like the height and color of buildings, the existence of an open space and hence its shape, surrounding vegetations, etc. Such characteristics can be automically extracted from standard detection systems like LIDAR.
 
 Fourthly, we plan to provide a pure auditory-based service which demands nothing more than auditory medium for communication with the mobile end-user. Thus the implication is the service functions independent of support for any wireless technology (such as bluetooth) or web access.
   \section{Roadmap}
-  In this thesis, we discuss upon the design of the wayfinding model which uses dialog-based conversations to localize a user and guide him to his destination. To make the model generic, we design a communication protocol based upon notational representation of route instructions to convey the path to destination. Since there is no device-based support for location awareness, to bring it into effect, an algorithm to generate a structured dialog interaction is architected for tracking the user's location in terms of en-route landmarks encountered. Chapter 3 introduces the semantics of the communication protocol as well as the the guidance algorithm to generate dynamic prompts for location tracking. It also discusses on the strategy adopted to reorient a user disoriented from his path due to possible misinterpretation of route instructions or because of an erroneous behaviour. Chapter 4 discusses the implementation of the model which was used to study the effectiveness of the algorithm. To evaluate goodness of the algorithm, a simulation platform was set up to model a user with homogenous and non-homogenous speed patterns and erroneous behaviour in following the route instructions. Chapter 5 elaborates upon the employed user-modelling and introduces the goodness metrics used for evaluating the results of performance of the route guidance model. We end in Chapter 6 by providing a brief summary of the contributions made by the work and an outlook on possible improvements of the model.
+  In this thesis, we discuss upon the design of the wayfinding model which uses dialog-based conversations to localize a user and guide him to his destination. To make the model generic, we design a communication protocol based upon notational representation of route instructions to convey the path to destination. Since there is no device-based support for location awareness, to bring it into effect, an algorithm to generate a structured dialog interaction is architected for tracking the user's location in terms of en-route landmarks encountered. \textit{Chapter 3} introduces the semantics of the communication protocol as well as an architecture of a generic wayfinding model. In \textit{Chapter 4}, we present the localization algorithm to determine user's location by generating prompts for location tracking. It also discusses on the strategy adopted to reorient a user disoriented from his path due to possible misinterpretation of route instructions or because of an erroneous behaviour. \textit{Chapter} 5 discusses the implementation of the model which was used to study the effectiveness of the algorithm. To evaluate goodness of the algorithm, a simulation platform was set up to model a user with homogenous and non-homogenous speed patterns and erroneous behaviour in following the route instructions. \textit{Chapter 6} elaborates upon the employed user-modelling and introduces the goodness metrics used for evaluating the results of performance of the route guidance model. We end in \textit{Chapter 7} by providing a brief summary of the contributions made by the work and an outlook on possible improvements of the model.
  \chapter{Problem Definition and Related Work}
  \section{Dialog Based Wayfinding Systems} 
  Significant research has been done in the area of defining \cite{lovelace} and generating \cite{Dale,Habel,Maab,pattabhiraman} good quality route instructions which are specialized for human understanding. These models have evolved from those working on handcrafted data disseminating turn-by-turn instructions in a one-step-per-sentence mappings to the systems processing data from Geographic Information Systems (GIS) using visible features of the surroundings and generating compact and more human-like descriptions. Yet, most of these systems were monologic systems in which the instructions are provided in advance or even incrementally, causing them to suffer from poor comprehensions and an inability to resolve user's ambiguities along the path. Owing to the benefits of a dialog system to respond to user queries and possibility to react to inadequate or poorly understood instructions, research works \cite{hurtig, jokinen, richter} had moved towards building dialog-driven wayfinding models. The major concern in these systems is the balance between not overwhelming the user with too much media to minimize the cognitive overload, and to allow several levels of details to produce comprehensive and accurate set of descriptions preventing any ambiguities or confusions. Although some \cite{richter} of these systems rely on purely speech-based interactions while others \cite{hurtig,jokinen} have used the luxury of realizing a multimodal interface which offers the user a freedom of choice by combining speech, pen and graphics based input signals. Although multimodal systems do help in matching user preferences and result in better and disambiguated input signals, but these systems lose the fundamental requirement of wayfinding assistance, which is, to discourage distractions from driving task and reduce the driver workload. Pure-auditory based route instructions help in servicing systems which cause to minimize the interference to driving task and thus create no negative impact on reaction times \cite{srinivasaneffect}. 
@@ -280,20 +280,96 @@ Speed predictions lead to adaptive nature of the localization algorithm and assi
 The speed predictions are done specific to a road segment and time of day. Some roads facilitate faster speeds than the others but the differences differ over the time of day.
 Also to be considered is the speed profile of the user. A slow driver might prefer to drive slow proportionately in every speed-limit scenario. Summing up, the algorithm for speed prediction works over two predictors - 
 \begin{itemize}
-\item historical average speed on the road segment at this time of day and,
-\item average speed deviation of the user from the historical speeds.
+\item historical average speed on the road segment at this time of day $(H_{e,t})$,
+\item average relative speed deviation of the user from the historical speeds $({A_u})$,
+\item dynamic slowdown factor (f).
 \end{itemize}
 
-For every upcoming road segment, speed is predicted using historical average speeds on the roads and the average deviations of the estimated speed of the user in this session from the historical average speeds on the travelled roads. The feature historical average speeds is stored specific to discretized time slots in a day owing to the observation that a busy road in daytime might be distinctly fast in the late night slot. The average speed deviation feature is related to the characteristic of the user and can help identify driving preferences. This gives a slow driver enough time gap between successive prompts for confirming orientation, while a fast driver might get different prompts to spatio-temporally match his rapid movements.
+For every upcoming road segment, speed is predicted using historical average speeds on the roads and the average deviations of the estimated speed of the user in this session from the historical average speeds on the travelled roads. The feature historical average speeds is stored specific to discretized time slots in a day owing to the observation that a road might be distinctly fast in the late nights as compared to that in peak-hours. The average relative speed deviation feature is related to the characteristic of the user and can help identify driving preferences. This gives a slow driver enough time gap between successive prompts for confirming orientation, while a fast driver might get different prompts to spatio-temporally match his rapid movements.  
+
+The third predictor is meant to consider live traffic information. There may be cases when a road has history of fast vehicle operating speeds and yet, temporary slowdowns maybe observed even for drivers with high-speed driving preferences. Such slowdowns usually occur due to natural interruptions such as foggy weather, torrential rains or snowfall, or even man-made interferences like festival celebrations, rallies or occassional traffic-jams due to miscellaneous reasons. The estimation of dynamic slowdown factor is done freshly at each time slot by averaging relative slowdowns at the given edge from all the users and can be mathematically modelled as:
+\[\displaystyle f_{e} = \frac{1}{|U|}\sum_{u \text{ } \in \textit{ U}}(1-\frac{(A_u - A_{e,u})}{A_u})\]  
+\begin{align*}
+A_{e,u} - \text{speed deviation of user} \textit{ u } at \textit{ e } \text{from historical average speeds at }\textit{e} \text{ at given time slot} \\
+A_u - \text{average relative speed deviation of the user \textit{u} from the historical average speeds} \\
+U - \text{the set of users who travelled the edge \textit{e} in this time slot} \\
+f_e - \text{slowdown factor for edge \textit{e} at given time slot}
+\end{align*}
+\section{Detecting Disorientation}
+As discussed before, exactly one prompt is posed to the user between every two intersection points. This prompt asks the user to confirm his position and is put as early as possible at a road segment to detect disorientation early. There are two cases possible if no response is received from the user within the time limit (set after speed prediction). These cases are handled as below. Algorithm \ref{algo:detect} presents the algorithm to detect disorientation.
+
+
+\begin{algorithm}[H]
+\label{algo:detect}
+\SetVline
+\dontprintsemicolon
+\SetKwInOut{Input}{input}\SetKwInOut{Output}{output}
+\Input{Response received at the end of time limit (can be None), \\the landmark position expected and\\ current time limit}
+\Output{1, if detected disorientation, 0 otherwise}
+\BlankLine
+
+\eIf{response is positive}{
+go to next route segment\;
+current location becomes this landmark\;
+}{
+prompt to ask if the intermediate intersection was crossed\;
+$response \leftarrow getInput()$  
+
+\eIf{response is positive}{
+    $timeFrame \leftarrow timeFrame\times waitFactor$\;
+    \tcp{wait for timeFrame}
+    $response \leftarrow getInput(timeFrame)$ \tcp{blocks for timeFrame units} 
+    \eIf{response received and response is positive}
+      {return 0\;}
+     {
+     \tcp{Here when no response received or negative response}
+     return 1\;} 
+  }
+{return 0\;}
+}
+\caption{DetectDisorientation(response,landmark,timeFrame)}
+\end{algorithm}
+\subsection*{Case-I - Slow Driver}
+If the user is unable to reach the next position within the expected time frame, then he might not be able to see the instructed landmark before the end of time limit and thus no `Yes' prompt would be received even though the user is not disoriented. Since, it is very much possible to be slow in crossing a intersection esp. if it involves clearing the traffic signals, such cases are duly considered and the system inquires whether the intermediate intersection was crossed. If the answer is `No', then the system delegates the next position to this intermediate intersection and waits for a `Yes' prompt which if received, confirms that the user has crossed the intersection. 
+
+\subsection*{Case-II - Disoriented User}
+However, if the system receives a `Yes' prompt at the inquiry for crossing the intersection, it waits for an additional time frame (which is sized as that of the original frame reduced by a wait factor). This additional time frame is used to accomodate possible slowness of the driver assuming that the user though running a little slow would encounter the desired landmark at the next path segment. Once the additional time frame expires and yet the user doesn't see the instructed landmark despite having crossed the intesection, the system traps into the user for reorientation. This situation is depicted in Figure \ref{fig:detect}. 
+\begin{figure}
+\centering
+\epsfig{file=disorientation.eps, height=2in, width=3in}
+\caption{\textbf{Detecting Disorientation} The highlighted route denotes the path segment communicated to the user for wayfinding. The user has disoriented from the desired path segment and has been detected by the system after a positive response on querying on whether the intermediate intersection was crossed.}
+\label{fig:detect}
+ \end{figure}
+\section{Reorientation algorithm}
+The process of tackling disorientation is divided into two phases, each with its own characteristic way of causing reorientation. 
+\subsection*{Phase-I: Anticipative}
+The first phase is \textit{anticipative phase} where we estimate user's position based on movement extrapolation using all possible paths from the last seen point (LSP). The idea is to localize the user to the nearest landmark visited by the user. In the act of localization, the user is prompted with the possible landmarks he could have encountered en-route. For example, consider the case shown in Figure \ref{fig:anticipative}. Once disorientation is detected for the user, then based upon speed predictions for the user, the possible path segments and associated landmarks are identified. Thereafter, we prompt the user with questions identifying these landmarks (\textit{U, V, W} and \textit{Z}) along with the orientations w.r.t. user (left or right) to get the location estimate. Reorientation is achieved when the user acknowledges any of the identities put in the prompts.
+\begin{figure}
+\centering
+\epsfig{file=reorientationAnticipative.eps, height=2.5in, width=4in}
+\caption{\textbf{Reorientation:Anticipative-Phase} Prompt the user with questions identifying landmarks \textit{U, V, W} and \textit{Z} along with the orientations w.r.t. user (left or right) to get the location estimate. Reorientation is achieved when the user acknowledges any of the identities put in the prompts.}
+\label{fig:anticipative}
+ \end{figure}
+\subsection*{Phase-II:Reactive}
+In a case where small number of prompts suffice in reorientation, one can directly query for identification over all such landmarks seen on the way. But when the number of prompts increases by more than an acceptable extent, we opt to switch the reorientation strategy. Until now, we were being anticipative and the questions asked were of the form `\textit{do you see U on your right?}'. In the reactive strategy, we attempt to capture the environment of the user by querying over well-defined attributes. For example, the questions now are of the form `\textit{do you see any building nearby?}' The term `\textit{building}' here is one of the categorizing attributes of landmarks which is a part of the feature-set stored as visual features in the knowledge base\footnote{See Section \ref{kbase} for more details}. The feature-set includes attributes like color of the buildings, heights, shapes of the open spaces and other automatically extractable attributes.
+
+The major drawback in solely relying upon the above strategy is that it doesn't guarantee to localize a user and is dependent upon the stored visual features. In some cases, even after exhaustively asking questions on the categorizing attributes, there still might be a set of possible locations of the user. For example, in an ideally homogenous neighborhood, buildings in all streets might look alike in shape, color and height. For such cases, when there are still a set of locations under consideration, the user is asked to follow his original direction of movement only to be interrupted later for yet another reorientation. This process is iteratively repeated until the responses resolve the location of the user distinctively.
+
+The reactive approach is motivated by the \textit{scene analysis} location sensing techniques \cite{hightower}. These techniques work on visual images or electromagnetic measurements to sense observed features of a scene for determining a user's physical location. Understandably, the features used are simple that are easy to represent and compare from an observed scene. The approach mentioned is a hybrid of \textit{static} and \textit{differential} scene analysis. In the former technique, features in question are looked up from a pre-defined geo-spatial database, whereas in the latter, differences in scenes observed with user's movements are used to match known spatial environments.
+
  \chapter{Implementation}
- \section{Data}
+In chapter 3, we discussed the architecture of a generic wayfinding model, its structure and interaction of the different modules. In this chapter, the implementation aspects of the key components are described with consideration to its application in developing a location-unaware dialog based system. We begin by introducing the dataset for our prototype implementation along with the realized preprocessing procedures. We also discuss the flat-data model used to build the knowledge-base and organized to represent spatial information.
+ 
+ \section{Dataset}
+The dataset used for implementation of the model was taken from the geospatial data of Indian Institute of Technology, Kanpur. The raw data consists of shapefiles representing different layers of a GIS including road network, geometry and metadata of spatial features such as academic buildings, residential area, parks, etc. Evidently, the IITK map depicts a mix of regions which are variably dense in terms of landmark density. On one hand, the academic area is filled with a plethora of distinct features which can be easily identified by an unfamiliar navigator and residential regions on the other, have almost no salient landmark or mutually distinguishing features. The academic area is built on a dense street network while there are long and clear demarcations in the residential areas.
  \section{Preprocessing}
  \section{Knowledge Base}
+ \section{Reorientation}
  \label{kbase}
  \chapter{Evaluation}
  \label{evaluation}
 
- \section{Simulation Design}
+ \section{Simulation Setup}
  \section{Goodness Metrics}
  \section{Results}
  \chapter{Conclusion and Future Work}

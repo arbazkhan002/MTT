@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.6)  3 MAY 2014 03:06
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.6)  4 MAY 2014 17:42
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -186,8 +186,44 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
-))
-(/usr/share/texmf-texlive/tex/latex/tocbibind/tocbibind.sty
+)
+(/usr/share/texmf-texlive/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2005/10/04 v3.9 algorithms environments
+\c@AlgoLine=\count105
+
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-texlive/tex/latex/tools/xspace.sty
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
+)
+********************************************************
+Package `algorithm2e' Release 3.9 -- october 04 2005 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (fiorio@lirmm.fr)
+********************************************************
+\skiptotal=\skip57
+\skiprule=\skip58
+\skiphlne=\skip59
+\skiptext=\skip60
+\skiplength=\skip61
+\algomargin=\skip62
+\skipalgocfslide=\skip63
+\algowidth=\dimen131
+\inoutsize=\dimen132
+\inoutline=\dimen133
+\algocf@inoutbox=\box29
+\algocf@inputbox=\box30
+\AlCapSkip=\skip64
+\AlCapHSkip=\skip65
+\algocf@capbox=\box31
+\c@algocfline=\count106
+\c@algocf=\count107
+\algocf@algoframe=\box32
+\algocf@algobox=\box33
+)) (/usr/share/texmf-texlive/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2009/09/04 v1.5i extra ToC listings
 
 
@@ -319,32 +355,51 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 283.
  [28]
-[29]
-Chapter 5.
-[30
+Overfull \hbox (36.9414pt too wide) in paragraph at lines 297--297
+[] 
+ []
 
-]
+
+Underfull \hbox (badness 10000) detected at line 331
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--332
+
+ []
+
+[29] [30]
+File: disorientation.eps Graphic file (type eps)
+ <disorientation.eps>
+File: reorientationAnticipative.eps Graphic file (type eps)
+ <reorientationAnticipative.eps> [31] [32]
+[33]
+Chapter 5.
+[34
+
+] [35]
 Chapter 6.
-[31
+[36
 
 ]
 Chapter 7.
-(./thesis.bbl [32
+(./thesis.bbl [37
 
 ]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [33
+ [38
 
-] [34] [35]) [36] (./thesis.aux) ) 
+] [39] [40]) [41] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 3454 strings out of 495062
- 48623 string characters out of 1182644
- 114735 words of memory out of 3000000
- 6596 multiletter control sequences out of 15000+50000
- 11669 words of font info for 41 fonts, out of 3000000 for 9000
+ 4473 strings out of 495062
+ 61442 string characters out of 1182644
+ 152951 words of memory out of 3000000
+ 7601 multiletter control sequences out of 15000+50000
+ 12146 words of font info for 43 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 43i,11n,45p,2077b,336s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,16n,45p,2077b,405s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (37 pages, 82004 bytes).
+Output written on thesis.dvi (42 pages, 96940 bytes).
