@@ -1,3 +1,141 @@
+@INPROCEEDINGS{tellex:language,
+  author = {Kollar, T. and Tellex, S. and Roy, D. and Roy, N.},
+  title = {Toward understanding natural language directions},
+  booktitle = {5th ACM/IEEE International Conference on Human-Robot Interaction},
+  year = {2010},
+  pages = {259--266},
+  doi = {10.1109/HRI.2010.5453186},
+  keywords = {computational linguistics;human-robot interaction;natural languages;probability;Flickr;cooccurrence
+	statistics;human-robot interaction;linguistics;natural language;probabilistic
+	graphical model;Computational geometry;Data mining;Graphical models;Human
+	robot interaction;Image databases;Information geometry;Natural languages;Object
+	detection;Object oriented databases;Statistics;direction understanding;route
+	instructions;spatial language}
+}
+@INPROCEEDINGS{matuszek:following,
+  author = {Matuszek, Cynthia and Fox, Dieter and Koscher, Karl},
+  title = {Following directions using statistical machine translation},
+  booktitle = {Proceedings of the 5th ACM/IEEE International Conference on Human-Robot
+	Interaction},
+  year = {2010},
+  pages = {251--258},
+  organization = {IEEE Press}
+}
+
+@ARTICLE{Kordjamshidi:labelling,
+  author = {Kordjamshidi, Parisa and Van Otterlo, Martijn and Moens, Marie-Francine},
+  title = {Spatial role labeling: Towards extraction of spatial relations from
+	natural language},
+  journal = {ACM Transactions on Speech and Language Processing},
+  year = {2011},
+  volume = {8},
+  pages = {4:1--4:36},
+  number = {3},
+  acmid = {2050105},
+  address = {New York, NY, USA},
+  publisher = {ACM},
+  url = {http://doi.acm.org/10.1145/2050104.2050105}
+}
+
+@incollection{klippel,
+  title={Wayfinding choremes},
+  author={Klippel, Alexander},
+  booktitle={Spatial Information Theory. Foundations of Geographic Information Science},
+  pages={301--315},
+  year={2003},
+  publisher={Springer}
+}
+@inproceedings{baus,
+  title={A resource-adaptive mobile navigation system},
+  author={Baus, J{\"o}rg and Kr{\"u}ger, Antonio and Wahlster, Wolfgang},
+  booktitle={Proceedings of the 7th international conference on Intelligent user interfaces},
+  pages={15--22},
+  year={2002},
+  organization={ACM}
+}
+@INPROCEEDINGS{Papineni02bleu:a,
+    author = {Kishore Papineni and Salim Roukos and Todd Ward and Wei-jing Zhu},
+    title = {BLEU: a Method for Automatic Evaluation of Machine Translation},
+    booktitle = {},
+    year = {2002},
+    pages = {311--318}
+}
+@inproceedings{gruve,
+  title={The GRUVE challenge: generating routes under uncertainty in virtual environments},
+  author={Janarthanam, Srini and Lemon, Oliver},
+  booktitle={Proceedings of the 13th European Workshop on Natural Language Generation},
+  pages={208--211},
+  year={2011},
+  organization={Association for Computational Linguistics}
+}
+@inproceedings{give,
+  title={The GIVE-2 Corpus of Giving Instructions in Virtual Environments.},
+  author={Gargett, Andrew and Garoufi, Konstantina and Koller, Alexander and Striegnitz, Kristina},
+  booktitle={LREC},
+  year={2010}
+}
+@article{spanger,
+  title={A task-performance evaluation of referring expressions in situated collaborative task dialogues},
+  author={Spanger, Philipp and Iida, Ryu and Tokunaga, Takenobu and Terai, Asuka and Kuriyama, Naoko},
+  journal={Language Resources and Evaluation},
+  volume={47},
+  number={4},
+  pages={1285--1304},
+  year={2013},
+  publisher={Springer}
+}
+@ARTICLE{young,
+    author = {R. Michael Young},
+    title = {Using Grice's Maxim of Quantity to Select the Content of Plan Descriptions},
+    journal = {Artificial Intelligence},
+    year = {1999},
+    volume = {115},
+    pages = {215--256}
+}
+@article{wolters,
+author = {Wolters, Maria and Georgila, Kallirroi and Moore, Johanna D. and Logie, Robert H. and MacPherson, Sarah E. and Watson, Matthew}, 
+title = {Reducing working memory load in spoken dialogue systems},
+volume = {21}, 
+number = {4}, 
+pages = {276-287}, 
+year = {2009}, 
+doi = {10.1016/j.intcom.2009.05.009}, 
+abstract ={We evaluated two strategies for alleviating working memory load for users of voice interfaces: presenting fewer options per turn and providing confirmations. Forty-eight users booked appointments using nine different dialogue systems, which varied in the number of options presented and the confirmation strategy used. Participants also performed four cognitive tests and rated the usability of each dialogue system on a standardised questionnaire. When systems presented more options per turn and avoided explicit confirmation subdialogues, both older and younger users booked appointments more quickly without compromising task success. Users with lower information processing speed were less likely to remember all relevant aspects of the appointment. Working memory span did not affect appointment recall. Older users were slightly less satisfied with the dialogue systems than younger users. We conclude that the number of options is less important than an accurate assessment of the actual cognitive demands of the task at hand.}, 
+URL = {http://iwc.oxfordjournals.org/content/21/4/276.abstract}, 
+eprint = {http://iwc.oxfordjournals.org/content/21/4/276.full.pdf+html}, 
+journal = {Interacting with Computers} 
+}
+@article{heriberto,
+  title={A dialogue system for indoor wayfinding using text-based natural language},
+  author={Cuay{\'a}huitl, Heriberto and Dethlefs, Nina and Richter, Kai-Florian and Tenbrink, Thora and Bateman, John},
+  journal={International Journal of Computational Linguistics and Applications, ISSN 0976},
+  volume={962},
+  year={2010}
+}
+@inproceedings{janarthanam,
+  title={Evaluating a city exploration dialogue system combining question-answering and pedestrian navigation},
+  author={Janarthanam, Srinivasan and Lemon, Oliver and Bartie, Phil and Dalmas, Tiphaine and Dickinson, Anna and Liu, Xingkun and Mackaness, William and Webber, Bonnie},
+  booktitle={Proc. ACL},
+  year={2013}
+}
+@incollection{fong,
+  title={Collaboration, dialogue, human-robot interaction},
+  author={Fong, Terrence and Thorpe, Charles and Baur, Charles},
+  booktitle={Robotics Research},
+  pages={255--266},
+  year={2003},
+  publisher={Springer}
+}
+@article{fongsurvey,
+  title={A survey of socially interactive robots},
+  author={Fong, Terrence and Nourbakhsh, Illah and Dautenhahn, Kerstin},
+  journal={Robotics and autonomous systems},
+  volume={42},
+  number={3},
+  pages={143--166},
+  year={2003},
+  publisher={Elsevier}
+}
 @inproceedings{yang2003improved,
   title={An improved map-matching algorithm used in vehicle navigation system},
   author={Yang, Dakai and Cai, Baigen and Yuan, Yifang},
@@ -200,4 +338,11 @@ pages={390-400}
     booktitle = {Journal of Research and Practice in Information Technology},
     year = {2005},
     pages = {89--105}
+}
+@ONLINE{gmaps,
+author = {Map of Mumbai},
+title = {Google Maps, https://maps.google.com/},
+month = may,
+year = {2014},
+url = {https://maps.google.com/‎}
 }

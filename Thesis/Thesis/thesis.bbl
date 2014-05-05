@@ -12,6 +12,13 @@ J{\"o}rg Baus, Antonio Kr{\"u}ger, and Wolfgang Wahlster.
 \newblock In {\em Proceedings of the 7th international conference on
   Intelligent user interfaces}, pages 15--22. ACM, 2002.
 
+\bibitem{brenner}
+C~Brenner and B~Elias.
+\newblock Extracting landmarks for car navigation systems using existing gis
+  databases and laser scanning.
+\newblock {\em International archives of photogrammetry remote sensing and
+  spatial information sciences}, 34(3/W8):131--138, 2003.
+
 \bibitem{heriberto}
 Heriberto Cuay{\'a}huitl, Nina Dethlefs, Kai-Florian Richter, Thora Tenbrink,
   and John Bateman.
@@ -91,6 +98,13 @@ Kristiina Jokinen, Antti Kerminen, Mauri Kaipainen, Tommi Jauhiainen, Graham
   dialogue-Volume 2}, pages 64--73. Association for Computational Linguistics,
   2002.
 
+\bibitem{karimi}
+Hassan~A. Karimi and Xiong Liu.
+\newblock A predictive location model for location-based services.
+\newblock In {\em Proceedings of the 11th ACM International Symposium on
+  Advances in Geographic Information Systems}, GIS '03, pages 126--133, New
+  York, NY, USA, 2003. ACM.
+
 \bibitem{klippel}
 Alexander Klippel.
 \newblock Wayfinding choremes.
@@ -110,6 +124,18 @@ Parisa Kordjamshidi, Martijn Van~Otterlo, and Marie-Francine Moens.
 \newblock {\em ACM Transactions on Speech and Language Processing},
   8(3):4:1--4:36, 2011.
 
+\bibitem{kyri}
+Miltiadis Kyriakakos, Stathes Hadjiefthymiades, Nikolaos Frangiadakis, and
+  L~Merakos.
+\newblock Multi-user driven path prediction algorithm for mobile computing.
+\newblock In {\em Database and Expert Systems Applications, 2003. Proceedings.
+  14th International Workshop on}, pages 191--195. IEEE, 2003.
+
+\bibitem{liu}
+Xiong Liu and Hassan~A Karimi.
+\newblock Location awareness through trajectory prediction.
+\newblock {\em Computers, Environment and Urban Systems}, 30(6):741--756, 2006.
+
 \bibitem{lovelace}
 Kristin~L. Lovelace, Mary Hegarty, and Daniel~R. Montello.
 \newblock Elements of good route directions in familiar and unfamiliar
@@ -118,6 +144,11 @@ Kristin~L. Lovelace, Mary Hegarty, and Daniel~R. Montello.
   Information Theory: Cognitive and Computational Foundations of Geographic
   Information Science}, COSIT '99, pages 65--82, London, UK, UK, 1999.
   Springer-Verlag.
+
+\bibitem{lynch}
+Kevin Lynch.
+\newblock {\em The image of the city}, volume~11.
+\newblock MIT press, 1960.
 
 \bibitem{Maab}
 Wolfgang Maa{\ss}, J{\"o}rg Baus, and Joachim Paul.
@@ -152,6 +183,11 @@ B.~Perry.
 \newblock {The Invisible Ideas Project: Using Mobile Devices, Macromedia Flash,
   and Global Positioning Systems}, 2002.
 
+\bibitem{raubal}
+Martin Raubal and Stephan Winter.
+\newblock {\em Enriching wayfinding instructions with local landmarks}.
+\newblock Springer, 2002.
+
 \bibitem{reagan2006}
 Ian Reagan and Carryl~L Baldwin.
 \newblock Facilitating route memory with auditory route guidance systems.
@@ -168,6 +204,12 @@ Bill~N Schilit, Norman Adams, Rich Gold, Michael~M Tso, and Roy Want.
 \newblock In {\em Workstation Operating Systems, 1993. Proceedings., Fourth
   Workshop on}, pages 34--39. IEEE, 1993.
 
+\bibitem{lidar}
+National~Ocean Service.
+\newblock What is {LIDAR}?
+\newblock http://oceanservice.noaa.gov/facts/lidar.html.
+\newblock Accessed May 4, 2014.
+
 \bibitem{spanger}
 Philipp Spanger, Ryu Iida, Takenobu Tokunaga, Asuka Terai, and Naoko Kuriyama.
 \newblock A task-performance evaluation of referring expressions in situated
@@ -181,11 +223,21 @@ Raghavan Srinivasan and Paul~P Jovanis.
 \newblock {\em Human Factors: The Journal of the Human Factors and Ergonomics
   Society}, 39(2):200--215, 1997.
 
+\bibitem{tezuka}
+Taro Tezuka and Katsumi Tanaka.
+\newblock Landmark extraction: A web mining approach.
+\newblock In {\em Spatial information theory}, pages 379--396. Springer, 2005.
+
 \bibitem{white2000}
 Christopher~E White, David Bernstein, and Alain~L Kornhauser.
 \newblock Some map matching algorithms for personal navigation assistants.
 \newblock {\em Transportation Research Part C: Emerging Technologies},
   8(1):91--108, 2000.
+
+\bibitem{wiki}
+Wikimapia.
+\newblock http://wikimapia.org.
+\newblock Accessed May 4, 2014.
 
 \bibitem{young}
 R.~Michael Young.

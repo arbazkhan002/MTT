@@ -361,6 +361,7 @@
 \usepackage{fancyhdr}
 \usepackage{fancyref}
 \usepackage{setspace}
+\usepackage[font=small,skip=0pt]{caption}
 \doublespacing
 
 \fancyhf{}
@@ -374,6 +375,10 @@
 \assignpagestyle{\chapter}{empty}
 
 \usepackage{emptypage}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage[algoruled]{algorithm2e}
 \usepackage[nottoc]{tocbibind}
 %=============================================================================
 % END FILE

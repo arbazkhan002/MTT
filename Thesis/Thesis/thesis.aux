@@ -22,7 +22,9 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.3.1}Why design a dialog-based system?}{9}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.3.2}Why choose to be location-unaware?}{10}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.4}Objectives of the work}{10}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.5}Roadmap}{11}}
+\citation{lidar}
+\citation{brenner}
+\@writefile{toc}{\contentsline {section}{\numberline {1.5}Roadmap}{12}}
 \citation{lovelace}
 \citation{Dale}
 \citation{Habel}
@@ -86,6 +88,7 @@
 \@writefile{toc}{\contentsline {section}{\numberline {4.1}Introduction}{25}}
 \citation{lovelace}
 \@writefile{toc}{\contentsline {section}{\numberline {4.2}Alternative Reference to Routemarks}{26}}
+\newlabel{sec:altref}{{4.2}{26}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.3}Extrapolating User Movements}{27}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Estimating User Speed}{27}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Predicting User Speed}{28}}
@@ -95,6 +98,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces \textbf  {Detecting Disorientation} The highlighted route denotes the path segment communicated to the user for wayfinding. The user has disoriented from the desired path segment and has been detected by the system after a positive response on querying on whether the intermediate intersection was crossed.\relax }}{31}}
 \newlabel{fig:detect}{{4.1}{31}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.5}Reorientation algorithm}{31}}
+\newlabel{sec:reorient}{{4.5}{31}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces \textbf  {Reorientation:Anticipative-Phase} Prompt the user with questions identifying landmarks \textit  {U, V, W} and \textit  {Z} along with the orientations w.r.t. user (left or right) to get the location estimate. Reorientation is achieved when the user acknowledges any of the identities put in the prompts.\relax }}{32}}
 \newlabel{fig:anticipative}{{4.2}{32}}
 \citation{hightower}
@@ -102,51 +106,79 @@
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {5.1}Dataset}{34}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Preprocessing}{35}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Knowledge Base}{35}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}Reorientation}{35}}
-\newlabel{kbase}{{5.4}{35}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Evaluation}{36}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces \textbf  {\textbf  {Dataset}} Snapshot of the map of Indian Institute of Technology, Kanpur (IITK). The left portion of the snapshot depicting academic buildings (see legend) represents the landmark-dense portion of the campus, Academic area. The organized homogenous space to the right of it represents a portion of the residential areas which has saliently insignificant features.\relax }}{35}}
+\newlabel{fig:anticipative}{{5.1}{35}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Knowledge Base}{35}}
+\newlabel{kbase}{{5.2}{35}}
+\citation{raubal}
+\citation{brenner}
+\citation{brenner}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Extracting Attribute Values}{36}}
+\citation{brenner}
+\citation{brenner}
+\citation{tezuka}
+\citation{gmaps}
+\citation{wiki}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces \textbf  {Extracting Geometric Salience} The geometrical attributes used by Brenner and Elias \cite  {brenner} to extract building-based landmarks\relax }}{37}}
+\newlabel{fig:elias}{{5.2}{37}}
+\citation{lynch}
+\citation{kyri}
+\citation{karimi}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces \textbf  {\textbf  {Extracting Popularity}} A scalable approach to get an indication on the popularity of a landmark using dependence on mapping applications.\relax }}{39}}
+\newlabel{fig:popular}{{5.3}{39}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Identifying associations}{39}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Facilitating Reorientation}{39}}
+\citation{liu}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Evaluation}{41}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{evaluation}{{6}{36}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Simulation Setup}{36}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Goodness Metrics}{36}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}Results}{36}}
+\newlabel{evaluation}{{6}{41}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Simulation Setup}{41}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Goodness Metrics}{41}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Results}{41}}
 \bibstyle{plain}
 \bibdata{references}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{37}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{42}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \bibcite{baldwin2009}{1}
 \bibcite{baus}{2}
-\bibcite{heriberto}{3}
-\bibcite{Dale}{4}
-\bibcite{fongsurvey}{5}
-\bibcite{furukawa2004}{6}
-\bibcite{give}{7}
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{38}}
-\bibcite{Habel}{8}
-\bibcite{hightower}{9}
-\bibcite{hurtig}{10}
-\bibcite{GRUVE}{11}
-\bibcite{janarthanam}{12}
-\bibcite{jensen2010}{13}
-\bibcite{jokinen}{14}
-\bibcite{klippel}{15}
-\bibcite{tellex:language}{16}
-\bibcite{Kordjamshidi:labelling}{17}
-\bibcite{lovelace}{18}
-\bibcite{Maab}{19}
-\bibcite{matuszek:following}{20}
-\bibcite{gmaps}{21}
-\bibcite{dalton}{22}
-\bibcite{pattabhiraman}{23}
-\bibcite{perry}{24}
-\bibcite{reagan2006}{25}
-\bibcite{richter}{26}
-\bibcite{parctab}{27}
-\bibcite{spanger}{28}
-\bibcite{srinivasaneffect}{29}
-\bibcite{white2000}{30}
-\bibcite{young}{31}
+\bibcite{brenner}{3}
+\bibcite{heriberto}{4}
+\bibcite{Dale}{5}
+\bibcite{fongsurvey}{6}
+\bibcite{furukawa2004}{7}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{43}}
+\bibcite{give}{8}
+\bibcite{Habel}{9}
+\bibcite{hightower}{10}
+\bibcite{hurtig}{11}
+\bibcite{GRUVE}{12}
+\bibcite{janarthanam}{13}
+\bibcite{jensen2010}{14}
+\bibcite{jokinen}{15}
+\bibcite{karimi}{16}
+\bibcite{klippel}{17}
+\bibcite{tellex:language}{18}
+\bibcite{Kordjamshidi:labelling}{19}
+\bibcite{kyri}{20}
+\bibcite{liu}{21}
+\bibcite{lovelace}{22}
+\bibcite{lynch}{23}
+\bibcite{Maab}{24}
+\bibcite{matuszek:following}{25}
+\bibcite{gmaps}{26}
+\bibcite{dalton}{27}
+\bibcite{pattabhiraman}{28}
+\bibcite{perry}{29}
+\bibcite{raubal}{30}
+\bibcite{reagan2006}{31}
+\bibcite{richter}{32}
+\bibcite{parctab}{33}
+\bibcite{lidar}{34}
+\bibcite{spanger}{35}
+\bibcite{srinivasaneffect}{36}
+\bibcite{tezuka}{37}
+\bibcite{white2000}{38}
+\bibcite{wiki}{39}
+\bibcite{young}{40}
