@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{baldwin2009}
+Carryl~L Baldwin.
+\newblock Individual differences in navigational strategy: implications for
+  display design.
+\newblock {\em Theoretical Issues in Ergonomics Science}, 10(5):443--458, 2009.
+
 \bibitem{baus}
 J{\"o}rg Baus, Antonio Kr{\"u}ger, and Wolfgang Wahlster.
 \newblock A resource-adaptive mobile navigation system.
@@ -31,6 +37,15 @@ Robert Dale and Sabine Geldof.
 Terrence Fong, Illah Nourbakhsh, and Kerstin Dautenhahn.
 \newblock A survey of socially interactive robots.
 \newblock {\em Robotics and autonomous systems}, 42(3):143--166, 2003.
+
+\bibitem{furukawa2004}
+Hiroshi Furukawa, Carryl~L Baldwin, and Ellen~M Carpenter.
+\newblock Supporting drivers’ cognitive map construction with visual
+  geo-centered and auditory ego-centered guidance: Interference or improved
+  performance.
+\newblock {\em A. Vincenzi, M. Mouloua, PA Hancock: Human Performance,
+  Situation Awareness and Automation: Current Research and Trends. HPSAA II. D.
+  Mahawa, NJ: Lawrence Erlbaum}, pages 124--129, 2004.
 
 \bibitem{give}
 Andrew Gargett, Konstantina Garoufi, Alexander Koller, and Kristina Striegnitz.
@@ -73,6 +88,13 @@ Srinivasan Janarthanam, Oliver Lemon, Phil Bartie, Tiphaine Dalmas, Anna
 \newblock Evaluating a city exploration dialogue system combining
   question-answering and pedestrian navigation.
 \newblock In {\em Proc. ACL}, 2013.
+
+\bibitem{jensen2010}
+Brit~Susan Jensen, Mikael~B Skov, and Nissanthen Thiruravichandran.
+\newblock Studying driver attention and behaviour for three configurations of
+  gps navigation in real traffic driving.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 1271--1280. ACM, 2010.
 
 \bibitem{jokinen}
 Kristiina Jokinen, Antti Kerminen, Mauri Kaipainen, Tommi Jauhiainen, Graham
@@ -162,6 +184,12 @@ JR~McLean.
 Map of~Mumbai.
 \newblock Google maps, https://maps.google.com/, May 2014.
 
+\bibitem{dalton}
+Dalton P, Agarwal P, Fraenkel N, Baichoo J, and Masry A.
+\newblock Driving with navigational instructions: Investigating user behaviour
+  and performance.
+\newblock {\em Accid Anal Prev.}, pages 298--303, 2013.
+
 \bibitem{pattabhiraman}
 Thiyagarajasarma Pattabhiraman and Nick Cercone.
 \newblock Selection: Salience, relevance and the coupling between domain-level
@@ -169,15 +197,31 @@ Thiyagarajasarma Pattabhiraman and Nick Cercone.
 \newblock In {\em Proceedings of the Fifth International Workshop on Natural
   Language Generation, Dawson, PA}, pages 79--86, 1990.
 
+\bibitem{perry}
+B.~Perry.
+\newblock {The Invisible Ideas Project: Using Mobile Devices, Macromedia Flash,
+  and Global Positioning Systems}, 2002.
+
 \bibitem{raubal}
 Martin Raubal and Stephan Winter.
 \newblock {\em Enriching wayfinding instructions with local landmarks}.
 \newblock Springer, 2002.
 
+\bibitem{reagan2006}
+Ian Reagan and Carryl~L Baldwin.
+\newblock Facilitating route memory with auditory route guidance systems.
+\newblock {\em Journal of Environmental Psychology}, 26(2):146--155, 2006.
+
 \bibitem{richter}
 Kai-Florian Richter, Martin Tomko, and Stephan Winter.
 \newblock A dialog-driven process of generating route directions.
 \newblock {\em Computers, Environment and Urban Systems}, 32(3):233--245, 2008.
+
+\bibitem{parctab}
+Bill~N Schilit, Norman Adams, Rich Gold, Michael~M Tso, and Roy Want.
+\newblock The parctab mobile computing system.
+\newblock In {\em Workstation Operating Systems, 1993. Proceedings., Fourth
+  Workshop on}, pages 34--39. IEEE, 1993.
 
 \bibitem{spanger}
 Philipp Spanger, Ryu Iida, Takenobu Tokunaga, Asuka Terai, and Naoko Kuriyama.
@@ -196,6 +240,12 @@ Raghavan Srinivasan and Paul~P Jovanis.
 Taro Tezuka and Katsumi Tanaka.
 \newblock Landmark extraction: A web mining approach.
 \newblock In {\em Spatial information theory}, pages 379--396. Springer, 2005.
+
+\bibitem{white2000}
+Christopher~E White, David Bernstein, and Alain~L Kornhauser.
+\newblock Some map matching algorithms for personal navigation assistants.
+\newblock {\em Transportation Research Part C: Emerging Technologies},
+  8(1):91--108, 2000.
 
 \bibitem{wiki}
 Wikimapia.

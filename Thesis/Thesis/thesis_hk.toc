@@ -1,0 +1,41 @@
+\contentsline {chapter}{\numberline {1}Introduction}{5}
+\contentsline {section}{\numberline {1.1}Notions and Terminology}{5}
+\contentsline {subsection}{\numberline {1.1.1}Wayfinding}{5}
+\contentsline {subsection}{\numberline {1.1.2}Location Awareness}{6}
+\contentsline {section}{\numberline {1.2}Background}{7}
+\contentsline {section}{\numberline {1.3}Motivation}{9}
+\contentsline {subsection}{\numberline {1.3.1}Why design a dialog-based system?}{9}
+\contentsline {subsection}{\numberline {1.3.2}Why choose to be location-unaware?}{10}
+\contentsline {section}{\numberline {1.4}Objectives of the work}{10}
+\contentsline {section}{\numberline {1.5}Roadmap}{11}
+\contentsline {chapter}{\numberline {2}Problem Definition and Related Work}{12}
+\contentsline {section}{\numberline {2.1}Dialog Based Wayfinding Systems}{12}
+\contentsline {section}{\numberline {2.2}Evaluation Techniques}{14}
+\contentsline {chapter}{\numberline {3}Conceptual Model For Wayfinding}{16}
+\contentsline {section}{\numberline {3.1}Architecture}{16}
+\contentsline {section}{\numberline {3.2}Communication Protocol}{18}
+\contentsline {subsection}{\numberline {3.2.1}Landmarks}{20}
+\contentsline {subsection}{\numberline {3.2.2}Simple Intersections}{20}
+\contentsline {subsection}{\numberline {3.2.3}Complex Intersections}{21}
+\contentsline {chapter}{\numberline {4}Dialog-Based Localization}{24}
+\contentsline {section}{\numberline {4.1}Introduction}{24}
+\contentsline {section}{\numberline {4.2}Alternative Reference to Routemarks}{25}
+\contentsline {section}{\numberline {4.3}Extrapolating User Movements}{26}
+\contentsline {subsection}{\numberline {4.3.1}Estimating User Speed}{26}
+\contentsline {subsection}{\numberline {4.3.2}Predicting User Speed}{27}
+\contentsline {section}{\numberline {4.4}Detecting Disorientation}{28}
+\contentsline {section}{\numberline {4.5}Reorientation algorithm}{30}
+\contentsline {chapter}{\numberline {5}Implementation}{33}
+\contentsline {section}{\numberline {5.1}Knowledge Base}{33}
+\contentsline {subsection}{\numberline {5.1.1}Extracting Attribute Values}{34}
+\contentsline {subsection}{\numberline {5.1.2}Identifying associations}{37}
+\contentsline {section}{\numberline {5.2}Facilitating Reorientation}{38}
+\contentsline {chapter}{\numberline {6}Evaluation}{40}
+\contentsline {section}{\numberline {6.1}Dataset}{40}
+\contentsline {section}{\numberline {6.2}Simulation Setup}{41}
+\contentsline {subsection}{\numberline {6.2.1}User Modelling}{42}
+\contentsline {subsection}{\numberline {6.2.2}Synthetic Attributes}{43}
+\contentsline {section}{\numberline {6.3}Goodness Metric}{43}
+\contentsline {section}{\numberline {6.4}Results}{44}
+\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{45}
+\contentsline {chapter}{Bibliography}{46}
