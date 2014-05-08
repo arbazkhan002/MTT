@@ -99,7 +99,7 @@ class networkGraph(graph):
 				#	% (prevnode.geom,nextnode.geom,prevnode.geom,nextnode.geom, row.split_id , row.gid, row.geom ))
 				edgesInserted=self.insertEdge(prevnode,nextnode,length)
 				map(lambda x: x.setId(row.dump_id),edgesInserted)		#Store corresponding splitIDs 
-				map(lambda x: x.setsectId(row.split_id),edgesInserted)		#Store corresponding splitIDs 
+				map(lambda x: x.setsectId(row.split_id),edgesInserted)		#Store corresponding sectIDs 
 				for e in edgesInserted:			
 					temp.execute("SELECT degrees( ST_Azimuth('%s'::geometry,'%s'::geometry) ) as angle" % (e.u.geom,e.v.geom))
 					angle=dbfields.reg(temp,temp.fetchone()).angle

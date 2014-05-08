@@ -7,6 +7,7 @@ import random
 import logger
 import Queue
 import pdb
+import os.path
 import attmodifier
 #~ SRC='0101000020847F0000704DF34E47D0194118485024FD5F4641'
 #~ DEST='0101000020847F0000B0627FD91ED019411851DABB05604641'
@@ -16,12 +17,15 @@ CLIENT_WAIT_TIME=0.05
 SERVER_WAIT_TIME=0.005
 TOPRINT=0		#whether to log(print the results to result file)
 THRESHHOLD=0.25	#This is the factor threshhold, which indicates how many iterations do we make before, we instead of probing 
-				# ask for interrupts on whether the intersection is crossed or not 
+				# ask the user to interrupt when the intersection is crossed 
 				#For example, if threshhold is 1, only once we ask the question did you cross the intersection? thereafter we wait for him endlessly
 FORGETDIST=100	# if the distance gap between any element is farther than FORGETDIST from current position, forget it			
 LOG=logger.logger("logfile.txt")
+TOLOGHSPEED=1
 rfile=open("rfile.txt","w")
 sfile=open("sfile.txt","w")
+hspeedfile="hspeed.pkl"
+hspeed={}		#hspeed[x]=(average speed, number of entries averaged upon)	
 conn = connect("dbname=demo user=postgres host=localhost password=indian")
 sys_debug=1
 debugger=0
@@ -57,10 +61,10 @@ class user:
 		if not self.remembers:
 			return
 		else:	
-			print "\tBEFORE: ",self.remembers
+			#~ print "\tBEFORE: ",self.remembers
 			# if the distance gap between any element is farther than FORGETDIST from current position, forget it
 			self.remembers=filter(lambda x:self.remembers[-1][1]-x[1]<FORGETDIST, self.remembers)	
-			print "\tAFTER: ",self.remembers
+			#~ print "\tAFTER: ",self.remembers
 
 	def makemove(self,nextpt,edgewt):
 		global POS
@@ -423,9 +427,9 @@ class server:
 								dist,speed,self.time,"$",self.prfactor,self.getprfact(nextpath[j][0],dist)," )"])))
 							queue.put(nextpath[j][-1].edgeId)
 						
-						else: 	# all possible positions in the forward motion have been rejected
+						else: 	# need to ask first whether the intersection is crossed
 							if (i>0) and askedIntersection==0:
-								self.prompt(" ".join(map(str,["Tracker: Did you see section ",path[i-1].splitId,"?" "(",dist,speed,self.time,")"])))					
+								self.prompt(" ".join(map(str,["Tracker: (CI) Did you see section ",path[i-1].splitId,"?" "(",dist,speed,self.time,")"])))					
 								queue.put(path[i-1].edgeId)
 								askedIntersection=1
 								flagIntersection=0
@@ -455,8 +459,9 @@ class server:
 						if reply==1:
 							break
 						
-					#if intersection was crossed. In deterministic case, reply would always be 1	
-					if j<=len(nextpath) and crossedIntersection==1:
+					#if intersection was crossed but path disoriented then j>0 because j gets incremented before break
+					#In deterministic case, reply would always be 1	
+					if j<=len(nextpath) and j>0 and crossedIntersection==1:
 						self.mistakes+=1
 						filteredSect=[]
 						self.recordPattern(" ".join(map(str,[nextpath[j-1][0],nextpath[j-1][1].splitId]))+" "+ " ".join(map(str, [speed, dist])))
@@ -486,11 +491,13 @@ class server:
 							dist-=path[i].length
 						factor=factor*0.5
 
-						#if intersection is crossed, wait on the new distance(longer)						
+						#if intersection is crossed, wait on the new distance(longer)
+						# example of this case : waiting for 3868 to be visited, user instead moves on 3741
+						# another example : waiting for 4065, user moves to 3560						
 						if len(nextpath)>0 and crossedIntersection==1:
 							#~ currentsectEdges=filter(lambda x:x.sectId in filteredSect,nextpath)
 							print						
-							print "\t--------------------------- GOT HERE ------------------------------------------------------"
+							print "\t--------------------------- THE WAIT DISTANCE IS GETTING INCREASED ------------------------------------------------------"
 							print 
 							restEdges=filter(lambda x:x[1].sectId not in filteredSect,nextpath)
 							# on the restEdges sorted by distance from the last checkpoint, pick up the distance of first index i.e. closest edge distance
@@ -504,6 +511,7 @@ class server:
 									for i in newLandmarks:
 										if not newLandmarks[i] and i not in allLandmarks:
 											allLandmarks[i]=newLandmarks[i] 
+								print "\n\n\t\tIN REACTIVE PHASE\n\n"			
 								#~ 
 								#~ self.reactive(allLandmarks)
 								pass
@@ -514,7 +522,7 @@ class server:
 								newWaitDist=closestTuple[0]-lastWaitDist
 								filteredSect.append(closestTuple[1].sectId)						
 								print
-								print "\twait factor increases: ",path[i].length, " to ",newWaitDist
+								print "\twait distance increases: ",path[i].length, " to ",newWaitDist
 								print
 								dist-=lastWaitDist								
 								dist+=newWaitDist
@@ -535,6 +543,18 @@ class server:
 					askedIntersection=0			#reset the variable
 					flagIntersection=0			#reset the variable
 					speed=dist/(self.time-checkpttime)
+
+					# ---------------------- update the logs ----------------------
+					if TOLOGHSPEED==1:
+						hspeed=pickle.load(open(hspeedfile,"rb"))
+						speedlog=hspeed[path[i].sectId]
+						#~ hspeed[path[i].sectId]=((speedlog[0]*speedlog[1]+speed)/(speedlog[1]+1.0),speedlog[1]+1)
+						# same as above
+						hspeed[path[i].sectId]=(((speedlog[0]/(speedlog[1]+1.0))*speedlog[1])+(speed/(speedlog[1]+1.0)),speedlog[1]+1)
+						print " ******************************* ",hspeed[path[i].sectId]
+						pickle.dump(hspeed,open(hspeedfile,"wb"))
+					# -------------------------------------------------------------
+					
 					if sys_debug==1:
 						print "<--- runner on track! with speed @", speed, "--->", "(",dist, self.time,prevtime,")"
 					prevtime=self.time
@@ -668,6 +688,17 @@ if __name__=="__main__":
 		#~ print "############################"	
 	#~ -----------------------------------------------------------------	
 	path = g.djikstra(g.getNode(SRC), g.getNode(DEST))
+	
+	#------------- Initialize historical speed data -------------
+	if not os.path.isfile("hspeed.pkl"):
+		for edge in list(set([item for lists in g.edges.values() for item in lists])):
+			hspeed[edge.sectId]=(5,1)
+		pickle.dump(hspeed,open(hspeedfile,"wb"))	
+	else:		
+		hspeed=pickle.load(open(hspeedfile,"rb"))
+	#------------------------------------------------------------
+	
+		
 	#~ print map(lambda x: x.edgeId, g.djikstra(g.getNode(SRC), g.getNode(DEST)))
 	queue= Queue.Queue()	
 	ans = Queue.Queue()	
