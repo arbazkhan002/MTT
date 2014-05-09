@@ -208,7 +208,8 @@ class networkGraph(graph):
 		visited={}
 		return pathfinder(s,dist,visited)
 		
-	# Same as findPaths but returns edges instead						
+	# Same as findPaths but returns edges instead
+	# returns a list of tuples of the form (x,e) where x is distance from s, e is an edge instance						
 	def findPathEdges(self,s,distance):
 		sfile=open("sfile.txt","a")
 		ddict={}   #stores reverse distances wrt distance i.e if ddict[x]=y then, the end of x is (distance-y) units from s
@@ -238,7 +239,7 @@ class networkGraph(graph):
 			for edgeuv in self.adj(s):
 				v=edgeuv.v
 				sfile.write(repr(edgeuv.splitId))
-				if v not in visited:
+				if v not in visited and edgeuv.length<=dist:
 					flag=True		#atleast one non visited nbr		
 					rest=pathfinder(v,dist-edgeuv.length,visited) 	#'rest' is a list of paths
 					rest=map(lambda x : x+[edgeuv], rest)
@@ -260,10 +261,10 @@ class networkGraph(graph):
 		
 		ans=pathfinder(s,distance,visited)					
 		sfile.close()
-		print distance, map(lambda x:x[-1].splitId,ans)
+		#~ print distance, map(lambda x:x[-1].splitId,ans)
 		ans=makeset(ans)
 		addDist(ans,distance)
-		print map(lambda x:[x[0],x[1].splitId],ans)
+		print "FROM NETWRKGRAPH: ",map(lambda x:[x[0],x[1].splitId],ans)
 		return ans
 	
 
@@ -296,6 +297,7 @@ class networkGraph(graph):
 		
 	def getLandmarks(self, conn, path):
 
+		landmarks={}
 		for ind,i in enumerate(path):
 			landmarks[i]=[]
 

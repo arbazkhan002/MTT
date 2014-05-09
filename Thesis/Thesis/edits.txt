@@ -1,0 +1,6 @@
+ND- total number of decisions to made in the original route
+
+6.2.1
+categorical speed ()
+deviation parameter (dev_avg)
+Speed profiles , mu=0, sigma=S/10

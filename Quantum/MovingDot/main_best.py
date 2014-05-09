@@ -7,7 +7,6 @@ import random
 import logger
 import Queue
 import pdb
-import os.path
 import attmodifier
 #~ SRC='0101000020847F0000704DF34E47D0194118485024FD5F4641'
 #~ DEST='0101000020847F0000B0627FD91ED019411851DABB05604641'
@@ -21,11 +20,8 @@ THRESHHOLD=0.25	#This is the factor threshhold, which indicates how many iterati
 				#For example, if threshhold is 1, only once we ask the question did you cross the intersection? thereafter we wait for him endlessly
 FORGETDIST=100	# if the distance gap between any element is farther than FORGETDIST from current position, forget it			
 LOG=logger.logger("logfile.txt")
-TOLOGHSPEED=1
 rfile=open("rfile.txt","w")
 sfile=open("sfile.txt","w")
-hspeedfile="hspeed.pkl"
-hspeed={}		#hspeed[x]=(average speed, number of entries averaged upon)	
 conn = connect("dbname=demo user=postgres host=localhost password=indian")
 sys_debug=1
 debugger=0
@@ -37,7 +33,7 @@ class user:
 	prevpt=None
 	path=None
 	speed=5.0
-	Pd=0.0
+	Pd=0.33
 	visited=[]
 	path=[]
 	pathind=0
@@ -284,10 +280,7 @@ class server:
 	mistakes=0
 	prompts=0
 	prfactor=0
-	modifier=None
-	uspeed_avg=5
-	uspeed_n=1
-	uspeed_dev=0		
+	modifier=None	
 		
 	def __init__(self,graph):
 		self.g=graph
@@ -314,7 +307,6 @@ class server:
 		mat=self.modifier.getAttr(larray)			
 		#~ queue.put("reactive")
 		pass
-
 
 	def track(self,runner,path):
 		prev=None
@@ -463,8 +455,7 @@ class server:
 						if reply==1:
 							break
 						
-					#if intersection was crossed but path disoriented then j>0 because j gets incremented before break
-					#In deterministic case, reply would always be 1	
+					#if intersection was crossed. In deterministic case, reply would always be 1	
 					if j<=len(nextpath) and crossedIntersection==1:
 						self.mistakes+=1
 						filteredSect=[]
@@ -493,12 +484,9 @@ class server:
 						#we would come back to same track segment but assume 1-factor fraction is covered												
 						if not filteredSect:
 							dist-=path[i].length
-							
 						factor=factor*0.5
 
-						#if intersection is crossed, wait on the new distance(longer)
-						# example of this case : waiting for 3868 to be visited, user instead moves on 3741
-						# another example : waiting for 4065, user moves to 3560						
+						#if intersection is crossed, wait on the new distance(longer)						
 						if len(nextpath)>0 and crossedIntersection==1:
 							#~ currentsectEdges=filter(lambda x:x.sectId in filteredSect,nextpath)
 							print						
