@@ -362,7 +362,9 @@ class server:
 
 	def reactive(self,allLandmarks):
 		larray=list(set(allLandmarks.values()))
-		mat=self.modifier.getAttr(larray)			
+		mat=self.modifier.getAttr(larray)
+		print mat
+		exit			
 		#~ queue.put("reactive")
 		pass
 
@@ -598,21 +600,28 @@ class server:
 							print						
 							print "\t--------------------------- THE WAIT DISTANCE IS GETTING CHANGED ------------------------------------------------------"
 							print 
-							restEdges=filter(lambda x:x[1].sectId not in filteredSect,nextpath)
+							#~ restEdges=filter(lambda x:x[1].sectId not in filteredSect,nextpath)
+							restEdges=[]
 							# on the restEdges sorted by distance from the last checkpoint, pick up the distance of first index i.e. closest edge distance
 							if not restEdges:	#all edges emanating from the cross section have been searched for	
 								#-------------------------------------------------------------------------------#
 								#Here, u enter the REACTIVE PHASE
 
 								allLandmarks={}
-								for pathi in nextpath:
+								for pathentry in nextpath:
+									pathi=pathentry[1]
+									
+									if path.sectId not in allLandmarks:
+										allLandmarks[pathi.sectid]=[]
+										
 									newLandmarks=self.g.getLandmarks(conn,[pathi])
-									for i in newLandmarks:
-										if not newLandmarks[i] and i not in allLandmarks:
-											allLandmarks[i]=newLandmarks[i] 
+									for splitid in newLandmarks:
+										for refid in newLandmars[splitid]:
+											if refid not in allLandmarks[pathi.sectId]:
+												allLandmarks[pathi.sectId].append(refid) 
+								
 								print "\n\n\t\tIN REACTIVE PHASE\n\n"			
-								#~ 
-								#~ self.reactive(allLandmarks)
+								self.reactive(allLandmarks)
 								pass
 								#-------------------------------------------------------------------------------#
 							else:	

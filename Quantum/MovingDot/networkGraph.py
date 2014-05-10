@@ -333,7 +333,8 @@ class networkGraph(graph):
 												 # 0 indicates no landmark nearby to that section
 												 
 		cur=conn.cursor()
-		cur.execute(cur.mogrify("select dump_id,ref_id from sectlandmark where dump_id = ANY(%s)", (map(lambda x: x.splitId, path),)))
+		cur.execute(cur.mogrify("select dump_id,ref_id from sectlandmark where dump_id = ANY( \
+			select dump_id from network_dumppoints where split_id=%s)", (map(lambda x: x.sectId, path),)))
 		
 		for row in cur:
 			row=dbfields.reg(cur,row)

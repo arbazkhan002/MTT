@@ -19,8 +19,10 @@ class modifier:
 		if self.T>0:
 			cur.execute("select max(a1) as m from test")
 			for row in cur:
-				row=dbfield.reg(cur,row)
-				self.N=cur.m
+				row=dbfields.reg(cur,row)
+				self.N=row.m
+		
+		print "T:",self.T
 				
 	def getT(self):
 		return self.T
@@ -28,18 +30,17 @@ class modifier:
 	def getN(self):
 		return self.N
  
-	def modify(self,T,N):
+	def modify(self,T,N):		
+		cur=self.conn.cursor()
+		
+		for i in range(self.T+1,T+1):
+			cur.execute("alter table test add column a"+str(i)+" integer")
+			cur.execute("update test set a%s=trunc(random()*%s+1)" % (i,N))
+		conn.commit()			
+		cur.close()
 		self.T=T+1
 		self.N=N
 		
-		cur=self.conn.cursor()
-		
-		for i in range(1,self.T):
-			cur.execute("alter table test add column a"+str(i)+" integer")
-			self.N=random.randint(1,self.N)	
-			cur.execute("update test set a%s=trunc(random()*%s+1)" % (i,self.N))
-		conn.commit()	
-		cur.close()
 
 	#returns a dict of keys=landmarkIds and values=[a1,a2,a3,...]
 	def getAttr(self,arr):
@@ -52,8 +53,10 @@ class modifier:
 		for row in cur:
 			row=dbfields.reg(cur,row)
 			#basically have an array, [row.a1, row.a2, ... ]
-			entry=map(lambda x:eval("row."+x),s.split(','))
-			ret[row.lid]=entry
+			entry=map(lambda x:("row."+x),s.split(','))
+			ret[row.lid]=[]
+			for i in range(len(entry)):
+				ret[row.lid].append(eval(entry[i]))
 		cur.close()	
 		return ret
 
@@ -67,6 +70,9 @@ class modifier:
 		cur.close()
 		conn.commit()
 
+#~ conn = connect("dbname=demo user=postgres host=localhost password=indian")
+#~ s=modifier(conn)
+#~ s.modify(1,3)
 if __name__=="__main__":		
 	try:
 		conn = connect("dbname=demo user=postgres host=localhost password=indian")
