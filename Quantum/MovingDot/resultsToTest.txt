@@ -1,180 +1,163 @@
 //----------------------------------------/
 Tracking Status
-Actual Time: 527.780060691
+Actual Time: 322.893107071
 Expected Time: 293.076921523
 Mistakes: 1
 Decisions: 12
-Prompts: 30
-G: 18
+Prompts: 18
+G: 6
 //----------------------------------------/
 
 //----------------------------------------/
 Tracking Status
-Actual Time: 427.02042518
-Expected Time: 293.076921523
-Mistakes: 4
-Decisions: 20
-Prompts: 92
-G: 18
-//----------------------------------------/
-
-//----------------------------------------/
-Tracking Status
-Actual Time: 363.236299966
+Actual Time: 323.89309761
 Expected Time: 293.076921523
 Mistakes: 1
 Decisions: 12
-Prompts: 23
-G: 11
+Prompts: 18
+G: 6
 //----------------------------------------/
 
 //----------------------------------------/
 Tracking Status
-Actual Time: 402.330126857
+Actual Time: 368.017239359
 Expected Time: 293.076921523
 Mistakes: 2
 Decisions: 13
-Prompts: 56
-G: 21
+Prompts: 26
+G: 6
 //----------------------------------------/
 
 //----------------------------------------/
 Tracking Status
-Actual Time: 544.451920877
+Actual Time: 760.782120703
 Expected Time: 293.076921523
-Mistakes: 4
-Decisions: 16
-Prompts: 80
+Mistakes: 8
+Decisions: 19
+Prompts: 154
 G: 16
 //----------------------------------------/
 
 //----------------------------------------/
 Tracking Status
-Actual Time: 359.204396464
+Actual Time: 460.724986579
 Expected Time: 293.076921523
-Mistakes: 2
+Mistakes: 4
+Decisions: 17
+Prompts: 45
+G: 7
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 304.172881753
+Expected Time: 293.076921523
+Mistakes: 1
+Decisions: 16
+Prompts: 35
+G: 19
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 345.743673069
+Expected Time: 293.076921523
+Mistakes: 1
+Decisions: 12
+Prompts: 19
+G: 7
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 333.692318462
+Expected Time: 293.076921523
+Mistakes: 1
+Decisions: 12
+Prompts: 19
+G: 7
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 346.743665409
+Expected Time: 293.076921523
+Mistakes: 1
+Decisions: 12
+Prompts: 19
+G: 7
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 349.008306624
+Expected Time: 293.076921523
+Mistakes: 1
 Decisions: 13
-Prompts: 40
+Prompts: 26
 G: 13
 //----------------------------------------/
 
 //----------------------------------------/
 Tracking Status
-Actual Time: 617.83770562
+Actual Time: 287.568189145
 Expected Time: 293.076921523
-Mistakes: 7
-Decisions: 23
-Prompts: 121
-G: 14
+Mistakes: 0
+Decisions: 11
+Prompts: 11
+//----------------------------------------/
+Tracking Status
+Actual Time: 323.89309761
+Expected Time: 293.076921523
+Mistakes: 1
+Decisions: 12
+Prompts: 18
+G: 6
 //----------------------------------------/
 
 //----------------------------------------/
 Tracking Status
-Actual Time: 779.422403604
+Actual Time: 645.888021918
 Expected Time: 293.076921523
 Mistakes: 5
-Decisions: 17
-Prompts: 136
-G: 23
+Decisions: 19
+Prompts: 117
+G: 19
 //----------------------------------------/
 
 //----------------------------------------/
 Tracking Status
-Actual Time: 382.455092946
+Actual Time: 288.568189145
 Expected Time: 293.076921523
-Mistakes: 2
-Decisions: 13
-Prompts: 56
-G: 21
-//----------------------------------------/
-
+Mistakes: 0
+Decisions: 11
+Prompts: 11
 //----------------------------------------/
 Tracking Status
-Actual Time: 624.644555647
+Actual Time: 504.277965941
 Expected Time: 293.076921523
 Mistakes: 4
 Decisions: 15
-Prompts: 62
-G: 11
-//----------------------------------------/
-
-//----------------------------------------/
-Tracking Status
-Actual Time: 697.583975525
-Expected Time: 293.076921523
-Mistakes: 7
-Decisions: 17
-Prompts: 114
-G: 13
-//----------------------------------------/
-
-//----------------------------------------/
-Tracking Status
-Actual Time: 412.917752874
-Expected Time: 293.076921523
-Mistakes: 2
-Decisions: 13
-Prompts: 34
+Prompts: 56
 G: 10
 //----------------------------------------/
 
 //----------------------------------------/
 Tracking Status
-Actual Time: 394.906972035
+Actual Time: 423.1798625
+Expected Time: 293.076921523
+Mistakes: 3
+Decisions: 15
+Prompts: 48
+G: 11
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 369.731804086
 Expected Time: 293.076921523
 Mistakes: 3
 Decisions: 18
-Prompts: 58
-G: 13
+Prompts: 40
+G: 7
 //----------------------------------------/
-
-//----------------------------------------/
-Tracking Status
-Actual Time: 369.862446061
-Expected Time: 293.076921523
-Mistakes: 2
-Decisions: 13
-Prompts: 72
-G: 29
-//----------------------------------------/
-
-//----------------------------------------/
-Tracking Status
-Actual Time: 453.761069373
-Expected Time: 293.076921523
-Mistakes: 4
-Decisions: 15
-Prompts: 83
-G: 17
-//----------------------------------------/
-
-//----------------------------------------/
-Tracking Status
-Actual Time: 414.053489871
-Expected Time: 293.076921523
-Mistakes: 2
-Decisions: 13
-Prompts: 56
-G: 21
-//----------------------------------------/
-
-//----------------------------------------/
-Tracking Status
-Actual Time: 591.934838617
-Expected Time: 293.076921523
-Mistakes: 4
-Decisions: 17
-Prompts: 91
-G: 18
-//----------------------------------------/
-
-//----------------------------------------/
-Tracking Status
-Actual Time: 487.044137975
-Expected Time: 293.076921523
-Mistakes: 3
-Decisions: 14
-Prompts: 63
-G: 16
-//----------------------------------------/
-

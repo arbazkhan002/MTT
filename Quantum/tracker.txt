@@ -472,3 +472,5 @@ Filter those questions from nextpath which are
 3. only those edges which are in the range [x/ERRORFACTOR,x*ERRORFACTOR] are asked,
 	where x=(self.time-checkpttime)*speed
    <if yet can't localize, reactive phase>
+4. Wait indefinitely till nextpath is non-zero.   
+5. If 'No' received on the next segment, wait for time enough so that next longest segment in nextpath is travelled

@@ -1,3 +1,4 @@
+# attempt to wait and query unitl nextpath is available
 from networkGraph import *
 from threading import Thread
 from time import sleep
@@ -16,11 +17,11 @@ DEST='0101000020847F00008CDD071EC5DF1941C8D53D59AA5F4641'
 CLIENT_WAIT_TIME=0.05
 SERVER_WAIT_TIME=0.005
 TOPRINT=1		#whether to log(print the results to result file)
-THRESHHOLD=0.5	#This is the factor threshhold, which indicates how many iterations do we make before, we instead of probing 
+THRESHHOLD=0.1	#This is the factor threshhold, which indicates how many iterations do we make before, we instead of probing 
 				# ask the user to interrupt when the intersection is crossed 
 				#For example, if threshhold is 1, only once we ask the question did you cross the intersection? thereafter we wait for him endlessly
 FORGETDIST=100	# if the distance gap between any element is farther than FORGETDIST from current position, forget it			
-OVERSHOOTFACTOR=1.5 # it indicates how much more than expected, can a driver overshoot by. If its 2.5, then he may be found at 2.5*dist while we are
+ERRORFACTOR=1.5 # it indicates how much more than expected, can a driver overshoot by. If its 2.5, then he may be found at 2.5*dist while we are
 					# expecting him at dist
 LOG=logger.logger("logfile.txt")
 TOLOGHSPEED=1
@@ -82,10 +83,14 @@ class user:
 				self.remembers.insert(0,prevedge)			
 			#~ print "\tAFTER: ",map(lambda x:x[0].sectId, self.remembers)
 
-	def makemove(self,nextpt,edgewt):
+	def makemove(self,nextpt,edge):
 		global POS
+		edgewt=edge.length
 		#~ print "edgewt:",edgewt,
 		#~ print "time:",self.gettime()
+		#~ self.visited.append(edge.edgeId)
+		#~ self.visitedE.append(edge)
+		#~ self.remembers.append()
 		for i in range(int(edgewt/float(self.speed))):
 			sleep(CLIENT_WAIT_TIME)
 			self.time+=1
@@ -111,9 +116,9 @@ class user:
 		self.time+=edgewt/float(self.speed)-int(edgewt/float(self.speed))
 		self.prevpt=self.currpt	
 		self.currpt=nextpt
-		print "#######################################",map(lambda x:x[0].splitId, self.remembers)
+		#~ print "#######################################",map(lambda x:x[0].splitId, self.remembers)
 		self.forget()
-		print "################ FORGOT ###############",map(lambda x:x[0].splitId, self.remembers)
+		#~ print "################ FORGOT ###############",map(lambda x:x[0].splitId, self.remembers)
 		#~ print "#######################################",map(lambda x:x[0].edgeId, self.remembers)		
 		#~ print "Expecting a question"
 		
@@ -127,18 +132,12 @@ class user:
 			#check if sect is in visited
 			else:
 				self.remembersE=map(lambda x:x[0].edgeId, self.remembers)
-				if str(sect).startswith("CI"):
-					if int(sect[2:]) in self.visited:
-						print "Runner: Yes!","(",sect,")"
-						ans.put(1)
-					else:
-						print "Runner: No!","(",sect,")"	
-					queue.task_done()		#after here server purposely puts None in queue 
-					sect=queue.get(True)
-						
 				if sect not in self.remembersE:
 					#~ rfile.write(repr((sect, self.visited)))
 					while sect not in self.remembersE and sect!=None and sect!="proceed":
+						if str(sect).startswith("CI"):
+							if int(sect[2:]) in self.visited:
+								break
 						ans.put(0)
 						queue.task_done()
 						sectp=sect
@@ -219,7 +218,7 @@ class user:
 			# when dead ends (deg<=1) or start points (prevpt is None) 
 			if v!=self.prevpt or len(self.g.adj(start))<=1 or self.prevpt==None:
 				#~ print v==self.prevpt, edge==edgeuv, edgeuv.splitId
-				self.makemove(v,edgeuv.length)
+				self.makemove(v,edgeuv)
 				self.visited.append(edgeuv.edgeId)
 				self.visitedE.append(edgeuv)
 				if not self.remembers:
@@ -250,7 +249,7 @@ class user:
 		#Take complement of u
 		self.currpt=self.g.coedgeint(path[1],path[0])
 		u=self.g.edgeint(path[1],path[0])
-		self.makemove(u,path[0].length)
+		self.makemove(u,path[0])
 		#~ try:
 			#~ sect = queue.get(False)
 			#~ #check if sect is in visited
@@ -278,7 +277,7 @@ class user:
 			i=self.pathind				
 			if random.random()>self.Pd or len(self.g.adj(path[i].u))<=2:	
 				update.append([path[i-1].edgeId,path[i].edgeId,int(True)])
-				self.makemove(self.g.coedgeint(path[i-1],path[i]),path[i].length)
+				self.makemove(self.g.coedgeint(path[i-1],path[i]),path[i])
 				#only after move is made, mark visited.. else for long edges, you would give a "yes" before even completing it.
 				self.visited.append(path[i].edgeId)
 				self.visitedE.append(path[i])
@@ -344,13 +343,14 @@ class server:
 		# From one splitId, pick exactly one entry (which is closest to source s)
 		#~ '''
 		sortedlist=sorted(path,key=lambda x:abs(x[0]-dist))
-		seen=[curredge.sectId, prevedge.sectId]
+		seen=[curredge.sectId, prevedge.sectId] 	#no questions should be asked from the current sectId and prev sectId
 		returnlist=[]
 		for entry in sortedlist:
 			if entry[1].sectId in seen:
 				continue
 			else:
-				seen.append(entry[1].sectId)	
+				if entry[0]<=ERRORFACTOR*dist and entry[0]>=dist/ERRORFACTOR:
+					seen.append(entry[1].sectId)	
 		
 			returnlist.append(entry)
 		
@@ -398,8 +398,10 @@ class server:
 					dist+=path[i].length
 					filteredSect.append(path[i].sectId)
 					newWaitDist=0			#initialized newWaitDist
-								
+				
+				self.time=runner.gettime()							
 				if len(g.edges[path[i].u])<=2 and i!=0:
+					print "skip:",path[i].splitId
 					i+=1
 					filteredSect=[]
 					continue	
@@ -408,28 +410,26 @@ class server:
 				speed=self.estimateSpeed()
 
 				if i>=1:
-					#~ nextpath=self.g.findPathEdges(self.g.edgeint(path[i-1],path[i]),OVERSHOOTFACTOR*path[i-1].length)
-					
+					#~ nextpath=self.g.findPathEdges(self.g.edgeint(path[i-1],path[i]),OVERSHOOTFACTOR*path[i-1].length)					
 					nextpath=self.g.findPathEdges(self.g.edgeint(path[i-1],path[i]),(self.time-checkpttime)*speed)
-					nextpath=self.reorder(nextpath,path[i-1].length,speed,path[i],path[i-1])
-					print "REORDERED:",map(lambda x:[x[0],x[1].splitId],nextpath)
+					unordered=nextpath
+					nextpath=self.reorder(nextpath,(self.time-checkpttime)*speed,speed,path[i],path[i-1])
 					
 				print "====================", i, " of ",len(path) ," completed",filteredSect,path[i].length,"====================================="
 				self.prompt(" ".join(map(str,["Tracker: Prompt me 'Yes' when you see section ",path[i].splitId,"." "(",dist,speed,self.time,prevtime,")"])))
 				
-				self.time=runner.gettime()			
-				
 				reply=0
 
 				#if factor gets less than threshhold, it waits indefinitely (if the intersection is not crossed) as the below condition is never violated
-				while speed!=0 and (self.time<prevtime+(float(dist)*factor)/speed or (crossedIntersection==0 and factor<THRESHHOLD)) and reply!=1:
+				#also if there are not yet any alternate paths possible, keep waiting till there is one
+				while speed!=0 and (self.time<prevtime+(float(dist)*factor)/speed or (crossedIntersection==0 and factor<THRESHHOLD) or len(nextpath)==0) and reply!=1:
 					if runner.alive==0:
 						self.printStats()
 						print "Client dead"
 						return
 					
 					#when factor falls below threshhold, wait indefinitely
-					if factor<THRESHHOLD and i>0:
+					if factor<THRESHHOLD and i>0 and crossedIntersection==0:
 						#ask for intersection
 						toqueue="CI"+str(path[i-1].edgeId)	
 					else:
@@ -439,8 +439,6 @@ class server:
 					if reply==0:
 						queue.put(toqueue)
 					reply=self.wait(SERVER_WAIT_TIME)
-					#~ print "Received ",reply, queue.qsize()									
-					self.time=runner.gettime()
 					
 					# If the reply is negative, instruct to proceed and not wait for any questions
 					if reply==0:
@@ -448,14 +446,25 @@ class server:
 						queue.put("proceed")
 					elif reply==1 and factor<THRESHHOLD:		#factor<threshhold means we were waiting for CI			
 						crossedIntersection=1
+						queue.put(None)							#need to do it twice
+						queue.put(None)
 						i-=1									#since reply=1, index i to path would increment but it should not as path[i] is not crossed
-						dist-=path[i].length
-					#~ print self.time
-					#~ with queue.mutex:
-						#~ queue.queue.clear()
+					
+					self.time=runner.gettime()
+					
+					#recalculate next path possibilities	
+					if i>=1:
+						#~ nextpath=self.g.findPathEdges(self.g.edgeint(path[i-1],path[i]),OVERSHOOTFACTOR*path[i-1].length)					
+						nextpath=self.g.findPathEdges(self.g.edgeint(path[i-1],path[i]),(self.time-checkpttime)*speed)
+						unordered=nextpath
+						nextpath=self.reorder(nextpath,(self.time-checkpttime)*speed,speed,path[i],path[i-1])
+						#~ print "UNORDERED ON ",(self.time-checkpttime)*speed,":",map(lambda x:[x[0],x[1].splitId],unordered)	
 					continue
+				
+				if i>=1:
+					print "FROM NETWORK GRAPH: ",map(lambda x:[x[0],x[1].splitId],unordered)
+					print "REORDERED ON ",(self.time-checkpttime)*speed,":",map(lambda x:[x[0],x[1].splitId],nextpath)
 
-				#~ print "qsize:",queue.qsize()
 				# Suppose self.wait times out (reply=-1) and in the next iteration condition (self.time<prevtime+..) fails
 				# then queue top is an edgeId
 				# If self.wait doesn't time out and reply is 0 and in the next iteration (self.time<prevtime) fails
@@ -550,7 +559,7 @@ class server:
 					#all possible paths rejected.. intersection may have been crossed
 					# reply can be 1 here due to a None signal on the queue 
 					else:
-						print "reply,factor: ",reply, factor
+						print "reply,factor,crossed: ",reply, factor, crossedIntersection
 						
 						#in the case wherer intersection was crossed, None needs to be put
 						#Put a None to indicate no change in path						
@@ -561,7 +570,7 @@ class server:
 						if not filteredSect:
 							dist-=path[i].length
 							
-						factor=factor*0.5
+						factor=factor*0.1
 
 						#if intersection is crossed, wait on the new distance(longer)
 						# example of this case : waiting for 3868 to be visited, user instead moves on 3741
@@ -604,34 +613,36 @@ class server:
 						elif crossedIntersection==0:
 							askedIntersection=0		#need to ask again next time
 						
+						#intersection is crossed and no nextpath potential segments
+						else:
+							dist=path[i].length
 						prevtime=self.time
 						continue
 						#~ assert(False)
 				
-				# here when either on track or crossed
 				if reply==1:
 					filteredSect=[]
-					crossedIntersection=0 if factor>THRESHHOLD else 1			#reset the variable. intersection is crossed if factor was less than threshhold
+					# if here and factor<threshhold, that means intersection was crossed
+					crossedIntersection=1 if factor<THRESHHOLD else 0			#reset the variable
 					askedIntersection=0			#reset the variable
 					flagIntersection=0			#reset the variable
-					if not factor<THRESHHOLD:
-						factor=1.0
-						speed=dist/(self.time-checkpttime)
-						self.addToAverage(speed,path[i].sectId)
+					factor=1.0
+					speed=dist/(self.time-checkpttime)
+					self.addToAverage(speed,path[i].sectId)
 
-						# ---------------------- update the logs ----------------------
-						if TOLOGHSPEED==1:
-							hspeed=self.loadhspeed()
-							speedlog=hspeed[path[i].sectId]
-							#~ hspeed[path[i].sectId]=((speedlog[0]*speedlog[1]+speed)/(speedlog[1]+1.0),speedlog[1]+1)
-							# same as above
-							hspeed[path[i].sectId]=(((speedlog[0]/(speedlog[1]+1.0))*speedlog[1])+(speed/(speedlog[1]+1.0)),speedlog[1]+1)
-							print " ******************************* ",hspeed[path[i].sectId]
-							self.dumphspeed()
-						# -------------------------------------------------------------
-						
-						if sys_debug==1:
-							print "<--- runner on track! with speed @", speed, "--->", "(",dist, self.time,prevtime,")"
+					# ---------------------- update the logs ----------------------
+					if TOLOGHSPEED==1:
+						hspeed=self.loadhspeed()
+						speedlog=hspeed[path[i].sectId]
+						#~ hspeed[path[i].sectId]=((speedlog[0]*speedlog[1]+speed)/(speedlog[1]+1.0),speedlog[1]+1)
+						# same as above
+						hspeed[path[i].sectId]=(((speedlog[0]/(speedlog[1]+1.0))*speedlog[1])+(speed/(speedlog[1]+1.0)),speedlog[1]+1)
+						print " ******************************* ",hspeed[path[i].sectId]
+						self.dumphspeed()
+					# -------------------------------------------------------------
+					
+					if sys_debug==1:
+						print "<--- runner on track! with speed @", speed, "--->", "(",dist, self.time,prevtime,factor,crossedIntersection,")"
 					prevtime=self.time
 					checkpttime=self.time
 				

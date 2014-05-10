@@ -80,7 +80,7 @@ class networkGraph(graph):
 				
 	def build_sectgraph(self,conn):
 		cur	= conn.cursor()		
-		cur.execute("SELECT * from network_dumppoints")
+		cur.execute("SELECT * from network_dumppoints_copy")
 
 		for row in cur:
 			row=dbfields.reg(cur,row)
@@ -107,8 +107,35 @@ class networkGraph(graph):
 				prevnode=nextnode
 			temp.close()
 			cur1.close()
-		cur.close()		
-								
+		cur.close()
+	
+	#patches the edges with different splitId but same atomic edge
+	def correctgraph(self,conn):
+		cur=conn.cursor()
+		nodeDict=priorityDictionary()
+		for node in self.edges:
+			if len(self.edges[node])<=2:
+				nodeDict[node]=min(map(lambda x:x.sectId, self.edges[node]))
+		
+		print len(nodeDict)
+		count=0
+		visited=[]
+		for node in nodeDict:
+			count+=1
+			#~ print count
+			cur.execute("update network_dumppoints_copy set split_id=%s \
+				where st_startpoint(geomline)='%s' or st_endpoint(geomline)='%s'" % (nodeDict[node],node.geom,node.geom))			
+			for nbr in self.adj(node):
+				if nbr.u==node:
+					if nbr.v not in visited and nbr.v in nodeDict:
+						nodeDict[nbr.v]=nodeDict[node]
+				else:
+					if nbr.u not in visited and nbr.u in nodeDict:
+						nodeDict[nbr.u]=nodeDict[node]
+			visited.append(node)				
+		conn.commit()	
+
+						
 				
 	def dfs(self, s, t):
 		finished=False
@@ -264,7 +291,7 @@ class networkGraph(graph):
 		#~ print distance, map(lambda x:x[-1].splitId,ans)
 		ans=makeset(ans)
 		addDist(ans,distance)
-		print "FROM NETWRKGRAPH: ",map(lambda x:[x[0],x[1].splitId],ans)
+		#~ print "FROM NETWRKGRAPH: ",map(lambda x:[x[0],x[1].splitId],ans)
 		return ans
 	
 

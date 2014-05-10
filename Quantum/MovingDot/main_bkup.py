@@ -158,10 +158,11 @@ class user:
 								#~ print "#######################################",map(lambda x:x.splitId, self.visitedE)
 								#~ print "#######################################",self.visited,sect					
 								pass
-													
+						print "Runner: Asked ",sect,							
 						ans.put(1)
 						queue.task_done()
 						path=queue.get(True)
+						print "Path: ", path if path is None else type(path)
 						if path is not None:
 							self.path=path 
 							self.pathind=-1 #(to null the increment after self.makemove)
@@ -348,17 +349,16 @@ class server:
 			if entry[1].sectId in seen:
 				continue
 			else:
-				seen.append(entry[1].sectId)	
-		
-			returnlist.append(entry)
-		
+				if entry[0]<=ERRORFACTOR*dist and entry[0]>=dist/ERRORFACTOR:
+					returnlist.append(entry)
+					seen.append(entry[1].sectId)			
 		return returnlist
 		'''
 		return path	
 		'''
 		
 	def getprfact(self,x,dist):
-		return (x-dist)/dist
+		return 1 #(x-dist)/dist
 
 	def reactive(self,allLandmarks):
 		larray=list(set(allLandmarks.values()))
@@ -391,40 +391,56 @@ class server:
 			crossedIntersection=0			#reset the variable			
 			askedIntersection=0			#do not ask the intersection crossed(?) question again			
 			flagIntersection=0			#do not set crossedIntersection more than once
+			CIdist=0					#distance till previous intersection
 			while i<len(path):
 				if not filteredSect:			#non zero only when the edges in question differ greatly in size (ie. there is a short lengthed section)
 					dist+=path[i].length
 					filteredSect.append(path[i].sectId)
 					newWaitDist=0			#initialized newWaitDist
-								
+				
+				self.time=runner.gettime()							
 				if len(g.edges[path[i].u])<=2 and i!=0:
+					print "skip:",path[i].splitId
 					i+=1
 					filteredSect=[]
-					continue	
+					continue
+
+				index=i
+				CIdist=0
+				for index in range(i-1,-1,-1):
+					if len(g.edges[path[index].u])>2:
+						break	
+					CIdist+=path[index].length
+					
 				
 				self.decisions.append(path[i].u)	# a new decision to be made (if duplicate, it would sorted out when we convert list to a set
 				speed=self.estimateSpeed()
 
 				if i>=1:
-					#~ nextpath=self.g.findPathEdges(self.g.edgeint(path[i-1],path[i]),OVERSHOOTFACTOR*path[i-1].length)
+					#~ nextpath=self.g.findPathEdges(self.g.edgeint(path[i-1],path[i]),OVERSHOOTFACTOR*path[i-1].length)					
+					nextpath=self.g.findPathEdges(self.g.edgeint(path[i-1],path[i]),(self.time-checkpttime)*speed-CIdist)
+					unordered=nextpath
+					nextpath=self.reorder(nextpath,(self.time-checkpttime)*speed-CIdist,speed,path[i],path[i-1])
 					
-					nextpath=self.g.findPathEdges(self.g.edgeint(path[i-1],path[i]),(self.time-checkpttime)*speed)
-					nextpath=self.reorder(nextpath,(self.time-checkpttime)*speed,speed,path[i],path[i-1])
-					print "REORDERED ON ",(self.time-checkpttime)*speed,":",map(lambda x:[x[0],x[1].splitId],nextpath)
-					
-				print "====================", i, " of ",len(path) ," completed",filteredSect,path[i].length,"====================================="
+				print "=================================", i, " of ",len(path) ," completed",CIdist,path[i].length,"=================================================="
 				self.prompt(" ".join(map(str,["Tracker: Prompt me 'Yes' when you see section ",path[i].splitId,"." "(",dist,speed,self.time,prevtime,")"])))
-				
-				self.time=runner.gettime()			
 				
 				reply=0
 
 				#if factor gets less than threshhold, it waits indefinitely (if the intersection is not crossed) as the below condition is never violated
-				while speed!=0 and (self.time<prevtime+(float(dist)*factor)/speed or (crossedIntersection==0 and factor<THRESHHOLD)) and reply!=1:
+				#also if there are not yet any alternate paths possible, keep waiting till there is one
+				while speed!=0 and (self.time<prevtime+(float(dist)*factor)/speed or (crossedIntersection==0 and factor<THRESHHOLD) or len(nextpath)==0) and reply!=1:
 					if runner.alive==0:
 						self.printStats()
 						print "Client dead"
 						return
+					
+					if (self.time<prevtime+(float(dist)*factor)/speed):
+						condition=1
+					elif len(nextpath)==0:
+						condition=2
+					else:
+						condition=3		
 					
 					#when factor falls below threshhold, wait indefinitely
 					if factor<THRESHHOLD and i>0 and crossedIntersection==0:
@@ -437,8 +453,6 @@ class server:
 					if reply==0:
 						queue.put(toqueue)
 					reply=self.wait(SERVER_WAIT_TIME)
-					#~ print "Received ",reply, queue.qsize()									
-					self.time=runner.gettime()
 					
 					# If the reply is negative, instruct to proceed and not wait for any questions
 					if reply==0:
@@ -446,15 +460,25 @@ class server:
 						queue.put("proceed")
 					elif reply==1 and factor<THRESHHOLD:		#factor<threshhold means we were waiting for CI			
 						crossedIntersection=1
-						queue.put(None)							#need to do it twice
-						queue.put(None)
+						queue.put(None)							#need to do it
 						i-=1									#since reply=1, index i to path would increment but it should not as path[i] is not crossed
-					#~ print self.time
-					#~ with queue.mutex:
-						#~ queue.queue.clear()
+					
+					self.time=runner.gettime()
+					
+					#recalculate next path possibilities	
+					if i>=1:
+						#~ nextpath=self.g.findPathEdges(self.g.edgeint(path[i-1],path[i]),OVERSHOOTFACTOR*path[i-1].length)					
+						nextpath=self.g.findPathEdges(self.g.edgeint(path[i-1],path[i]),(self.time-checkpttime)*speed-CIdist)
+						unordered=nextpath
+						nextpath=self.reorder(nextpath,(self.time-checkpttime)*speed-CIdist,speed,path[i],path[i-1])
+						#~ print "UNORDERED ON ",(self.time-checkpttime)*speed,":",map(lambda x:[x[0],x[1].splitId],unordered)	
 					continue
+				
+				print "condition:",condition
+				if i>=1:
+					print "FROM NETWORK GRAPH: ",map(lambda x:[x[0],x[1].splitId],unordered)
+					print "REORDERED ON ",(self.time-checkpttime)*speed-CIdist,":",map(lambda x:[x[0],x[1].splitId],nextpath)
 
-				#~ print "qsize:",queue.qsize()
 				# Suppose self.wait times out (reply=-1) and in the next iteration condition (self.time<prevtime+..) fails
 				# then queue top is an edgeId
 				# If self.wait doesn't time out and reply is 0 and in the next iteration (self.time<prevtime) fails
@@ -470,6 +494,8 @@ class server:
 					queue.put(path[i].edgeId)
 					try:
 						reply=ans.get(True, 1)
+						if reply==1 and crossedIntersection==1:
+							dist=path[i].length			#as dist was changed to newWaitDist after CI, needs to be restored back
 						
 					except Queue.Empty:
 						self.printStats()
@@ -557,15 +583,17 @@ class server:
 						
 						#~ ans.task_done()
 						#we would come back to same track segment but assume 1-factor fraction is covered												
-						if not filteredSect:
-							dist-=path[i].length
 							
 						factor=factor*0.5
-
+						
 						#if intersection is crossed, wait on the new distance(longer)
 						# example of this case : waiting for 3868 to be visited, user instead moves on 3741
 						# another example : waiting for 4065, user moves to 3560						
 						if len(nextpath)>0 and crossedIntersection==1:
+							if newWaitDist==0:
+								dist=path[i].length		#We have waited for path[i] units beyond the intersection
+								newWaitDist=dist
+							
 							#~ currentsectEdges=filter(lambda x:x.sectId in filteredSect,nextpath)
 							print						
 							print "\t--------------------------- THE WAIT DISTANCE IS GETTING CHANGED ------------------------------------------------------"
@@ -588,21 +616,31 @@ class server:
 								pass
 								#-------------------------------------------------------------------------------#
 							else:	
-								closestTuple=(sorted(restEdges,key=lambda x:x[0])[0])
+								sortedTuple=sorted(restEdges,key=lambda x:x[0])
+								closestTuple=sortedTuple[0]
 								lastWaitDist=newWaitDist
-								newWaitDist=closestTuple[0]-lastWaitDist
-								filteredSect.append(closestTuple[1].sectId)						
-								print
-								print "\twait distance changes: ",path[i].length, " to ",newWaitDist
-								print
-								dist-=lastWaitDist								
-								dist+=newWaitDist
+								if closestTuple[0]-lastWaitDist>0:
+									newWaitDist=closestTuple[0]-lastWaitDist
+									filteredSect.append(closestTuple[1].sectId)						
+									print
+									print "\twait distance changes: ",path[i].length, " to ",newWaitDist
+									print
+									#~ dist-=lastWaitDist							
+									dist=newWaitDist			#after crossing intersection, wait on not more than newWaitDist
+								else:
+									for itemtuple in sortedTuple:			# add all those sections which should have reached by now
+										if itemtuple[0]-lastWaitDist>0:
+											filteredSect.append(itemtuple[1].sectId)
+									dist=0	 #next possible segment is shorter than this route segment, so no need to wait for crossing next possible segment
 								factor=1.0													
 						
 						#if intersection is not crossed, wait on the old distance but with a reduced factor	
 						elif crossedIntersection==0:
 							askedIntersection=0		#need to ask again next time
 						
+						#intersection is crossed and no nextpath potential segments
+						else:
+							dist=path[i].length
 						prevtime=self.time
 						continue
 						#~ assert(False)
@@ -698,7 +736,7 @@ class server:
 		f.write(string+"\n")
 		f.close()	
 		# prompt factor = (travelled dist - original dist) / original dist
-		self.prfactor=abs(float(string.split()[0])-float(string.split()[-1]))/float(string.split()[-1])
+		#~ self.prfactor=abs(float(string.split()[0])-float(string.split()[-1]))/float(string.split()[-1])
 
 	def qtrack(self,runner,path):
 		prev=None
@@ -759,6 +797,8 @@ if __name__=="__main__":
 	global runner,tracker
 	g=networkGraph()
 	g.build_sectgraph(conn)
+	#~ g.correctgraph(conn)
+	#~ '''
 	probabTable.build(g,conn)
 	
 	eg=g.getNode('0101000020847F0000165E0110C94B1A41079011A6B6584641')
@@ -782,6 +822,7 @@ if __name__=="__main__":
 		#~ print probabTable.computeProbab(conn,[spath])	
 		#~ print "############################"	
 	#~ -----------------------------------------------------------------	
+	
 	path = g.djikstra(g.getNode(SRC), g.getNode(DEST))
 	
 	#------------- Initialize historical speed data -------------
@@ -817,7 +858,7 @@ if __name__=="__main__":
 		ans.join()
 		pass
 
-	
+	#~ '''		
 	#~ def makemoveS(self,nextpt,edgewt):
 		#~ global POS
 		#~ sleep(0.05)
