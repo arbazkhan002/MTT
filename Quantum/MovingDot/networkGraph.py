@@ -239,7 +239,7 @@ class networkGraph(graph):
 			for edgeuv in self.adj(s):
 				v=edgeuv.v
 				sfile.write(repr(edgeuv.splitId))
-				if v not in visited and edgeuv.length<=dist:
+				if v not in visited:
 					flag=True		#atleast one non visited nbr		
 					rest=pathfinder(v,dist-edgeuv.length,visited) 	#'rest' is a list of paths
 					rest=map(lambda x : x+[edgeuv], rest)

@@ -455,3 +455,20 @@ Collecting results (avoiding large programs)
 ---------------------------------------------------------------------------------------------------------
 Improvements:
 On a negative reply, first ask if you crossed the intersection, and then put on all the questions.
+
+
+
+---------------------------------------------------------------------------------------------------------
+Restricted Memory Model:
+Only those sections which are on the same sectId are remembered
+For CI based questions, special response handling:
+1. CI questions are replied from self.visited
+2. CI questions begin with "CI"
+
+Server Strategies:
+Filter those questions from nextpath which are 
+1. on a U-turn,
+2. for each splitId, exactly one question
+3. only those edges which are in the range [x/ERRORFACTOR,x*ERRORFACTOR] are asked,
+	where x=(self.time-checkpttime)*speed
+   <if yet can't localize, reactive phase>
