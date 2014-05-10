@@ -2,9 +2,12 @@ from psycopg2 import *
 import dbfields
 import random
 
+# T is 1-indexed
+# So, when there are 2 columns of attributes a1,a2 - self.T is 3
+
 class modifier: 
 	def __init__(self,conn):
-		self.T=0
+		self.T=1
 		self.N=0
 		self.conn=conn
 		cur=self.conn.cursor()
@@ -33,10 +36,10 @@ class modifier:
 	def modify(self,T,N):		
 		cur=self.conn.cursor()
 		
-		for i in range(self.T+1,T+1):
+		for i in range(self.T,T+1):
 			cur.execute("alter table test add column a"+str(i)+" integer")
 			cur.execute("update test set a%s=trunc(random()*%s+1)" % (i,N))
-		conn.commit()			
+		self.conn.commit()			
 		cur.close()
 		self.T=T+1
 		self.N=N
@@ -44,7 +47,7 @@ class modifier:
 
 	#returns a dict of keys=landmarkIds and values=[a1,a2,a3,...]
 	def getAttr(self,arr):
-		cur=conn.cursor()
+		cur=self.conn.cursor()
 		#~ i=1
 		s=["a"+str(i) for i in range(1,self.T)]
 		s=",".join(s)
@@ -68,7 +71,7 @@ class modifier:
 		self.T=0
 		self.N=0
 		cur.close()
-		conn.commit()
+		self.conn.commit()
 
 #~ conn = connect("dbname=demo user=postgres host=localhost password=indian")
 #~ s=modifier(conn)

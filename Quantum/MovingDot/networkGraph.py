@@ -322,11 +322,9 @@ class networkGraph(graph):
 		visited={}
 		return pathfinder(sect,s,dist,visited)					
 		
-	def getLandmarks(self, conn, path):
+	def getLandmarks(self, conn, section):
 
 		landmarks={}
-		for ind,i in enumerate(path):
-			landmarks[i]=[]
 
 		#~ landmarks=[0 for i in range(len(path))]	 # ref_ids of landmark at each section
 												 # landmark corresponding to section path[i] is landmarks[i]
@@ -334,10 +332,12 @@ class networkGraph(graph):
 												 
 		cur=conn.cursor()
 		cur.execute(cur.mogrify("select dump_id,ref_id from sectlandmark where dump_id = ANY( \
-			select dump_id from network_dumppoints where split_id=%s)", (map(lambda x: x.sectId, path),)))
+			select dump_id from network_dumppoints where split_id=%s)", (section,)))
 		
 		for row in cur:
 			row=dbfields.reg(cur,row)
+			if row.dump_id not in landmarks:
+				landmarks[row.dump_id]=[]
 			landmarks[row.dump_id].append(row.ref_id)
 		
 		return landmarks

@@ -361,10 +361,9 @@ class server:
 		return 1 #(x-dist)/dist
 
 	def reactive(self,allLandmarks):
-		larray=list(set(allLandmarks.values()))
+		larray=list(set(reduce(lambda x,y:x+y,allLandmarks.values())))
 		mat=self.modifier.getAttr(larray)
 		print mat
-		exit			
 		#~ queue.put("reactive")
 		pass
 
@@ -611,12 +610,12 @@ class server:
 								for pathentry in nextpath:
 									pathi=pathentry[1]
 									
-									if path.sectId not in allLandmarks:
-										allLandmarks[pathi.sectid]=[]
+									if pathi.sectId not in allLandmarks:
+										allLandmarks[pathi.sectId]=[]
 										
-									newLandmarks=self.g.getLandmarks(conn,[pathi])
+									newLandmarks=self.g.getLandmarks(conn,pathi.sectId)
 									for splitid in newLandmarks:
-										for refid in newLandmars[splitid]:
+										for refid in newLandmarks[splitid]:
 											if refid not in allLandmarks[pathi.sectId]:
 												allLandmarks[pathi.sectId].append(refid) 
 								
