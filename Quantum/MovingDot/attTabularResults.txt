@@ -1,0 +1,30 @@
+att:1 [('status: ', 0.43243243243243246), ('questions: ', 1.689189189189189)]
+att:2 [('status: ', 0.49333333333333335), ('questions: ', 2.1066666666666665)]
+att:3 [('status: ', 0.625), ('questions: ', 2.270833333333333)]
+att:4 [('status: ', 0.6770833333333334), ('questions: ', 2.125)]
+att:5 [('status: ', 0.6976744186046512), ('questions: ', 2.3604651162790695)]
+att:6 [('status: ', 0.6822429906542056), ('questions: ', 2.3457943925233646)]
+att:7 [('status: ', 0.75), ('questions: ', 2.355769230769231)]
+att:8 [('status: ', 0.7567567567567568), ('questions: ', 2.2522522522522523)]
+att:9 [('status: ', 0.7204301075268817), ('questions: ', 2.4946236559139785)]
+att:10 [('status: ', 0.7291666666666666), ('questions: ', 2.385416666666667)]
+att:Checking the number of questions asked when succeeded
+1 [('status: ', 0.43243243243243246), ('questions: ', 1.28125)]
+att:Checking the number of questions asked when succeeded
+2 [('status: ', 0.49333333333333335), ('questions: ', 1.4054054054054055)]
+att:Checking the number of questions asked when succeeded
+3 [('status: ', 0.625), ('questions: ', 1.7166666666666668)]
+att:Checking the number of questions asked when succeeded
+4 [('status: ', 0.6770833333333334), ('questions: ', 1.5538461538461539)]
+att:Checking the number of questions asked when succeeded
+5 [('status: ', 0.6976744186046512), ('questions: ', 1.8833333333333333)]
+att:Checking the number of questions asked when succeeded
+6 [('status: ', 0.6822429906542056), ('questions: ', 1.6849315068493151)]
+att:Checking the number of questions asked when succeeded
+7 [('status: ', 0.75), ('questions: ', 1.9102564102564101)]
+att:Checking the number of questions asked when succeeded
+8 [('status: ', 0.7567567567567568), ('questions: ', 2.0)]
+att:Checking the number of questions asked when succeeded
+9 [('status: ', 0.7204301075268817), ('questions: ', 2.1044776119402986)]
+att:Checking the number of questions asked when succeeded
+10 [('status: ', 0.7291666666666666), ('questions: ', 1.8714285714285714)]

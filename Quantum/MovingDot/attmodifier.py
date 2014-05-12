@@ -19,7 +19,7 @@ class modifier:
 		for row in cur:
 			self.T+=1		  		
 			
-		if self.T>0:
+		if self.T>1:
 			cur.execute("select max(a1) as m from test")
 			for row in cur:
 				row=dbfields.reg(cur,row)
@@ -38,6 +38,7 @@ class modifier:
 		
 		for i in range(self.T,T+1):
 			cur.execute("alter table test add column a"+str(i)+" integer")
+			print "new column: a",i
 			cur.execute("update test set a%s=trunc(random()*%s+1)" % (i,N))
 		self.conn.commit()			
 		cur.close()
@@ -75,7 +76,8 @@ class modifier:
 
 #~ conn = connect("dbname=demo user=postgres host=localhost password=indian")
 #~ s=modifier(conn)
-#~ s.modify(1,3)
+#~ s.modify(2,3)
+print "Modified"
 if __name__=="__main__":		
 	try:
 		conn = connect("dbname=demo user=postgres host=localhost password=indian")

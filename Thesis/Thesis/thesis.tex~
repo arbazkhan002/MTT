@@ -89,10 +89,6 @@
 \makecertificate
 \begin{abstract}
 I plan to finalize the text of the abstract in the end of the writing.
-
-\iffalse
-  A computational model of understanding place descriptions is a cardinal issue in multiple disciplines and provides critical applications especially in dialog-driven geolocation services. This research targets the automated extraction of spatial triplets to represent qualitative spatial relations between recognized places from natural language place descriptions via a simple class of locative expressions. We attempt to produce triplets, informative and \textit{convenient} enough as a medium to convert verbal descriptions to graph representations of places and their relationships. We present a reasoning approach devoid of any external resources (such as maps, path geometries or robotic vision) for understanding place descriptions. We then apply our methodologies to situated place descriptions and study the results, its errors and implied future research.
-\fi
 %We also provide an insight into the complexity of the untackled problem of resolving the frame of reference.
 \end{abstract}
 \tableofcontents
@@ -362,25 +358,25 @@ The reactive approach is motivated by the \textit{scene analysis} location sensi
 In chapter 3, we discussed the architecture of a generic wayfinding model, its structure and interaction of the different modules. In this chapter, the implementation-specific aspects of the key components are described with consideration to its application in developing a location-unaware dialog based system. We discuss a methodology to build the knowledge-base by automated extraction of attribute-values and identification of associations in the entities to represent spatial information. Furthermore, in context of reorientation, we introduce our approach to study movement patterns in order to facilitate early localization of a disoriented user.
 
  \section{Knowledge Base}
-  \label{kbase}
+  \label{sec:kbase}
 A given map dataset can be imported directly into a relational-database model where each shapefile gets converted to an individual relation. The properties of spatial features are converted to attributes and each spatial feature forms a tuple in the relation. The attributes of the spatial features can be divided into four categories:
 \begin{itemize}
   \item \textbf{identitificational} - these attributes include \textit{reference-id} as a pointer to the spatial feature, and \textit{category} specifying the class of the spatial feature. The values to category attribute can come directly from the shapefile to which they belong.
-  \item \textbf{geometrical} - for a spatial database, geometry comes as a primitve datatype. This allows the definition of functions to handle geometry based operations and make several deductions like area, length, etc.
+  \item \textbf{geometric} - for a spatial database, geometry comes as a primitve datatype. This allows the definition of functions to handle geometry based operations and make several deductions like area, length, etc.
   \item \textbf{visual} -  these attributes define the visual attributes like height of a building, color of a playground, etc.
   \item \textbf{semantic} - these attributes are defined as per external sources can meant to identify the meaning behind a feature e.g., petrol-pump, ATM.  The major attribute that falls in this category is the popularity of the feature as a landmark which facilitates context-aware wayfinding.
 \end{itemize}
 
-
+The first two of these attributes can be defined to be \textit{intrinsic} attributes as these are present or can be easily extracted from exisiting spatial databases. While, the other two attributes are \textit{extrinsic}, as external resources need to be used for their extraction.
 \subsection{Extracting Attribute Values}
-Raubal and Winter \cite{raubal} worked in a similar research categorising the attributes defining landmarks and provided a methodology to automatically extract local landmarks using integrated datasets such as 3-D city model, navigation graphs and georeferenced images of every house in the neighbourhood. Such an approach offers to improve services giving a with resources on-supply to populate the visual and semantic attributes. But, the research evidently states that to extract visual and semantic features, one needs comprehensive datasets and extrinsic dependence. Brenner and Elias \cite{brenner} focussed on extracting the landmarks structurally using data mining on spatial databases. The approach focusses more on intrinsic data like attributes (such as form factor of a building, distance off the road segment,etc.), values of which are extractable on processing from the map itself but also highlight the use of laser methods to identify certain visual features (such as height, visibility). The various attributes considered in their work to extract salient landmarks are shown in Figure \ref{fig:elias}.
+Raubal and Winter \cite{raubal} worked in a similar research categorising the attributes defining landmarks and provided a methodology to automatically extract local landmarks using integrated datasets such as 3-D city model, navigation graphs and georeferenced images of every house in the neighbourhood. Such an approach offers to improve services giving a with resources on-supply to populate the visual and semantic attributes. But, the research evidently states that to extract visual and semantic features, one needs comprehensive datasets and extrinsic dependence. Brenner and Elias \cite{brenner} focussed on extracting the landmarks structurally using data mining on spatial databases. The approach focusses more on intrinsic attributes (such as form factor of a building, distance off the road segment,etc.), values of which are extractable on processing from the map itself but also highlight the use of laser methods to identify certain visual features (such as height, visibility). The various attributes considered in their work to extract salient landmarks are shown in Figure \ref{fig:elias}.
 
 We opted to work on the lines similar to \cite{brenner} to define the geometric salience of buildings. In a real-world application, only those attributes should be considered that are identifiable and communicable. For example, \textit{form of parcel} (in Figure \ref{fig:elias}) might be a difficult attribute to realize in English language and equally difficult to be identified by a driver. On the other hand, \textit{road distance} is easily identifiable and communicable. Apart from the buildings, we also considered open spaces (such as playgrounds or parks) while searching for salient features in a neighborhood. Though a street may well be surrounded by structurally similar buildings but a large enough open-space area in it would be sufficient to confirm orientation of the user if there is no such feature in the neighbouring streets. We do not rely upon the visual and semantic attributes of a landmark for two reasons: (a) the geodatasets used for extracting such information are scarce and limited, and (b) the requirement of our guidance algorithm from the attributes of a landmark is fulfilled if they can make the landmark uniquely identifiable in its local neighborhood. Though visual and semantic attributes would enhance the identifiability but the algorithm is adaptive to the absence of such attributes. We tested the usage of such attributes in guidance and localization using synthetic settings wherein the number of available attributes was parametrized and attribute values were randomly assigned.
 
 \begin{figure}
 \centering
 \epsfig{file=brenner.eps, height=2in, width=6in}
-\caption{\textbf{Extracting Geometric Salience} The geometrical attributes used by Brenner and Elias \cite{brenner} to extract building-based landmarks}
+\caption{\textbf{Extracting Geometric Salience} The geometric attributes used by Brenner and Elias \cite{brenner} to extract building-based landmarks}
 \label{fig:elias}
  \end{figure}
 
@@ -443,11 +439,21 @@ We begin by describing the dataset for our prototype implementation. The dataset
  \section{Simulation Setup} 
 The time spent in executing real-time wayfinding tasks limits the scope of comprehensive testing of a wayfinding-assistance framework. Furthermore, simulations help in situation modelling which has vital importance in studying scenarios of disorientation. The simulation rests on a virtual user model and a synthetic set of feature attributes. The user model simulates varying speed patterns with regards to human behaviour, while the synthetic attribute-set models the extent of diversity in spatial enviroments.
   \subsection{User Modelling}
-<<Deciding on Distribution>>  
-<<
   \subsubsection*{Speed Profiles}
+The speed of a driver at a particular road segment is modelled using two parameters- 1) \textit{categorical-speed} parameter, to represent the speed preferences of a driver and, 2) \textit{deviation} parameter, to add an element of non-uniformity to speed w.r.t different road segments.
+
+%The categorical-speed parameter of a driver is high for users with fast driving preferences and low for those with slow driving preferences. 
+The categorical-speed for the drivers are picked from a continuous probability distribution model. Previous studies (\cite{leong,mclean}) have found the normal distribution to work under homogenous traffic flow (same type of vehicles) with moderate to low traffic volume conditions. However under heterogenous traffic conditions, researchers have proposed using a log–normal distribution (\cite{gerl}) for traffic modelling. The log-normal distribution used for sampling categorical-speed is shown in Figure \ref{fig:logn}. The parameters of the distributions are set such that 85th percentile speed is equal to the 30 kph i.e. speed limit at IITK campus\footnote{This is in accordance with the observed relationship between vehicle operating speeds and posted speed limits.} . The deviation parameter is sampled at each road segment from a normal distribution ($\mu=0 kph$, $\sigma=5 kph$) and added to the categorical-speed to generate observed average speed at the road segment.
+  \subsubsection*{Erroneous Behaviour}
+To cause disorientation in following wayfinding instructions, we modelled a simple error-making probability model of a user which governs user-behaviour at every decision point by choosing each decision with uniform probability. A more sophisticated error-making model would bias decisions based on the structure of the intersection. For instance, one may assign higher probability to go straight when asked to turn left (or right). This may be particularly useful in complex intersections where it maybe difficult to follow route instructions and comprehend in a degenerate natural-language translation of the clock-based convention model.
   \subsection{Synthetic Attributes}
- \section{Goodness Metrics}
+We had discussed possible approaches to extract attributes of a spatial feature in Section \ref{sec:kbase}.  Although since the focus of this work was on dialog-based localization, we chose to synthetically populate the attribute-set of the features. The number of attributes was paramterized in the testbed and the corresponding values were assigned randomly from a fixed set. The idea was to visualize dependency of performance of the localization algorithm on the presence of extrinsic attributes. 
+ \section{Goodness Metric}
+The major concern with any wayfinding assistance is the extent of interference it causes to the wayfinder. Thus, quality of user experience in a dialog-based wayfinding system would have major dependence on the number of prompts made while assisting to the user. As the complexity of routes increase in terms of number of decisions to be made en-route, greater number of prompts have to be put to the user. Also, if the user commits an error of judgement in following the route instructions and disorients from the intended path, additional prompts need to be put in order to reorient the user. 
+
+Based on the above discussion, we define \textit{goodness} for the evaluation of the proposed model with the metric as number of prompts made to the user ($N_p$) normalized over the total number of decisions made ($N_D$) and, the total number of disorientations ($N_e$) recorded before reaching the destination. The goodness metric ($G$) is formulated as: 
+\[\displaystyle G = \frac{N_p - \alpha \times N_D}{N_e}\]  
+where $\alpha$ is a constant, representing the number of prompts made in guiding a user on a route with exactly one decision point.
  \section{Results}
  \chapter{Conclusion and Future Work}
 \bibliographystyle{plain}

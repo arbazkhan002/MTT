@@ -4,3 +4,13 @@ ND- total number of decisions to made in the original route
 categorical speed ()
 deviation parameter (dev_avg)
 Speed profiles , mu=0, sigma=S/10
+
+Geometric and Visual attributes are intrinsic, semantic is extrinsic.
+We depend on intrinsic features and not extrinsic.
+So building is a church we may not know, but we know how it looks to an observer
+
+
+We dont use differential scene analyis
+However if there are not enough attributes to resolve the location, localization fails.
+A workaround in such a case would be to ask the user to move in a directed fashion and then again prompt for reorientation.
+Based on his movements and observed responses, localization can then be attempted.  

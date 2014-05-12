@@ -1,0 +1,960 @@
+//----------------------------------------/
+Tracking Status
+Actual Time: 95.1359296571
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 3
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 132.060361485
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 167.682886106
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 150.855053447
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 95.0424453093
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 3
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 150.855062908
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 308.588534081
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 287.015605156
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 339.156895889
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 150.855053447
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 257.395926054
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 175.817546049
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 265.419272809
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 132.060361485
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 167.682886106
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 241.310667545
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 1
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 112.679980702
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 213.203863224
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 318.518767719
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 150.855053447
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 223.689718636
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 339.076607713
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 95.1359296571
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 3
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 111.680000029
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 213.203873091
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 366.670403437
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 95.1359296571
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 3
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 95.1359296571
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 3
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 258.153031625
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 306.531741514
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 112.679980702
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 257.961038328
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 112.679980702
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 375.17625885
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 112.679980702
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 214.203853763
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 277.697301707
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 287.378734868
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 305.631791007
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 313.616698418
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 408.672285538
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 95.1359296571
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 3
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 176.667476825
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 176.091288303
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 176.091268975
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 112.679980702
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 222.473800641
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 1
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 257.425885772
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 281.995482544
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 234.826329282
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 270.534027691
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 364.250138221
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 234.82634861
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 314.934101547
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 4
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 95.1359296571
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 3
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 258.153022164
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 282.722618936
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 422.382487962
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 132.060361485
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 167.682886106
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 257.717560325
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 1
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 234.826329282
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 293.032766572
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 293.032766572
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 95.0424453093
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 3
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 150.855053447
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 302.178770526
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 4
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 176.667476825
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 279.609173754
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 4
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 150.855053447
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 223.689718636
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 308.483664186
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 132.060361485
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 168.099904507
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 4
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 258.153022164
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 306.531732054
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 112.679980702
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 214.203853763
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 250.243396785
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 4
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 331.694397412
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 347.386421453
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 416.075624546
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 175.817546049
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 176.664166565
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 132.060361485
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 168.099904507
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 4
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 221.67998181
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 294.409072204
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 1
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 146.271685064
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 161.201865087
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 351.155522977
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 150.855072775
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 257.395945382
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 131.060390273
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 204.125461195
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 243.963387477
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 5
+status: 0
+questions: 2
+//----------------------------------------/
+

@@ -1489,3 +1489,122 @@ G: 7
 //----------------------------------------/
 
 ------------------------------------------------------------------------------------------------------------------------------------------
+//----------------------------------------/
+Tracking Status
+Actual Time: 287.568189145
+Expected Time: 293.076921523
+Mistakes: 0
+Decisions: 11
+Prompts: 11
+//----------------------------------------/
+Tracking Status
+Actual Time: 151.855053447
+Expected Time: 293.076921523
+Mistakes: 0
+Decisions: 5
+Prompts: 9
+//----------------------------------------/
+Tracking Status
+Actual Time: 432.870346335
+Expected Time: 293.076921523
+Mistakes: 0
+Decisions: 14
+Prompts: 29
+//----------------------------------------/
+Tracking Status
+Actual Time: 158.099904507
+Expected Time: 293.076921523
+Mistakes: 0
+Decisions: 6
+Prompts: 12
+//----------------------------------------/
+Tracking Status
+Actual Time: 289.568201577
+Expected Time: 293.076921523
+Mistakes: 0
+Decisions: 11
+Prompts: 11
+//----------------------------------------/
+Tracking Status
+Actual Time: 307.868233573
+Expected Time: 293.076921523
+Mistakes: 0
+Decisions: 12
+Prompts: 15
+//----------------------------------------/
+Tracking Status
+Actual Time: 337.233448013
+Expected Time: 293.076921523
+Mistakes: 0
+Decisions: 13
+Prompts: 19
+//----------------------------------------/
+Tracking Status
+Actual Time: 287.568189145
+Expected Time: 293.076921523
+Mistakes: 0
+Decisions: 11
+Prompts: 11
+//----------------------------------------/
+Tracking Status
+Actual Time: 287.568189145
+Expected Time: 293.076921523
+Mistakes: 0
+Decisions: 11
+Prompts: 11
+//----------------------------------------/
+Tracking Status
+Actual Time: 310.137785917
+Expected Time: 293.076921523
+Mistakes: 0
+Decisions: 12
+Prompts: 15
+//----------------------------------------/
+Tracking Status
+Actual Time: 343.193142038
+Expected Time: 293.076921523
+Mistakes: 0
+Decisions: 13
+Prompts: 19
+//----------------------------------------/
+Tracking Status
+Actual Time: 287.568189145
+Expected Time: 293.076921523
+Mistakes: 0
+Decisions: 11
+Prompts: 11
+//----------------------------------------/
+Tracking Status
+Actual Time: 328.787820563
+Expected Time: 293.076921523
+Mistakes: 0
+Decisions: 13
+Prompts: 20
+//----------------------------------------/
+Tracking Status
+Actual Time: 322.89309761
+Expected Time: 293.076921523
+Mistakes: 0
+Decisions: 12
+Prompts: 15
+//----------------------------------------/
+Tracking Status
+Actual Time: 289.568189145
+Expected Time: 293.076921523
+Mistakes: 0
+Decisions: 11
+Prompts: 11
+//----------------------------------------/
+Tracking Status
+Actual Time: 317.52897333
+Expected Time: 293.076921523
+Mistakes: 0
+Decisions: 16
+Prompts: 21
+//----------------------------------------/
+Tracking Status
+Actual Time: 310.137795377
+Expected Time: 293.076921523
+Mistakes: 0
+Decisions: 12
+Prompts: 15

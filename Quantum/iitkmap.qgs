@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>422891.146764</xmin>
-            <ymin>2931726.117518</ymin>
-            <xmax>424725.799633</xmax>
-            <ymax>2932860.811687</ymax>
+            <xmin>422427.427832</xmin>
+            <ymin>2931637.296693</ymin>
+            <xmax>424268.947142</xmax>
+            <ymax>2932776.237612</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -24,19 +24,14 @@
         </destinationsrs>
     </mapcanvas>
     <legend updateDrawingOrder="true">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="network_dumppoints_copy" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="network_dumppoints_copy20140511010649832" visible="1"/>
+            </filegroup>
+        </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="node" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="node20140409221540149" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="network_extended" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="network_extended20140405154443724" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="nodelandmarks" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="nodelandmarks20140326012857322" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Boundary" showFeatureCount="0">
@@ -49,9 +44,9 @@
                 <legendlayerfile isInOverview="0" layerid="Schools20130211035256806" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="network_dumppoints" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="network_dumppoints" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="network_dumppoints20140111181051907" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="network_dumppoints20140111181051907" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="sectlandmark" showFeatureCount="0">
@@ -64,9 +59,9 @@
                 <legendlayerfile isInOverview="0" layerid="hostel20140111181046736" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="salience" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="salience" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="salience20131219225804463" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="salience20131219225804463" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Hostel" showFeatureCount="0">
@@ -150,7 +145,7 @@
             </filegroup>
         </legendlayer>
     </legend>
-    <projectlayers layercount="26">
+    <projectlayers layercount="25">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>Academic_area20130211034716015</id>
             <datasource>../Geoserver/IITK_Map_Raw_data/Academic_area.shp</datasource>
@@ -1734,11 +1729,11 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>network_extended20140405154443724</id>
-            <datasource>dbname='demo' host=localhost port=5432 sslmode=disable key='tid' srid=32644 type=LINESTRING table="public"."network_extended" (geom) sql=</datasource>
+            <id>network_dumppoints_copy20140511010649832</id>
+            <datasource>dbname='demo' host=localhost port=5432 sslmode=disable key='tid' srid=32644 type=LINESTRING table="public"."network_dumppoints_copy" (geomline) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>network_extended</layername>
+            <layername>network_dumppoints_copy</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=utm +zone=44 +datum=WGS84 +units=m +no_defs</proj4>
@@ -1759,7 +1754,7 @@
                     <symbol outputUnit="MM" alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
-                            <prop k="color" v="183,73,102,255"/>
+                            <prop k="color" v="210,134,71,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0"/>
@@ -1770,10 +1765,10 @@
                     </symbol>
                 </symbols>
                 <rotation field=""/>
-                <sizescale field="" scalemethod="area"/>
+                <sizescale field="" scalemethod=""/>
             </renderer-v2>
             <customproperties/>
-            <displayfield>name</displayfield>
+            <displayfield></displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
@@ -1795,9 +1790,9 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform>.</editform>
+            <editform></editform>
             <editforminit></editforminit>
-            <annotationform>.</annotationform>
+            <annotationform></annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -1956,75 +1951,6 @@
             <edittypes>
                 <edittype type="0" name="id"/>
             </edittypes>
-            <editform>.</editform>
-            <editforminit></editforminit>
-            <annotationform>.</annotationform>
-            <editorlayout>generatedlayout</editorlayout>
-            <excludeAttributesWMS/>
-            <excludeAttributesWFS/>
-            <attributeactions/>
-        </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>nodelandmarks20140326012857322</id>
-            <datasource>dbname='demo' host=localhost port=5432 sslmode=disable key='tid' srid=32644 type=POINT table="public"."nodelandmarks" (geom) sql=</datasource>
-            <title></title>
-            <abstract></abstract>
-            <layername>nodelandmarks</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=utm +zone=44 +datum=WGS84 +units=m +no_defs</proj4>
-                    <srsid>3128</srsid>
-                    <srid>32644</srid>
-                    <authid>EPSG:32644</authid>
-                    <description>WGS 84 / UTM zone 44N</description>
-                    <projectionacronym>utm</projectionacronym>
-                    <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="System">postgres</provider>
-            <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
-                <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
-                        <layer pass="0" class="SimpleMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="color" v="236,103,174,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="name" v="circle"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="scale_method" v="area"/>
-                            <prop k="size" v="2"/>
-                        </layer>
-                    </symbol>
-                </symbols>
-                <rotation field=""/>
-                <sizescale field="" scalemethod="area"/>
-            </renderer-v2>
-            <customproperties/>
-            <displayfield>id</displayfield>
-            <label>0</label>
-            <labelattributes>
-                <label fieldname="" text="Label"/>
-                <family fieldname="" name="Ubuntu"/>
-                <size fieldname="" units="pt" value="12"/>
-                <bold fieldname="" on="0"/>
-                <italic fieldname="" on="0"/>
-                <underline fieldname="" on="0"/>
-                <strikeout fieldname="" on="0"/>
-                <color fieldname="" red="0" blue="0" green="0"/>
-                <x fieldname=""/>
-                <y fieldname=""/>
-                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-                <angle fieldname="" value="0" auto="0"/>
-                <alignment fieldname="" value="center"/>
-                <buffercolor fieldname="" red="255" blue="255" green="255"/>
-                <buffersize fieldname="" units="pt" value="1"/>
-                <bufferenabled fieldname="" on=""/>
-                <multilineenabled fieldname="" on=""/>
-                <selectedonly on=""/>
-            </labelattributes>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>

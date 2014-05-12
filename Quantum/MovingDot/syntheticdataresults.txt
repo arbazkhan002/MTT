@@ -1,0 +1,40 @@
+//----------------------------------------/
+Tracking Status
+Actual Time: 131.060370945
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 2
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 193.474716828
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 2
+status: 1
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 226.038938743
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 2
+status: 0
+questions: 0
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 75.80355317
+Expected Time: 293.076921523
+Expected Time: 293.076921523
+# attrib: 2
+status: 0
+questions: 0
+//----------------------------------------/
+

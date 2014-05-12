@@ -9,13 +9,14 @@ import Queue
 import pdb
 import os.path
 import attmodifier
+import math
 #~ SRC='0101000020847F0000704DF34E47D0194118485024FD5F4641'
 #~ DEST='0101000020847F0000B0627FD91ED019411851DABB05604641'
 SRC='0101000020847F0000704DF34E47D0194118485024FD5F4641'
 DEST='0101000020847F00008CDD071EC5DF1941C8D53D59AA5F4641'
 CLIENT_WAIT_TIME=0.05
 SERVER_WAIT_TIME=0.005
-TOPRINT=1		#whether to log(print the results to result file)
+TOPRINT=0		#whether to log(print the results to result file)
 THRESHHOLD=0.5	#This is the factor threshhold, which indicates how many iterations do we make before, we instead of probing 
 				# ask the user to interrupt when the intersection is crossed 
 				#For example, if threshhold is 1, only once we ask the question did you cross the intersection? thereafter we wait for him endlessly
@@ -106,8 +107,13 @@ class user:
 					#~ pass
 				#~ continue	
 
-			if self.listen()==1:
+			l=self.listen()
+			if l==1:
 				self.forget(False)
+				return	
+				
+			if l==-1:
+				raise Exception
 				return	
 
 		if int(edgewt/float(self.speed))==0:
@@ -128,7 +134,22 @@ class user:
 			sect = queue.get(True,SERVER_WAIT_TIME)						
 			#~ self.visited.sort()
 			if sect=="reactive":
-				self.react()
+				reply=self.react()
+				if reply==1:	
+					path=queue.get(True)
+					print "Path: ", path if path is None else type(path)
+					if path is not None:
+						self.path=path 
+						self.pathind=-1 #(to null the increment after self.makemove)
+						self.visited=[]	# Old visited edgeIds are no longer required. They pose problems in answers to queries for reorientation.
+						queue.task_done()
+						return 1
+					queue.task_done()
+					return -1
+				elif reply==0:
+					return -1
+				else:
+					return 0		
 				
 			#check if sect is in visited
 			else:
@@ -308,20 +329,50 @@ class user:
 	pass
 	
 	def react(self):
-		print "================= RUNNER: REACT MODE ========================"
+		print "================= RUNNER: REACT MODE ",self.pos.sectId," ",self.pos.splitId," ========================"
 		allLandmarks=self.g.getLandmarks(conn,self.pos.sectId)
 		print allLandmarks
+		#~ if not allLandmarks:
 		allLandmarks=list(set(reduce(lambda x,y:x+y,allLandmarks.values())))
 		mat=self.modifier.getAttr(allLandmarks)
 		print mat
-		'''
-		sect=queue.get(True)
 		
-		
-		for lm in mat:
-			if mat[sect[0]]==sect[1]:
-				#respond Yes
-		'''
+		try:
+			sect=queue.get(True)
+			while sect!="proceed" and sect!="reorient":
+				print "Runner: Reacting to :",sect
+				atuple=map(lambda x:int(x),sect.split(":"))
+				if not filter(lambda x:mat[x][atuple[0]]==atuple[1],mat):
+					reply=0
+				else:
+					reply=1
+				ans.put(reply)
+				queue.task_done()	
+				sect=queue.get(True)
+			print "==============================================================="				
+			if sect=="proceed":
+				queue.task_done()
+				return 0
+			else:
+				sect=queue.get(True)
+				print "Runner: REORIENT message--> ",sect,None if not self.pos else self.pos.sectId
+				if sect==self.pos.sectId:
+					ans.put(1)
+					return 1
+				else:
+					ans.put(0)
+					return -1	
+				queue.task_done()
+					
+
+		except Queue.Empty:
+			if sys_debug==1:
+				print "Empty Queue"
+			print "==============================================================="
+		#~ for lm in mat:
+			#~ if mat[sect[0]]==sect[1]:
+				#~ #respond Yes
+		#~ '''
 		pass
 
 
@@ -352,16 +403,143 @@ class server:
 			return -1
 
 	def reactive(self,allLandmarks):
+		def bestValue(X,i):				#returns v if entropy of the value v is maximum in ith attribute of X
+			size=len(X)	
+			attDict={}		#storing the frequencies of each attribute value attDict=[{1: 25, 2:15, 3:10}, {1: 5, 2:10, 3:15}, ...]
+			
+			#calculate frequencies
+			values=map(lambda x:x[i],X)			#values of attribute ai
+			print "value array:",values,X
+			
+			for j in values:
+				if j not in attDict:
+					attDict[j]=0.0
+				attDict[j]+=1
+				
+			maxentropy=None
+			maxvalue=0
+
+			for v in values:
+				entropyvalue=0
+				ec=attDict[v]/size
+				entropyvalue-=0 if not ec else ec*(math.log(ec,2))
+				print "value ",v,"-",ec,":",0 if not ec else ec*(math.log(ec,2))
+
+				ec=(sum(attDict.values())-attDict[v])/size
+				entropyvalue-=0 if not ec else ec*(math.log(ec,2))
+				print "rest:",0 if not ec else ec*(math.log(ec,2))
+				
+				if maxentropy==None or maxentropy<entropyvalue:
+					maxentropy=entropyvalue
+					maxvalue=v
+						
+			return maxvalue,maxentropy
+
+		def entropy(X,i):				#entropy of the ith attribute
+			size=len(X)	
+			attDict={}		#storing the frequencies of each attribute value attDict=[{1: 25, 2:15, 3:10}, {1: 5, 2:10, 3:15}, ...]
+			
+			#calculate frequencies
+			values=map(lambda x:x[i],X)			#values of attribute ai
+			
+			for j in values:
+				if j not in attDict:
+					attDict[j]=0.0
+				attDict[j]+=1
+				
+			entropyvalue=0
+
+			for j in attDict:
+				ec=attDict[j]/size
+				entropyvalue-=0 if not ec else ec*(math.log(ec,2))
+
+			
+			return entropyvalue	
+				
+		def findbestattribute(X,asked):
+			maxentropy=None	
+			index=0			
+			for i in range(len(X[0])):
+				if i not in asked:			
+					entropyi=entropy(X,i)
+					if maxentropy==None or maxentropy<entropyi:
+						maxentropy=entropyi
+						index=i			
+			return index		
+								
 		larray=list(set(reduce(lambda x,y:x+y,allLandmarks.values())))
 		mat=self.modifier.getAttr(larray)
-		X=mat.values()
-		att=[[] for i in range(len(X[0]))]		#finding the number of attribute columns
-		med=[0 for i in range(len(att))]		#storing the median attribute values
-		for i in range(len(att)):
-			att[i]=map(lambda x:x[i],X)
-			att[i].sort()
-			med[i]=att[i][len(att[i])/2]				
-		queue.put("reactive")
+		queue.put("reactive")	
+		asked=[]
+		questions=0
+		#keep questioning on attributes till there is only possible section left	
+		while len(allLandmarks)>1:
+			print mat
+			X=mat.values()							#mat={125:[1,2,1], 131:[2,2,3], ..}
+			if not X:
+				print "Tracker: NO LANDMARKS (Move forward)",questions
+				queue.put("proceed")
+				return None,questions	
+
+			entropyvalue=0
+			while entropyvalue==0:
+				attindex=findbestattribute(X,asked)				
+				value,entropyvalue=bestValue(X,attindex)
+				if entropyvalue==0:
+					asked.append(attindex)
+				print "attindex, value, entropy,asked ",attindex, value, entropyvalue, asked 	
+				if len(asked)==len(X[0]):
+					break
+			
+			if len(asked)==len(X[0]):
+				print "Tracker: EXHAUSTED ATTRIBUTE SET (Move forward)",questions
+				queue.put("proceed")
+				return None,questions		
+
+			queue.put(str(attindex)+":"+str(value))
+			questions+=1
+			atuple=(attindex,value)
+			reply=ans.get(True)
+			
+			if reply==1:
+				mat_left=filter(lambda x:mat[x][atuple[0]]==atuple[1],mat)
+			else:
+				mat_left=filter(lambda x:mat[x][atuple[0]]!=atuple[1],mat)
+			
+			mat_new={}
+			
+			for key in mat_left:
+				mat_new[key]=mat[key]
+
+			# check if mat is pruned
+			if mat!=mat_new:
+				mat=mat_new
+				print "Tracker:",mat
+				# prune	allLandmarks based on the new mat
+				# keep all those edges from allLandmarks which contain atleast one landmark from mat
+				mark=[]
+				for sectid,lm in allLandmarks.iteritems():
+					if not list(set(lm).intersection(set(mat.keys()))):
+						mark.append(sectid)
+				
+				map(lambda x:(allLandmarks.pop(x,None)),mark)	
+				ans.task_done()	
+			
+			else:
+				queue.put("proceed")
+				return None,questions
+						
+		queue.put("reorient")
+		queue.put(allLandmarks.keys()[0])			#this is equivalent of asking the orientation of the user wrt to the landmark
+		reply=ans.get(True)
+		if reply==1:
+			print "NARROWED DOWN:",allLandmarks
+			ans.task_done()
+			return allLandmarks.keys()[0],questions		
+		else:
+			print "ASKING TO MOVE FORWARD",questions
+			ans.task_done()
+			return -1,questions	#can't narrow down, ask him to move forward
 		'''
 		#Prune landmarks by asking attribute values
 		
@@ -636,11 +814,13 @@ class server:
 								#Here, u enter the REACTIVE PHASE
 
 								allLandmarks={}
+								lookupEdge={}
 								for pathentry in nextpath:
 									pathi=pathentry[1]
 									
 									if pathi.sectId not in allLandmarks:
 										allLandmarks[pathi.sectId]=[]
+										lookupEdge[pathi.sectId]=pathi
 										
 									newLandmarks=self.g.getLandmarks(conn,pathi.sectId)
 									for splitid in newLandmarks:
@@ -649,8 +829,24 @@ class server:
 												allLandmarks[pathi.sectId].append(refid) 
 								
 								print "\n\n\t\tIN REACTIVE PHASE\n\n"			
-								self.reactive(allLandmarks)
-								pass
+								status,questions=self.reactive(allLandmarks)
+								print "\n\n\t\tIN REACTIVE PHASE\n\n",questions			
+								if status!=None and status!=-1:
+									path=self.g.djikstra(lookupEdge[status].v,g.getNode(DEST))					
+									#~ print path,'\n',self.g.djikstra(nextpath[j-1][-1].v,g.getNode(DEST))					
+									#~ sfile.write(repr(path[i-1].splitId)+repr(map(lambda x:x.splitId, path)))
+									queue.put(path)
+									if sys_debug==1:
+										print "<--- tracker conveyed new path to the runner --->"
+									prevtime=self.time
+									checkpttime=self.time
+									i=0		#so that control doesn't reach to tracking end after breaking
+									self.updateResults(1,questions)
+									break
+								elif status==None:
+									self.updateResults(0,questions)	
+									print "EXCEPTION TO BE RAISED"
+									raise Exception											
 								#-------------------------------------------------------------------------------#
 							else:	
 								sortedTuple=sorted(restEdges,key=lambda x:x[0])
@@ -753,6 +949,24 @@ class server:
 
 	def checkcorrect(self,runner,ttime):
 		return runner.gettime()-ttime
+
+	def updateResults(self,status,questions):
+		print ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"				
+		filepath="/home/arbazk/MTT/Quantum/MovingDot/att"
+		if not os.path.exists(filepath+str(self.modifier.getT()-1)+".txt"):
+			f=open(filepath+str(self.modifier.getT()-1)+".txt","w")
+		else:
+			f=open(filepath+str(self.modifier.getT()-1)+".txt","a")
+		f.write("//----------------------------------------/\n")
+		f.write("Tracking Status\n")
+		f.write("Actual Time: "+str(self.time)+"\n")
+		f.write("Expected Time: "+str(self.etime)+"\n")
+		f.write("Expected Time: "+str(self.etime)+"\n")
+		f.write("# attrib: "+str(self.modifier.getT())+"\n")
+		f.write("status: "+str(status)+"\n")
+		f.write("questions: "+str(questions)+"\n")
+		f.write("//----------------------------------------/\n\n")
+		f.close()		
 				
 	def printStats(self):
 		if TOPRINT==1:
@@ -875,6 +1089,10 @@ if __name__=="__main__":
 	#~ print map(lambda x: x.edgeId, g.djikstra(g.getNode(SRC), g.getNode(DEST)))
 	queue= Queue.Queue()	
 	ans = Queue.Queue()	
+	m=attmodifier.modifier(conn)
+	v=int(raw_input("Enter T:"))
+	m.modify(v,3)
+	print "modified"
 	#~ for i in path:
 		#~ print i.u
 	runner = user(g)

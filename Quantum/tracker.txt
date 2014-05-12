@@ -451,6 +451,8 @@ On the pattern on prompts:
 Collecting results (avoiding large programs)	
 	for i in {1..10}; do timeout 500 python main.py; done
 
+Synthetic data set
+for i in {1..10}; do for j in {1..50}; do echo $i | timeout 50 python main.py; done done
 
 ---------------------------------------------------------------------------------------------------------
 Improvements:

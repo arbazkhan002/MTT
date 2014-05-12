@@ -6,45 +6,45 @@ Warning--entry type for "gmaps" isn't style-file defined
 --line 487 of file references.bib
 Warning--can't use both volume and number fields in leong
 Warning--can't use both volume and number fields in mclean
-You've used 34 entries,
+You've used 43 entries,
             2118 wiz_defined-function locations,
-            703 strings with 10293 characters,
-and the built_in function-call counts, 12661 in all, are:
-= -- 1260
-> -- 554
-< -- 17
-+ -- 228
-- -- 184
-* -- 823
-:= -- 1989
-add.period$ -- 110
-call.type$ -- 34
-change.case$ -- 189
+            753 strings with 12082 characters,
+and the built_in function-call counts, 16074 in all, are:
+= -- 1612
+> -- 698
+< -- 21
++ -- 286
+- -- 232
+* -- 1043
+:= -- 2518
+add.period$ -- 139
+call.type$ -- 43
+change.case$ -- 240
 chr.to.int$ -- 0
-cite$ -- 36
-duplicate$ -- 530
-empty$ -- 1045
-format.name$ -- 184
-if$ -- 2749
+cite$ -- 45
+duplicate$ -- 663
+empty$ -- 1315
+format.name$ -- 232
+if$ -- 3495
 int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 36
-newline$ -- 172
-num.names$ -- 68
-pop$ -- 249
+int.to.str$ -- 43
+missing$ -- 43
+newline$ -- 217
+num.names$ -- 86
+pop$ -- 311
 preamble$ -- 1
-purify$ -- 160
+purify$ -- 202
 quote$ -- 0
-skip$ -- 384
+skip$ -- 493
 stack$ -- 0
-substring$ -- 779
-swap$ -- 159
-text.length$ -- 17
+substring$ -- 1021
+swap$ -- 206
+text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 128
+type$ -- 164
 warning$ -- 2
-while$ -- 125
-width$ -- 36
-write$ -- 379
+while$ -- 160
+width$ -- 45
+write$ -- 477
 (There were 3 warnings)

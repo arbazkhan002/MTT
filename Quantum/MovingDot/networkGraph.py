@@ -332,7 +332,7 @@ class networkGraph(graph):
 												 
 		cur=conn.cursor()
 		cur.execute(cur.mogrify("select dump_id,ref_id from sectlandmark where dump_id = ANY( \
-			select dump_id from network_dumppoints where split_id=%s)", (section,)))
+			select dump_id from network_dumppoints_copy where split_id=%s)", (section,)))
 		
 		for row in cur:
 			row=dbfields.reg(cur,row)
