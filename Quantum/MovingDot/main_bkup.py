@@ -9,6 +9,7 @@ import Queue
 import pdb
 import os.path
 import attmodifier
+import math
 #~ SRC='0101000020847F0000704DF34E47D0194118485024FD5F4641'
 #~ DEST='0101000020847F0000B0627FD91ED019411851DABB05604641'
 SRC='0101000020847F0000704DF34E47D0194118485024FD5F4641'
@@ -24,6 +25,9 @@ ERRORFACTOR=1.5 # it indicates how much more than expected, can a driver oversho
 					# expecting him at dist
 LOG=logger.logger("logfile.txt")
 TOLOGHSPEED=1
+strategy="R"
+QLIMIT=3 #no of questions asked in anticipative phase
+#~ strategy="I"
 rfile=open("rfile.txt","w")
 sfile=open("sfile.txt","w")
 hspeedfile="hspeed.pkl"
@@ -45,6 +49,7 @@ class user:
 	pathind=0
 	alive=1
 	modifier=None
+	pos=None
 	remembers=[] #a 2d array of distance stamps of each visited section, e.g, [[123,0],[124,4.5123],[125,10.34432],...]
 	# just extra.. redundant information.. needed for debugging
 	visitedE=[]
@@ -53,7 +58,8 @@ class user:
 		self.g=graph
 		self.time=0
 		self.modifier=attmodifier.modifier(conn)
-
+		self.categoricalSpeed=random.lognormvariate(1.4,0.5)
+		
 	# simulates forgetting. If state is True, everything is cleared from memory
 	def forget(self, state=True):
 		if state==False:
@@ -85,6 +91,7 @@ class user:
 	def makemove(self,nextpt,edge):
 		global POS
 		edgewt=edge.length
+		self.pos=edge
 		#~ print "edgewt:",edgewt,
 		#~ print "time:",self.gettime()
 		#~ self.visited.append(edge.edgeId)
@@ -104,8 +111,13 @@ class user:
 					#~ pass
 				#~ continue	
 
-			if self.listen()==1:
+			l=self.listen()
+			if l==1:
 				self.forget(False)
+				return	
+				
+			if l==-1:
+				raise Exception
 				return	
 
 		if int(edgewt/float(self.speed))==0:
@@ -126,7 +138,22 @@ class user:
 			sect = queue.get(True,SERVER_WAIT_TIME)						
 			#~ self.visited.sort()
 			if sect=="reactive":
-				self.react()
+				reply=self.react()
+				if reply==1:	
+					path=queue.get(True)
+					print "Path: ", path if path is None else type(path)
+					if path is not None:
+						self.path=path 
+						self.pathind=-1 #(to null the increment after self.makemove)
+						self.visited=[]	# Old visited edgeIds are no longer required. They pose problems in answers to queries for reorientation.
+						queue.task_done()
+						return 1
+					queue.task_done()
+					return -1
+				elif reply==0:
+					return -1
+				else:
+					return 0		
 				
 			#check if sect is in visited
 			else:
@@ -276,6 +303,8 @@ class user:
 			#~ print i,"th part"
 			i=self.pathind				
 			if random.random()>self.Pd or len(self.g.adj(path[i].u))<=2:	
+				if len(self.g.adj(path[i].u))>2:
+					self.speed=self.categoricalSpeed+random.gauss(0,self.categoricalSpeed/10)			
 				update.append([path[i-1].edgeId,path[i].edgeId,int(True)])
 				self.makemove(self.g.coedgeint(path[i-1],path[i]),path[i])
 				#only after move is made, mark visited.. else for long edges, you would give a "yes" before even completing it.
@@ -306,6 +335,55 @@ class user:
 	pass
 	
 	def react(self):
+		print "================= RUNNER: REACT MODE ",self.pos.sectId," ",self.pos.splitId," ========================"
+		allLandmarks=self.g.getLandmarks(conn,self.pos.sectId)
+		print allLandmarks
+		#~ if not allLandmarks:
+
+		if not allLandmarks:
+			allLandmarks=[]
+			mat[0]=[0 for i in range(1,self.modifier.getT())]		#dummy assignment to mat
+		else:	
+			allLandmarks=list(set(reduce(lambda x,y:x+y,allLandmarks.values())))			
+			mat=self.modifier.getAttr(allLandmarks)
+			print mat
+		
+		try:
+			sect=queue.get(True)
+			while sect!="proceed" and sect!="reorient":
+				print "Runner: Reacting to :",sect
+				atuple=map(lambda x:int(x),sect.split(":"))
+				if not filter(lambda x:mat[x][atuple[0]]==atuple[1],mat):
+					reply=0
+				else:
+					reply=1
+				ans.put(reply)
+				queue.task_done()	
+				sect=queue.get(True)
+			print "==============================================================="				
+			if sect=="proceed":
+				queue.task_done()
+				return -1
+			else:
+				sect=queue.get(True)
+				print "Runner: REORIENT message--> ",sect,None if not self.pos else self.pos.sectId
+				if sect==self.pos.sectId:
+					ans.put(1)
+					return 1
+				else:
+					ans.put(0)
+					return -1	
+				queue.task_done()
+					
+
+		except Queue.Empty:
+			if sys_debug==1:
+				print "Empty Queue"
+			print "==============================================================="
+		#~ for lm in mat:
+			#~ if mat[sect[0]]==sect[1]:
+				#~ #respond Yes
+		#~ '''
 		pass
 
 
@@ -322,6 +400,7 @@ class server:
 	uspeed_n=1
 	uspeed_dev=0
 	decisions=[]		#G related
+	questions=0
 	def __init__(self,graph):
 		self.g=graph
 		self.modifier=attmodifier.modifier(conn)
@@ -334,6 +413,155 @@ class server:
 			return reply
 		except Queue.Empty:	
 			return -1
+
+	def reactive(self,allLandmarks):
+		def bestValue(X,i):				#returns v if entropy of the value v is maximum in ith attribute of X
+			size=len(X)	
+			attDict={}		#storing the frequencies of each attribute value attDict=[{1: 25, 2:15, 3:10}, {1: 5, 2:10, 3:15}, ...]
+			
+			#calculate frequencies
+			values=map(lambda x:x[i],X)			#values of attribute ai
+			print "value array:",values,X
+			
+			for j in values:
+				if j not in attDict:
+					attDict[j]=0.0
+				attDict[j]+=1
+				
+			maxentropy=None
+			maxvalue=0
+
+			for v in values:
+				entropyvalue=0
+				ec=attDict[v]/size
+				entropyvalue-=0 if not ec else ec*(math.log(ec,2))
+				#~ print "value ",v,"-",ec,":",0 if not ec else ec*(math.log(ec,2))
+
+				ec=(sum(attDict.values())-attDict[v])/size
+				entropyvalue-=0 if not ec else ec*(math.log(ec,2))
+				#~ print "rest:",0 if not ec else ec*(math.log(ec,2))
+				
+				if maxentropy==None or maxentropy<entropyvalue:
+					maxentropy=entropyvalue
+					maxvalue=v
+						
+			return maxvalue,maxentropy
+
+		def entropy(X,i):				#entropy of the ith attribute
+			size=len(X)	
+			attDict={}		#storing the frequencies of each attribute value attDict=[{1: 25, 2:15, 3:10}, {1: 5, 2:10, 3:15}, ...]
+			
+			#calculate frequencies
+			values=map(lambda x:x[i],X)			#values of attribute ai
+			
+			for j in values:
+				if j not in attDict:
+					attDict[j]=0.0
+				attDict[j]+=1
+				
+			entropyvalue=0
+
+			for j in attDict:
+				ec=attDict[j]/size
+				entropyvalue-=0 if not ec else ec*(math.log(ec,2))
+
+			
+			return entropyvalue	
+				
+		def findbestattribute(X,asked):
+			maxentropy=None	
+			index=0			
+			for i in range(len(X[0])):
+				if i not in asked:			
+					entropyi=entropy(X,i)
+					if maxentropy==None or maxentropy<entropyi:
+						maxentropy=entropyi
+						index=i			
+			return index		
+								
+		larray=list(set(reduce(lambda x,y:x+y,allLandmarks.values())))
+		mat=self.modifier.getAttr(larray)
+		queue.put("reactive")	
+		asked=[]
+		#keep questioning on attributes till there is only possible section left	
+		while len(allLandmarks)>1:
+			print mat
+			X=mat.values()							#mat={125:[1,2,1], 131:[2,2,3], ..}
+			if not X:
+				print "Tracker: NO LANDMARKS (Move forward)",self.questions
+				queue.put("proceed")
+				return -1,self.questions	
+
+			entropyvalue=0
+			while entropyvalue==0:
+				attindex=findbestattribute(X,asked)				
+				value,entropyvalue=bestValue(X,attindex)
+				if entropyvalue==0:
+					asked.append(attindex)
+				#~ print "attindex, value, entropy,asked ",attindex, value, entropyvalue, asked 	
+				if len(asked)==len(X[0]):
+					break
+			
+			if len(asked)==len(X[0]):
+				print "Tracker: EXHAUSTED ATTRIBUTE SET (Move forward)",self.questions
+				queue.put("proceed")
+				return -1,self.questions		
+
+			queue.put(str(attindex)+":"+str(value))
+			self.questions+=1
+			atuple=(attindex,value)
+			reply=ans.get(True)
+			
+			if reply==1:
+				mat_left=filter(lambda x:mat[x][atuple[0]]==atuple[1],mat)
+			else:
+				mat_left=filter(lambda x:mat[x][atuple[0]]!=atuple[1],mat)
+			
+			mat_new={}
+			
+			for key in mat_left:
+				mat_new[key]=mat[key]
+
+			# check if mat is pruned
+			if mat!=mat_new:
+				mat=mat_new
+				print "Tracker:",mat
+				# prune	allLandmarks based on the new mat
+				# keep all those edges from allLandmarks which contain atleast one landmark from mat
+				mark=[]
+				for sectid,lm in allLandmarks.iteritems():
+					if not list(set(lm).intersection(set(mat.keys()))):
+						mark.append(sectid)
+				
+				map(lambda x:(allLandmarks.pop(x,None)),mark)	
+				ans.task_done()	
+			
+			else:
+				queue.put("proceed")
+				return -1,self.questions
+						
+		queue.put("reorient")
+		queue.put(allLandmarks.keys()[0])			#this is equivalent of asking the orientation of the user wrt to the landmark
+		self.questions+=1
+		reply=ans.get(True)
+		if reply==1:
+			print "NARROWED DOWN:",allLandmarks
+			self.mistakes+=1
+			ans.task_done()
+			return allLandmarks.keys()[0],self.questions		
+		else:
+			print "ASKING TO MOVE FORWARD",self.questions
+			ans.task_done()
+			return -1,self.questions	#can't narrow down, ask him to move forward
+		'''
+		#Prune landmarks by asking attribute values
+		
+		queue.put((i,med[i]))
+		
+		reply=ans.get(True,1)
+		'''
+		pass
+
 			
 	def reorder(self,path,dist,speed,curredge,prevedge):
 		#~ return path
@@ -359,14 +587,6 @@ class server:
 		
 	def getprfact(self,x,dist):
 		return 1 #(x-dist)/dist
-
-	def reactive(self,allLandmarks):
-		larray=list(set(reduce(lambda x,y:x+y,allLandmarks.values())))
-		mat=self.modifier.getAttr(larray)
-		print mat
-		#~ queue.put("reactive")
-		pass
-
 			
 	def track(self,runner,path):
 		prev=None
@@ -516,13 +736,20 @@ class server:
 				
 				if reply==0:
 					j=0
+					savedj=0
 					if sys_debug==1:
 						print "<--- runner off track! --->" 
 					while reply==0:
 						if crossedIntersection==1 and j<len(nextpath):
-							self.prompt(" ".join(map(str,["Tracker: Did you see section ",nextpath[j][-1].splitId,"?" "(", \
-								dist,speed,self.time,"$",self.prfactor,self.getprfact(nextpath[j][0],dist)," )"])))
-							queue.put(nextpath[j][-1].edgeId)
+							if strategy=="I" or j<QLIMIT:		
+								self.prompt(" ".join(map(str,["Tracker: Did you see section ",nextpath[j][-1].splitId,"?" "(", \
+									dist,speed,self.time,"$",self.prfactor,self.getprfact(nextpath[j][0],dist)," )"])))
+								queue.put(nextpath[j][-1].edgeId)
+							else:
+								queue.put(None)				#remember loop for client breaks only when None is passed
+								savedj=j
+								j=-1						#reply would be 1 to this None and thus j would get incremented, but we dont want that		
+								
 						
 						else: 	# need to ask first whether the intersection is crossed
 							if (i>0) and askedIntersection==0:
@@ -599,48 +826,72 @@ class server:
 							print						
 							print "\t--------------------------- THE WAIT DISTANCE IS GETTING CHANGED ------------------------------------------------------"
 							print 
-							#~ restEdges=filter(lambda x:x[1].sectId not in filteredSect,nextpath)
-							restEdges=[]
+							restEdges=filter(lambda x:x[1].sectId not in filteredSect,nextpath[savedj:])
+							#~ restEdges=[]
 							# on the restEdges sorted by distance from the last checkpoint, pick up the distance of first index i.e. closest edge distance
-							if not restEdges:	#all edges emanating from the cross section have been searched for	
+							#~ if not restEdges:	#all edges emanating from the cross section have been searched for
+								#~ raise Exception	
 								#-------------------------------------------------------------------------------#
 								#Here, u enter the REACTIVE PHASE
 
-								allLandmarks={}
-								for pathentry in nextpath:
-									pathi=pathentry[1]
-									
-									if pathi.sectId not in allLandmarks:
-										allLandmarks[pathi.sectId]=[]
-										
-									newLandmarks=self.g.getLandmarks(conn,pathi.sectId)
-									for splitid in newLandmarks:
-										for refid in newLandmarks[splitid]:
-											if refid not in allLandmarks[pathi.sectId]:
-												allLandmarks[pathi.sectId].append(refid) 
+							allLandmarks={}
+							lookupEdge={}
+							for pathentry in nextpath:
+								pathi=pathentry[1]
 								
-								print "\n\n\t\tIN REACTIVE PHASE\n\n"			
-								self.reactive(allLandmarks)
-								pass
+								if pathi.sectId not in allLandmarks:
+									allLandmarks[pathi.sectId]=[]
+									lookupEdge[pathi.sectId]=pathi
+									
+								newLandmarks=self.g.getLandmarks(conn,pathi.sectId)
+								for splitid in newLandmarks:
+									for refid in newLandmarks[splitid]:
+										if refid not in allLandmarks[pathi.sectId]:
+											allLandmarks[pathi.sectId].append(refid) 
+							
+							print "\n\n\t\tIN REACTIVE PHASE\n\n"			
+							status,questions=self.reactive(allLandmarks)
+							print "\n\n\t\tIN REACTIVE PHASE\n\n",questions			
+							if status!=None and status!=-1:
+								path=self.g.djikstra(lookupEdge[status].v,g.getNode(DEST))					
+								#~ print path,'\n',self.g.djikstra(nextpath[j-1][-1].v,g.getNode(DEST))					
+								#~ sfile.write(repr(path[i-1].splitId)+repr(map(lambda x:x.splitId, path)))
+								queue.put(path)
+								if sys_debug==1:
+									print "<--- tracker conveyed new path to the runner --->"
+								prevtime=self.time
+								checkpttime=self.time
+								i=0		#so that control doesn't reach to tracking end after breaking
+								self.updateResults(1,questions)
+								break
+							elif status==None:
+								self.updateResults(0,questions)	
+								print "EXCEPTION TO BE RAISED"
+								raise Exception											
 								#-------------------------------------------------------------------------------#
-							else:	
-								sortedTuple=sorted(restEdges,key=lambda x:x[0])
-								closestTuple=sortedTuple[0]
-								lastWaitDist=newWaitDist
-								if closestTuple[0]-lastWaitDist>0:
-									newWaitDist=closestTuple[0]-lastWaitDist
-									filteredSect.append(closestTuple[1].sectId)						
-									print
-									print "\twait distance changes: ",path[i].length, " to ",newWaitDist
-									print
-									#~ dist-=lastWaitDist							
-									dist=newWaitDist			#after crossing intersection, wait on not more than newWaitDist
+							else:
+								if len(restEdges)>0:	
+									sortedTuple=sorted(restEdges,key=lambda x:x[0])
+									closestTuple=sortedTuple[0]
+									lastWaitDist=newWaitDist
+									if closestTuple[0]-lastWaitDist>0:
+										newWaitDist=closestTuple[0]-lastWaitDist
+										filteredSect.append(closestTuple[1].sectId)						
+										print
+										print "\twait distance changes: ",path[i].length, " to ",newWaitDist
+										print
+										#~ dist-=lastWaitDist							
+										dist=newWaitDist			#after crossing intersection, wait on not more than newWaitDist
+									else:
+										for itemtuple in sortedTuple:			# add all those sections which should have reached by now
+											if itemtuple[0]-lastWaitDist>0:
+												filteredSect.append(itemtuple[1].sectId)
+										print "ZERO WAITING"		
+										dist=0	 #next possible segment is shorter than this route segment, so no need to wait for crossing next possible segment
+									factor=1.0
 								else:
-									for itemtuple in sortedTuple:			# add all those sections which should have reached by now
-										if itemtuple[0]-lastWaitDist>0:
-											filteredSect.append(itemtuple[1].sectId)
-									dist=0	 #next possible segment is shorter than this route segment, so no need to wait for crossing next possible segment
-								factor=1.0													
+									print "NOTHING TO ASK"
+									dist=dist+path[i].length														
 						
 						#if intersection is not crossed, wait on the old distance but with a reduced factor	
 						elif crossedIntersection==0:
@@ -675,7 +926,7 @@ class server:
 					# -------------------------------------------------------------
 					
 					if sys_debug==1:
-						print "<--- runner on track! with speed @", speed, "--->", "(",dist, self.time,prevtime,factor,crossedIntersection,")"
+						print "<--- runner on track! with speed @", speed ,"(",self.uspeed_avg,")","--->", "(",dist, self.time,prevtime,factor,crossedIntersection,")"
 					prevtime=self.time
 					checkpttime=self.time
 				
@@ -719,11 +970,31 @@ class server:
 		self.uspeed_n+=1
 		
 	def estimateSpeed(self):
-		return 5.0
-		#~ return self.uspeed_avg
+		#~ return 5.0
+		return self.uspeed_avg
 
 	def checkcorrect(self,runner,ttime):
 		return runner.gettime()-ttime
+
+	def updateResults(self,status,questions):
+		print ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"				
+		'''
+		filepath="/home/arbazk/MTT/Quantum/MovingDot/att"
+		if not os.path.exists(filepath+str(self.modifier.getT()-1)+".txt"):
+			f=open(filepath+str(self.modifier.getT()-1)+".txt","w")
+		else:
+			f=open(filepath+str(self.modifier.getT()-1)+".txt","a")
+		f.write("//----------------------------------------/\n")
+		f.write("Tracking Status\n")
+		f.write("Actual Time: "+str(self.time)+"\n")
+		f.write("Expected Time: "+str(self.etime)+"\n")
+		f.write("Expected Time: "+str(self.etime)+"\n")
+		f.write("# attrib: "+str(self.modifier.getT())+"\n")
+		f.write("status: "+str(status)+"\n")
+		f.write("questions: "+str(questions)+"\n")
+		f.write("//----------------------------------------/\n\n")
+		f.close()		
+		'''
 				
 	def printStats(self):
 		if TOPRINT==1:
@@ -731,7 +1002,7 @@ class server:
 			f.write("//----------------------------------------/\n")
 			f.write("Tracking Status\n")
 			f.write("Actual Time: "+str(self.time)+"\n")
-			f.write("Expected Time: "+str(self.etime)+"\n")
+			f.write("Questions: "+str(self.questions)+"\n")
 			f.write("Mistakes: "+str(self.mistakes)+"\n")
 			f.write("Decisions: "+str(len(set(self.decisions)))+"\n")
 			f.write("Prompts: "+str(self.prompts)+"\n")
@@ -846,6 +1117,11 @@ if __name__=="__main__":
 	#~ print map(lambda x: x.edgeId, g.djikstra(g.getNode(SRC), g.getNode(DEST)))
 	queue= Queue.Queue()	
 	ans = Queue.Queue()	
+	m=attmodifier.modifier(conn)
+	#~ v=int(raw_input("Enter T:"))
+	m.clear()
+	m.modify(3,3)
+	#~ print "modified"
 	#~ for i in path:
 		#~ print i.u
 	runner = user(g)

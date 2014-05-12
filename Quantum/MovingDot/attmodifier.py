@@ -69,7 +69,7 @@ class modifier:
 		cur=self.conn.cursor()
 		for i in range(1,self.T):
 			cur.execute("alter table test drop column a"+str(i)+" ;") 
-		self.T=0
+		self.T=1
 		self.N=0
 		cur.close()
 		self.conn.commit()
@@ -77,7 +77,7 @@ class modifier:
 #~ conn = connect("dbname=demo user=postgres host=localhost password=indian")
 #~ s=modifier(conn)
 #~ s.modify(2,3)
-print "Modified"
+#~ print "Modified"
 if __name__=="__main__":		
 	try:
 		conn = connect("dbname=demo user=postgres host=localhost password=indian")

@@ -388,10 +388,13 @@ A. Get the centroid of the landmark geometry
 -- Calculate the distance of x from u and store it.
 
 SPeed distribution
-Speed (S) - (random.lognormvariate(math.log(20),0.5)) 
-Why this parameters? 30 is speed limit on the roads, speed limits are set to 85th percentile of operating speeds. 
+Speed (S) - (random.lognormvariate(2.7,0.5)) 
+Why this parameters? 25 is speed limit on the roads, speed limits are set to 85th percentile of operating speeds. 
 (Use p-quantile calculator - http://www.solvemymath.com/online_math_calculator/statistics/continuous_distributions/lognormal/quantile_lognormal.php)
 Deviance (D)- Gaussian distribution random.gauss(0,(S/10))
+
+For probability estimation:
+http://www.quantwolf.com/calculators/normalprobcalc.html
 
 Steps:
 1. Pick up a speed using the lognorm distribution.
@@ -449,7 +452,7 @@ On the pattern on prompts:
 
 ---------------------------------------------------------------------------------------------------------
 Collecting results (avoiding large programs)	
-	for i in {1..10}; do timeout 500 python main.py; done
+	for i in {1..30}; do timeout 50 python main.py; done
 
 Synthetic data set
 for i in {1..10}; do for j in {1..50}; do echo $i | timeout 50 python main.py; done done
