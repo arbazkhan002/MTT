@@ -88,89 +88,384 @@
 \maketitle
 \makecertificate
 \begin{abstract}
-I plan to finalize the text of the abstract in the end of the writing.
+Using landmarks in communicating routes leads to a more natural navigation concept for humans as compared to simple turn-based instructions. Modern day navigation assistance services use name-based reference of landmarks in route instructions, which are not always recognized by a wayfinder (due to his unfamiliarity to the landmark or unfamiliarity to the particular name reference used). Moreover, these rely upon a high-end interface for communicating routes which requires support for web connectivity, graphics rendering and location sensing in the end-device. In this work, we propose a model for dialog-based navigation assistance for localization and route guidance using visual and geometric characteristics of landmarks. We discuss a localization algorithm based on speed prediction for estimating the location to facilitate incremental route guidance. We also consider the issue of disorientation and provide strategies for reorienting a lost person. Further, we evaluate the model for quality of service by assisting artificial agents in navigation using a synthetic dataset of landmark attributes.
 %We also provide an insight into the complexity of the untackled problem of resolving the frame of reference.
 \end{abstract}
 \tableofcontents
 \chapter{Introduction}
+\section{Problem Statement}
+The goal of this thesis is conceptualization, implementation and evaluation of a model for navigation assistance which relies upon the geometric and visual characteristics of landmarks to localize and guide a person from a known source to a known destination using spoken-dialog interactions as the interface.
 \section{Notions and Terminology}
 \subsection{Wayfinding}
-Human wayfinding is the process of purposeful and directed movement from an origin to a specific destination. It is different from spatial exploration or \textit{locomotion}, the other form of navigation where the goal is not to reach a specific destination, but to contribute to cognitive map formation of an environment. So the daily trips that a person makes to his work-place from his home is a wayfinding task, while exploring an unfamiliar neighborhood in the town is locomotion. The problem of wayfinding is identification of the ordered sequence of actions to be performed in a spatial environment to reach at a desired location. For a car driver in a street network, these set of actions are related to determining the turning behaviour at every intersection that he encounters. For a person in a museum looking for a specific art form, these set of actions would be a sequence of hallways he needs to walk through, to get to the intended location. 
+Human wayfinding is the process of purposeful and directed movement from 
+an origin to a specific destination. It is different from spatial 
+exploration or \textit{locomotion}, the other form of navigation where 
+the goal is not to reach a specific destination but to contribute to 
+cognitive map formation of an environment. So the daily trips that a 
+person makes to his work-place from his home is a wayfinding task, while 
+exploring an unfamiliar neighborhood in the town is locomotion or 
+exploration. The problem of wayfinding is: identify the ordered 
+sequence of actions that must be performed in a spatial environment to reach 
+a desired location. For a car driver in a street network, these set of 
+actions are related to determining the turning behaviour at every 
+intersection that he encounters. For a person in a museum looking for a 
+specific art form, these set of actions would be a sequence of hallways 
+he needs to walk through, to get to the intended location. 
 
-Further, its easy to realize that in our everyday interaction with the spatial environment, we are involved with several instances of wayfinding tasks. In some, the exact sequence of actions is well familiar but in others we need either an external assistance or a personal strategy to find our ways. The former case requires acquisition of spatial knowledge of the environment either through prior experiences or through static information learned through maps and other media-based resources and so is prone to errors. Similarly, personal strategies used in wayfinding do not guarantee a successful endeavour to the destination. Traditionally, people have used maps and compasses as external tools as an assistance to wayfinding. These guidance instruments have evolved over the years to mobile navigation systems as the need was to provide incremental delivery of instructions with regards to the movement of the person. This has provably been more effective as the information on what needs to be known is provided only when it needs to be known. This concept shapes the modern form of assistance, \textit{location-aware} wayfinding. 
+Further, it's easy to see that in our everyday interaction with space 
+we are often involved in wayfinding tasks. In some, the exact sequence of 
+actions is very familiar but in 
+others we need either external assistance or a personal strategy to 
+find the way. The former requires acquisition of spatial knowledge 
+of the environment either through prior experience or through static 
+information learned from maps and/or other media-based resources and so 
+is prone to errors. Similarly, personal strategies used in wayfinding do 
+not guarantee success in reaching the destination. Traditionally, 
+people have used maps and compasses as external tools for 
+wayfinding. These guidance instruments have evolved over the years to 
+mobile navigation systems as the need was to provide incremental 
+instructions as the person moves in space. This has 
+proved more effective as the information on what needs to be known 
+is provided only when needed. This approach shapes the 
+modern form of assistance - \textit{location-aware} wayfinding. 
 \subsection{Location Awareness}
-A service is said to be \textit{location aware} if it allows user to discover and communicate their positions in real world using some or the other form of external hardware support. Location awareness has become the key component in any mobile computing application \cite{parctab}. Talking about navigation, we can say that if the end-device knows its geographical location, the service is location-aware. The definition comes from the realm of location-aware computing where location-awareness means ability to provide services based on the geographical location of a mobile device. Primarily, there are three different techniques of location sensing - Triangulation, Scene Analysis and Proximity Sensing \cite{hightower}. In the modern day location-aware services, GPS is the most widely used because of its better relative accuracy. The Invisible Ideas Project \cite{perry} was the first of its kind to use flash and GPS technology to provide location-aware services.
+A service is said to be \textit{location aware} if it allows an user to 
+discover and communicate his position in the real world using some  
+form of external hardware support. Location awareness has become 
+a key component in many mobile computing applications \cite{parctab}. 
+In the context of navigation, we can say that if the end-device knows its 
+geographical location the service is location-aware. This definition 
+comes from the realm of location-aware computing where location-awareness 
+means ability to provide services based on the geographical location of a 
+mobile device. Primarily, there are three different techniques for 
+location sensing - Triangulation, Scene Analysis and Proximity Sensing 
+\cite{hightower}. In modern location-aware services GPS is the 
+most widely used because of its better relative accuracy. The Invisible 
+Ideas Project \cite{perry} was the first of its kind to use flash and GPS 
+technology to provide location-aware services.
 
-Having talked about being location aware, its easy to realize the notion of location-aware wayfinding. By the help of techniques of location-awareness, the mobile devices are able to determine the geographical location using a sensing technology (such as GPS) and then using internet, relay the location information (along with any identity-based data like user ID, device ID, etc.) to the service provider. Thus, it helps in realizing an effective wayfinding assistance system which can provide an incremental delivery of instructions to the user based on the location of the user. 
+It is easy to see how location-awareness can help in way-finding. 
+With the help of techniques for location-awareness a mobile device is
+able to determine its geographical location using sensing technology (
+such as GPS) and then relay this information (along with any 
+identity-based data like 
+user ID, device ID, etc.) to the service provider. Thus, it can be a platform 
+for realizing an effective wayfinding assistance system which can provide 
+incremental delivery of instructions to the user based on the location of 
+the user. 
 
-\section{Drawbacks in Modern Wayfinding Systems}
-The modern advancements in technology have diminished the efforts involved in discovering and implementing wayfinding strategies. With the advent of smartphones, it has been made possible to build powerful applications which can show maps and compute routes based on preferences. It has removed the complexities of carrying a map and understanding its symbols and notations. The navigation services are dynamic, that is the representation of graphical information keeps changing with regards to the current perception of the user. This is where location-awareness comes into picture and applications have utilized the power of this facility to customize their functionality to maximally benefit the users. The quality of user experience has evolved over a series of developments with offerings like 3-D representation of the environment showing up places nearby for better orientation. Significant efforts have been put into the research and development of the systems for navigational assistance. With the techniques of augmented reality, it has been now made possible to attach digital information (such as images, voice notes) to the environment. Furthermore, local information on weather and traffic have been incorporated into these applications to further facilitate an interactive wayfinding environment.
+\subsection{Landmarks}
+A \textit{landmark} is a salient and distinguishing feature of its spatial environment. Landmarks are primarily used in navigation as reference points for confirming orientation and identifying actions at intersections \cite{lovelace}. Any spatial object qualifies as a landmark if it is distinctly different from its surrounding.  The distinctiveness is defined. Based on the representation of a landmark in a relational model, the attributes of the spatial features can be divided into four categories:
+\begin{itemize}
+  \item \textbf{identitificational} - these attributes include \textit{reference-id} as a pointer to the spatial feature, and \textit{category} specifying the class of the spatial feature. The values to category attribute can come directly from the data to which they belong (e.g., buildings and parks are stored seperately).
+  \item \textbf{geometric} - for a spatial 2-D database, geometry comes as a primitve datatype representing the structure in coordinate space. This allows the definition of functions to handle geometry based operations and provide mathematically derived attributes like area, length, etc.
+  \item \textbf{visual} -  these attributes define the visual characteristics like height of a building, color of a structure, etc.
+  \item \textbf{semantic} - these attributes are defined as per external sources and are meant to identify the meaning behind a feature e.g., petrol-pump, ATM.  The major attribute that falls in this category is \textit{popularity} of the feature as a landmark which facilitates context-aware wayfinding.
+\end{itemize}
+
+While the first feature are dependent on the data organization, visual and geometric attributes can be defined to be \textit{intrinsic} attributes as these are present or can be easily extracted from exisiting spatial databases\footnote{From the visual attributes defined in \cite{raubal}, \textit{shape} and \textit{fa\c{c}ade area} can be completely extracted from spatial databases using geometric attributes, while \textit{color} information is extracted from laser scanning and complete \textit{visibility} analysis requires 3-D representation.} Semantic attributes are \textit{extrinsic} attributes, as these are not inherent characteristics of a feature and external resources (such as crowdsourcing or yellow pages) need to be used for their extraction.
+\section{Background}
+Modern advancements in technology have diminished the diffiulty 
+in discovering and implementing wayfinding strategies. With the 
+advent of smartphones, it is possible to build powerful 
+applications which can show maps and compute routes based on preferences. 
+It has removed the inconvenience of carrying a map and understanding its 
+symbols and notation. The navigation services are dynamic, that is the 
+representation of graphical information keeps changing with respect to 
+the current information about the user. This is where location-awareness 
+comes into the picture and applications have utilized the power of this 
+facility to customize their functionality to maximally benefit the users. 
+The quality of user experience has evolved over a series of developments 
+with offerings like 3-D representation of the environment showing up 
+places nearby for better orientation. Significant effort has been put 
+into the research and development of systems for navigational 
+assistance. With the techniques of augmented reality, it has been now 
+made possible to attach digital information (such as images, voice notes) 
+to the environment. Furthermore, local information on weather and traffic 
+has been incorporated into these applications to further enhance an 
+interactive wayfinding environment.
 
 %{For ineffectiveness of GPS, refer to PLace Lab}
-Despite the powerful services offered as digital navigational aids, there come several issues along with it. When the service is location aware, the end-device needs to have typically high processing speeds to process communicated information. Though the cost and availability of such devices is moving towards the inexpensive side but so are the requirements of these increasingly sophisticated applications. Apart from the installation and usage costs associated with these services, the limited accuracy behind the positioning systems is a vital concern. The inaccuracies extend from measurement errors in positioning systems from satellites to those in the map-matching algorithms \cite{white2000} that attempt to associate recorded GPS data points\footnote{These associations are unreliable to an extent and usually mismatch in dense street networks with diverging roadways, overpasses and underpasses} with the correct roadway. The GPS sensors suffer from poor service coverage and need clear vision to the sky to allow locking location. Thus, GPS limitations extend to subways, underpasses, indoor environments and dense street networks with tall buildings. Furthermore, deploying a location sensor like GPS has overheads of cost and power consumption.
+Despite the powerful services offered by digital navigational aids, there 
+are some problems as well. When a service is location aware, 
+the end-device needs to have typically high processing speeds to process 
+communicated information. Apart from 
+the installation and usage costs associated with these services, the 
+limited accuracy of these positioning systems is a vital concern. The 
+inaccuracies extend from measurement errors in positioning systems from 
+satellites to those in the map-matching algorithms \cite{white2000} that 
+attempt to associate recorded GPS data points\footnote{These associations 
+are unreliable to an extent and usually mismatch in dense street networks 
+with diverging roadways, overpasses and underpasses} with the correct 
+roadway. The GPS sensors suffer from poor service coverage and need clear 
+vision to the sky to allow location locking. Thus, GPS limitations extend 
+to subways, underpasses, indoor environments and dense street networks 
+with tall buildings. Furthermore, deploying a location sensor like GPS 
+has overheads of cost and power consumption.
 
-The other limitation associated with modern day wayfinding services is their utter dependence on the extrinsic information for providing route assistance. The quality of route instructions are based upon the details in the map and the available landmark information through crowdsourced databases. This availability is fairly non-uniform and the success in providing utility is highly variable. Its easy to find regions where the route instructions in these commercial applications have no incorporation of existing landmarks (due to their unrecorded entry in the spatial databases), and are merely turn-based. Also, despite the availability of the landmark information doesn't guarantee good quality route instructions unless the representational names used are consistent and recognised universally or locally. For example, since not all streets in India have names, various popular mapping services and applications which rely upon street names to convey route instructions, had to invent their own street naming conventions and thus are observably ineffective in the context of navigation assistance. Although these applications do have extensive geodatabases covering essential spatial information about environment features (i.e., buildings, parks, shops) and can be utilized to enhance effectiveness of wayfinding guidance by enriching route instructions with landmarks.
+The other limitation associated with modern day wayfinding services is 
+their utter dependence on the extrinsic information for providing route 
+assistance. The quality of route instructions are based upon the details 
+in the map and the available landmark information through crowdsourced 
+databases. This availability is fairly non-uniform and the success in 
+providing utility is highly variable. Its easy to find regions where the 
+route instructions in these commercial applications have no incorporation 
+of existing landmarks (due to their unrecorded entry in the spatial 
+databases), and are merely turn-based. Also, despite the availability of 
+the landmark information doesn't guarantee good quality route 
+instructions unless the representational names used are consistent and 
+recognised universally or locally. For example, since not all streets in 
+India have names, various popular mapping services and applications which 
+rely upon street names to convey route instructions, had to invent their 
+own street naming conventions and thus are observably ineffective in the 
+context of navigation assistance.
 
-Beyond these limitations, most of the services rely on the internet connection available between the server and the client particularly for delivering map data or route based information. Streaming such an information requires good internet connectivity. Storing offline maps is an alternative option but it may not be always feasible as and when the space requirements grow beyond accepted limits.   
-
+Beyond these limitations, most of the services require an internet 
+connection between the server and the client particularly for 
+delivering map data or route based information. Streaming such  
+information requires good internet connectivity. Storing offline maps is 
+an alternative option but may not be always feasible.   
 
 \section{Motivation}
-While designing a pure auditory-based wayfinding cum location-tracking model would eliminate the high-end device support, here we discuss our underlying motivations behind the two major decisions made before working on the model.
+A pure voice-based way-finding cum location-tracking 
+model would eliminate the high-end device requirement. Here we discuss two
+major reasons for such a way-finding model. 
 \subsection{Why design a dialog-based system?}
-In addition to the above shortcomings in modern digital navigation services, research works \cite{jensen2010,dalton,reagan2006} have identified user preference for auditory assistance as well as a memory advantage for auditory over visual information. It has been observed \cite{baldwin2009,furukawa2004} that auditory guidance facilitates the task of wayfinding whereas visual guidance facilitates cognitive map formation. Ego-centeric auditory instructions (i.e., based on the driver's perception) reduce the workload in navigation for drivers who are involved more in the task of route learning rather than cognitive map formation. Besides this, graphical interface has its limitations to applications where interaction with the real world is more important than interactions with the computer (or here, the mobile device). Wayfinding can be treated as one of those tasks that demand high level of attention to avoid any road-side risks. On one hand, these visually dominated applications demand the user’s
-attention because they predominantly present information on a digital display (or a mobile screen) and thus are potentially distracting and interfering. While on the other hand, auditory route instructions have been observed to be processed and followed without interference to the driving task \cite{jensen2010,dalton}.
+In addition to the above shortcomings in modern digital navigation 
+services, research \cite{jensen2010,dalton,reagan2006} has 
+identified user preference for auditory assistance as well as a memory 
+advantage for auditory over visual information. It has been observed 
+\cite{baldwin2009,furukawa2004} that auditory guidance facilitates the 
+task of way-finding whereas visual guidance facilitates cognitive map 
+formation. Ego-centeric auditory instructions (i.e., based on the driver'
+s perception) reduce the workload in navigation for drivers who are 
+involved more in the task of route learning rather than cognitive map 
+formation. Besides this, a graphical interface is likely to seriously 
+interfere with driving while talking or listening on a hands-free mobile 
+device is less intrusive. Wayfinding 
+can be treated as one of those tasks that demand high level of attention 
+to avoid any road-side risks. Auditory route instructions have been 
+observed to be processed and followed without interference to the driving 
+task \cite{jensen2010,dalton}.
 
-Experiments \cite{srinivasaneffect} have also indicated an additional benefit associated with auditory guidance that the reaction times are fastest with pure auditory route instructions as compared to electronic route maps or turn-by-turn displays. 
+Experiments \cite{srinivasaneffect} have also indicated an additional 
+benefit associated with auditory guidance. The reaction times are 
+faster with pure auditory route instructions compared to electronic 
+route maps or turn-by-turn displays. 
 
-Furthermore,  one of the major advantage of a dialog system in wayfinding is that context-identification can be implemented by studying the response of the user to the questions prompted. This helps in personalising the service with regards to individual navigational strategies preferred by the users. Majority of navigation assistance technologies are still visually dominated and the use of audio is an unexplored area of research. In our knowledge no comparable research has been performed exploiting the usefulness of pure auditory medium for navigation purposes.
+Furthermore,  one major advantage of a dialog system 
+is that context-identification can be implemented by studying the 
+response of the user to the instructions/questions. This helps in 
+personalising the service to navigational 
+strategies preferred by a user. Most navigation assistance 
+technologies are still visually dominated and the use of audio has 
+little researched. In the literature we have not foundo comparable research 
+that has exploited the usefulness of plain voice dialog for 
+navigation purposes.
 \subsection{Why choose to be location-unaware?}
-On one hand as we speak of benefits behind a dialog-based system for wayfinding devoid of any graphical interface, it may well be said that such a system can be more effectively realized with location positioning systems. Apart from the overheads and limitations of GPS mentioned above, the motivating factor behind the choice of being location unaware is targeting compatibility towards low-end devices. Even though there have been significant advancements in mobile technology and subsequent reductions in the costs of a high-end device, a major portion of third-world countries (such as India) rely upon vanilla feature phones as mobile devices. 
+Most end user mobile devices (typically cell phones)  in India are low cost 
+vanilla voice phones that also be used for texting. They do not have a GPS or
+other location sensors.
 
-Also,  we think that a location unaware methodology could be of great use in wireless sensor networks where its infeasible and cost-ineffective to install GPS sensors on every wireless node to determine its location. The idea is that if one can design an effective wayfinding service devoid of GPS support, then it can be applied in developing a messaging protocol for WSNs eliminating the need of location sensors. 
 %Also, it has been suggested in research \cite{itsbarry} that in a joint activity where there is a coordination to achieve a private/personal goal, spoken dialog interactions are more effective than typed conversations and has been put to use in designing intelligent tutoring systems. This indication serves a clue that reading out the route instructions should be more effective as compared to text-based communication. 
 
  \section{Objectives of the work}
-We target the design of a \textit{Dialog-based Location Unaware Wayfinding} model which exploits the auditory mode of route guidance and eliminates the use of global positioning systems. A service is location-unaware if the end-device has no location sensitivity and can't determine its physical location either by itself (e.g.,GPS) or by sensing the resources from the environment (e.g., Infrared or wireless media). To further define a \textit{location-unaware} service, we describe it as a service under a pseudo location-aware model which though can determine the location of the end-user within a certain estimate but doesn't employ any hardware support from the end-device for location sensing. The thesis of this work is:
+We target the design of a \textit{Dialog-based, location unaware way-finding
+} model which exploits the auditory mode of route guidance and eliminates 
+the need for global positioning systems. A service is location-unaware if 
+the end-device has no location sensitivity and can't determine its 
+physical location either by itself (e.g.,GPS) or by sensing the resources 
+from the environment (e.g., Infrared or wireless media). To further 
+define a \textit{location-unaware} service, we describe it as a service 
+under a pseudo location-aware model where one can determine the 
+location of the end-user only approximately within a certain tolerance
+without employing any location identification hardware support from the 
+end-user device (in our case a cell phone). 
 
+In this thesis we have conceptualized, designed and implemented
 {
-\textit{a dialog-based conversation, inquiring for inferring the physical location of the end-user can achieve pseudo location-awareness.}
+\textit{a dialog-based way-finding system with pseudo location-awareness.}
 }
 
+More concretely, the objectives are:
 
-Here, we lay down the concrete objectives that we wish to fulfill as a part of this research work.
+First, to communicate route instructions, we have designed a cross-
+lingual way-finding platform which gives instructional output in a simple
+formal language. This formal language can be easily translated to
+any natural language using a natural language generation module.
 
-Firstly, to communicate the route instructions, we aim to design a cross-lingual wayfinding platform which is generic in terms of application to any intended natural language structure. Such a system facilitates customizing the route instructions as per user convenience.
+Second, we use a dialog based approach that uses intrinsic and extrinsic
+landmarks to localize a user during the entire way-finding session.
 
-Secondly, we target to build a location-unaware system and attempt to match the effectiveness of positioning systems for localizing a user in wayfinding tasks. 
+Third, we aim to minimize the dependence of the system on any extrinsic 
+information. By extrinsic information, we mean any information that is 
+not readily and uniformly available due to the needs of large-scale 
+manual processing e.g., crowdsourcing, or database built from a place 
+directory/gazeteer (gazeteers are not available for all places). The 
+intention is to maximize the use of inherent characteristics of an 
+environment like the height and color of buildings, the existence of an 
+open space and hence its shape, surrounding vegetation, etc. Such 
+characteristics can be automically extracted from standard detection 
+systems like LIDAR.
 
-Thirdly, we aim to minimize the dependence of the system on any extrinsic information. By extrinsic information, we mean any information that is not readily and uniformly available due to the needs of large-scale manual processing e.g., crowdsourcing, or database built from a place directory or gazeteer (gazeteers are not available for all places). The intention is to maximize the use of inherent characteristics of an environment like the height and color of buildings, the existence of an open space and hence its shape, surrounding vegetations, etc\footnote{Such characteristics can be automically extracted from standard detection systems like LIDAR \cite{lidar}. Work done by Brenner et. al. \cite{brenner} show a possible approach to do so.}
-
-Fourthly, we plan to provide a pure auditory-based service which demands nothing more than auditory medium for communication with the mobile end-user. Thus the implication is the service functions independent of support for any wireless technology (such as bluetooth) or web access.
+Fourth, we plan to provide a pure speech-based service which demands 
+nothing more than an auditory medium for communicating with the mobile end-
+user. Thus the the service functions independent of 
+support for any wireless technology (such as bluetooth) or web access.
   \section{Roadmap}
-  In this thesis, we discuss upon the design of the wayfinding model which uses dialog-based conversations to localize a user and guide him to his destination. To make the model generic, we design a communication protocol based upon notational representation of route instructions to convey the path to destination. Since there is no device-based support for location awareness, to bring it into effect, an algorithm to generate a structured dialog interaction is architected for tracking the user's location in terms of en-route landmarks encountered. \textit{Chapter 3} introduces the semantics of the communication protocol as well as an architecture of a generic wayfinding model. In \textit{Chapter 4}, we present the localization algorithm to determine user's location by generating prompts for location tracking. It also discusses on the strategy adopted to reorient a user disoriented from his path due to possible misinterpretation of route instructions or because of an erroneous behaviour. \textit{Chapter} 5 discusses the implementation of the model which was used to study the effectiveness of the algorithm. To evaluate goodness of the algorithm, a simulation platform was set up to model a user with homogenous and non-homogenous speed patterns and erroneous behaviour in following the route instructions. \textit{Chapter 6} elaborates upon the employed user-modelling and introduces the goodness metrics used for evaluating the results of performance of the route guidance model. We end in \textit{Chapter 7} by providing a brief summary of the contributions made by the work and an outlook on possible improvements of the model.
- \chapter{Problem Definition and Related Work}
+Our design for way-finding uses dialog-based conversations to localize a 
+user and guide him to the destination. To make the model generic, we design 
+a communication protocol based on a formal representation of route instructions
+to convey the path to the destination. The algorithm generates
+a structured interaction for tracking the user's 
+location in terms of en-route landmarks encountered. 
+\textit{Chapter-3} introduces the semantics of this communication protocol. It also discusses the system architecture of a generic dialog-based wayfinding model, the key modules of which are elaborated throughout this thesis specific to a location-unaware realization.
+In \textit{Chapter-4}, we present the localization algorithm to determine user's location by generating prompts for location tracking. It also discusses on the strategy adopted to reorient a user disoriented from his path due to possible misinterpretation of route instructions or because of an erroneous behaviour. 
+\textit{Chapter-5} discusses the key implementation-specific aspects of the model which was used to study the effectiveness of the algorithm. These are related to building the knowledge-base underlying the proposed model and, implementing reorientation strategies for a lost person. 
+To evaluate `goodness' of the algorithm, a simulation platform was set up to model a user with homogenous and non-homogenous speed patterns and erroneous behaviour in following the route instructions. \textit{Chapter-6} elaborates upon the employed simulation setup describing the user-modelling and a synthetic dataset of landmark attributes. We also introduce the goodness metrics used for evaluating the quality of service of the route guidance model. We end in \textit{Chapter-7} by providing a brief summary of the contributions made by the work and an outlook on possible improvements of the model. 
+
+ \chapter{Related Work}
  \section{Dialog Based Wayfinding Systems} 
- Significant research has been done in the area of defining \cite{lovelace} and generating \cite{Dale,Habel,Maab,pattabhiraman} good quality route instructions which are specialized for human understanding. These models have evolved from those working on handcrafted data disseminating turn-by-turn instructions in a one-step-per-sentence mappings to the systems processing data from Geographic Information Systems (GIS) using visible features of the surroundings and generating compact and more human-like descriptions. Yet, most of these systems were monologic systems in which the instructions are provided in advance or even incrementally, causing them to suffer from poor comprehensions and an inability to resolve user's ambiguities along the path. Owing to the benefits of a dialog system to respond to user queries and possibility to react to inadequate or poorly understood instructions, research works \cite{hurtig, jokinen, richter} had moved towards building dialog-driven wayfinding models. The major concern in these systems is the balance between not overwhelming the user with too much media to minimize the cognitive overload, and to allow several levels of details to produce comprehensive and accurate set of descriptions preventing any ambiguities or confusions. Although some \cite{richter} of these systems rely on purely speech-based interactions while others \cite{hurtig,jokinen} have used the luxury of realizing a multimodal interface which offers the user a freedom of choice by combining speech, pen and graphics based input signals. Although multimodal systems do help in matching user preferences and result in better and disambiguated input signals, but these systems lose the fundamental requirement of wayfinding assistance, which is, to discourage distractions from driving task and reduce the driver workload. Pure-auditory based route instructions help in servicing systems which cause to minimize the interference to driving task and thus create no negative impact on reaction times \cite{srinivasaneffect}. 
+Significant research has been done in the area of defining 
+\cite{lovelace} and generating \cite{Dale,Habel,Maab,pattabhiraman} good 
+quality route instructions which are specialized for human understanding. 
+These models have evolved from those working on handcrafted data 
+disseminating turn-by-turn instructions in a one-step-per-sentence 
+mapping to the systems processing data from Geographic Information 
+Systems (GIS) using visible features of the surroundings and generating 
+compact and more human-like descriptions. Yet, most of these systems were 
+one-way systems in which the instructions are provided in advance or 
+even incrementally leading to poor comprehension and 
+an inability to resolve ambiguities along the path. Owing to the 
+benefits of a dialog system to respond to user queries and the possibility to 
+react to inadequate or poorly understood instructions, research  
+\cite{hurtig, jokinen, richter} had moved towards building dialog-driven 
+wayfinding models. The major concern in these systems is to avoid 
+overwhelming the user with too much information (or media) to avoid cognitive 
+overload while giving enough detail to produce comprehensive and accurate 
+descriptions preventing any ambiguities or confusions. Some \cite{richter} 
+of these systems rely on purely speech-based interaction while others 
+\cite{hurtig,jokinen} have used a multimodal interface which offers the user 
+freedom to combine speech, pen and graphics based input. 
+Although, multimodal systems do help a user to choose the preferred mode of
+interaction and consequently result in better and disambiguated input signals
+they compromise the main requirement of wayfinding assistance, which is, to 
+reduce distractions while driving. 
+Pure-auditory based route instructions help in minimizing the 
+interference to driving and thus create no negative impact on reaction 
+times \cite{srinivasaneffect}. 
  
-At present, there are only a handful of systems specializing in spoken dialogue-systems for wayfinding. These systems can be classified into three categories depending on the target domain - indoor wayfinding, human-machine interaction and outdoor wayfinding. The systems \cite{fongsurvey} based upon human-machine interaction aim to facilitate the machine in execution of spatial task by providing route information and handling questions raised by it on detecting ambiguities. These tasks though certainly are similar to real world wayfinding assistance models in dialog structure and end goals but differ in the ability of their subjects. Humans follow subjective and non-uniform speed-patterns, instruction understanding behavior and conceptual memory models. 
+At present, there are very few systems using just spoken 
+dialogue for wayfinding. These systems can be classified into 
+three categories depending on the target domain - indoor wayfinding, human
+-machine interaction and outdoor wayfinding. The systems \cite{fongsurvey} 
+based on human-machine interaction aim to facilitate the machine in 
+execution of spatial tasks by providing route information and handling 
+questions raised on detecting ambiguities. These tasks though 
+certainly are similar to real world wayfinding assistance models in 
+dialog structure and end goals but differ in the ability of their subjects. 
+Humans follow subjective and non-uniform speed-patterns, instruction 
+understanding behavior and conceptual memory models. 
 
-For outdoor wayfinding, Janarthanam et. al. \cite{janarthanam} introduced a mobile dialogue application that combines GIS systems with spoken-dialog interface to assist tourists in city navigation. It allows tourists to initiate tasks such as entity search(e.g. a museum or a restaurant), navigation assistance, entity inquiry and others. The proposed architecture is capable to work in a fairly complex spoken-dialog interaction (e.g., Take me to Hume) by the help of its semantic parser and  modules for natural language generation (NLG) and understanding (NLU). Richter et. al. \cite{richter} worked on generating context-based route instructions for outdoor wayfinding. Using a spoken dialog interface, the proposed conceptual model allows user to tune the details of the route instructions from incremental turn-by-turn instructions to a more abstract set of instructions focussing upon destination descriptions. The model identifies and adapts to wayfinder's spatial knowledge about street network after deciding upon the prominence of a spatial entity derived from a hierarchy of visual, structural and cognitive features. Spoken-dialog systems for indoor wayfinding systems have not been so far realized as per our knowledge. Cuay\'{a}huitl et. al. \cite{heriberto} worked on a text-based dialogue system for indoor wayfinding which can respond to user queries on locations in a building. The authors claimed that a dialogue system for indoor wayfinding with only text-based interaction leads to a very high overall scores of user satisfaction. Despite the fact that indoor settings are perfect for application of location-unawareness, yet none of these systems have yet attempted it and rely upon certain location sensitivity (such as support for infrared and wireless media) of the end-device. Also, the relatively less emphasis on evolution of pure spoken-dialog systems can be understood owing to their limitations in poor speech recognition and unfulfilled linguistic expectations. 
+For outdoor wayfinding, Janarthanam et. al. \cite{janarthanam} introduced 
+a mobile dialogue application that combines GIS systems with spoken-
+dialog to assist tourists in city navigation. It allows 
+tourists to initiate tasks such as entity search (e.g. a museum or a 
+restaurant), navigation assistance, entity inquiry and others. The 
+proposed architecture is capable of fairly complex spoken-
+dialog interaction (e.g., Take me to Hume) with the help of its semantic 
+parser and  modules for natural language generation (NLG) and 
+understanding (NLU). Richter et. al. \cite{richter} worked on generating 
+context-based route instructions for outdoor wayfinding. Using a spoken 
+dialog interface, the proposed conceptual model allows a user to tune the 
+details of the route instructions from incremental turn-by-turn 
+instructions to a more abstract set of instructions focussing upon 
+destination descriptions. The model identifies and adapts to the wayfinder's 
+spatial knowledge about the street network after deciding the prominence 
+of a spatial entity derived from a hierarchy of visual, structural and 
+cognitive features. Spoken-dialog systems for indoor wayfinding systems 
+have not been built so far to the best of our knowledge. Cuay\'{a}huitl 
+et. al.  \cite{heriberto} worked on a text-based dialogue system for indoor 
+wayfinding which can respond to user queries on locations in a building. 
+The authors claimed that a dialogue system for indoor wayfinding with 
+only text-based interaction leads to very high overall scores of user 
+satisfaction. Despite the fact that indoor settings are perfect for 
+application of location-unawareness, yet none of these systems have  
+attempted it and rely on certain location sensitivity (such as support 
+for infrared and wireless media) in the end-device. Also, the relatively 
+less emphasis on evolution of pure spoken-dialog systems can be 
+understood owing to their limitations in poor speech recognition and 
+unfulfilled linguistic expectations. 
 
-In this work we try to overcome these limitations by setting up a cross-lingual communication platform to convey non-ambiguous route instructions. Furthermore, questions posted to the user for location tracking are such that the responses are recognisable speech commands (such as `yes',`no') and require primitive speech processing. 
+In this work we try to overcome these limitations by setting up a cross-
+lingual communication platform to convey non-ambiguous route instructions.
+Furthermore, questions posed to the user for location tracking are 
+such that the responses are recognisable speech commands 
+(such as `yes',`no') and require only primitive speech processing. 
  \section{Evaluation Techniques}
-Simulations in a virtual environment provide an important means for evaluation and improvement of real-world systems. Once the virtual environment is set-up, the next task is to identify the metrics for evaluating effectivenss of the system. The work done in this thesis is closely related to natural language generation (NLG), only that we focus only on the spatiotemporal content of the linguistics. Thus, the technique and metrics used for evaluating NLG systems are relevant in this context. For example, if the number of users who reach the target are less in number, it reflects poor quality of NLG involved and thus could be related to the underlying spatio-temporal content of the instructions. Its only recently that increasing number of efforts have been made for evaluation of NLG systems. As Spanger et. al. \cite{spanger} point out, there can be two categories of methods to evaluate the effectiveness of a NLG systems - intrinsic and extrinsic. \textit{Intrinsic} methods compare the system with a benchmark/gold standard system, and \textit{extrinsic} methods which use metrics to identify the goodness of the system such as the number of mistakes made by the user while following the instructions \cite{young}. 
+Simulations in a virtual environment provide an important means for 
+evaluation and improvement of real-world systems. Once the virtual 
+environment is set-up, the next task is to identify the metrics for 
+evaluating effectivenss of the system. The work done in this thesis is 
+closely related to natural language generation (NLG), except that we focus 
+only on the spatiotemporal content of the linguistics. Thus, the 
+technique and metrics used for evaluating NLG systems are relevant in 
+this context. For example, if the number of users who reach the target 
+are fewer, it reflects poorly on the quality of the NLG and thus 
+could be related to the underlying spatio-temporal content of the 
+instructions. It is only recently that increasing effort has 
+been put into evaluation of NLG systems. As Spanger et. al. \cite{spanger} 
+point out, there can be two categories of methods to evaluate the 
+effectiveness of an NLG system - intrinsic and extrinsic. \textit{
+Intrinsic} methods compare the system with a benchmark/gold standard 
+system, and \textit{extrinsic} methods use metrics like the number of 
+mistakes made by the user while following the instructions \cite{young}. 
 
-Further, research on evaluation of NLG tasks and investigation of issues moved towards introducing shared task challenges \cite{give}. In this task, the evaluation is assessed with the help of performance of human users who follow the instructions of the NLG in a virtual environment with several rooms and corridors. The performance evaluation uses a set of objective as well as subjective measures. Objective measures include the distance travelled and time taken in reaching the goal as well as the number of instructions provided and the number of words per instruction. While, subjective measures provide a subjective rating of these instructions whether the instructions were useful. An interesting area of research \cite{GRUVE} then emerged which works on modelling navigation assistance with real world problems like uncertainty in location and noisy feedback signals from the user. These works exploit the utility of virtual environment to eliminate the time and costs vested in real world experiments as well as provide a means to manipulate the environment targeting specific issues and context.
+Further, research on evaluation of NLG tasks and investigation of issues 
+has moved towards introducing shared task challenges \cite{give}. In this 
+task the evaluation is assessed based on the performance of human users 
+who follow the instructions of the NLG in a virtual environment with 
+several rooms and corridors. The performance evaluation uses a set of 
+objective as well as subjective measures. Objective measures include the 
+distance travelled and time taken in reaching the goal as well as the 
+number of instructions provided and the number of words per instruction. 
+While, subjective measures provide a subjective rating of these 
+instructions whether the instructions were useful. An interesting area of 
+research \cite{GRUVE} then emerged which works on modelling navigation 
+assistance with real world problems like uncertainty in location and 
+noisy feedback signals from the user. These works exploit the utility of a 
+virtual environment to eliminate the time and costs of real world 
+experiments as well as provide a means to manipulate the environment 
+targeting specific issues and context.
 
-In this work, we move beyond the above mentioned virtual environments tested on humans. With the virtualization of spatial environment, we also virtualize the user via driver modelling and use a set of goodness metrics to measure the effectiveness of the system. Independent works have been done in the area of simulating driver behavior to study traffic and accident patterns but none of these have been integrated into a testbed for wayfinding assistance.
+In this work, we move beyond the above mentioned virtual environments 
+tested on humans. With the virtualization of the spatial environment, we also 
+virtualize the user via driver modelling and use a set of goodness 
+metrics to measure the effectiveness of the system. Independent works 
+have been done in the area of simulating driver behavior to study traffic 
+and accident patterns but none of these have been integrated into a 
+testbed for wayfinding assistance.
 
 %Since, in our case where no gold standard system is available and directly comparing the sytem to GPS would be unfair
 %Simulations in a virtual environment provide an important means for evaluation and improvement of real-world systems.  
  %Performance evaluation on a task is the basic requirement to measure effectiveness of a natural language generation (NLG) system \cite{reiter}.  
  \chapter{Conceptual Model For Wayfinding}
-We introduce our location-unaware wayfinding model through a generic spoken-dialog based model for wayfinding. This model can be transformed to a location-unaware wayfinding model by specializing the module structure. The aim of this model is to assist wayfinding tasks using natural language dialogues. The next section presents an architecture of the model. We then propose a natural language independent communication protocol for conveying route-instructions in wayfinding assistance.
+We introduce our location-unaware wayfinding model through a generic 
+spoken-dialog based model for wayfinding. This model can be transformed 
+to a location-unaware wayfinding model by specializing the module 
+structure. The aim of this model is to assist wayfinding tasks using 
+natural language dialogues. The next section presents an architecture of 
+the model. We propose a natural language independent communication 
+protocol for conveying route-instructions.
  \section{Architecture}
-The generic wayfinding model is designed to incorporate any linguistic structure and a predefined technique for user localization. It should also be personalized for user and should be able to identify and react to the context realizing the differences and constraints. The knowledge base behind the functioning should be dynamically updateable to incorporate the changes in spatial environment (such as broken road links, new buildings, etc). A pipelined architecture realizing the requirements is shown in Figure \ref{fig:arc}. 
+The generic wayfinding model is designed to incorporate any linguistic 
+structure and a predefined technique for user localization. It could 
+be personalized for an user and should be able to identify and react to 
+the context realizing the differences and constraints. The knowledge base 
+behind is dynamically updateable to incorporate 
+the changes in the spatial environment (such as broken road links, new 
+buildings, etc). An architecture for the system realizing the requirements is 
+shown in Figure \ref{fig:arc}. 
  \begin{figure}
 \centering
 %\includegraphics[width=0.5\textwidth]{phase1.png}
@@ -178,24 +473,86 @@ The generic wayfinding model is designed to incorporate any linguistic structure
 \caption{Architecture for a generic wayfinding model}
 \label{fig:arc}
  \end{figure}
-First, a \textit{user} (real human or modelled) requests for assistance to his destination. The \textit{Natural Language Module} parses the semantics of utterances, processes spatial information and records a new query into the system. Before route instructions could be generated, it is required to locate the user (obtain the source location). Most of the wayfinding systems today use GPS systems for this purpose in an outdoor environment and a wireless or infrared media in indoor settings. Baus et. al. \cite{baus} introduced an adaptive model for localization that alternates between the different sensing technologies to overcome their individual limitations. For the system introduced in this work, we seek the user's location via dialog-based tracking, posing simple questions using features of a spatial environment. Nonetheless, we can abstract a module specifically for \textit{location inference} which either can work independently (by using sensors or receptors) or uses the \textit{knowledge base} of the system for localization. Thus, the knowledge base stores a characterization of the complete spatial environment. It also stores transportation network for target modalities (e.g., road links for vehicles, abstract spaces for pedestrians) and its relationship with the environment features (e.g., landmark-street association).
+First, a \textit{user} (real human or artificial agent) requests for assistance 
+to a destination. The \textit{Natural Language Module} parses the 
+semantics of utterances, processes spatial information and records a new 
+query into the system. Before route instructions are generated, it 
+is necessary to locate the user (obtain the source location). Most of the 
+wayfinding systems today use GPS systems for this purpose in an outdoor 
+environment and wireless or infrared in indoor settings. Baus et. 
+al. \cite{baus} introduced an adaptive model for localization that 
+alternates between the different sensing technologies to overcome their 
+individual limitations. For our system, we seek 
+the user's location via dialog-based tracking, posing simple questions 
+using features of a spatial environment. Nonetheless, we can abstract a 
+module specifically for \textit{location inference} which either can work 
+independently (by using sensors or receptors) or use the 
+\textit{knowledge base} of the system for localization. Thus, the 
+knowledge base stores a characterization of the complete spatial 
+environment. It also stores the transportation network for target modalities 
+(e.g., road links for vehicles, abstract spaces for pedestrians) and its 
+relationship with the environment features (e.g., landmark-street 
+association).
 
-Once the information required to compute the topological route is collected, then the desired route is computed using query attributes (such as preferred route option like shortest route, scenic route, etc. and modality constraints like roads permissible for 4-wheelers). This computed route is passed along with the nearby landmark information for \textit{route annotation}. The route annotator processes the salience of the landmarks, removes redundant spatial relationships and fills up the spatial content of the route instructions. Besides operating on the processed information, the system is also sensitive to the context i.e. user attributes (such as modality, speed patterns) and location information. The context needs to be considered before generating natural language route instructions. With the help of contextual information, a decision is made by the \textit{dialog manager} on the delivery of route instructions to match with the time when a user needs to know it. So, decisions like these make sure that turn instructions are temporally matched with user's movement. The dialog manager also compiles the route instructions into a form understandable by the natural language module, which then serves to eventually fulfill the user request.
+Once the information required to compute the topological route is 
+collected, then the desired route is computed using query attributes 
+(such as preferred route option like shortest route, scenic route, etc. 
+and modality constraints like roads permissible for 4-wheelers). This 
+computed route is passed on together with nearby landmark information for 
+\textit{route annotation}. The route annotator processes the salience of 
+the landmarks, removes redundant spatial relationships and fills up the 
+spatial content of the route instructions. Besides operating on the 
+processed information, the system is also sensitive to the context i.e. 
+user attributes (such as modality, speed patterns) and location 
+information. The context needs to be considered before generating natural 
+language route instructions. With the help of contextual information, a 
+decision is made by the \textit{dialog manager} on the delivery of route 
+instructions to synchronize with when a user needs it. So, 
+decisions like these make sure that turn instructions are temporally 
+matched with an user's movement. The dialog manager also compiles the route 
+instructions into a form understandable by the natural language module, 
+which then serves to eventually fulfill the user request.
   \section{Communication Protocol}
-In this section we introduce a communication protocol to facilitate in a cross-lingual platform development. The protocol is targeted to deal with two kinds of scenarios - simple intersections and complex intersections. These latter scenario relates with the challenge of dealing intersections with larger number of possible actions (more than 4) and tackling ineffectiveness of standard direction models. but also on In a similar work, Klippel \cite{klippel} introduced a formal representation of turn directions at decision points which could be chunked to produce better quality route instructions and could be tailored as per user preferences. But the formal theory model targets only simple intersections. Our approach is based upon similar notational representation of turn instructions but extends to complex intersections as well. The goals in designing this protocol are:
+In this section we introduce a communication protocol which allows
+cross-lingual platform development. The protocol is targeted to deal with 
+two kinds of scenarios - simple intersections and complex intersections. 
+These latter scenarios deal with intersections having a 
+large number of possible actions (more than 4) and tackling 
+ineffectiveness of standard direction models. In similar 
+work, Klippel \cite{klippel} introduced a formal representation of turn 
+directions at decision points which could be chunked to produce better 
+quality route instructions and could be tailored as per user preferences. 
+But the formal theory model targets only simple intersections. Our 
+approach is based on a similar notational representation of turn 
+instructions but extends to complex intersections as well. The goals in 
+designing this protocol are: 
 \begin{enumerate}
 \item \textbf{Completeness}
-The protocol should indicate the action to be taken at each decision point implicitly or explicitly. A set of good quality instructions avoids the need of specifying action at each decision point by chunking action behaviour. For example, instructions `\textit{go straight}' and `\textit{take a left turn}' can be compactly presented as `\textit{take the second left turn}' which implicitly directs action behaviour at each decision point and is arguably more comprehensible. 
+The protocol should indicate the action to be taken at each decision 
+point implicitly or explicitly. A set of good quality instructions avoids 
+the need to specify the action at each decision point by chunking action 
+behaviour. For example, instructions `\textit{go straight}' and 
+‘take a left turn’ can be compactly presented as ‘take the second left 
+turn’ which implicitly directs action behaviour at each decision point 
+and is arguably more comprehensible. 
 \item \textbf{Non-ambiguity}
-An ambiguous language model leads to confusion in action required at each decision point and thus could lead to disorientation. For instance, instructing to take a left turn in a topology as shown in Figure \ref{fig:turnA} is ambiguous and its not sure whether to take a left at $e$ or $f$.
+An ambiguous language model leads to confusion in the action required at each 
+decision point and could lead to disorientation. For instance, 
+instructing to take a left turn in a topology as shown in Figure 
+\ref{fig:turnA} is ambiguous and its not sure whether to take a left at 
+$e$ or $f$.
 \item \textbf{Applicability}
-Alongwith completeness and non-ambiguity, its equally important to consider the ease of applying the communication protocol in real-world scenario. This means that the protocol should be structured such that it could be translated easily to the desired natural language.
+Alongwith completeness and non-ambiguity, it is equally important to 
+consider the ease of applying the communication protocol in a real-world 
+scenario. This means that the protocol should be structured such that it 
+could be translated easily to the desired natural language.
 \end{enumerate}
  \begin{figure}
 \centering
 %\includegraphics[width=0.5\textwidth]{phase1.png}
 \epsfig{file=turnA.eps, height=1.5in, width=1in}
-\caption{Ambiguity arises to determine the intended action when the route instructions are based on standard direction models as \textit{take a left}.}
+\caption{Ambiguity arises when the route instructions are based on 
+standard direction models as \textit{take a left}.}
 \label{fig:turnA}
  \end{figure}
 
@@ -203,20 +560,47 @@ Alongwith completeness and non-ambiguity, its equally important to consider the 
 \centering
 %\includegraphics[width=0.5\textwidth]{phase1.png}
 \epsfig{file=complex_real.eps, height=3in, width=3in}
-\caption{Real world example of a complex intersection in Mumbai, India taken from Google Maps \cite{gmaps}.}
+\caption{Real world example of a complex intersection in Mumbai, India 
+taken from Google Maps \cite{gmaps}.}
 \label{fig:complex_real}
  \end{figure}
 
-
-The communication protocol proposed is an adaptive approach to formal representation of route instructions. It uses standard direction model like that of Klippel \cite{klippel} when the resulting indications are non-ambiguous. However, if the turns are complex, it uses a clock-based convention to represent turn directions. The protocol uses a language independent symbolic encoding for landmarks and turn instructions at decision points. The two scenarios of simple and complex intersections differ in the symbolic encoding of directions while landmarks use a notational representation and each of these is elaborated below. 
+The communication protocol proposed is an adaptive approach to formal 
+representation of route instructions. It uses a standard direction model 
+similar to Klippel \cite{klippel} when the resulting indications are non
+-ambiguous. However, if the turns are complex, it uses a clock-based 
+convention to represent turn directions. The protocol uses a language 
+independent symbolic encoding for landmarks and turn instructions at 
+decision points. The two scenarios of simple and complex intersections 
+differ in the symbolic encoding of directions while landmarks use their own 
+notational representation and below we elaborate on each of these. 
 
 \subsection{Landmarks}
-The landmarks are represented by notational IDs and by the direction (left or right) in which user encounters this landmark while moving on a path segment. So, if $X$ is the notational ID of a landmark and if moving on the directed path segment, the user would encounter $X$ on his right, then the corresponding representation is $X^R$. Similarly, $X^L$ indicates that moving on the path segment, user can see $X$ on his left. These representations along with that of turn behaviour at intersections (simple and complex) form the communication protocol. 
+The landmarks are represented by notational IDs and by the direction 
+(left or right) in which an user encounters this landmark while moving on 
+a path segment. So, if $X$ is the notational ID of a landmark and if 
+moving on the directed path segment, the user would encounter $X$ on his 
+right, then the corresponding representation is $X^R$. Similarly, $X^L$ 
+indicates that moving on the path segment, user can see $X$ on his left. 
+These representations along with that of turn behaviour at intersections 
+(simple and complex) form the communication protocol. approx
 
 \subsection{Simple Intersections}
-Most of the intersections in the real-world fall under this category and are fairly trivial to communicate. To formally define a \textit{simple intersection}, we divide field-view of the navigator in four triangular zones (see Figure \ref{fig:simpleturns}). Choosing reference axis as the left direction perpendicular to the incoming road segment $p$, the left zone spans 45 degrees on either side of the reference point. Its mirror image in the field-view w.r.t. the decision point is the right zone. Similarly, one can conceptualize the other two zones. We define a decision point as \textit{simple intersection}, if in each zone of the navigator's field view, there is atmost one road segment emerging from the decision point. 
+Most of the intersections in the real-world fall under this category and 
+are fairly trivial to communicate. To formally define a \textit{simple 
+intersection}, we divide field-view of the navigator in four triangular 
+zones (see Figure \ref{fig:simpleturns}). Choosing reference axis as the 
+left direction perpendicular to the incoming road segment $p$, the left 
+zone spans 45 degrees on either side of the reference point. Its mirror 
+image in the field-view w.r.t. the decision point is the right zone. 
+Similarly, one can conceptualize the other two zones. We define a 
+decision point as a \textit{simple intersection}, if in each zone of the 
+navigator's field view, there is atmost one road segment emerging from 
+the decision point. 
 
-The instructions that are associated with change in direction are represented by symbols \textbf{R} and \textbf{L}. The non-turning instruction indicating to go straight is represented by \textbf{S}. 
+The instructions that are associated with change in direction are 
+represented by symbols \textbf{R} and \textbf{L}. The non-turning 
+instruction indicating that one should go straight is represented by {\bf S}. 
 
 \begin{figure}
 \centering
@@ -237,7 +621,10 @@ The instructions that are associated with change in direction are represented by
 \centering
 %\includegraphics[width=0.5\textwidth]{complex.png}
 \epsfig{file=complexex.eps, height=3.5in, width=3in}
-\caption{An Example to showcase an application of the proposed communication protocol. The intended route is represented symbolically in text at the top of the image. One possible translation of the encoding in english language can be as: 
+\caption{An Example to showcase an application of the proposed 
+communication protocol. The intended route is represented symbolically in 
+text at the top of the image. One possible translation of the encoding in 
+english language can be as: 
 1. \textit{Go Straight}
 2. \textit{You would find X on your left}
 3. \textit{At the intersection, take the 4th link in anti-clockwise direction from the most adjacent turn at your right side} 
@@ -246,11 +633,40 @@ The instructions that are associated with change in direction are represented by
 }
 \label{fig:complexex}
  \end{figure} 
-Any decision point which is not a simple intersection is a \textit{complex intersection}\footnote{See Figure \ref{fig:complex_real} and Figure \ref{fig:complex}}. For representing complex intersections, we use a clock-based notation for a non-ambiguous conceptualization. Klippel \cite{klippel} handles non-standard turns by using 8-sector model which opens up alternate notations such as \textbf{hl} (half left), \textbf{vr} (veer right), etc. These work well for 4-way intersections and 3-way intersections but as the number of emerging road segments increase beyond 4, the 8-sector model fails as there can be more than one road segment in the same sector.
+Any decision point which is not a simple intersection is a 
+\textit{complex intersection}\footnote{See Figure \ref{fig:complex_real} 
+and Figure \ref{fig:complex}}. For representing complex intersections, we 
+use a clock-based notation for a non-ambiguous representation. Klippel 
+\cite{klippel} handles non-standard turns by using an 8-sector model which 
+opens up alternate notations such as \textbf{hl} (half left), 
+\textbf{vr} (veer right), etc. These work well for 4-way intersections 
+and 3-way intersections but as the number of merged road segments 
+increase beyond 4, the 8-sector model fails as there can be more than one 
+road segment in the same sector. A clock-based notation does not work on the 
+basis of a sector model and can handle extended multi-way intersections.
 
-A clock-based notation doesn't work on the basis of sector model and can handle extended multi-way intersections. The roads are represented in an anti-clockwise numbering starting from the first turn right-adjacent to incoming road segment as shown in Figure \ref{fig:complex}. Notationally, we represent complex turns in the form $R_i$, which represents the $i^{th}$ numbered turn in anti-clockwise direction starting from the most adjacent turn on your right.
+There are two ways to conceptualize a clock-based numbering scheme - clockwise and anti-clockwise. A user who is restricted to travel in a clockwise direction around a complex intersection has to be given instructions using the direction of travel as a reference. Thus, a fixed numbering scheme can't work in all scenarios. For example, in India, the direction of travel is clockwise, while in western countries it is anti-clockwise. Hence, we chose to specify whether the numbering is clockwise or anticlockwise at a global level and then let the algorithm make use of it. In the below discussion, we assume the global specifications pertaining to anti-clockwise direction of travel.
 
-Figure \ref{fig:complexex} elaborates a full-fledged example combining the representations of landmarks and intersections and attempts to present an english translation of the same. Before we conclude, we claim that the qualitative calculi used by Klippel \cite{klippel} on formal representations can be applied likewise to the proposed communication protocol as it is as a direct extension to the theory by including complex intersections. So if a route has no complex intersections, our communication protocol is semantically similar to that of Klippel. Continuing on the example from Figure \ref{fig:complexex}, the route segment corresponding to the representation $SSL$ is translated as \textit{the third left} which is similar to the chunking rule of Klippel's \textit{wayfinding choremes} \cite{klippel}, where by the help of term rewriting, an intermediate representation is deduced from simple representations, prior to natural-language translation.
+The roads are represented in an anti-clockwise numbering starting from the first turn right-adjacent to 
+incoming road segment as shown in Figure \ref{fig:complex}. Notationally, 
+we represent complex turns in the form $R_i$, which represents the 
+$i^{th}$ numbered turn in an anti-clockwise direction starting from the most 
+adjacent turn on your right.
+
+Figure \ref{fig:complexex} elaborates a full-fledged example combining 
+the representations of landmarks and intersections and attempts to 
+present an english translation of the same. Before we conclude, we claim 
+that the qualitative calculi used by Klippel \cite{klippel} on formal 
+representations can be applied likewise to the proposed communication 
+protocol as it directly extends it by including 
+complex intersections. So if a route has no complex intersections, our 
+communication protocol is semantically similar to that of Klippel. 
+Continuing the example from Figure \ref{fig:complexex}, the route 
+segment corresponding to the representation $SSL$ is translated as 
+\textit{the third left} which is similar to the chunking rule of 
+Klippel's \textit{wayfinding choremes} \cite{klippel}, where by the help 
+of term rewriting, an intermediate representation is deduced from simple 
+representations, prior to natural-language translation.
 
 %We implemented this protocol and incorporated in our testbed to demonstrate the validity and non-ambiguity of its semantics.
  \chapter{Dialog-Based Localization}
@@ -399,6 +815,7 @@ Having combined the resources for extracting attribute values in building relati
 If visibility analysis methods are available (3D models, laser scanning, etc), distance criteria can't be relaxed beyond a certain extent as even though a landmark is visible from the road segment but it can't be guaranteed that the attributes of the landmark can be identified by a distant driver. Also, as per Lynch \cite{lynch}, distant landmarks are used only for overall guidance by novice.
 
 \section{Facilitating Reorientation}
+\subsection{Anticipative Phase}
 In Section \ref{sec:reorient}, we discussed the algorithm to reorient a disoriented user by querying over possible paths. Trajectory predictions can assist in reorientation by studying distraction patterns which can be exploited for faster localization. These patterns may arise due to environmental factors, complexity of the underlying communication protocol or arbitrary human errors. Trajectory prediction algorithms have been previously developed for improving QoS in cellular mobile networks (\cite{kyri}) and facilitating location based services by predicting future locations (\cite{karimi}). These situations differ from the context of disorientation in wayfinding in which the movements are biased based upon route instructions. 
 
 The approach for our trajectory prediction is bases on probabilistic modelling of movements under the constraints of route-instructions and extends the constraint-free modelling approach adopted in \cite{liu}. The model calculates probability of disorienting on a particular road segment ($Y$) from the given path segments ($X,I$). To realize the model, the required probability is output from a conditional probability $P(Y/X,I)$ which can be put as
@@ -423,6 +840,31 @@ P(X_2=R_1/X_1=R_1,I=R_1) & P(X_2=R_1/X_1=R_1,I=R_1) & \cdots &P(X_2=R_1/X_1=R_1,
 \end{bmatrix}
 $$
 \fi
+\subsection{Reactive Phase}
+While reorientation is facilitated in anticipative phase through probability modelling, in reactive phase, we use entropy measures to identify the odering of questions to be posed to the user. Since reactive phase deals with questions based directly on the attribute-value pair of the landmarks surrounding the user's location (e.g., \textit{do you see a white-colored building around you?}), its important to identify the most informative pair knowing the response to which maximally prunes the search space. This problem is similar to the machine learning problem of structuring a decision tree, where the most informative attribute-value pairs are identified and placed at the top of the decision tree. Such a structuring yields the preferred sequence of attributes to inquire, to most rapidly narrow down the class of an entity. 
+
+The methodology used to identify the preferred sequence of attributes to inquire is defined below:
+
+Suppose, the set of road-segments suspected for location of the user is $X$. Corresponding to each of these segments, we identify the associated landmarks and collect them into a set $L$. Thus, $L$ is a set of potential landmarks visible to the user at this particular time. Each landmarks $l$ in $L$ has a certain set of attributes, values $V_{l}$ of which may overlap amongst more than one landmark (for example, there may be multiple \textit{red colored} buildings in the locality). The problem is to identify the attribute-value pair which helps prune the possible locations of the user by a good enough extent. The problem is broken down into two steps- 1) identify the attribute to inquire for and, 2) identify the value of this attribute to inquire, to output the preferred attribute-value pair. 
+
+\subsubsection*{Identifying the best attribute}
+To identify the best attribute from the set of attributes, we first define entropy $E_a$ of an attribute $a$ as follows:
+\[\displaystyle E_{a} = - \sum_{v \in V_{a}}f_vlog_{2}{(f_v)}\] 
+where, \\
+$V_{a}$ is the set of values for attribute $a$ and, \\
+$f_{v}$ is the ratio of elements in $L$ with the $v$ as the value of attribute $a$.
+
+It can be observed that $E_a$ is 0, when all landmarks have the same value for attribute $a$. Inquiring upon such an attribute to the user doesn't lead to any pruning and is thus the least preferred attribute. $E_a$ is maximum when the values of $a$ are almost equally shared in all the landmarks. In this case, based on a response to the question asked upon the value of attribute $a$, more locations can be pruned off. Thus, the most preferred attribute to inquire is the one which has the maximum entropy.
+
+Hence, the equation for finding the best attribute $a_opt$ can be defined as below:
+\[\displaystyle a_{opt} = \operatorname*{arg\,max}_a E_a\] 
+
+\subsubsection*{Identifying the best value}
+Finding the best attribute is not sufficient for the cause of building a dialog-based system ensuring simple speech processing. It is preferable to limit the response of the user to an objective one rather than something subjective which demands qualitative speech processing requirements. For example, it is preferable to ask a question like, `do you see a red colored building nearby?', rather than something like, 'what is the color of building you see?'.
+
+The same entropy rule applies to finding the best value only that entropy of a value ($E_v$) differs from the definition of an attribute and, is defined below:
+\[\displaystyle E_{v} = - f_vlog_{2}{(f_v)} - (1-f_v)log_{2}{(1-f_v)}\] 
+
  \chapter{Evaluation}
 This chapter describes an intrinsic evaluation of our proposed model, particularly focussing on the ability to localize and reorient a disoriented user. The evaluation is conducted by modelling user behavior with paramters to characterize speed profile and erroneous behaviour. We then measure the performance of the guidance algorithm under a dialog-based interface with regards to quality of user experience. To our knowledge, there has not been any previous work using a virtual user model for evaluating wayfinding guidance. 
  
@@ -453,8 +895,8 @@ The major concern with any wayfinding assistance is the extent of interference i
 
 Based on the above discussion, we define \textit{goodness} for the evaluation of the proposed model with the metric as number of prompts made to the user ($N_p$) normalized over the total number of decisions made ($N_D$) and, the total number of disorientations ($N_e$) recorded before reaching the destination. The goodness metric ($G$) is formulated as: 
 \[\displaystyle G = \frac{N_p - \alpha \times N_D}{N_e}\]  
-where $\alpha$ is a constant, representing the number of prompts made in guiding a user on a route with exactly one decision point.
- \section{Results}
+where $\alpha$ is a constant, representing the number of prompts made in guiding a user on a route with exactly one decision point. Thus, $G$ can said to indicate the number of extra prompts needed to localize a user normalized over the number of mistakes committed by the user.
+ \section{Results} 
  \chapter{Conclusion and Future Work}
 \bibliographystyle{plain}
 \bibliography{references}

@@ -1,0 +1,12 @@
+# Fdb version 3
+["dvipdf"] 0 "thesis.dvi" "thesis.pdf" "thesis" 
+  "thesis.dvi" 0 -1 0 "latex"
+  (generated)
+  "thesis.pdf"
+["latex"] 1400007853 "thesis.tex" "thesis.dvi" "thesis" 
+  "iitkthesis.cls" 0 -1 0 ""
+  "thesis.aux" 1400007853 8 a94a2480d3289e625eea47cd1b285758 ""
+  "thesis.tex" 1400007851 61117 0f7e76ba349bb51302b53ae6e63bc25b ""
+  (generated)
+  "thesis.log"
+  "thesis.dvi"

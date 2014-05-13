@@ -402,12 +402,6 @@ english language can be as:
 }
 \label{fig:complexex}
  \end{figure} 
-
-{\bf *** In India if we come to a circle we go around it in the clockwise
-direction so your instruction should say 2nd link in the clockwise rather
-than 4th anti-clockwise since there is no way the user can find the 4th
-link since he is travelling clockwise. ***}
-
 Any decision point which is not a simple intersection is a 
 \textit{complex intersection}\footnote{See Figure \ref{fig:complex_real} 
 and Figure \ref{fig:complex}}. For representing complex intersections, we 
@@ -417,11 +411,12 @@ opens up alternate notations such as \textbf{hl} (half left),
 \textbf{vr} (veer right), etc. These work well for 4-way intersections 
 and 3-way intersections but as the number of merged road segments 
 increase beyond 4, the 8-sector model fails as there can be more than one 
-road segment in the same sector.
+road segment in the same sector. A clock-based notation does not work on the 
+basis of a sector model and can handle extended multi-way intersections.
 
-A clock-based notation does not work on the basis of a sector model and can 
-handle extended multi-way intersections. The roads are represented in an 
-anti-clockwise numbering starting from the first turn right-adjacent to 
+There are two ways to conceptualize a clock-based numbering scheme - clockwise and anti-clockwise. A user who is restricted to travel in a clockwise direction around a complex intersection has to be given instructions using the direction of travel as a reference. Thus, a fixed numbering scheme can't work in all scenarios. For example, in India, the direction of travel is clockwise, while in western countries it is anti-clockwise. Hence, we chose to specify whether the numbering is clockwise or anticlockwise at a global level and then let the algorithm make use of it. In the below discussion, we assume the global specifications pertaining to anti-clockwise direction of travel.
+
+The roads are represented in an anti-clockwise numbering starting from the first turn right-adjacent to 
 incoming road segment as shown in Figure \ref{fig:complex}. Notationally, 
 we represent complex turns in the form $R_i$, which represents the 
 $i^{th}$ numbered turn in an anti-clockwise direction starting from the most 
@@ -441,8 +436,6 @@ segment corresponding to the representation $SSL$ is translated as
 Klippel's \textit{wayfinding choremes} \cite{klippel}, where by the help 
 of term rewriting, an intermediate representation is deduced from simple 
 representations, prior to natural-language translation.
-
-{\bf *** DONE TILL HERE ***}
 
 %We implemented this protocol and incorporated in our testbed to demonstrate the validity and non-ambiguity of its semantics.
  \chapter{Dialog-Based Localization}

@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>422427.427832</xmin>
-            <ymin>2931637.296693</ymin>
-            <xmax>424268.947142</xmax>
-            <ymax>2932776.237612</ymax>
+            <xmin>423615.818181</xmin>
+            <ymin>2932508.902914</ymin>
+            <xmax>424105.239112</xmax>
+            <ymax>2932811.599455</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -1765,10 +1765,10 @@
                     </symbol>
                 </symbols>
                 <rotation field=""/>
-                <sizescale field="" scalemethod=""/>
+                <sizescale field="" scalemethod="area"/>
             </renderer-v2>
             <customproperties/>
-            <displayfield></displayfield>
+            <displayfield>split_id</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
@@ -1790,9 +1790,9 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
