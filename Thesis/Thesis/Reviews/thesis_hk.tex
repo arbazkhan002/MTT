@@ -37,7 +37,7 @@
 %\pdfpagewidth=8.5in
 %\pdfpageheight=11in
 
-\title{Dialog-Based Wayfinding Using Intrinsic and Extrinsic Landmarks}
+\title{Dialog-Based Location Unaware Wayfinding}
 %\titlenote{(Does NOT produce the permission block, copyright information nor page numbering). For use with ACM\_PROC\_ARTICLE-SP.CLS. Supported by ACM.}}
 %\subtitle{[Extended Abstract]
 %\titlenote{A full version of this paper is available as
@@ -88,243 +88,12 @@
 \maketitle
 \makecertificate
 \begin{abstract}
-Using landmarks in communicating routes leads to a more natural navigation concept for humans as compared to simple turn-based instructions. Modern day navigation assistance services use name-based reference of landmarks in route instructions, which are not always recognized by a wayfinder (due to his unfamiliarity to the landmark or unfamiliarity to the particular name reference used). Moreover, these rely upon a high-end interface for communicating routes which requires support for web connectivity, graphics rendering and location sensing in the end-device. In this work, we propose a model for dialog-based navigation assistance for localization and route guidance using visual and geometric characteristics of landmarks. We discuss a localization algorithm based on speed prediction for estimating the location to facilitate incremental route guidance. We also consider the issue of disorientation and provide strategies for reorienting a lost person. Further, we evaluate the model for quality of service by assisting artificial agents in navigation using a synthetic dataset of landmark attributes.
+I plan to finalize the text of the abstract in the end of the writing.
 %We also provide an insight into the complexity of the untackled problem of resolving the frame of reference.
 \end{abstract}
 \tableofcontents
 \chapter{Introduction}
-\section{Problem Statement}
-The goal of this thesis is conceptualization, implementation and evaluation of a model for navigation assistance which relies upon the geometric and visual characteristics of landmarks to localize and guide a person from a known source to a known destination using spoken-dialog interactions as the interface.
-\section{Notions and Terminology}
-\subsection{Wayfinding}
-Human wayfinding is the process of purposeful and directed movement from 
-an origin to a specific destination. It is different from spatial 
-exploration or \textit{locomotion}, the other form of navigation where 
-the goal is not to reach a specific destination but to contribute to 
-cognitive map formation of an environment. So the daily trips that a 
-person makes to his work-place from his home is a wayfinding task, while 
-exploring an unfamiliar neighborhood in the town is locomotion or 
-exploration. The problem of wayfinding is: identify the ordered 
-sequence of actions that must be performed in a spatial environment to reach 
-a desired location. For a car driver in a street network, these set of 
-actions are related to determining the turning behaviour at every 
-intersection that he encounters. For a person in a museum looking for a 
-specific art form, these set of actions would be a sequence of hallways 
-he needs to walk through, to get to the intended location. 
-
-Further, it's easy to see that in our everyday interaction with space 
-we are often involved in wayfinding tasks. In some, the exact sequence of 
-actions is very familiar but in 
-others we need either external assistance or a personal strategy to 
-find the way. The former requires acquisition of spatial knowledge 
-of the environment either through prior experience or through static 
-information learned from maps and/or other media-based resources and so 
-is prone to errors. Similarly, personal strategies used in wayfinding do 
-not guarantee success in reaching the destination. Traditionally, 
-people have used maps and compasses as external tools for 
-wayfinding. These guidance instruments have evolved over the years to 
-mobile navigation systems as the need was to provide incremental 
-instructions as the person moves in space. This has 
-proved more effective as the information on what needs to be known 
-is provided only when needed. This approach shapes the 
-modern form of assistance - \textit{location-aware} wayfinding. 
-\subsection{Location Awareness}
-A service is said to be \textit{location aware} if it allows an user to 
-discover and communicate his position in the real world using some  
-form of external hardware support. Location awareness has become 
-a key component in many mobile computing applications \cite{parctab}. 
-In the context of navigation, we can say that if the end-device knows its 
-geographical location the service is location-aware. This definition 
-comes from the realm of location-aware computing where location-awareness 
-means ability to provide services based on the geographical location of a 
-mobile device. Primarily, there are three different techniques for 
-location sensing - Triangulation, Scene Analysis and Proximity Sensing 
-\cite{hightower}. In modern location-aware services GPS is the 
-most widely used because of its better relative accuracy. The Invisible 
-Ideas Project \cite{perry} was the first of its kind to use flash and GPS 
-technology to provide location-aware services.
-
-It is easy to see how location-awareness can help in way-finding. 
-With the help of techniques for location-awareness a mobile device is
-able to determine its geographical location using sensing technology (
-such as GPS) and then relay this information (along with any 
-identity-based data like 
-user ID, device ID, etc.) to the service provider. Thus, it can be a platform 
-for realizing an effective wayfinding assistance system which can provide 
-incremental delivery of instructions to the user based on the location of 
-the user. 
-
-\subsection{Landmarks}
-A \textit{landmark} is a salient and distinguishing feature of its spatial environment. Landmarks are primarily used in navigation as reference points for confirming orientation and identifying actions at intersections \cite{lovelace}. Any spatial object qualifies as a landmark if it is distinctly different from its surrounding.  The distinctiveness is defined. Based on the representation of a landmark in a relational model, the attributes of the spatial features can be divided into four categories:
-\begin{itemize}
-  \item \textbf{identitificational} - these attributes include \textit{reference-id} as a pointer to the spatial feature, and \textit{category} specifying the class of the spatial feature. The values to category attribute can come directly from the data to which they belong (e.g., \textit{buildings} and \textit{parks} are stored seperately).
-  \item \textbf{geometric} - for a spatial 2-D database, geometry comes as a primitive datatype representing the structure in coordinate space. This allows the definition of functions to handle geometry based operations and provide mathematically derived attributes such as area, length, etc.
-  \item \textbf{visual} -  these attributes define the visual characteristics e.g., height of a building, color of a structure, etc.
-  \item \textbf{semantic} - these attributes are defined as per external sources and are meant to identify the meaning or purpose behind a feature e.g., petrol-pump, ATM.  The major attribute that falls in this category is \textit{popularity} of the feature as a landmark which facilitates context-aware wayfinding.
-\end{itemize}
-
-While the first feature are dependent on the data organization, visual and geometric attributes can be defined to be \textit{intrinsic} attributes as these are present or can be easily extracted from exisiting spatial databases\footnote{From the visual attributes defined in \cite{raubal}, \textit{shape} and \textit{fa\c{c}ade area} can be completely extracted from spatial databases using geometric attributes, while \textit{color} information is extracted from laser scanning and complete \textit{visibility} analysis requires 3-D representation.} Semantic attributes are \textit{extrinsic} attributes, as these are not inherent characteristics of a feature and external resources (such as crowdsourcing or yellow pages) need to be used for their extraction.
-\section{Background}
-Modern advancements in technology have diminished the diffiulty 
-in discovering and implementing wayfinding strategies. With the 
-advent of smartphones, it is possible to build powerful 
-applications which can show maps and compute routes based on preferences. 
-It has removed the inconvenience of carrying a map and understanding its 
-symbols and notation. The navigation services are dynamic, that is the 
-representation of graphical information keeps changing with respect to 
-the current information about the user. This is where location-awareness 
-comes into the picture and applications have utilized the power of this 
-facility to customize their functionality to maximally benefit the users. 
-The quality of user experience has evolved over a series of developments 
-with offerings like 3-D representation of the environment showing up 
-places nearby for better orientation. Significant effort has been put 
-into the research and development of systems for navigational 
-assistance. With the techniques of augmented reality, it has been now 
-made possible to attach digital information (such as images, voice notes) 
-to the environment. Furthermore, local information on weather and traffic 
-has been incorporated into these applications to further enhance an 
-interactive wayfinding environment.
-
-%{For ineffectiveness of GPS, refer to PLace Lab}
-Despite the powerful services offered by digital navigational aids, there 
-are some problems as well. When a service is location aware, 
-the end-device needs to have typically high processing speeds to process 
-communicated information. Apart from 
-the installation and usage costs associated with these services, the 
-limited accuracy of these positioning systems is a vital concern. The 
-inaccuracies extend from measurement errors in positioning systems from 
-satellites to those in the map-matching algorithms \cite{white2000} that 
-attempt to associate recorded GPS data points\footnote{These associations 
-are unreliable to an extent and usually mismatch in dense street networks 
-with diverging roadways, overpasses and underpasses} with the correct 
-roadway. The GPS sensors suffer from poor service coverage and need clear 
-vision to the sky to allow location locking. Thus, GPS limitations extend 
-to subways, underpasses, indoor environments and dense street networks 
-with tall buildings. Furthermore, deploying a location sensor like GPS 
-has overheads of cost and power consumption.
-
-The other limitation associated with modern day wayfinding services is 
-their utter dependence on the extrinsic information for providing route 
-assistance. The quality of route instructions are based upon the details 
-in the map and the available landmark information through crowdsourced 
-databases. This availability is fairly non-uniform and the success in 
-providing utility is highly variable. Its easy to find regions where the 
-route instructions in these commercial applications have no incorporation 
-of existing landmarks (due to their unrecorded entry in the spatial 
-databases), and are merely turn-based. Also, despite the availability of 
-the landmark information doesn't guarantee good quality route 
-instructions unless the representational names used are consistent and 
-recognised universally or locally. For example, since not all streets in 
-India have names, various popular mapping services and applications which 
-rely upon street names to convey route instructions, had to invent their 
-own street naming conventions and thus are observably ineffective in the 
-context of navigation assistance.
-
-Beyond these limitations, most of the services require an internet 
-connection between the server and the client particularly for 
-delivering map data or route based information. Streaming such  
-information requires good internet connectivity. Storing offline maps is 
-an alternative option but may not be always feasible.   
-
-\section{Motivation}
-A pure voice-based way-finding cum location-tracking 
-model would eliminate the high-end device requirement. Here we discuss two
-major reasons for such a way-finding model. 
-\subsection{Why design a dialog-based system?}
-In addition to the above shortcomings in modern digital navigation 
-services, research \cite{jensen2010,dalton,reagan2006} has 
-identified user preference for auditory assistance as well as a memory 
-advantage for auditory over visual information. It has been observed 
-\cite{baldwin2009,furukawa2004} that auditory guidance facilitates the 
-task of way-finding whereas visual guidance facilitates cognitive map 
-formation. Ego-centeric auditory instructions (i.e., based on the driver'
-s perception) reduce the workload in navigation for drivers who are 
-involved more in the task of route learning rather than cognitive map 
-formation. Besides this, a graphical interface is likely to seriously 
-interfere with driving while talking or listening on a hands-free mobile 
-device is less intrusive. Wayfinding 
-can be treated as one of those tasks that demand high level of attention 
-to avoid any road-side risks. Auditory route instructions have been 
-observed to be processed and followed without interference to the driving 
-task \cite{jensen2010,dalton}.
-
-Experiments \cite{srinivasaneffect} have also indicated an additional 
-benefit associated with auditory guidance. The reaction times are 
-faster with pure auditory route instructions compared to electronic 
-route maps or turn-by-turn displays. 
-
-Furthermore,  one major advantage of a dialog system 
-is that context-identification can be implemented by studying the 
-response of the user to the instructions/questions. This helps in 
-personalising the service to navigational 
-strategies preferred by a user. Most navigation assistance 
-technologies are still visually dominated and the use of audio has 
-little researched. In the literature we have not foundo comparable research 
-that has exploited the usefulness of plain voice dialog for 
-navigation purposes.
-\subsection{Why choose to be location-unaware?}
-Most end user mobile devices (typically cell phones)  in India are low cost 
-vanilla voice phones that also be used for texting. They do not have a GPS or
-other location sensors.
-
-%Also, it has been suggested in research \cite{itsbarry} that in a joint activity where there is a coordination to achieve a private/personal goal, spoken dialog interactions are more effective than typed conversations and has been put to use in designing intelligent tutoring systems. This indication serves a clue that reading out the route instructions should be more effective as compared to text-based communication. 
-
- \section{Objectives of the work}
-We target the design of a \textit{Dialog-based, location unaware way-finding
-} model which exploits the auditory mode of route guidance and eliminates 
-the need for global positioning systems. A service is location-unaware if 
-the end-device has no location sensitivity and can't determine its 
-physical location either by itself (e.g.,GPS) or by sensing the resources 
-from the environment (e.g., Infrared or wireless media). To further 
-define a \textit{location-unaware} service, we describe it as a service 
-under a pseudo location-aware model where one can determine the 
-location of the end-user only approximately within a certain tolerance
-without employing any location identification hardware support from the 
-end-user device (in our case a cell phone). 
-
-In this thesis we have conceptualized, designed and implemented
-{
-\textit{a dialog-based way-finding system with pseudo location-awareness.}
-}
-
-More concretely, the objectives are:
-
-First, to communicate route instructions, we have designed a cross-
-lingual way-finding platform which gives instructional output in a simple
-formal language. This formal language can be easily translated to
-any natural language using a natural language generation module.
-
-Second, we use a dialog based approach that uses intrinsic and extrinsic
-landmarks to localize a user during the entire way-finding session.
-
-Third, we aim to minimize the dependence of the system on any extrinsic 
-information. By extrinsic information, we mean any information that is 
-not readily and uniformly available due to the needs of large-scale 
-manual processing e.g., crowdsourcing, or database built from a place 
-directory/gazeteer (gazeteers are not available for all places). The 
-intention is to maximize the use of inherent characteristics of an 
-environment like the height and color of buildings, the existence of an 
-open space and hence its shape, surrounding vegetation, etc. Such 
-characteristics can be automically extracted from standard detection 
-systems like LIDAR.
-
-Fourth, we plan to provide a pure speech-based service which demands 
-nothing more than an auditory medium for communicating with the mobile end-
-user. Thus the the service functions independent of 
-support for any wireless technology (such as bluetooth) or web access.
-  \section{Roadmap}
-Our design for way-finding uses dialog-based conversations to localize a 
-user and guide him to the destination. To make the model generic, we design 
-a communication protocol based on a formal representation of route instructions
-to convey the path to the destination. The algorithm generates
-a structured interaction for tracking the user's 
-location in terms of en-route landmarks encountered. 
-\textit{Chapter-3} introduces the semantics of this communication protocol. It also discusses the system architecture of a generic dialog-based wayfinding model, the key modules of which are elaborated throughout this thesis specific to a location-unaware realization.
-In \textit{Chapter-4}, we present the localization algorithm to determine user's location by generating prompts for location tracking. It also discusses on the strategy adopted to reorient a user disoriented from his path due to possible misinterpretation of route instructions or because of an erroneous behaviour. 
-\textit{Chapter-5} discusses the key implementation-specific aspects of the model which was used to study the effectiveness of the algorithm. These are related to building the knowledge-base underlying the proposed model and, implementing reorientation strategies for a lost person. 
-To evaluate `goodness' of the algorithm, a simulation platform was set up to model a user with homogenous and non-homogenous speed patterns and erroneous behaviour in following the route instructions. \textit{Chapter-6} elaborates upon the employed simulation setup describing the user-modelling and a synthetic dataset of landmark attributes. We also introduce the goodness metrics used for evaluating the quality of service of the route guidance model. We end in \textit{Chapter-7} by providing a brief summary of the contributions made by the work and an outlook on possible improvements of the model. 
-
- \chapter{Related Work}
+ \chapter{Problem Definition and Related Work}
  \section{Dialog Based Wayfinding Systems} 
 Significant research has been done in the area of defining 
 \cite{lovelace} and generating \cite{Dale,Habel,Maab,pattabhiraman} good 
@@ -450,7 +219,6 @@ testbed for wayfinding assistance.
 %Simulations in a virtual environment provide an important means for evaluation and improvement of real-world systems.  
  %Performance evaluation on a task is the basic requirement to measure effectiveness of a natural language generation (NLG) system \cite{reiter}.  
  \chapter{Conceptual Model For Wayfinding}
- \label{chap:concept}
 We introduce our location-unaware wayfinding model through a generic 
 spoken-dialog based model for wayfinding. This model can be transformed 
 to a location-unaware wayfinding model by specializing the module 
@@ -607,7 +375,9 @@ instruction indicating that one should go straight is represented by {\bf S}.
 \centering
 %\includegraphics[width=0.5\textwidth]{phase1.png}
 \epsfig{file=simpleturns.eps, height=3in, width=4in}
-\caption{A decision point is simple intersection, if in each zone of the navigator's field view, there is atmost one road segment emerging from the decision point.}
+\caption{A decision point is simple intersection, if in each zone of the 
+navigator's field view, there is atmost one road segment emerging from 
+the decision point.}
 \label{fig:simpleturns}
  \end{figure}
 \subsection{Complex Intersections}
@@ -634,6 +404,12 @@ english language can be as:
 }
 \label{fig:complexex}
  \end{figure} 
+
+{\bf *** In India if we come to a circle we go around it in the clockwise
+direction so your instruction should say 2nd link in the clockwise rather
+than 4th anti-clockwise since there is no way the user can find the 4th
+link since he is travelling clockwise. ***}
+
 Any decision point which is not a simple intersection is a 
 \textit{complex intersection}\footnote{See Figure \ref{fig:complex_real} 
 and Figure \ref{fig:complex}}. For representing complex intersections, we 
@@ -643,12 +419,11 @@ opens up alternate notations such as \textbf{hl} (half left),
 \textbf{vr} (veer right), etc. These work well for 4-way intersections 
 and 3-way intersections but as the number of merged road segments 
 increase beyond 4, the 8-sector model fails as there can be more than one 
-road segment in the same sector. A clock-based notation does not work on the 
-basis of a sector model and can handle extended multi-way intersections.
+road segment in the same sector.
 
-There are two ways to conceptualize a clock-based numbering scheme - clockwise and anti-clockwise. A user who is restricted to travel in a clockwise direction around a complex intersection has to be given instructions using the direction of travel as a reference. Thus, a fixed numbering scheme can't work in all scenarios. For example, in India, the direction of travel is clockwise, while in western countries it is anti-clockwise. Hence, we chose to specify whether the numbering is clockwise or anticlockwise at a global level and then let the algorithm make use of it. In the below discussion, we assume the global specifications pertaining to anti-clockwise direction of travel.
-
-The roads are represented in an anti-clockwise numbering starting from the first turn right-adjacent to 
+A clock-based notation does not work on the basis of a sector model and can 
+handle extended multi-way intersections. The roads are represented in an 
+anti-clockwise numbering starting from the first turn right-adjacent to 
 incoming road segment as shown in Figure \ref{fig:complex}. Notationally, 
 we represent complex turns in the form $R_i$, which represents the 
 $i^{th}$ numbered turn in an anti-clockwise direction starting from the most 
@@ -668,6 +443,7 @@ segment corresponding to the representation $SSL$ is translated as
 Klippel's \textit{wayfinding choremes} \cite{klippel}, where by the help 
 of term rewriting, an intermediate representation is deduced from simple 
 representations, prior to natural-language translation.
+
 
 %We implemented this protocol and incorporated in our testbed to demonstrate the validity and non-ambiguity of its semantics.
  \chapter{Dialog-Based Localization}
@@ -717,7 +493,7 @@ In any session of wayfinding, a user is incrementally guided for turn
 behavior at every intersection. Between every two intersections, a user is 
 prompted for localization via questions based on whether he encountered 
 the associated landmarks en-route. \footnote{The issue of how landmarks 
-are associated with a path segment is discussed in Section \ref{sec:kbase}.}. 
+are associated with a path segment is discussed in Section \ref{kbase}.}. 
 Lovelace et al. \cite{lovelace} distinguish between landmarks 
 according to the purpose they serve i.e. either in choosing the action at 
 a decision point (landmarks) or confirming reorientation on a path 
@@ -767,7 +543,6 @@ Thus based on distance measures and the corresponding time difference,
 speed can be computed. Thus, speed estimation can be approximated  as:
 \[\displaystyle \textit{User Speed}=\frac{\textit{Distance between two recorded prompts}}{\textit{Time difference between the two prompts}}\]
 \subsection{Predicting User Speed}
-\label{sect:predictspeed}
 Speed predictions allow adaptive localization 
 and help to extrapolate movement patterns of a user based on the speed 
 profile. Continuing from the above example, consider a case when an user 
@@ -936,7 +711,7 @@ attributes. For example, the prompts now are of the form `\textit{do
 you see any building nearby?}' The term `\textit{building}' here is one 
 of the categorizing attributes of landmarks which is a part of the 
 feature-set stored as visual features in the knowledge base
-\footnote{See Section \ref{sec:kbase} for more details}. The feature-set 
+\footnote{See Section \ref{kbase} for more details}. The feature-set 
 includes attributes like color of the buildings, heights, shapes of the 
 open spaces and other automatically extractable attributes.
 
@@ -947,9 +722,10 @@ on the categorizing attributes, there might still remain a set of possible
 locations the algorithm has not considered. For example, in a 
 homogenous neighborhood the buildings in all the streets might look alike in 
 shape, color and height. In such cases, when there are still a set of 
-locations under consideration, the user is asked to continue his movement 
-only to be interrupted later for yet another reorientation. This process is
-iteratively repeated until the responses resolve the location of the user uniquely.
+locations under consideration, the user is asked to follow his original 
+direction of movement only to be interrupted later for yet another 
+reorientation. This process is iteratively repeated until the responses 
+resolve the location of the user uniquely.
 
 The reactive approach requires \textit{scene analytic} 
 location sensing techniques \cite{hightower}. These techniques work on 
@@ -959,12 +735,11 @@ the features used are those that are easy to represent and compare from
 an observed scene. The approach mentioned is a hybrid of \textit{static} 
 and \textit{differential} scene analysis. In the former technique, the
 features in question are looked up in a pre-defined geo-spatial database, 
-whereas in the latter, differences in scenes observed due to an user's 
+whereas in the latter differences in scenes observed due to an user's 
 movements are used to match known spatial environments.
 
  \chapter{Implementation}
- \label{chap:implement}
-In chapter \ref{chap:concept}, we discussed the 
+In chapter 3 {\bf *** put a \verb+\ref+ here. ***}, we discussed the 
 architecture of a generic wayfinding model and the structure and interaction 
 of the different modules. This chapter describes the implementation-specific 
 aspects of the key components. We discuss a methodology to build the 
@@ -976,6 +751,28 @@ facilitate early localization of a disoriented user.
 
  \section{Knowledge Base}
   \label{sec:kbase}
+A given map dataset can be imported directly into a relational-database 
+model where each shapefile gets converted to an individual relation. The 
+properties of spatial features are converted to attributes and each 
+spatial feature forms a tuple in the relation. The attributes of the 
+spatial features can be divided into four categories:
+\begin{itemize}
+\item \textbf{identitificational} - these attributes include 
+\textit{reference-id} as a pointer to the spatial feature, and 
+\textit{category} specifying the class of the spatial feature. The values 
+of the category attribute can come directly from the shapefile to which 
+they belong.
+\item \textbf{geometric} - for a spatial database, geometry comes as a primitve datatype. This allows the definition of functions to handle geometry based operations and make several deductions like area, length, etc.
+  \item \textbf{visual} -  these attributes define the visual attributes like height of a building, color of a playground, etc.
+  \item \textbf{semantic} - these attributes are defined as per external sources can meant to identify the meaning behind a feature e.g., petrol-pump, ATM.  The major attribute that falls in this category is the popularity of the feature as a landmark which facilitates context-aware wayfinding.
+\end{itemize}
+
+{\bf *** Give examples in each case above. ***}
+
+The first two of these attributes can be defined to be \textit{intrinsic} 
+attributes as these are present or can be easily extracted from exisiting 
+spatial databases. While, the other two attributes are \textit{extrinsic}, 
+as external resources need to be used for their extraction.
 \subsection{Extracting Attribute Values}
 Raubal and Winter \cite{raubal} in similar research categorized
 the attributes defining landmarks and provided a methodology to 
@@ -1102,8 +899,6 @@ distant driver. Also, as per Lynch \cite{lynch}, distant landmarks are
 used only for overall guidance for novice users.
 
 \section{Facilitating Reorientation}
-\subsection{Anticipative Phase}
-\label{sect:anticip}
 In Section \ref{sec:reorient}, we discussed the algorithm to reorient a 
 disoriented user by querying over possible paths. Trajectory predictions 
 can assist in reorientation by studying distraction patterns which can be 
@@ -1142,31 +937,18 @@ of probability to disorient to, and prompts them incrementally to the
 user until a positive acknowledgement is received or limit to the number 
 of prompts is exceeded after which it enters into reactive phase.
 
-\subsection{Reactive Phase}
-While reorientation is facilitated in anticipative phase through probability modelling, in reactive phase, we use entropy measures to identify the odering of questions to be posed to the user. Since reactive phase deals with questions based directly on the attribute-value pair of the landmarks surrounding the user's location (e.g., \textit{do you see a white-colored building around you?}), its important to identify the most informative pair knowing the response to which maximally prunes the search space. This problem is similar to the machine learning problem of structuring a decision tree, where the most informative attribute-value pairs are identified and placed at the top of the decision tree. Such a structuring yields the preferred sequence of attributes to inquire, to most rapidly narrow down the class of an entity. 
+\iffalse
+$$
+\begin{bmatrix}
+P(X_2=R_1/X_1=R_1,I=R_1) & P(X_2=R_1/X_1=R_1,I=R_1) & \cdots & P(X_2=R_1/X_1=R_1,I=R_1)\\
+P(X_2=R_1/X_1=R_1,I=R_1) & P(X_2=R_1/X_1=R_1,I=R_1) & \cdots & P(X_2=R_1/X_1=R_1,I=R_1)\\
+\vdots& \vdots& \cdots& \vdots\\ 
+P(X_2=R_1/X_1=R_1,I=R_1) & P(X_2=R_1/X_1=R_1,I=R_1) & \cdots &P(X_2=R_1/X_1=R_1,I=R_1)\\
+\end{bmatrix}
+$$
+\fi
 
-The methodology used to identify the preferred sequence of attributes to inquire is defined below:
-
-Suppose, the set of road-segments suspected for location of the user is $X$. Corresponding to each of these segments, we identify the associated landmarks and collect them into a set $L$. Thus, $L$ is a set of potential landmarks visible to the user at this particular time. Each landmarks $l$ in $L$ has a certain set of attributes, values $V_{l}$ of which may overlap amongst more than one landmark (for example, there may be multiple \textit{red colored} buildings in the locality). The problem is to identify the attribute-value pair which helps prune the possible locations of the user by a good enough extent. The problem is broken down into two steps- 1) identify the attribute to inquire for and, 2) identify the value of this attribute to inquire, to output the preferred attribute-value pair. 
-
-\subsubsection*{Identifying the best attribute}
- To identify the best attribute from the set of attributes, we first define entropy $E_a$ of an attribute $a$ as follows:
-\[\displaystyle E_{a} = - \sum_{v \in V_{a}}f_vlog_{2}{(f_v)}\] 
-where, \\
-$V_{a}$ is the set of values for attribute $a$ and, \\
-$f_{v}$ is the ratio of elements in $L$ with the $v$ as the value of attribute $a$.
-
-It can be observed that $E_a$ is 0, when all landmarks have the same value for attribute $a$. Inquiring upon such an attribute to the user doesn't lead to any pruning and is thus the least preferred attribute. $E_a$ is maximum when the values of $a$ are almost equally shared in all the landmarks. In this case, based on a response to the question asked upon the value of attribute $a$, more locations can be pruned off. Thus, the most preferred attribute to inquire is the one which has the maximum entropy.
-
-Hence, the equation for finding the best attribute $a_opt$ can be defined as below:
-\[\displaystyle a_{opt} = \operatorname*{arg\,max}_a E_a\] 
-
-\subsubsection*{Identifying the best value}
-Finding the best attribute is not sufficient for the cause of building a dialog-based system ensuring simple speech processing. It is preferable to limit the response of the user to an objective one rather than something subjective which demands qualitative speech processing requirements. For example, it is preferable to ask a question like, `do you see a red colored building nearby?', rather than something like, 'what is the color of building you see?'.
-
-The same entropy rule applies to finding the best value only that entropy of a value ($E_v$) differs from the definition of an attribute and, is defined below:
-\[\displaystyle E_{v} = - f_vlog_{2}{(f_v)} - (1-f_v)log_{2}{(1-f_v)}\] 
-
+{*** DONE TILL HERE ***}
  \chapter{Evaluation}
 This chapter describes an intrinsic evaluation of our proposed model, 
 particularly focussing on the ability to localize and reorient a 
@@ -1200,15 +982,18 @@ network for route computations. The road segments are split at
 intersections to create disjoint edges, each with a start and an end node.}.
 \begin{figure}
 \centering
-\epsfig{file=iitkmap.eps, height=6in, width=9in, angle=90}
+\epsfig{file=iitkmap.eps, height=2.5in, width=4in}
 \caption{\textbf{\textbf{Dataset}} Snapshot of a map of Indian 
-Institute of Technology, Kanpur (IITK). The bottom portion of the snapshot 
+Institute of Technology, Kanpur (IITK). The left portion of the snapshot 
 depicting academic buildings (see legend) represents the landmark-dense 
 portion of the campus, Academic area. The organized homogenous space to 
-the top of it represents a portion of the residential areas which has 
+the right of it represents a portion of the residential areas which has 
 no salient features.}
 \label{fig:dataset}
  \end{figure} 
+
+{\bf *** The figure is too small. Pl. make it bigger, perhaps the whole page
+so that different types of areas are clearly visible. ***}
 
  \section{Simulation Setup} 
 The time spent in executing real-time wayfinding tasks with actual
@@ -1223,8 +1008,8 @@ environments.
   \subsection{User Modelling}
   \subsubsection*{Speed Profiles}
 The speed of a driver at a particular road segment is modelled using two 
-parameters- 1) \textit{categorical-speed} (\textit{s}) parameter, to represent the 
-speed preferences of a driver and, 2) \textit{deviation} (\textit{d}) parameter, to 
+parameters- 1) \textit{categorical-speed} parameter, to represent the 
+speed preferences of a driver and, 2) \textit{deviation} parameter, to 
 add an element of non-uniformity w.r.t the category to reflect individual
 variations.
 
@@ -1237,11 +1022,11 @@ However under heterogenous traffic conditions, researchers have proposed
 using a log–normal distribution (\cite{gerl}) for traffic modelling. The 
 log-normal distribution used for sampling categorical-speed is shown in 
 Figure \ref{fig:logn}. The parameters of the distributions are set such 
-that the 85th percentile speed is equal to 25 kph i.e. the speed limit in 
+that the 85th percentile speed is equal to 30 kph i.e. the speed limit in 
 IITK campus\footnote{This is in accordance with the observed relationship 
 between vehicle operating speeds and posted speed limits.} . The 
 deviation parameter is sampled at each road segment from a normal 
-distribution ($\mu=0 kph$, $\sigma=0.1\times s kph$) and added to the 
+distribution ($\mu=0 kph$, $\sigma=5 kph$) and added to the 
 categorical-speed to generate observed average speed at the road 
 segment.
   \subsubsection*{Erroneous Behaviour}
@@ -1282,62 +1067,8 @@ as:
 \[\displaystyle G = \frac{N_p - \alpha \times N_D}{N_e}\]  
 where $\alpha$ is a constant, representing the number of prompts made in 
 guiding an user on a route with exactly one decision point.
- \section{Results} 
- In this section, we describe the results obtained on running the simulations on an artifical agent following a directed behavior under above mentioned models.
- Before we present the results of the simulations, we describe below the assumptions taken while programming the simulations:
- \begin{enumerate}
-   \item The localization is done on a road-segment\footnote{A road segment is an atomic portion of the road with decision points present at, and only on its either ends.} basis and thus it is assumed that localization was successful if the tracker correctly identifies the current road segment of the agent.
-   \item The agent has a perfect vision and correctly describes what he sees and what he doesn't see in his spatial environment.
-   \item The agent can moves along and on any road-segment present in the network which is equivalent to two-wheeler mode of transportation in real world.
- \end{enumerate}
- \subsection*{Aniticipative Phase}
-The first set of results report the average goodness metric ($G_{avg}$) using purely anticipative phase of reorientation (see Section \ref{sec:reorient}). Using purely anticipative phase expectedly raises the number of prompts to an alarmingly large and impractical values. Although, in an alternate strategy of attributing a negative response (to a question on seeing a landmark) to the slowness of the user rather than suspecting disorientation resulted in a considerable decrease in the number of prompts. The results are summarized in table \ref{table:st}.
-\begin{table}[h]
-\center
-\begin{tabular}{|c|c|}
-\hline
-\textbf{Strategy} & $G_{avg}$ \\ \hline
-1 & 16.8 \\ \hline
-2 & 9.4\\ \hline
-\end{tabular}
-\caption{Strategy-2 accommodates slowness of the user by waiting longer than Strategy-1, rather than suspecting disorientation resulting in a considerable decrease in number of prompts.}
-\label{table:st}
-\end{table}
-\subsection*{Reactive Phase}
-For evaluating reactive phase, we needed to query over the attributes of landmark, which for the purpose of the evaluation was synthetically created. Here, we studied what number of attributes could be sufficient for a successful dialog-based localization. The idea is that if the number of attributes required for localization is not significantly large, intrinsic attributes should be enough to serve the needs of reference to landmarks.
-
-From the performance of the model on the simulations using purely reactive phase of reorientation, it was observed that not always it is possible to localize a user by asking questions from his spatial environment. This is understandable because if the features in an envronment don't differ much from each other, it is hard to distinguish one locality from the other based on the attributes only. However, the advantage of using reactive phase is that the number of questions asked to localize a user (possibly disoriented) is significantly smaller than that of anticipative phase. The results on the synthetic dataset indicate that the number of successful localizations (or reorientation) increases with the number of attributes, while the number of questions asked increase only marginally, and are presented in Table \ref{table:att}. It was also observed that increasing the number of attributes beyond five doesn't help in increasing the number of successful localizations. 
-\begin{table}[h]
-\center
-\begin{tabular}{|c|c|c|c|}
-\hline
-              &                                                             & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}average number of\\ questions asked\end{tabular}} \\ \cline{3-4} 
-\# attributes & \begin{tabular}[c]{@{}c@{}}success\\ rate (\%)\end{tabular} & \begin{tabular}[c]{@{}c@{}}positive\\ cases\end{tabular}                & overall                \\ \hline
-1             & 43.24                                                       & 1.28                                                                    & 1.68                   \\ \hline
-2             & 49.33                                                       & 1.40                                                                    & 2.10                   \\ \hline
-3             & 62.5                                                        & 1.72                                                                    & 2.27                   \\ \hline
-4             & 67.7                                                        & 1.55                                                                    & 2.12                   \\ \hline
-5             & 69.7                                                        & 1.88                                                                    & 2.36                   \\ \hline
-\end{tabular}
-\caption{The number of successful localizations (or reorientations) increases with the number of attributes, while the number of questions asked increase marginally. The results of each attribute are based on 50 simulations of guiding an artificial agent for the same source and destination.}
-\label{table:att}
-\end{table}
-Thus, from the results obtained from the conclusion suggest us that though reactive phase leads to a significant decrease in the number of prompts, but it doesn't guarantee localization. Antipative phase on the other hand, leads to comparatively larger number of prompts but ensures localization (if the user is stopped when asking questions). The other advantage observed behind working with the anticipative phase is that, it imposes less cognitive load and/or distraction on the user as compared to that in reactive phase. The questions in anticipative phase are very specific to the spatial environment (e.g., \textit{do you see X on your right?}) and demand comparatively less cognitive processing to that of reactive phase (e.g., \textit{do you see a 3-story building nearby?}). 
-
-The implication drawn by the above results point towards a hybrid strategy combining anticipative and reactive phase. As proposed earlier (in Section \ref{sec:reorient}), the key is to limit the number of questions asked in anticipative phase to an acceptable extent and then switch to reactive phase. Reactive phase would fail only when the landmarks do not have distinguishing attributes posing a conflict in possible locations of the user. Though, one can't guarantee localization but there are a couple of work-around to deal with it- a) when reorientation attempt is failed, instruct the user to keep moving in a particular direction for a short while before being re-interrupted for reorientation and, b) link consecutive failed attempts of localizations to prune possible positions of the user. 
+ \section{Results}
  \chapter{Conclusion and Future Work}
-This work presents the first attempt to a dialog-based wayfinding model independent of support for location-sensing or web-connectivity at the end-device. Such an approach is the only solution for providing wayfinding-assistance service to a person using vanilla end-device which can't render graphics or determine/send location information. 
-
-This approach is different from other existing wayfinding-assistance models which use name-based reference to landmarks. We point towards the idea that though a landmark may be salient by its visual and geometric attributes but may be not familiar by name to the wayfinders and thus, the task of enriching route instructions with landmarks needs to consider the direct use of these salient attributes if the landmark in question is not popular by its name. 
-
-We introduced a cross-lingual non-ambiguous representation of route instructions using simple formal language which can be easily translated to any desired natural language. The formal language extends the previous similar work by accommodating complex intersections into the language structure.
-
-We take into consideration the issue of disorientation while guiding a user by using spoken-dialog conversations which is designed so as to overcome the limitations of speech recognition by ensuring questions are posed in a format which invoke objective replies, convenient to automated voice recognition.
-
-We also present a unique approach for an automated evaluation of the quality of service of the model using a simulated set-up which models navigation behaviour of an artificial agent. The results indicate that by an appropriate mix of strategies of reorientation, a qualitative sytem can be built for dialog-based wayfinding using attributes of landmarks.
-
-Our attempt to understand the challenges behind a location-unaware model for dialog-based wayfinding exposes several gaps in this research area. The significant differences achieved by changing strategies for reorientation motivate the searching for alternate strategies to improve quality of service. The existing implementation can be directly extended to achieve better performance in terms of quality of service. In our implementation, on a failed localization, the user was instructed to keep moving foward, but no restrictions were enforced. The user would be interrupted later for another localization attempt but deductions from the previous failed localizations were not exploited henceforth. Further, speed prediction and probability-modelling for identifying movement patterns was not employed as it offers no support in artifical agents with random erroneous behavior. But in real-world scenarios, there are definite traffic patterns and the predictors mentioned in Section \ref{sect:predictspeed} and probability model discussed in \ref{sect:anticip} would be worthwhile to adopt. The evaluation of utility of these predictors can be studied by encoding patterns in the navigation behaviour of the artificial agents.  
- 
 \bibliographystyle{plain}
 \bibliography{references}
 %\addcontents{toc}{bibliography}

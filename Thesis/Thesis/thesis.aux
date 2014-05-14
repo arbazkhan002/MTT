@@ -56,6 +56,7 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}Conceptual Model For Wayfinding}{18}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:concept}{{3}{18}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.1}Architecture}{18}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture for a generic wayfinding model\relax }}{19}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
@@ -94,24 +95,26 @@
 \@writefile{toc}{\contentsline {section}{\numberline {4.3}Extrapolating User Movements}{28}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Estimating User Speed}{28}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Predicting User Speed}{29}}
+\newlabel{sect:predictspeed}{{4.3.2}{29}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.4}Detecting Disorientation}{30}}
 \newlabel{algo:detect}{{1}{31}}
 \@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces DetectDisorientation(response,landmark,timeFrame)\relax }}{31}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces \textbf  {Detecting Disorientation} The highlighted route denotes the path segment communicated to the user for wayfinding. The user has disoriented from the desired path segment and has been detected by the system after a positive response on querying on whether the intermediate intersection was crossed.\relax }}{32}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces \textbf  {Detecting Disorientation} The highlighted route denotes the path segment communicated to the user for wayfinding. The user has strayed from the desired path segment and has been detected by the system after a positive response on querying on whether the intermediate intersection was crossed.\relax }}{32}}
 \newlabel{fig:detect}{{4.1}{32}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.5}Reorientation algorithm}{32}}
 \newlabel{sec:reorient}{{4.5}{32}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces \textbf  {Reorientation:Anticipative-Phase} Prompt the user with questions identifying landmarks \textit  {U, V, W} and \textit  {Z} along with the orientations w.r.t. user (left or right) to get the location estimate. Reorientation is achieved when the user acknowledges any of the identities put in the prompts.\relax }}{33}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces \textbf  {Reorientation:Anticipative-Phase} Prompt the user with questions identifying landmarks \textit  {U, V, W} and \textit  {Z} along with the orientations w.r.t. user (left or right) to estimate location. Reorientation is achieved when the user acknowledges any of the identities put in the prompts.\relax }}{33}}
 \newlabel{fig:anticipative}{{4.2}{33}}
 \citation{hightower}
+\citation{raubal}
+\citation{brenner}
 \@writefile{toc}{\contentsline {chapter}{\numberline {5}Implementation}{35}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:implement}{{5}{35}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.1}Knowledge Base}{35}}
 \newlabel{sec:kbase}{{5.1}{35}}
-\citation{raubal}
-\citation{brenner}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Extracting Attribute Values}{36}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Extracting Attribute Values}{35}}
 \citation{brenner}
 \citation{brenner}
 \citation{brenner}
@@ -120,36 +123,41 @@
 \citation{wiki}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces \textbf  {Extracting Geometric Salience} The geometric attributes used by Brenner and Elias \cite  {brenner} to extract building-based landmarks\relax }}{37}}
 \newlabel{fig:elias}{{5.1}{37}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces \textbf  {\textbf  {Extracting Popularity}} A scalable approach to get an estimate of the popularity of a landmark using mapping applications.\relax }}{38}}
+\newlabel{fig:popular}{{5.2}{38}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Identifying associations}{38}}
 \citation{lynch}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces \textbf  {\textbf  {Extracting Popularity}} A scalable approach to get an indication on the popularity of a landmark using dependence on mapping applications.\relax }}{39}}
-\newlabel{fig:popular}{{5.2}{39}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Identifying associations}{39}}
 \citation{kyri}
 \citation{karimi}
 \citation{liu}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Facilitating Reorientation}{40}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Anticipative Phase}{40}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Reactive Phase}{41}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Evaluation}{44}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Facilitating Reorientation}{39}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Anticipative Phase}{39}}
+\newlabel{sect:anticip}{{5.2.1}{39}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Reactive Phase}{40}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Evaluation}{43}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{evaluation}{{6}{44}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Dataset}{44}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces \textbf  {\textbf  {Dataset}} Snapshot of the map of Indian Institute of Technology, Kanpur (IITK). The left portion of the snapshot depicting academic buildings (see legend) represents the landmark-dense portion of the campus, Academic area. The organized homogenous space to the right of it represents a portion of the residential areas which has saliently insignificant features.\relax }}{45}}
-\newlabel{fig:dataset}{{6.1}{45}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Simulation Setup}{45}}
+\newlabel{evaluation}{{6}{43}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Dataset}{43}}
 \citation{leong}
 \citation{mclean}
 \citation{gerl}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}User Modelling}{46}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.2}Synthetic Attributes}{47}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}Goodness Metric}{47}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.4}Results}{48}}
-\bibstyle{plain}
-\bibdata{references}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{49}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Simulation Setup}{44}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}User Modelling}{44}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces \textbf  {\textbf  {Dataset}} Snapshot of a map of Indian Institute of Technology, Kanpur (IITK). The bottom portion of the snapshot depicting academic buildings (see legend) represents the landmark-dense portion of the campus, Academic area. The organized homogenous space to the top of it represents a portion of the residential areas which has no salient features.\relax }}{45}}
+\newlabel{fig:dataset}{{6.1}{45}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.2}Synthetic Attributes}{46}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Goodness Metric}{46}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.4}Results}{47}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces Strategy-2 accommodates slowness of the user by waiting longer than Strategy-1, rather than suspecting disorientation resulting in a considerable decrease in number of prompts.\relax }}{48}}
+\newlabel{table:st}{{6.1}{48}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.2}{\ignorespaces The number of successful localizations (or reorientations) increases with the number of attributes, while the number of questions asked increase marginally. The results of each attribute are based on 50 simulations of guiding an artificial agent for the same source and destination.\relax }}{49}}
+\newlabel{table:att}{{6.2}{49}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{51}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
+\bibstyle{plain}
+\bibdata{references}
 \bibcite{baldwin2009}{1}
 \bibcite{baus}{2}
 \bibcite{brenner}{3}
@@ -157,7 +165,7 @@
 \bibcite{Dale}{5}
 \bibcite{fongsurvey}{6}
 \bibcite{furukawa2004}{7}
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{50}}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{53}}
 \bibcite{give}{8}
 \bibcite{gerl}{9}
 \bibcite{Habel}{10}

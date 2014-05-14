@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.6)  14 MAY 2014 02:23
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.6)  15 MAY 2014 00:08
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -328,7 +328,13 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 160.
- [7] [8] [9]
+
+Overfull \hbox (2.90071pt too wide) in paragraph at lines 161--162
+[]\OT1/cmr/bx/n/12 geometric \OT1/cmr/m/n/12 - for a spa-tial 2-D database, ge-
+om-e-try comes as a prim-i-tive datatype
+ []
+
+[7] [8] [9]
 Overfull \hbox (3.35002pt too wide) in paragraph at lines 256--265
 []\OT1/cmr/m/n/12 Furthermore, one ma-jor ad-van-tage of a di-a-log sys-tem is 
 that context-identification
@@ -377,22 +383,18 @@ File: complexex.eps Graphic file (type eps)
 Chapter 4.
 [26
 
-]
-
-LaTeX Warning: Reference `kbase' on page 27 undefined on input line 682.
-
-[27] [28] [29]
-Overfull \hbox (36.9414pt too wide) in paragraph at lines 709--709
+] [27] [28] [29]
+Overfull \hbox (36.9414pt too wide) in paragraph at lines 826--826
 [] 
  []
 
 
-Underfull \hbox (badness 10000) detected at line 743
+Underfull \hbox (badness 10000) detected at line 865
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 714--744
+Underfull \hbox (badness 10000) in paragraph at lines 836--866
 
  []
 
@@ -400,58 +402,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 714--744
 File: disorientation.eps Graphic file (type eps)
  <disorientation.eps>
 File: reorientationAnticipative.eps Graphic file (type eps)
- <reorientationAnticipative.eps> [32]
-
-LaTeX Warning: Reference `kbase' on page 33 undefined on input line 767.
-
-[33] [34]
+ <reorientationAnticipative.eps> [32] [33]
+[34]
 Chapter 5.
 [35
 
-] [36]
+]
 File: brenner.eps Graphic file (type eps)
  <brenner.eps>
-Overfull \hbox (6.84456pt too wide) in paragraph at lines 794--795
+Overfull \hbox (6.84456pt too wide) in paragraph at lines 1021--1024
  [][] 
  []
 
-[37]
+[36] [37]
 File: popular.eps Graphic file (type eps)
- <popular.eps> [38] [39] [40] [41] [42] [43]
+ <popular.eps> [38] [39] [40] [41] [42]
 Chapter 6.
 File: iitkmap.eps Graphic file (type eps)
-<iitkmap.eps> [44
+<iitkmap.eps>
+Overfull \hbox (6.86246pt too wide) in paragraph at lines 1203--1209
+ [][] 
+ []
 
-] [45]
+
+LaTeX Warning: Float too large for page by 15.7201pt on input line 1211.
+
+[43
+
+]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 
 
-LaTeX Warning: Reference `fig:logn' on page 46 undefined on input line 888.
+LaTeX Warning: Reference `fig:logn' on page 44 undefined on input line 1239.
 
-[46] [47] [48]
+[44] [45] [46] [47] [48] [49] [50]
 Chapter 7.
-(./thesis.bbl [49
+[51
 
-]
+] (./thesis.bbl [52]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [50
+ [53
 
-] [51] [52] [53] [54]) [55] (./thesis.aux)
+] [54] [55] [56] [57]) [58] (./thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4556 strings out of 495062
- 62494 string characters out of 1182644
- 152968 words of memory out of 3000000
- 7677 multiletter control sequences out of 15000+50000
- 13639 words of font info for 48 fonts, out of 3000000 for 9000
+ 4561 strings out of 495062
+ 62573 string characters out of 1182644
+ 155968 words of memory out of 3000000
+ 7682 multiletter control sequences out of 15000+50000
+ 13331 words of font info for 47 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 43i,16n,45p,1553b,405s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,16n,45p,1262b,405s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (56 pages, 133472 bytes).
+Output written on thesis.dvi (59 pages, 143292 bytes).

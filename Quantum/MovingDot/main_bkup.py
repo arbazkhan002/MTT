@@ -58,7 +58,7 @@ class user:
 		self.g=graph
 		self.time=0
 		self.modifier=attmodifier.modifier(conn)
-		self.categoricalSpeed=random.lognormvariate(1.4,0.5)
+		self.categoricalSpeed=random.lognormvariate(2.7,0.5)/3.6
 		
 	# simulates forgetting. If state is True, everything is cleared from memory
 	def forget(self, state=True):

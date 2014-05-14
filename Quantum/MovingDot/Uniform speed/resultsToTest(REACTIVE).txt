@@ -1,0 +1,169 @@
+//----------------------------------------/
+Tracking Status
+Actual Time: 288.461030435
+Questions: 1
+Mistakes: 1
+Decisions: 15
+Prompts: 17
+G: 2
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 413.815440992
+Questions: 5
+Mistakes: 3
+Decisions: 16
+Prompts: 33
+G: 5
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 374.741396411
+Questions: 4
+Mistakes: 2
+Decisions: 13
+Prompts: 25
+G: 6
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 403.563894797
+Questions: 10
+Mistakes: 3
+Decisions: 16
+Prompts: 30
+G: 4
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 307.761106624
+Questions: 2
+Mistakes: 2
+Decisions: 16
+Prompts: 22
+G: 3
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 370.519033349
+Questions: 4
+Mistakes: 4
+Decisions: 18
+Prompts: 32
+G: 3
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 550.261150398
+Questions: 18
+Mistakes: 7
+Decisions: 20
+Prompts: 55
+G: 5
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 584.12346828
+Questions: 26
+Mistakes: 4
+Decisions: 15
+Prompts: 74
+G: 14
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 386.034036194
+Questions: 3
+Mistakes: 2
+Decisions: 13
+Prompts: 23
+G: 5
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 428.890467947
+Questions: 3
+Mistakes: 2
+Decisions: 13
+Prompts: 23
+G: 5
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 433.989433462
+Questions: 18
+Mistakes: 4
+Decisions: 19
+Prompts: 60
+G: 10
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 494.06828259
+Questions: 9
+Mistakes: 4
+Decisions: 16
+Prompts: 37
+G: 5
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 481.446234703
+Questions: 7
+Mistakes: 4
+Decisions: 17
+Prompts: 32
+G: 3
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 518.622479148
+Questions: 17
+Mistakes: 4
+Decisions: 16
+Prompts: 44
+G: 7
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 435.6316173
+Questions: 18
+Mistakes: 4
+Decisions: 19
+Prompts: 65
+G: 11
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 573.444662018
+Questions: 15
+Mistakes: 5
+Decisions: 19
+Prompts: 58
+G: 7
+//----------------------------------------/
+
+//----------------------------------------/
+Tracking Status
+Actual Time: 506.938370785
+Questions: 10
+Mistakes: 4
+Decisions: 18
+Prompts: 34
+G: 4
+//----------------------------------------/
