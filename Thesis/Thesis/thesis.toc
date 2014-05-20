@@ -1,45 +1,47 @@
-\contentsline {chapter}{\numberline {1}Introduction}{5}
-\contentsline {section}{\numberline {1.1}Problem Statement}{5}
-\contentsline {section}{\numberline {1.2}Notions and Terminology}{5}
-\contentsline {subsection}{\numberline {1.2.1}Wayfinding}{5}
-\contentsline {subsection}{\numberline {1.2.2}Location Awareness}{6}
-\contentsline {subsection}{\numberline {1.2.3}Landmarks}{7}
-\contentsline {section}{\numberline {1.3}Background}{8}
-\contentsline {section}{\numberline {1.4}Motivation}{10}
-\contentsline {subsection}{\numberline {1.4.1}Why design a dialog-based system?}{10}
-\contentsline {subsection}{\numberline {1.4.2}Why choose to be location-unaware?}{11}
-\contentsline {section}{\numberline {1.5}Objectives of the work}{11}
-\contentsline {section}{\numberline {1.6}Roadmap}{12}
-\contentsline {chapter}{\numberline {2}Related Work}{14}
-\contentsline {section}{\numberline {2.1}Dialog Based Wayfinding Systems}{14}
-\contentsline {section}{\numberline {2.2}Evaluation Techniques}{16}
-\contentsline {chapter}{\numberline {3}Conceptual Model For Wayfinding}{18}
-\contentsline {section}{\numberline {3.1}Architecture}{18}
-\contentsline {section}{\numberline {3.2}Communication Protocol}{20}
-\contentsline {subsection}{\numberline {3.2.1}Landmarks}{22}
-\contentsline {subsection}{\numberline {3.2.2}Simple Intersections}{22}
-\contentsline {subsection}{\numberline {3.2.3}Complex Intersections}{23}
-\contentsline {chapter}{\numberline {4}Dialog-Based Localization}{26}
-\contentsline {section}{\numberline {4.1}Introduction}{26}
-\contentsline {section}{\numberline {4.2}Alternative Reference to Routemarks}{27}
-\contentsline {section}{\numberline {4.3}Extrapolating User Movements}{28}
-\contentsline {subsection}{\numberline {4.3.1}Estimating User Speed}{28}
-\contentsline {subsection}{\numberline {4.3.2}Predicting User Speed}{29}
-\contentsline {section}{\numberline {4.4}Detecting Disorientation}{30}
-\contentsline {section}{\numberline {4.5}Reorientation algorithm}{32}
-\contentsline {chapter}{\numberline {5}Implementation}{35}
-\contentsline {section}{\numberline {5.1}Knowledge Base}{35}
-\contentsline {subsection}{\numberline {5.1.1}Extracting Attribute Values}{35}
-\contentsline {subsection}{\numberline {5.1.2}Identifying associations}{38}
-\contentsline {section}{\numberline {5.2}Facilitating Reorientation}{39}
-\contentsline {subsection}{\numberline {5.2.1}Anticipative Phase}{39}
-\contentsline {subsection}{\numberline {5.2.2}Reactive Phase}{40}
-\contentsline {chapter}{\numberline {6}Evaluation}{43}
-\contentsline {section}{\numberline {6.1}Dataset}{43}
-\contentsline {section}{\numberline {6.2}Simulation Setup}{44}
-\contentsline {subsection}{\numberline {6.2.1}User Modelling}{44}
-\contentsline {subsection}{\numberline {6.2.2}Synthetic Attributes}{46}
-\contentsline {section}{\numberline {6.3}Goodness Metric}{47}
-\contentsline {section}{\numberline {6.4}Results}{47}
-\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{51}
-\contentsline {chapter}{Bibliography}{53}
+\contentsline {chapter}{List of Tables}{xi}
+\contentsline {chapter}{List of Figures}{xiii}
+\contentsline {chapter}{\numberline {1}Intoduction}{1}
+\contentsline {section}{\numberline {1.1}Problem Statement}{1}
+\contentsline {section}{\numberline {1.2}Notions and Terminology}{1}
+\contentsline {subsection}{\numberline {1.2.1}Wayfinding}{1}
+\contentsline {subsection}{\numberline {1.2.2}Location Awareness}{2}
+\contentsline {subsection}{\numberline {1.2.3}Landmarks}{3}
+\contentsline {section}{\numberline {1.3}Background}{4}
+\contentsline {section}{\numberline {1.4}Motivation}{6}
+\contentsline {subsection}{\numberline {1.4.1}Why design a dialog-based system?}{6}
+\contentsline {subsection}{\numberline {1.4.2}Why choose to be location-unaware?}{7}
+\contentsline {section}{\numberline {1.5}Objectives of the work}{7}
+\contentsline {section}{\numberline {1.6}Roadmap}{8}
+\contentsline {chapter}{\numberline {2}Related Work}{11}
+\contentsline {section}{\numberline {2.1}Dialog Based Wayfinding Systems}{11}
+\contentsline {section}{\numberline {2.2}Evaluation Techniques}{13}
+\contentsline {chapter}{\numberline {3}Conceptual Model For Wayfinding}{15}
+\contentsline {section}{\numberline {3.1}Architecture}{15}
+\contentsline {section}{\numberline {3.2}Communication Protocol}{17}
+\contentsline {subsection}{\numberline {3.2.1}Landmarks}{19}
+\contentsline {subsection}{\numberline {3.2.2}Simple Intersections}{19}
+\contentsline {subsection}{\numberline {3.2.3}Complex Intersections}{20}
+\contentsline {chapter}{\numberline {4}Dialog-Based Localization}{23}
+\contentsline {section}{\numberline {4.1}Introduction}{23}
+\contentsline {section}{\numberline {4.2}Alternative Reference to Routemarks}{24}
+\contentsline {section}{\numberline {4.3}Extrapolating User Movements}{25}
+\contentsline {subsection}{\numberline {4.3.1}Estimating User Speed}{25}
+\contentsline {subsection}{\numberline {4.3.2}Predicting User Speed}{26}
+\contentsline {section}{\numberline {4.4}Detecting Disorientation}{27}
+\contentsline {section}{\numberline {4.5}Reorientation algorithm}{29}
+\contentsline {chapter}{\numberline {5}Implementation}{33}
+\contentsline {section}{\numberline {5.1}Knowledge Base}{33}
+\contentsline {subsection}{\numberline {5.1.1}Extracting Attribute Values}{33}
+\contentsline {subsection}{\numberline {5.1.2}Identifying associations}{36}
+\contentsline {section}{\numberline {5.2}Facilitating Reorientation}{37}
+\contentsline {subsection}{\numberline {5.2.1}Anticipative Phase}{37}
+\contentsline {subsection}{\numberline {5.2.2}Reactive Phase}{38}
+\contentsline {chapter}{\numberline {6}Evaluation}{41}
+\contentsline {section}{\numberline {6.1}Dataset}{41}
+\contentsline {section}{\numberline {6.2}Simulation Setup}{42}
+\contentsline {subsection}{\numberline {6.2.1}User Modelling}{42}
+\contentsline {subsection}{\numberline {6.2.2}Synthetic Attributes}{44}
+\contentsline {section}{\numberline {6.3}Goodness Metric}{45}
+\contentsline {section}{\numberline {6.4}Results}{45}
+\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{49}
+\contentsline {chapter}{Bibliography}{51}

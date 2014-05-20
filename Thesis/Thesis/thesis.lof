@@ -1,0 +1,18 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture for a generic wayfinding model\relax }}{16}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Ambiguity arises when the route instructions are based on standard direction models as \textit {take a left}.\relax }}{18}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Real world example of a complex intersection in Mumbai, India taken from Google Maps \cite {gmaps}.\relax }}{18}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces A decision point is simple intersection, if in each zone of the navigator's field view, there is atmost one road segment emerging from the decision point.\relax }}{20}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Clock-based convention (anti-clockwise ordering) to non-ambigously represent directions at complex intersections\relax }}{20}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces An example to showcase an application of the proposed communication protocol. The intended route is represented symbolically in text at the top of the image. One possible translation of the encoding in English can be as: 1. \textit {Go Straight} 2. \textit {You would find X on your left} 3. \textit {At the intersection, take the 4th link in anti-clockwise direction from the most adjacent turn at your right side} 4. \textit {You would find Y on your right} 5. \textit {Take the third left after Y} \relax }}{21}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \textbf {Detecting Disorientation} The highlighted route denotes the path segment communicated to the user for wayfinding. The user has strayed from the desired path segment and has been detected by the system after a positive response on querying on whether the intermediate intersection was crossed.\relax }}{29}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \textbf {Reorientation:Anticipative-Phase} Prompt the user with questions identifying landmarks \textit {U, V, W} and \textit {Z} along with the orientations w.r.t. user (left or right) to estimate location. Reorientation is achieved when the user acknowledges any of the identities put in the prompts.\relax }}{30}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces \textbf {Extracting Geometric Salience} The geometric attributes used by Brenner and Elias \cite {brenner} to extract building-based landmarks\relax }}{35}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces \textbf {\textbf {Extracting Popularity}} A scalable approach to get an estimate of the popularity of a landmark using mapping applications.\relax }}{36}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces \textbf {\textbf {Dataset}} Snapshot of a map of Indian Institute of Technology, Kanpur (IITK). The bottom portion of the snapshot depicting academic buildings (see legend) represents the landmark-dense portion of the campus, Academic area. The organized homogenous space to the top of it represents a portion of the residential areas which has no salient features.\relax }}{43}
+\addvspace {10\p@ }

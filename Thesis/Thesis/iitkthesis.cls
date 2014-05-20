@@ -34,7 +34,7 @@
 
 %=============================================================================
 % Pass the options to report class
-\DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}}
+\DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
 
 % Defaults ...
 \ProcessOptions
@@ -46,8 +46,8 @@
 % As iitkthesis class is a simple extension of report class, we simply
 % pass default options to report class.
 % =============================================================================
-\PassOptionsToClass{12pt,a4paper}{report}
-\LoadClass{report}
+\PassOptionsToClass{12pt,a4paper}{book}
+\LoadClass{book}
 
 % Advisor
 \def\@advisorname{None}
@@ -176,6 +176,8 @@
 \newcommand\@thesiscertificatebigskip{0.5in}
 \newcommand{\makecertificate}{
   \cleardoublepage
+\pagenumbering{roman}
+\setcounter{page}{2}
     \begin{center}
       {\large \bf CERTIFICATE}\\[\@thesiscertificatebigskip]
     \end{center}
@@ -214,6 +216,9 @@
 %=============================================================================
 \def\abstract{
     \cleardoublepage
+%\renewcommand{\thepage}{\roman{page}}
+	%\pagenumbering{roman}
+	%\setcounter{page}{3}
     \begin{center}
       {\large \bf ABSTRACT}\\[\@thesiscertificatebigskip]
       Name of student: \textbf{\@author}\hspace{1 cm}Roll no: \textbf{\@rollnum} \\
@@ -325,6 +330,8 @@
     \else
       \@restonecolfalse
     \fi
+   %\pagenumbering{roman}%
+\renewcommand{\thepage}{\arabic{page}}% 
     \chapter*{\listfigurename}%
     \addcontentsline{toc}{chapter}{\listfigurename}%
       \@mkboth{\MakeUppercase\listfigurename}%
@@ -338,6 +345,8 @@
     \else
       \@restonecolfalse
     \fi
+     %\pagenumbering{roman}
+\renewcommand{\thepage}{\arabic{page}}% 
     \chapter*{\listtablename}%
     \addcontentsline{toc}{chapter}{\listtablename}%
       \@mkboth{%
@@ -356,7 +365,7 @@
 % Finally set margins per the IITK format
 %=============================================================================
 
-\usepackage[top=25mm, outer=25mm, bottom=25mm, inner=35mm]{geometry}
+%\usepackage[top=25mm, outer=25mm, bottom=25mm, inner=35mm]{geometry}
 
 % Header/spacing options
 \usepackage{fancyhdr}
@@ -382,6 +391,7 @@
 \usepackage[algoruled]{algorithm2e}
 \usepackage[nottoc]{tocbibind}
 \usepackage{relsize}
+\usepackage[left=3.5cm,top=2.5cm,right=2.5cm,bottom=2.5cm]{geometry}
 %=============================================================================
 % END FILE
 %=============================================================================
