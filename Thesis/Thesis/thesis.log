@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.6)  15 MAY 2014 00:08
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.6)  20 MAY 2014 08:47
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -237,18 +237,18 @@ Package: relsize 2003/07/04 ver 3.1
 ) (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
 
 *geometry auto-detecting driver*
 *geometry detected driver: dvips*
@@ -296,7 +296,7 @@ Package caption Info: End \AtBeginDocument code.
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 89--89
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
 
  []
 
@@ -321,27 +321,27 @@ Chapter 1.
 [5
 
 ] [6]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 160.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 105.
 
  (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 160.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 105.
 
-Overfull \hbox (2.90071pt too wide) in paragraph at lines 161--162
+Overfull \hbox (2.90071pt too wide) in paragraph at lines 106--107
 []\OT1/cmr/bx/n/12 geometric \OT1/cmr/m/n/12 - for a spa-tial 2-D database, ge-
 om-e-try comes as a prim-i-tive datatype
  []
 
 [7] [8] [9]
-Overfull \hbox (3.35002pt too wide) in paragraph at lines 256--265
+Overfull \hbox (3.35002pt too wide) in paragraph at lines 201--210
 []\OT1/cmr/m/n/12 Furthermore, one ma-jor ad-van-tage of a di-a-log sys-tem is 
 that context-identification
  []
 
 
-Overfull \hbox (6.51804pt too wide) in paragraph at lines 256--265
+Overfull \hbox (6.51804pt too wide) in paragraph at lines 201--210
 \OT1/cmr/m/n/12 can be im-ple-mented by study-ing the re-sponse of the user to 
 the in-struc-tions/questions.
  []
@@ -384,17 +384,17 @@ Chapter 4.
 [26
 
 ] [27] [28] [29]
-Overfull \hbox (36.9414pt too wide) in paragraph at lines 826--826
+Overfull \hbox (36.9414pt too wide) in paragraph at lines 767--767
 [] 
  []
 
 
-Underfull \hbox (badness 10000) detected at line 865
+Underfull \hbox (badness 10000) detected at line 806
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 836--866
+Underfull \hbox (badness 10000) in paragraph at lines 777--807
 
  []
 
@@ -410,7 +410,7 @@ Chapter 5.
 ]
 File: brenner.eps Graphic file (type eps)
  <brenner.eps>
-Overfull \hbox (6.84456pt too wide) in paragraph at lines 1021--1024
+Overfull \hbox (6.84456pt too wide) in paragraph at lines 960--963
  [][] 
  []
 
@@ -420,12 +420,12 @@ File: popular.eps Graphic file (type eps)
 Chapter 6.
 File: iitkmap.eps Graphic file (type eps)
 <iitkmap.eps>
-Overfull \hbox (6.86246pt too wide) in paragraph at lines 1203--1209
+Overfull \hbox (6.86246pt too wide) in paragraph at lines 1140--1146
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 15.7201pt on input line 1211.
+LaTeX Warning: Float too large for page by 15.7201pt on input line 1148.
 
 [43
 
@@ -433,32 +433,24 @@ LaTeX Warning: Float too large for page by 15.7201pt on input line 1211.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-
-
-LaTeX Warning: Reference `fig:logn' on page 44 undefined on input line 1239.
-
-[44] [45] [46] [47] [48] [49] [50]
+ [44] [45] [46] [47] [48] [49] [50]
 Chapter 7.
 [51
 
-] (./thesis.bbl [52]
+] (./thesis.bbl [52] [53
+
+]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [53
-
-] [54] [55] [56] [57]) [58] (./thesis.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+ [54] [55] [56] [57]) [58] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
  4561 strings out of 495062
- 62573 string characters out of 1182644
- 155968 words of memory out of 3000000
+ 62572 string characters out of 1182644
+ 154993 words of memory out of 3000000
  7682 multiletter control sequences out of 15000+50000
  13331 words of font info for 47 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 43i,16n,45p,1262b,405s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,16n,45p,1259b,405s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (59 pages, 143292 bytes).
+Output written on thesis.dvi (59 pages, 143876 bytes).

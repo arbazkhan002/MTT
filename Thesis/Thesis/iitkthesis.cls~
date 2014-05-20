@@ -380,6 +380,7 @@
 \usepackage{amsmath}
 \usepackage[algoruled]{algorithm2e}
 \usepackage[nottoc]{tocbibind}
+\usepackage{relsize}
 %=============================================================================
 % END FILE
 %=============================================================================

@@ -3,43 +3,43 @@ The top-level auxiliary file: thesis.aux
 The style file: plain.bst
 Database file #1: references.bib
 Warning--entry type for "gmaps" isn't style-file defined
---line 487 of file references.bib
+--line 488 of file references.bib
 Warning--can't use both volume and number fields in leong
 Warning--can't use both volume and number fields in mclean
 You've used 42 entries,
             2118 wiz_defined-function locations,
-            749 strings with 11994 characters,
-and the built_in function-call counts, 15861 in all, are:
-= -- 1591
+            750 strings with 12027 characters,
+and the built_in function-call counts, 15775 in all, are:
+= -- 1582
 > -- 691
-< -- 21
+< -- 20
 + -- 283
 - -- 230
-* -- 1038
-:= -- 2482
+* -- 1039
+:= -- 2477
 add.period$ -- 135
 call.type$ -- 42
 change.case$ -- 236
 chr.to.int$ -- 0
 cite$ -- 44
-duplicate$ -- 656
-empty$ -- 1293
+duplicate$ -- 647
+empty$ -- 1287
 format.name$ -- 230
-if$ -- 3448
+if$ -- 3418
 int.to.chr$ -- 0
 int.to.str$ -- 42
 missing$ -- 43
 newline$ -- 211
 num.names$ -- 84
-pop$ -- 301
+pop$ -- 299
 preamble$ -- 1
 purify$ -- 199
 quote$ -- 0
-skip$ -- 488
+skip$ -- 476
 stack$ -- 0
-substring$ -- 1016
-swap$ -- 205
-text.length$ -- 21
+substring$ -- 1013
+swap$ -- 196
+text.length$ -- 20
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 160

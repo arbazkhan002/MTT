@@ -33,6 +33,12 @@ Robert Dale and Sabine Geldof.
 \newblock In {\em Journal of Research and Practice in Information Technology},
   pages 89--105, 2005.
 
+\bibitem{dalton}
+Polly Dalton, Pragya Agarwal, Nick Fraenkel, J.~Baichoo, and A.~Masry.
+\newblock Driving with navigational instructions: Investigating user behaviour
+  and performance.
+\newblock {\em Accident Analysis and Prevention}, 50:298--303, 2013.
+
 \bibitem{fongsurvey}
 Terrence Fong, Illah Nourbakhsh, and Kerstin Dautenhahn.
 \newblock A survey of socially interactive robots.
@@ -183,12 +189,6 @@ JR~McLean.
 \bibitem{gmaps}
 Map of~Mumbai.
 \newblock Google maps, https://maps.google.com/, May 2014.
-
-\bibitem{dalton}
-Dalton P, Agarwal P, Fraenkel N, Baichoo J, and Masry A.
-\newblock Driving with navigational instructions: Investigating user behaviour
-  and performance.
-\newblock {\em Accid Anal Prev.}, pages 298--303, 2013.
 
 \bibitem{pattabhiraman}
 Thiyagarajasarma Pattabhiraman and Nick Cercone.

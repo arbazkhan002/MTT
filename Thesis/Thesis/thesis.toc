@@ -39,7 +39,7 @@
 \contentsline {section}{\numberline {6.2}Simulation Setup}{44}
 \contentsline {subsection}{\numberline {6.2.1}User Modelling}{44}
 \contentsline {subsection}{\numberline {6.2.2}Synthetic Attributes}{46}
-\contentsline {section}{\numberline {6.3}Goodness Metric}{46}
+\contentsline {section}{\numberline {6.3}Goodness Metric}{47}
 \contentsline {section}{\numberline {6.4}Results}{47}
 \contentsline {chapter}{\numberline {7}Conclusion and Future Work}{51}
 \contentsline {chapter}{Bibliography}{53}

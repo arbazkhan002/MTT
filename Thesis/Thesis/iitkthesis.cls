@@ -351,6 +351,7 @@
 % and double spacing.  This is needed, for instance, in the abstract.
 %=============================================================================
 
+\newcommand{\commentHK}[1]{\textbf{HK --} \emph{#1} \textbf{-- HK}}
 %=============================================================================
 % Finally set margins per the IITK format
 %=============================================================================
